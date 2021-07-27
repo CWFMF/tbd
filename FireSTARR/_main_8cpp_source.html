@@ -456,19 +456,19 @@ $(function() {
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;      }</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == ffmc)</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;      {</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        logging::fatal(<span class="stringliteral">&quot;FFMC is required&quot;</span>);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        firestarr::logging::fatal(<span class="stringliteral">&quot;FFMC is required&quot;</span>);</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;      }</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == dmc)</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      {</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        logging::fatal(<span class="stringliteral">&quot;DMC is required&quot;</span>);</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        firestarr::logging::fatal(<span class="stringliteral">&quot;DMC is required&quot;</span>);</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      }</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == dc)</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;      {</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        logging::fatal(<span class="stringliteral">&quot;DC is required&quot;</span>);</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        firestarr::logging::fatal(<span class="stringliteral">&quot;DC is required&quot;</span>);</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;      }</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> == apcp_0800)</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;      {</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        logging::warning(<span class="stringliteral">&quot;Assuming 0 precipitation&quot;</span>);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        firestarr::logging::warning(<span class="stringliteral">&quot;Assuming 0 precipitation&quot;</span>);</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        apcp_0800 = <span class="keyword">new</span> <a class="code" href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">firestarr::wx::AccumulatedPrecipitation</a>(0);</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;      }</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> ffmc_fixed = *ffmc;</div>
