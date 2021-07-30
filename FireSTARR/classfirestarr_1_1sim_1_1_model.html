@@ -173,9 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a780a7a841d20e9de132fd7ea0dc43b8a"><td class="memItemLeft" align="right" valign="top"><a id="a780a7a841d20e9de132fd7ea0dc43b8a"></a>
 <a class="el" href="classfirestarr_1_1sim_1_1_model.html">Model</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classfirestarr_1_1sim_1_1_model.html">Model</a> &amp;rhs)=delete</td></tr>
 <tr class="separator:a780a7a841d20e9de132fd7ea0dc43b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7703da59bbe6ccc6a952a20dac646954"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1sim_1_1_model.html#a7703da59bbe6ccc6a952a20dac646954">readWeather</a> (const <a class="el" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">fuel::FuelLookup</a> &amp;fuel_lookup, const string &amp;filename, bool for_actuals, const <a class="el" href="classfirestarr_1_1wx_1_1_fwi_weather.html">wx::FwiWeather</a> &amp;yesterday)</td></tr>
-<tr class="memdesc:a7703da59bbe6ccc6a952a20dac646954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read weather used for Scenarios.  <a href="classfirestarr_1_1sim_1_1_model.html#a7703da59bbe6ccc6a952a20dac646954">More...</a><br /></td></tr>
-<tr class="separator:a7703da59bbe6ccc6a952a20dac646954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc76ae427ef30745a022b23628560b30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30">readWeather</a> (const <a class="el" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">fuel::FuelLookup</a> &amp;fuel_lookup, const string &amp;filename, bool for_actuals, const <a class="el" href="classfirestarr_1_1wx_1_1_fwi_weather.html">wx::FwiWeather</a> &amp;yesterday, const double latitude)</td></tr>
+<tr class="memdesc:acc76ae427ef30745a022b23628560b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read weather used for Scenarios.  <a href="classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30">More...</a><br /></td></tr>
+<tr class="separator:acc76ae427ef30745a022b23628560b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa426303dd9471bfc0f772042b64d7ed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9">makeStarts</a> (Coordinates coordinates, const <a class="el" href="classfirestarr_1_1topo_1_1_point.html">topo::Point</a> &amp;point, const <a class="el" href="classfirestarr_1_1wx_1_1_fwi_weather.html">wx::FwiWeather</a> &amp;yesterday, const string &amp;perim, size_t size)</td></tr>
 <tr class="memdesc:aa426303dd9471bfc0f772042b64d7ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make starts based on desired point and where nearest combustible cells are.  <a href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9">More...</a><br /></td></tr>
 <tr class="separator:aa426303dd9471bfc0f772042b64d7ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -660,7 +660,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00216">216</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00253">253</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -752,7 +752,7 @@ Here is the call graph for this function:</div>
 <p>Whether or not simulation has been running longer than maximum duration. </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not simulation has been running longer than maximum duration </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00360">360</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00397">397</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -837,7 +837,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classfirestarr_1_1sim_1_1_probability_map.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category.">ProbabilityMap</a> with the same extent as this </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00364">364</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00401">401</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -906,7 +906,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00245">245</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00282">282</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1089,7 +1089,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classfirestarr_1_1sim_1_1_iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a> containing initialized Scenarios </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00301">301</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00338">338</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1114,8 +1114,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a7703da59bbe6ccc6a952a20dac646954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7703da59bbe6ccc6a952a20dac646954">&#9670;&nbsp;</a></span>readWeather()</h2>
+<a id="acc76ae427ef30745a022b23628560b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc76ae427ef30745a022b23628560b30">&#9670;&nbsp;</a></span>readWeather()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1142,7 +1142,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classfirestarr_1_1wx_1_1_fwi_weather.html">wx::FwiWeather</a> &amp;&#160;</td>
-          <td class="paramname"><em>yesterday</em>&#160;</td>
+          <td class="paramname"><em>yesterday</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>latitude</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1159,6 +1165,7 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">filename</td><td>Weather file to read </td></tr>
     <tr><td class="paramname">for_actuals</td><td>Whether or not this is for actual observed weather </td></tr>
     <tr><td class="paramname">yesterday</td><td>FwiWeather for yesterday </td></tr>
+    <tr><td class="paramname">latitude</td><td>to use for calculating DC &amp; DMC </td></tr>
   </table>
   </dd>
 </dl>
@@ -1167,17 +1174,21 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_cgraph.png" border="0" usemap="#aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_cgraph" alt=""/></div>
-<map name="aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_cgraph" id="aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_cgraph">
-<area shape="rect" title="Read weather used for Scenarios." alt="" coords="5,5,139,47"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="187,5,353,47"/>
+<div class="center"><img src="classfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_cgraph.png" border="0" usemap="#aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_cgraph" alt=""/></div>
+<map name="aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_cgraph" id="aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_cgraph">
+<area shape="rect" title="Read weather used for Scenarios." alt="" coords="5,115,139,156"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="213,5,354,47"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="192,71,375,98"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="187,122,380,149"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="202,173,365,215"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="200,239,367,280"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_icgraph.png" border="0" usemap="#aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_icgraph" alt=""/></div>
-<map name="aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_icgraph" id="aclassfirestarr_1_1sim_1_1_model_a7703da59bbe6ccc6a952a20dac646954_icgraph">
+<div class="center"><img src="classfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_icgraph.png" border="0" usemap="#aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_icgraph" alt=""/></div>
+<map name="aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_icgraph" id="aclassfirestarr_1_1sim_1_1_model_acc76ae427ef30745a022b23628560b30_icgraph">
 <area shape="rect" title="Read weather used for Scenarios." alt="" coords="187,5,320,47"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,139,47"/>
 </map>
@@ -1334,7 +1345,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Map of times to <a class="el" href="classfirestarr_1_1sim_1_1_probability_map.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category.">ProbabilityMap</a> for that time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00477">477</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00514">514</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1511,62 +1522,62 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00619">619</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8cpp_source.html#l00656">656</a> of file <a class="el" href="_model_8cpp_source.html">Model.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classfirestarr_1_1sim_1_1_model_a198b3a0ff8f350f80b61142c2cde3d5f_cgraph.png" border="0" usemap="#aclassfirestarr_1_1sim_1_1_model_a198b3a0ff8f350f80b61142c2cde3d5f_cgraph" alt=""/></div>
 <map name="aclassfirestarr_1_1sim_1_1_model_a198b3a0ff8f350f80b61142c2cde3d5f_cgraph" id="aclassfirestarr_1_1sim_1_1_model_a198b3a0ff8f350f80b61142c2cde3d5f_cgraph">
-<area shape="rect" title="Run Scenarios initialized from given inputs." alt="" coords="5,449,139,491"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4" title="Number of Scenarios that have completed running." alt="" coords="199,104,349,145"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="187,169,361,211"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="440,1895,573,1936"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a7703da59bbe6ccc6a952a20dac646954" title="Read weather used for Scenarios." alt="" coords="207,1589,341,1631"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="207,449,341,491"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="419,5,594,47"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="441,136,573,177"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="419,71,594,112"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="441,201,573,243"/>
+<area shape="rect" title="Run Scenarios initialized from given inputs." alt="" coords="5,583,139,624"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4" title="Number of Scenarios that have completed running." alt="" coords="199,368,349,409"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="441,465,573,507"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="187,433,361,475"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="440,1699,573,1740"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="207,1848,341,1889"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="207,667,341,708"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="419,155,594,196"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="419,220,594,261"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="441,400,573,441"/>
 <area shape="rect" href="classfirestarr_1_1topo_1_1_environment_info.html#a1c784db204074f8877a85b855e38ae30" title="Construct from given rasters." alt="" coords="684,5,859,47"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="698,71,845,112"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="967,456,1133,497"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="983,1865,1117,1907"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="684,2041,859,2083"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="705,1924,838,1965"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="974,1983,1126,2024"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1209,1895,1384,1936"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="423,1960,590,2001"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="409,449,604,491"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="433,319,580,360"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="429,515,584,556"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="413,384,600,425"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="698,775,845,816"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="440,709,573,751"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="420,1305,593,1331"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="416,637,597,679"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="652,383,891,439"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="664,188,879,229"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="677,565,866,621"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="656,253,887,309"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="939,775,1161,816"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="697,905,846,947"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="697,1676,846,1717"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="697,971,846,1012"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="697,1807,846,1848"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="697,1036,846,1077"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="697,1101,846,1143"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="705,1167,838,1208"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="697,1232,846,1273"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="706,1297,837,1339"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="706,1363,837,1404"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="706,1741,837,1783"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="706,1428,837,1469"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="697,1493,846,1535"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="697,1559,846,1600"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a8a4130a712e3836120bacf3bfca11ca3" title="Whether or not this Scenario has run already." alt="" coords="685,1625,858,1651"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#ae7d06cd240c9a2a3fc2d9d54ae224544" title="Weighted Danger Severity Rating." alt="" coords="697,840,846,881"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="985,1709,1115,1751"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a60010cdbeb90d1853ad3a369b99eed2c" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="658,695,885,751"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="698,136,845,177"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="967,1240,1133,1281"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="983,1669,1117,1711"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="684,1845,859,1887"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="705,1728,838,1769"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="974,1787,1126,1828"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1209,1699,1384,1740"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="436,1947,577,1988"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="415,2013,598,2039"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="410,1765,603,1791"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="425,1816,588,1857"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="423,1881,590,1923"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="409,1109,604,1151"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="433,1240,580,1281"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="429,1408,584,1449"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="413,1539,600,1580"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="698,71,845,112"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="440,583,573,624"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="420,699,593,726"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings.html#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="416,1324,597,1365"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="652,1167,891,1223"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="664,1299,879,1340"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="677,1466,866,1522"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="656,1597,887,1653"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_settings_implementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="939,71,1161,112"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="697,397,846,439"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="697,463,846,504"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="697,528,846,569"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="697,1051,846,1092"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="697,593,846,635"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="697,659,846,700"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="705,724,838,765"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="697,789,846,831"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="706,855,837,896"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="706,920,837,961"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="706,985,837,1027"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="706,201,837,243"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="697,267,846,308"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1_scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="697,332,846,373"/>
 </map>
 </div>
 

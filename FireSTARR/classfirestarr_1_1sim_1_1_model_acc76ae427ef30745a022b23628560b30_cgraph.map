@@ -1,0 +1,8 @@
+<map id="firestarr::sim::Model::readWeather" name="firestarr::sim::Model::readWeather">
+<area shape="rect" id="node1" title="Read weather used for Scenarios." alt="" coords="5,115,139,156"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="213,5,354,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="192,71,375,98"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="187,122,380,149"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="202,173,365,215"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="200,239,367,280"/>
+</map>

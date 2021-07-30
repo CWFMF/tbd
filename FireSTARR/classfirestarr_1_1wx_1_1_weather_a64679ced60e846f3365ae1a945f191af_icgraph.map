@@ -1,5 +1,5 @@
-<map id="firestarr::fuel::FuelLookup::usedFuels" name="firestarr::fuel::FuelLookup::usedFuels">
-<area shape="rect" id="node1" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="368,5,535,47"/>
+<map id="firestarr::wx::Weather::apcp" name="firestarr::wx::Weather::apcp">
+<area shape="rect" id="node1" title="Accumulated Precipitation (mm)" alt="" coords="368,5,509,47"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="187,5,320,47"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,139,47"/>
 </map>
