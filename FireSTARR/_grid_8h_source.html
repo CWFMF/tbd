@@ -337,7 +337,7 @@ $(function() {
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;[[nodiscard]] R with_tiff(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filename, <span class="keyword">function</span>&lt;R(TIFF*, GTIF*)&gt; fct)</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;{</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;  logging::info(<span class="stringliteral">&quot;Reading file %s&quot;</span>, filename.c_str());</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;  logging::debug(<span class="stringliteral">&quot;Reading file %s&quot;</span>, filename.c_str());</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <span class="comment">// suppress warnings about geotiff tags that aren&#39;t found</span></div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  TIFFSetWarningHandler(<span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;  <span class="keyword">auto</span> tif = XTIFFOpen(filename.c_str(), <span class="stringliteral">&quot;r&quot;</span>);</div>

@@ -100,14 +100,14 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> read_directory(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; name, vector&lt;string&gt;* v, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; match)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">string</span> full_match = <span class="stringliteral">&quot;.*/&quot;</span> + match;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  logging::info((<span class="stringliteral">&quot;Matching &#39;&quot;</span> + full_match + <span class="stringliteral">&quot;&#39;&quot;</span>).c_str());</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  logging::debug((<span class="stringliteral">&quot;Matching &#39;&quot;</span> + full_match + <span class="stringliteral">&quot;&#39;&quot;</span>).c_str());</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::regex re(full_match, std::regex_constants::icase);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;entry : fs::directory_iterator(name))</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    logging::debug((<span class="stringliteral">&quot;Checking if file: &quot;</span> + entry.path().string()).c_str());</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keywordflow">if</span> (fs::is_regular_file(entry))</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      logging::info((<span class="stringliteral">&quot;Checking regex match: &quot;</span> + entry.path().string()).c_str());</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      logging::verbose((<span class="stringliteral">&quot;Checking regex match: &quot;</span> + entry.path().string()).c_str());</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keywordflow">if</span> (std::regex_match(entry.path().string(), re))</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        v-&gt;push_back(entry.path());</div>
