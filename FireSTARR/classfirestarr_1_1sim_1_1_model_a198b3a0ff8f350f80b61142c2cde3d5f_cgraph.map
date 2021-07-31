@@ -1,52 +1,52 @@
 <map id="firestarr::sim::Model::runScenarios" name="firestarr::sim::Model::runScenarios">
-<area shape="rect" id="node1" title="Run Scenarios initialized from given inputs." alt="" coords="5,583,139,624"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4" title="Number of Scenarios that have completed running." alt="" coords="199,368,349,409"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="441,465,573,507"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="187,433,361,475"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="440,1699,573,1740"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="207,1848,341,1889"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="207,667,341,708"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1_environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="419,155,594,196"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="419,220,594,261"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="441,400,573,441"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1_environment_info.html#a1c784db204074f8877a85b855e38ae30" title="Construct from given rasters." alt="" coords="684,5,859,47"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1_settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="698,136,845,177"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="967,1240,1133,1281"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="983,1669,1117,1711"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1_environment.html#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="684,1845,859,1887"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1_model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="705,1728,838,1769"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="974,1787,1126,1828"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1209,1699,1384,1740"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1wx_1_1_weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="436,1947,577,1988"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="415,2013,598,2039"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="410,1765,603,1791"/>
-<area shape="rect" id="node21" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="425,1816,588,1857"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="423,1881,590,1923"/>
-<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1_settings.html#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="409,1109,604,1151"/>
-<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1_settings.html#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="433,1240,580,1281"/>
-<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1_settings.html#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="429,1408,584,1449"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1sim_1_1_settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="413,1539,600,1580"/>
-<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1_settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="698,71,845,112"/>
-<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1_model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="440,583,573,624"/>
-<area shape="rect" id="node35" href="$classfirestarr_1_1sim_1_1_scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="420,699,593,726"/>
-<area shape="rect" id="node50" href="$classfirestarr_1_1sim_1_1_settings.html#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="416,1324,597,1365"/>
-<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="652,1167,891,1223"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="664,1299,879,1340"/>
-<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="677,1466,866,1522"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="656,1597,887,1653"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="939,71,1161,112"/>
-<area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="697,397,846,439"/>
-<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1_scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="697,463,846,504"/>
-<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1_scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="697,528,846,569"/>
-<area shape="rect" id="node39" href="$classfirestarr_1_1sim_1_1_scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="697,1051,846,1092"/>
-<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1_scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="697,593,846,635"/>
-<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1_scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="697,659,846,700"/>
-<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1_model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="705,724,838,765"/>
-<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1_scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="697,789,846,831"/>
-<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="706,855,837,896"/>
-<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1_event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="706,920,837,961"/>
-<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1_event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="706,985,837,1027"/>
-<area shape="rect" id="node47" href="$classfirestarr_1_1sim_1_1_event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="706,201,837,243"/>
-<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="697,267,846,308"/>
-<area shape="rect" id="node49" href="$classfirestarr_1_1sim_1_1_scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="697,332,846,373"/>
+<area shape="rect" id="node1" title="Run Scenarios initialized from given inputs." alt="" coords="5,449,139,491"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4" title="Number of Scenarios that have completed running." alt="" coords="199,104,349,145"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="445,136,577,177"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="187,169,361,211"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="444,1627,577,1668"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1_settings.html#a340f69382e8b8cde4fa1dc0e9981ac5e" title="Whatever the maximum value in the date offsets is." alt="" coords="201,1477,347,1519"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="207,1789,341,1831"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="207,449,341,491"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1_environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="423,71,598,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="423,5,598,47"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="445,201,577,243"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1_environment_info.html#a1c784db204074f8877a85b855e38ae30" title="Construct from given rasters." alt="" coords="692,5,867,47"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1_settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="706,188,853,229"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="975,456,1141,497"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="991,1656,1125,1697"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1_environment.html#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="692,1597,867,1639"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1_model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="713,1715,846,1756"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="982,1773,1134,1815"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1217,1685,1392,1727"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#ab547350aa93eb2d6d8cf650ad3361b5e" title="Whatever the maximum value in the date offsets is." alt="" coords="409,1477,612,1519"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1wx_1_1_weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="440,1823,581,1864"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="419,1889,602,1915"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="414,1939,607,1966"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="429,1692,592,1733"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="427,1757,594,1799"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1_settings.html#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="413,1408,608,1449"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1_settings.html#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="437,267,584,308"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1sim_1_1_settings.html#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="433,384,588,425"/>
+<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1_settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="417,449,604,491"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1_settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="706,515,853,556"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1_model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="444,515,577,556"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1_scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="424,914,597,941"/>
+<area shape="rect" id="node50" href="$classfirestarr_1_1sim_1_1_settings.html#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="420,1153,601,1195"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="660,1466,899,1522"/>
+<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="672,71,887,112"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="685,253,874,309"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="664,383,895,439"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="947,521,1169,563"/>
+<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="705,841,854,883"/>
+<area shape="rect" id="node39" href="$classfirestarr_1_1sim_1_1_scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="705,907,854,948"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1_scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="705,972,854,1013"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1_scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="705,1233,854,1275"/>
+<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1_scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="705,1037,854,1079"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1_scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="705,1103,854,1144"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1_model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="713,1168,846,1209"/>
+<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1_scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="705,1299,854,1340"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="714,580,845,621"/>
+<area shape="rect" id="node47" href="$classfirestarr_1_1sim_1_1_event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="714,645,845,687"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1_event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="714,711,845,752"/>
+<area shape="rect" id="node49" href="$classfirestarr_1_1sim_1_1_event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="714,776,845,817"/>
 </map>
