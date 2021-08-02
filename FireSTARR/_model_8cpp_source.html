@@ -767,41 +767,45 @@ $(function() {
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;  model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#acc76ae427ef30745a022b23628560b30">readWeather</a>(lookup, weather_input, for_actuals, yesterday, start_point.<a class="code" href="classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8">latitude</a>());</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;  <span class="keyword">auto</span> kv = std::views::keys(model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#ad3f637f3952f972c24e1b40f16364890">wx_</a>);</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;  std::vector&lt;int&gt; keys{ kv.begin(), kv.end() };</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> w = model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#ad3f637f3952f972c24e1b40f16364890">wx_</a>[keys[0]];</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;  logging::debug(<span class="stringliteral">&quot;Have weather from day %d to %d&quot;</span>, w-&gt;minDate(), w-&gt;maxDate());</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> numDays = (w-&gt;maxDate() - w-&gt;minDate() + 1);</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> needDays = <a class="code" href="classfirestarr_1_1sim_1_1_settings.html#a340f69382e8b8cde4fa1dc0e9981ac5e">Settings::maxDateOffset</a>();</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <span class="keywordflow">if</span> (numDays &lt; needDays)</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  {</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    logging::fatal(<span class="stringliteral">&quot;Not enough weather to proceed - have %d days but looking for %d&quot;</span>, numDays, needDays);</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  }</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    / DAY_HOURS);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  <span class="comment">// HACK: round to 2 digits so we can keep test output the same</span></div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span>Day<span class="keyword">&gt;</span>(start);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914">runIterations</a>(start_point, start, start_day, save_intensity, for_actuals);</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  logging::note(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4">Scenario::completed</a>());</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  show_probabilities(probabilities);</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;  {</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    final_time = max(final_time, time);</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    prob-&gt;saveAll(model, start_time, for_actuals, time, start_day);</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  }</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;  {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;  <span class="keywordflow">if</span> (0 == keys.size())</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;  {</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    logging::fatal(<span class="stringliteral">&quot;No weather provided&quot;</span>);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;  }</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> w = model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#ad3f637f3952f972c24e1b40f16364890">wx_</a>[keys[0]];</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  logging::debug(<span class="stringliteral">&quot;Have weather from day %d to %d&quot;</span>, w-&gt;minDate(), w-&gt;maxDate());</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> numDays = (w-&gt;maxDate() - w-&gt;minDate() + 1);</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> needDays = <a class="code" href="classfirestarr_1_1sim_1_1_settings.html#a340f69382e8b8cde4fa1dc0e9981ac5e">Settings::maxDateOffset</a>();</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  <span class="keywordflow">if</span> (numDays &lt; needDays)</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;  {</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    logging::fatal(<span class="stringliteral">&quot;Not enough weather to proceed - have %d days but looking for %d&quot;</span>, numDays, needDays);</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  }</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;  model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#aa426303dd9471bfc0f772042b64d7ed9">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    / DAY_HOURS);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  <span class="comment">// HACK: round to 2 digits so we can keep test output the same</span></div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span>Day<span class="keyword">&gt;</span>(start);</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    model.<a class="code" href="classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914">runIterations</a>(start_point, start, start_day, save_intensity, for_actuals);</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;  logging::note(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a1f8476498c53de1e598e4abe00908bc4">Scenario::completed</a>());</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  show_probabilities(probabilities);</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;  {</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    final_time = max(final_time, time);</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    prob-&gt;saveAll(model, start_time, for_actuals, time, start_day);</div>
 <div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  }</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;}</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;}</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;}</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  {</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  }</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;}</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;}</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;}</div>
 <div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">firestarr::fuel::FuelLookup</a></div><div class="ttdoc">Provides ability to look up a fuel type based on name or code.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8h_source.html#l00034">FuelLookup.h:35</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html_a9a29abd1545c76bca5ae10c24fc21392"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a9a29abd1545c76bca5ae10c24fc21392">firestarr::fuel::FuelLookup::usedFuels</a></div><div class="ttdeci">set&lt; const FuelType * &gt; usedFuels() const</div><div class="ttdoc">Retrieve set of FuelTypes that are used in the lookup table.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8cpp_source.html#l00578">FuelLookup.cpp:578</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1sim_1_1_arrival_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_arrival_observer.html">firestarr::sim::ArrivalObserver</a></div><div class="ttdoc">Tracks when fire initially arrives in a Cell.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00133">Observer.h:135</a></div></div>

@@ -164,10 +164,10 @@ $(function() {
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;date_offset = 0</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;start_date = datetime.date.today()</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment"># start_date = start_time.date()</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment"># if start_date != datetime.date.today():</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment"># date_offset = (start_date - datetime.date.today()).days</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment"># logging.warning(&quot;Simulation does not start today - date offset set to {}&quot;.format(date_offset))</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;start_date = start_time.date()</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keywordflow">if</span> start_date != datetime.date.today():</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    date_offset = (start_date - datetime.date.today()).days</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    logging.warning(<span class="stringliteral">&quot;Simulation does not start today - date offset set to {}&quot;</span>.format(date_offset))</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;url = <span class="stringliteral">r&quot;http://wxshield:80/wxshield/getWx.php?model=geps&amp;lat={}&amp;long={}&amp;dateOffset={}&amp;tz={}&amp;mode=daily&quot;</span>.format(lat, long, date_offset, tz)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;logging.debug(url)</div>
