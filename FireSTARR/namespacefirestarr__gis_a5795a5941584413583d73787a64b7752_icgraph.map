@@ -1,0 +1,5 @@
+<map id="firestarr_gis.find_raster_meridians" name="firestarr_gis.find_raster_meridians">
+<area shape="rect" id="node1" title="Find the meridians of input rasters for the given year." alt="" coords="355,5,480,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr__gis.html#acf598aa5acbc2b849c100448bcf04f68" title="Find the raster with the closest meridian." alt="" coords="195,5,307,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr__gis.html#a3830fbe88c36fa64b1bed8fcee80ad73" title="Convert a perimeter to a raster." alt="" coords="5,5,147,47"/>
+</map>

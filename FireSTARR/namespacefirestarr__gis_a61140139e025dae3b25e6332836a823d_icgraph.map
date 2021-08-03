@@ -1,0 +1,5 @@
+<map id="firestarr_gis.Delete" name="firestarr_gis.Delete">
+<area shape="rect" id="node1" title="Delete the given shapefile." alt="" coords="376,31,505,57"/>
+<area shape="rect" id="node2" href="$namespacefirestarr__gis.html#a1f002dd2296988f9ba5c7baf8341077a" title="Project to given spatial reference." alt="" coords="195,5,328,32"/>
+<area shape="rect" id="node3" href="$namespacefirestarr__gis.html#a3830fbe88c36fa64b1bed8fcee80ad73" title="Convert a perimeter to a raster." alt="" coords="5,23,147,65"/>
+</map>

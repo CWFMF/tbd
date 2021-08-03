@@ -1,0 +1,4 @@
+<map id="firestarr_gis.GetCellSize" name="firestarr_gis.GetCellSize">
+<area shape="rect" id="node1" title="Determine cell size for a raster and ensure pixels are square." alt="" coords="195,13,355,39"/>
+<area shape="rect" id="node2" href="$namespacefirestarr__gis.html#a3830fbe88c36fa64b1bed8fcee80ad73" title="Convert a perimeter to a raster." alt="" coords="5,5,147,47"/>
+</map>

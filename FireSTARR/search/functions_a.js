@@ -1,11 +1,4 @@
 var searchData=
 [
-  ['latitude_1059',['latitude',['../classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8',1,'firestarr::topo::Point']]],
-  ['lengthtobreadth_1060',['lengthToBreadth',['../classfirestarr_1_1fuel_1_1_fuel_grass.html#a140e9867f764bef1a5b130ca8a60a973',1,'firestarr::fuel::FuelGrass::lengthToBreadth()'],['../classfirestarr_1_1fuel_1_1_fuel_variable.html#a5aedea9453a2f17107b5787b05cdb9c5',1,'firestarr::fuel::FuelVariable::lengthToBreadth()'],['../classfirestarr_1_1fuel_1_1_fuel_type.html#a774cb8f1bfbf4cd87154b6a290d17274',1,'firestarr::fuel::FuelType::lengthToBreadth()'],['../classfirestarr_1_1fuel_1_1_invalid_fuel.html#a3c9e986fcbb5bb7735cd0d363fe0c82b',1,'firestarr::fuel::InvalidFuel::lengthToBreadth()'],['../classfirestarr_1_1fuel_1_1_standard_fuel.html#a728a6f95c9da861ad8cdd16c2041eb72',1,'firestarr::fuel::StandardFuel::lengthToBreadth(const double ws) const noexcept override']]],
-  ['limitisf_1061',['limitIsf',['../classfirestarr_1_1fuel_1_1_standard_fuel.html#a15ff42656b872ab4c97bb64119687ad1',1,'firestarr::fuel::StandardFuel']]],
-  ['load_1062',['load',['../classfirestarr_1_1topo_1_1_environment.html#a64d04afa288baf7ae92c1b697807e778',1,'firestarr::topo::Environment::load()'],['../classfirestarr_1_1topo_1_1_environment_info.html#ae89d109beb612d8e2cddcb79fc619a25',1,'firestarr::topo::EnvironmentInfo::load()']]],
-  ['loadenvironment_1063',['loadEnvironment',['../classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855',1,'firestarr::topo::Environment']]],
-  ['loadinfo_1064',['loadInfo',['../classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9',1,'firestarr::topo::EnvironmentInfo']]],
-  ['location_1065',['Location',['../classfirestarr_1_1topo_1_1_location.html#a8f1bcd8c5f8d9210e8b24c613cbbab93',1,'firestarr::topo::Location::Location(const HashSize hash) noexcept'],['../classfirestarr_1_1topo_1_1_location.html#a4470e42b785d7c349e69e99fc899bd69',1,'firestarr::topo::Location::Location(const Idx row, const Idx column) noexcept'],['../classfirestarr_1_1topo_1_1_location.html#a4aa6b5f674927eb612cb246b718188e5',1,'firestarr::topo::Location::Location(const Topo &amp;topo) noexcept']]],
-  ['longitude_1066',['longitude',['../classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c',1,'firestarr::topo::Point']]]
+  ['key_1092',['key',['../classfirestarr_1_1topo_1_1_cell.html#ae0d60dc2d64318f84eb5d2c5f28e8ee5',1,'firestarr::topo::Cell']]]
 ];
