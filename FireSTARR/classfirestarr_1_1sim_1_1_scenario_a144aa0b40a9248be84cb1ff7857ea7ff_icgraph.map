@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Scenario::spreadThresholdByRos" name="firestarr::sim::Scenario::spreadThresholdByRos">
+<area shape="rect" id="node1" title="Get spread threshold for given time." alt="" coords="215,5,377,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_spread_info.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
+</map>

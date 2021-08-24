@@ -1,0 +1,4 @@
+<map id="firestarr::wx::Startup::ffmc" name="firestarr::wx::Startup::ffmc">
+<area shape="rect" id="node1" title="Fine Fuel Moisture Code." alt="" coords="209,5,344,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_fwi_stream.html#ae7a18c1609e42e25032b15a09c355720" title="Calculate based on weather and dates using startup/shutdown criteria." alt="" coords="5,5,161,47"/>
+</map>
