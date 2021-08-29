@@ -122,49 +122,52 @@ $(function() {
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    common.unzip(z, cur_dir)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    fgmj = os.path.join(cur_dir, <span class="stringliteral">&#39;job.fgmj&#39;</span>)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> os.path.exists(fgmj):</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        t0 = timeit.default_timer()</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        log_name = <a class="code" href="firestarr_8py.html#ab05e9efc98d66338840327d32b403d69">firestarr.do_run</a>(fgmj)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        t1 = timeit.default_timer()</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> log_name <span class="keywordflow">is</span> <span class="keywordflow">not</span> <span class="keywordtype">None</span>:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            simtimes[f] = t1 - t0</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            totaltime = totaltime + simtimes[f]</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            logging.info(<span class="stringliteral">&quot;Took {}s to run {}&quot;</span>.format(simtimes[f], f))</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">import</span> gdal_retile <span class="keyword">as</span> gr</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">import</span> gdal_calc</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">import</span> gdal</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">def </span>merge_dir(dir_input):</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment"># HACK: for some reason output tiles were both being called &#39;probability&#39;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">import</span> importlib</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    importlib.reload(gr)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    TILE_SIZE = str(1024)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    file_tmp = dir_input + <span class="stringliteral">&#39;_tmp.tif&#39;</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    file_out = dir_input + <span class="stringliteral">&#39;.tif&#39;</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    file_int = dir_input + <span class="stringliteral">&#39;_int.tif&#39;</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    co = list(itertools.chain.from_iterable(map(<span class="keyword">lambda</span> x: [<span class="stringliteral">&#39;-co&#39;</span>, x], CREATION_OPTIONS)))</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    files = [os.path.join(dir_input, x) <span class="keywordflow">for</span> x <span class="keywordflow">in</span> sorted(os.listdir(dir_input)) <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;.tif&#39;</span>)]</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    gm.main([<span class="stringliteral">&#39;&#39;</span>, <span class="stringliteral">&#39;-n&#39;</span>, <span class="stringliteral">&#39;0&#39;</span>, <span class="stringliteral">&#39;-a_nodata&#39;</span>, <span class="stringliteral">&#39;0&#39;</span>] + co + [<span class="stringliteral">&#39;-o&#39;</span>, file_tmp] + files)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">#gm.main([&#39;&#39;, &#39;-n&#39;, &#39;0&#39;, &#39;-a_nodata&#39;, &#39;0&#39;, &#39;-co&#39;, &#39;COMPRESS=DEFLATE&#39;, &#39;-co&#39;, &#39;ZLEVEL=9&#39;, &#39;-co&#39;, &#39;TILED=YES&#39;, &#39;-o&#39;, file_tmp] + files)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    shutil.move(file_tmp, file_out)</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    gdal_calc.Calc(A=file_out, outfile=file_tmp, calc=<span class="stringliteral">&#39;A*100&#39;</span>, NoDataValue=0, type=<span class="stringliteral">&#39;Byte&#39;</span>, creation_options=CREATION_OPTIONS)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    shutil.move(file_tmp, file_int)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    dir_tile = os.path.join(dir_input, <span class="stringliteral">&#39;tiled&#39;</span>)</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span> os.path.exists(dir_tile):</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        print(<span class="stringliteral">&#39;Removing {}&#39;</span>.format(dir_tile))</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        shutil.rmtree(dir_tile)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">import</span> subprocess</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    file_cr = dir_input + <span class="stringliteral">&#39;_cr.tif&#39;</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    subprocess.call(<span class="stringliteral">&#39;gdaldem color-relief {} /FireGUARD/FireSTARR/col.txt {} -alpha -co COMPRESS=LZW -co TILED=YES&#39;</span>.format(file_int, file_cr), shell=<span class="keyword">True</span>)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    dir_tile = common.ensure_dir(dir_tile)</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    subprocess.call(<span class="stringliteral">&#39;/usr/local/bin/gdal2tiles.py -a 0 -z 5-12 {} {}&#39;</span>.format(file_cr, dir_tile))</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;n = len(simtimes)</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordflow">if</span> n &gt; 0:</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    logging.info(<span class="stringliteral">&quot;Total of {} fires took {}s - average time is {}s&quot;</span>.format(n, totaltime, totaltime / n))</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    merge_dir(<span class="stringliteral">&#39;/FireGUARD/data/output/probability&#39;</span>)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    merge_dir(<span class="stringliteral">&#39;/FireGUARD/data/output/perimeter&#39;</span>)</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">try</span>:</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            t0 = timeit.default_timer()</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            log_name = <a class="code" href="firestarr_8py.html#ab05e9efc98d66338840327d32b403d69">firestarr.do_run</a>(fgmj)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            t1 = timeit.default_timer()</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">if</span> log_name <span class="keywordflow">is</span> <span class="keywordflow">not</span> <span class="keywordtype">None</span>:</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                simtimes[f] = t1 - t0</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                totaltime = totaltime + simtimes[f]</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                logging.info(<span class="stringliteral">&quot;Took {}s to run {}&quot;</span>.format(simtimes[f], f))</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">except</span> Exception <span class="keyword">as</span> e:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            logging.error(e)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">import</span> gdal_retile <span class="keyword">as</span> gr</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">import</span> gdal_calc</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">import</span> gdal</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">def </span>merge_dir(dir_input):</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment"># HACK: for some reason output tiles were both being called &#39;probability&#39;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">import</span> importlib</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    importlib.reload(gr)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    TILE_SIZE = str(1024)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    file_tmp = dir_input + <span class="stringliteral">&#39;_tmp.tif&#39;</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    file_out = dir_input + <span class="stringliteral">&#39;.tif&#39;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    file_int = dir_input + <span class="stringliteral">&#39;_int.tif&#39;</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    co = list(itertools.chain.from_iterable(map(<span class="keyword">lambda</span> x: [<span class="stringliteral">&#39;-co&#39;</span>, x], CREATION_OPTIONS)))</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    files = [os.path.join(dir_input, x) <span class="keywordflow">for</span> x <span class="keywordflow">in</span> sorted(os.listdir(dir_input)) <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;.tif&#39;</span>)]</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    gm.main([<span class="stringliteral">&#39;&#39;</span>, <span class="stringliteral">&#39;-n&#39;</span>, <span class="stringliteral">&#39;0&#39;</span>, <span class="stringliteral">&#39;-a_nodata&#39;</span>, <span class="stringliteral">&#39;0&#39;</span>] + co + [<span class="stringliteral">&#39;-o&#39;</span>, file_tmp] + files)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">#gm.main([&#39;&#39;, &#39;-n&#39;, &#39;0&#39;, &#39;-a_nodata&#39;, &#39;0&#39;, &#39;-co&#39;, &#39;COMPRESS=DEFLATE&#39;, &#39;-co&#39;, &#39;ZLEVEL=9&#39;, &#39;-co&#39;, &#39;TILED=YES&#39;, &#39;-o&#39;, file_tmp] + files)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    shutil.move(file_tmp, file_out)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    gdal_calc.Calc(A=file_out, outfile=file_tmp, calc=<span class="stringliteral">&#39;A*100&#39;</span>, NoDataValue=0, type=<span class="stringliteral">&#39;Byte&#39;</span>, creation_options=CREATION_OPTIONS)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    shutil.move(file_tmp, file_int)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    dir_tile = os.path.join(dir_input, <span class="stringliteral">&#39;tiled&#39;</span>)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> os.path.exists(dir_tile):</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        print(<span class="stringliteral">&#39;Removing {}&#39;</span>.format(dir_tile))</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        shutil.rmtree(dir_tile)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">import</span> subprocess</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    file_cr = dir_input + <span class="stringliteral">&#39;_cr.tif&#39;</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    subprocess.call(<span class="stringliteral">&#39;gdaldem color-relief {} /FireGUARD/FireSTARR/col.txt {} -alpha -co COMPRESS=LZW -co TILED=YES&#39;</span>.format(file_int, file_cr), shell=<span class="keyword">True</span>)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    dir_tile = common.ensure_dir(dir_tile)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    subprocess.call(<span class="stringliteral">&#39;/usr/local/bin/gdal2tiles.py -a 0 -z 5-12 {} {}&#39;</span>.format(file_cr, dir_tile))</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;n = len(simtimes)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordflow">if</span> n &gt; 0:</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    logging.info(<span class="stringliteral">&quot;Total of {} fires took {}s - average time is {}s&quot;</span>.format(n, totaltime, totaltime / n))</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    merge_dir(<span class="stringliteral">&#39;/FireGUARD/data/output/probability&#39;</span>)</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    merge_dir(<span class="stringliteral">&#39;/FireGUARD/data/output/perimeter&#39;</span>)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="ttc" id="afirestarr_8py_html_ab05e9efc98d66338840327d32b403d69"><div class="ttname"><a href="firestarr_8py.html#ab05e9efc98d66338840327d32b403d69">firestarr.do_run</a></div><div class="ttdeci">def do_run(fgmj)</div><div class="ttdef"><b>Definition:</b> <a href="firestarr_8py_source.html#l00075">firestarr.py:75</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
