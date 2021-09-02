@@ -293,25 +293,26 @@ $(function() {
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keyword">with</span> open(log_name, <span class="stringliteral">&#39;w&#39;</span>) <span class="keyword">as</span> log_file:</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            log_file.write(stdout.decode(<span class="stringliteral">&#39;utf-8&#39;</span>))</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        outputs = sorted(os.listdir(out_dir))</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        perims = [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> outputs <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;tif&#39;</span>)]</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> len(perims) &gt; 0:</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            perim = perims[0]</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <a class="code" href="namespacefirestarr__gis.html#aaf13ee55cea26a3ff7c104dac5cfff72">firestarr_gis.project_raster</a>(os.path.join(out_dir, perim),</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                         os.path.join(PERIM_DIR, job_date, region, fire_name + <span class="stringliteral">&#39;.tif&#39;</span>),</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                         options=[<span class="stringliteral">&#39;COMPRESS=LZW&#39;</span>, <span class="stringliteral">&#39;TILED=YES&#39;</span>])</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        probs = [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> outputs <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;asc&#39;</span>) <span class="keywordflow">and</span> x.startswith(<span class="stringliteral">&#39;wxshield&#39;</span>)]</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">if</span> len(probs) &gt; 0:</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            prob = probs[-1]</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <a class="code" href="namespacefirestarr__gis.html#aaf13ee55cea26a3ff7c104dac5cfff72">firestarr_gis.project_raster</a>(os.path.join(out_dir, prob), os.path.join(PROB_DIR, job_date, region, fire_name + <span class="stringliteral">&#39;.tif&#39;</span>))</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">else</span>:</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">return</span> <span class="keywordtype">None</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">return</span> log_name</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        extent = <span class="keywordtype">None</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        probs = [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> outputs <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;asc&#39;</span>) <span class="keywordflow">and</span> x.startswith(<span class="stringliteral">&#39;wxshield&#39;</span>)]</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">if</span> len(probs) &gt; 0:</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            prob = probs[-1]</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            extent = <a class="code" href="namespacefirestarr__gis.html#ae4268a1560b326fead2944b9b0f11013">firestarr_gis.project_raster</a>(os.path.join(out_dir, prob), os.path.join(PROB_DIR, job_date, region, fire_name + <span class="stringliteral">&#39;.tif&#39;</span>))</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        perims = [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> outputs <span class="keywordflow">if</span> x.endswith(<span class="stringliteral">&#39;tif&#39;</span>)]</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">if</span> len(perims) &gt; 0:</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            perim = perims[0]</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <a class="code" href="namespacefirestarr__gis.html#ae4268a1560b326fead2944b9b0f11013">firestarr_gis.project_raster</a>(os.path.join(out_dir, perim),</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                                         os.path.join(PERIM_DIR, job_date, region, fire_name + <span class="stringliteral">&#39;.tif&#39;</span>),</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                                         outputBounds=extent)</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordflow">else</span>:</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">return</span> <span class="keywordtype">None</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">return</span> log_name</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="keywordflow">if</span> __name__ == <span class="stringliteral">&quot;__main__&quot;</span>:</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    do_run(sys.argv[1])</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="keywordflow">if</span> __name__ == <span class="stringliteral">&quot;__main__&quot;</span>:</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    do_run(sys.argv[1])</div>
 <div class="ttc" id="anamespacefirestarr__gis_html_a3830fbe88c36fa64b1bed8fcee80ad73"><div class="ttname"><a href="namespacefirestarr__gis.html#a3830fbe88c36fa64b1bed8fcee80ad73">firestarr_gis.rasterize_perim</a></div><div class="ttdeci">def rasterize_perim(run_output, perim, year, name, raster=None)</div><div class="ttdoc">Convert a perimeter to a raster.</div><div class="ttdef"><b>Definition:</b> <a href="firestarr__gis_8py_source.html#l00300">firestarr_gis.py:300</a></div></div>
-<div class="ttc" id="anamespacefirestarr__gis_html_aaf13ee55cea26a3ff7c104dac5cfff72"><div class="ttname"><a href="namespacefirestarr__gis.html#aaf13ee55cea26a3ff7c104dac5cfff72">firestarr_gis.project_raster</a></div><div class="ttdeci">def project_raster(filename, output_raster=None, options=['COMPRESS=LZW', 'TILED=YES'])</div><div class="ttdef"><b>Definition:</b> <a href="firestarr__gis_8py_source.html#l00348">firestarr_gis.py:348</a></div></div>
+<div class="ttc" id="anamespacefirestarr__gis_html_ae4268a1560b326fead2944b9b0f11013"><div class="ttname"><a href="namespacefirestarr__gis.html#ae4268a1560b326fead2944b9b0f11013">firestarr_gis.project_raster</a></div><div class="ttdeci">def project_raster(filename, output_raster=None, outputBounds=None, options=['COMPRESS=LZW', 'TILED=YES'])</div><div class="ttdef"><b>Definition:</b> <a href="firestarr__gis_8py_source.html#l00348">firestarr_gis.py:348</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
