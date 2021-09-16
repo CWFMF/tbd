@@ -1,0 +1,4 @@
+<map id="firestarr::fuel::FuelMixed::surfaceFuelConsumption" name="firestarr::fuel::FuelMixed::surfaceFuelConsumption">
+<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 10]." alt="" coords="259,5,431,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_mixed_wood.html#a6c5bd042131d3755d9e73edb80e4db80" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 17]." alt="" coords="5,5,211,47"/>
+</map>

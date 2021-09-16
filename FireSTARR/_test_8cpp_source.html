@@ -69,385 +69,382 @@ $(function() {
 <div class="title">Test.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (C) 2020  Queen&#39;s Printer for Ontario</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// </span></div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2020-2021, Queen&#39;s Printer for Ontario.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// This program is free software: you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// it under the terms of the GNU Affero General Public License as</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// published by the Free Software Foundation, either version 3 of the</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// License, or (at your option) any later version.</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// </span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// This program is distributed in the hope that it will be useful,</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// GNU Affero General Public License for more details.</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// </span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// You should have received a copy of the GNU Affero General Public License</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// </span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// Last Updated 2020-04-07 &lt;Evens, Jordan (MNRF)&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;stdafx.h&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;Test.h&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;FireSpread.h&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;FuelLookup.h&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;FWI.h&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;Model.h&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;Observer.h&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;SafeVector.h&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;Scenario.h&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;Util.h&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span>firestarr</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;stdafx.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;Test.h&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;FireSpread.h&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;FuelLookup.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;FWI.h&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;Model.h&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;Observer.h&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;SafeVector.h&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;Scenario.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;Util.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span>firestarr</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span>sim</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span>sim</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_environment.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_environment.html">TestEnvironment</a></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1topo_1_1_environment.html">topo::Environment</a></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">   43</a></span>&#160;  <span class="keyword">explicit</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">TestEnvironment</a>(<a class="code" href="classfirestarr_1_1data_1_1_constant_grid.html">data::ConstantGrid&lt;topo::Cell&gt;</a>* cells) noexcept</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    : <a class="code" href="classfirestarr_1_1topo_1_1_environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a">Environment</a>(cells, 0)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_temperature.html">wx::Temperature</a> TMP(20.0);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_relative_humidity.html">wx::RelativeHumidity</a> RH(30.0);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">wx::AccumulatedPrecipitation</a> APCP(0.0);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">static</span> vector&lt;const wx::FwiWeather*&gt;* make_weather(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">auto</span> wx = <span class="keyword">new</span> vector&lt;const wx::FwiWeather*&gt;{<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(YEAR_HOURS)};</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  std::generate(wx-&gt;begin(),</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                wx-&gt;end(),</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                [&amp;wind, &amp;ffmc, &amp;dmc, &amp;dc, &amp;bui]()</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  return make_unique&lt;wx::FwiWeather&gt;(</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                    TMP,</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    RH,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    wind,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    APCP,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    ffmc,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    dmc,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    dc,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    wx::Isi(wind.speed(), ffmc),</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    bui,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    wx::Fwi(wx::Isi(wind.speed(), ffmc), bui)).release();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                });</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">return</span> wx;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_weather.html">   79</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a> final</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html">wx::FireWeather</a></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  ~<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>(<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; operator=(<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">   98</a></span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">TestWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_type.html">fuel::FuelType</a>* fuel,</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;              <span class="keyword">const</span> Day start_date,</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    : <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html#af2334a08dd51f5ccf1f80bf3dc435a32">FireWeather</a>(set&lt;const fuel::FuelType*&gt;{fuel},</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                  start_date,</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                  MAX_DAYS - 1,</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                  make_weather(dc, bui, dmc, ffmc, wind))</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;};</div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_scenario.html">  115</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a> final</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html">Scenario</a></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  ~<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; operator=(<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">  133</a></span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">TestScenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_model.html">Model</a>* <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">model</a>,</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;               <span class="keyword">const</span> shared_ptr&lt;topo::Cell&gt;&amp; start_cell,</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;               <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_start_point.html">topo::StartPoint</a>&amp; start_point,</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;               <span class="keyword">const</span> <span class="keywordtype">int</span> start_date,</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;               <span class="keyword">const</span> <span class="keywordtype">double</span> end_date,</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;               <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html">wx::FireWeather</a>* <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">weather</a>)</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    : <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html">Scenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">model</a>,</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;               1,</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;               <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">weather</a>,</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;               start_date,</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;               start_point,</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;               static_cast&lt;Day&gt;(start_date),</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;               static_cast&lt;Day&gt;(end_date))</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a1cddaa91025c8272d33cda4613405705">start_cell_</a> = start_cell;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_intensity_observer.html">IntensityObserver</a>(*<span class="keyword">this</span>, <span class="stringliteral">&quot;intensity&quot;</span>));</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_arrival_observer.html">ArrivalObserver</a>(*<span class="keyword">this</span>));</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_source_observer.html">SourceObserver</a>(*<span class="keyword">this</span>));</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450">addEvent</a>(<a class="code" href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118">Event::makeEnd</a>(end_date));</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a8d380eb24ed0cd9309e5614bd6fcaaba">last_save_</a> = end_date;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> num = (<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a48104c585aa50c36f367c57551249e30">last_date_</a>) - <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a19d2e38df4936b319eacd793dc9ea390">start_day_</a> + 1) * DAY_HOURS;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="comment">// these should be all 0&#39;s after resize</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a94eb4f76c913029060d9f55569b65d96">extinction_thresholds_</a>.resize(num);</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ad916fdf8c77b11046c222a91ad08b809">spread_thresholds_by_ros_</a>.resize(num);</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a533fc0881b33eb025cc70810b5ca862a">probabilities_</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#aea54f8d4edbb633e0e8321ff0e54f40c">final_sizes_</a> = {};</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a709a7b789d2f853e621a843f0675c554">ran_</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8a01529ea1237d702a2b2208c11f1d4">current_time_</a> = <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a6dd52443bfb6ac60983b0d6ea6042e3d">start_time_</a>;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  }</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;};</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="keywordtype">int</span> run_test(<span class="keyword">const</span> <span class="keywordtype">char</span>* output_directory,</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">fuel::FuelLookup</a>&amp; fuel_lookup,</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; fuel_name,</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;             <span class="keyword">const</span> SlopeSize slope,</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;             <span class="keyword">const</span> AspectSize aspect,</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">int</span> num_hours,</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> Latitude = 49.3911;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> Longitude = -84.7395;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_start_point.html">topo::StartPoint</a> ForPoint(Latitude, Longitude);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_date = 123;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> end_date = start_date + <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(num_hours) / DAY_HOURS;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  util::make_directory_recursive(output_directory);</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> fuel = fuel_lookup.<a class="code" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a3768f0491023122a6c8c1839bceec9a0">byName</a>(fuel_name);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keyword">auto</span> values = vector&lt;topo::Cell&gt;();</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  values.reserve(MAX_ROWS * MAX_COLUMNS);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keywordflow">for</span> (Idx r = 0; r &lt; MAX_ROWS; ++r)</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  {</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">for</span> (Idx c = 0; c &lt; MAX_COLUMNS; ++c)</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      values.emplace_back(r, c, slope, aspect, <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_type.html#af5a3f460d906dbd37e70ea06532c2d01">fuel::FuelType::safeCode</a>(fuel));</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  }</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> cells = <span class="keyword">new</span> data::ConstantGrid&lt;topo::Cell&gt;{</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    TEST_GRID_SIZE,</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    MAX_ROWS,</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    MAX_COLUMNS,</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    topo::Cell{},</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    -1,</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    TEST_XLLCORNER,</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    TEST_YLLCORNER,</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    TEST_PROJ4,</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    std::move(values)</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  };</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  TestEnvironment env(cells);</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_location.html">Location</a> start_location(<span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(MAX_ROWS / 2),</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(MAX_COLUMNS / 2));</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  Model model(ForPoint, output_directory, &amp;env);</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_cell = make_shared&lt;topo::Cell&gt;(model.cell(start_location));</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  TestWeather weather(fuel, start_date, dc, bui, dmc, ffmc, wind);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  TestScenario scenario(&amp;model, start_cell, ForPoint, start_date, end_date, &amp;weather);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <span class="keyword">auto</span> info = SpreadInfo(scenario,</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                         start_date,</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                         *start_cell,</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                         model.nd(start_date),</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                         weather.at(start_date));</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  map&lt;double, ProbabilityMap*&gt; probabilities{};</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  scenario.run(&amp;probabilities);</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  scenario.saveObservers(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  logging::note(<span class="stringliteral">&quot;Final Size: %0.0f, ROS: %0.2f&quot;</span>,</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                scenario.currentFireSize(),</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                info.headRos());</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;}</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keyword">const</span> AspectSize ASPECT_INCREMENT = 90;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="keyword">const</span> SlopeSize SLOPE_INCREMENT = 60;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> WS_INCREMENT = 20;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> WD_INCREMENT = 45;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> MAX_WIND = 20;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_HOURS = 10;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="keyword">const</span> vector&lt;string&gt; FUEL_NAMES{<span class="stringliteral">&quot;C-2&quot;</span>, <span class="stringliteral">&quot;O-1a&quot;</span>, <span class="stringliteral">&quot;M-1/M-2 (25 PC)&quot;</span>};</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="keywordtype">int</span> test(<span class="keyword">const</span> <span class="keywordtype">int</span> argc, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> argv[])</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;{</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  <span class="keyword">const</span> wx::Dc dc(275);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keyword">const</span> wx::Dmc dmc(35.5);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <span class="keyword">const</span> wx::Bui bui(54, dmc, dc);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keyword">const</span> wx::Ffmc ffmc(90);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  assert(argc &gt; 1 &amp;&amp; 0 == strcmp(argv[1], <span class="stringliteral">&quot;test&quot;</span>));</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  {</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keyword">auto</span> result = 0;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="comment">// HACK: use a variable and ++ so in case arg indices change</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keyword">auto</span> i = 1;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="comment">// start at 2 because first arg is &quot;test&quot;</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    ++i;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">string</span> output_directory(argv[i++]);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    replace(output_directory.begin(), output_directory.end(), <span class="charliteral">&#39;\\&#39;</span>, <span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">if</span> (<span class="charliteral">&#39;/&#39;</span> != output_directory[output_directory.length() - 1])</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      output_directory += <span class="charliteral">&#39;/&#39;</span>;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    logging::debug(<span class="stringliteral">&quot;Output directory is %s&quot;</span>, output_directory.c_str());</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    util::make_directory_recursive(output_directory.c_str());</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">const</span> fuel::FuelLookup fuel_lookup(<a class="code" href="classfirestarr_1_1sim_1_1_settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3">Settings::fuelLookupTable</a>());</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span> (i == argc - 1 &amp;&amp; 0 == strcmp(argv[i], <span class="stringliteral">&quot;all&quot;</span>))</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = DEFAULT_HOURS;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      constexpr <span class="keyword">auto</span> mask = <span class="stringliteral">&quot;%s%s_S%03d_A%03d_WD%03d_WS%03d/&quot;</span>;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; fuel : FUEL_NAMES)</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      {</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keyword">auto</span> simple_fuel_name{fuel};</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;-&#39;</span>),</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39; &#39;</span>),</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;(&#39;</span>),</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;)&#39;</span>),</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;/&#39;</span>),</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out_length = output_directory.length() + 28 + simple_fuel_name.</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;          length();</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out = <span class="keyword">new</span> <span class="keywordtype">char</span>[out_length];</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">for</span> (SlopeSize slope = 0; slope &lt;= 100; slope += SLOPE_INCREMENT)</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        {</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;          <span class="keywordflow">for</span> (AspectSize aspect = 0; aspect &lt; 360; aspect += ASPECT_INCREMENT)</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;          {</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_direction = 0; wind_direction &lt; 360; wind_direction +=</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                 WD_INCREMENT)</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            {</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;              <span class="keyword">const</span> wx::Direction direction(wind_direction, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;              <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_speed = 0; wind_speed &lt;= MAX_WIND; wind_speed += WS_INCREMENT</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;              )</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;              {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <span class="keyword">const</span> wx::Wind wind(direction, wx::Speed(wind_speed));</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                logging::note(mask,</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                              output_directory.c_str(),</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                              simple_fuel_name.c_str(),</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                              slope,</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                              aspect,</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                              wind_direction,</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                              wind_speed);</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                sprintf(out,</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                        mask,</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                        output_directory.c_str(),</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                        simple_fuel_name.c_str(),</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                        slope,</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                        aspect,</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                        wind_direction,</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                        wind_speed);</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                result += run_test(out,</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                   fuel_lookup,</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                   fuel,</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                   slope,</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                                   aspect,</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                                   num_hours,</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                                   dc,</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                                   bui,</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                                   dmc,</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                   ffmc,</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                                   wind);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;              }</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            }</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;          }</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keyword">delete</span>[] out;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    {</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = argc &gt; i ? stoi(argv[i++]) : DEFAULT_HOURS;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> slope = <span class="keyword">static_cast&lt;</span>SlopeSize<span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> aspect = <span class="keyword">static_cast&lt;</span>AspectSize<span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="keyword">const</span> wx::Speed wind_speed(argc &gt; i ? stoi(argv[i++]) : 20);</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      <span class="comment">// ReSharper disable CppAssignedValueIsNeverUsed</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      <span class="keyword">const</span> wx::Direction wind_direction(argc &gt; i ? stoi(argv[i++]) : 180, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      <span class="keyword">const</span> wx::Wind wind(wind_direction, wind_speed);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      <span class="comment">// ReSharper restore CppAssignedValueIsNeverUsed</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      assert(i == argc);</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      logging::note(<span class="stringliteral">&quot;Running tests with constant inputs for %d:\n&quot;</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    <span class="stringliteral">&quot;\tSlope:\t\t\t%d\n&quot;</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    <span class="stringliteral">&quot;\tAspect:\t\t\t%d\n&quot;</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                    <span class="stringliteral">&quot;\tWind Speed:\t\t%f\n&quot;</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                    <span class="stringliteral">&quot;\tWind Direction:\t\t%f\n&quot;</span>,</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                    num_hours,</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    slope,</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                    aspect,</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                    wind_speed,</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                    wind_direction);</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      result = run_test(output_directory.c_str(),</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                        fuel_lookup,</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                        <span class="stringliteral">&quot;C-2&quot;</span>,</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                        slope,</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                        aspect,</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                        num_hours,</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                        dc,</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                        bui,</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                        dmc,</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                        ffmc,</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                        wind);</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    }</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  }</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  <span class="keywordflow">catch</span> (<span class="keyword">const</span> runtime_error&amp; err)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    logging::fatal(err.what());</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;  }</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;}</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;}</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;}</div>
-<div class="ttc" id="aclassfirestarr_1_1data_1_1_constant_grid_html"><div class="ttname"><a href="classfirestarr_1_1data_1_1_constant_grid.html">firestarr::data::ConstantGrid</a></div><div class="ttdoc">A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized.</div><div class="ttdef"><b>Definition:</b> <a href="_constant_grid_8h_source.html#l00035">ConstantGrid.h:37</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">firestarr::fuel::FuelLookup</a></div><div class="ttdoc">Provides ability to look up a fuel type based on name or code.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8h_source.html#l00034">FuelLookup.h:35</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html_a3768f0491023122a6c8c1839bceec9a0"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a3768f0491023122a6c8c1839bceec9a0">firestarr::fuel::FuelLookup::byName</a></div><div class="ttdeci">const FuelType * byName(const string &amp;name) const</div><div class="ttdoc">Look up a FuelType based on the given name.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8cpp_source.html#l00588">FuelLookup.cpp:588</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_type_html"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_type.html">firestarr::fuel::FuelType</a></div><div class="ttdoc">An FBP fuel type.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_type_8h_source.html#l00061">FuelType.h:62</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_type_html_af5a3f460d906dbd37e70ea06532c2d01"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_type.html#af5a3f460d906dbd37e70ea06532c2d01">firestarr::fuel::FuelType::safeCode</a></div><div class="ttdeci">static constexpr FuelCodeSize safeCode(const FuelType *fuel)</div><div class="ttdoc">Convert FuelType to its code, or 0 if nullptr.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_type_8h_source.html#l00069">FuelType.h:69</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_arrival_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_arrival_observer.html">firestarr::sim::ArrivalObserver</a></div><div class="ttdoc">Tracks when fire initially arrives in a Cell.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00133">Observer.h:135</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_event_html_a6632c5ccb5fd9063c0371b6177be3118"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118">firestarr::sim::Event::makeEnd</a></div><div class="ttdeci">static constexpr Event makeEnd(const double time)</div><div class="ttdoc">Make simulation end event.</div><div class="ttdef"><b>Definition:</b> <a href="_event_8h_source.html#l00051">Event.h:51</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_intensity_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_intensity_observer.html">firestarr::sim::IntensityObserver</a></div><div class="ttdoc">Tracks the intensity that Cells burn at.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00171">Observer.h:173</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_model_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_model.html">firestarr::sim::Model</a></div><div class="ttdoc">Contains all the immutable information regarding a simulation that is common between Scenarios.</div><div class="ttdef"><b>Definition:</b> <a href="_model_8h_source.html#l00132">Model.h:133</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html">firestarr::sim::Scenario</a></div><div class="ttdoc">A single Scenario in an Iteration using a specific FireWeather stream.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00046">Scenario.h:47</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a10e2a0c7a261b5d0cb1adaf1187e5d97"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">firestarr::sim::Scenario::model</a></div><div class="ttdeci">constexpr const Model &amp; model() const</div><div class="ttdoc">Model this Scenario is running in.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00213">Scenario.h:213</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a19d2e38df4936b319eacd793dc9ea390"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a19d2e38df4936b319eacd793dc9ea390">firestarr::sim::Scenario::start_day_</a></div><div class="ttdeci">Day start_day_</div><div class="ttdoc">First day of simulation.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00582">Scenario.h:582</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a1cddaa91025c8272d33cda4613405705"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a1cddaa91025c8272d33cda4613405705">firestarr::sim::Scenario::start_cell_</a></div><div class="ttdeci">shared_ptr&lt; topo::Cell &gt; start_cell_</div><div class="ttdoc">Cell that the Scenario starts from if no Perimeter.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00538">Scenario.h:538</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a27213c80fe726d3d70c5c3f4d29d4450"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450">firestarr::sim::Scenario::addEvent</a></div><div class="ttdeci">void addEvent(Event &amp;&amp;event)</div><div class="ttdoc">Add an Event to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8cpp_source.html#l00739">Scenario.cpp:739</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a48104c585aa50c36f367c57551249e30"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a48104c585aa50c36f367c57551249e30">firestarr::sim::Scenario::last_date_</a></div><div class="ttdeci">Day last_date_</div><div class="ttdoc">Last day of simulation.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00586">Scenario.h:586</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a533fc0881b33eb025cc70810b5ca862a"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a533fc0881b33eb025cc70810b5ca862a">firestarr::sim::Scenario::probabilities_</a></div><div class="ttdeci">map&lt; double, ProbabilityMap * &gt; * probabilities_</div><div class="ttdoc">Map of ProbabilityMaps by time snapshot for them was taken.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00550">Scenario.h:550</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a65d40bc4af71694eb559bbb188d48510"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">firestarr::sim::Scenario::weather</a></div><div class="ttdeci">const wx::FwiWeather * weather(const double time) const</div><div class="ttdoc">FwiWeather for given time.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00237">Scenario.h:237</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a6dd52443bfb6ac60983b0d6ea6042e3d"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a6dd52443bfb6ac60983b0d6ea6042e3d">firestarr::sim::Scenario::start_time_</a></div><div class="ttdeci">double start_time_</div><div class="ttdoc">Start time (decimal days)</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00566">Scenario.h:566</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a709a7b789d2f853e621a843f0675c554"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a709a7b789d2f853e621a843f0675c554">firestarr::sim::Scenario::ran_</a></div><div class="ttdeci">bool ran_</div><div class="ttdoc">Whether or not this Scenario has completed running.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00592">Scenario.h:592</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a8d380eb24ed0cd9309e5614bd6fcaaba"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a8d380eb24ed0cd9309e5614bd6fcaaba">firestarr::sim::Scenario::last_save_</a></div><div class="ttdeci">double last_save_</div><div class="ttdoc">Which save point is the last one.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00570">Scenario.h:570</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a94eb4f76c913029060d9f55569b65d96"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a94eb4f76c913029060d9f55569b65d96">firestarr::sim::Scenario::extinction_thresholds_</a></div><div class="ttdeci">vector&lt; double &gt; extinction_thresholds_</div><div class="ttdoc">Thresholds used to determine if extinction occurs.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00490">Scenario.h:490</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_ac8a01529ea1237d702a2b2208c11f1d4"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#ac8a01529ea1237d702a2b2208c11f1d4">firestarr::sim::Scenario::current_time_</a></div><div class="ttdeci">double current_time_</div><div class="ttdoc">Current time for this Scenario.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00498">Scenario.h:498</a></div></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_environment.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_environment.html">TestEnvironment</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1topo_1_1_environment.html">topo::Environment</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">   41</a></span>&#160;  <span class="keyword">explicit</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">TestEnvironment</a>(<a class="code" href="classfirestarr_1_1data_1_1_constant_grid.html">data::ConstantGrid&lt;topo::Cell&gt;</a>* cells) noexcept</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    : <a class="code" href="classfirestarr_1_1topo_1_1_environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a">Environment</a>(cells, 0)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_temperature.html">wx::Temperature</a> TMP(20.0);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_relative_humidity.html">wx::RelativeHumidity</a> RH(30.0);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">wx::AccumulatedPrecipitation</a> APCP(0.0);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">static</span> vector&lt;const wx::FwiWeather*&gt;* make_weather(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">auto</span> wx = <span class="keyword">new</span> vector&lt;const wx::FwiWeather*&gt;{<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(YEAR_HOURS)};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  std::generate(wx-&gt;begin(),</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                wx-&gt;end(),</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                [&amp;wind, &amp;ffmc, &amp;dmc, &amp;dc, &amp;bui]()</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                  return make_unique&lt;wx::FwiWeather&gt;(</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                           TMP,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                           RH,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                           wind,</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                           APCP,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                           ffmc,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                           dmc,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                           dc,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                           wx::Isi(wind.speed(), ffmc),</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                           bui,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                           wx::Fwi(wx::Isi(wind.speed(), ffmc), bui))</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    .release();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                });</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keywordflow">return</span> wx;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_weather.html">   78</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a> final</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html">wx::FireWeather</a></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;{</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  ~<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>(<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp; operator=(<a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html">TestWeather</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">   97</a></span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">TestWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_type.html">fuel::FuelType</a>* fuel,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;              <span class="keyword">const</span> Day start_date,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;              <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    : <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html#af2334a08dd51f5ccf1f80bf3dc435a32">FireWeather</a>(set&lt;const fuel::FuelType*&gt;{fuel},</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                  start_date,</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                  MAX_DAYS - 1,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                  make_weather(dc, bui, dmc, ffmc, wind))</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;};</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_scenario.html">  114</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a> final</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  : <span class="keyword">public</span> <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html">Scenario</a></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  ~<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp; operator=(<a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html">TestScenario</a>&amp;&amp; rhs) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">  132</a></span>&#160;  <a class="code" href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">TestScenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_model.html">Model</a>* <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">model</a>,</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;               <span class="keyword">const</span> shared_ptr&lt;topo::Cell&gt;&amp; start_cell,</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;               <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_start_point.html">topo::StartPoint</a>&amp; start_point,</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;               <span class="keyword">const</span> <span class="keywordtype">int</span> start_date,</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;               <span class="keyword">const</span> <span class="keywordtype">double</span> end_date,</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;               <a class="code" href="classfirestarr_1_1wx_1_1_fire_weather.html">wx::FireWeather</a>* <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">weather</a>)</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    : <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html">Scenario</a>(<a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">model</a>,</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;               1,</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;               <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">weather</a>,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;               start_date,</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;               start_point,</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;               static_cast&lt;Day&gt;(start_date),</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;               static_cast&lt;Day&gt;(end_date))</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a1cddaa91025c8272d33cda4613405705">start_cell_</a> = start_cell;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_intensity_observer.html">IntensityObserver</a>(*<span class="keyword">this</span>, <span class="stringliteral">&quot;intensity&quot;</span>));</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_arrival_observer.html">ArrivalObserver</a>(*<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">registerObserver</a>(<span class="keyword">new</span> <a class="code" href="classfirestarr_1_1sim_1_1_source_observer.html">SourceObserver</a>(*<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450">addEvent</a>(<a class="code" href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118">Event::makeEnd</a>(end_date));</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a8d380eb24ed0cd9309e5614bd6fcaaba">last_save_</a> = end_date;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> num = (<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a48104c585aa50c36f367c57551249e30">last_date_</a>) - <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a19d2e38df4936b319eacd793dc9ea390">start_day_</a> + 1) * DAY_HOURS;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="comment">// these should be all 0&#39;s after resize</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a94eb4f76c913029060d9f55569b65d96">extinction_thresholds_</a>.resize(num);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ad916fdf8c77b11046c222a91ad08b809">spread_thresholds_by_ros_</a>.resize(num);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a533fc0881b33eb025cc70810b5ca862a">probabilities_</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#aea54f8d4edbb633e0e8321ff0e54f40c">final_sizes_</a> = {};</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a709a7b789d2f853e621a843f0675c554">ran_</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#ac8a01529ea1237d702a2b2208c11f1d4">current_time_</a> = <a class="code" href="classfirestarr_1_1sim_1_1_scenario.html#a6dd52443bfb6ac60983b0d6ea6042e3d">start_time_</a>;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="keywordtype">int</span> run_test(<span class="keyword">const</span> <span class="keywordtype">char</span>* output_directory,</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">fuel::FuelLookup</a>&amp; fuel_lookup,</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; fuel_name,</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;             <span class="keyword">const</span> SlopeSize slope,</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;             <span class="keyword">const</span> AspectSize aspect,</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">int</span> num_hours,</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">wx::Dc</a>&amp; dc,</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">wx::Bui</a>&amp; bui,</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">wx::Dmc</a>&amp; dmc,</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">wx::Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;             <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">wx::Wind</a>&amp; wind)</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;{</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> Latitude = 49.3911;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> Longitude = -84.7395;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_start_point.html">topo::StartPoint</a> ForPoint(Latitude, Longitude);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_date = 123;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> end_date = start_date + <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(num_hours) / DAY_HOURS;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  util::make_directory_recursive(output_directory);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> fuel = fuel_lookup.<a class="code" href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a3768f0491023122a6c8c1839bceec9a0">byName</a>(fuel_name);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keyword">auto</span> values = vector&lt;topo::Cell&gt;();</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  values.reserve(MAX_ROWS * MAX_COLUMNS);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="keywordflow">for</span> (Idx r = 0; r &lt; MAX_ROWS; ++r)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">for</span> (Idx c = 0; c &lt; MAX_COLUMNS; ++c)</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      values.emplace_back(r, c, slope, aspect, <a class="code" href="classfirestarr_1_1fuel_1_1_fuel_type.html#af5a3f460d906dbd37e70ea06532c2d01">fuel::FuelType::safeCode</a>(fuel));</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> cells = <span class="keyword">new</span> data::ConstantGrid&lt;topo::Cell&gt;{</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    TEST_GRID_SIZE,</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    MAX_ROWS,</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    MAX_COLUMNS,</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    topo::Cell{},</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    -1,</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    TEST_XLLCORNER,</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    TEST_YLLCORNER,</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    TEST_PROJ4,</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    std::move(values)};</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  TestEnvironment env(cells);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1_location.html">Location</a> start_location(<span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(MAX_ROWS / 2),</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                                <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(MAX_COLUMNS / 2));</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  Model model(ForPoint, output_directory, &amp;env);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_cell = make_shared&lt;topo::Cell&gt;(model.cell(start_location));</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  TestWeather weather(fuel, start_date, dc, bui, dmc, ffmc, wind);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  TestScenario scenario(&amp;model, start_cell, ForPoint, start_date, end_date, &amp;weather);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  <span class="keyword">auto</span> info = SpreadInfo(scenario,</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                         start_date,</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                         *start_cell,</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                         model.nd(start_date),</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                         weather.at(start_date));</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  map&lt;double, ProbabilityMap*&gt; probabilities{};</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  scenario.run(&amp;probabilities);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  scenario.saveObservers(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  logging::note(<span class="stringliteral">&quot;Final Size: %0.0f, ROS: %0.2f&quot;</span>,</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                scenario.currentFireSize(),</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                info.headRos());</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;}</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keyword">const</span> AspectSize ASPECT_INCREMENT = 90;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="keyword">const</span> SlopeSize SLOPE_INCREMENT = 60;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> WS_INCREMENT = 20;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> WD_INCREMENT = 45;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> MAX_WIND = 20;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_HOURS = 10;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="keyword">const</span> vector&lt;string&gt; FUEL_NAMES{<span class="stringliteral">&quot;C-2&quot;</span>, <span class="stringliteral">&quot;O-1a&quot;</span>, <span class="stringliteral">&quot;M-1/M-2 (25 PC)&quot;</span>};</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="keywordtype">int</span> test(<span class="keyword">const</span> <span class="keywordtype">int</span> argc, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> argv[])</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  <span class="keyword">const</span> wx::Dc dc(275);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="keyword">const</span> wx::Dmc dmc(35.5);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  <span class="keyword">const</span> wx::Bui bui(54, dmc, dc);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keyword">const</span> wx::Ffmc ffmc(90);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  assert(argc &gt; 1 &amp;&amp; 0 == strcmp(argv[1], <span class="stringliteral">&quot;test&quot;</span>));</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">auto</span> result = 0;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// HACK: use a variable and ++ so in case arg indices change</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keyword">auto</span> i = 1;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="comment">// start at 2 because first arg is &quot;test&quot;</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    ++i;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordtype">string</span> output_directory(argv[i++]);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    replace(output_directory.begin(), output_directory.end(), <span class="charliteral">&#39;\\&#39;</span>, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span> (<span class="charliteral">&#39;/&#39;</span> != output_directory[output_directory.length() - 1])</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      output_directory += <span class="charliteral">&#39;/&#39;</span>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    logging::debug(<span class="stringliteral">&quot;Output directory is %s&quot;</span>, output_directory.c_str());</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    util::make_directory_recursive(output_directory.c_str());</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keyword">const</span> fuel::FuelLookup fuel_lookup(<a class="code" href="classfirestarr_1_1sim_1_1_settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3">Settings::fuelLookupTable</a>());</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span> (i == argc - 1 &amp;&amp; 0 == strcmp(argv[i], <span class="stringliteral">&quot;all&quot;</span>))</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = DEFAULT_HOURS;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      constexpr <span class="keyword">auto</span> mask = <span class="stringliteral">&quot;%s%s_S%03d_A%03d_WD%03d_WS%03d/&quot;</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; fuel : FUEL_NAMES)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keyword">auto</span> simple_fuel_name{fuel};</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;-&#39;</span>),</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39; &#39;</span>),</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;(&#39;</span>),</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;)&#39;</span>),</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;/&#39;</span>),</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out_length = output_directory.length() + 28 + simple_fuel_name.length();</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out = <span class="keyword">new</span> <span class="keywordtype">char</span>[out_length];</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">for</span> (SlopeSize slope = 0; slope &lt;= 100; slope += SLOPE_INCREMENT)</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;          <span class="keywordflow">for</span> (AspectSize aspect = 0; aspect &lt; 360; aspect += ASPECT_INCREMENT)</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;          {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_direction = 0; wind_direction &lt; 360; wind_direction +=</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                                                WD_INCREMENT)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;              <span class="keyword">const</span> wx::Direction direction(wind_direction, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;              <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_speed = 0; wind_speed &lt;= MAX_WIND; wind_speed += WS_INCREMENT)</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;              {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                <span class="keyword">const</span> wx::Wind wind(direction, wx::Speed(wind_speed));</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                logging::note(mask,</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                              output_directory.c_str(),</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                              simple_fuel_name.c_str(),</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                              slope,</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                              aspect,</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                              wind_direction,</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                              wind_speed);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                sprintf(out,</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                        mask,</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                        output_directory.c_str(),</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                        simple_fuel_name.c_str(),</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                        slope,</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                        aspect,</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                        wind_direction,</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                        wind_speed);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                result += run_test(out,</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                                   fuel_lookup,</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                                   fuel,</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                   slope,</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                   aspect,</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                   num_hours,</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                   dc,</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                   bui,</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                                   dmc,</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                                   ffmc,</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                                   wind);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;              }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;          }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <span class="keyword">delete</span>[] out;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = argc &gt; i ? stoi(argv[i++]) : DEFAULT_HOURS;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> slope = <span class="keyword">static_cast&lt;</span>SlopeSize<span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> aspect = <span class="keyword">static_cast&lt;</span>AspectSize<span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      <span class="keyword">const</span> wx::Speed wind_speed(argc &gt; i ? stoi(argv[i++]) : 20);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      <span class="comment">// ReSharper disable CppAssignedValueIsNeverUsed</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      <span class="keyword">const</span> wx::Direction wind_direction(argc &gt; i ? stoi(argv[i++]) : 180, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      <span class="keyword">const</span> wx::Wind wind(wind_direction, wind_speed);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="comment">// ReSharper restore CppAssignedValueIsNeverUsed</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      assert(i == argc);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      logging::note(</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="stringliteral">&quot;Running tests with constant inputs for %d:\n&quot;</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="stringliteral">&quot;\tSlope:\t\t\t%d\n&quot;</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="stringliteral">&quot;\tAspect:\t\t\t%d\n&quot;</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="stringliteral">&quot;\tWind Speed:\t\t%f\n&quot;</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="stringliteral">&quot;\tWind Direction:\t\t%f\n&quot;</span>,</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        num_hours,</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        slope,</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        aspect,</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        wind_speed,</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        wind_direction);</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      result = run_test(output_directory.c_str(),</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                        fuel_lookup,</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                        <span class="stringliteral">&quot;C-2&quot;</span>,</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                        slope,</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                        aspect,</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                        num_hours,</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                        dc,</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                        bui,</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                        dmc,</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                        ffmc,</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                        wind);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  <span class="keywordflow">catch</span> (<span class="keyword">const</span> runtime_error&amp; err)</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  {</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    logging::fatal(err.what());</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;}</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;}</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;}</div>
+<div class="ttc" id="aclassfirestarr_1_1data_1_1_constant_grid_html"><div class="ttname"><a href="classfirestarr_1_1data_1_1_constant_grid.html">firestarr::data::ConstantGrid</a></div><div class="ttdoc">A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized.</div><div class="ttdef"><b>Definition:</b> <a href="_constant_grid_8h_source.html#l00033">ConstantGrid.h:35</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html">firestarr::fuel::FuelLookup</a></div><div class="ttdoc">Provides ability to look up a fuel type based on name or code.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8h_source.html#l00032">FuelLookup.h:33</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_lookup_html_a3768f0491023122a6c8c1839bceec9a0"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_lookup.html#a3768f0491023122a6c8c1839bceec9a0">firestarr::fuel::FuelLookup::byName</a></div><div class="ttdeci">const FuelType * byName(const string &amp;name) const</div><div class="ttdoc">Look up a FuelType based on the given name.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_lookup_8cpp_source.html#l00586">FuelLookup.cpp:586</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_type_html"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_type.html">firestarr::fuel::FuelType</a></div><div class="ttdoc">An FBP fuel type.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_type_8h_source.html#l00059">FuelType.h:60</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1fuel_1_1_fuel_type_html_af5a3f460d906dbd37e70ea06532c2d01"><div class="ttname"><a href="classfirestarr_1_1fuel_1_1_fuel_type.html#af5a3f460d906dbd37e70ea06532c2d01">firestarr::fuel::FuelType::safeCode</a></div><div class="ttdeci">static constexpr FuelCodeSize safeCode(const FuelType *fuel)</div><div class="ttdoc">Convert FuelType to its code, or 0 if nullptr.</div><div class="ttdef"><b>Definition:</b> <a href="_fuel_type_8h_source.html#l00067">FuelType.h:67</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_arrival_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_arrival_observer.html">firestarr::sim::ArrivalObserver</a></div><div class="ttdoc">Tracks when fire initially arrives in a Cell.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00134">Observer.h:136</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_event_html_a6632c5ccb5fd9063c0371b6177be3118"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_event.html#a6632c5ccb5fd9063c0371b6177be3118">firestarr::sim::Event::makeEnd</a></div><div class="ttdeci">static constexpr Event makeEnd(const double time)</div><div class="ttdoc">Make simulation end event.</div><div class="ttdef"><b>Definition:</b> <a href="_event_8h_source.html#l00049">Event.h:49</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_intensity_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_intensity_observer.html">firestarr::sim::IntensityObserver</a></div><div class="ttdoc">Tracks the intensity that Cells burn at.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00172">Observer.h:174</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_model_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_model.html">firestarr::sim::Model</a></div><div class="ttdoc">Contains all the immutable information regarding a simulation that is common between Scenarios.</div><div class="ttdef"><b>Definition:</b> <a href="_model_8h_source.html#l00137">Model.h:138</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html">firestarr::sim::Scenario</a></div><div class="ttdoc">A single Scenario in an Iteration using a specific FireWeather stream.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00047">Scenario.h:48</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a10e2a0c7a261b5d0cb1adaf1187e5d97"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97">firestarr::sim::Scenario::model</a></div><div class="ttdeci">constexpr const Model &amp; model() const</div><div class="ttdoc">Model this Scenario is running in.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00232">Scenario.h:232</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a19d2e38df4936b319eacd793dc9ea390"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a19d2e38df4936b319eacd793dc9ea390">firestarr::sim::Scenario::start_day_</a></div><div class="ttdeci">Day start_day_</div><div class="ttdoc">First day of simulation.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00607">Scenario.h:607</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a1cddaa91025c8272d33cda4613405705"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a1cddaa91025c8272d33cda4613405705">firestarr::sim::Scenario::start_cell_</a></div><div class="ttdeci">shared_ptr&lt; topo::Cell &gt; start_cell_</div><div class="ttdoc">Cell that the Scenario starts from if no Perimeter.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00563">Scenario.h:563</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a27213c80fe726d3d70c5c3f4d29d4450"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a27213c80fe726d3d70c5c3f4d29d4450">firestarr::sim::Scenario::addEvent</a></div><div class="ttdeci">void addEvent(Event &amp;&amp;event)</div><div class="ttdoc">Add an Event to the queue.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8cpp_source.html#l00736">Scenario.cpp:736</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a48104c585aa50c36f367c57551249e30"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a48104c585aa50c36f367c57551249e30">firestarr::sim::Scenario::last_date_</a></div><div class="ttdeci">Day last_date_</div><div class="ttdoc">Last day of simulation.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00611">Scenario.h:611</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a533fc0881b33eb025cc70810b5ca862a"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a533fc0881b33eb025cc70810b5ca862a">firestarr::sim::Scenario::probabilities_</a></div><div class="ttdeci">map&lt; double, ProbabilityMap * &gt; * probabilities_</div><div class="ttdoc">Map of ProbabilityMaps by time snapshot for them was taken.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00575">Scenario.h:575</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a65d40bc4af71694eb559bbb188d48510"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a65d40bc4af71694eb559bbb188d48510">firestarr::sim::Scenario::weather</a></div><div class="ttdeci">const wx::FwiWeather * weather(const double time) const</div><div class="ttdoc">FwiWeather for given time.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00259">Scenario.h:259</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a6dd52443bfb6ac60983b0d6ea6042e3d"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a6dd52443bfb6ac60983b0d6ea6042e3d">firestarr::sim::Scenario::start_time_</a></div><div class="ttdeci">double start_time_</div><div class="ttdoc">Start time (decimal days)</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00591">Scenario.h:591</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a709a7b789d2f853e621a843f0675c554"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a709a7b789d2f853e621a843f0675c554">firestarr::sim::Scenario::ran_</a></div><div class="ttdeci">bool ran_</div><div class="ttdoc">Whether or not this Scenario has completed running.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00617">Scenario.h:617</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a8d380eb24ed0cd9309e5614bd6fcaaba"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a8d380eb24ed0cd9309e5614bd6fcaaba">firestarr::sim::Scenario::last_save_</a></div><div class="ttdeci">double last_save_</div><div class="ttdoc">Which save point is the last one.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00595">Scenario.h:595</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_a94eb4f76c913029060d9f55569b65d96"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#a94eb4f76c913029060d9f55569b65d96">firestarr::sim::Scenario::extinction_thresholds_</a></div><div class="ttdeci">vector&lt; double &gt; extinction_thresholds_</div><div class="ttdoc">Thresholds used to determine if extinction occurs.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00515">Scenario.h:515</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_ac8a01529ea1237d702a2b2208c11f1d4"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#ac8a01529ea1237d702a2b2208c11f1d4">firestarr::sim::Scenario::current_time_</a></div><div class="ttdeci">double current_time_</div><div class="ttdoc">Current time for this Scenario.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00523">Scenario.h:523</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_ac8d7b10803f69f75dd84576b7e519f70"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#ac8d7b10803f69f75dd84576b7e519f70">firestarr::sim::Scenario::registerObserver</a></div><div class="ttdeci">void registerObserver(IObserver *observer)</div><div class="ttdoc">Register an IObserver that will be notified when Cells burn.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8cpp_source.html#l00238">Scenario.cpp:238</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_ad916fdf8c77b11046c222a91ad08b809"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#ad916fdf8c77b11046c222a91ad08b809">firestarr::sim::Scenario::spread_thresholds_by_ros_</a></div><div class="ttdeci">vector&lt; double &gt; spread_thresholds_by_ros_</div><div class="ttdoc">Thresholds used to determine if spread occurs.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00494">Scenario.h:494</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_aea54f8d4edbb633e0e8321ff0e54f40c"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#aea54f8d4edbb633e0e8321ff0e54f40c">firestarr::sim::Scenario::final_sizes_</a></div><div class="ttdeci">util::SafeVector * final_sizes_</div><div class="ttdoc">Where to append the final size of this Scenario when run is complete.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00554">Scenario.h:554</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_settings_html_a16d719ae8ef9ba23fee5f4b457ce21b3"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3">firestarr::sim::Settings::fuelLookupTable</a></div><div class="ttdeci">static const char * fuelLookupTable() noexcept</div><div class="ttdoc">Name of file that defines fuel lookup table.</div><div class="ttdef"><b>Definition:</b> <a href="_settings_8cpp_source.html#l00476">Settings.cpp:476</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_source_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_source_observer.html">firestarr::sim::SourceObserver</a></div><div class="ttdoc">Tracks source Cell that fire arrived in Cell from.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00152">Observer.h:154</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_environment_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_environment.html">firestarr::sim::TestEnvironment</a></div><div class="ttdoc">An Environment with no elevation and the same value in every Cell.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00035">Test.cpp:37</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_environment_html_a43be924fef3af24617e85e4e9f9b930c"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">firestarr::sim::TestEnvironment::TestEnvironment</a></div><div class="ttdeci">TestEnvironment(data::ConstantGrid&lt; topo::Cell &gt; *cells) noexcept</div><div class="ttdoc">Environment with the same data in every cell.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00043">Test.cpp:43</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_scenario_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_scenario.html">firestarr::sim::TestScenario</a></div><div class="ttdoc">A Scenario run with constant fuel, weather, and topography.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00115">Test.cpp:117</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_scenario_html_a1beb27b13217f8fbf971ec971e66059d"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">firestarr::sim::TestScenario::TestScenario</a></div><div class="ttdeci">TestScenario(Model *model, const shared_ptr&lt; topo::Cell &gt; &amp;start_cell, const topo::StartPoint &amp;start_point, const int start_date, const double end_date, wx::FireWeather *weather)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00133">Test.cpp:133</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_weather_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_weather.html">firestarr::sim::TestWeather</a></div><div class="ttdoc">A FireWeather stream with the same value for every date and time.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00079">Test.cpp:81</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_weather_html_a335249fd3d30fd24499690087a281cdb"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">firestarr::sim::TestWeather::TestWeather</a></div><div class="ttdeci">TestWeather(const fuel::FuelType *fuel, const Day start_date, const wx::Dc &amp;dc, const wx::Bui &amp;bui, const wx::Dmc &amp;dmc, const wx::Ffmc &amp;ffmc, const wx::Wind &amp;wind)</div><div class="ttdoc">A Constant weather stream with only one possible fuel.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00098">Test.cpp:98</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1topo_1_1_environment_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_environment.html">firestarr::topo::Environment</a></div><div class="ttdoc">The area that a Model is run for, with Fuel, Slope, and Aspect grids.</div><div class="ttdef"><b>Definition:</b> <a href="_environment_8h_source.html#l00043">Environment.h:44</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_ad916fdf8c77b11046c222a91ad08b809"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#ad916fdf8c77b11046c222a91ad08b809">firestarr::sim::Scenario::spread_thresholds_by_ros_</a></div><div class="ttdeci">vector&lt; double &gt; spread_thresholds_by_ros_</div><div class="ttdoc">Thresholds used to determine if spread occurs.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00519">Scenario.h:519</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_scenario_html_aea54f8d4edbb633e0e8321ff0e54f40c"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_scenario.html#aea54f8d4edbb633e0e8321ff0e54f40c">firestarr::sim::Scenario::final_sizes_</a></div><div class="ttdeci">util::SafeVector * final_sizes_</div><div class="ttdoc">Where to append the final size of this Scenario when run is complete.</div><div class="ttdef"><b>Definition:</b> <a href="_scenario_8h_source.html#l00579">Scenario.h:579</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_settings_html_a16d719ae8ef9ba23fee5f4b457ce21b3"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3">firestarr::sim::Settings::fuelLookupTable</a></div><div class="ttdeci">static const char * fuelLookupTable() noexcept</div><div class="ttdoc">Name of file that defines fuel lookup table.</div><div class="ttdef"><b>Definition:</b> <a href="_settings_8cpp_source.html#l00504">Settings.cpp:504</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_source_observer_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_source_observer.html">firestarr::sim::SourceObserver</a></div><div class="ttdoc">Tracks source Cell that fire arrived in Cell from.</div><div class="ttdef"><b>Definition:</b> <a href="_observer_8h_source.html#l00153">Observer.h:155</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_environment_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_environment.html">firestarr::sim::TestEnvironment</a></div><div class="ttdoc">An Environment with no elevation and the same value in every Cell.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00033">Test.cpp:35</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_environment_html_a43be924fef3af24617e85e4e9f9b930c"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_environment.html#a43be924fef3af24617e85e4e9f9b930c">firestarr::sim::TestEnvironment::TestEnvironment</a></div><div class="ttdeci">TestEnvironment(data::ConstantGrid&lt; topo::Cell &gt; *cells) noexcept</div><div class="ttdoc">Environment with the same data in every cell.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00041">Test.cpp:41</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_scenario_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_scenario.html">firestarr::sim::TestScenario</a></div><div class="ttdoc">A Scenario run with constant fuel, weather, and topography.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00114">Test.cpp:116</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_scenario_html_a1beb27b13217f8fbf971ec971e66059d"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_scenario.html#a1beb27b13217f8fbf971ec971e66059d">firestarr::sim::TestScenario::TestScenario</a></div><div class="ttdeci">TestScenario(Model *model, const shared_ptr&lt; topo::Cell &gt; &amp;start_cell, const topo::StartPoint &amp;start_point, const int start_date, const double end_date, wx::FireWeather *weather)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00132">Test.cpp:132</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_weather_html"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_weather.html">firestarr::sim::TestWeather</a></div><div class="ttdoc">A FireWeather stream with the same value for every date and time.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00078">Test.cpp:80</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1_test_weather_html_a335249fd3d30fd24499690087a281cdb"><div class="ttname"><a href="classfirestarr_1_1sim_1_1_test_weather.html#a335249fd3d30fd24499690087a281cdb">firestarr::sim::TestWeather::TestWeather</a></div><div class="ttdeci">TestWeather(const fuel::FuelType *fuel, const Day start_date, const wx::Dc &amp;dc, const wx::Bui &amp;bui, const wx::Dmc &amp;dmc, const wx::Ffmc &amp;ffmc, const wx::Wind &amp;wind)</div><div class="ttdoc">A Constant weather stream with only one possible fuel.</div><div class="ttdef"><b>Definition:</b> <a href="_test_8cpp_source.html#l00097">Test.cpp:97</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1topo_1_1_environment_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_environment.html">firestarr::topo::Environment</a></div><div class="ttdoc">The area that a Model is run for, with Fuel, Slope, and Aspect grids.</div><div class="ttdef"><b>Definition:</b> <a href="_environment_8h_source.html#l00041">Environment.h:42</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1topo_1_1_environment_html_ab3ad01dc9a53d4896f6fddd8175ea46a"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a">firestarr::topo::Environment::Environment</a></div><div class="ttdeci">constexpr Environment(Environment &amp;&amp;rhs) noexcept=default</div><div class="ttdoc">Move constructor.</div></div>
-<div class="ttc" id="aclassfirestarr_1_1topo_1_1_location_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_location.html">firestarr::topo::Location</a></div><div class="ttdoc">A location with a row and column.</div><div class="ttdef"><b>Definition:</b> <a href="_location_8h_source.html#l00027">Location.h:28</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1topo_1_1_start_point_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_start_point.html">firestarr::topo::StartPoint</a></div><div class="ttdoc">A Point that has sunrise and sunset times for each day.</div><div class="ttdef"><b>Definition:</b> <a href="_start_point_8h_source.html#l00028">StartPoint.h:29</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_accumulated_precipitation_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">firestarr::wx::AccumulatedPrecipitation</a></div><div class="ttdoc">Accumulated precipitation in mm.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00274">Weather.h:275</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_bui_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_bui.html">firestarr::wx::Bui</a></div><div class="ttdoc">Build-up Index value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00139">FWI.h:140</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_dc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_dc.html">firestarr::wx::Dc</a></div><div class="ttdoc">Drought Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00084">FWI.h:85</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_dmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_dmc.html">firestarr::wx::Dmc</a></div><div class="ttdoc">Duff Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00055">FWI.h:56</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_ffmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_ffmc.html">firestarr::wx::Ffmc</a></div><div class="ttdoc">Fine Fuel Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00028">FWI.h:29</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fire_weather_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fire_weather.html">firestarr::wx::FireWeather</a></div><div class="ttdoc">A stream of weather that gets used by a Scenario every Iteration.</div><div class="ttdef"><b>Definition:</b> <a href="_fire_weather_8h_source.html#l00036">FireWeather.h:37</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fire_weather_html_af2334a08dd51f5ccf1f80bf3dc435a32"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fire_weather.html#af2334a08dd51f5ccf1f80bf3dc435a32">firestarr::wx::FireWeather::FireWeather</a></div><div class="ttdeci">FireWeather(const set&lt; const fuel::FuelType * &gt; &amp;used_fuels, const map&lt; Day, FwiWeather &gt; &amp;data)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="_fire_weather_8cpp_source.html#l00592">FireWeather.cpp:592</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_relative_humidity_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_relative_humidity.html">firestarr::wx::RelativeHumidity</a></div><div class="ttdoc">Relative humidity as a percentage.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00043">Weather.h:44</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_temperature_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_temperature.html">firestarr::wx::Temperature</a></div><div class="ttdoc">Temperature in degrees Celsius.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00029">Weather.h:30</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_wind_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_wind.html">firestarr::wx::Wind</a></div><div class="ttdoc">Wind with a Speed and Direction.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00139">Weather.h:140</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1topo_1_1_location_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_location.html">firestarr::topo::Location</a></div><div class="ttdoc">A location with a row and column.</div><div class="ttdef"><b>Definition:</b> <a href="_location_8h_source.html#l00025">Location.h:26</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1topo_1_1_start_point_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1_start_point.html">firestarr::topo::StartPoint</a></div><div class="ttdoc">A Point that has sunrise and sunset times for each day.</div><div class="ttdef"><b>Definition:</b> <a href="_start_point_8h_source.html#l00026">StartPoint.h:27</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_accumulated_precipitation_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">firestarr::wx::AccumulatedPrecipitation</a></div><div class="ttdoc">Accumulated precipitation in mm.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00290">Weather.h:291</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_bui_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_bui.html">firestarr::wx::Bui</a></div><div class="ttdoc">Build-up Index value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00137">FWI.h:138</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_dc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_dc.html">firestarr::wx::Dc</a></div><div class="ttdoc">Drought Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00082">FWI.h:83</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_dmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_dmc.html">firestarr::wx::Dmc</a></div><div class="ttdoc">Duff Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00053">FWI.h:54</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_ffmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_ffmc.html">firestarr::wx::Ffmc</a></div><div class="ttdoc">Fine Fuel Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00026">FWI.h:27</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fire_weather_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fire_weather.html">firestarr::wx::FireWeather</a></div><div class="ttdoc">A stream of weather that gets used by a Scenario every Iteration.</div><div class="ttdef"><b>Definition:</b> <a href="_fire_weather_8h_source.html#l00034">FireWeather.h:35</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fire_weather_html_af2334a08dd51f5ccf1f80bf3dc435a32"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fire_weather.html#af2334a08dd51f5ccf1f80bf3dc435a32">firestarr::wx::FireWeather::FireWeather</a></div><div class="ttdeci">FireWeather(const set&lt; const fuel::FuelType * &gt; &amp;used_fuels, const map&lt; Day, FwiWeather &gt; &amp;data)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="_fire_weather_8cpp_source.html#l00584">FireWeather.cpp:584</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_relative_humidity_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_relative_humidity.html">firestarr::wx::RelativeHumidity</a></div><div class="ttdoc">Relative humidity as a percentage.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00041">Weather.h:42</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_temperature_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_temperature.html">firestarr::wx::Temperature</a></div><div class="ttdoc">Temperature in degrees Celsius.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00027">Weather.h:28</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_wind_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_wind.html">firestarr::wx::Wind</a></div><div class="ttdoc">Wind with a Speed and Direction.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00143">Weather.h:144</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
