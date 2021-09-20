@@ -100,7 +100,7 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">//      Weather Index System. Canadian Forest Service, Ottawa, Ont. For. Tech. Rep. 35.</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//      37 p.</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//      Equation numbers from VW87 are listed throughout, to the right of the equations in</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//      Equation numbers from VW87 are listed throughout, to the right of the equations</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//      in the code.</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//      A more recent technical description can be found in:</span></div>
@@ -141,7 +141,7 @@ $(function() {
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  Isi(Speed(0), Ffmc(0)),</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  Bui(Dmc(0), Dc(0)),</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  Fwi(Isi(Speed(0), Ffmc(0)), Bui(Dmc(0), Dc(0)))};</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">// The following two functions refer to the MEA daylength adjustment &#39;note&#39;.</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">// The following two functions refer to the MEA day length adjustment &#39;note&#39;.</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">//******************************************************************************************</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// Function Name: DayLengthFactor</span></div>
@@ -516,7 +516,7 @@ $(function() {
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;{</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;  <span class="keywordflow">if</span> (dmc.asDouble() &lt;= 0.4 * dc.asDouble())</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  {</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    <span class="comment">// HACK: this isn&#39;t normally part of it but it&#39;s division by 0 without this</span></div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    <span class="comment">// HACK: this isn&#39;t normally part of it, but it&#39;s division by 0 without this</span></div>
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    <span class="keywordflow">if</span> (0 == dc.asDouble())</div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    {</div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;      <span class="keywordflow">return</span> 0;</div>
@@ -667,70 +667,69 @@ $(function() {
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;  <span class="keyword">const</span> Wind wind(wd, ws);</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;  <span class="keywordflow">return</span> {tmp, rh, wind, apcp, ffmc, dmc, dc, isi, bui, fwi};</div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;}</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;<span class="preprocessor">#pragma warning(suppress: 26495)</span></div>
-<div class="line"><a name="l00601"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a113b0f8eb04afcb6bb1a18c32159ad83">  601</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(istringstream* iss, <span class="keywordtype">string</span>* str)</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(read(iss, str))</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;{</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;}</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;<span class="keywordtype">double</span> ffmc_effect(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;{</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> v = ffmc.asDouble();</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> mc = 147.2 * (101.0 - v) / (59.5 + v);</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;  <span class="keywordflow">return</span> 91.9 * exp(-0.1386 * mc) * (1 + pow(mc, 5.31) / 49300000.0);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;}</div>
-<div class="line"><a name="l00611"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#ad2ba954b026e1fab7e143b1f9f921111">  611</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_temperature.html">Temperature</a>&amp; tmp,</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_relative_humidity.html">RelativeHumidity</a>&amp; rh,</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind,</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">AccumulatedPrecipitation</a>&amp; apcp,</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">Dmc</a>&amp; dmc,</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">Dc</a>&amp; dc,</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>&amp; isi,</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">Bui</a>&amp; bui,</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>&amp; fwi) noexcept</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_weather.html">Weather</a>(tmp, rh, wind, apcp),</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    ffmc_(ffmc),</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    dmc_(dmc),</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    dc_(dc),</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <span class="comment">// HACK: recalculate so we can check that things are within tolerances</span></div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    isi_(<a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>(isi.asDouble(), wind.speed(), ffmc)),</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    bui_(<a class="code" href="classfirestarr_1_1wx_1_1_bui.html">Bui</a>(bui.asDouble(), dmc, dc)),</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    fwi_(<a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>(fwi.asDouble(), isi, bui)),</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    mc_ffmc_pct_(147.2 * (101 - ffmc.asDouble()) / (59.5 + ffmc.asDouble())),</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    mc_dmc_pct_(exp((dmc.asDouble() - 244.72) / -43.43) + 20),</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    ffmc_effect_(ffmc_effect(ffmc))</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;{</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;}</div>
-<div class="line"><a name="l00634"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a34f7274e30031aff53414470385959ee">  634</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx,</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind,</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>&amp; isi) noexcept</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx.tmp(),</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;               wx.rh(),</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;               wind,</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;               wx.apcp(),</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;               ffmc,</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;               wx.dmc(),</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;               wx.dc(),</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;               isi,</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;               wx.bui(),</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;               <a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>(isi, wx.bui()))</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;{</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;}</div>
-<div class="line"><a name="l00650"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a862fdaedb6eaef931e08f42dd40f7373">  650</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx, wind, ffmc, <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>(wind.speed(), ffmc))</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;{</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;}</div>
-<div class="line"><a name="l00654"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#ada19b4760d0d988f9156ffcf04cee200">  654</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_speed.html">Speed</a>&amp; ws, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx, <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>(wx.wind().direction(), ws), ffmc)</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;{</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;}</div>
-<div class="line"><a name="l00658"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">  658</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>() noexcept</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(Zero)</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;{</div>
+<div class="line"><a name="l00600"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a113b0f8eb04afcb6bb1a18c32159ad83">  600</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(istringstream* iss, <span class="keywordtype">string</span>* str)</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(read(iss, str))</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;{</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;}</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;<span class="keywordtype">double</span> ffmc_effect(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;{</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> v = ffmc.asDouble();</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> mc = 147.2 * (101.0 - v) / (59.5 + v);</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;  <span class="keywordflow">return</span> 91.9 * exp(-0.1386 * mc) * (1 + pow(mc, 5.31) / 49300000.0);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;}</div>
+<div class="line"><a name="l00610"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#ad2ba954b026e1fab7e143b1f9f921111">  610</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_temperature.html">Temperature</a>&amp; tmp,</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_relative_humidity.html">RelativeHumidity</a>&amp; rh,</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind,</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">AccumulatedPrecipitation</a>&amp; apcp,</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dmc.html">Dmc</a>&amp; dmc,</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_dc.html">Dc</a>&amp; dc,</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>&amp; isi,</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_bui.html">Bui</a>&amp; bui,</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>&amp; fwi) noexcept</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_weather.html">Weather</a>(tmp, rh, wind, apcp),</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    ffmc_(ffmc),</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    dmc_(dmc),</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    dc_(dc),</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="comment">// HACK: recalculate so that we can check that things are within tolerances</span></div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    isi_(<a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>(isi.asDouble(), wind.speed(), ffmc)),</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    bui_(<a class="code" href="classfirestarr_1_1wx_1_1_bui.html">Bui</a>(bui.asDouble(), dmc, dc)),</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    fwi_(<a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>(fwi.asDouble(), isi, bui)),</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    mc_ffmc_pct_(147.2 * (101 - ffmc.asDouble()) / (59.5 + ffmc.asDouble())),</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    mc_dmc_pct_(exp((dmc.asDouble() - 244.72) / -43.43) + 20),</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    ffmc_effect_(ffmc_effect(ffmc))</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;{</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;}</div>
+<div class="line"><a name="l00633"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a34f7274e30031aff53414470385959ee">  633</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx,</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind,</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>&amp; isi) noexcept</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx.tmp(),</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;               wx.rh(),</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;               wind,</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;               wx.apcp(),</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;               ffmc,</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;               wx.dmc(),</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;               wx.dc(),</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;               isi,</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;               wx.bui(),</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;               <a class="code" href="classfirestarr_1_1wx_1_1_fwi.html">Fwi</a>(isi, wx.bui()))</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;{</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;}</div>
+<div class="line"><a name="l00649"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a862fdaedb6eaef931e08f42dd40f7373">  649</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>&amp; wind, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx, wind, ffmc, <a class="code" href="classfirestarr_1_1wx_1_1_isi.html">Isi</a>(wind.speed(), ffmc))</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;{</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;}</div>
+<div class="line"><a name="l00653"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#ada19b4760d0d988f9156ffcf04cee200">  653</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>(<span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>&amp; wx, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_speed.html">Speed</a>&amp; ws, <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1_ffmc.html">Ffmc</a>&amp; ffmc) noexcept</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(wx, <a class="code" href="classfirestarr_1_1wx_1_1_wind.html">Wind</a>(wx.wind().direction(), ws), ffmc)</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;{</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;}</div>
+<div class="line"><a name="l00657"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">  657</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">FwiWeather::FwiWeather</a>() noexcept</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;  : <a class="code" href="classfirestarr_1_1wx_1_1_fwi_weather.html">FwiWeather</a>(Zero)</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;{</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;}</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;}</div>
 <div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;}</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;}</div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_accumulated_precipitation_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_accumulated_precipitation.html">firestarr::wx::AccumulatedPrecipitation</a></div><div class="ttdoc">Accumulated precipitation in mm.</div><div class="ttdef"><b>Definition:</b> <a href="_weather_8h_source.html#l00290">Weather.h:291</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_bui_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_bui.html">firestarr::wx::Bui</a></div><div class="ttdoc">Build-up Index value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00137">FWI.h:138</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_bui_html_a8632a02850972c53ee3ff1a035612910"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_bui.html#a8632a02850972c53ee3ff1a035612910">firestarr::wx::Bui::Bui</a></div><div class="ttdeci">Bui(double value, const Dmc &amp;dmc, const Dc &amp;dc) noexcept</div><div class="ttdoc">Calculate Build-up Index and verify previous value is within tolerance of calculated value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8cpp_source.html#l00462">FWI.cpp:462</a></div></div>
@@ -750,7 +749,7 @@ $(function() {
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_html_a163579c69c4ab84562b87278a2413cc6"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi.html#a163579c69c4ab84562b87278a2413cc6">firestarr::wx::Fwi::Fwi</a></div><div class="ttdeci">Fwi(double value, const Isi &amp;isi, const Bui &amp;bui) noexcept</div><div class="ttdoc">Calculate Fire Weather Index and verify previous value is within tolerance of calculated value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8cpp_source.html#l00509">FWI.cpp:509</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_html_a7b55defaa65dd3204db898ba775a1960"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi.html#a7b55defaa65dd3204db898ba775a1960">firestarr::wx::Fwi::Zero</a></div><div class="ttdeci">static const Fwi Zero</div><div class="ttdoc">Fire Weather Index of 0.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00184">FWI.h:184</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_weather_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi_weather.html">firestarr::wx::FwiWeather</a></div><div class="ttdoc">A Weather value with calculated FWI indices.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00212">FWI.h:214</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_weather_html_a9c7c092aec3a868dfa24d96e92ad8723"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">firestarr::wx::FwiWeather::FwiWeather</a></div><div class="ttdeci">FwiWeather() noexcept</div><div class="ttdoc">Construct with 0 for all values.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8cpp_source.html#l00658">FWI.cpp:658</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_weather_html_a9c7c092aec3a868dfa24d96e92ad8723"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi_weather.html#a9c7c092aec3a868dfa24d96e92ad8723">firestarr::wx::FwiWeather::FwiWeather</a></div><div class="ttdeci">FwiWeather() noexcept</div><div class="ttdoc">Construct with 0 for all values.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8cpp_source.html#l00657">FWI.cpp:657</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_fwi_weather_html_ac8410f95758d589647ce3ae3c1e6f485"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_fwi_weather.html#ac8410f95758d589647ce3ae3c1e6f485">firestarr::wx::FwiWeather::Zero</a></div><div class="ttdeci">static const FwiWeather Zero</div><div class="ttdoc">FwiWeather with 0 for all Indices.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00219">FWI.h:219</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_isi_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_isi.html">firestarr::wx::Isi</a></div><div class="ttdoc">Initial Spread Index value.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00109">FWI.h:110</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1_isi_html_a492b37b90f4997c3af15d7fd2c7e9878"><div class="ttname"><a href="classfirestarr_1_1wx_1_1_isi.html#a492b37b90f4997c3af15d7fd2c7e9878">firestarr::wx::Isi::Zero</a></div><div class="ttdeci">static const Isi Zero</div><div class="ttdoc">Initial Spread Index of 0.</div><div class="ttdef"><b>Definition:</b> <a href="_f_w_i_8h_source.html#l00128">FWI.h:128</a></div></div>

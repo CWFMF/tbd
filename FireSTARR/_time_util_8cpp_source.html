@@ -109,7 +109,7 @@ $(function() {
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="comment">// this doesn&#39;t set yday or other things properly, so convert to time and back</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  to_tm_no_fix(s, t);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">const</span> time_t t_t = mktime(t);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="comment">// HACK: use gmtime_s instead of localtime_s so it doesn&#39;t mess with hours based on DST</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="comment">// HACK: use gmtime_s instead of localtime_s so that it doesn&#39;t mess with hours based on DST</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  t = gmtime(&amp;t_t);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> to_ts(<span class="keyword">const</span> tm&amp; t, TIMESTAMP_STRUCT* s) noexcept</div>

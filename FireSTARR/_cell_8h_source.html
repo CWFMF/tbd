@@ -136,7 +136,7 @@ $(function() {
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
 <div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classfirestarr_1_1topo_1_1_cell.html#ae0d60dc2d64318f84eb5d2c5f28e8ee5">  102</a></span>&#160;  [[nodiscard]] constexpr SpreadKey <a class="code" href="classfirestarr_1_1topo_1_1_cell.html#ae0d60dc2d64318f84eb5d2c5f28e8ee5">key</a>() const noexcept</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="comment">// should be able to fit this in a uint32</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="comment">// should be able to fit this in uint32</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">//constexpr auto key_mask = AspectMask | FuelMask | SlopeMask;</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="comment">//return static_cast&lt;SpreadKey&gt;((topo_data_ &amp; key_mask) &gt;&gt; FuelShift);</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">// can just shift since these are the only bits left after</span></div>
