@@ -1,0 +1,5 @@
+<map id="firestarr::sim::Scenario::addSaveByOffset" name="firestarr::sim::Scenario::addSaveByOffset">
+<area shape="rect" id="node1" title="Add a save point for simulation data at the given offset." alt="" coords="5,39,155,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#a9cd85c4e83348d79cc9a7fb2f4e9aa6b" title="Add a save point for simulation data at given time." alt="" coords="209,5,359,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1FireWeather.php#a4f2e8d87a50db4bd00d1ef2d62fb026c" title="Minimum date present in FireWeather." alt="" coords="203,71,365,112"/>
+</map>

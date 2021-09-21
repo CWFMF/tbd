@@ -1,0 +1,4 @@
+<map id="firestarr::topo::map_xy_to_lat_lon" name="firestarr::topo::map_xy_to_lat_lon">
+<area shape="rect" id="node1" title="Converts Transverse Mercator to latitude/longitude." alt="" coords="5,5,132,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.php#a926c44909b052f3ed1216d7f6c341545" title="Computes the footpoint latitude." alt="" coords="180,5,332,47"/>
+</map>

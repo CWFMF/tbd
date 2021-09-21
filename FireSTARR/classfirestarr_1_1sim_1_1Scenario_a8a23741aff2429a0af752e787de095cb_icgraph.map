@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Scenario::saveIntensity" name="firestarr::sim::Scenario::saveIntensity">
+<area shape="rect" id="node1" title="Save burn intensity information." alt="" coords="200,5,349,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityObserver.php#a85b5f47d357206a4a5f1b1d076b73324" title="Save observations." alt="" coords="5,5,152,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="firestarr::util::find_rasters" name="firestarr::util::find_rasters">
+<area shape="rect" id="node1" title="Get a list of rasters in the given directory for the specified year." alt="" coords="508,5,623,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.php#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,5,460,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,237,47"/>
+<area shape="rect" id="node4" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
+</map>

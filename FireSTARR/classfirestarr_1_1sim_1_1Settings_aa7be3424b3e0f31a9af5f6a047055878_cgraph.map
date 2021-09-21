@@ -1,0 +1,5 @@
+<map id="firestarr::sim::Settings::rasterRoot" name="firestarr::sim::Settings::rasterRoot">
+<area shape="rect" id="node1" title="Root directory that raster inputs are stored in." alt="" coords="5,39,152,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="205,5,372,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a78fd346d09161684a77488de8028c938" title="Root directory that raster inputs are stored in." alt="" coords="200,71,377,112"/>
+</map>

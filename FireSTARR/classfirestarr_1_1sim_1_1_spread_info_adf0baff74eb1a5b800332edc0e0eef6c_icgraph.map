@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SpreadInfo::ffmcEffect" name="firestarr::sim::SpreadInfo::ffmcEffect">
-<area shape="rect" id="node1" title="FFMC effect used for spread." alt="" coords="215,5,376,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_spread_info.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
-</map>

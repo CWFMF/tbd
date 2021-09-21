@@ -1,7 +1,0 @@
-<map id="firestarr::topo::Location::row" name="firestarr::topo::Location::row">
-<area shape="rect" id="node1" title="Row." alt="" coords="228,111,407,138"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_location.html#a9be1fc2f3fa21f7b0b29a8224d5688e1" title="Create a hash from given values." alt="" coords="17,5,169,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_intensity_map.html#a9c24dbd41b96c1bbdf93c62725f4c0f2" title="Whether or not all Locations surrounding the given Location are burned." alt="" coords="19,71,166,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1_environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="5,136,180,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1_perimeter.html#a9f31a946f932f6eea85bc1f936bfbe95" title="Create a Perimeter of the given size at the given Location." alt="" coords="13,201,172,243"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="firestarr::wx::FireWeather" name="firestarr::wx::FireWeather">
-<area shape="rect" id="node1" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="265,329,428,568"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,160,152,252"/>
-<area shape="rect" id="node3" title=" " alt="" coords="49,5,108,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="244,167,295,245"/>
-<area shape="rect" id="node5" title=" " alt="" coords="397,167,453,245"/>
-<area shape="rect" id="node6" title=" " alt="" coords="519,167,577,245"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::fuel::FuelType::surfaceFuelConsumption" name="firestarr::fuel::FuelType::surfaceFuelConsumption">
-<area shape="rect" id="node1" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="225,5,397,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_variable.html#aab3b4418e22678a7af192887980f8bc5" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,5,177,47"/>
-</map>

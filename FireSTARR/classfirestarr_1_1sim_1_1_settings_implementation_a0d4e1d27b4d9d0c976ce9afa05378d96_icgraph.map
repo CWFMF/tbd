@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::thresholdHourlyWeight" name="firestarr::sim::SettingsImplementation::thresholdHourlyWeight">
-<area shape="rect" id="node1" title="Weight to give to hourly part of thresholds." alt="" coords="212,5,419,61"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings.html#a026d88f079fdd646fa35000aabf494fe" title="Weight to give to hourly part of thresholds." alt="" coords="5,13,164,54"/>
-</map>

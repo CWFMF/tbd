@@ -1,0 +1,11 @@
+<map id="firestarr::sim::SourceObserver" name="firestarr::sim::SourceObserver">
+<area shape="rect" id="node1" title="Tracks source Cell that fire arrived in Cell from." alt="" coords="28,1147,220,1312"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1MapObserver.php" title=" " alt="" coords="36,859,212,1097"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1IObserver.php" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,315,160,524"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1MapObserver.php" title="An IObserver that tracks notification data using a GridMap." alt="" coords="150,587,357,796"/>
+<area shape="rect" id="node5" title=" " alt="" coords="184,373,344,465"/>
+<area shape="rect" id="node6" title=" " alt="" coords="192,153,328,230"/>
+<area shape="rect" id="node7" title=" " alt="" coords="241,5,279,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="373,381,451,458"/>
+<area shape="rect" id="node9" title=" " alt="" coords="351,145,475,237"/>
+</map>

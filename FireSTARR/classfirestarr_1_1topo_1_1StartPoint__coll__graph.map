@@ -1,0 +1,6 @@
+<map id="firestarr::topo::StartPoint" name="firestarr::topo::StartPoint">
+<area shape="rect" id="node1" title="A Point that has sunrise and sunset times for each day." alt="" coords="119,403,279,583"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Point.php" title="A geographic location in lat/long coordinates." alt="" coords="5,160,137,340"/>
+<area shape="rect" id="node3" title=" " alt="" coords="41,5,101,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="161,204,325,296"/>
+</map>

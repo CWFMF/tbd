@@ -1,0 +1,4 @@
+<map id="firestarr::sim::CriticalSection::CriticalSection" name="firestarr::sim::CriticalSection::CriticalSection">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Semaphore.php#a2fa64f41661a6f5d219cc12417f25fe6" title="Wait until allowed to run." alt="" coords="209,5,373,47"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::wx::RelativeHumidity" name="firestarr::wx::RelativeHumidity">
-<area shape="rect" id="node1" title="Relative humidity as a percentage." alt="" coords="5,380,196,457"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,5,182,332"/>
-</map>

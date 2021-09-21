@@ -1,4 +1,0 @@
-<map id="firestarr::topo::Environment::makeProbabilityMap" name="firestarr::topo::Environment::makeProbabilityMap">
-<area shape="rect" id="node1" title="Make a ProbabilityMap that covers this Environment." alt="" coords="199,5,373,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#aec7bd307eae2dba906af6c0b7c481491" title="Create a ProbabilityMap with the same extent as this." alt="" coords="5,5,151,47"/>
-</map>

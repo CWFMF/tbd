@@ -1,0 +1,5 @@
+<map id="firestarr::wx::Fwi" name="firestarr::wx::Fwi">
+<area shape="rect" id="node1" title="Fire Weather Index value." alt="" coords="29,521,144,613"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,145,168,472"/>
+<area shape="rect" id="node3" title=" " alt="" coords="57,5,117,83"/>
+</map>

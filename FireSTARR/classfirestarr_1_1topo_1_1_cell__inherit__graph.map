@@ -1,4 +1,0 @@
-<map id="firestarr::topo::Cell" name="firestarr::topo::Cell">
-<area shape="rect" id="node1" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="19,307,143,692"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_location.html" title="A location with a row and column." alt="" coords="5,5,157,259"/>
-</map>

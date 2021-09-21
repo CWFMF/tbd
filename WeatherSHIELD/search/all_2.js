@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['df_4',['df',['../namespacereanalysis1.html#a445721b78312f1090bae8978fcfcd47a',1,'reanalysis1']]],
-  ['dir_5',['dir',['../classgepsloader_1_1_h_p_f_x_loader.html#a9be1788bcfbff1af0225307506d0b008',1,'gepsloader.HPFXLoader.dir()'],['../classgribloader_1_1_grib_loader.html#a07630653b3e86331e058b878bd6f1f57',1,'gribloader.GribLoader.dir()'],['../classrepsloader_1_1_h_p_f_x_loader.html#afdfff5fdb00c979c1a15c1fc6b0bbc0a',1,'repsloader.HPFXLoader.dir()']]],
-  ['dir_5fdata_6',['DIR_DATA',['../classweatherloader_1_1_weather_loader.html#a26cea160ab067cb02b512da51fe4829e',1,'weatherloader.WeatherLoader.DIR_DATA()'],['../classweatherloader_1_1_weather_loader.html#a36d65431d200cc119ae56af4cdf46c3c',1,'weatherloader.WeatherLoader.DIR_DATA()'],['../namespacegethistoric.html#a7098882794526c4d6e39f9df0302e4d6',1,'gethistoric.DIR_DATA()'],['../namespacereanalysis1.html#ae3464051909f2ea3247177ecac35043a',1,'reanalysis1.DIR_DATA()']]],
-  ['do_5fsave_7',['do_save',['../namespacegepsloader.html#ab9caad6d0d8d2a85fd5677fde0cfba65',1,'gepsloader.do_save()'],['../namespacerepsloader.html#a99c7914e9320bde83d0d73298769668d',1,'repsloader.do_save()']]]
+  ['chartjs_2dplugin_2dannotation_2ejs_49',['chartjs-plugin-annotation.js',['../md_WeatherSHIELD_gui_js_chartjs_plugin_annotation_README.php',1,'']]],
+  ['check_5fexists_50',['check_exists',['../classweatherloader_1_1WeatherLoader.php#ad4ce88d47addf331674b27e0271c8d19',1,'weatherloader.WeatherLoader.check_exists()'],['../namespacegethistoric.php#a2b8e887f9517ad7d239c527e56965ac5',1,'gethistoric.check_exists()']]],
+  ['cnxn_51',['cnxn',['../namespacereanalysis1.php#a4adf52027b704dee32455c3d71aaea49',1,'reanalysis1']]],
+  ['columns_52',['COLUMNS',['../namespacegethistoric.php#ab926e044a82425e1e8383c3695aa51e4',1,'gethistoric']]],
+  ['connect_53',['connect',['../connection_8php.php#a1b1bd9b3f45a5fbd2549355282cdc96f',1,'connection.php']]],
+  ['connection_2ephp_54',['connection.php',['../connection_8php.php',1,'']]]
 ];

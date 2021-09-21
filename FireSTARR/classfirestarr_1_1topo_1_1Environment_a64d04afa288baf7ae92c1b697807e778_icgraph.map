@@ -1,0 +1,4 @@
+<map id="firestarr::topo::Environment::load" name="firestarr::topo::Environment::load">
+<area shape="rect" id="node1" title="Load from rasters." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,5,180,47"/>
+</map>

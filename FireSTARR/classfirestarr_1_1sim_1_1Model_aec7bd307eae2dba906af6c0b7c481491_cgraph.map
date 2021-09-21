@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Model::makeProbabilityMap" name="firestarr::sim::Model::makeProbabilityMap">
+<area shape="rect" id="node1" title="Create a ProbabilityMap with the same extent as this." alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.php#ab9b4d78939aff53342954eeae9511f91" title="Make a ProbabilityMap that covers this Environment." alt="" coords="199,5,373,47"/>
+</map>

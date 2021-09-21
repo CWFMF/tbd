@@ -1,0 +1,5 @@
+<map id="firestarr::sim::Settings::thresholdDailyWeight" name="firestarr::sim::Settings::thresholdDailyWeight">
+<area shape="rect" id="node1" title="Weight to give to daily part of thresholds." alt="" coords="5,41,155,83"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="219,5,385,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a981bd066a8658bb6295b4e007cd0a2a3" title="Weight to give to daily part of thresholds." alt="" coords="203,70,401,126"/>
+</map>

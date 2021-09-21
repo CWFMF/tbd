@@ -1,5 +1,0 @@
-<map id="firestarr::topo::Perimeter" name="firestarr::topo::Perimeter">
-<area shape="rect" id="node1" title="Perimeter for an existing fire to initialize a simulation with." alt="" coords="5,329,164,451"/>
-<area shape="rect" id="node2" title=" " alt="" coords="23,160,147,252"/>
-<area shape="rect" id="node3" title=" " alt="" coords="65,5,104,83"/>
-</map>

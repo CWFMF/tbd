@@ -1,0 +1,7 @@
+<map id="firestarr::sim::Scenario::saveObservers" name="firestarr::sim::Scenario::saveObservers">
+<area shape="rect" id="node1" title="Tell Observers to save their data for the given time." alt="" coords="5,39,155,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#a27a9b11eea8e32d1ca35af86310980e3" title="Tell Observers to save their data with base file name." alt="" coords="203,5,352,47"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.php#af9a9411e412fec6b624ba4b8a49d4992" title="Simulation number." alt="" coords="203,71,352,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#abd8c41ea24e101cec7e9d848cc74c69d" title="Directory to output files to." alt="" coords="400,5,549,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.php#ab8089299256f21f125d079f00c1aa13c" title="Directory to output results to." alt="" coords="597,5,731,47"/>
+</map>

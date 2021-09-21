@@ -1,0 +1,9 @@
+<map id="firestarr::wx::FwiWeather::dc" name="firestarr::wx::FwiWeather::dc">
+<area shape="rect" id="node1" title="Drought Code." alt="" coords="515,81,697,108"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#a0144e5b3444b559306c9a6550bd5f59e" title="Drought Code used for spread." alt="" coords="285,5,467,32"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.php#a8b72761ac7432b0f76ef550062d5d622" title=" " alt="" coords="300,56,452,83"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1wx.php#af9fcd99c055c5de74bd83cb4b3bec56f" title=" " alt="" coords="302,107,450,133"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.php#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="309,158,443,199"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,158,237,199"/>
+<area shape="rect" id="node7" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,165,56,192"/>
+</map>

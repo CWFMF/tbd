@@ -1,0 +1,8 @@
+<map id="firestarr::topo::Cell::slope" name="firestarr::topo::Cell::slope">
+<area shape="rect" id="node1" title="Slope (degrees)" alt="" coords="437,71,561,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.php#ab7aa648eae4d4824bba7997d637bdf1b" title="Hash attributes into a Topo value." alt="" coords="240,5,364,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.php#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="215,71,389,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#a8c5f2a5a7a55f274cf78d0cf48123b04" title="Slope used for spread (%)" alt="" coords="221,136,383,177"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#adbeede18d02465314d58c50b5ff4e8df" title="Slope factor calculated from percent slope." alt="" coords="5,103,167,144"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,168,167,209"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="firestarr::fuel::FuelBase::duffDepth" name="firestarr::fuel::FuelBase::duffDepth">
+<area shape="rect" id="node1" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="609,35,763,76"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a6c4b4453a76327f7dc21e9a7d7984ac9" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="408,35,561,76"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a28f0cec23e67ced740f4f8c481b2f272" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="207,5,360,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a748d7f71e6cb627cdcd62045900ca491" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,159,76"/>
+</map>

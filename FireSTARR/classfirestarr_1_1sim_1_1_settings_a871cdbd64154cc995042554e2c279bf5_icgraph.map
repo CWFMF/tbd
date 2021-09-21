@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Settings::minimumSimulationRounds" name="firestarr::sim::Settings::minimumSimulationRounds">
-<area shape="rect" id="node1" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="384,39,571,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="195,5,328,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1_statistics.html#a93daac57a9b465d8823994c9b563e7cf" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="187,71,336,112"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,139,47"/>
-</map>

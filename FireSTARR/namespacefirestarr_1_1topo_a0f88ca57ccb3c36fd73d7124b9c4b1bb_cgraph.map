@@ -1,0 +1,9 @@
+<map id="firestarr::topo::utm_to_lat_lon" name="firestarr::topo::utm_to_lat_lon">
+<area shape="rect" id="node1" title="Convert UTM to latitude/longitude." alt="" coords="5,39,129,80"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.php#a906c38f295d21066a516d70422bd2b24" title="Converts Transverse Mercator to latitude/longitude." alt="" coords="177,5,304,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.php#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="179,71,303,112"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.php#a926c44909b052f3ed1216d7f6c341545" title="Computes the footpoint latitude." alt="" coords="352,5,504,47"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="375,71,481,112"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.php#a592202c035b67668804735681230bd48" title=" " alt="" coords="352,136,504,177"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="552,71,659,112"/>
+</map>

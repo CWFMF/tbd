@@ -1,0 +1,4 @@
+<map id="gribloader.GribLoader.load_records" name="gribloader.GribLoader.load_records">
+<area shape="rect" id="node1" title="Load the latest records using the specified interval to determine run." alt="" coords="209,5,381,47"/>
+<area shape="rect" id="node2" href="$classgefsloader_1_1GefsLoader.php#a81e98b4f0889d769a3bfe27e43f998aa" title="Instantiate class." alt="" coords="5,5,161,47"/>
+</map>

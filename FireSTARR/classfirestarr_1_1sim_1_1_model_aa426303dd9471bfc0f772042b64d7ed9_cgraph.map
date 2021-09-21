@@ -1,8 +1,0 @@
-<map id="firestarr::sim::Model::makeStarts" name="firestarr::sim::Model::makeStarts">
-<area shape="rect" id="node1" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="5,64,139,105"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="419,37,552,79"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1_environment.html#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="187,31,361,72"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1_model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="207,96,341,137"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="409,155,561,196"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="609,67,784,108"/>
-</map>

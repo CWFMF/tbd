@@ -1,4 +1,0 @@
-<map id="firestarr::data::GridBase::createPrj" name="firestarr::data::GridBase::createPrj">
-<area shape="rect" id="node1" title="Create .prj file in directory with base name for file." alt="" coords="204,5,360,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_grid_map.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="5,5,156,47"/>
-</map>

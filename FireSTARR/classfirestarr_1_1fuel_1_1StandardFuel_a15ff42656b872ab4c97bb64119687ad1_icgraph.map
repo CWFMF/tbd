@@ -1,0 +1,4 @@
+<map id="firestarr::fuel::StandardFuel::limitIsf" name="firestarr::fuel::StandardFuel::limitIsf">
+<area shape="rect" id="node1" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="200,5,351,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php#acd335257941e3b4780ebec5d42404f4d" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,152,47"/>
+</map>

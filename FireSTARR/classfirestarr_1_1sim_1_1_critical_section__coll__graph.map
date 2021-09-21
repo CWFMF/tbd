@@ -1,7 +1,0 @@
-<map id="firestarr::sim::CriticalSection" name="firestarr::sim::CriticalSection">
-<area shape="rect" id="node1" title="Indicates a section of code that is limited to a certain number of threads running at once." alt="" coords="115,373,254,539"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_semaphore.html" title="Provides the ability to limit number of threads running at once." alt="" coords="103,145,267,311"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,132,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="156,5,213,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="245,5,284,83"/>
-</map>

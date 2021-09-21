@@ -1,0 +1,52 @@
+<map id="firestarr::logging::Log::getLogLevel" name="firestarr::logging::Log::getLogLevel">
+<area shape="rect" id="node1" title="Get current logging level." alt="" coords="1285,2083,1413,2124"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="1100,739,1212,780"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1logging_1_1Log.php#a07c9d1bd50a8d2f80fb7d8840008e443" title="Decrease amount of logging output by one level." alt="" coords="1075,2200,1237,2241"/>
+<area shape="rect" id="node27" href="$namespacefirestarr_1_1logging.php#aa744a6caeb1cf6e09066cc5bd79af369" title="Log with ERROR level." alt="" coords="1100,1799,1212,1840"/>
+<area shape="rect" id="node30" href="$namespacefirestarr_1_1logging.php#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="1100,2505,1212,2547"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1logging_1_1Log.php#a754395053c108ce52922eaee737584b7" title="Increase amount of logging output by one level." alt="" coords="1077,2571,1235,2612"/>
+<area shape="rect" id="node34" href="$namespacefirestarr_1_1logging.php#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="1100,1391,1212,1432"/>
+<area shape="rect" id="node39" href="$namespacefirestarr_1_1logging.php#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="1100,2083,1212,2124"/>
+<area shape="rect" id="node47" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="1100,261,1212,303"/>
+<area shape="rect" id="node50" href="$namespacefirestarr_1_1logging.php#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="883,2629,995,2671"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.php#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="861,356,1017,397"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#aa24e2a528711f734fa45f93b817bf0af" title="Constructor." alt="" coords="852,589,1027,631"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.php#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="861,1092,1017,1133"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Environment.php#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="327,2253,501,2295"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Environment.php#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,816,501,857"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="125,1349,258,1391"/>
+<area shape="rect" id="node14" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,1386,56,1413"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.php#ac4159bf05562f6c9816718e331773233" title="Constructor." alt="" coords="873,291,1006,332"/>
+<area shape="rect" id="node16" href="$namespacefirestarr_1_1util.php#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="880,421,999,463"/>
+<area shape="rect" id="node19" href="$namespacefirestarr_1_1data.php#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="876,655,1003,696"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Model.php#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="873,873,1006,915"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="853,1041,1026,1067"/>
+<area shape="rect" id="node23" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="354,886,474,913"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="610,1967,743,2008"/>
+<area shape="rect" id="node25" href="$namespacefirestarr_1_1data.php#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="866,721,1013,747"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridMap.php#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="601,297,752,339"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="589,1039,764,1080"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1topo.php#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="613,1104,740,1145"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1ConstantGrid.php#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="599,2253,754,2295"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,2253,279,2295"/>
+<area shape="rect" id="node17" href="$namespacefirestarr_1_1util.php#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="619,705,734,747"/>
+<area shape="rect" id="node18" href="$namespacefirestarr_1_1util.php#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="617,421,736,463"/>
+<area shape="rect" id="node22" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="604,1221,749,1247"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Model.php#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="873,1580,1006,1621"/>
+<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Model.php#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="610,1580,743,1621"/>
+<area shape="rect" id="node31" href="$namespacefirestarr_1_1data.php#afdb97071581cec39531413a6d62997bc" title=" " alt="" coords="878,2747,1001,2788"/>
+<area shape="rect" id="node32" href="$namespacefirestarr_1_1wx.php#a408ab9942535e94b574a723e4356d6a9" title=" " alt="" coords="880,2813,999,2839"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1topo_1_1BurnedMap.php#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="855,1697,1023,1739"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="602,93,751,135"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1data_1_1GridMap.php#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="864,1361,1015,1403"/>
+<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="549,2372,804,2413"/>
+<area shape="rect" id="node40" href="$namespacefirestarr_1_1sim.php#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="880,2017,999,2059"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1topo_1_1Environment.php#af0a0f163eb3a3fa210b504466683519e" title="Load from rasters." alt="" coords="852,2265,1027,2307"/>
+<area shape="rect" id="node42" href="$namespacefirestarr_1_1sim.php#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="878,2083,1001,2124"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1ProbabilityMap.php#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="860,2331,1019,2372"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Semaphore.php#aed3949517b62c68db0f26588013473b3" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="857,2396,1021,2437"/>
+<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1ProbabilityMap.php#a90df654319d36e91f11c5bf941327796" title="Output Statistics to log." alt="" coords="860,2461,1019,2503"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1util_1_1UsageCount.php#a6a327e552b07301e571a206d7fb6fe33" title=" " alt="" coords="856,2200,1023,2241"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1Scenario.php#ae9fea7b9a4248046eb5886fd5b431ed6" title="End the simulation." alt="" coords="865,123,1014,164"/>
+<area shape="rect" id="node49" href="$classfirestarr_1_1sim_1_1Scenario.php#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="865,5,1014,47"/>
+</map>

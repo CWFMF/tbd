@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Model::cellSize" name="firestarr::sim::Model::cellSize">
+<area shape="rect" id="node1" title="Cell width and height (m)" alt="" coords="5,5,139,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.php#a6bf714ddd3ad0a465c572c8ef5ba5041" title="Cell width and height (m)" alt="" coords="187,5,361,47"/>
+</map>

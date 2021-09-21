@@ -1,4 +1,0 @@
-<map id="firestarr::fuel::StandardFuel::cbh" name="firestarr::fuel::StandardFuel::cbh">
-<area shape="rect" id="node1" title="Crown base height (m) [ST&#45;X&#45;3 table 8]." alt="" coords="239,5,389,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#ab81c50aaf3fb129f3e4aae527567da92" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="5,5,191,47"/>
-</map>

@@ -1,0 +1,13 @@
+<map id="firestarr::wx::operator!=" name="firestarr::wx::operator!=">
+<area shape="rect" id="node1" title=" " alt="" coords="5,261,157,287"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Weather.php#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="231,5,373,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1FwiWeather.php#adf347f50c4b23cf17c9d2a8f0620401e" title="Build&#45;up Index." alt="" coords="209,71,395,98"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="211,122,393,149"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="205,173,399,199"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="221,224,383,265"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a77bad366f94af4f7a9cee93f35d936d9" title="Fire Weather Index." alt="" coords="209,290,395,317"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a6cdd0a32aa4f35138f815d8ffb64a627" title="Initial Spread Index." alt="" coords="211,341,393,367"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1wx_1_1Weather.php#a3fd85062c272289ff819277f87f7fc11" title="Relative Humidity (%)" alt="" coords="223,391,381,418"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1Weather.php#acdb0256f8c0fa138bfcf636291828a9b" title="Temperature (Celsius)" alt="" coords="217,442,387,469"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1wx_1_1Weather.php#abdf7e966675f366db49fd09057ad554c" title="Wind (km/h)" alt="" coords="231,493,373,535"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="gethistoric.load_file" name="gethistoric.load_file">
 <area shape="rect" id="node1" title="Load data for a given run into the database." alt="" coords="5,31,137,57"/>
-<area shape="rect" id="node2" href="$namespacegethistoric.html#a2b8e887f9517ad7d239c527e56965ac5" title="Check if data for given Generated time already exists." alt="" coords="187,5,349,32"/>
-<area shape="rect" id="node3" href="$namespacegethistoric.html#ad4347b4a779c58124a7cba92612b28c9" title="Generates name to use for file with given run data." alt="" coords="185,56,351,83"/>
+<area shape="rect" id="node2" href="$namespacegethistoric.php#a2b8e887f9517ad7d239c527e56965ac5" title="Check if data for given Generated time already exists." alt="" coords="187,5,349,32"/>
+<area shape="rect" id="node3" href="$namespacegethistoric.php#ad4347b4a779c58124a7cba92612b28c9" title="Generates name to use for file with given run data." alt="" coords="185,56,351,83"/>
 </map>

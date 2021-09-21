@@ -1,0 +1,9 @@
+<map id="firestarr::data::GridMap::makeEdge" name="firestarr::data::GridMap::makeEdge">
+<area shape="rect" id="node1" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="5,104,156,145"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.php#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="204,5,360,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.php#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="204,71,360,112"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.php#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="226,136,338,177"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridBase.php#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="204,201,360,243"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="408,104,536,145"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="416,169,528,211"/>
+</map>

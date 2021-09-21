@@ -1,0 +1,4 @@
+<map id="firestarr::wx::Direction::asDegrees" name="firestarr::wx::Direction::asDegrees">
+<area shape="rect" id="node1" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="197,5,331,47"/>
+</map>

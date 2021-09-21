@@ -1,5 +1,0 @@
-<map id="firestarr::topo::Environment::Environment" name="firestarr::topo::Environment::Environment">
-<area shape="rect" id="node1" title="Move constructor." alt="" coords="451,5,625,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_environment_info.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,5,180,47"/>
-</map>

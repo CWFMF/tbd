@@ -1,0 +1,5 @@
+<map id="firestarr::wx::Wind::speed" name="firestarr::wx::Wind::speed">
+<area shape="rect" id="node1" title="Speed of wind (km/h)" alt="" coords="215,27,337,69"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1wx.php#ad74ffb0b11d7b43a88de767bd8a69f9e" title=" " alt="" coords="12,5,160,32"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,57,167,98"/>
+</map>

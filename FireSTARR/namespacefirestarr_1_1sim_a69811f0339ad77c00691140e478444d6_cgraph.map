@@ -1,0 +1,5 @@
+<map id="firestarr::sim::make_prob_map" name="firestarr::sim::make_prob_map">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.php#aec7bd307eae2dba906af6c0b7c481491" title="Create a ProbabilityMap with the same extent as this." alt="" coords="184,5,329,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.php#ab9b4d78939aff53342954eeae9511f91" title="Make a ProbabilityMap that covers this Environment." alt="" coords="377,5,552,47"/>
+</map>

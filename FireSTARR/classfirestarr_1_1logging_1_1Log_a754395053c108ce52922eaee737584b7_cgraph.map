@@ -1,0 +1,4 @@
+<map id="firestarr::logging::Log::increaseLogLevel" name="firestarr::logging::Log::increaseLogLevel">
+<area shape="rect" id="node1" title="Increase amount of logging output by one level." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="212,5,340,47"/>
+</map>

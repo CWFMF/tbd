@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Scenario::reset" name="firestarr::sim::Scenario::reset">
-<area shape="rect" id="node1" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,39,155,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_spread_info.html#a7dd88c0c9dc866831840e584801b440b" title="Determine rate of spread from probability of spread threshold." alt="" coords="203,5,393,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_scenario.html#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="223,71,373,112"/>
-</map>

@@ -1,0 +1,5 @@
+<map id="firestarr::sim::Settings::minimumSimulationRounds" name="firestarr::sim::Settings::minimumSimulationRounds">
+<area shape="rect" id="node1" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="5,41,192,83"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="272,5,439,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="240,70,471,126"/>
+</map>

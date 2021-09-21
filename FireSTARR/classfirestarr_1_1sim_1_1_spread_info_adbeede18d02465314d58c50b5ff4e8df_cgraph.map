@@ -1,5 +1,0 @@
-<map id="firestarr::sim::SpreadInfo::slopeFactor" name="firestarr::sim::SpreadInfo::slopeFactor">
-<area shape="rect" id="node1" title="Slope factor calculated from percent slope." alt="" coords="5,5,167,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_spread_info.html#a8c5f2a5a7a55f274cf78d0cf48123b04" title="Slope used for spread (%)" alt="" coords="215,5,376,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_cell.html#a81d71a05a8968b8145552a630ab861a5" title="Slope (degrees)" alt="" coords="424,5,548,47"/>
-</map>

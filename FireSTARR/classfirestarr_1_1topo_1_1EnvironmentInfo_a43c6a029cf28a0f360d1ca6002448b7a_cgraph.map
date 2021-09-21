@@ -1,0 +1,4 @@
+<map id="firestarr::topo::EnvironmentInfo::proj4" name="firestarr::topo::EnvironmentInfo::proj4">
+<area shape="rect" id="node1" title="UTM projection that this uses." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.php#a775dda8c067476d971c57a3e880c46d1" title="Proj4 string defining coordinate system for this grid. Must be a UTM projection." alt="" coords="228,5,384,47"/>
+</map>

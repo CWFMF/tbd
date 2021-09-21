@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelVariable::surfaceFuelConsumption" name="firestarr::fuel::FuelVariable::surfaceFuelConsumption">
-<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,27,177,69"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_spread_info.html#adaa1400b21083b1b7ca63896799d03de" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="225,5,407,32"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_fuel_type.html#a8f3010d1b2fb22d7b8c4c0cd53d72374" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="230,57,402,98"/>
-</map>

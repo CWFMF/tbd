@@ -1,13 +1,13 @@
 <map id="object" name="object">
 <area shape="rect" id="node1" title=" " alt="" coords="427,5,484,83"/>
-<area shape="rect" id="node2" href="$classgepsloader_1_1_h_p_f_x_loader_1_1_weather_index.html" title=" " alt="" coords="5,153,220,274"/>
-<area shape="rect" id="node3" href="$classgribloader_1_1_grib_loader_1_1_weather_index.html" title=" " alt="" coords="244,153,440,274"/>
-<area shape="rect" id="node4" href="$classrepsloader_1_1_h_p_f_x_loader_1_1_weather_index.html" title=" " alt="" coords="464,153,676,274"/>
-<area shape="rect" id="node5" href="$classweatherloader_1_1_weather_loader.html" title=" " alt="" coords="701,131,895,296"/>
-<area shape="rect" id="node6" href="$classgepsloader_1_1_h_p_f_x_loader.html" title=" " alt="" coords="524,425,691,619"/>
-<area shape="rect" id="node8" href="$classgribloader_1_1_grib_loader.html" title=" " alt="" coords="715,344,881,700"/>
-<area shape="rect" id="node10" href="$classrepsloader_1_1_h_p_f_x_loader.html" title=" " alt="" coords="905,425,1072,619"/>
-<area shape="rect" id="node7" href="$classgepsloader_1_1_geps_loader.html" title=" " alt="" coords="528,748,687,840"/>
-<area shape="rect" id="node9" href="$classgefsloader_1_1_gefs_loader.html" title=" " alt="" coords="721,755,875,833"/>
-<area shape="rect" id="node11" href="$classrepsloader_1_1_geps_loader.html" title=" " alt="" coords="911,748,1067,840"/>
+<area shape="rect" id="node2" href="$classgepsloader_1_1HPFXLoader_1_1WeatherIndex.php" title=" " alt="" coords="5,153,220,274"/>
+<area shape="rect" id="node3" href="$classgribloader_1_1GribLoader_1_1WeatherIndex.php" title=" " alt="" coords="244,153,440,274"/>
+<area shape="rect" id="node4" href="$classrepsloader_1_1HPFXLoader_1_1WeatherIndex.php" title=" " alt="" coords="464,153,676,274"/>
+<area shape="rect" id="node5" href="$classweatherloader_1_1WeatherLoader.php" title=" " alt="" coords="701,131,895,296"/>
+<area shape="rect" id="node6" href="$classgepsloader_1_1HPFXLoader.php" title=" " alt="" coords="524,425,691,619"/>
+<area shape="rect" id="node8" href="$classgribloader_1_1GribLoader.php" title=" " alt="" coords="715,344,881,700"/>
+<area shape="rect" id="node10" href="$classrepsloader_1_1HPFXLoader.php" title=" " alt="" coords="905,425,1072,619"/>
+<area shape="rect" id="node7" href="$classgepsloader_1_1GepsLoader.php" title=" " alt="" coords="528,748,687,840"/>
+<area shape="rect" id="node9" href="$classgefsloader_1_1GefsLoader.php" title=" " alt="" coords="721,755,875,833"/>
+<area shape="rect" id="node11" href="$classrepsloader_1_1GepsLoader.php" title=" " alt="" coords="911,748,1067,840"/>
 </map>

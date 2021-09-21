@@ -1,0 +1,15 @@
+<map id="firestarr::topo::BurnedMap" name="firestarr::topo::BurnedMap">
+<area shape="rect" id="node1" title="A map of locations which have burned in a Scenario." alt="" coords="219,2231,387,2308"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridMap.php" title=" " alt="" coords="221,1840,386,2181"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridData.php" title="A Grid that defines the data structure used for storing values." alt="" coords="244,935,397,1115"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1GridData.php" title=" " alt="" coords="137,1192,297,1387"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1Grid.php" title=" " alt="" coords="109,721,236,872"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.php" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="95,345,251,672"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,147,65,224"/>
+<area shape="rect" id="node7" title=" " alt="" coords="112,147,151,224"/>
+<area shape="rect" id="node8" title=" " alt="" coords="175,147,253,224"/>
+<area shape="rect" id="node9" title=" " alt="" coords="152,5,276,97"/>
+<area shape="rect" id="node10" title=" " alt="" coords="278,147,329,224"/>
+<area shape="rect" id="node11" title=" " alt="" coords="333,758,372,835"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1data_1_1GridMap.php" title="A GridData that uses an unordered_map for storage." alt="" coords="151,1436,317,1777"/>
+</map>

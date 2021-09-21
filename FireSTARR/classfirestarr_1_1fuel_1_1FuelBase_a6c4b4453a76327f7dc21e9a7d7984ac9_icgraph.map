@@ -1,0 +1,5 @@
+<map id="firestarr::fuel::FuelBase::dmcRatio" name="firestarr::fuel::FuelBase::dmcRatio">
+<area shape="rect" id="node1" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="408,35,561,76"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a28f0cec23e67ced740f4f8c481b2f272" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="207,5,360,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a748d7f71e6cb627cdcd62045900ca491" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,159,76"/>
+</map>

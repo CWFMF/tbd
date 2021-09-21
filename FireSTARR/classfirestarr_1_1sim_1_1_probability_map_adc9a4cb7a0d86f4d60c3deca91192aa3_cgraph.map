@@ -1,5 +1,0 @@
-<map id="firestarr::sim::ProbabilityMap::saveAll" name="firestarr::sim::ProbabilityMap::saveAll">
-<area shape="rect" id="node1" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="5,27,164,69"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#ad055295ef517b62ad0557e37a7628a7c" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="212,5,365,32"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_model.html#ab8089299256f21f125d079f00c1aa13c" title="Directory to output results to." alt="" coords="222,57,355,98"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="firestarr::fuel::fbp::FuelM3M4&lt; PercentDeadFir &gt;" name="firestarr::fuel::fbp::FuelM3M4&lt; PercentDeadFir &gt;">
-<area shape="rect" id="node1" title="FBP fuel type M&#45;3/M&#45;4." alt="" coords="8,1381,209,1561"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_variable.html" title=" " alt="" coords="5,947,212,1332"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_fuel_type.html" title="An FBP fuel type." alt="" coords="11,5,196,449"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1_fuel_variable.html" title="A fuel type that changes based on the season." alt="" coords="125,499,311,869"/>
-</map>

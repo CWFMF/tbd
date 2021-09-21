@@ -1,0 +1,12 @@
+<map id="firestarr::fuel::FuelBase::survivalProbability" name="firestarr::fuel::FuelBase::survivalProbability">
+<area shape="rect" id="node1" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,134,159,175"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a6c4b4453a76327f7dc21e9a7d7984ac9" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="408,71,561,113"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a236c9513bedf5136e677198a4a1391f6" title="Type of duff deeper underground." alt="" coords="207,35,360,77"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a24b24d5956c90576bd1a95e9a179878c" title="Type of duff near the surface." alt="" coords="207,101,360,142"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a28f0cec23e67ced740f4f8c481b2f272" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="207,166,360,207"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1Duff.php#a7c84b33d0893dd5ca4b3bd3f079d6029" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="210,231,357,273"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a8f8697c56dd0787b4a0296344dac9229" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="207,297,360,338"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a970b8f6f2abef383fd327e6971c9bc50" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="609,71,763,113"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a75b7511445ecefc5115962d30e66ad06" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="408,231,561,273"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1fuel_1_1FuelBase.php#abf5880ab684b8eaf925dba9b36edf1c7" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="408,297,561,338"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="firestarr::data::find_meridian" name="firestarr::data::find_meridian">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,128,177"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="196,5,308,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1data.php#a8aa881855523df49449791df69a61c02" title=" " alt="" coords="191,71,313,112"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1data.php#afaf9fa67db3c24abf6421263512e95ae" title=" " alt="" coords="193,136,311,177"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1data.php#ac83a701e83787a5cd05c5156295d02d9" title=" " alt="" coords="193,201,311,243"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.php#a592202c035b67668804735681230bd48" title=" " alt="" coords="176,267,328,308"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1wx.php#ad3cd5a25917f9b17ed935ca459ea2d64" title=" " alt="" coords="376,143,495,170"/>
+</map>

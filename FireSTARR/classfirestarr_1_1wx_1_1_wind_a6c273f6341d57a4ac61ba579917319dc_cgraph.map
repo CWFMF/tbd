@@ -1,7 +1,0 @@
-<map id="firestarr::wx::Wind::heading" name="firestarr::wx::Wind::heading">
-<area shape="rect" id="node1" title="Direction wind is going towards." alt="" coords="5,5,128,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_direction.html#a6845016de2466a346e27d580c09d8840" title="Heading (opposite of this direction)" alt="" coords="176,5,320,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1_direction.html#abaf38a8ed02d6b6e5c6ecb84b9b1091c" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="368,5,512,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1_direction.html#a142a69baa6cdf546a168f8066fa13a69" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="560,5,704,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1_index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="752,5,885,47"/>
-</map>

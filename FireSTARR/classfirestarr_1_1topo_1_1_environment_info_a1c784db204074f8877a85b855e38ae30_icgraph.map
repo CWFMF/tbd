@@ -1,6 +1,0 @@
-<map id="firestarr::topo::EnvironmentInfo::EnvironmentInfo" name="firestarr::topo::EnvironmentInfo::EnvironmentInfo">
-<area shape="rect" id="node1" title="Construct from given rasters." alt="" coords="632,5,807,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment_info.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="409,5,584,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="187,5,361,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,139,47"/>
-</map>

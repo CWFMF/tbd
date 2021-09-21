@@ -1,0 +1,6 @@
+<map id="firestarr::data::ConstantGrid::ConstantGrid" name="firestarr::data::ConstantGrid::ConstantGrid">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,39,160,80"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="230,5,342,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.php#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="208,71,364,112"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="412,5,524,47"/>
+</map>

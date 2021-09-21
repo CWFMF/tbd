@@ -1,0 +1,23 @@
+<map id="firestarr::logging::info" name="firestarr::logging::info">
+<area shape="rect" id="node1" title="Log with INFO level." alt="" coords="1227,341,1339,383"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1BurnedMap.php#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="967,5,1135,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="977,224,1126,265"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,194,653,221"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,135,431,162"/>
+<area shape="rect" id="node8" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,135,56,162"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,293,237,335"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1Model.php#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="985,341,1118,383"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Environment.php#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="701,509,876,551"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Environment.php#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="479,392,653,433"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1data_1_1GridMap.php#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="976,625,1127,667"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1data_1_1ConstantGrid.php#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="974,560,1129,601"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Model.php#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="291,447,425,488"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="924,691,1179,732"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="714,224,863,265"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,199,425,240"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,135,231,162"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Model.php#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="499,327,633,368"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="479,509,653,551"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Perimeter.php#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="709,575,868,616"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1data_1_1ConstantGrid.php#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="711,640,866,681"/>
+</map>

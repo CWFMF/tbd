@@ -1,0 +1,19 @@
+<map id="firestarr::fuel::FuelMixed&lt; A, B, C, Bui0, RosMultiplier, PercentMixed, BulkDensity, InorganicPercent, DuffDepth &gt;" name="firestarr::fuel::FuelMixed&lt; A, B, C, Bui0, RosMultiplier, PercentMixed, BulkDensity, InorganicPercent, DuffDepth &gt;">
+<area shape="rect" id="node1" title="A mixedwood fuel type." alt="" coords="315,1860,513,2187"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelMixed.php" title=" " alt="" coords="203,2279,396,2591"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1fuel_1_1FuelMixed.php" title=" " alt="" coords="449,2279,667,2591"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title=" " alt="" coords="302,1396,526,1811"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.php" title="Base class for all FuelTypes." alt="" coords="303,499,514,840"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title="A FuelBase made of a standard fuel type." alt="" coords="429,889,655,1304"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="316,5,501,449"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title=" " alt="" coords="14,2912,179,3107"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title=" " alt="" coords="226,2912,391,3107"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title="A fuel made of dead fir and D1." alt="" coords="165,2640,388,2835"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM4.php" title="FBP fuel type M&#45;4." alt="" coords="5,3156,188,3336"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM3.php" title="FBP fuel type M&#45;3." alt="" coords="217,3156,400,3336"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title=" " alt="" coords="424,2912,609,3107"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title=" " alt="" coords="684,2912,869,3107"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title="A fuel composed of C2 and D1 mixed." alt="" coords="512,2640,735,2835"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM1.php" title="FBP fuel type M&#45;1." alt="" coords="427,3156,606,3336"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM2.php" title="FBP fuel type M&#45;2." alt="" coords="687,3156,866,3336"/>
+</map>

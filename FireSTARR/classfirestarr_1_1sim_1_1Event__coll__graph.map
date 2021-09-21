@@ -1,0 +1,12 @@
+<map id="firestarr::sim::Event" name="firestarr::sim::Event">
+<area shape="rect" id="node1" title="A specific Event scheduled in a specific Scenario." alt="" coords="433,821,569,1148"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.php" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="185,535,309,744"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.php" title="A location with a row and column." alt="" coords="47,160,199,384"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,73,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="135,5,285,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="348,233,493,311"/>
+<area shape="rect" id="node7" title=" " alt="" coords="333,601,393,678"/>
+<area shape="rect" id="node8" title=" " alt="" coords="477,601,524,678"/>
+<area shape="rect" id="node9" title=" " alt="" coords="559,601,610,678"/>
+<area shape="rect" id="node10" title=" " alt="" coords="635,601,692,678"/>
+</map>

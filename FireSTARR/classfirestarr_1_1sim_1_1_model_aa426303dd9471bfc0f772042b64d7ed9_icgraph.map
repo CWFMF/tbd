@@ -1,4 +1,0 @@
-<map id="firestarr::sim::Model::makeStarts" name="firestarr::sim::Model::makeStarts">
-<area shape="rect" id="node1" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="187,5,320,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,139,47"/>
-</map>

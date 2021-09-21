@@ -1,0 +1,11 @@
+<map id="firestarr::sim::Scenario::scheduleFireSpread" name="firestarr::sim::Scenario::scheduleFireSpread">
+<area shape="rect" id="node1" title="Schedule a fire spread Event." alt="" coords="1095,27,1244,69"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,27,1047,69"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,27,849,69"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,35,652,61"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,5,431,32"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,57,425,98"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,5,231,32"/>
+<area shape="rect" id="node7" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,35,56,61"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,57,237,98"/>
+</map>

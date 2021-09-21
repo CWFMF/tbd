@@ -1,0 +1,5 @@
+<map id="firestarr::data::LogValue" name="firestarr::data::LogValue">
+<area shape="rect" id="node1" title="A result of calling log(x) for some value of x, pre&#45;calculated at compile time." alt="" coords="8,785,165,863"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="20,395,153,736"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Index.php" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,168,332"/>
+</map>

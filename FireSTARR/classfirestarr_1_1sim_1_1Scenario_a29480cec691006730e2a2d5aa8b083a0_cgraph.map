@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Scenario::dayStart" name="firestarr::sim::Scenario::dayStart">
+<area shape="rect" id="node1" title="Sunrise time for given day." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1StartPoint.php#a0ac3ceae142fea98c2de36a3b1bb12df" title="Sunrise time." alt="" coords="203,5,363,47"/>
+</map>

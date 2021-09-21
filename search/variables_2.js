@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['can_5fcrown_5f_1480',['can_crown_',['.././FireSTARR/classfirestarr_1_1fuel_1_1_fuel_type.html#a7e68885372f211e473981f520d954439',1,'firestarr::fuel::FuelType']]],
-  ['cell_5f_1481',['cell_',['.././FireSTARR/classfirestarr_1_1sim_1_1_event.html#a9090927b1a5f7cfe726a645167a3a07e',1,'firestarr::sim::Event::cell_()'],['.././FireSTARR/classfirestarr_1_1sim_1_1_spread_info.html#a6019a939b3138c683605ada7bb1fd17c',1,'firestarr::sim::SpreadInfo::cell_()']]],
-  ['cell_5fsize_5f_1482',['cell_size_',['.././FireSTARR/classfirestarr_1_1data_1_1_grid_base.html#aa524aa649a9b4ce7c7fae1e396a7b864',1,'firestarr::data::GridBase']]],
-  ['cellmask_1483',['CellMask',['.././FireSTARR/classfirestarr_1_1topo_1_1_cell.html#a55e08ed01ddefd0981c2d78de4517eeb',1,'firestarr::topo::Cell']]],
-  ['cells_5f_1484',['cells_',['.././FireSTARR/classfirestarr_1_1topo_1_1_environment.html#a77e1e8da84f51647afd7aef0f113631a',1,'firestarr::topo::Environment']]],
-  ['code_5f_1485',['code_',['.././FireSTARR/classfirestarr_1_1fuel_1_1_fuel_type.html#a21e47c29e336b1c64ef275f39735dff7',1,'firestarr::fuel::FuelType']]],
-  ['columns_1486',['COLUMNS',['.././WeatherSHIELD/namespacegethistoric.html#ab926e044a82425e1e8383c3695aa51e4',1,'gethistoric']]],
-  ['columns_5f_1487',['columns_',['.././FireSTARR/classfirestarr_1_1data_1_1_grid_base.html#a96d54bdd439bc0c97b1da6d3e19adc77',1,'firestarr::data::GridBase']]],
-  ['concurrent_5fsimulation_5frounds_5f_1488',['concurrent_simulation_rounds_',['.././FireSTARR/classfirestarr_1_1sim_1_1_settings_implementation.html#af62d4dd5b557d946fd98bc28e0f4022f',1,'firestarr::sim::SettingsImplementation']]],
-  ['confidence_5flevel_5f_1489',['confidence_level_',['.././FireSTARR/classfirestarr_1_1sim_1_1_settings_implementation.html#a5c985eeb8bcc4fb93553af4343c0d7d3',1,'firestarr::sim::SettingsImplementation']]],
-  ['constantpart_1490',['ConstantPart',['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 124, 218, -88306, -608, 8095, 2735 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 181, 427, 90970, -1040, 1165, -646 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 261, 563, 80359, -393, -591, -340 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 307, 1160, 586921, -2737, -5413, -1246 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 349, 2030, 372276, -1876, -2833, -951 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 359, 1220, 3325604, -12220, -21024, -12619 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 365, 1900, 451778, -3227, -3644, -362 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'DuffType&lt; 94, 2220, -198198, -1169, 10414, 782 &gt;::ConstantPart()'],['.././FireSTARR/classfirestarr_1_1fuel_1_1_duff_type.html#ac5260126594f2472e3ec5d2e021ba5fd',1,'firestarr::fuel::DuffType::ConstantPart()']]],
-  ['count_5f_1491',['count_',['.././FireSTARR/classfirestarr_1_1sim_1_1_semaphore.html#a758934d041b251bb2ae6c758474ffc4a',1,'firestarr::sim::Semaphore::count_()'],['.././FireSTARR/classfirestarr_1_1util_1_1_usage_count.html#ae128a22c4f6cf0aedb41bdddfce11b7e',1,'firestarr::util::UsageCount::count_()']]],
-  ['current_5ftime_5f_1492',['current_time_',['.././FireSTARR/classfirestarr_1_1sim_1_1_scenario.html#ac8a01529ea1237d702a2b2208c11f1d4',1,'firestarr::sim::Scenario']]],
-  ['current_5ftime_5findex_5f_1493',['current_time_index_',['.././FireSTARR/classfirestarr_1_1sim_1_1_scenario.html#aa24193ccdca47b31f60e88b34b50ea71',1,'firestarr::sim::Scenario']]],
-  ['cv_5f_1494',['cv_',['.././FireSTARR/classfirestarr_1_1sim_1_1_semaphore.html#a697ffcf8d7637a371803905afe8e041c',1,'firestarr::sim::Semaphore']]]
+  ['bad_5ffiles_2579',['bad_files',['.././GIS/namespacenhn.php#a1d364581bd7f13a21d16ee1e96b7597c',1,'nhn']]],
+  ['base_5fmultiplier_5fcuring_2580',['BASE_MULTIPLIER_CURING',['.././FireSTARR/namespacefirestarr_1_1fuel.php#ab9c35f7b76a72dfbf077d96e7bfbb1fc',1,'firestarr::fuel']]],
+  ['bit_2581',['BIT',['.././FireSTARR/namespacefirestarr.php#a4e6d09baa46a283290aa6111277c1253',1,'firestarr']]],
+  ['blockxsize_2582',['blockxsize',['.././GIS/namespaceearthenv.php#a2b704c98e336926b580763e7b625b460',1,'earthenv']]],
+  ['blockysize_2583',['blockysize',['.././GIS/namespaceearthenv.php#aaffa75a3c4f8d17342d02d13872aa20e',1,'earthenv']]],
+  ['bounds_2584',['bounds',['.././GIS/namespacenhn.php#a4e0875bbabcd0d88e3ffeacc548f6e04',1,'nhn']]],
+  ['bui_5f_2585',['bui_',['.././FireSTARR/classfirestarr_1_1wx_1_1FwiWeather.php#a45a835500d789f282ebb7eaed7b365ef',1,'firestarr::wx::FwiWeather']]],
+  ['burned_5f_2586',['burned_',['.././FireSTARR/classfirestarr_1_1topo_1_1Perimeter.php#a429e06071a25ffed512fae57f683636d',1,'firestarr::topo::Perimeter']]],
+  ['by_5fhour_2587',['BY_HOUR',['.././FireSTARR/namespacefirestarr_1_1wx.php#a5936649548812d2a5ab3107333940f4a',1,'firestarr::wx']]]
 ];

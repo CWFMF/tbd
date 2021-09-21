@@ -1,7 +1,0 @@
-<map id="firestarr::wx::FwiStream::FwiStream" name="firestarr::wx::FwiStream::FwiStream">
-<area shape="rect" id="node1" title="Calculate based on weather and dates using startup/shutdown criteria." alt="" coords="5,104,161,145"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_startup.html#a4b160087e88c3c1ebf222c5b190a8e73" title="Accumulated Precipitation at 0800 (mm)" alt="" coords="231,5,366,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1_index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="232,71,365,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1_startup.html#a5f18e3ba9d9016d237d24bdd104d678a" title="Fine Fuel Moisture Code." alt="" coords="231,136,366,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1_fwi_stream.html#aaa250f94763ebef3e413642d8885d457" title="Weather stream as a vector of FwiWeather." alt="" coords="209,202,388,229"/>
-</map>

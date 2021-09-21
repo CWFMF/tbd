@@ -1,0 +1,12 @@
+<map id="firestarr::fuel::FuelLookup" name="firestarr::fuel::FuelLookup">
+<area shape="rect" id="node1" title="Provides ability to look up a fuel type based on name or code." alt="" coords="100,821,267,1031"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,659,167,751"/>
+<area shape="rect" id="node3" title=" " alt="" coords="17,314,155,391"/>
+<area shape="rect" id="node4" title=" " alt="" coords="147,5,185,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="179,314,283,391"/>
+<area shape="rect" id="node5" title=" " alt="" coords="191,652,371,759"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="323,145,508,560"/>
+<area shape="rect" id="node7" title=" " alt="" coords="284,5,331,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="390,5,441,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="465,5,555,83"/>
+</map>

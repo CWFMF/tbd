@@ -1,5 +1,0 @@
-<map id="firestarr::sim::IntensityObserver::save" name="firestarr::sim::IntensityObserver::save">
-<area shape="rect" id="node1" title="Save observations." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_i_observer.html#adacd9cfd852b21084b6d39c91dac4c39" title="Make name to save file as." alt="" coords="200,5,355,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_scenario.html#a8a23741aff2429a0af752e787de095cb" title="Save burn intensity information." alt="" coords="203,71,352,112"/>
-</map>

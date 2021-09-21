@@ -1,0 +1,51 @@
+<map id="firestarr::fuel::FuelBase&lt; BulkDensity, InorganicPercent, DuffDepth &gt;" name="firestarr::fuel::FuelBase&lt; BulkDensity, InorganicPercent, DuffDepth &gt;">
+<area shape="rect" id="node1" title="Base class for all FuelTypes." alt="" coords="803,499,1014,840"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title=" " alt="" coords="707,1411,931,1825"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title=" " alt="" coords="955,1411,1166,1825"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title="A FuelBase made of a standard fuel type." alt="" coords="1115,889,1340,1304"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="816,5,1001,449"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelMixed.php" title=" " alt="" coords="301,2321,495,2633"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1fuel_1_1FuelMixed.php" title=" " alt="" coords="541,2321,759,2633"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1fuel_1_1FuelMixed.php" title="A mixedwood fuel type." alt="" coords="548,1903,747,2229"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title=" " alt="" coords="14,3079,179,3274"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title=" " alt="" coords="231,3079,397,3274"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1FuelMixedDead.php" title="A fuel made of dead fir and D1." alt="" coords="173,2719,396,2914"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM4.php" title="FBP fuel type M&#45;4." alt="" coords="5,3360,188,3540"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM3.php" title="FBP fuel type M&#45;3." alt="" coords="223,3360,405,3540"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title=" " alt="" coords="432,3079,617,3274"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title=" " alt="" coords="691,3079,876,3274"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1fuel_1_1FuelMixedWood.php" title="A fuel composed of C2 and D1 mixed." alt="" coords="539,2719,761,2914"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM1.php" title="FBP fuel type M&#45;1." alt="" coords="435,3360,614,3540"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelM2.php" title="FBP fuel type M&#45;2." alt="" coords="694,3360,873,3540"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1fuel_1_1FuelGrass.php" title=" " alt="" coords="792,2343,977,2611"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1fuel_1_1FuelGrass.php" title=" " alt="" coords="1001,2343,1187,2611"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1fuel_1_1FuelGrass.php" title="A grass fuel type." alt="" coords="961,1932,1147,2200"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1A.php" title="FBP fuel type O&#45;1a." alt="" coords="875,2727,991,2907"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1B.php" title="FBP fuel type O&#45;1b." alt="" coords="1036,2727,1152,2907"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php" title=" " alt="" coords="1241,1961,1395,2171"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php" title=" " alt="" coords="1431,1961,1594,2171"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php" title="A StandardFuel that is not made of multiple fuels." alt="" coords="1641,1506,1840,1730"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelD2.php" title="FBP fuel type D&#45;2." alt="" coords="1211,2373,1396,2582"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelD1.php" title="FBP fuel type D&#45;1." alt="" coords="1420,2373,1605,2582"/>
+<area shape="rect" id="node29" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="1629,2373,1793,2582"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="1817,2373,2032,2582"/>
+<area shape="rect" id="node38" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="2056,2373,2220,2582"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="2253,2373,2423,2582"/>
+<area shape="rect" id="node42" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="2667,2373,2857,2582"/>
+<area shape="rect" id="node49" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title="A conifer fuel type." alt="" coords="1909,1954,2111,2178"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC1.php" title="FBP fuel type C&#45;1." alt="" coords="1241,2719,1427,2914"/>
+<area shape="rect" id="node32" href="$classfirestarr_1_1fuel_1_1FuelSlash.php" title=" " alt="" coords="1653,3043,1839,3311"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1fuel_1_1FuelSlash.php" title=" " alt="" coords="1383,3043,1568,3311"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1fuel_1_1FuelSlash.php" title=" " alt="" coords="1875,3043,2060,3311"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1fuel_1_1FuelSlash.php" title="A slash fuel type." alt="" coords="1639,2683,1824,2951"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelS2.php" title="FBP fuel type S&#45;2." alt="" coords="1688,3360,1804,3540"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelS3.php" title="FBP fuel type S&#45;3." alt="" coords="1417,3360,1533,3540"/>
+<area shape="rect" id="node39" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC7.php" title="FBP fuel type C&#45;7." alt="" coords="2036,2719,2221,2914"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC2.php" title="FBP fuel type C&#45;2." alt="" coords="2245,2719,2431,2914"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1fuel_1_1FuelJackpine.php" title=" " alt="" coords="2587,3079,2772,3274"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1fuel_1_1FuelJackpine.php" title=" " alt="" coords="2376,3079,2561,3274"/>
+<area shape="rect" id="node45" href="$classfirestarr_1_1fuel_1_1FuelPine.php" title=" " alt="" coords="2799,3079,2984,3274"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1fuel_1_1FuelPine.php" title=" " alt="" coords="3039,3079,3224,3274"/>
+<area shape="rect" id="node47" href="$classfirestarr_1_1fuel_1_1FuelJackpine.php" title="A fuel with jackpine as base fuel type." alt="" coords="2568,2719,2753,2914"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1fuel_1_1FuelPine.php" title="A fuel with pine as the base fuel type." alt="" coords="2885,2719,3071,2914"/>
+</map>

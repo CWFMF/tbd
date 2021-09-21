@@ -1,0 +1,10 @@
+<map id="firestarr::sim::Settings::runAsync" name="firestarr::sim::Settings::runAsync">
+<area shape="rect" id="node1" title="Whether or not to run things asynchronously where possible." alt="" coords="731,71,877,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.php#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="508,5,683,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="508,71,683,112"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="306,136,439,177"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="285,5,460,47"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Environment.php#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,71,460,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,104,237,145"/>
+<area shape="rect" id="node7" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,111,56,138"/>
+</map>

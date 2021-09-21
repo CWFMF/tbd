@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Model::findStarts" name="firestarr::sim::Model::findStarts">
-<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="5,35,139,76"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="387,5,561,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="196,35,329,76"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="187,100,339,141"/>
-</map>

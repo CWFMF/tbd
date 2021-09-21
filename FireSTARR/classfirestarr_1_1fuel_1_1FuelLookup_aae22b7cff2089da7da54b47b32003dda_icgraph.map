@@ -1,0 +1,4 @@
+<map id="firestarr::fuel::FuelLookup::intToFuel" name="firestarr::fuel::FuelLookup::intToFuel">
+<area shape="rect" id="node1" title="Look up a FuelType based on the given code." alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelLookup.php#ac2c1eb9f34d89fff9102a66b6c30e88d" title="Look up a FuelType based on the given code." alt="" coords="5,5,172,47"/>
+</map>

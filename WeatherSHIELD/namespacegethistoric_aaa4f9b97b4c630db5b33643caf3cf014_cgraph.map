@@ -1,7 +1,7 @@
 <map id="gethistoric.get_standard" name="gethistoric.get_standard">
 <area shape="rect" id="node1" title="Save long range match data." alt="" coords="5,56,165,83"/>
-<area shape="rect" id="node2" href="$namespacegethistoric.html#ad4347b4a779c58124a7cba92612b28c9" title="Generates name to use for file with given run data." alt="" coords="397,5,563,32"/>
-<area shape="rect" id="node3" href="$namespacegethistoric.html#abf11198e4ae61fec37fb6412a08afbd1" title="Load data for a given run into the database." alt="" coords="215,56,347,83"/>
-<area shape="rect" id="node5" href="$namespacegethistoric.html#a16313a36de58159246de21cf20b71739" title="Save the given url." alt="" coords="213,107,349,133"/>
-<area shape="rect" id="node4" href="$namespacegethistoric.html#a2b8e887f9517ad7d239c527e56965ac5" title="Check if data for given Generated time already exists." alt="" coords="399,56,561,83"/>
+<area shape="rect" id="node2" href="$namespacegethistoric.php#ad4347b4a779c58124a7cba92612b28c9" title="Generates name to use for file with given run data." alt="" coords="397,5,563,32"/>
+<area shape="rect" id="node3" href="$namespacegethistoric.php#abf11198e4ae61fec37fb6412a08afbd1" title="Load data for a given run into the database." alt="" coords="215,56,347,83"/>
+<area shape="rect" id="node5" href="$namespacegethistoric.php#a16313a36de58159246de21cf20b71739" title="Save the given url." alt="" coords="213,107,349,133"/>
+<area shape="rect" id="node4" href="$namespacegethistoric.php#a2b8e887f9517ad7d239c527e56965ac5" title="Check if data for given Generated time already exists." alt="" coords="399,56,561,83"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelMixed::ratioDeciduous" name="firestarr::fuel::FuelMixed::ratioDeciduous">
-<area shape="rect" id="node1" title="Percent Deciduous (% / 100)" alt="" coords="211,39,368,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_mixed.html#a7009e317d8109d3865195729aa379f5a" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,5,163,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_fuel_mixed.html#a80bf9f3f44c7b06b08967c2beab38644" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="5,71,163,112"/>
-</map>

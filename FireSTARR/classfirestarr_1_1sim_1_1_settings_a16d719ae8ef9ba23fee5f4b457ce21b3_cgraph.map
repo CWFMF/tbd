@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::fuelLookupTable" name="firestarr::sim::Settings::fuelLookupTable">
-<area shape="rect" id="node1" title="Name of file that defines fuel lookup table." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a7abf13b7748837b5399dfe5703ee9acf" title="Name of file that defines fuel lookup table." alt="" coords="200,5,413,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="223,71,390,112"/>
-</map>

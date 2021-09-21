@@ -1,0 +1,4 @@
+<map id="firestarr::fuel::StandardFuel::crownConsumption" name="firestarr::fuel::StandardFuel::crownConsumption">
+<area shape="rect" id="node1" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.php#ad1106cc122aeab357ef5b7fee8364df3" title="Crown fuel load (kg/m^2) [ST&#45;X&#45;3 table 8]." alt="" coords="217,5,368,47"/>
+</map>

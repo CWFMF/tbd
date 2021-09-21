@@ -1,0 +1,11 @@
+<map id="firestarr::topo::Perimeter::Perimeter" name="firestarr::topo::Perimeter::Perimeter">
+<area shape="rect" id="node1" title="Create a Perimeter of the given size at the given Location." alt="" coords="5,169,164,211"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Perimeter.php#a575fb50a392fcc55ac64059cc05a8f59" title="List of all burned Locations." alt="" coords="222,5,381,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.php#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="214,71,389,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.php#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="225,201,377,243"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1fuel.php#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="247,136,355,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.php#a6e7d77e073c425d72ae865065856734c" title="Create a GridMap&lt;Other&gt; covering this Environment." alt="" coords="214,267,389,308"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Location.php#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="212,333,391,359"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Location.php#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="439,263,591,304"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Cell.php#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="453,136,577,177"/>
+</map>

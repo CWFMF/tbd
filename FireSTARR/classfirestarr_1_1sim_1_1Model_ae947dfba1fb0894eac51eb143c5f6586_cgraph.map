@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Model::cell" name="firestarr::sim::Model::cell">
+<area shape="rect" id="node1" title="Cell at the Location represented by the given hash." alt="" coords="5,5,139,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.php#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="187,5,361,47"/>
+</map>

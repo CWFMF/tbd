@@ -1,4 +1,4 @@
 <map id="firestarr_gis.Rasterize" name="firestarr_gis.Rasterize">
 <area shape="rect" id="node1" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="5,13,152,39"/>
-<area shape="rect" id="node2" href="$namespacefirestarr__gis.html#a2d63d933a89aa5404f879689a726ed40" title="Determine spatial reference from a source file." alt="" coords="200,5,353,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr__gis.php#a2d63d933a89aa5404f879689a726ed40" title="Determine spatial reference from a source file." alt="" coords="200,5,353,47"/>
 </map>

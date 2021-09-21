@@ -1,8 +1,0 @@
-<map id="firestarr::util::Statistics::confidenceInterval" name="firestarr::util::Statistics::confidenceInterval">
-<area shape="rect" id="node1" title="Calculate Confidence Interval for given z value." alt="" coords="203,136,352,177"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1_statistics.html#a7c6f830127adf5df2f85b8859a16091e" title="80% Confidence Interval" alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1util_1_1_statistics.html#a76ae61f77963b567252894b6a8757c39" title="90% Confidence Interval" alt="" coords="5,71,155,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1_statistics.html#a49d7d60409a4b1501c96d40c5ce5a366" title="95% Confidence Interval" alt="" coords="5,136,155,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1util_1_1_statistics.html#a507ecb52f927a2400f0addc88d55708c" title="98% Confidence Interval" alt="" coords="5,201,155,243"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1util_1_1_statistics.html#a36303bb87a28bdbf4d28932a3a5f8b61" title="99% Confidence Interval" alt="" coords="5,267,155,308"/>
-</map>

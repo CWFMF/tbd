@@ -1,0 +1,13 @@
+<map id="firestarr::sim::Scenario::reset" name="firestarr::sim::Scenario::reset">
+<area shape="rect" id="node1" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,71,155,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#a7dd88c0c9dc866831840e584801b440b" title="Determine rate of spread from probability of spread threshold." alt="" coords="203,5,393,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="223,71,373,112"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.php#a38ee56bc3e16cf65c9c10ce42eeb3c1e" title=" " alt="" coords="233,136,363,177"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Settings.php#ad7fe946af1ad21946ce1aeadf455666b" title="Weight to give to daily part of thresholds." alt="" coords="453,136,602,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Settings.php#a026d88f079fdd646fa35000aabf494fe" title="Weight to give to hourly part of thresholds." alt="" coords="448,71,607,112"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Settings.php#ac2c8b9f39c694fa4e93592c89a9f3de2" title="Weight to give to Scenario part of thresholds." alt="" coords="441,201,613,243"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="689,103,855,144"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a981bd066a8658bb6295b4e007cd0a2a3" title="Weight to give to daily part of thresholds." alt="" coords="673,167,871,223"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="669,23,875,79"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a5c145a2ccb016d438762f9d9d203d3bd" title="Weight to give to Scenario part of thresholds." alt="" coords="661,247,883,303"/>
+</map>

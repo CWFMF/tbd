@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classfirestarr_1_1topo_1_1_environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_test_environment.html" title="An Environment with no elevation and the same value in every Cell." alt="" coords="228,5,424,32"/>
+<area shape="rect" id="node1" href="$classfirestarr_1_1topo_1_1Environment.php" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1TestEnvironment.php" title="An Environment with no elevation and the same value in every Cell." alt="" coords="228,5,424,32"/>
 </map>

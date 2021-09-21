@@ -1,0 +1,7 @@
+<map id="firestarr::sim::Scenario::endSimulation" name="firestarr::sim::Scenario::endSimulation">
+<area shape="rect" id="node1" title="End the simulation." alt="" coords="5,39,155,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="203,5,352,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="221,71,333,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="400,37,528,79"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="408,103,520,144"/>
+</map>

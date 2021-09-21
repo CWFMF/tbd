@@ -1,6 +1,0 @@
-<map id="firestarr::fuel::StandardFuel::rosBasic" name="firestarr::fuel::StandardFuel::rosBasic">
-<area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,71,156,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#af1623e91dde59b6e3ba1a4fedc9f011e" title="Rate of spread parameter a [ST&#45;X&#45;3 table 6]." alt="" coords="204,5,355,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#a769470a141f725847552ca848ba7301d" title="Rate of spread parameter c [ST&#45;X&#45;3 table 6]." alt="" coords="204,71,355,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#a6c853b012102df2e4941a5dac669cee2" title="Negative of rate of spread parameter b [ST&#45;X&#45;3 table 6]." alt="" coords="204,136,355,177"/>
-</map>

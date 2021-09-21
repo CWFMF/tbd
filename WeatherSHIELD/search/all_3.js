@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['file_5fmasks_8',['file_masks',['../namespacereanalysis1.html#ae47d5a63cb304c7c6de4065bba9ce44e',1,'reanalysis1']]],
-  ['for_5fdays_9',['for_days',['../classgepsloader_1_1_geps_loader.html#a650ece40063b0eb756049c32c0455e4c',1,'gepsloader.GepsLoader.for_days()'],['../classgribloader_1_1_grib_loader.html#ad825f6dba0f2c5bc217d0bc6dadd827e',1,'gribloader.GribLoader.for_days()'],['../classrepsloader_1_1_geps_loader.html#a5ac6369ccf271d33fe21dd514eac7d99',1,'repsloader.GepsLoader.for_days()']]]
+  ['df_55',['df',['../namespacereanalysis1.php#a445721b78312f1090bae8978fcfcd47a',1,'reanalysis1']]],
+  ['dir_56',['dir',['../classgepsloader_1_1HPFXLoader.php#a9be1788bcfbff1af0225307506d0b008',1,'gepsloader.HPFXLoader.dir()'],['../classgribloader_1_1GribLoader.php#a07630653b3e86331e058b878bd6f1f57',1,'gribloader.GribLoader.dir()'],['../classrepsloader_1_1HPFXLoader.php#afdfff5fdb00c979c1a15c1fc6b0bbc0a',1,'repsloader.HPFXLoader.dir()']]],
+  ['dir_5fdata_57',['DIR_DATA',['../classweatherloader_1_1WeatherLoader.php#a26cea160ab067cb02b512da51fe4829e',1,'weatherloader.WeatherLoader.DIR_DATA()'],['../classweatherloader_1_1WeatherLoader.php#a36d65431d200cc119ae56af4cdf46c3c',1,'weatherloader.WeatherLoader.DIR_DATA()'],['../namespacegethistoric.php#a7098882794526c4d6e39f9df0302e4d6',1,'gethistoric.DIR_DATA()'],['../namespacereanalysis1.php#ae3464051909f2ea3247177ecac35043a',1,'reanalysis1.DIR_DATA()']]],
+  ['display_2ephp_58',['display.php',['../display_8php.php',1,'']]],
+  ['do_5fsave_59',['do_save',['../namespacegepsloader.php#ab9caad6d0d8d2a85fd5677fde0cfba65',1,'gepsloader.do_save()'],['../namespacerepsloader.php#a99c7914e9320bde83d0d73298769668d',1,'repsloader.do_save()']]],
+  ['download_5fand_5fwait_60',['download_and_wait',['../namespacegribloader.php#a57c1327310d7c82fd03145b42af4b006',1,'gribloader']]],
+  ['download_5fthreads_61',['DOWNLOAD_THREADS',['../namespacegepsloader.php#a158c77546e813e25a6580d9e8111cd70',1,'gepsloader.DOWNLOAD_THREADS()'],['../namespacerepsloader.php#a71ccc3946f2aa656e735168f73a72dc2',1,'repsloader.DOWNLOAD_THREADS()']]]
 ];

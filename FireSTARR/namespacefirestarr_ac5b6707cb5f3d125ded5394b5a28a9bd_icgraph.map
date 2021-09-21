@@ -1,0 +1,5 @@
+<map id="firestarr::binary_find" name="firestarr::binary_find">
+<area shape="rect" id="node1" title="Do binary search over function for T that results in value." alt="" coords="383,13,515,39"/>
+<area shape="rect" id="node2" href="$namespacefirestarr.php#a7cc38d30bc29400b21c72c06180b33d4" title="Check lower and upper limits before doing binary search over function for T that results in value." alt="" coords="203,5,335,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1util_1_1Statistics.php#a93daac57a9b465d8823994c9b563e7cf" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="5,5,155,47"/>
+</map>

@@ -1,8 +1,0 @@
-<map id="firestarr::topo::EnvironmentInfo" name="firestarr::topo::EnvironmentInfo">
-<area shape="rect" id="node1" title="Information regarding an Environment, such as grids to read and location." alt="" coords="185,637,381,920"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_grid_base.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="127,204,283,531"/>
-<area shape="rect" id="node3" title=" " alt="" coords="79,5,139,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,44,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="303,5,357,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="179,5,230,83"/>
-</map>

@@ -1,0 +1,6 @@
+<map id="firestarr::sim::Settings::thresholdHourlyWeight" name="firestarr::sim::Settings::thresholdHourlyWeight">
+<area shape="rect" id="node1" title="Weight to give to hourly part of thresholds." alt="" coords="381,39,540,80"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.php#a38ee56bc3e16cf65c9c10ce42eeb3c1e" title=" " alt="" coords="203,39,333,80"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.php#a3e9820cd223c9d1d0a20884cbcc514e7" title=" " alt="" coords="15,5,145,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#a9d787b7294930f8adf68d5b79b649b0b" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,71,155,112"/>
+</map>

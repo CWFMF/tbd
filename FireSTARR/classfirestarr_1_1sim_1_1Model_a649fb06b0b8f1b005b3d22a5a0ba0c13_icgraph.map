@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Model::releaseBurnedVector" name="firestarr::sim::Model::releaseBurnedVector">
+<area shape="rect" id="node1" title="Return a BurnedData so it can be used in the future." alt="" coords="200,5,349,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityMap.php#abba7e0d4578c497ecca68b52e677af4e" title=" " alt="" coords="5,5,152,47"/>
+</map>

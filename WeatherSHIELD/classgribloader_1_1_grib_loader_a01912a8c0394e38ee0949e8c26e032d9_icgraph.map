@@ -1,7 +1,0 @@
-<map id="gribloader.GribLoader.get_nearest_run" name="gribloader.GribLoader.get_nearest_run">
-<area shape="rect" id="node1" title="Find time of most recent run with given update interval." alt="" coords="448,71,615,112"/>
-<area shape="rect" id="node2" href="$classgepsloader_1_1_h_p_f_x_loader.html#a6388fb781d072362e16e8cffd3e073ae" title="Load the latest records using the specified interval to determine run." alt="" coords="209,5,400,47"/>
-<area shape="rect" id="node3" href="$classgribloader_1_1_grib_loader.html#ae81eb68d9b3e4dcf3d529e4c7c392ec9" title="Load the latest records using the specified interval to determine run." alt="" coords="219,71,391,112"/>
-<area shape="rect" id="node5" href="$classrepsloader_1_1_h_p_f_x_loader.html#ac9eb09cddf1cb140b18caa3504d68287" title="Load the latest records using the specified interval to determine run." alt="" coords="211,136,399,177"/>
-<area shape="rect" id="node4" href="$classgefsloader_1_1_gefs_loader.html#a81e98b4f0889d769a3bfe27e43f998aa" title="Instantiate class." alt="" coords="5,71,161,112"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::topo::Environment" name="firestarr::topo::Environment">
-<area shape="rect" id="node1" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="16,5,191,464"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_test_environment.html" title="An Environment with no elevation and the same value in every Cell." alt="" coords="5,512,201,589"/>
-</map>

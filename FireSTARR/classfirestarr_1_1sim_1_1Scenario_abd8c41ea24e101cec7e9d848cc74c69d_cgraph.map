@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Scenario::outputDirectory" name="firestarr::sim::Scenario::outputDirectory">
+<area shape="rect" id="node1" title="Directory to output files to." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.php#ab8089299256f21f125d079f00c1aa13c" title="Directory to output results to." alt="" coords="203,5,336,47"/>
+</map>

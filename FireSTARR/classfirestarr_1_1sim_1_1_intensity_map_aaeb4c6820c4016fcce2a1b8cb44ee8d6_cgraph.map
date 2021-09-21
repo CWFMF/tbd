@@ -1,4 +1,0 @@
-<map id="firestarr::sim::IntensityMap::hasBurned" name="firestarr::sim::IntensityMap::hasBurned">
-<area shape="rect" id="node1" title="Whether or not the Location can burn." alt="" coords="5,5,152,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="200,5,352,47"/>
-</map>

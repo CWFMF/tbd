@@ -1,5 +1,0 @@
-<map id="firestarr::sim::SpreadInfo::dc" name="firestarr::sim::SpreadInfo::dc">
-<area shape="rect" id="node1" title="Drought Code used for spread." alt="" coords="5,35,187,61"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_fwi_weather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="235,5,417,32"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_spread_info.html#ae45a07d8b09fe1b00e94014a81059991" title="FwiWeather used for spread." alt="" coords="245,57,407,98"/>
-</map>

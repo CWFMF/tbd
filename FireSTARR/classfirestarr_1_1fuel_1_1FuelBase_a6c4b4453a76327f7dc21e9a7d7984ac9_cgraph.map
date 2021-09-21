@@ -1,0 +1,4 @@
+<map id="firestarr::fuel::FuelBase::dmcRatio" name="firestarr::fuel::FuelBase::dmcRatio">
+<area shape="rect" id="node1" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelBase.php#a970b8f6f2abef383fd327e6971c9bc50" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="207,5,360,47"/>
+</map>

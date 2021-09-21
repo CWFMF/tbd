@@ -1,0 +1,5 @@
+<map id="firestarr::sim::SettingsImplementation::offsetSunrise" name="firestarr::sim::SettingsImplementation::offsetSunrise">
+<area shape="rect" id="node1" title="Offset from sunrise at which the day is considered to start (hours)" alt="" coords="416,5,609,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.php#ae2c9df43ade1617f40483572c1610d17" title="Offset from sunrise at which the day is considered to start (hours)" alt="" coords="221,5,368,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.php#a625dffb14b1c034629a62175af5467d5" title=" " alt="" coords="5,13,173,39"/>
+</map>

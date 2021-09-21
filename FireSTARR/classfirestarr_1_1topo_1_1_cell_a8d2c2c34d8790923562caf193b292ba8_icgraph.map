@@ -1,6 +1,0 @@
-<map id="firestarr::topo::Cell::aspect" name="firestarr::topo::Cell::aspect">
-<area shape="rect" id="node1" title="Aspect (degrees)" alt="" coords="228,71,352,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_cell.html#ab7aa648eae4d4824bba7997d637bdf1b" title="Hash attributes into a Topo value." alt="" coords="31,5,155,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_spread_info.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="12,136,173,177"/>
-</map>

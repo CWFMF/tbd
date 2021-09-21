@@ -1,0 +1,6 @@
+<map id="firestarr::sim::Semaphore" name="firestarr::sim::Semaphore">
+<area shape="rect" id="node1" title="Provides the ability to limit number of threads running at once." alt="" coords="115,145,279,311"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,132,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="156,5,237,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="261,5,300,83"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::sim::TestWeather" name="firestarr::sim::TestWeather">
-<area shape="rect" id="node1" title="A FireWeather stream with the same value for every date and time." alt="" coords="10,351,182,501"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1_fire_weather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="5,5,187,303"/>
-</map>

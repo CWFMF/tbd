@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_1702',['Type',['.././FireSTARR/classfirestarr_1_1sim_1_1_event.html#a0664059cbe56575a548b747da20bfc4c',1,'firestarr::sim::Event']]]
+  ['spreadresult_3140',['SpreadResult',['.././FireSTARR/namespacefirestarr_1_1sim.php#a27c10565108fd02a3ec98401f407b932',1,'firestarr::sim']]]
 ];

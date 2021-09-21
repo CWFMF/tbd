@@ -1,6 +1,0 @@
-<map id="firestarr::data::GridBase::findCoordinates" name="firestarr::data::GridBase::findCoordinates">
-<area shape="rect" id="node1" title="Find Coordinates for Point." alt="" coords="5,71,161,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="221,5,353,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1_point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="221,71,353,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1_grid_base.html#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="209,136,365,177"/>
-</map>

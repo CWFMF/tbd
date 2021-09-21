@@ -1,0 +1,5 @@
+<map id="firestarr::sim::Settings::setWeatherFile" name="firestarr::sim::Settings::setWeatherFile">
+<area shape="rect" id="node1" title="Set name of file to save weather to." alt="" coords="5,39,152,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="219,5,385,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a8c42b73254fbb5f06b907d4a6b7be54d" title="Set name of file to save weather to." alt="" coords="200,71,404,112"/>
+</map>

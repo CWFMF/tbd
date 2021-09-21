@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::minimumRos" name="firestarr::sim::Settings::minimumRos">
-<area shape="rect" id="node1" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="213,5,380,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#ab6028cc369896f954686385390f0e565" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="200,71,393,112"/>
-</map>

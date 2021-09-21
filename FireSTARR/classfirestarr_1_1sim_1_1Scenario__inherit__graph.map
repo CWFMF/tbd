@@ -1,0 +1,4 @@
+<map id="firestarr::sim::Scenario" name="firestarr::sim::Scenario">
+<area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,5,196,1373"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1TestScenario.php" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="13,1421,188,1572"/>
+</map>

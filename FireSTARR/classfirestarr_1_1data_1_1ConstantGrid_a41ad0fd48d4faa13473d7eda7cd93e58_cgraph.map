@@ -1,0 +1,30 @@
+<map id="firestarr::data::ConstantGrid::readTiff" name="firestarr::data::ConstantGrid::readTiff">
+<area shape="rect" id="node1" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="5,325,160,367"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1ConstantGrid.php#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="208,325,363,367"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.php#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="411,5,567,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="433,71,545,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.php#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="411,136,567,177"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridBase.php#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="411,355,567,396"/>
+<area shape="rect" id="node20" href="$namespacefirestarr_1_1logging.php#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="637,289,749,331"/>
+<area shape="rect" id="node22" href="$namespacefirestarr_1_1logging.php#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="637,159,749,200"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridBase.php#a6abba7838eacc3f6b708b78dafd15419" title="Value used for grid locations that have no data." alt="" coords="411,420,567,461"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1data_1_1GridBase.php#a775dda8c067476d971c57a3e880c46d1" title="Proj4 string defining coordinate system for this grid. Must be a UTM projection." alt="" coords="411,485,567,527"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1data_1_1GridBase.php#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="411,551,567,592"/>
+<area shape="rect" id="node26" href="$namespacefirestarr_1_1logging.php#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="637,224,749,265"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1data_1_1GridBase.php#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="411,616,567,657"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1data_1_1GridBase.php#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="411,681,567,723"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="637,71,749,112"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="637,551,749,592"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1topo.php#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="635,616,751,657"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Point.php#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="627,355,759,396"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Point.php#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="627,420,759,461"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1data_1_1GridBase.php#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="615,485,771,527"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="819,224,947,265"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="827,289,939,331"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1topo.php#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="819,676,946,717"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="1018,613,1123,655"/>
+<area shape="rect" id="node16" href="$namespacefirestarr_1_1topo.php#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="821,557,945,599"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1topo.php#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="1001,679,1140,720"/>
+<area shape="rect" id="node15" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="1195,613,1301,655"/>
+<area shape="rect" id="node17" href="$namespacefirestarr_1_1topo.php#a592202c035b67668804735681230bd48" title=" " alt="" coords="995,548,1147,589"/>
+</map>

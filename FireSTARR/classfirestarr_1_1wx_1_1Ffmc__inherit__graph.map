@@ -1,0 +1,4 @@
+<map id="firestarr::wx::Ffmc" name="firestarr::wx::Ffmc">
+<area shape="rect" id="node1" title="Fine Fuel Moisture Code value." alt="" coords="25,380,148,457"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,168,332"/>
+</map>

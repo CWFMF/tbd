@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::minimumFfmc" name="firestarr::sim::Settings::minimumFfmc">
-<area shape="rect" id="node1" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="217,5,383,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#ab45f510a59e11fc41ab664d39493441f" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="200,71,400,112"/>
-</map>

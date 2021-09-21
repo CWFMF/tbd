@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Scenario::checkCondense" name="firestarr::sim::Scenario::checkCondense">
-<area shape="rect" id="node1" title="Condense set of points down to a smaller number." alt="" coords="5,39,155,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings.html#ac2720849e3062960e6291dfd558e6419" title="Maximum number of points in a Cell before they are condensed." alt="" coords="203,39,349,80"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="414,5,581,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a11f94dcab447351b2e636605ecf17d67" title="Maximum number of points in a Cell before they are condensed." alt="" coords="397,71,597,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelBase::probabilityPeat" name="firestarr::fuel::FuelBase::probabilityPeat">
-<area shape="rect" id="node1" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,39,159,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_base.html#a75b7511445ecefc5115962d30e66ad06" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="207,5,360,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_fuel_base.html#abf5880ab684b8eaf925dba9b36edf1c7" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="207,71,360,112"/>
-</map>

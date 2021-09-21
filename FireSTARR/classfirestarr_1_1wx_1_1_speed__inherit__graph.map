@@ -1,4 +1,0 @@
-<map id="firestarr::wx::Speed" name="firestarr::wx::Speed">
-<area shape="rect" id="node1" title="Speed in kilometers per hour." alt="" coords="21,380,152,457"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,168,332"/>
-</map>

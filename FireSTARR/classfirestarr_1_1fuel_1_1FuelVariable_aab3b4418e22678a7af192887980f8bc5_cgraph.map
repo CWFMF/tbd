@@ -1,0 +1,7 @@
+<map id="firestarr::fuel::FuelVariable::surfaceFuelConsumption" name="firestarr::fuel::FuelVariable::surfaceFuelConsumption">
+<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,64,177,105"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.php#ad7ac061477b3aee0c004a8e76ee62b9a" title=" " alt="" coords="257,5,375,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#adaa1400b21083b1b7ca63896799d03de" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="225,71,407,98"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelType.php#a8f3010d1b2fb22d7b8c4c0cd53d72374" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="230,123,402,164"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.php#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="455,5,605,47"/>
+</map>

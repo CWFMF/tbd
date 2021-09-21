@@ -1,0 +1,5 @@
+<map id="firestarr::sim::SpreadInfo::percentSlope" name="firestarr::sim::SpreadInfo::percentSlope">
+<area shape="rect" id="node1" title="Slope used for spread (%)" alt="" coords="215,39,376,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#adbeede18d02465314d58c50b5ff4e8df" title="Slope factor calculated from percent slope." alt="" coords="5,5,167,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,71,167,112"/>
+</map>

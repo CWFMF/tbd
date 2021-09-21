@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::thresholdDailyWeight" name="firestarr::sim::SettingsImplementation::thresholdDailyWeight">
-<area shape="rect" id="node1" title="Weight to give to daily part of thresholds." alt="" coords="203,5,401,61"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings.html#ad7fe946af1ad21946ce1aeadf455666b" title="Weight to give to daily part of thresholds." alt="" coords="5,13,155,54"/>
-</map>

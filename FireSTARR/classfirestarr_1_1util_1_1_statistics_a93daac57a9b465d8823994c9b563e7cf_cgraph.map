@@ -1,8 +1,0 @@
-<map id="firestarr::util::Statistics::runsRequired" name="firestarr::util::Statistics::runsRequired">
-<area shape="rect" id="node1" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="5,71,155,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1_statistics.html#a3c04c3c46e5549ba7acd5796a7965347" title="Mean (average) value." alt="" coords="221,5,371,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="203,71,389,112"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1util_1_1_statistics.html#a522d0c902df8017b81d011d7f75ca145" title="Sample Variance." alt="" coords="221,136,371,177"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="469,35,636,76"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="437,99,668,155"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="firestarr::topo::EnvironmentInfo::loadInfo" name="firestarr::topo::EnvironmentInfo::loadInfo">
-<area shape="rect" id="node1" title="Load EnvironmentInfo from given rasters." alt="" coords="5,39,180,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment_info.html#a1c784db204074f8877a85b855e38ae30" title="Construct from given rasters." alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="242,71,389,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="451,71,617,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="firestarr::topo::Environment::resetBurnedData" name="firestarr::topo::Environment::resetBurnedData">
-<area shape="rect" id="node1" title="Reset with known non&#45;fuel cells." alt="" coords="409,5,584,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment.html#a15d727fba79ad7e309ef89e1a68e38b6" title="Create BurnedData and set burned bits based on Perimeter." alt="" coords="187,5,361,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_model.html#a8ef0898d3df0f6897d6b5a809ddbbd7e" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="5,5,139,47"/>
-</map>

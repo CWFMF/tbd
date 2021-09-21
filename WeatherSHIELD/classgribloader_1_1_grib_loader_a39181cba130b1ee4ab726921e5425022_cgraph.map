@@ -1,9 +1,0 @@
-<map id="gribloader.GribLoader.get_records" name="gribloader.GribLoader.get_records">
-<area shape="rect" id="node1" title="Get weather for given date." alt="" coords="5,57,172,98"/>
-<area shape="rect" id="node2" href="$classgribloader_1_1_grib_loader.html#a8898c35ca305e37a7fe6583f990be9bf" title="Return 18z for_day days in the future." alt="" coords="220,5,413,32"/>
-<area shape="rect" id="node3" href="$classgribloader_1_1_grib_loader.html#aac8625c24f223a7c405c8a74441e7219" title="Read accumulated precip for given date." alt="" coords="230,57,403,98"/>
-<area shape="rect" id="node7" href="$classgribloader_1_1_grib_loader.html#a6aed433d13a36ce8367f7a15dfdc6226" title="Read all weather for given day." alt="" coords="461,123,657,149"/>
-<area shape="rect" id="node4" href="$classgribloader_1_1_grib_loader.html#a27b221a1afa28b1caa78dae0f36ebcaf" title="Calculate accumulated precip over a given period." alt="" coords="473,57,646,98"/>
-<area shape="rect" id="node5" href="$classgribloader_1_1_grib_loader.html#ae37eae99def019a8279001735f04768d" title="Read precip file for given time." alt="" coords="705,57,879,98"/>
-<area shape="rect" id="node6" href="$classgribloader_1_1_grib_loader.html#aa24ad1ccb60d6dac118dacddf048c1f0" title="Read grib data for desired time and field." alt="" coords="927,93,1128,120"/>
-</map>

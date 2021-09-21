@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['valuesarray_1701',['ValuesArray',['.././FireSTARR/classfirestarr_1_1util_1_1_lookup_table.html#adf94312596e95d6d2e5991abe2c32dd0',1,'firestarr::util::LookupTable::ValuesArray()'],['.././FireSTARR/classfirestarr_1_1util_1_1_lookup_table.html#adf94312596e95d6d2e5991abe2c32dd0',1,'LookupTable&lt;&amp;duffFunction &gt;::ValuesArray()']]]
+  ['angletablearray_3113',['AngleTableArray',['.././FireSTARR/namespacefirestarr.php#a0875a0aba42f96dc4a762ae9d45feee7',1,'firestarr']]],
+  ['aspectgrid_3114',['AspectGrid',['.././FireSTARR/namespacefirestarr_1_1topo.php#a539e522def0c3e7819340f160b909742',1,'firestarr::topo']]],
+  ['aspectsize_3115',['AspectSize',['.././FireSTARR/namespacefirestarr.php#a669a03594dfad3736cacb90eda6dae54',1,'firestarr']]]
 ];

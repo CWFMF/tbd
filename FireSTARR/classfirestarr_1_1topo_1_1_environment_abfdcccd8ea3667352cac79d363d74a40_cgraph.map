@@ -1,4 +1,0 @@
-<map id="firestarr::topo::Environment::offset" name="firestarr::topo::Environment::offset">
-<area shape="rect" id="node1" title="Cell at Location with offset of row and column from Location of Event." alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1_environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="228,5,403,47"/>
-</map>

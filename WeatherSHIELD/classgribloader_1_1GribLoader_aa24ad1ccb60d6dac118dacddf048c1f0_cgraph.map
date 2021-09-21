@@ -1,0 +1,4 @@
+<map id="gribloader.GribLoader.read_grib" name="gribloader.GribLoader.read_grib">
+<area shape="rect" id="node1" title="Read grib data for desired time and field." alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node2" href="$namespacegethistoric.php#a16313a36de58159246de21cf20b71739" title="Save the given url." alt="" coords="255,5,391,32"/>
+</map>

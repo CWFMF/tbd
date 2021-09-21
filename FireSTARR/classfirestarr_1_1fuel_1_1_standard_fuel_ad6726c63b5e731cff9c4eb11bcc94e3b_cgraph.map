@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::StandardFuel::buiEffect" name="firestarr::fuel::StandardFuel::buiEffect">
-<area shape="rect" id="node1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,39,156,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="213,5,346,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#a1025fad5a2acba1b9db09877199e1fd8" title="Average Build&#45;up Index for the fuel type [ST&#45;X&#45;3 table 7]." alt="" coords="204,71,355,112"/>
-</map>

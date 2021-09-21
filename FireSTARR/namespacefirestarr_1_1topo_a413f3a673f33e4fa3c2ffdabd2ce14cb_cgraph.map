@@ -1,0 +1,9 @@
+<map id="firestarr::topo::lat_lon_to_utm" name="firestarr::topo::lat_lon_to_utm">
+<area shape="rect" id="node1" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="5,69,121,111"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.php#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="169,8,296,49"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="367,71,473,112"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1topo.php#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="171,128,295,169"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.php#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="351,5,489,47"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="544,71,651,112"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.php#a592202c035b67668804735681230bd48" title=" " alt="" coords="344,136,496,177"/>
+</map>

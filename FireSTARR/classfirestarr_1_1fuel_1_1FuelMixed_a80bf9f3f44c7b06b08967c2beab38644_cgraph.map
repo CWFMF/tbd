@@ -1,0 +1,7 @@
+<map id="firestarr::fuel::FuelMixed::calculateRos" name="firestarr::fuel::FuelMixed::calculateRos">
+<area shape="rect" id="node1" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="5,111,163,152"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a4d7ee66483e7cf1946c38cf857ec3167" title="Percent Conifer (% / 100)" alt="" coords="244,5,401,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#ab4fb76034d7a147501a998921d2271ba" title="Percent Deciduous (% / 100)" alt="" coords="244,71,401,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1StandardFuel.php#aaa463dcf481b83ea32fe3ad6ff366d80" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="211,136,435,207"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a6a97f32603cbc5cfde5392627b2959e7" title="Rate of spread multiplier [ST&#45;X&#45;3 eq 27/28, GLC&#45;X&#45;10 eq 29/30]." alt="" coords="244,231,401,272"/>
+</map>

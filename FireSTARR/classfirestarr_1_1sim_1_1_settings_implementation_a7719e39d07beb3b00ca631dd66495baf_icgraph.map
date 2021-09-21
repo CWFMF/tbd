@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::offsetSunset" name="firestarr::sim::SettingsImplementation::offsetSunset">
-<area shape="rect" id="node1" title="Offset from sunrise at which the day is considered to end (hours)" alt="" coords="200,5,391,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings.html#ac62b5e13d287c20dd297329f06db9d6f" title="Offset from sunrise at which the day is considered to end (hours)" alt="" coords="5,5,152,47"/>
-</map>

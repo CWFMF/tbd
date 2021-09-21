@@ -1,6 +1,0 @@
-<map id="firestarr::data::GridMap::makeEdge" name="firestarr::data::GridMap::makeEdge">
-<area shape="rect" id="node1" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="5,71,156,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1_grid_base.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="204,5,360,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1_grid_base.html#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="204,71,360,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1_grid_base.html#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="204,136,360,177"/>
-</map>

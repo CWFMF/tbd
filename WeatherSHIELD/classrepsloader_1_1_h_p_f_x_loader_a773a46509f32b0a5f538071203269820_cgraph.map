@@ -1,5 +1,0 @@
-<map id="repsloader.HPFXLoader.load_specific_records" name="repsloader.HPFXLoader.load_specific_records">
-<area shape="rect" id="node1" title="Load records for specific period." alt="" coords="5,35,193,76"/>
-<area shape="rect" id="node2" href="$classweatherloader_1_1_weather_loader.html#ad4ce88d47addf331674b27e0271c8d19" title="Check if data for given generated time already exists." alt="" coords="254,5,486,47"/>
-<area shape="rect" id="node3" href="$classweatherloader_1_1_weather_loader.html#aaa9960af89da67891bf7008591faf169" title="Save data into database." alt="" coords="241,71,499,98"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::fuel::FuelType::safeCode" name="firestarr::fuel::FuelType::safeCode">
-<area shape="rect" id="node1" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_type.html#abafed0f685ef59a90afdf7af3d8ea110" title="Code for this fuel type." alt="" coords="204,5,355,47"/>
-</map>

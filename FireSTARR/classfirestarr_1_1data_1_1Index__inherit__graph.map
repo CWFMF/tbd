@@ -1,0 +1,29 @@
+<map id="firestarr::data::Index&lt; T &gt;" name="firestarr::data::Index&lt; T &gt;">
+<area shape="rect" id="node1" title="A wrapper around a double to ensure correct types are used." alt="" coords="2015,5,2177,332"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1AccumulatedPrecipitation.php" title="Accumulated precipitation in mm." alt="" coords="5,519,269,611"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Bui.php" title="Build&#45;up Index value." alt="" coords="293,512,405,619"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1Dc.php" title="Drought Code value." alt="" coords="429,527,576,604"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1Direction.php" title="Direction with access to degrees or radians." alt="" coords="600,453,744,677"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1wx_1_1Dmc.php" title="Duff Moisture Code value." alt="" coords="768,519,888,611"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1wx_1_1Dsr.php" title="Danger Severity Rating value." alt="" coords="913,519,1026,611"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1wx_1_1Ffmc.php" title="Fine Fuel Moisture Code value." alt="" coords="1051,519,1173,611"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1wx_1_1Fwi.php" title="Fire Weather Index value." alt="" coords="1197,512,1312,619"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1Isi.php" title="Initial Spread Index value." alt="" coords="1336,512,1443,619"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1wx_1_1RelativeHumidity.php" title="Relative humidity as a percentage." alt="" coords="1467,519,1658,611"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1wx_1_1Speed.php" title="Speed in kilometers per hour." alt="" coords="1683,519,1813,611"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1wx_1_1Temperature.php" title="Temperature in degrees Celsius." alt="" coords="1838,519,2005,611"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2029,395,2163,736"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2187,395,2320,736"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2344,395,2477,736"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2501,395,2635,736"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2659,395,2792,736"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2816,395,2949,736"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="2973,395,3107,736"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3131,395,3264,736"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3288,395,3421,736"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3446,395,3589,736"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3613,395,3805,736"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3829,395,3963,736"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1data_1_1Index.php" title=" " alt="" coords="3987,395,4120,736"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1data_1_1LogValue.php" title="A result of calling log(x) for some value of x, pre&#45;calculated at compile time." alt="" coords="2489,785,2647,863"/>
+</map>

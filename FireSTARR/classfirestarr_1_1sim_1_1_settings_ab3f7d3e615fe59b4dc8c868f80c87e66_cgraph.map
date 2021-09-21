@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::maximumSpreadDistance" name="firestarr::sim::Settings::maximumSpreadDistance">
-<area shape="rect" id="node1" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="5,41,181,83"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="253,5,420,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#ab9b6fa15fa49a23ea8530aefa3430ae4" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="229,70,444,126"/>
-</map>

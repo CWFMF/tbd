@@ -1,6 +1,0 @@
-<map id="firestarr::util::UsageCount" name="firestarr::util::UsageCount">
-<area shape="rect" id="node1" title="Provides the ability to determine how many times something is used during a simulation." alt="" coords="37,285,203,451"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,145,123,223"/>
-<area shape="rect" id="node3" title=" " alt="" coords="33,5,95,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="147,145,202,223"/>
-</map>

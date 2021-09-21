@@ -1,4 +1,0 @@
-<map id="firestarr::fuel::FuelType::probabilityPeat" name="firestarr::fuel::FuelType::probabilityPeat">
-<area shape="rect" id="node1" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="224,5,375,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_fuel_variable.html#ab0c89a1321fc9e18c7472ab0d9690833" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,5,176,47"/>
-</map>

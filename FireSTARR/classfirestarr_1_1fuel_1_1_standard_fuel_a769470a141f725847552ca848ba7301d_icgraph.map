@@ -1,7 +1,0 @@
-<map id="firestarr::fuel::StandardFuel::c" name="firestarr::fuel::StandardFuel::c">
-<area shape="rect" id="node1" title="Rate of spread parameter c [ST&#45;X&#45;3 table 6]." alt="" coords="597,39,748,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#a15ff42656b872ab4c97bb64119687ad1" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="200,5,351,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1_standard_fuel.html#aaa463dcf481b83ea32fe3ad6ff366d80" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="399,68,549,109"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1_fuel_non_mixed.html#acd335257941e3b4780ebec5d42404f4d" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1_fuel_non_mixed.html#a8c2bd46d5490d2127ebb168b0a338981" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="202,71,349,112"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Model::readScenarios" name="firestarr::sim::Model::readScenarios">
-<area shape="rect" id="node1" title="Create an Iteration by initializing Scenarios." alt="" coords="5,39,139,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1_settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="187,39,333,80"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="409,5,576,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1_settings_implementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="381,71,604,112"/>
-</map>

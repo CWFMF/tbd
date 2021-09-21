@@ -1,7 +1,0 @@
-<map id="firestarr::fuel::FuelLookup" name="firestarr::fuel::FuelLookup">
-<area shape="rect" id="node1" title="Provides ability to look up a fuel type based on name or code." alt="" coords="97,344,264,553"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,182,164,274"/>
-<area shape="rect" id="node3" title=" " alt="" coords="43,5,126,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="188,175,368,281"/>
-<area shape="rect" id="node5" title=" " alt="" coords="253,5,303,83"/>
-</map>
