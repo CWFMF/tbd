@@ -1,4 +1,4 @@
 <map id="reanalysis1.get_valid_locs" name="reanalysis1.get_valid_locs">
 <area shape="rect" id="node1" title="Determine which indexes in the 2d array provide lat/long coordinates within our bounds." alt="" coords="192,5,365,32"/>
-<area shape="rect" id="node2" href="$namespacereanalysis1.php#a166ac21617cfa737114540efc2bb4110" title="Load data for given year." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$namespacereanalysis1.html#a166ac21617cfa737114540efc2bb4110" title="Load data for given year." alt="" coords="5,5,144,32"/>
 </map>

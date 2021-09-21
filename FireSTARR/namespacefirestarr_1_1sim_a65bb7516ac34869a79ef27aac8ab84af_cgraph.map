@@ -1,16 +1,16 @@
 <map id="firestarr::sim::add_statistics" name="firestarr::sim::add_statistics">
 <area shape="rect" id="node1" title=" " alt="" coords="5,169,124,211"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="198,5,310,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1SafeVector.php#a1757f5aca2fa6fd5ceb8fc1c667227e1" title="Get a vector with the stored values." alt="" coords="175,71,333,112"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="191,136,317,177"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.php#a8b4ebb3d086021de26161d460e54f91f" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="187,201,321,243"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Settings.php#ad2b95f6e926e3ccf062d82565aca14bb" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="172,267,336,308"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.php#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="198,397,310,439"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="455,5,567,47"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Model.php#ad0285b922ff5861df6c949b5fc065f05" title="Time to use for simulation start." alt="" coords="444,136,577,177"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.php#a273e8da79fd8091cfac18ede49020985" title="Maximum amount of time simulation can run for before being stopped." alt="" coords="444,201,577,243"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="427,267,594,308"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#aaf893b09cf3bcc728e7debf969755d40" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="384,332,637,373"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="447,397,575,439"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="455,463,567,504"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="198,5,310,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1SafeVector.html#a1757f5aca2fa6fd5ceb8fc1c667227e1" title="Get a vector with the stored values." alt="" coords="175,71,333,112"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="191,136,317,177"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#a8b4ebb3d086021de26161d460e54f91f" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="187,201,321,243"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Settings.html#ad2b95f6e926e3ccf062d82565aca14bb" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="172,267,336,308"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="198,397,310,439"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="455,5,567,47"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Model.html#ad0285b922ff5861df6c949b5fc065f05" title="Time to use for simulation start." alt="" coords="444,136,577,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.html#a273e8da79fd8091cfac18ede49020985" title="Maximum amount of time simulation can run for before being stopped." alt="" coords="444,201,577,243"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="427,267,594,308"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#aaf893b09cf3bcc728e7debf969755d40" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="384,332,637,373"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="447,397,575,439"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="455,463,567,504"/>
 </map>

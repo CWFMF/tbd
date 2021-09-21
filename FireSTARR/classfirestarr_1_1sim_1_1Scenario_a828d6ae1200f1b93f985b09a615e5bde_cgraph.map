@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Scenario::nd" name="firestarr::sim::Scenario::nd">
 <area shape="rect" id="node1" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="5,42,175,69"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="225,5,374,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.php#ad055295ef517b62ad0557e37a7628a7c" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="223,71,376,98"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="225,5,374,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#ad055295ef517b62ad0557e37a7628a7c" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="223,71,376,98"/>
 </map>

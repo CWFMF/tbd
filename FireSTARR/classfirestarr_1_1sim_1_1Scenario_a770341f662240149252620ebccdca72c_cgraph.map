@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Scenario::saveStats" name="firestarr::sim::Scenario::saveStats">
 <area shape="rect" id="node1" title="Save state of Scenario at given time." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1SafeVector.php#ac0b40a5c8623fa8d00e1cbf95f1c936e" title="Add a value to the SafeVector." alt="" coords="203,5,361,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1util.php#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="409,5,536,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1SafeVector.html#ac0b40a5c8623fa8d00e1cbf95f1c936e" title="Add a value to the SafeVector." alt="" coords="203,5,361,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1util.html#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="409,5,536,47"/>
 </map>

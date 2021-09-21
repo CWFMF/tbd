@@ -1,4 +1,4 @@
 <map id="firestarr::sim::Semaphore::notify" name="firestarr::sim::Semaphore::notify">
 <area shape="rect" id="node1" title="Notify something that&#39;s waiting so it can run." alt="" coords="216,5,380,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1CriticalSection.php#a5d05fe53adacff0f2cd617bc5c8a5eb2" title=" " alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1CriticalSection.html#a5d05fe53adacff0f2cd617bc5c8a5eb2" title=" " alt="" coords="5,5,168,47"/>
 </map>

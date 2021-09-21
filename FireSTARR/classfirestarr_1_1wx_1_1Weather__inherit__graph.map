@@ -1,4 +1,4 @@
 <map id="firestarr::wx::Weather" name="firestarr::wx::Weather">
 <area shape="rect" id="node1" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="16,5,157,273"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.php" title="A Weather value with calculated FWI indices." alt="" coords="5,321,168,839"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="5,321,168,839"/>
 </map>

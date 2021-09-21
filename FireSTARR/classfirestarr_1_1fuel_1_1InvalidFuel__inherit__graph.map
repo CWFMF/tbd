@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::InvalidFuel" name="firestarr::fuel::InvalidFuel">
 <area shape="rect" id="node1" title="Placeholder fuel that throws exceptions if it ever gets used." alt="" coords="5,497,191,824"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="5,5,191,449"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="5,5,191,449"/>
 </map>

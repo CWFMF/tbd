@@ -1,11 +1,11 @@
 <map id="FireSTARR/src/Environment.cpp" name="FireSTARR/src/Environment.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="3709,5,3920,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="2156,155,2223,181"/>
-<area shape="rect" id="node46" href="$Environment_8h.php" title=" " alt="" coords="3731,155,3835,181"/>
-<area shape="rect" id="node47" href="$EnvironmentInfo_8h.php" title=" " alt="" coords="3802,80,3929,107"/>
-<area shape="rect" id="node48" href="$FuelLookup_8h.php" title=" " alt="" coords="3910,155,4010,181"/>
-<area shape="rect" id="node49" href="$ProbabilityMap_8h.php" title=" " alt="" coords="4085,155,4203,181"/>
-<area shape="rect" id="node50" href="$Scenario_8h.php" title=" " alt="" coords="3624,155,3707,181"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2156,155,2223,181"/>
+<area shape="rect" id="node46" href="$Environment_8h.html" title=" " alt="" coords="3731,155,3835,181"/>
+<area shape="rect" id="node47" href="$EnvironmentInfo_8h.html" title=" " alt="" coords="3802,80,3929,107"/>
+<area shape="rect" id="node48" href="$FuelLookup_8h.html" title=" " alt="" coords="3910,155,4010,181"/>
+<area shape="rect" id="node49" href="$ProbabilityMap_8h.html" title=" " alt="" coords="4085,155,4203,181"/>
+<area shape="rect" id="node50" href="$Scenario_8h.html" title=" " alt="" coords="3624,155,3707,181"/>
 <area shape="rect" id="node3" title=" " alt="" coords="1261,229,1315,256"/>
 <area shape="rect" id="node4" title=" " alt="" coords="1340,229,1401,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="3603,229,3677,256"/>

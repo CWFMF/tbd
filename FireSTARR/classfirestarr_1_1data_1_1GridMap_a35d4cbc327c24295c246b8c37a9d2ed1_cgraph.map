@@ -1,7 +1,7 @@
 <map id="firestarr::data::GridMap::GridMap" name="firestarr::data::GridMap::GridMap">
 <area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,156,112"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="226,5,338,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.php#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="204,71,360,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.php#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="204,136,360,177"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="408,5,520,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="226,5,338,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="204,71,360,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="204,136,360,177"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="408,5,520,47"/>
 </map>

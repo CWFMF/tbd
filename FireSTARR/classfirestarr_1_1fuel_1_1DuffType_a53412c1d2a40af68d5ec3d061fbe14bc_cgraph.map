@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::DuffType::duffFunction" name="firestarr::fuel::DuffType::duffFunction">
 <area shape="rect" id="node1" title="Ignition Probability (% / 100) [eq Ig&#45;1]." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1DuffType.php#a691cb5cc2c64301ab16dadaf8921f222" title="B_1 [table 2]." alt="" coords="203,13,372,39"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1DuffType.html#a691cb5cc2c64301ab16dadaf8921f222" title="B_1 [table 2]." alt="" coords="203,13,372,39"/>
 </map>

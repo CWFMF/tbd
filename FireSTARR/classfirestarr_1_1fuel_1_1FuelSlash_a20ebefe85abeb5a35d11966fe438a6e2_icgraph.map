@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::FuelSlash::wfcA" name="firestarr::fuel::FuelSlash::wfcA">
 <area shape="rect" id="node1" title="Woody Fuel Consumption parameter a [ST&#45;X&#45;3 eq 20/22/24]." alt="" coords="225,5,381,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelSlash.php#aeff44353a263b345d762861906b088c5" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 25]." alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelSlash.html#aeff44353a263b345d762861906b088c5" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 25]." alt="" coords="5,5,177,47"/>
 </map>

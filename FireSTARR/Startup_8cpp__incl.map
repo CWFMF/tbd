@@ -1,8 +1,8 @@
 <map id="FireSTARR/src/Startup.cpp" name="FireSTARR/src/Startup.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="3312,5,3492,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="2062,155,2129,181"/>
-<area shape="rect" id="node47" href="$Startup_8h.php" title=" " alt="" coords="3365,80,3439,107"/>
-<area shape="rect" id="node50" href="$TimeUtil_8h.php" title=" " alt="" coords="3969,155,4051,181"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2062,155,2129,181"/>
+<area shape="rect" id="node47" href="$Startup_8h.html" title=" " alt="" coords="3365,80,3439,107"/>
+<area shape="rect" id="node50" href="$TimeUtil_8h.html" title=" " alt="" coords="3969,155,4051,181"/>
 <area shape="rect" id="node3" title=" " alt="" coords="3121,229,3176,256"/>
 <area shape="rect" id="node4" title=" " alt="" coords="3201,229,3262,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="3286,229,3361,256"/>
@@ -47,6 +47,6 @@
 <area shape="rect" id="node44" title=" " alt="" coords="2816,229,2871,256"/>
 <area shape="rect" id="node45" title=" " alt="" coords="2895,229,2995,256"/>
 <area shape="rect" id="node46" title=" " alt="" coords="3019,229,3097,256"/>
-<area shape="rect" id="node48" href="$FWI_8h.php" title=" " alt="" coords="3374,155,3430,181"/>
-<area shape="rect" id="node49" href="$Point_8h.php" title=" " alt="" coords="3455,155,3517,181"/>
+<area shape="rect" id="node48" href="$FWI_8h.html" title=" " alt="" coords="3374,155,3430,181"/>
+<area shape="rect" id="node49" href="$Point_8h.html" title=" " alt="" coords="3455,155,3517,181"/>
 </map>

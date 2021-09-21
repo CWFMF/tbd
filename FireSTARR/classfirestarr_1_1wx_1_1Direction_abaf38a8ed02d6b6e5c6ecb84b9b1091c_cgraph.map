@@ -1,7 +1,7 @@
 <map id="firestarr::wx::Direction::asRadians" name="firestarr::wx::Direction::asRadians">
 <area shape="rect" id="node1" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="5,39,149,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.php#a142a69baa6cdf546a168f8066fa13a69" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="197,5,341,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="217,71,322,112"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Index.php#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="389,5,523,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="403,71,509,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.html#a142a69baa6cdf546a168f8066fa13a69" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="197,5,341,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="217,71,322,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="389,5,523,47"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="403,71,509,112"/>
 </map>

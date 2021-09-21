@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Settings::defaultPercentDeadFir" name="firestarr::sim::Settings::defaultPercentDeadFir">
 <area shape="rect" id="node1" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="5,49,163,90"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a80297a5a9c7e7bbcebd7b80dcb8aafb1" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="211,5,412,61"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="228,85,395,126"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a80297a5a9c7e7bbcebd7b80dcb8aafb1" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="211,5,412,61"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="228,85,395,126"/>
 </map>

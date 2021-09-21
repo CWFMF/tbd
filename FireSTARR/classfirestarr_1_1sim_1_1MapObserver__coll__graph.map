@@ -1,6 +1,6 @@
 <map id="firestarr::sim::MapObserver&lt; T &gt;" name="firestarr::sim::MapObserver&lt; T &gt;">
 <area shape="rect" id="node1" title="An IObserver that tracks notification data using a GridMap." alt="" coords="161,587,367,796"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.php" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,315,160,524"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,315,160,524"/>
 <area shape="rect" id="node3" title=" " alt="" coords="184,373,344,465"/>
 <area shape="rect" id="node4" title=" " alt="" coords="191,153,327,230"/>
 <area shape="rect" id="node5" title=" " alt="" coords="239,5,278,83"/>

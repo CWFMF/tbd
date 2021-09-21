@@ -1,4 +1,4 @@
 <map id="firestarr::topo::map_lat_lon_to_xy" name="firestarr::topo::map_lat_lon_to_xy">
 <area shape="rect" id="node1" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="5,5,132,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.php#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="180,5,319,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="180,5,319,47"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="firestarr::sim::SpreadInfo::ffmcEffect" name="firestarr::sim::SpreadInfo::ffmcEffect">
 <area shape="rect" id="node1" title="FFMC effect used for spread." alt="" coords="5,39,167,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a0f7f0fe5ad51201d092e55a13f210fb0" title="Ffmc effect used for spread." alt="" coords="215,5,377,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#ae45a07d8b09fe1b00e94014a81059991" title="FwiWeather used for spread." alt="" coords="215,71,377,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.html#a0f7f0fe5ad51201d092e55a13f210fb0" title="Ffmc effect used for spread." alt="" coords="215,5,377,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ae45a07d8b09fe1b00e94014a81059991" title="FwiWeather used for spread." alt="" coords="215,71,377,112"/>
 </map>

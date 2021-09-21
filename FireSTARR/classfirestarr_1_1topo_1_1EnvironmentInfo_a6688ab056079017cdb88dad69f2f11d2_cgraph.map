@@ -1,4 +1,4 @@
 <map id="firestarr::topo::EnvironmentInfo::rows" name="firestarr::topo::EnvironmentInfo::rows">
 <area shape="rect" id="node1" title="Number of rows in grid." alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.php#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="228,5,384,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="228,5,384,47"/>
 </map>

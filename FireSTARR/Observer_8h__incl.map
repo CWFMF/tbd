@@ -2,11 +2,11 @@
 <area shape="rect" id="node1" title=" " alt="" coords="2452,5,2629,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="2776,379,2844,405"/>
 <area shape="rect" id="node3" title=" " alt="" coords="2697,379,2752,405"/>
-<area shape="rect" id="node4" href="$Event_8h.php" title=" " alt="" coords="1891,229,1956,256"/>
-<area shape="rect" id="node41" href="$GridMap_8h.php" title=" " alt="" coords="272,229,353,256"/>
-<area shape="rect" id="node43" href="$Scenario_8h.php" title=" " alt="" coords="2861,80,2943,107"/>
-<area shape="rect" id="node5" href="$stdafx_8h.php" title=" " alt="" coords="1749,304,1815,331"/>
-<area shape="rect" id="node40" href="$Cell_8h.php" title=" " alt="" coords="1111,304,1165,331"/>
+<area shape="rect" id="node4" href="$Event_8h.html" title=" " alt="" coords="1891,229,1956,256"/>
+<area shape="rect" id="node41" href="$GridMap_8h.html" title=" " alt="" coords="272,229,353,256"/>
+<area shape="rect" id="node43" href="$Scenario_8h.html" title=" " alt="" coords="2861,80,2943,107"/>
+<area shape="rect" id="node5" href="$stdafx_8h.html" title=" " alt="" coords="1749,304,1815,331"/>
+<area shape="rect" id="node40" href="$Cell_8h.html" title=" " alt="" coords="1111,304,1165,331"/>
 <area shape="rect" id="node6" title=" " alt="" coords="2116,379,2171,405"/>
 <area shape="rect" id="node7" title=" " alt="" coords="2195,379,2257,405"/>
 <area shape="rect" id="node8" title=" " alt="" coords="217,379,291,405"/>
@@ -41,12 +41,12 @@
 <area shape="rect" id="node37" title=" " alt="" coords="81,379,192,405"/>
 <area shape="rect" id="node38" title=" " alt="" coords="5,379,57,405"/>
 <area shape="rect" id="node39" title=" " alt="" coords="3163,379,3222,405"/>
-<area shape="rect" id="node42" href="$Grid_8h.php" title=" " alt="" coords="471,304,527,331"/>
-<area shape="rect" id="node44" href="$EventCompare_8h.php" title=" " alt="" coords="2103,155,2221,181"/>
-<area shape="rect" id="node45" href="$FireWeather_8h.php" title=" " alt="" coords="3003,304,3105,331"/>
-<area shape="rect" id="node46" href="$IntensityMap_8h.php" title=" " alt="" coords="2578,155,2685,181"/>
-<area shape="rect" id="node47" href="$Model_8h.php" title=" " alt="" coords="2861,304,2927,331"/>
-<area shape="rect" id="node48" href="$Settings_8h.php" title=" " alt="" coords="3234,229,3314,256"/>
-<area shape="rect" id="node49" href="$StartPoint_8h.php" title=" " alt="" coords="3015,155,3106,181"/>
-<area shape="rect" id="node50" href="$InnerPos_8h.php" title=" " alt="" coords="3232,155,3316,181"/>
+<area shape="rect" id="node42" href="$Grid_8h.html" title=" " alt="" coords="471,304,527,331"/>
+<area shape="rect" id="node44" href="$EventCompare_8h.html" title=" " alt="" coords="2103,155,2221,181"/>
+<area shape="rect" id="node45" href="$FireWeather_8h.html" title=" " alt="" coords="3003,304,3105,331"/>
+<area shape="rect" id="node46" href="$IntensityMap_8h.html" title=" " alt="" coords="2578,155,2685,181"/>
+<area shape="rect" id="node47" href="$Model_8h.html" title=" " alt="" coords="2861,304,2927,331"/>
+<area shape="rect" id="node48" href="$Settings_8h.html" title=" " alt="" coords="3234,229,3314,256"/>
+<area shape="rect" id="node49" href="$StartPoint_8h.html" title=" " alt="" coords="3015,155,3106,181"/>
+<area shape="rect" id="node50" href="$InnerPos_8h.html" title=" " alt="" coords="3232,155,3316,181"/>
 </map>

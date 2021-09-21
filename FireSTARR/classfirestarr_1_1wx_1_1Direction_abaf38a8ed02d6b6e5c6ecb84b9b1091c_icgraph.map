@@ -1,6 +1,6 @@
 <map id="firestarr::wx::Direction::asRadians" name="firestarr::wx::Direction::asRadians">
 <area shape="rect" id="node1" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="577,5,721,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.php#a6845016de2466a346e27d580c09d8840" title="Heading (opposite of this direction)" alt="" coords="385,5,529,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Wind.php#a6c273f6341d57a4ac61ba579917319dc" title="Direction wind is going towards." alt="" coords="215,5,337,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.html#a6845016de2466a346e27d580c09d8840" title="Heading (opposite of this direction)" alt="" coords="385,5,529,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Wind.html#a6c273f6341d57a4ac61ba579917319dc" title="Direction wind is going towards." alt="" coords="215,5,337,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
 </map>

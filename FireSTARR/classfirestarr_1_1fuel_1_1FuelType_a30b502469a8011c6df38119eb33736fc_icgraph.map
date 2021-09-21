@@ -1,15 +1,15 @@
 <map id="firestarr::fuel::FuelType::name" name="firestarr::fuel::FuelType::name">
 <area shape="rect" id="node1" title="Name of the fuel." alt="" coords="1311,104,1461,145"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#adc303bf4a936c65869ad225884338842" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="1112,104,1263,145"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.php#a0d06110db6e0b1cb582f8576a45489e1" title="Put fuel into lookup table based on name." alt="" coords="897,5,1064,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="906,71,1055,112"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.php#a67ba2b84409515beb048feaf8f6e884c" title="Look up a FuelType based on the given code." alt="" coords="897,136,1064,177"/>
-<area shape="rect" id="node13" href="$namespacefirestarr_1_1wx.php#a81aebfc241a2535bf8244cef8756904e" title=" " alt="" coords="918,201,1043,243"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,71,849,112"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,78,652,105"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,49,431,75"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,100,425,141"/>
-<area shape="rect" id="node8" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,49,231,75"/>
-<area shape="rect" id="node9" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,78,56,105"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,100,237,141"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#adc303bf4a936c65869ad225884338842" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="1112,104,1263,145"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a0d06110db6e0b1cb582f8576a45489e1" title="Put fuel into lookup table based on name." alt="" coords="897,5,1064,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="906,71,1055,112"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a67ba2b84409515beb048feaf8f6e884c" title="Look up a FuelType based on the given code." alt="" coords="897,136,1064,177"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1wx.html#a81aebfc241a2535bf8244cef8756904e" title=" " alt="" coords="918,201,1043,243"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,71,849,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,78,652,105"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,49,431,75"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,100,425,141"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,49,231,75"/>
+<area shape="rect" id="node9" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,78,56,105"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,100,237,141"/>
 </map>

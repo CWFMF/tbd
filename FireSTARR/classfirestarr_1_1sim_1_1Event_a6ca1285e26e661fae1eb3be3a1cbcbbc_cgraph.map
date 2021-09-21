@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Event::makeNewFire" name="firestarr::sim::Event::makeNewFire">
 <area shape="rect" id="node1" title="Make new fire event." alt="" coords="5,39,136,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.php#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="184,5,315,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.php#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="184,71,315,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="184,5,315,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="184,71,315,112"/>
 </map>

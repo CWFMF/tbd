@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Settings::thresholdHourlyWeight" name="firestarr::sim::Settings::thresholdHourlyWeight">
 <area shape="rect" id="node1" title="Weight to give to hourly part of thresholds." alt="" coords="5,41,164,83"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="232,5,399,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="212,70,419,126"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="232,5,399,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="212,70,419,126"/>
 </map>

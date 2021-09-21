@@ -1,7 +1,7 @@
 <map id="firestarr::fuel::FuelVariable::criticalSurfaceIntensity" name="firestarr::fuel::FuelVariable::criticalSurfaceIntensity">
 <area shape="rect" id="node1" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="5,71,176,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#af6ed63449f045a379903aec17b2341ad" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="235,5,395,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.php#ad7ac061477b3aee0c004a8e76ee62b9a" title=" " alt="" coords="255,71,374,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#adaa1400b21083b1b7ca63896799d03de" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="224,137,405,163"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1fuel.php#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="453,71,604,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#af6ed63449f045a379903aec17b2341ad" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="235,5,395,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.html#ad7ac061477b3aee0c004a8e76ee62b9a" title=" " alt="" coords="255,71,374,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#adaa1400b21083b1b7ca63896799d03de" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="224,137,405,163"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="453,71,604,112"/>
 </map>

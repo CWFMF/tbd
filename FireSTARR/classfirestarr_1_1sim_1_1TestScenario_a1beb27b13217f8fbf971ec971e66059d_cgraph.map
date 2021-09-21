@@ -1,7 +1,7 @@
 <map id="firestarr::sim::TestScenario::TestScenario" name="firestarr::sim::TestScenario::TestScenario">
 <area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="228,5,377,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.php#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="237,71,368,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.php#ac8d7b10803f69f75dd84576b7e519f70" title="Register an IObserver that will be notified when Cells burn." alt="" coords="228,136,377,177"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Event.php#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="425,71,556,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="228,5,377,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="237,71,368,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#ac8d7b10803f69f75dd84576b7e519f70" title="Register an IObserver that will be notified when Cells burn." alt="" coords="228,136,377,177"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="425,71,556,112"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="firestarr::sim::SettingsImplementation::fuelLookupTable" name="firestarr::sim::SettingsImplementation::fuelLookupTable">
 <area shape="rect" id="node1" title="Name of file that defines fuel lookup table." alt="" coords="467,5,680,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.php#a16d719ae8ef9ba23fee5f4b457ce21b3" title="Name of file that defines fuel lookup table." alt="" coords="272,5,419,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,13,224,39"/>
-<area shape="rect" id="node4" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3" title="Name of file that defines fuel lookup table." alt="" coords="272,5,419,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,13,224,39"/>
+<area shape="rect" id="node4" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
 </map>

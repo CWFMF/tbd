@@ -1,10 +1,10 @@
 <map id="firestarr::data::GridBase::findCoordinates" name="firestarr::data::GridBase::findCoordinates">
 <area shape="rect" id="node1" title="Find Coordinates for Point." alt="" coords="673,71,829,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="451,5,625,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.php#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,71,601,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1ConstantGrid.php#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,136,615,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Environment.php#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,71,403,112"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Perimeter.php#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,136,395,177"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1ConstantGrid.php#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,201,393,243"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.php#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="451,5,625,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,71,601,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,136,615,177"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,136,395,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,201,393,243"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,71,180,112"/>
 </map>

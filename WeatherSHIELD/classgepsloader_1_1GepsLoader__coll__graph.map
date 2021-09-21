@@ -1,8 +1,8 @@
 <map id="gepsloader.GepsLoader" name="gepsloader.GepsLoader">
 <area shape="rect" id="node1" title=" " alt="" coords="143,573,302,665"/>
-<area shape="rect" id="node2" href="$classgepsloader_1_1HPFXLoader.php" title=" " alt="" coords="139,344,306,524"/>
-<area shape="rect" id="node3" href="$classweatherloader_1_1WeatherLoader.php" title=" " alt="" coords="5,145,200,281"/>
-<area shape="rect" id="node4" href="$classobject.php" title=" " alt="" coords="34,5,91,83"/>
+<area shape="rect" id="node2" href="$classgepsloader_1_1HPFXLoader.html" title=" " alt="" coords="139,344,306,524"/>
+<area shape="rect" id="node3" href="$classweatherloader_1_1WeatherLoader.html" title=" " alt="" coords="5,145,200,281"/>
+<area shape="rect" id="node4" href="$classobject.html" title=" " alt="" coords="34,5,91,83"/>
 <area shape="rect" id="node5" title=" " alt="" coords="115,5,170,83"/>
 <area shape="rect" id="node6" title=" " alt="" coords="224,175,301,252"/>
 </map>

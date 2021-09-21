@@ -1,5 +1,5 @@
 <map id="firestarr::logging::verbose" name="firestarr::logging::verbose">
 <area shape="rect" id="node1" title="Log with VERBOSE level." alt="" coords="5,39,117,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
 </map>

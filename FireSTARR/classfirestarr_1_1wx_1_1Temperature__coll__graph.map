@@ -1,5 +1,5 @@
 <map id="firestarr::wx::Temperature" name="firestarr::wx::Temperature">
 <area shape="rect" id="node1" title="Temperature in degrees Celsius." alt="" coords="5,521,172,599"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php" title="A wrapper around a double to ensure correct types are used." alt="" coords="7,145,170,472"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="7,145,170,472"/>
 <area shape="rect" id="node3" title=" " alt="" coords="59,5,119,83"/>
 </map>

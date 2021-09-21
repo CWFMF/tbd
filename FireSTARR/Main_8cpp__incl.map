@@ -1,13 +1,13 @@
 <map id="FireSTARR/src/Main.cpp" name="FireSTARR/src/Main.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="1372,5,1539,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="1661,155,1727,181"/>
-<area shape="rect" id="node44" href="$Model_8h.php" title=" " alt="" coords="246,155,313,181"/>
-<area shape="rect" id="node45" href="$Scenario_8h.php" title=" " alt="" coords="317,80,399,107"/>
-<area shape="rect" id="node46" href="$InnerPos_8h.php" title=" " alt="" coords="759,155,843,181"/>
-<area shape="rect" id="node47" href="$Test_8h.php" title=" " alt="" coords="1459,80,1518,107"/>
-<area shape="rect" id="node48" href="$TimeUtil_8h.php" title=" " alt="" coords="3663,155,3744,181"/>
-<area shape="rect" id="node49" href="$Util_8h.php" title=" " alt="" coords="1543,80,1595,107"/>
-<area shape="rect" id="node50" href="$Log_8h.php" title=" " alt="" coords="1671,80,1725,107"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="1661,155,1727,181"/>
+<area shape="rect" id="node44" href="$Model_8h.html" title=" " alt="" coords="246,155,313,181"/>
+<area shape="rect" id="node45" href="$Scenario_8h.html" title=" " alt="" coords="317,80,399,107"/>
+<area shape="rect" id="node46" href="$InnerPos_8h.html" title=" " alt="" coords="759,155,843,181"/>
+<area shape="rect" id="node47" href="$Test_8h.html" title=" " alt="" coords="1459,80,1518,107"/>
+<area shape="rect" id="node48" href="$TimeUtil_8h.html" title=" " alt="" coords="3663,155,3744,181"/>
+<area shape="rect" id="node49" href="$Util_8h.html" title=" " alt="" coords="1543,80,1595,107"/>
+<area shape="rect" id="node50" href="$Log_8h.html" title=" " alt="" coords="1671,80,1725,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="2855,229,2909,256"/>
 <area shape="rect" id="node4" title=" " alt="" coords="2934,229,2995,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="3019,229,3094,256"/>

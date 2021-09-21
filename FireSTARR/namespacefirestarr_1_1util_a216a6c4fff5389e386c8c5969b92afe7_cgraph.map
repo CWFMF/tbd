@@ -1,7 +1,7 @@
 <map id="firestarr::util::read_directory" name="firestarr::util::read_directory">
 <area shape="rect" id="node1" title=" " alt="" coords="5,39,124,80"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="172,5,284,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="172,71,284,112"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="332,5,460,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="340,71,452,112"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="172,5,284,47"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="172,71,284,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="332,5,460,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="340,71,452,112"/>
 </map>

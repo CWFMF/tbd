@@ -1,17 +1,17 @@
 <map id="firestarr::sim::Model::readWeather" name="firestarr::sim::Model::readWeather">
 <area shape="rect" id="node1" title="Read weather used for Scenarios." alt="" coords="5,339,139,380"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Weather.php#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="213,5,354,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="227,123,339,164"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="438,93,550,135"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="192,189,375,215"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="227,240,339,281"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="187,437,380,463"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1FwiWeather.php#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="202,488,365,529"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1util.php#a933f0ea560bbcbddf9b1233b359dac3c" title="Read from a stream until delimiter is found." alt="" coords="428,579,560,606"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.php#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="227,305,339,347"/>
-<area shape="rect" id="node13" href="$namespacefirestarr_1_1util.php#af3454ef26fced73a1407de0ecdf63574" title="Read a date from the given stream." alt="" coords="208,605,359,631"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1fuel_1_1FuelLookup.php#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="200,656,367,697"/>
-<area shape="rect" id="node15" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="227,371,339,412"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="430,273,558,315"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="438,339,550,380"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Weather.html#a64679ced60e846f3365ae1a945f191af" title="Accumulated Precipitation (mm)" alt="" coords="213,5,354,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="227,123,339,164"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="438,93,550,135"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1FwiWeather.html#a299feb4995bf556227cc26a63f7f01ad" title="Drought Code." alt="" coords="192,189,375,215"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="227,240,339,281"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1wx_1_1FwiWeather.html#a024781d0d515d867b6db0ceb46b36f1c" title="Duff Moisture Code." alt="" coords="187,437,380,463"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1FwiWeather.html#a3ab779b53574913ad72cef08d90f450b" title="Fine Fuel Moisture Code." alt="" coords="202,488,365,529"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1util.html#a933f0ea560bbcbddf9b1233b359dac3c" title="Read from a stream until delimiter is found." alt="" coords="428,579,560,606"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="227,305,339,347"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1util.html#af3454ef26fced73a1407de0ecdf63574" title="Read a date from the given stream." alt="" coords="208,605,359,631"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1fuel_1_1FuelLookup.html#a9a29abd1545c76bca5ae10c24fc21392" title="Retrieve set of FuelTypes that are used in the lookup table." alt="" coords="200,656,367,697"/>
+<area shape="rect" id="node15" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="227,371,339,412"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="430,273,558,315"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="438,339,550,380"/>
 </map>

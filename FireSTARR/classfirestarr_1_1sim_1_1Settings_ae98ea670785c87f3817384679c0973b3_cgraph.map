@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Settings::defaultPercentConifer" name="firestarr::sim::Settings::defaultPercentConifer">
 <area shape="rect" id="node1" title="Default Percent Conifer to use for M1/M2 fuels where none is specified (%)" alt="" coords="5,49,159,90"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#ad3aa4c45400edbe7daa8b2569b00f443" title="Default Percent Conifer to use for M1/M2 fuels where none is specified (%)" alt="" coords="207,5,408,61"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="224,85,391,126"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad3aa4c45400edbe7daa8b2569b00f443" title="Default Percent Conifer to use for M1/M2 fuels where none is specified (%)" alt="" coords="207,5,408,61"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="224,85,391,126"/>
 </map>

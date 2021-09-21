@@ -1,4 +1,4 @@
 <map id="firestarr::sim::IntensityMap::cbegin" name="firestarr::sim::IntensityMap::cbegin">
 <area shape="rect" id="node1" title="Iterator for underlying GridMap." alt="" coords="212,5,359,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.php#a5910826d96f9fc52ea75bc7bd048f165" title="Add in an IntensityMap to the appropriate probability grid based on each cell burn intensity." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#a5910826d96f9fc52ea75bc7bd048f165" title="Add in an IntensityMap to the appropriate probability grid based on each cell burn intensity." alt="" coords="5,5,164,47"/>
 </map>

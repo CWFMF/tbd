@@ -1,7 +1,7 @@
 <map id="FireSTARR/src/Duff.cpp" name="FireSTARR/src/Duff.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="2581,5,2743,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="2209,304,2275,331"/>
-<area shape="rect" id="node47" href="$Duff_8h.php" title=" " alt="" coords="2680,80,2735,107"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2209,304,2275,331"/>
+<area shape="rect" id="node47" href="$Duff_8h.html" title=" " alt="" coords="2680,80,2735,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="2780,379,2835,405"/>
 <area shape="rect" id="node4" title=" " alt="" coords="2859,379,2921,405"/>
 <area shape="rect" id="node5" title=" " alt="" coords="2945,379,3019,405"/>
@@ -46,6 +46,6 @@
 <area shape="rect" id="node44" title=" " alt="" coords="2475,379,2529,405"/>
 <area shape="rect" id="node45" title=" " alt="" coords="2553,379,2653,405"/>
 <area shape="rect" id="node46" title=" " alt="" coords="2677,379,2756,405"/>
-<area shape="rect" id="node48" href="$LookupTable_8h.php" title=" " alt="" coords="3463,155,3570,181"/>
-<area shape="rect" id="node49" href="$Util_8h.php" title=" " alt="" coords="3869,229,3921,256"/>
+<area shape="rect" id="node48" href="$LookupTable_8h.html" title=" " alt="" coords="3463,155,3570,181"/>
+<area shape="rect" id="node49" href="$Util_8h.html" title=" " alt="" coords="3869,229,3921,256"/>
 </map>

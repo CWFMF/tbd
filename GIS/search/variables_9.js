@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['log_5flevel_240',['LOG_LEVEL',['../namespacelog.php#acaf8dedf188a79026f5f017886cc05c6',1,'log']]],
-  ['logger_241',['logger',['../namespacelog.php#ae6d24c2e93b84ae3b742a18bfdb29daa',1,'log']]]
+  ['log_5flevel_240',['LOG_LEVEL',['../namespacelog.html#acaf8dedf188a79026f5f017886cc05c6',1,'log']]],
+  ['logger_241',['logger',['../namespacelog.html#ae6d24c2e93b84ae3b742a18bfdb29daa',1,'log']]]
 ];

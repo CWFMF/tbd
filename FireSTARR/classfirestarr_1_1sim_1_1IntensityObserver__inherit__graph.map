@@ -1,4 +1,4 @@
 <map id="firestarr::sim::IntensityObserver" name="firestarr::sim::IntensityObserver">
 <area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="7,263,158,487"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.php" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,5,160,215"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,5,160,215"/>
 </map>

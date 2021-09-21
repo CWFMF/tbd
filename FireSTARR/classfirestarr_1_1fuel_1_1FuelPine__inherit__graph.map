@@ -1,13 +1,13 @@
 <map id="firestarr::fuel::FuelPine&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth &gt;" name="firestarr::fuel::FuelPine&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth &gt;">
 <area shape="rect" id="node1" title="A fuel with pine as the base fuel type." alt="" coords="109,2201,295,2396"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelPine.php" title=" " alt="" coords="5,2473,191,2668"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1fuel_1_1FuelPine.php" title=" " alt="" coords="215,2473,400,2668"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title=" " alt="" coords="107,1943,297,2152"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php" title="A StandardFuel that is not made of multiple fuels." alt="" coords="97,1353,296,1577"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelConifer.php" title="A conifer fuel type." alt="" coords="218,1627,421,1851"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title="A FuelBase made of a standard fuel type." alt="" coords="84,889,309,1304"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelBase.php" title="Base class for all FuelTypes." alt="" coords="91,499,302,840"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="104,5,289,449"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC6.php" title="FBP fuel type C&#45;6." alt="" coords="40,2717,156,2912"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC5.php" title="FBP fuel type C&#45;5." alt="" coords="249,2725,365,2905"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelPine.html" title=" " alt="" coords="5,2473,191,2668"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1fuel_1_1FuelPine.html" title=" " alt="" coords="215,2473,400,2668"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelConifer.html" title=" " alt="" coords="107,1943,297,2152"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html" title="A StandardFuel that is not made of multiple fuels." alt="" coords="97,1353,296,1577"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelConifer.html" title="A conifer fuel type." alt="" coords="218,1627,421,1851"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="84,889,309,1304"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="91,499,302,840"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="104,5,289,449"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC6.html" title="FBP fuel type C&#45;6." alt="" coords="40,2717,156,2912"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelC5.html" title="FBP fuel type C&#45;5." alt="" coords="249,2725,365,2905"/>
 </map>

@@ -1,52 +1,52 @@
 <map id="firestarr::sim::Model::runIterations" name="firestarr::sim::Model::runIterations">
 <area shape="rect" id="node1" title="Run Iterations until confidence is reached." alt="" coords="5,705,139,746"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.php#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="225,541,343,582"/>
-<area shape="rect" id="node9" href="$namespacefirestarr_1_1logging.php#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="493,861,605,902"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Settings.php#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="187,242,381,283"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="493,2337,605,2378"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Settings.php#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="211,53,357,94"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Settings.php#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="207,373,361,414"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Point.php#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="218,606,350,647"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Point.php#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="218,671,350,713"/>
-<area shape="rect" id="node21" href="$namespacefirestarr_1_1sim.php#a69811f0339ad77c00691140e478444d6" title=" " alt="" coords="219,1021,349,1062"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Settings.php#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="455,795,642,837"/>
-<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Settings.php#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="475,926,622,967"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Model.php#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="217,955,351,997"/>
-<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="197,1684,371,1711"/>
-<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1Settings.php#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="211,147,357,189"/>
-<area shape="rect" id="node49" href="$namespacefirestarr_1_1sim.php#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="223,737,345,778"/>
-<area shape="rect" id="node50" href="$classfirestarr_1_1sim_1_1Settings.php#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="193,457,375,498"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="775,2082,887,2123"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1SafeVector.php#a1757f5aca2fa6fd5ceb8fc1c667227e1" title="Get a vector with the stored values." alt="" coords="469,482,628,523"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="485,599,612,641"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.php#a8b4ebb3d086021de26161d460e54f91f" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="482,730,615,771"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Settings.php#ad2b95f6e926e3ccf062d82565aca14bb" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="467,665,631,706"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="748,398,915,439"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="767,2271,895,2313"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="775,2206,887,2247"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="429,169,668,225"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="441,53,656,94"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="454,300,643,356"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Model.php#aec7bd307eae2dba906af6c0b7c481491" title="Create a ProbabilityMap with the same extent as this." alt="" coords="476,991,621,1033"/>
-<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="716,788,947,844"/>
-<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="720,926,943,967"/>
-<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Scenario.php#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="474,2023,623,2065"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1sim_1_1Scenario.php#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="474,2141,623,2182"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1Scenario.php#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="474,1057,623,1098"/>
-<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1Scenario.php#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="474,1122,623,1163"/>
-<area shape="rect" id="node33" href="$namespacefirestarr_1_1util.php#a3fc953966435ba2dba4c247032dd5e41" title="Call reset on T before releasing it." alt="" coords="484,1187,613,1229"/>
-<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Scenario.php#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="474,1253,623,1294"/>
-<area shape="rect" id="node35" href="$classfirestarr_1_1sim_1_1Scenario.php#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="474,1318,623,1359"/>
-<area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1Model.php#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="482,1383,615,1425"/>
-<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="474,1449,623,1490"/>
-<area shape="rect" id="node38" href="$namespacefirestarr_1_1logging.php#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="493,2271,605,2313"/>
-<area shape="rect" id="node39" href="$namespacefirestarr_1_1fuel.php#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="495,1514,603,1555"/>
-<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1Event.php#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="483,1579,614,1621"/>
-<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1Event.php#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="483,1645,614,1686"/>
-<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1Event.php#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="483,1710,614,1751"/>
-<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1Event.php#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="483,1775,614,1817"/>
-<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Scenario.php#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="474,1841,623,1882"/>
-<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1Scenario.php#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="474,1906,623,1947"/>
-<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1Scenario.php#a8a4130a712e3836120bacf3bfca11ca3" title="Whether or not this Scenario has run already." alt="" coords="462,1972,635,1999"/>
-<area shape="rect" id="node47" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="493,2206,605,2247"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="225,541,343,582"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="493,861,605,902"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Settings.html#a87aafba831f7a8ec9e8c53a28b1eb330" title="Maximum number of Iterations to run at once if running async." alt="" coords="187,242,381,283"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="493,2337,605,2378"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Settings.html#a8d19c37bc8ac80dfa27eb0907c168395" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="211,53,357,94"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Settings.html#a69a2b5e31ab37f4e3b4e1b0750153189" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="207,373,361,414"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="218,606,350,647"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="218,671,350,713"/>
+<area shape="rect" id="node21" href="$namespacefirestarr_1_1sim.html#a69811f0339ad77c00691140e478444d6" title=" " alt="" coords="219,1021,349,1062"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Settings.html#a871cdbd64154cc995042554e2c279bf5" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="455,795,642,837"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="475,926,622,967"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="217,955,351,997"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="197,1684,371,1711"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="211,147,357,189"/>
+<area shape="rect" id="node49" href="$namespacefirestarr_1_1sim.html#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="223,737,345,778"/>
+<area shape="rect" id="node50" href="$classfirestarr_1_1sim_1_1Settings.html#afb80f0d3516bc4a8c7ae9685ece44bf7" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="193,457,375,498"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="775,2082,887,2123"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1SafeVector.html#a1757f5aca2fa6fd5ceb8fc1c667227e1" title="Get a vector with the stored values." alt="" coords="469,482,628,523"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="485,599,612,641"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#a8b4ebb3d086021de26161d460e54f91f" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="482,730,615,771"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Settings.html#ad2b95f6e926e3ccf062d82565aca14bb" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="467,665,631,706"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="748,398,915,439"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="767,2271,895,2313"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="775,2206,887,2247"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abae35a993870b4d80eb83d0a4f88252b" title="Maximum number of Iterations to run at once if running async." alt="" coords="429,169,668,225"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="441,53,656,94"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a76ab173330b9dad98a191011fb35082f" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="454,300,643,356"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Model.html#aec7bd307eae2dba906af6c0b7c481491" title="Create a ProbabilityMap with the same extent as this." alt="" coords="476,991,621,1033"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a8f097f6e6390bfebf419962f8d29deb2" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="716,788,947,844"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a8da3cc37efbc3e0999c025fe4ab55354" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="720,926,943,967"/>
+<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="474,2023,623,2065"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="474,2141,623,2182"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1Scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="474,1057,623,1098"/>
+<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="474,1122,623,1163"/>
+<area shape="rect" id="node33" href="$namespacefirestarr_1_1util.html#a3fc953966435ba2dba4c247032dd5e41" title="Call reset on T before releasing it." alt="" coords="484,1187,613,1229"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="474,1253,623,1294"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1sim_1_1Scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="474,1318,623,1359"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1Model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="482,1383,615,1425"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="474,1449,623,1490"/>
+<area shape="rect" id="node38" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="493,2271,605,2313"/>
+<area shape="rect" id="node39" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="495,1514,603,1555"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="483,1579,614,1621"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="483,1645,614,1686"/>
+<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1Event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="483,1710,614,1751"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1Event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="483,1775,614,1817"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="474,1841,623,1882"/>
+<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1Scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="474,1906,623,1947"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1Scenario.html#a8a4130a712e3836120bacf3bfca11ca3" title="Whether or not this Scenario has run already." alt="" coords="462,1972,635,1999"/>
+<area shape="rect" id="node47" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="493,2206,605,2247"/>
 </map>

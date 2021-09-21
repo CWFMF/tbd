@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Scenario::columns" name="firestarr::sim::Scenario::columns">
 <area shape="rect" id="node1" title="Number of columns." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.php#aa4da53f7d130f43cef0030d0448ab773" title="Number of columns in extent." alt="" coords="203,5,336,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.php#ac49a970a06999376403908559c81af4c" title="Number of columns in grid." alt="" coords="384,5,559,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#aa4da53f7d130f43cef0030d0448ab773" title="Number of columns in extent." alt="" coords="203,5,336,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#ac49a970a06999376403908559c81af4c" title="Number of columns in grid." alt="" coords="384,5,559,47"/>
 </map>

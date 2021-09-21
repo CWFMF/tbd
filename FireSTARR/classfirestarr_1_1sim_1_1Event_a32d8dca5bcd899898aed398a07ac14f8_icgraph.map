@@ -1,4 +1,4 @@
 <map id="firestarr::sim::Event::intensity" name="firestarr::sim::Event::intensity">
 <area shape="rect" id="node1" title="Burn Intensity (kW/m)" alt="" coords="184,5,315,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.php#a05371b6c5dd0867fa0d97ac34eadb4b7" title="Make fire spread event." alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.html#a05371b6c5dd0867fa0d97ac34eadb4b7" title="Make fire spread event." alt="" coords="5,5,136,47"/>
 </map>

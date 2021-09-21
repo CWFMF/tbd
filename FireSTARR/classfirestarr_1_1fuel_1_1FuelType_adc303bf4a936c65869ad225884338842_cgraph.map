@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::FuelType::safeName" name="firestarr::fuel::FuelType::safeName">
 <area shape="rect" id="node1" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="204,5,355,47"/>
 </map>

@@ -1,16 +1,16 @@
 <map id="get_fgmj.run_fires" name="get_fgmj.run_fires">
 <area shape="rect" id="node1" title=" " alt="" coords="5,206,129,233"/>
-<area shape="rect" id="node2" href="$namespacefirestarr.php#ab05e9efc98d66338840327d32b403d69" title=" " alt="" coords="185,181,292,207"/>
-<area shape="rect" id="node14" href="$namespaceget__fgmj.php#ab37548f75d7db35f112c22a9fd7a380c" title=" " alt="" coords="177,231,300,258"/>
-<area shape="rect" id="node3" href="$namespacefirestarr__gis.php#ae4268a1560b326fead2944b9b0f11013" title=" " alt="" coords="359,75,489,116"/>
-<area shape="rect" id="node4" href="$namespacefirestarr__gis.php#a3830fbe88c36fa64b1bed8fcee80ad73" title="Convert a perimeter to a raster." alt="" coords="353,140,495,181"/>
-<area shape="rect" id="node12" href="$namespacefirestarr.php#a5cbb738c875feb8b86cedaaac5d15997" title=" " alt="" coords="367,205,481,247"/>
-<area shape="rect" id="node13" href="$namespacefirestarr.php#a0efb0beffb72d0bc39e536b008aeec00" title=" " alt="" coords="348,271,500,298"/>
-<area shape="rect" id="node5" href="$namespacefirestarr__gis.php#a61140139e025dae3b25e6332836a823d" title="Delete the given shapefile." alt="" coords="768,118,897,145"/>
-<area shape="rect" id="node6" href="$namespacefirestarr__gis.php#acf598aa5acbc2b849c100448bcf04f68" title="Find the raster with the closest meridian." alt="" coords="572,5,684,47"/>
-<area shape="rect" id="node8" href="$namespacefirestarr__gis.php#a87e6400887f84960a937c6d0de31f179" title="Determine cell size for a raster and ensure pixels are square." alt="" coords="548,122,708,149"/>
-<area shape="rect" id="node9" href="$namespacefirestarr__gis.php#a2d63d933a89aa5404f879689a726ed40" title="Determine spatial reference from a source file." alt="" coords="756,216,909,257"/>
-<area shape="rect" id="node10" href="$namespacefirestarr__gis.php#a1f002dd2296988f9ba5c7baf8341077a" title="Project to given spatial reference." alt="" coords="561,173,695,199"/>
-<area shape="rect" id="node11" href="$namespacefirestarr__gis.php#a21927b16d626c6821a4cc0f686df9d5c" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="555,274,701,301"/>
-<area shape="rect" id="node7" href="$namespacefirestarr__gis.php#a5795a5941584413583d73787a64b7752" title="Find the meridians of input rasters for the given year." alt="" coords="770,5,895,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr.html#ab05e9efc98d66338840327d32b403d69" title=" " alt="" coords="185,181,292,207"/>
+<area shape="rect" id="node14" href="$namespaceget__fgmj.html#ab37548f75d7db35f112c22a9fd7a380c" title=" " alt="" coords="177,231,300,258"/>
+<area shape="rect" id="node3" href="$namespacefirestarr__gis.html#ae4268a1560b326fead2944b9b0f11013" title=" " alt="" coords="359,75,489,116"/>
+<area shape="rect" id="node4" href="$namespacefirestarr__gis.html#a3830fbe88c36fa64b1bed8fcee80ad73" title="Convert a perimeter to a raster." alt="" coords="353,140,495,181"/>
+<area shape="rect" id="node12" href="$namespacefirestarr.html#a5cbb738c875feb8b86cedaaac5d15997" title=" " alt="" coords="367,205,481,247"/>
+<area shape="rect" id="node13" href="$namespacefirestarr.html#a0efb0beffb72d0bc39e536b008aeec00" title=" " alt="" coords="348,271,500,298"/>
+<area shape="rect" id="node5" href="$namespacefirestarr__gis.html#a61140139e025dae3b25e6332836a823d" title="Delete the given shapefile." alt="" coords="768,118,897,145"/>
+<area shape="rect" id="node6" href="$namespacefirestarr__gis.html#acf598aa5acbc2b849c100448bcf04f68" title="Find the raster with the closest meridian." alt="" coords="572,5,684,47"/>
+<area shape="rect" id="node8" href="$namespacefirestarr__gis.html#a87e6400887f84960a937c6d0de31f179" title="Determine cell size for a raster and ensure pixels are square." alt="" coords="548,122,708,149"/>
+<area shape="rect" id="node9" href="$namespacefirestarr__gis.html#a2d63d933a89aa5404f879689a726ed40" title="Determine spatial reference from a source file." alt="" coords="756,216,909,257"/>
+<area shape="rect" id="node10" href="$namespacefirestarr__gis.html#a1f002dd2296988f9ba5c7baf8341077a" title="Project to given spatial reference." alt="" coords="561,173,695,199"/>
+<area shape="rect" id="node11" href="$namespacefirestarr__gis.html#a21927b16d626c6821a4cc0f686df9d5c" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="555,274,701,301"/>
+<area shape="rect" id="node7" href="$namespacefirestarr__gis.html#a5795a5941584413583d73787a64b7752" title="Find the meridians of input rasters for the given year." alt="" coords="770,5,895,47"/>
 </map>

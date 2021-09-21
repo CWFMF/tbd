@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['footer_2ephp_183',['footer.php',['../footer_8php.php',1,'']]]
+  ['footer_2ephp_183',['footer.php',['../footer_8php.html',1,'']]]
 ];

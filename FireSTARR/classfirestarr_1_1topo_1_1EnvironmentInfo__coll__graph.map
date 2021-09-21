@@ -1,6 +1,6 @@
 <map id="firestarr::topo::EnvironmentInfo" name="firestarr::topo::EnvironmentInfo">
 <area shape="rect" id="node1" title="Information regarding an Environment, such as grids to read and location." alt="" coords="185,779,381,1061"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.php" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="127,345,283,672"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="127,345,283,672"/>
 <area shape="rect" id="node3" title=" " alt="" coords="79,147,139,224"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,147,44,224"/>
 <area shape="rect" id="node5" title=" " alt="" coords="291,147,369,224"/>

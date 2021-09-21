@@ -1,5 +1,5 @@
 <map id="firestarr::util::make_directory_recursive" name="firestarr::util::make_directory_recursive">
 <area shape="rect" id="node1" title="Make the given directory and any parent directories that do not exist." alt="" coords="5,5,144,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.php#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="192,5,319,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="367,5,479,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="192,5,319,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="367,5,479,47"/>
 </map>

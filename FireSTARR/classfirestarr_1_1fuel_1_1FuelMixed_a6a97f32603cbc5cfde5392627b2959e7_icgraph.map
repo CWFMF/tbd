@@ -1,6 +1,6 @@
 <map id="firestarr::fuel::FuelMixed::rosMultiplier" name="firestarr::fuel::FuelMixed::rosMultiplier">
 <area shape="rect" id="node1" title="Rate of spread multiplier [ST&#45;X&#45;3 eq 27/28, GLC&#45;X&#45;10 eq 29/30]." alt="" coords="416,39,573,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a80bf9f3f44c7b06b08967c2beab38644" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="211,5,368,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a647efb3229650c2dca4ff810ce9825ae" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="211,71,368,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a7009e317d8109d3865195729aa379f5a" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,71,163,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a80bf9f3f44c7b06b08967c2beab38644" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a647efb3229650c2dca4ff810ce9825ae" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a7009e317d8109d3865195729aa379f5a" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,71,163,112"/>
 </map>

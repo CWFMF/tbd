@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::FuelType::finalRos" name="firestarr::fuel::FuelType::finalRos">
 <area shape="rect" id="node1" title="Final rate of spread (m/min)" alt="" coords="224,5,375,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelVariable.php#a851f08296e9ec2c9c60195f1b7099773" title="Final rate of spread (m/min)" alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a851f08296e9ec2c9c60195f1b7099773" title="Final rate of spread (m/min)" alt="" coords="5,5,176,47"/>
 </map>

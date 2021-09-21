@@ -1,5 +1,5 @@
 <map id="reanalysis1.get_year" name="reanalysis1.get_year">
 <area shape="rect" id="node1" title="Load data for given year." alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$namespacereanalysis1.php#a8253b1bdc026ed476169d3c6b667a78a" title="Open netCDF4 for desired data." alt="" coords="199,5,359,32"/>
-<area shape="rect" id="node3" href="$namespacereanalysis1.php#a827460601f3fe23840bb94e36dd2663b" title="Determine which indexes in the 2d array provide lat/long coordinates within our bounds." alt="" coords="192,56,365,83"/>
+<area shape="rect" id="node2" href="$namespacereanalysis1.html#a8253b1bdc026ed476169d3c6b667a78a" title="Open netCDF4 for desired data." alt="" coords="199,5,359,32"/>
+<area shape="rect" id="node3" href="$namespacereanalysis1.html#a827460601f3fe23840bb94e36dd2663b" title="Determine which indexes in the 2d array provide lat/long coordinates within our bounds." alt="" coords="192,56,365,83"/>
 </map>

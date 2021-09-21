@@ -1,16 +1,16 @@
 <map id="firestarr::sim::Model::Model" name="firestarr::sim::Model::Model">
 <area shape="rect" id="node1" title="Constructor." alt="" coords="5,267,139,308"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.php#af7a1a489774c9e7d8e4245409d07d7f5" title=" " alt="" coords="199,5,349,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.php#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="199,71,349,112"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.php#a5e215bc8442d09bf23c8ee207d7d65dc" title=" " alt="" coords="199,136,349,177"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.php#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="218,267,330,308"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.php#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="187,332,361,373"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Point.php#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="208,397,340,439"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Point.php#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="208,463,340,504"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1util.php#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="205,528,343,569"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.php#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="218,201,330,243"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="409,267,537,308"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="417,201,529,243"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1util.php#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="410,528,537,569"/>
-<area shape="rect" id="node13" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="585,528,697,569"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#af7a1a489774c9e7d8e4245409d07d7f5" title=" " alt="" coords="199,5,349,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="199,71,349,112"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.html#a5e215bc8442d09bf23c8ee207d7d65dc" title=" " alt="" coords="199,136,349,177"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="218,267,330,308"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="187,332,361,373"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="208,397,340,439"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="208,463,340,504"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="205,528,343,569"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="218,201,330,243"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="409,267,537,308"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="417,201,529,243"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="410,528,537,569"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="585,528,697,569"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="firestarr::sim::Scenario::addSave" name="firestarr::sim::Scenario::addSave">
 <area shape="rect" id="node1" title="Add a save point for simulation data at given time." alt="" coords="203,5,352,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#a62154ec0821a0d80dd4b3d6a74988625" title="Add a save point for simulation data at the given offset." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a62154ec0821a0d80dd4b3d6a74988625" title="Add a save point for simulation data at the given offset." alt="" coords="5,5,155,47"/>
 </map>

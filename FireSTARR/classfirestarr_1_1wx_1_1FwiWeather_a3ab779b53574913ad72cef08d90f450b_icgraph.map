@@ -1,9 +1,9 @@
 <map id="firestarr::wx::FwiWeather::ffmc" name="firestarr::wx::FwiWeather::ffmc">
 <area shape="rect" id="node1" title="Fine Fuel Moisture Code." alt="" coords="495,89,657,131"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#a2befc78ada5218b447731339f48519c7" title="Fine Fuel Moisture Code used for spread." alt="" coords="285,5,447,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.php#a8b72761ac7432b0f76ef550062d5d622" title=" " alt="" coords="290,71,442,98"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1wx.php#af9fcd99c055c5de74bd83cb4b3bec56f" title=" " alt="" coords="292,122,440,149"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.php#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="299,173,433,215"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,173,237,215"/>
-<area shape="rect" id="node7" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,181,56,207"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#a2befc78ada5218b447731339f48519c7" title="Fine Fuel Moisture Code used for spread." alt="" coords="285,5,447,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.html#a8b72761ac7432b0f76ef550062d5d622" title=" " alt="" coords="290,71,442,98"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1wx.html#af9fcd99c055c5de74bd83cb4b3bec56f" title=" " alt="" coords="292,122,440,149"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="299,173,433,215"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,173,237,215"/>
+<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,181,56,207"/>
 </map>

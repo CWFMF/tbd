@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::FuelGrass::calculateRos" name="firestarr::fuel::FuelGrass::calculateRos">
 <area shape="rect" id="node1" title="Calculate rate of spread (m/min)" alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelGrass.php#ad6c6b1669fe7791a548cf19f9afef82a" title="Calculate base rate of spread multiplier." alt="" coords="212,5,371,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.php#af7a1a489774c9e7d8e4245409d07d7f5" title=" " alt="" coords="419,5,569,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelGrass.html#ad6c6b1669fe7791a548cf19f9afef82a" title="Calculate base rate of spread multiplier." alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.html#af7a1a489774c9e7d8e4245409d07d7f5" title=" " alt="" coords="419,5,569,47"/>
 </map>

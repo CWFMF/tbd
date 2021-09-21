@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::FuelVariable::probabilityPeat" name="firestarr::fuel::FuelVariable::probabilityPeat">
 <area shape="rect" id="node1" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#a5e6b07df1fb6182891833b3322417b97" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="234,5,385,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelVariable.php#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="224,71,395,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#a5e6b07df1fb6182891833b3322417b97" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="234,5,385,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="224,71,395,112"/>
 </map>

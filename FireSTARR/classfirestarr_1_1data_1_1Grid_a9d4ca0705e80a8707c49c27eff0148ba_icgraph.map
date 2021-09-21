@@ -1,6 +1,6 @@
 <map id="firestarr::data::Grid::noData" name="firestarr::data::Grid::noData">
 <area shape="rect" id="node1" title="Value representing no data." alt="" coords="444,27,571,69"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridMap.php#ad55f99fad6fee494a4b99fed0a7a1b76" title="Retrieve value at Location." alt="" coords="228,5,396,32"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridMap.php#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="237,57,387,98"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridMap.php#a507caca20588ffa86246771541aec2a8" title="Set value at Location." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridMap.html#ad55f99fad6fee494a4b99fed0a7a1b76" title="Retrieve value at Location." alt="" coords="228,5,396,32"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="237,57,387,98"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridMap.html#a507caca20588ffa86246771541aec2a8" title="Set value at Location." alt="" coords="5,5,180,32"/>
 </map>

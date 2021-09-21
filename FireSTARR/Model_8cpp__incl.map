@@ -1,19 +1,19 @@
 <map id="FireSTARR/src/Model.cpp" name="FireSTARR/src/Model.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="2821,5,2995,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="1663,229,1729,256"/>
-<area shape="rect" id="node37" href="$Model_8h.php" title=" " alt="" coords="3044,229,3111,256"/>
-<area shape="rect" id="node38" href="$Scenario_8h.php" title=" " alt="" coords="3100,155,3183,181"/>
-<area shape="rect" id="node39" href="$FireWeather_8h.php" title=" " alt="" coords="3389,229,3491,256"/>
-<area shape="rect" id="node40" href="$FuelLookup_8h.php" title=" " alt="" coords="3390,304,3490,331"/>
-<area shape="rect" id="node41" href="$Settings_8h.php" title=" " alt="" coords="2509,229,2589,256"/>
-<area shape="rect" id="node42" href="$FBP45_8h.php" title=" " alt="" coords="2556,80,2628,107"/>
-<area shape="rect" id="node43" href="$FireSpread_8h.php" title=" " alt="" coords="2493,155,2587,181"/>
-<area shape="rect" id="node44" href="$Observer_8h.php" title=" " alt="" coords="3076,80,3161,107"/>
-<area shape="rect" id="node45" href="$Perimeter_8h.php" title=" " alt="" coords="2813,229,2901,256"/>
-<area shape="rect" id="node46" href="$ProbabilityMap_8h.php" title=" " alt="" coords="2703,80,2820,107"/>
-<area shape="rect" id="node47" href="$Statistics_8h.php" title=" " alt="" coords="2611,155,2698,181"/>
-<area shape="rect" id="node48" href="$SafeVector_8h.php" title=" " alt="" coords="3523,80,3621,107"/>
-<area shape="rect" id="node49" href="$UTM_8h.php" title=" " alt="" coords="3645,80,3707,107"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="1663,229,1729,256"/>
+<area shape="rect" id="node37" href="$Model_8h.html" title=" " alt="" coords="3044,229,3111,256"/>
+<area shape="rect" id="node38" href="$Scenario_8h.html" title=" " alt="" coords="3100,155,3183,181"/>
+<area shape="rect" id="node39" href="$FireWeather_8h.html" title=" " alt="" coords="3389,229,3491,256"/>
+<area shape="rect" id="node40" href="$FuelLookup_8h.html" title=" " alt="" coords="3390,304,3490,331"/>
+<area shape="rect" id="node41" href="$Settings_8h.html" title=" " alt="" coords="2509,229,2589,256"/>
+<area shape="rect" id="node42" href="$FBP45_8h.html" title=" " alt="" coords="2556,80,2628,107"/>
+<area shape="rect" id="node43" href="$FireSpread_8h.html" title=" " alt="" coords="2493,155,2587,181"/>
+<area shape="rect" id="node44" href="$Observer_8h.html" title=" " alt="" coords="3076,80,3161,107"/>
+<area shape="rect" id="node45" href="$Perimeter_8h.html" title=" " alt="" coords="2813,229,2901,256"/>
+<area shape="rect" id="node46" href="$ProbabilityMap_8h.html" title=" " alt="" coords="2703,80,2820,107"/>
+<area shape="rect" id="node47" href="$Statistics_8h.html" title=" " alt="" coords="2611,155,2698,181"/>
+<area shape="rect" id="node48" href="$SafeVector_8h.html" title=" " alt="" coords="3523,80,3621,107"/>
+<area shape="rect" id="node49" href="$UTM_8h.html" title=" " alt="" coords="3645,80,3707,107"/>
 <area shape="rect" id="node50" title=" " alt="" coords="3731,80,3792,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="1765,304,1819,331"/>
 <area shape="rect" id="node4" title=" " alt="" coords="1844,304,1905,331"/>

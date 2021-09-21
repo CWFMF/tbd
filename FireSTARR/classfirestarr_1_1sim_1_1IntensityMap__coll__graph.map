@@ -1,6 +1,6 @@
 <map id="firestarr::sim::IntensityMap" name="firestarr::sim::IntensityMap">
 <area shape="rect" id="node1" title="Represents a map of intensities that cells have burned at for a single Scenario." alt="" coords="1473,3279,1645,3620"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.php" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="738,2757,901,3216"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="738,2757,901,3216"/>
 <area shape="rect" id="node3" title=" " alt="" coords="921,2357,1067,2449"/>
 <area shape="rect" id="node4" title=" " alt="" coords="845,1875,1041,1953"/>
 <area shape="rect" id="node5" title=" " alt="" coords="1394,1530,1530,1607"/>
@@ -20,22 +20,22 @@
 <area shape="rect" id="node15" title=" " alt="" coords="2165,1243,2204,1321"/>
 <area shape="rect" id="node16" title=" " alt="" coords="349,2364,431,2441"/>
 <area shape="rect" id="node17" title=" " alt="" coords="97,1875,179,1953"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Semaphore.php" title="Provides the ability to limit number of threads running at once." alt="" coords="456,2320,620,2485"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Semaphore.html" title="Provides the ability to limit number of threads running at once." alt="" coords="456,2320,620,2485"/>
 <area shape="rect" id="node18" title=" " alt="" coords="28,147,107,224"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1GridBase.php" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="300,345,456,672"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="300,345,456,672"/>
 <area shape="rect" id="node19" title=" " alt="" coords="5,5,129,97"/>
 <area shape="rect" id="node21" title=" " alt="" coords="289,1875,416,1953"/>
 <area shape="rect" id="node22" title=" " alt="" coords="419,147,457,224"/>
 <area shape="rect" id="node23" title=" " alt="" coords="687,1868,821,1960"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1topo_1_1Environment.php" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="644,2188,819,2617"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="644,2188,819,2617"/>
 <area shape="rect" id="node28" title=" " alt="" coords="1066,1868,1258,1960"/>
 <area shape="rect" id="node29" title=" " alt="" coords="1934,1530,2057,1607"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1data_1_1ConstantGrid.php" title=" " alt="" coords="441,1780,611,2048"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1data_1_1GridData.php" title="A Grid that defines the data structure used for storing values." alt="" coords="416,935,569,1115"/>
-<area shape="rect" id="node38" href="$classfirestarr_1_1data_1_1GridData.php" title=" " alt="" coords="405,1192,580,1372"/>
-<area shape="rect" id="node32" href="$classfirestarr_1_1data_1_1Grid.php" title=" " alt="" coords="315,721,441,872"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title=" " alt="" coords="441,1780,611,2048"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="416,935,569,1115"/>
+<area shape="rect" id="node38" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="405,1192,580,1372"/>
+<area shape="rect" id="node32" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="315,721,441,872"/>
 <area shape="rect" id="node34" title=" " alt="" coords="312,147,372,224"/>
 <area shape="rect" id="node35" title=" " alt="" coords="653,147,703,224"/>
 <area shape="rect" id="node36" title=" " alt="" coords="539,758,577,835"/>
-<area shape="rect" id="node37" href="$classfirestarr_1_1data_1_1ConstantGrid.php" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="441,1435,595,1703"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="441,1435,595,1703"/>
 </map>

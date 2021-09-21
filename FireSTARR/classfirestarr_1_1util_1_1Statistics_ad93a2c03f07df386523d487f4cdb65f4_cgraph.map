@@ -1,5 +1,5 @@
 <map id="firestarr::util::Statistics::percentile" name="firestarr::util::Statistics::percentile">
 <area shape="rect" id="node1" title="Value for given percentile." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="203,5,315,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="363,5,475,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="203,5,315,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="363,5,475,47"/>
 </map>

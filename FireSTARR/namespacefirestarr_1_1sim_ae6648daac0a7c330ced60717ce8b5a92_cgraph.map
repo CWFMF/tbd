@@ -1,4 +1,4 @@
 <map id="firestarr::sim::get_value" name="firestarr::sim::get_value">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,121,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="169,5,281,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="169,5,281,47"/>
 </map>

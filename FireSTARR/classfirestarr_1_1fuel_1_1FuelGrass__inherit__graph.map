@@ -1,11 +1,11 @@
 <map id="firestarr::fuel::FuelGrass&lt; A, B, C &gt;" name="firestarr::fuel::FuelGrass&lt; A, B, C &gt;">
 <area shape="rect" id="node1" title="A grass fuel type." alt="" coords="109,1875,295,2143"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelGrass.php" title=" " alt="" coords="5,2205,191,2473"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelGrass.php" title=" " alt="" coords="215,2205,400,2473"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title=" " alt="" coords="97,1411,307,1825"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.php" title="Base class for all FuelTypes." alt="" coords="91,499,302,840"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1StandardFuel.php" title="A FuelBase made of a standard fuel type." alt="" coords="217,889,443,1304"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelType.php" title="An FBP fuel type." alt="" coords="104,5,289,449"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1A.php" title="FBP fuel type O&#45;1a." alt="" coords="40,2523,156,2703"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1B.php" title="FBP fuel type O&#45;1b." alt="" coords="249,2523,365,2703"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelGrass.html" title=" " alt="" coords="5,2205,191,2473"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelGrass.html" title=" " alt="" coords="215,2205,400,2473"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.html" title=" " alt="" coords="97,1411,307,1825"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="91,499,302,840"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="217,889,443,1304"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="104,5,289,449"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1A.html" title="FBP fuel type O&#45;1a." alt="" coords="40,2523,156,2703"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelO1B.html" title="FBP fuel type O&#45;1b." alt="" coords="249,2523,365,2703"/>
 </map>

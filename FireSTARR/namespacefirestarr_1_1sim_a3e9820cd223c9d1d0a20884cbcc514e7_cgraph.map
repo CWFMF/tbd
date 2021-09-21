@@ -1,12 +1,12 @@
 <map id="firestarr::sim::make_threshold" name="firestarr::sim::make_threshold">
 <area shape="rect" id="node1" title=" " alt="" coords="5,147,136,189"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.php#a38ee56bc3e16cf65c9c10ce42eeb3c1e" title=" " alt="" coords="184,118,315,159"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1sim.php#a59377eda3d1785b146effc9807a12fad" title=" " alt="" coords="184,184,315,211"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Settings.php#ad7fe946af1ad21946ce1aeadf455666b" title="Weight to give to daily part of thresholds." alt="" coords="374,118,523,159"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Settings.php#a026d88f079fdd646fa35000aabf494fe" title="Weight to give to hourly part of thresholds." alt="" coords="369,53,528,94"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Settings.php#ac2c8b9f39c694fa4e93592c89a9f3de2" title="Weight to give to Scenario part of thresholds." alt="" coords="363,183,535,225"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="610,85,777,126"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a981bd066a8658bb6295b4e007cd0a2a3" title="Weight to give to daily part of thresholds." alt="" coords="594,149,793,205"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="590,5,797,61"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a5c145a2ccb016d438762f9d9d203d3bd" title="Weight to give to Scenario part of thresholds." alt="" coords="583,229,804,285"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.html#a38ee56bc3e16cf65c9c10ce42eeb3c1e" title=" " alt="" coords="184,118,315,159"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1sim.html#a59377eda3d1785b146effc9807a12fad" title=" " alt="" coords="184,184,315,211"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Settings.html#ad7fe946af1ad21946ce1aeadf455666b" title="Weight to give to daily part of thresholds." alt="" coords="374,118,523,159"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Settings.html#a026d88f079fdd646fa35000aabf494fe" title="Weight to give to hourly part of thresholds." alt="" coords="369,53,528,94"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Settings.html#ac2c8b9f39c694fa4e93592c89a9f3de2" title="Weight to give to Scenario part of thresholds." alt="" coords="363,183,535,225"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="610,85,777,126"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a981bd066a8658bb6295b4e007cd0a2a3" title="Weight to give to daily part of thresholds." alt="" coords="594,149,793,205"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="590,5,797,61"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a5c145a2ccb016d438762f9d9d203d3bd" title="Weight to give to Scenario part of thresholds." alt="" coords="583,229,804,285"/>
 </map>

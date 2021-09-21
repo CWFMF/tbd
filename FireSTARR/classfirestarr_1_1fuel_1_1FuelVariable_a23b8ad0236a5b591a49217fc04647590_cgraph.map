@@ -1,6 +1,6 @@
 <map id="firestarr::fuel::FuelVariable::calculateRos" name="firestarr::fuel::FuelVariable::calculateRos">
 <area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#a8d46505da498b3f18628df8c8950e809" title="Calculate rate of spread (m/min)" alt="" coords="224,5,375,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.php#ad7ac061477b3aee0c004a8e76ee62b9a" title=" " alt="" coords="240,71,359,112"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1fuel.php#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="423,71,573,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#a8d46505da498b3f18628df8c8950e809" title="Calculate rate of spread (m/min)" alt="" coords="224,5,375,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.html#ad7ac061477b3aee0c004a8e76ee62b9a" title=" " alt="" coords="240,71,359,112"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="423,71,573,112"/>
 </map>

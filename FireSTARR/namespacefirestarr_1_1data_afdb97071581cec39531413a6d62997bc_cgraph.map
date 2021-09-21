@@ -1,7 +1,7 @@
 <map id="firestarr::data::find_value" name="firestarr::data::find_value">
 <area shape="rect" id="node1" title=" " alt="" coords="5,71,128,112"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.php#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="181,37,293,79"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1data.php#a8aa881855523df49449791df69a61c02" title=" " alt="" coords="176,103,299,144"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.php#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="347,5,475,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.php#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="355,71,467,112"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="181,37,293,79"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1data.html#a8aa881855523df49449791df69a61c02" title=" " alt="" coords="176,103,299,144"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="347,5,475,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="355,71,467,112"/>
 </map>

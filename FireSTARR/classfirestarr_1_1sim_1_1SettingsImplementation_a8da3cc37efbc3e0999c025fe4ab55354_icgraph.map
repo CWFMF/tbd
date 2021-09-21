@@ -1,8 +1,8 @@
 <map id="firestarr::sim::SettingsImplementation::outputDateOffsets" name="firestarr::sim::SettingsImplementation::outputDateOffsets">
 <area shape="rect" id="node1" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="843,35,1065,76"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.php#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="648,35,795,76"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.php#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="467,5,600,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="285,35,419,76"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,35,237,76"/>
-<area shape="rect" id="node6" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,42,56,69"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#a56229ad3d3e5fd2c9661c328b68da368" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="648,35,795,76"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#a22f74c1f1eb45cfa11de77774ae4b5d9" title="Create an Iteration by initializing Scenarios." alt="" coords="467,5,600,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="285,35,419,76"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,35,237,76"/>
+<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,42,56,69"/>
 </map>

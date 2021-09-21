@@ -1,6 +1,6 @@
 <map id="firestarr::sim::IntensityMap::isSurrounded" name="firestarr::sim::IntensityMap::isSurrounded">
 <area shape="rect" id="node1" title="Whether or not all Locations surrounding the given Location are burned." alt="" coords="5,35,152,76"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Location.php#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="213,5,365,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.php#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="200,71,379,98"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.php#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="427,35,579,76"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="213,5,365,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="200,71,379,98"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="427,35,579,76"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="firestarr::fuel::is_null_fuel" name="firestarr::fuel::is_null_fuel">
 <area shape="rect" id="node1" title="Whether or not there is no fuel in the Cell." alt="" coords="5,5,113,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.php#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="161,5,285,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="161,5,285,47"/>
 </map>

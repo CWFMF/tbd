@@ -1,13 +1,13 @@
 <map id="FireSTARR/src/ProbabilityMap.cpp" name="FireSTARR/src/ProbabilityMap.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="3201,5,3375,47"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="2087,319,2153,345"/>
-<area shape="rect" id="node44" href="$ProbabilityMap_8h.php" title=" " alt="" coords="3385,95,3503,121"/>
-<area shape="rect" id="node45" href="$Statistics_8h.php" title=" " alt="" coords="3131,169,3218,196"/>
-<area shape="rect" id="node46" href="$Util_8h.php" title=" " alt="" coords="3073,244,3125,271"/>
-<area shape="rect" id="node47" href="$FBP45_8h.php" title=" " alt="" coords="3289,95,3361,121"/>
-<area shape="rect" id="node48" href="$IntensityMap_8h.php" title=" " alt="" coords="3704,319,3811,345"/>
-<area shape="rect" id="node49" href="$Model_8h.php" title=" " alt="" coords="3323,319,3389,345"/>
-<area shape="rect" id="node50" href="$TimeUtil_8h.php" title=" " alt="" coords="3497,319,3578,345"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2087,319,2153,345"/>
+<area shape="rect" id="node44" href="$ProbabilityMap_8h.html" title=" " alt="" coords="3385,95,3503,121"/>
+<area shape="rect" id="node45" href="$Statistics_8h.html" title=" " alt="" coords="3131,169,3218,196"/>
+<area shape="rect" id="node46" href="$Util_8h.html" title=" " alt="" coords="3073,244,3125,271"/>
+<area shape="rect" id="node47" href="$FBP45_8h.html" title=" " alt="" coords="3289,95,3361,121"/>
+<area shape="rect" id="node48" href="$IntensityMap_8h.html" title=" " alt="" coords="3704,319,3811,345"/>
+<area shape="rect" id="node49" href="$Model_8h.html" title=" " alt="" coords="3323,319,3389,345"/>
+<area shape="rect" id="node50" href="$TimeUtil_8h.html" title=" " alt="" coords="3497,319,3578,345"/>
 <area shape="rect" id="node3" title=" " alt="" coords="2010,393,2065,420"/>
 <area shape="rect" id="node4" title=" " alt="" coords="2089,393,2151,420"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,393,80,420"/>

@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::StandardFuel::rosBasic" name="firestarr::fuel::StandardFuel::rosBasic">
 <area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="395,5,545,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php#a8c2bd46d5490d2127ebb168b0a338981" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="200,5,347,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.php#acd335257941e3b4780ebec5d42404f4d" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html#a8c2bd46d5490d2127ebb168b0a338981" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="200,5,347,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html#acd335257941e3b4780ebec5d42404f4d" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,152,47"/>
 </map>

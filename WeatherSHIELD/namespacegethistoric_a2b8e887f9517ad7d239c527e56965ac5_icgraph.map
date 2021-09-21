@@ -1,6 +1,6 @@
 <map id="gethistoric.check_exists" name="gethistoric.check_exists">
 <area shape="rect" id="node1" title="Check if data for given Generated time already exists." alt="" coords="583,31,744,57"/>
-<area shape="rect" id="node2" href="$namespacegethistoric.php#abf11198e4ae61fec37fb6412a08afbd1" title="Load data for a given run into the database." alt="" coords="403,31,535,57"/>
-<area shape="rect" id="node3" href="$namespacegethistoric.php#aaa4f9b97b4c630db5b33643caf3cf014" title="Save long range match data." alt="" coords="195,5,355,32"/>
-<area shape="rect" id="node4" href="$namespacegethistoric.php#a5254e397994d83a945575afcb0d5ad0e" title="Determine which past run files we have and load them." alt="" coords="5,23,147,65"/>
+<area shape="rect" id="node2" href="$namespacegethistoric.html#abf11198e4ae61fec37fb6412a08afbd1" title="Load data for a given run into the database." alt="" coords="403,31,535,57"/>
+<area shape="rect" id="node3" href="$namespacegethistoric.html#aaa4f9b97b4c630db5b33643caf3cf014" title="Save long range match data." alt="" coords="195,5,355,32"/>
+<area shape="rect" id="node4" href="$namespacegethistoric.html#a5254e397994d83a945575afcb0d5ad0e" title="Determine which past run files we have and load them." alt="" coords="5,23,147,65"/>
 </map>

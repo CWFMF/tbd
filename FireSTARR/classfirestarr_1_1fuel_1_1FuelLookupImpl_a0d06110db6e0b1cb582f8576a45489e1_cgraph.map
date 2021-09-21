@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::FuelLookupImpl::emplaceFuel" name="firestarr::fuel::FuelLookupImpl::emplaceFuel">
 <area shape="rect" id="node1" title="Put fuel into lookup table based on name." alt="" coords="5,5,172,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.php#adc303bf4a936c65869ad225884338842" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="220,5,371,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelType.php#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="419,5,569,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#adc303bf4a936c65869ad225884338842" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="220,5,371,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelType.html#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="419,5,569,47"/>
 </map>

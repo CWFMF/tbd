@@ -1,4 +1,4 @@
 <map id="firestarr::util::to_ts" name="firestarr::util::to_ts">
 <area shape="rect" id="node1" title="Convert to TIMESTAMP_STRUCT." alt="" coords="212,13,335,39"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.php#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="5,5,164,47"/>
 </map>

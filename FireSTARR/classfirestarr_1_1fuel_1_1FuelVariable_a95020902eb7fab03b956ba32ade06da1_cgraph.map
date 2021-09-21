@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::FuelVariable::survivalProbability" name="firestarr::fuel::FuelVariable::survivalProbability">
 <area shape="rect" id="node1" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelVariable.php#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="224,5,395,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelType.php#a7e5523d099335319883bb27337df11e7" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="234,71,385,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelType.html#a7e5523d099335319883bb27337df11e7" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="234,71,385,112"/>
 </map>

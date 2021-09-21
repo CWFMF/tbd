@@ -1,10 +1,10 @@
 <map id="FireSTARR/src/FuelLookup.cpp" name="FireSTARR/src/FuelLookup.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="4003,5,4209,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="2258,80,2325,107"/>
-<area shape="rect" id="node47" href="$FuelLookup_8h.php" title=" " alt="" coords="3943,80,4043,107"/>
-<area shape="rect" id="node48" href="$FBP45_8h.php" title=" " alt="" coords="4170,80,4242,107"/>
-<area shape="rect" id="node49" href="$Log_8h.php" title=" " alt="" coords="4227,155,4281,181"/>
-<area shape="rect" id="node50" href="$Settings_8h.php" title=" " alt="" coords="4066,80,4146,107"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="2258,80,2325,107"/>
+<area shape="rect" id="node47" href="$FuelLookup_8h.html" title=" " alt="" coords="3943,80,4043,107"/>
+<area shape="rect" id="node48" href="$FBP45_8h.html" title=" " alt="" coords="4170,80,4242,107"/>
+<area shape="rect" id="node49" href="$Log_8h.html" title=" " alt="" coords="4227,155,4281,181"/>
+<area shape="rect" id="node50" href="$Settings_8h.html" title=" " alt="" coords="4066,80,4146,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="2569,155,2624,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="2649,155,2710,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="2734,155,2809,181"/>

@@ -1,22 +1,22 @@
 <map id="firestarr::topo::Cell::fuelCode" name="firestarr::topo::Cell::fuelCode">
 <area shape="rect" id="node1" title="Fuel." alt="" coords="1540,210,1664,251"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.php#a7f316a4b4fa829cff4596b5a9d3feb1a" title="Get FuelType based on the given cell." alt="" coords="1324,45,1485,72"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1fuel.php#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="1351,290,1459,331"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Environment.php#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1317,355,1492,397"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Scenario.php#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="1330,155,1479,197"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,155,1047,197"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="1101,38,1263,79"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,181,849,222"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,243,652,269"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,228,431,255"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,279,425,321"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,228,231,255"/>
-<area shape="rect" id="node8" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,257,56,284"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1BurnedMap.php#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1098,439,1266,481"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.php#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1115,374,1249,415"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.php#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="905,338,1039,379"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1Environment.php#a467a589e96d6176501d86e322a41a759" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="1095,505,1269,546"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1Perimeter.php#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1103,570,1261,611"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Scenario.php#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1107,155,1257,197"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#a7f316a4b4fa829cff4596b5a9d3feb1a" title="Get FuelType based on the given cell." alt="" coords="1324,45,1485,72"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="1351,290,1459,331"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1317,355,1492,397"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Scenario.html#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="1330,155,1479,197"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,155,1047,197"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="1101,38,1263,79"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,181,849,222"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,243,652,269"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,228,431,255"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,279,425,321"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,228,231,255"/>
+<area shape="rect" id="node8" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,257,56,284"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1098,439,1266,481"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1115,374,1249,415"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="905,338,1039,379"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1Environment.html#a467a589e96d6176501d86e322a41a759" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="1095,505,1269,546"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1103,570,1261,611"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1107,155,1257,197"/>
 </map>

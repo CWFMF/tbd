@@ -1,9 +1,9 @@
 <map id="firestarr::sim::IObserver" name="firestarr::sim::IObserver">
 <area shape="rect" id="node1" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="293,5,447,215"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1MapObserver.php" title=" " alt="" coords="11,551,187,789"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1MapObserver.php" title=" " alt="" coords="335,551,511,789"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1IntensityObserver.php" title="Tracks the intensity that Cells burn at." alt="" coords="345,264,496,488"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1MapObserver.php" title="An IObserver that tracks notification data using a GridMap." alt="" coords="115,264,321,488"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1ArrivalObserver.php" title="Tracks when fire initially arrives in a Cell." alt="" coords="5,839,193,1004"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SourceObserver.php" title="Tracks source Cell that fire arrived in Cell from." alt="" coords="327,839,519,1004"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1MapObserver.html" title=" " alt="" coords="11,551,187,789"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1MapObserver.html" title=" " alt="" coords="335,551,511,789"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1IntensityObserver.html" title="Tracks the intensity that Cells burn at." alt="" coords="345,264,496,488"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1MapObserver.html" title="An IObserver that tracks notification data using a GridMap." alt="" coords="115,264,321,488"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1ArrivalObserver.html" title="Tracks when fire initially arrives in a Cell." alt="" coords="5,839,193,1004"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SourceObserver.html" title="Tracks source Cell that fire arrived in Cell from." alt="" coords="327,839,519,1004"/>
 </map>

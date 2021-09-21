@@ -1,8 +1,8 @@
 <map id="firestarr::wx::make_wx" name="firestarr::wx::make_wx">
 <area shape="rect" id="node1" title=" " alt="" coords="5,130,153,157"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.php#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="209,5,342,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.php#a57a1540121436859d65808749c779345" title=" " alt="" coords="201,71,349,98"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1Wind.php#a8757ade664be3c9d321476f334e0c66e" title="Speed of wind (km/h)" alt="" coords="214,123,337,164"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1Weather.php#abdf7e966675f366db49fd09057ad554c" title="Wind (km/h)" alt="" coords="205,188,346,229"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1wx.php#ac96dc1e981164a01ee02e7f746340dcf" title=" " alt="" coords="208,253,343,295"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="209,5,342,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.html#a57a1540121436859d65808749c779345" title=" " alt="" coords="201,71,349,98"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1Wind.html#a8757ade664be3c9d321476f334e0c66e" title="Speed of wind (km/h)" alt="" coords="214,123,337,164"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1Weather.html#abdf7e966675f366db49fd09057ad554c" title="Wind (km/h)" alt="" coords="205,188,346,229"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1wx.html#ac96dc1e981164a01ee02e7f746340dcf" title=" " alt="" coords="208,253,343,295"/>
 </map>

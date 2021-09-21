@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classfirestarr_1_1topo_1_1Location.php" title="A location with a row and column." alt="" coords="5,5,157,32"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.php" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="205,5,329,32"/>
+<area shape="rect" id="node1" href="$classfirestarr_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="205,5,329,32"/>
 </map>

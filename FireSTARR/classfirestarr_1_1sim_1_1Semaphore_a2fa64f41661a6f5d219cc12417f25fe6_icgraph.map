@@ -1,4 +1,4 @@
 <map id="firestarr::sim::Semaphore::wait" name="firestarr::sim::Semaphore::wait">
 <area shape="rect" id="node1" title="Wait until allowed to run." alt="" coords="209,5,373,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1CriticalSection.php#abb3a8b75bcaf5e28fb7ec6e2022244e1" title="Constructor." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1CriticalSection.html#abb3a8b75bcaf5e28fb7ec6e2022244e1" title="Constructor." alt="" coords="5,5,161,47"/>
 </map>

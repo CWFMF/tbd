@@ -1,6 +1,6 @@
 <map id="firestarr::util::Statistics::mean" name="firestarr::util::Statistics::mean">
 <area shape="rect" id="node1" title="Mean (average) value." alt="" coords="400,39,549,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1Statistics.php#a93daac57a9b465d8823994c9b563e7cf" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="203,5,352,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1util_1_1Statistics.php#ae7d9596bdc38d7b4dc673ead813d9be8" title="Calculate Student&#39;s T value." alt="" coords="203,71,352,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1Statistics.php#ae5f08a94ac7fa8f555ef3871ac2b2086" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,71,155,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1Statistics.html#a93daac57a9b465d8823994c9b563e7cf" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="203,5,352,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1util_1_1Statistics.html#ae7d9596bdc38d7b4dc673ead813d9be8" title="Calculate Student&#39;s T value." alt="" coords="203,71,352,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1Statistics.html#ae5f08a94ac7fa8f555ef3871ac2b2086" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,71,155,112"/>
 </map>

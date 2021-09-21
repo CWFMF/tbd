@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Settings::intensityMaxLow" name="firestarr::sim::Settings::intensityMaxLow">
 <area shape="rect" id="node1" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="224,5,391,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.php#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="200,71,415,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="224,5,391,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a249538a4b4a146395847a15ffb6692ed" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="200,71,415,112"/>
 </map>

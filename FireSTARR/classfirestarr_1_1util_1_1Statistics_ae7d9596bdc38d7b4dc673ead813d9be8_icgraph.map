@@ -1,4 +1,4 @@
 <map id="firestarr::util::Statistics::studentsT" name="firestarr::util::Statistics::studentsT">
 <area shape="rect" id="node1" title="Calculate Student&#39;s T value." alt="" coords="203,5,352,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1Statistics.php#ae5f08a94ac7fa8f555ef3871ac2b2086" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1Statistics.html#ae5f08a94ac7fa8f555ef3871ac2b2086" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,5,155,47"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="firestarr::fuel::FuelType::safeCode" name="firestarr::fuel::FuelType::safeCode">
 <area shape="rect" id="node1" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="465,35,616,76"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1wx.php#a81aebfc241a2535bf8244cef8756904e" title=" " alt="" coords="282,5,407,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="272,71,417,98"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,71,224,98"/>
-<area shape="rect" id="node5" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,71,56,98"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1wx.html#a81aebfc241a2535bf8244cef8756904e" title=" " alt="" coords="282,5,407,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="272,71,417,98"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,71,224,98"/>
+<area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,71,56,98"/>
 </map>

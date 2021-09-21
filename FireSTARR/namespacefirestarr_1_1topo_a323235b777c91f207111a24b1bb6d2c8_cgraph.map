@@ -1,9 +1,9 @@
 <map id="firestarr::topo::sunrise_sunset" name="firestarr::topo::sunrise_sunset">
 <area shape="rect" id="node1" title=" " alt="" coords="5,104,149,145"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.php#a49475fec1712a1d137f5374e9000b0a7" title=" " alt="" coords="197,5,312,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.php#a5f05233dc6917eb1c2eafb376d4d2276" title=" " alt="" coords="197,71,312,112"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.php#a332d871cd3b5b638cb94e5f30accb5da" title="Convert radians to degrees." alt="" coords="202,136,307,177"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="202,201,307,243"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.php#a930c2160fca19f1a495f2281e409f794" title=" " alt="" coords="360,55,475,96"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="364,152,471,193"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a49475fec1712a1d137f5374e9000b0a7" title=" " alt="" coords="197,5,312,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.html#a5f05233dc6917eb1c2eafb376d4d2276" title=" " alt="" coords="197,71,312,112"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#a332d871cd3b5b638cb94e5f30accb5da" title="Convert radians to degrees." alt="" coords="202,136,307,177"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="202,201,307,243"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#a930c2160fca19f1a495f2281e409f794" title=" " alt="" coords="360,55,475,96"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="364,152,471,193"/>
 </map>

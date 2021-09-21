@@ -1,19 +1,19 @@
 <map id="firestarr::sim::Event::time" name="firestarr::sim::Event::time">
 <area shape="rect" id="node1" title="Time of Event (decimal days)" alt="" coords="1548,292,1679,333"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.php#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,145,1047,186"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Event.php#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="1343,262,1474,304"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Event.php#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="1343,62,1474,104"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Event.php#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="709,277,840,318"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Event.php#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="907,380,1037,421"/>
-<area shape="rect" id="node17" href="$structfirestarr_1_1sim_1_1EventCompare.php#a06f6ab9f077cdffdbc56e2d4674aa925" title="Defines ordering on Events." alt="" coords="1317,430,1500,472"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.php#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,145,849,186"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.php#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,211,652,238"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1sim.php#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,182,431,208"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.php#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,233,425,274"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.php#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,182,231,208"/>
-<area shape="rect" id="node7" href="$Main_8cpp.php#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,211,56,238"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.php#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,233,237,274"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1TestScenario.php#a1beb27b13217f8fbf971ec971e66059d" title="Constructor." alt="" coords="1095,262,1269,304"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Event.php#a05371b6c5dd0867fa0d97ac34eadb4b7" title="Make fire spread event." alt="" coords="1117,94,1247,136"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Scenario.php#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1107,29,1257,70"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,145,1047,186"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="1343,262,1474,304"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="1343,62,1474,104"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="709,277,840,318"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="907,380,1037,421"/>
+<area shape="rect" id="node17" href="$structfirestarr_1_1sim_1_1EventCompare.html#a06f6ab9f077cdffdbc56e2d4674aa925" title="Defines ordering on Events." alt="" coords="1317,430,1500,472"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,145,849,186"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,211,652,238"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,182,431,208"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,233,425,274"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,182,231,208"/>
+<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,211,56,238"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,233,237,274"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1TestScenario.html#a1beb27b13217f8fbf971ec971e66059d" title="Constructor." alt="" coords="1095,262,1269,304"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Event.html#a05371b6c5dd0867fa0d97ac34eadb4b7" title="Make fire spread event." alt="" coords="1117,94,1247,136"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1107,29,1257,70"/>
 </map>

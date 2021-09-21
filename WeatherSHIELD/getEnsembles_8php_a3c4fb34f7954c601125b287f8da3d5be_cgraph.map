@@ -1,6 +1,6 @@
 <map id="readModels" name="readModels">
 <area shape="rect" id="node1" title=" " alt="" coords="5,56,95,83"/>
-<area shape="rect" id="node2" href="$getEnsembles_8php.php#ad23d8eca3c389ebfe033a816ae91acd8" title=" " alt="" coords="143,5,229,32"/>
-<area shape="rect" id="node3" href="$getEnsembles_8php.php#a297fa9ab9465d7e2869390fcbb2f2c87" title=" " alt="" coords="143,56,229,83"/>
-<area shape="rect" id="node4" href="$connection_8php.php#adcbf4af1d8377c7c6400a37e29fc14df" title=" " alt="" coords="149,107,223,133"/>
+<area shape="rect" id="node2" href="$getEnsembles_8php.html#ad23d8eca3c389ebfe033a816ae91acd8" title=" " alt="" coords="143,5,229,32"/>
+<area shape="rect" id="node3" href="$getEnsembles_8php.html#a297fa9ab9465d7e2869390fcbb2f2c87" title=" " alt="" coords="143,56,229,83"/>
+<area shape="rect" id="node4" href="$connection_8php.html#adcbf4af1d8377c7c6400a37e29fc14df" title=" " alt="" coords="149,107,223,133"/>
 </map>

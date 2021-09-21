@@ -1,5 +1,5 @@
 <map id="firestarr::sim::SpreadInfo::wind" name="firestarr::sim::SpreadInfo::wind">
 <area shape="rect" id="node1" title="Wind used for spread." alt="" coords="5,39,167,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.php#ae45a07d8b09fe1b00e94014a81059991" title="FwiWeather used for spread." alt="" coords="215,5,376,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Weather.php#abdf7e966675f366db49fd09057ad554c" title="Wind (km/h)" alt="" coords="225,71,366,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ae45a07d8b09fe1b00e94014a81059991" title="FwiWeather used for spread." alt="" coords="215,5,376,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Weather.html#abdf7e966675f366db49fd09057ad554c" title="Wind (km/h)" alt="" coords="225,71,366,112"/>
 </map>

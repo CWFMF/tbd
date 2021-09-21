@@ -1,10 +1,10 @@
 <map id="firestarr::wx::Wind::heading" name="firestarr::wx::Wind::heading">
 <area shape="rect" id="node1" title="Direction wind is going towards." alt="" coords="5,97,128,139"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.php#a6845016de2466a346e27d580c09d8840" title="Heading (opposite of this direction)" alt="" coords="176,97,320,139"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Direction.php#abaf38a8ed02d6b6e5c6ecb84b9b1091c" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="368,64,512,105"/>
-<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.php#a6a442c0ed7e5a89da8285fa44b66d976" title="Convert Bearing to Heading (opposite angle)" alt="" coords="387,129,493,171"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1Direction.php#a142a69baa6cdf546a168f8066fa13a69" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="560,5,704,47"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.php#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="579,71,685,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1Index.php#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="752,5,885,47"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.php#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="765,100,872,141"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.html#a6845016de2466a346e27d580c09d8840" title="Heading (opposite of this direction)" alt="" coords="176,97,320,139"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1wx_1_1Direction.html#abaf38a8ed02d6b6e5c6ecb84b9b1091c" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="368,64,512,105"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a6a442c0ed7e5a89da8285fa44b66d976" title="Convert Bearing to Heading (opposite angle)" alt="" coords="387,129,493,171"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1wx_1_1Direction.html#a142a69baa6cdf546a168f8066fa13a69" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="560,5,704,47"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="579,71,685,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1Index.html#a5df875f5afca6423b3cba29287a4911d" title="Returns value as a double." alt="" coords="752,5,885,47"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="765,100,872,141"/>
 </map>

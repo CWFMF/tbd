@@ -1,5 +1,5 @@
 <map id="firestarr::fuel::fbp::FuelD1::isfD1" name="firestarr::fuel::fbp::FuelD1::isfD1">
 <area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="416,5,532,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a647efb3229650c2dca4ff810ce9825ae" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="211,5,368,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.php#a7009e317d8109d3865195729aa379f5a" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a647efb3229650c2dca4ff810ce9825ae" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a7009e317d8109d3865195729aa379f5a" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,5,163,47"/>
 </map>

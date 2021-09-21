@@ -1,8 +1,8 @@
 <map id="FireSTARR/src/FwiStream.cpp" name="FireSTARR/src/FwiStream.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="1977,5,2179,32"/>
-<area shape="rect" id="node2" href="$stdafx_8h.php" title=" " alt="" coords="1959,155,2026,181"/>
-<area shape="rect" id="node47" href="$FwiStream_8h.php" title=" " alt="" coords="2031,80,2125,107"/>
-<area shape="rect" id="node48" href="$Startup_8h.php" title=" " alt="" coords="2150,80,2225,107"/>
+<area shape="rect" id="node2" href="$stdafx_8h.html" title=" " alt="" coords="1959,155,2026,181"/>
+<area shape="rect" id="node47" href="$FwiStream_8h.html" title=" " alt="" coords="2031,80,2125,107"/>
+<area shape="rect" id="node48" href="$Startup_8h.html" title=" " alt="" coords="2150,80,2225,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,229,60,256"/>
 <area shape="rect" id="node4" title=" " alt="" coords="85,229,146,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="170,229,245,256"/>
@@ -47,6 +47,6 @@
 <area shape="rect" id="node44" title=" " alt="" coords="3815,229,3869,256"/>
 <area shape="rect" id="node45" title=" " alt="" coords="3893,229,3993,256"/>
 <area shape="rect" id="node46" title=" " alt="" coords="4017,229,4096,256"/>
-<area shape="rect" id="node49" href="$FWI_8h.php" title=" " alt="" coords="2159,155,2215,181"/>
-<area shape="rect" id="node50" href="$Point_8h.php" title=" " alt="" coords="2240,155,2303,181"/>
+<area shape="rect" id="node49" href="$FWI_8h.html" title=" " alt="" coords="2159,155,2215,181"/>
+<area shape="rect" id="node50" href="$Point_8h.html" title=" " alt="" coords="2240,155,2303,181"/>
 </map>
