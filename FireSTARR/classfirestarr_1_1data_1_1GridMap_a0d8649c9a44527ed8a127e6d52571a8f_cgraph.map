@@ -1,10 +1,10 @@
 <map id="firestarr::data::GridMap::saveToAsciiFile" name="firestarr::data::GridMap::saveToAsciiFile">
 <area shape="rect" id="node1" title="Save GridMap contents to .asc file." alt="" coords="5,253,156,295"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="204,5,360,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="204,71,360,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Grid.html#afdc6287d42d96c6cd37e11e202149a6a" title="Number of columns in the GridBase." alt="" coords="219,71,345,112"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="204,188,360,229"/>
 <area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1Grid.html#a9d4ca0705e80a8707c49c27eff0148ba" title="Value representing no data." alt="" coords="219,253,345,295"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1GridBase.html#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="204,319,360,360"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1Grid.html#a344d115147c2e0e8a55dd2c9754541aa" title="Number of rows in the GridBase." alt="" coords="219,319,345,360"/>
 <area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="413,91,525,132"/>
 <area shape="rect" id="node13" href="$namespacefirestarr_1_1data.html#a93025321cc7e667decafe423ecbde6ec" title=" " alt="" coords="217,384,347,425"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="204,449,360,491"/>

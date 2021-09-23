@@ -1,13 +1,13 @@
 <map id="firestarr::data::GridData&lt; T, V, D &gt;" name="firestarr::data::GridData&lt; T, V, D &gt;">
-<area shape="rect" id="node1" title="A Grid that defines the data structure used for storing values." alt="" coords="228,699,382,879"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title=" " alt="" coords="16,1655,186,1923"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="240,1619,405,1960"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="464,1619,629,1960"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="344,956,504,1151"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="87,963,262,1143"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="242,499,368,649"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="227,5,383,449"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1BurnedMap.html" title="A map of locations which have burned in a Scenario." alt="" coords="462,2009,630,2087"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="342,1200,508,1541"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="89,1237,244,1505"/>
+<area shape="rect" id="node1" title="A Grid that defines the data structure used for storing values." alt="" coords="228,801,382,981"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title=" " alt="" coords="16,1758,186,2026"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="240,1721,405,2063"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="464,1721,629,2063"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="344,1059,504,1253"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="87,1066,262,1246"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="242,543,368,752"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="227,5,383,493"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1BurnedMap.html" title="A map of locations which have burned in a Scenario." alt="" coords="462,2112,630,2189"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="342,1303,508,1644"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="89,1339,244,1607"/>
 </map>

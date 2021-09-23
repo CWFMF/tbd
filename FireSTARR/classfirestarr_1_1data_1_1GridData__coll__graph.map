@@ -1,11 +1,10 @@
 <map id="firestarr::data::GridData&lt; T, V, D &gt;" name="firestarr::data::GridData&lt; T, V, D &gt;">
-<area shape="rect" id="node1" title="A Grid that defines the data structure used for storing values." alt="" coords="185,935,339,1115"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="109,721,236,872"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="95,345,251,672"/>
+<area shape="rect" id="node1" title="A Grid that defines the data structure used for storing values." alt="" coords="189,1067,343,1247"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="68,795,195,1004"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="53,375,209,745"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,147,65,224"/>
 <area shape="rect" id="node5" title=" " alt="" coords="112,147,151,224"/>
-<area shape="rect" id="node6" title=" " alt="" coords="175,147,253,224"/>
-<area shape="rect" id="node7" title=" " alt="" coords="152,5,276,97"/>
-<area shape="rect" id="node8" title=" " alt="" coords="278,147,329,224"/>
-<area shape="rect" id="node9" title=" " alt="" coords="333,758,372,835"/>
+<area shape="rect" id="node6" title=" " alt="" coords="176,147,255,224"/>
+<area shape="rect" id="node7" title=" " alt="" coords="153,5,277,97"/>
+<area shape="rect" id="node8" title=" " alt="" coords="292,861,331,938"/>
 </map>

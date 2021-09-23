@@ -1,8 +1,7 @@
 <map id="firestarr::data::GridBase" name="firestarr::data::GridBase">
-<area shape="rect" id="node1" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="95,345,251,672"/>
+<area shape="rect" id="node1" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="53,375,209,745"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,147,65,224"/>
 <area shape="rect" id="node3" title=" " alt="" coords="112,147,151,224"/>
-<area shape="rect" id="node4" title=" " alt="" coords="175,147,253,224"/>
-<area shape="rect" id="node5" title=" " alt="" coords="152,5,276,97"/>
-<area shape="rect" id="node6" title=" " alt="" coords="278,147,329,224"/>
+<area shape="rect" id="node4" title=" " alt="" coords="176,147,255,224"/>
+<area shape="rect" id="node5" title=" " alt="" coords="153,5,277,97"/>
 </map>

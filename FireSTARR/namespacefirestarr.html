@@ -99,6 +99,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a5202984444b8e149a7a00fc1fee9410e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#a5202984444b8e149a7a00fc1fee9410e">Idx</a> = int16</td></tr>
 <tr class="memdesc:a5202984444b8e149a7a00fc1fee9410e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A row or column index for a grid.  <a href="namespacefirestarr.html#a5202984444b8e149a7a00fc1fee9410e">More...</a><br /></td></tr>
 <tr class="separator:a5202984444b8e149a7a00fc1fee9410e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e43590168f493aa52d060deea680e0a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">FullIdx</a> = int64</td></tr>
+<tr class="memdesc:a3e43590168f493aa52d060deea680e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A row or column index for a grid not in memory yet.  <a href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">More...</a><br /></td></tr>
+<tr class="separator:a3e43590168f493aa52d060deea680e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abccb22ad19d2eea3408def252d425de3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#abccb22ad19d2eea3408def252d425de3">FuelSize</a> = uint16</td></tr>
 <tr class="memdesc:abccb22ad19d2eea3408def252d425de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type used for fuel raster.  <a href="namespacefirestarr.html#abccb22ad19d2eea3408def252d425de3">More...</a><br /></td></tr>
 <tr class="separator:abccb22ad19d2eea3408def252d425de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +138,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aea645427e78c057a5b1e2398c3715201"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#aea645427e78c057a5b1e2398c3715201">Coordinates</a> = tuple&lt; <a class="el" href="namespacefirestarr.html#a5202984444b8e149a7a00fc1fee9410e">Idx</a>, <a class="el" href="namespacefirestarr.html#a5202984444b8e149a7a00fc1fee9410e">Idx</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a> &gt;</td></tr>
 <tr class="memdesc:aea645427e78c057a5b1e2398c3715201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinates (row, column, sub-row, sub-column)  <a href="namespacefirestarr.html#aea645427e78c057a5b1e2398c3715201">More...</a><br /></td></tr>
 <tr class="separator:aea645427e78c057a5b1e2398c3715201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749bd6ae5abef5398aced7a3ebca92b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#a749bd6ae5abef5398aced7a3ebca92b7">FullCoordinates</a> = tuple&lt; <a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">FullIdx</a>, <a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">FullIdx</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a> &gt;</td></tr>
+<tr class="memdesc:a749bd6ae5abef5398aced7a3ebca92b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">FullCoordinates (row, column, sub-row, sub-column)  <a href="namespacefirestarr.html#a749bd6ae5abef5398aced7a3ebca92b7">More...</a><br /></td></tr>
+<tr class="separator:a749bd6ae5abef5398aced7a3ebca92b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82da365cb0d54b78d532b10ad527d062"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr.html#a82da365cb0d54b78d532b10ad527d062">Clock</a> = std::chrono::steady_clock</td></tr>
 <tr class="memdesc:a82da365cb0d54b78d532b10ad527d062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of clock to use for times.  <a href="namespacefirestarr.html#a82da365cb0d54b78d532b10ad527d062">More...</a><br /></td></tr>
 <tr class="separator:a82da365cb0d54b78d532b10ad527d062"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +234,7 @@ Variables</h2></td></tr>
 
 <p>Array of results of a function for all possible integer angles in degrees. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00234">234</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00238">238</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -246,7 +252,7 @@ Variables</h2></td></tr>
 
 <p>Type used for aspect raster. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00156">156</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00160">160</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +288,7 @@ Variables</h2></td></tr>
 
 <p>Type of clock to use for times. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00258">258</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00266">266</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +306,7 @@ Variables</h2></td></tr>
 
 <p>Coordinates (row, column, sub-row, sub-column) </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00254">254</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00258">258</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -318,7 +324,7 @@ Variables</h2></td></tr>
 
 <p>A day (0 - 366) </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00172">172</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00176">176</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +342,7 @@ Variables</h2></td></tr>
 
 <p>Type used for elevation raster. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00160">160</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00164">164</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -354,7 +360,7 @@ Variables</h2></td></tr>
 
 <p>Size to use for representing fuel types. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00242">242</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00246">246</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -371,6 +377,42 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Type used for fuel raster. </p>
+
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00156">156</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+
+</div>
+</div>
+<a id="a749bd6ae5abef5398aced7a3ebca92b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749bd6ae5abef5398aced7a3ebca92b7">&#9670;&nbsp;</a></span>FullCoordinates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacefirestarr.html#a749bd6ae5abef5398aced7a3ebca92b7">firestarr.FullCoordinates</a> = typedef tuple&lt;<a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">FullIdx</a>, <a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">FullIdx</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a>, <a class="el" href="namespacefirestarr.html#ac800d121ede0674659e5e353dc751fa5">SubSize</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FullCoordinates (row, column, sub-row, sub-column) </p>
+
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00262">262</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+
+</div>
+</div>
+<a id="a3e43590168f493aa52d060deea680e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e43590168f493aa52d060deea680e0a">&#9670;&nbsp;</a></span>FullIdx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacefirestarr.html#a3e43590168f493aa52d060deea680e0a">firestarr.FullIdx</a> = typedef int64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A row or column index for a grid not in memory yet. </p>
 
 <p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00152">152</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
@@ -426,7 +468,7 @@ Variables</h2></td></tr>
 
 <p>Type used for storing intensities. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00168">168</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00172">172</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -444,7 +486,7 @@ Variables</h2></td></tr>
 
 <p>Type used for slope raster. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00164">164</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00168">168</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -462,7 +504,7 @@ Variables</h2></td></tr>
 
 <p>Array of results of a function for all possible integer percent slopes. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00230">230</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00234">234</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -480,7 +522,7 @@ Variables</h2></td></tr>
 
 <p>Size to use for representing sub-coordinates for location within a Cell. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00250">250</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00254">254</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +540,7 @@ Variables</h2></td></tr>
 
 <p>Size to use for representing the data in a Cell. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00246">246</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00250">250</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -815,7 +857,7 @@ Here is the caller graph for this function:</div>
 
 <p>A single bit set to 1. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00238">238</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00242">242</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -857,7 +899,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of hours in a day. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00206">206</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00210">210</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -883,7 +925,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of minutes in a day. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00218">218</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00222">222</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -909,7 +951,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of seconds in a day. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00222">222</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00226">226</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -935,7 +977,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of minutes in an hour. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00210">210</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00214">214</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -961,7 +1003,7 @@ Here is the caller graph for this function:</div>
 
 <p>2*pi </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00198">198</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00202">202</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -987,7 +1029,7 @@ Here is the caller graph for this function:</div>
 
 <p>3/2*pi </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00202">202</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00206">206</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1055,7 @@ Here is the caller graph for this function:</div>
 
 <p>Maximum number of columns for an Environment. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00178">178</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00182">182</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1079,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00173">173</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00177">177</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1105,7 @@ Here is the caller graph for this function:</div>
 
 <p>Maximum number of rows for an Environment. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00182">182</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00186">186</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1089,7 +1131,7 @@ Here is the caller graph for this function:</div>
 
 <p>Maximum slope that can be stored - this is used in the horizontal distance calculation. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00190">190</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00194">194</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1157,7 @@ Here is the caller graph for this function:</div>
 
 <p>Maximum slope that affects ISI - everything after this is the same factor. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00186">186</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00190">190</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1183,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of seconds in a minute. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00214">214</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00218">218</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1167,7 +1209,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of all possible fuels in simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00194">194</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00198">198</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1299,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of hours in a year. </p>
 
-<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00226">226</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stdafx_8h_source.html#l00230">230</a> of file <a class="el" href="stdafx_8h_source.html">stdafx.h</a>.</p>
 
 </div>
 </div>

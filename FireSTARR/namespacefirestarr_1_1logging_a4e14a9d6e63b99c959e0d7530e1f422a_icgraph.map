@@ -25,7 +25,7 @@
 <area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="1336,1515,1469,1557"/>
 <area shape="rect" id="node28" href="$classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="1593,843,1734,869"/>
 <area shape="rect" id="node29" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="939,1363,1005,1389"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1data_1_1GridMap.html#a35d4cbc327c24295c246b8c37a9d2ed1" title="Constructor." alt="" coords="1588,894,1739,935"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="1588,894,1739,935"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="1600,1077,1727,1104"/>
 <area shape="rect" id="node32" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="1095,1810,1269,1851"/>
 <area shape="rect" id="node33" href="$classfirestarr_1_1topo_1_1Environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1576,1129,1751,1170"/>
@@ -46,7 +46,7 @@
 <area shape="rect" id="node22" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a9aabf58b3c57b9408a907f9aee0707e1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="1317,309,1488,350"/>
 <area shape="rect" id="node23" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#af366f8bf2b384edccd1e2bea0c1bf3d5" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="1317,219,1488,261"/>
 <area shape="rect" id="node43" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="1588,1982,1739,2023"/>
-<area shape="rect" id="node46" href="$classfirestarr_1_1data_1_1GridBase.html#a478dbdde9470b8051f8686a123bd06bd" title="Constructor." alt="" coords="1585,2109,1741,2150"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1data_1_1GridBase.html#ae7807ba572421ad7231ff5cfb43e91c2" title="Constructor." alt="" coords="1585,2109,1741,2150"/>
 <area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="1536,2174,1791,2215"/>
 <area shape="rect" id="node50" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="496,251,635,293"/>
 </map>

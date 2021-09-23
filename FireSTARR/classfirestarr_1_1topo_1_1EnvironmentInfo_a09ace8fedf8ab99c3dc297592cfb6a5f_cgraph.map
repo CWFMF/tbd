@@ -1,0 +1,7 @@
+<map id="firestarr::topo::EnvironmentInfo::calculateColumns" name="firestarr::topo::EnvironmentInfo::calculateColumns">
+<area shape="rect" id="node1" title="Number of columns in grid." alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="228,71,384,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="432,5,588,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="432,71,588,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981" title="Upper right corner X coordinate in meters." alt="" coords="432,136,588,177"/>
+</map>

@@ -4,10 +4,10 @@
 <area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="230,71,405,112"/>
 <area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="261,136,373,177"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="241,201,393,243"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridBase.html#ac5befea8588c3302924f74c2b3f37537" title="Number of columns in the GridBase." alt="" coords="239,267,395,308"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1Grid.html#afdc6287d42d96c6cd37e11e202149a6a" title="Number of columns in the GridBase." alt="" coords="254,267,381,308"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="255,332,379,373"/>
 <area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="228,398,407,425"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1GridBase.html#ab4265834a03aa8678bc1af3906fb181d" title="Number of rows in the GridBase." alt="" coords="239,449,395,491"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1Grid.html#a344d115147c2e0e8a55dd2c9754541aa" title="Number of rows in the GridBase." alt="" coords="254,449,381,491"/>
 <area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Cell.html#a81d71a05a8968b8145552a630ab861a5" title="Slope (degrees)" alt="" coords="255,515,379,556"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="239,580,395,621"/>
 <area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="475,136,587,177"/>

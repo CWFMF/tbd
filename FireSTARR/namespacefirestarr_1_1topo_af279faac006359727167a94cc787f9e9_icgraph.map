@@ -1,15 +1,17 @@
 <map id="firestarr::topo::arc_length_of_meridian" name="firestarr::topo::arc_length_of_meridian">
-<area shape="rect" id="node1" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="1216,133,1355,175"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="1041,133,1168,175"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="877,133,993,175"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="673,85,829,127"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="685,165,818,207"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="451,5,625,47"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,71,601,112"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,136,615,177"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,71,403,112"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,136,395,177"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,201,393,243"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node13" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="513,202,563,229"/>
+<area shape="rect" id="node1" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="1216,199,1355,240"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="1041,199,1168,240"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="877,199,993,240"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="673,136,829,177"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="685,231,818,272"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,5,616,47"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,71,625,112"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,136,601,177"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,201,615,243"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,201,395,243"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,267,393,308"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,136,180,177"/>
+<area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="513,267,563,294"/>
 </map>
