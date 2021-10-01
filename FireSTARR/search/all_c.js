@@ -220,5 +220,6 @@ var searchData=
   ['modelcompare_821',['ModelCompare',['../structfirestarr_1_1wx_1_1ModelCompare.html',1,'firestarr::wx']]],
   ['montharray_822',['MonthArray',['../namespacefirestarr_1_1wx.html#ae349cf4356d3481ef8490a0a784b89d8',1,'firestarr::wx']]],
   ['mutex_5f_823',['mutex_',['../classfirestarr_1_1util_1_1SafeVector.html#aa6601bcec0f5845bfefa0e3e2befc987',1,'firestarr::util::SafeVector::mutex_()'],['../classfirestarr_1_1sim_1_1IntensityMap.html#a11ff774b891530b403bdb1682c11cba9',1,'firestarr::sim::IntensityMap::mutex_()'],['../classfirestarr_1_1util_1_1MemoryPool.html#acb09f49cddc847f6fd8fba772519d6dc',1,'firestarr::util::MemoryPool::mutex_()'],['../classfirestarr_1_1sim_1_1Semaphore.html#aff9a65e921369302d866dd5cc0034921',1,'firestarr::sim::Semaphore::mutex_()'],['../classfirestarr_1_1sim_1_1ProbabilityMap.html#a621edf8497b1e5481928ec19e863947d',1,'firestarr::sim::ProbabilityMap::mutex_()'],['../classfirestarr_1_1sim_1_1SettingsImplementation.html#a3ba8538fb632248e66abe856dfc41a8a',1,'firestarr::sim::SettingsImplementation::mutex_()']]],
-  ['mutex_5fmaps_824',['MUTEX_MAPS',['../namespacefirestarr_1_1sim.html#a27726c27fff11bac0b95feff8aaa5af6',1,'firestarr::sim']]]
+  ['mutex_5fmaps_824',['MUTEX_MAPS',['../namespacefirestarr_1_1sim.html#a27726c27fff11bac0b95feff8aaa5af6',1,'firestarr::sim']]],
+  ['mutex_5fsim_5fcounts_825',['MUTEX_SIM_COUNTS',['../namespacefirestarr_1_1sim.html#afcb90fe736c90a41efb68674192773f9',1,'firestarr::sim']]]
 ];

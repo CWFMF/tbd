@@ -227,6 +227,10 @@ Variables</h2></td></tr>
 <tr class="separator:aca57e11fde8202a8f956e2e2a8c984f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa55abcbfea6a06bb83d3d07864e74fff"><td class="memItemLeft" align="right" valign="top">static atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#aa55abcbfea6a06bb83d3d07864e74fff">COMPLETED</a> = 0</td></tr>
 <tr class="separator:aa55abcbfea6a06bb83d3d07864e74fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb90fe736c90a41efb68674192773f9"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#afcb90fe736c90a41efb68674192773f9">MUTEX_SIM_COUNTS</a></td></tr>
+<tr class="separator:afcb90fe736c90a41efb68674192773f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959449a813bcbcf959d03bdc0d8ea1ed"><td class="memItemLeft" align="right" valign="top">static map&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a959449a813bcbcf959d03bdc0d8ea1ed">SIM_COUNTS</a> {}</td></tr>
+<tr class="separator:a959449a813bcbcf959d03bdc0d8ea1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af402542cb0c47ee0276652ee500e8fd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classfirestarr_1_1util_1_1MemoryPool.html">util::MemoryPool</a>&lt; <a class="el" href="namespacefirestarr_1_1sim.html#a33f6a2bafd13449e86e4541be0d5afe0">BurnedData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#af402542cb0c47ee0276652ee500e8fd9">POOL_BURNED_DATA</a> {}</td></tr>
 <tr class="separator:af402542cb0c47ee0276652ee500e8fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291ed55d68f2bc1dbf6e8f4f13c2cf64"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a291ed55d68f2bc1dbf6e8f4f13c2cf64">ACTUALS</a> = 0</td></tr>
@@ -761,7 +765,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00115">115</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00117">117</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -834,7 +838,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00080">80</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00082">82</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -945,7 +949,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00458">458</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00464">464</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -1318,7 +1322,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00111">111</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00113">113</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1730,6 +1734,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afcb90fe736c90a41efb68674192773f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb90fe736c90a41efb68674192773f9">&#9670;&nbsp;</a></span>MUTEX_SIM_COUNTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex firestarr::sim::MUTEX_SIM_COUNTS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00036">36</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+
+</div>
+</div>
 <a id="af402542cb0c47ee0276652ee500e8fd9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af402542cb0c47ee0276652ee500e8fd9">&#9670;&nbsp;</a></span>POOL_BURNED_DATA</h2>
 
@@ -1750,7 +1778,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00036">36</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00038">38</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -1801,6 +1829,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a959449a813bcbcf959d03bdc0d8ea1ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959449a813bcbcf959d03bdc0d8ea1ed">&#9670;&nbsp;</a></span>SIM_COUNTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;size_t, size_t&gt; firestarr::sim::SIM_COUNTS {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00037">37</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
