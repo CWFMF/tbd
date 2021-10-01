@@ -144,8 +144,14 @@ Variables</h2></td></tr>
 <tr class="separator:a1a259550194543043bad91a2b2b92f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f3b86af91b0812410a28a6994e12258"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258">make_grids.zone</a> = ZONE_MIN</td></tr>
 <tr class="separator:a7f3b86af91b0812410a28a6994e12258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a757b7e3418dfb4d6a553b3d1a9b73ca7">make_grids.p</a> = Process(target=make_zone, args=(zone,))</td></tr>
+<tr class="memitem:a348cfd8f47b0c3b8a1558c31187eda6d"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">make_grids.zones</a> = []</td></tr>
+<tr class="separator:a348cfd8f47b0c3b8a1558c31187eda6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67772512ae5f8cbaa9ab49f360e8c1f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a67772512ae5f8cbaa9ab49f360e8c1f2">make_grids.num_threads</a> = int(min(len(zones), multiprocessing.cpu_count() / 4))</td></tr>
+<tr class="separator:a67772512ae5f8cbaa9ab49f360e8c1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a757b7e3418dfb4d6a553b3d1a9b73ca7">make_grids.p</a> = Pool(num_threads)</td></tr>
 <tr class="separator:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8ee8c1ba916a86e3f07aa1cd340ba4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a2a8ee8c1ba916a86e3f07aa1cd340ba4">make_grids.results</a> = p.map(make_zone, zones)</td></tr>
+<tr class="separator:a2a8ee8c1ba916a86e3f07aa1cd340ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

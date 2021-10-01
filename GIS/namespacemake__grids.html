@@ -134,8 +134,14 @@ Variables</h2></td></tr>
 <tr class="separator:a1a259550194543043bad91a2b2b92f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f3b86af91b0812410a28a6994e12258"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258">zone</a> = <a class="el" href="namespacemake__grids.html#ae0da6ae2f782922244e87771af58f3c8">ZONE_MIN</a></td></tr>
 <tr class="separator:a7f3b86af91b0812410a28a6994e12258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a757b7e3418dfb4d6a553b3d1a9b73ca7">p</a> = Process(target=<a class="el" href="namespacemake__grids.html#a2caffd61330da9c983b20bc3316a3f25">make_zone</a>, args=(<a class="el" href="namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258">zone</a>,))</td></tr>
+<tr class="memitem:a348cfd8f47b0c3b8a1558c31187eda6d"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">zones</a> = []</td></tr>
+<tr class="separator:a348cfd8f47b0c3b8a1558c31187eda6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67772512ae5f8cbaa9ab49f360e8c1f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a67772512ae5f8cbaa9ab49f360e8c1f2">num_threads</a> = int(min(len(<a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">zones</a>), multiprocessing.cpu_count() / 4))</td></tr>
+<tr class="separator:a67772512ae5f8cbaa9ab49f360e8c1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a757b7e3418dfb4d6a553b3d1a9b73ca7">p</a> = Pool(<a class="el" href="namespacemake__grids.html#a67772512ae5f8cbaa9ab49f360e8c1f2">num_threads</a>)</td></tr>
 <tr class="separator:a757b7e3418dfb4d6a553b3d1a9b73ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8ee8c1ba916a86e3f07aa1cd340ba4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemake__grids.html#a2a8ee8c1ba916a86e3f07aa1cd340ba4">results</a> = p.map(<a class="el" href="namespacemake__grids.html#a2caffd61330da9c983b20bc3316a3f25">make_zone</a>, <a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">zones</a>)</td></tr>
+<tr class="separator:a2a8ee8c1ba916a86e3f07aa1cd340ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a46a7b1c726b0dc7fba7f7d2c9cc6d377"></a>
@@ -708,6 +714,20 @@ Output:
 
 </div>
 </div>
+<a id="a67772512ae5f8cbaa9ab49f360e8c1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67772512ae5f8cbaa9ab49f360e8c1f2">&#9670;&nbsp;</a></span>num_threads</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">make_grids.num_threads = int(min(len(<a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">zones</a>), multiprocessing.cpu_count() / 4))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a757b7e3418dfb4d6a553b3d1a9b73ca7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a757b7e3418dfb4d6a553b3d1a9b73ca7">&#9670;&nbsp;</a></span>p</h2>
 
@@ -715,7 +735,21 @@ Output:
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">make_grids.p = Process(target=<a class="el" href="namespacemake__grids.html#a2caffd61330da9c983b20bc3316a3f25">make_zone</a>, args=(<a class="el" href="namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258">zone</a>,))</td>
+          <td class="memname">make_grids.p = Pool(<a class="el" href="namespacemake__grids.html#a67772512ae5f8cbaa9ab49f360e8c1f2">num_threads</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a8ee8c1ba916a86e3f07aa1cd340ba4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8ee8c1ba916a86e3f07aa1cd340ba4">&#9670;&nbsp;</a></span>results</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">make_grids.results = p.map(<a class="el" href="namespacemake__grids.html#a2caffd61330da9c983b20bc3316a3f25">make_zone</a>, <a class="el" href="namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d">zones</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -786,6 +820,20 @@ Output:
       <table class="memname">
         <tr>
           <td class="memname">float make_grids.ZONE_MIN = 15 + (common.BOUNDS['longitude']['min'] + 93.0) / 6.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a348cfd8f47b0c3b8a1558c31187eda6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348cfd8f47b0c3b8a1558c31187eda6d">&#9670;&nbsp;</a></span>zones</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">list make_grids.zones = []</td>
         </tr>
       </table>
 </div><div class="memdoc">
