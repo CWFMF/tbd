@@ -30,7 +30,7 @@
 <area shape="rect" id="node17" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="565,2172,689,2214"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="539,330,714,371"/>
 <area shape="rect" id="node21" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="569,395,684,436"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="539,460,714,502"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a1d2ce56608f37939c0676f93aaa0a56a" title="Load EnvironmentInfo from given rasters." alt="" coords="539,460,714,502"/>
 <area shape="rect" id="node23" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="561,212,693,254"/>
 <area shape="rect" id="node24" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="796,519,908,560"/>
 <area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="785,1764,919,1806"/>

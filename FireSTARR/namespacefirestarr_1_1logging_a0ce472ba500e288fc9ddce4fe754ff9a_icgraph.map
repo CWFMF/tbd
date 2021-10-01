@@ -5,10 +5,10 @@
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="249,195,382,237"/>
 <area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="67,203,118,229"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="677,493,845,534"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#af0a0f163eb3a3fa210b504466683519e" title="Load from rasters." alt="" coords="673,558,848,599"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#a8d7dd53ac487071efbcb1a69cf664823" title="Load from rasters." alt="" coords="673,558,848,599"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,623,839,665"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,674,615,715"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,739,403,781"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="228,739,403,781"/>
 <area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="451,233,625,274"/>
 <area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="471,315,605,357"/>
 <area shape="rect" id="node20" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="688,441,833,468"/>

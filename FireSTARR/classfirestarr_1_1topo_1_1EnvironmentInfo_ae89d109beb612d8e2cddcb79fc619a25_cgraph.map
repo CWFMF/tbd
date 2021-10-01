@@ -1,6 +1,6 @@
 <map id="firestarr::topo::EnvironmentInfo::load" name="firestarr::topo::EnvironmentInfo::load">
 <area shape="rect" id="node1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,193,180,234"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,193,403,234"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="228,193,403,234"/>
 <area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="910,218,1022,259"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="451,43,625,85"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a" title="Move constructor." alt="" coords="451,109,625,150"/>

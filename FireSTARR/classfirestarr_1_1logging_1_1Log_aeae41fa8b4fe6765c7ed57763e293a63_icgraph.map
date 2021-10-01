@@ -8,9 +8,9 @@
 <area shape="rect" id="node47" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="1595,975,1707,1016"/>
 <area shape="rect" id="node50" href="$namespacefirestarr_1_1logging.html#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="785,1967,897,2008"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="1184,644,1340,685"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#aa24e2a528711f734fa45f93b817bf0af" title="Constructor." alt="" coords="1175,5,1349,47"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="1175,5,1349,47"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="763,492,919,533"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,1773,403,1815"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="228,1773,403,1815"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="753,557,928,599"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="249,711,382,752"/>
 <area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="67,1282,118,1309"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="451,1908,705,1949"/>
 <area shape="rect" id="node36" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="977,1059,1126,1100"/>
 <area shape="rect" id="node40" href="$namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="781,740,900,781"/>
-<area shape="rect" id="node41" href="$classfirestarr_1_1topo_1_1Environment.html#af0a0f163eb3a3fa210b504466683519e" title="Load from rasters." alt="" coords="753,1285,928,1327"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1topo_1_1Environment.html#a8d7dd53ac487071efbcb1a69cf664823" title="Load from rasters." alt="" coords="753,1285,928,1327"/>
 <area shape="rect" id="node42" href="$namespacefirestarr_1_1sim.html#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="779,805,902,847"/>
 <area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="761,1024,920,1065"/>
 <area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Semaphore.html#aed3949517b62c68db0f26588013473b3" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="759,1089,923,1131"/>

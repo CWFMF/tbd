@@ -1,6 +1,6 @@
 <map id="firestarr::logging::warning" name="firestarr::logging::warning">
 <area shape="rect" id="node1" title="Log with WARNING level." alt="" coords="753,75,865,116"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="228,5,403,47"/>
 <area shape="rect" id="node4" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="553,53,603,79"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="501,104,655,145"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="451,169,705,211"/>

@@ -21,7 +21,7 @@
 <area shape="rect" id="node12" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="449,31,573,72"/>
 <area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="423,1039,598,1080"/>
 <area shape="rect" id="node16" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="453,1104,568,1146"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ad7715ea6cc4f099e475205eb1faa54c9" title="Load EnvironmentInfo from given rasters." alt="" coords="423,1388,598,1430"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a1d2ce56608f37939c0676f93aaa0a56a" title="Load EnvironmentInfo from given rasters." alt="" coords="423,1388,598,1430"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="445,1519,577,1560"/>
 <area shape="rect" id="node22" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="701,930,813,971"/>
 <area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="684,1730,831,1771"/>

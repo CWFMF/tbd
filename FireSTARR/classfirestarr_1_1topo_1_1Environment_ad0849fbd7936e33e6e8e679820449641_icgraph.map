@@ -1,8 +1,9 @@
 <map id="firestarr::topo::Environment::elevation" name="firestarr::topo::Environment::elevation">
-<area shape="rect" id="node1" title="Elevation of the origin Point." alt="" coords="549,71,724,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a64d04afa288baf7ae92c1b697807e778" title="Load from rasters." alt="" coords="327,5,501,47"/>
+<area shape="rect" id="node1" title="Elevation of the origin Point." alt="" coords="549,104,724,145"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="327,5,501,47"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,71,501,112"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Model.html#ac4159bf05562f6c9816718e331773233" title="Constructor." alt="" coords="347,136,481,177"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="327,136,501,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.html#ac4159bf05562f6c9816718e331773233" title="Constructor." alt="" coords="347,201,481,243"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,5,279,47"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="125,71,258,112"/>
 <area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,78,56,105"/>

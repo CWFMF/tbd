@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usagecount_1709',['UsageCount',['.././FireSTARR/classfirestarr_1_1util_1_1UsageCount.html',1,'firestarr::util']]]
+  ['usagecount_1701',['UsageCount',['.././FireSTARR/classfirestarr_1_1util_1_1UsageCount.html',1,'firestarr::util']]]
 ];

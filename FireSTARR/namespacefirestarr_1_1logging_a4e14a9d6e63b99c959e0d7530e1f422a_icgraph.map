@@ -20,7 +20,7 @@
 <area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1579,594,1747,635"/>
 <area shape="rect" id="node21" href="$namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="1589,309,1737,350"/>
 <area shape="rect" id="node24" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="1586,711,1741,753"/>
-<area shape="rect" id="node25" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#aa24e2a528711f734fa45f93b817bf0af" title="Constructor." alt="" coords="1576,777,1751,818"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="1576,777,1751,818"/>
 <area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1597,1515,1730,1557"/>
 <area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="1336,1515,1469,1557"/>
 <area shape="rect" id="node28" href="$classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="1593,843,1734,869"/>
@@ -28,7 +28,7 @@
 <area shape="rect" id="node30" href="$classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="1588,894,1739,935"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="1600,1077,1727,1104"/>
 <area shape="rect" id="node32" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="1095,1810,1269,1851"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1topo_1_1Environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1576,1129,1751,1170"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1576,1129,1751,1170"/>
 <area shape="rect" id="node34" href="$namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="1586,1195,1741,1221"/>
 <area shape="rect" id="node35" href="$classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="1589,1246,1738,1287"/>
 <area shape="rect" id="node36" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1323,982,1482,1023"/>

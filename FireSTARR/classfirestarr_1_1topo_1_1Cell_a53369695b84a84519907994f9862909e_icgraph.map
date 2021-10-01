@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Fuel." alt="" coords="1540,210,1664,251"/>
 <area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#a7f316a4b4fa829cff4596b5a9d3feb1a" title="Get FuelType based on the given cell." alt="" coords="1324,45,1485,72"/>
 <area shape="rect" id="node12" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="1351,290,1459,331"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Environment.html#ac0b84e078738fbdec6fa338e463b924d" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1317,355,1492,397"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1317,355,1492,397"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Scenario.html#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="1330,155,1479,197"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,155,1047,197"/>
 <area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="1101,38,1263,79"/>
