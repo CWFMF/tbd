@@ -1,4 +1,5 @@
 <map id="firestarr::data::GridBase::findCoordinates" name="firestarr::data::GridBase::findCoordinates">
-<area shape="rect" id="node1" title="Find Coordinates for Point." alt="" coords="228,5,384,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" title="Find Coordinates for Point." alt="" coords="228,39,384,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="5,71,180,112"/>
 </map>

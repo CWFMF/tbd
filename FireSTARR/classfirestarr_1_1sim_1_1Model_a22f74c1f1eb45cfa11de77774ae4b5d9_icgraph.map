@@ -1,6 +1,6 @@
 <map id="firestarr::sim::Model::readScenarios" name="firestarr::sim::Model::readScenarios">
 <area shape="rect" id="node1" title="Create an Iteration by initializing Scenarios." alt="" coords="467,5,600,47"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="285,5,419,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,237,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,237,47"/>
 <area shape="rect" id="node4" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
 </map>

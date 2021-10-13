@@ -8,11 +8,11 @@
 <area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="1101,38,1263,79"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,181,849,222"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,243,652,269"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,228,431,255"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,228,431,255"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,279,425,321"/>
 <area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,228,231,255"/>
 <area shape="rect" id="node8" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,257,56,284"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1098,439,1266,481"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1115,374,1249,415"/>
 <area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="905,338,1039,379"/>

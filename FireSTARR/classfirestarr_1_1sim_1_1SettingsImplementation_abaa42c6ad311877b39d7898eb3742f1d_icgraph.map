@@ -1,0 +1,12 @@
+<map id="firestarr::sim::SettingsImplementation::fuelLookup" name="firestarr::sim::SettingsImplementation::fuelLookup">
+<area shape="rect" id="node1" title="Fuel lookup table." alt="" coords="744,104,925,145"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="549,104,696,145"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="327,5,501,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,71,501,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="347,136,481,177"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="341,202,487,229"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,71,279,112"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,136,258,177"/>
+<area shape="rect" id="node8" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,173,56,199"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="131,202,251,229"/>
+</map>

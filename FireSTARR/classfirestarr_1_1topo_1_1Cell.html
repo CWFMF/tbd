@@ -166,7 +166,7 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ae9ab1e85e52826819276d61560ea8a6f"><td class="memItemLeft" align="right" valign="top">static constexpr uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Cell.html#ae9ab1e85e52826819276d61560ea8a6f">FuelShift</a> = <a class="el" href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">LocationBits</a> + 10</td></tr>
+<tr class="memitem:ae9ab1e85e52826819276d61560ea8a6f"><td class="memItemLeft" align="right" valign="top">static constexpr uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Cell.html#ae9ab1e85e52826819276d61560ea8a6f">FuelShift</a> = 32</td></tr>
 <tr class="memdesc:ae9ab1e85e52826819276d61560ea8a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift for fuel bitmask.  <a href="classfirestarr_1_1topo_1_1Cell.html#ae9ab1e85e52826819276d61560ea8a6f">More...</a><br /></td></tr>
 <tr class="separator:ae9ab1e85e52826819276d61560ea8a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0162c1dc7f73bc56d465e2798518d02c"><td class="memItemLeft" align="right" valign="top">static constexpr uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Cell.html#a0162c1dc7f73bc56d465e2798518d02c">FuelBits</a> = 6</td></tr>
@@ -206,7 +206,7 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memdesc:a55e08ed01ddefd0981c2d78de4517eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmask for <a class="el" href="classfirestarr_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel.">Cell</a> information in Topo.  <a href="classfirestarr_1_1topo_1_1Cell.html#a55e08ed01ddefd0981c2d78de4517eeb">More...</a><br /></td></tr>
 <tr class="separator:a55e08ed01ddefd0981c2d78de4517eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classfirestarr_1_1topo_1_1Location')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classfirestarr_1_1topo_1_1Location.html">firestarr::topo::Location</a></td></tr>
-<tr class="memitem:ae6dbaae3fb7dae332f658e3de4052988 inherit pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td class="memItemLeft" align="right" valign="top">static constexpr uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">LocationBits</a> = 22</td></tr>
+<tr class="memitem:ae6dbaae3fb7dae332f658e3de4052988 inherit pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td class="memItemLeft" align="right" valign="top">static constexpr uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">LocationBits</a> = 32</td></tr>
 <tr class="memdesc:ae6dbaae3fb7dae332f658e3de4052988 inherit pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bits to use for storing location data.  <a href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">More...</a><br /></td></tr>
 <tr class="separator:ae6dbaae3fb7dae332f658e3de4052988 inherit pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4bc656d9cfff5630e8b333d4ffc5a8c inherit pro_static_attribs_classfirestarr_1_1topo_1_1Location"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacefirestarr.html#ab5ce986bba34a4be3ea8c09f40a4a9f2">Topo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1topo_1_1Location.html#aa4bc656d9cfff5630e8b333d4ffc5a8c">HashMask</a> = <a class="el" href="namespacefirestarr_1_1util.html#a6721073ca3d15bd418c5406eb7b6b2ff">util::bit_mask</a>&lt;<a class="el" href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">LocationBits</a>, <a class="el" href="namespacefirestarr.html#ab5ce986bba34a4be3ea8c09f40a4a9f2">Topo</a>&gt;()</td></tr>
@@ -510,11 +510,11 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="1101,38,1263,79"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,181,849,222"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,243,652,269"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="285,228,431,255"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,228,431,255"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,279,425,321"/>
 <area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,228,231,255"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,257,56,284"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,279,237,321"/>
 <area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1098,439,1266,481"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1115,374,1249,415"/>
 <area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="905,338,1039,379"/>
@@ -726,7 +726,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for aspect in Topo before shift. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00196">196</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00198">198</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -752,7 +752,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of bits in aspect bitmask. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00192">192</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00194">194</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -778,7 +778,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for aspect in Topo. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00201">201</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00203">203</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -804,7 +804,7 @@ Here is the caller graph for this function:</div>
 
 <p>Shift for aspect bitmask. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00188">188</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00190">190</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for <a class="el" href="classfirestarr_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel.">Cell</a> information in Topo. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00223">223</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00225">225</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for fuel information in Topo before shift. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00178">178</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00180">180</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of bits in fuel bitmask. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00174">174</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00176">176</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -908,7 +908,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for fuel information in Topo. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00184">184</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00186">186</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -922,7 +922,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint32 firestarr::topo::Cell::FuelShift = <a class="el" href="classfirestarr_1_1topo_1_1Location.html#ae6dbaae3fb7dae332f658e3de4052988">LocationBits</a> + 10</td>
+          <td class="memname">constexpr uint32 firestarr::topo::Cell::FuelShift = 32</td>
         </tr>
       </table>
   </td>
@@ -960,7 +960,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for slope in Topo before shift. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00213">213</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00215">215</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -986,7 +986,7 @@ Here is the caller graph for this function:</div>
 
 <p>Number of bits in slope bitmask. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00209">209</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00211">211</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1012,7 @@ Here is the caller graph for this function:</div>
 
 <p>Bitmask for slope in Topo. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00219">219</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00221">221</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1038,7 @@ Here is the caller graph for this function:</div>
 
 <p>Shift for slope bitmask. </p>
 
-<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00205">205</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Cell_8h_source.html#l00207">207</a> of file <a class="el" href="Cell_8h_source.html">Cell.h</a>.</p>
 
 </div>
 </div>

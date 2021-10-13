@@ -1,4 +1,5 @@
 <map id="firestarr::fuel::check_fuel" name="firestarr::fuel::check_fuel">
-<area shape="rect" id="node1" title="Get FuelType based on the given cell." alt="" coords="5,13,167,39"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="215,5,339,47"/>
+<area shape="rect" id="node1" title="Get FuelType based on the given cell." alt="" coords="5,46,167,73"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#a19e3bd6be01483c983b81a2d0e74de4f" title="Look up a FuelType based on the given code." alt="" coords="217,5,336,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="215,71,339,112"/>
 </map>

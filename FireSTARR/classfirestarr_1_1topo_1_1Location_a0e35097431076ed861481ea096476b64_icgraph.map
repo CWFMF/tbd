@@ -13,7 +13,7 @@
 <area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.html#a9be1fc2f3fa21f7b0b29a8224d5688e1" title="Create a hash from given values." alt="" coords="297,5,449,47"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a9c24dbd41b96c1bbdf93c62725f4c0f2" title="Whether or not all Locations surrounding the given Location are burned." alt="" coords="299,71,446,112"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Perimeter.html#a9f31a946f932f6eea85bc1f936bfbe95" title="Create a Perimeter of the given size at the given Location." alt="" coords="293,136,452,177"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="104,281,237,323"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,281,237,323"/>
 <area shape="rect" id="node11" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,289,56,315"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a7456ef51d24617846d1872690e84d61f" title="Whether or not the Cell with the given hash can burn." alt="" coords="299,361,446,403"/>
 </map>

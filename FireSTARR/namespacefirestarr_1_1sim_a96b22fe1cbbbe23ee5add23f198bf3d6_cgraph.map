@@ -1,52 +1,52 @@
 <map id="firestarr::sim::test" name="firestarr::sim::test">
-<area shape="rect" id="node1" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="5,200,125,227"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="878,279,990,321"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="1496,891,1608,933"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Settings.html#a16d719ae8ef9ba23fee5f4b457ce21b3" title="Name of file that defines fuel lookup table." alt="" coords="173,109,320,150"/>
-<area shape="rect" id="node9" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="405,1853,544,1894"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="878,214,990,255"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="174,1137,319,1164"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="1299,410,1427,451"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="1307,297,1419,338"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a7abf13b7748837b5399dfe5703ee9acf" title="Name of file that defines fuel lookup table." alt="" coords="368,43,581,85"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="391,109,558,150"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="871,1853,997,1894"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="385,1276,565,1303"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1fuel_1_1FuelLookup.html#a3768f0491023122a6c8c1839bceec9a0" title="Look up a FuelType based on the given name." alt="" coords="391,1393,558,1434"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="867,1719,1001,1761"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="641,378,791,419"/>
-<area shape="rect" id="node20" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="1097,439,1209,481"/>
-<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Model.html#ad055295ef517b62ad0557e37a7628a7c" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="398,948,551,975"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="388,999,561,1025"/>
-<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1Scenario.html#a27a9b11eea8e32d1ca35af86310980e3" title="Tell Observers to save their data with base file name." alt="" coords="1078,1637,1227,1678"/>
-<area shape="rect" id="node49" href="$classfirestarr_1_1fuel_1_1FuelType.html#af5a3f460d906dbd37e70ea06532c2d01" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="399,1327,550,1369"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="1307,967,1419,1009"/>
-<area shape="rect" id="node15" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="657,1619,775,1661"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1065,1719,1240,1761"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="641,1151,791,1193"/>
-<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="1078,1117,1227,1158"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="641,1269,791,1310"/>
-<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="641,1554,791,1595"/>
-<area shape="rect" id="node29" href="$namespacefirestarr_1_1util.html#a3fc953966435ba2dba4c247032dd5e41" title="Call reset on T before releasing it." alt="" coords="651,1386,781,1427"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1Scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="1078,607,1227,649"/>
-<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1Model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="649,647,783,689"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="641,815,791,857"/>
-<area shape="rect" id="node35" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="1099,691,1207,733"/>
-<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1Scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="1078,757,1227,798"/>
-<area shape="rect" id="node42" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="1097,514,1209,555"/>
-<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="869,1190,999,1231"/>
-<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="869,1034,999,1075"/>
-<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1Event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="869,1321,999,1362"/>
-<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1Event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="869,1099,999,1141"/>
-<area shape="rect" id="node47" href="$classfirestarr_1_1sim_1_1Scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="641,933,791,974"/>
-<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1Scenario.html#a8a4130a712e3836120bacf3bfca11ca3" title="Whether or not this Scenario has run already." alt="" coords="629,999,803,1025"/>
-<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="1297,1127,1428,1169"/>
-<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Scenario.html#a40f3bcb51195d0d99572bb4495fce9e5" title="Notify IObservers that a Cell has burned." alt="" coords="1288,1062,1437,1103"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1util_1_1MemoryPool.html#ac83590bb8563771c5609d6b146305c4e" title="Add a T* to the pool of available T*s." alt="" coords="851,1386,1017,1427"/>
-<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="859,815,1009,857"/>
-<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="1087,1051,1218,1093"/>
-<area shape="rect" id="node36" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="1301,691,1425,733"/>
-<area shape="rect" id="node39" href="$classfirestarr_1_1sim_1_1Scenario.html#abd8c41ea24e101cec7e9d848cc74c69d" title="Directory to output files to." alt="" coords="1288,1637,1437,1678"/>
-<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1Model.html#ab8089299256f21f125d079f00c1aa13c" title="Directory to output results to." alt="" coords="1485,1637,1619,1678"/>
-<area shape="rect" id="node50" href="$classfirestarr_1_1fuel_1_1FuelType.html#abafed0f685ef59a90afdf7af3d8ea110" title="Code for this fuel type." alt="" coords="641,1685,791,1726"/>
+<area shape="rect" id="node1" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="5,1400,125,1427"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="843,200,955,241"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="1503,1536,1615,1577"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="387,1746,526,1788"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="843,50,955,92"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="173,1400,319,1427"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="1271,308,1399,349"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="1279,221,1391,262"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="836,1746,963,1788"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="367,1476,547,1503"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1fuel_1_1FuelLookup.html#a3768f0491023122a6c8c1839bceec9a0" title="Look up a FuelType based on the given name." alt="" coords="373,1528,540,1569"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="833,134,966,176"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Scenario.html#a4f26feedfe0d13a2f13f3d1cb3249b05" title="Current fire size (ha)" alt="" coords="607,1410,756,1452"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="826,1578,973,1620"/>
+<area shape="rect" id="node20" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="1065,318,1177,360"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Model.html#ad055295ef517b62ad0557e37a7628a7c" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="380,1426,533,1452"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="370,898,543,924"/>
+<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1Scenario.html#a27a9b11eea8e32d1ca35af86310980e3" title="Tell Observers to save their data with base file name." alt="" coords="1047,1688,1196,1729"/>
+<area shape="rect" id="node49" href="$classfirestarr_1_1fuel_1_1FuelType.html#af5a3f460d906dbd37e70ea06532c2d01" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="381,120,532,161"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="1279,1441,1391,1482"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="622,1528,741,1569"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1034,150,1209,192"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="1031,1549,1212,1590"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="1476,1864,1643,1905"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Add an Event to the queue." alt="" coords="607,522,756,564"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="1047,1349,1196,1390"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="607,588,756,629"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="607,288,756,329"/>
+<area shape="rect" id="node29" href="$namespacefirestarr_1_1util.html#a3fc953966435ba2dba4c247032dd5e41" title="Call reset on T before releasing it." alt="" coords="617,806,746,848"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1Scenario.html#a510cee39896f25a42306f1c86c7379b0" title="Easting." alt="" coords="1047,766,1196,808"/>
+<area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1Model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="615,974,748,1016"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="607,1040,756,1081"/>
+<area shape="rect" id="node35" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="1067,916,1175,957"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1sim_1_1Scenario.html#ac7ac7d0bb8e4330d03f3287ac0111304" title="Northing." alt="" coords="1047,850,1196,892"/>
+<area shape="rect" id="node42" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="1065,518,1177,560"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="834,1208,965,1249"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="834,1338,965,1380"/>
+<area shape="rect" id="node45" href="$classfirestarr_1_1sim_1_1Event.html#a6ca1285e26e661fae1eb3be3a1cbcbbc" title="Make new fire event." alt="" coords="834,1090,965,1132"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1Event.html#a8e4ecbac610e16794f4204aa0e7de519" title="Make simulation save event." alt="" coords="834,1273,965,1314"/>
+<area shape="rect" id="node47" href="$classfirestarr_1_1sim_1_1Scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="607,405,756,446"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1sim_1_1Scenario.html#a8a4130a712e3836120bacf3bfca11ca3" title="Whether or not this Scenario has run already." alt="" coords="595,471,768,498"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="1269,1126,1400,1168"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Scenario.html#a40f3bcb51195d0d99572bb4495fce9e5" title="Notify IObservers that a Cell has burned." alt="" coords="1260,1349,1409,1390"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1util_1_1MemoryPool.html#ac83590bb8563771c5609d6b146305c4e" title="Add a T* to the pool of available T*s." alt="" coords="816,806,983,848"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="825,1000,974,1041"/>
+<area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="1056,1236,1187,1277"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="1273,916,1397,957"/>
+<area shape="rect" id="node39" href="$classfirestarr_1_1sim_1_1Settings.html#ac21db35bf8e389d21c11c3ab5cedb805" title="Path to directory that outputs are saved to." alt="" coords="1261,1805,1408,1846"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a46f71c449e9645995584cfc492e21ceb" title="Path to directory that outputs are saved to." alt="" coords="1457,1798,1661,1840"/>
+<area shape="rect" id="node50" href="$classfirestarr_1_1fuel_1_1FuelType.html#abafed0f685ef59a90afdf7af3d8ea110" title="Code for this fuel type." alt="" coords="606,120,757,161"/>
 </map>

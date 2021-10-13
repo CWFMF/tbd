@@ -1,15 +1,16 @@
 <map id="firestarr::data::GridBase::zone" name="firestarr::data::GridBase::zone">
-<area shape="rect" id="node1" title="UTM zone represented by proj4 string for this grid." alt="" coords="896,168,1052,209"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,103,839,144"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="697,168,824,209"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a21501c3e55f6ad0fbcee64f6cce08aa2" title="UTM zone for projection this uses." alt="" coords="673,233,848,275"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,5,616,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,71,625,112"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,136,601,177"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,201,615,243"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="228,136,403,177"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,201,395,243"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,267,393,308"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,136,180,177"/>
+<area shape="rect" id="node1" title="UTM zone represented by proj4 string for this grid." alt="" coords="896,200,1052,241"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,135,839,176"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="697,200,824,241"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a21501c3e55f6ad0fbcee64f6cce08aa2" title="UTM zone for projection this uses." alt="" coords="673,265,848,307"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,37,616,79"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,103,625,144"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,168,601,209"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,233,615,275"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,168,403,209"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,233,395,275"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,299,393,340"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,168,180,209"/>
 </map>

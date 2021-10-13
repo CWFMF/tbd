@@ -1,7 +1,7 @@
 <map id="firestarr::fuel::calculate_grass_curing" name="firestarr::fuel::calculate_grass_curing">
 <area shape="rect" id="node1" title=" " alt="" coords="625,71,776,112"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelGrass.html#ad6c6b1669fe7791a548cf19f9afef82a" title="Calculate base rate of spread multiplier." alt="" coords="419,5,577,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#ac4159bf05562f6c9816718e331773233" title="Constructor." alt="" coords="431,71,565,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="431,71,565,112"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="419,136,577,177"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelGrass.html#a741aab9a626170467bfcb60076586f76" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,164,47"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelGrass.html#a978321482336139df16a4e7a45bec33e" title="Calculate rate of spread (m/min)" alt="" coords="212,35,371,76"/>

@@ -1,30 +1,32 @@
 <map id="firestarr::logging::debug" name="firestarr::logging::debug">
-<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="995,569,1107,611"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="781,55,937,96"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="772,169,947,211"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="781,235,937,276"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1Environment.html#a6470f3c3b5c2ed58fb06a1d16237ae76" title="Load from rasters." alt="" coords="327,292,501,333"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Environment.html#ab40c5e443a96f64a748991efe007d855" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,536,501,577"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Model.html#a198b3a0ff8f350f80b61142c2cde3d5f" title="Run Scenarios initialized from given inputs." alt="" coords="125,576,258,617"/>
-<area shape="rect" id="node17" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,583,56,610"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Model.html#ac4159bf05562f6c9816718e331773233" title="Constructor." alt="" coords="793,879,926,920"/>
-<area shape="rect" id="node19" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="800,569,919,611"/>
-<area shape="rect" id="node22" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="796,944,923,985"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Model.html#acc76ae427ef30745a022b23628560b30" title="Read weather used for Scenarios." alt="" coords="347,616,481,657"/>
-<area shape="rect" id="node24" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="773,769,946,795"/>
-<area shape="rect" id="node26" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="354,785,474,811"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="570,719,703,760"/>
-<area shape="rect" id="node28" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="786,1010,933,1037"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="561,5,712,47"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="559,201,715,243"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="549,267,724,308"/>
-<area shape="rect" id="node9" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="573,71,700,112"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="559,136,714,177"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="327,201,501,243"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="335,71,493,112"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="337,136,491,177"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ae89d109beb612d8e2cddcb79fc619a25" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,292,279,333"/>
-<area shape="rect" id="node20" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="579,536,694,577"/>
-<area shape="rect" id="node21" href="$namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="577,601,696,643"/>
-<area shape="rect" id="node25" href="$namespacefirestarr_1_1sim.html#a1ad746b67bf7b564d3065891f9a62ffa" title=" " alt="" coords="564,785,709,811"/>
+<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="995,635,1107,676"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="781,71,937,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="772,233,947,275"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="781,299,937,340"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,383,501,424"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,601,501,643"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,641,258,683"/>
+<area shape="rect" id="node19" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,649,56,675"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="793,944,926,985"/>
+<area shape="rect" id="node21" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="800,635,919,676"/>
+<area shape="rect" id="node24" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="796,1009,923,1051"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="347,681,481,723"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="773,834,946,861"/>
+<area shape="rect" id="node28" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="354,850,474,877"/>
+<area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="570,784,703,825"/>
+<area shape="rect" id="node30" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="786,1075,933,1102"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="559,5,714,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="561,71,712,112"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="559,136,715,177"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="549,201,724,243"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="573,267,700,308"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="559,332,714,373"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="327,161,501,203"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="327,96,501,137"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="335,317,493,359"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="337,252,491,293"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,383,279,424"/>
+<area shape="rect" id="node22" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="579,601,694,643"/>
+<area shape="rect" id="node23" href="$namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="577,667,696,708"/>
+<area shape="rect" id="node27" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="564,850,709,877"/>
 </map>
