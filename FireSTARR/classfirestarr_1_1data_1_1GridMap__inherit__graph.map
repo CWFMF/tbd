@@ -1,10 +1,10 @@
 <map id="firestarr::data::GridMap&lt; T, V &gt;" name="firestarr::data::GridMap&lt; T, V &gt;">
-<area shape="rect" id="node1" title="A GridData that uses an unordered_map for storage." alt="" coords="51,1317,216,1659"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="5,1721,171,2063"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="195,1721,360,2063"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="53,1073,213,1268"/>
+<area shape="rect" id="node1" title="A GridData that uses an unordered_map for storage." alt="" coords="51,1303,216,1644"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="5,1707,171,2048"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="195,1707,360,2048"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="40,1073,227,1253"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Grid.html" title="A GridBase with an associated type of data." alt="" coords="65,557,191,767"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="150,816,303,996"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="50,5,206,508"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1BurnedMap.html" title="A map of locations which have burned in a Scenario." alt="" coords="193,2112,361,2189"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1BurnedMap.html" title="A map of locations which have burned in a Scenario." alt="" coords="193,2097,361,2175"/>
 </map>

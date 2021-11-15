@@ -1,0 +1,4 @@
+<map id="firestarr::logging::output" name="firestarr::logging::output">
+<area shape="rect" id="node1" title="Output a message to the log." alt="" coords="5,5,117,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
+</map>

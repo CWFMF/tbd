@@ -1,0 +1,6 @@
+<map id="firestarr::sim::InnerPos::add" name="firestarr::sim::InnerPos::add">
+<area shape="rect" id="node1" title="Add offset to position and return result." alt="" coords="5,56,183,83"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1sim.html#a203beb9bbddfe05394afb63425379315" title=" " alt="" coords="243,5,369,32"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.html#ae433c6ee7a35921faeec3bf382746cb7" title=" " alt="" coords="239,56,373,83"/>
+<area shape="rect" id="node4" href="$structfirestarr_1_1sim_1_1InnerPos.html#a9e4d51701f57c3d979b503de502227f2" title="Constructor." alt="" coords="231,107,381,149"/>
+</map>

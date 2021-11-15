@@ -1,9 +1,5 @@
 <map id="firestarr::data::ConstantGrid::ConstantGrid" name="firestarr::data::ConstantGrid::ConstantGrid">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,137,160,179"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="208,88,364,129"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="230,169,342,211"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="412,5,568,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="412,71,568,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7" title="Upper right corner Y coordinate in meters." alt="" coords="412,136,568,177"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="434,201,546,243"/>
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="208,5,320,47"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="368,5,480,47"/>
 </map>

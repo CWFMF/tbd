@@ -4,10 +4,10 @@
 <area shape="rect" id="node3" href="$namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb" title="Calculate if green&#45;up has occurred." alt="" coords="199,71,349,112"/>
 <area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.html#a5e215bc8442d09bf23c8ee207d7d65dc" title=" " alt="" coords="199,136,349,177"/>
 <area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="218,201,330,243"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="187,332,361,373"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="208,397,340,439"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="208,463,340,504"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="218,267,330,308"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="409,201,537,243"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="417,267,529,308"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="187,267,361,308"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="208,332,340,373"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="208,397,340,439"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="218,463,330,504"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="569,296,697,337"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="409,296,521,337"/>
 </map>

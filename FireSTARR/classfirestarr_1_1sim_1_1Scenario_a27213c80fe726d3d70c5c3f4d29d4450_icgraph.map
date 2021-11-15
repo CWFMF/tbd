@@ -1,5 +1,5 @@
 <map id="firestarr::sim::Scenario::addEvent" name="firestarr::sim::Scenario::addEvent">
-<area shape="rect" id="node1" title="Add an Event to the queue." alt="" coords="1317,57,1467,98"/>
+<area shape="rect" id="node1" title="Whether or not Location with given hash has burned already." alt="" coords="1317,57,1467,98"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,35,652,61"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1107,57,1257,98"/>
 <area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1TestScenario.html#a1beb27b13217f8fbf971ec971e66059d" title="Constructor." alt="" coords="1095,122,1269,163"/>

@@ -1,4 +1,4 @@
 <map id="firestarr::sim::IntensityMap::hasBurned" name="firestarr::sim::IntensityMap::hasBurned">
-<area shape="rect" id="node1" title="Whether or not the Location can burn." alt="" coords="200,5,347,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a7456ef51d24617846d1872690e84d61f" title="Whether or not the Cell with the given hash can burn." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node1" title="Whether or not the Cell with the given hash can burn." alt="" coords="200,5,347,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a71e95f005ce9b6ccac3b04cd9b2f9d7c" title="Whether or not the Cell can burn." alt="" coords="5,5,152,47"/>
 </map>

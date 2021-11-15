@@ -1,6 +1,6 @@
 <map id="firestarr::sim::Semaphore::Semaphore" name="firestarr::sim::Semaphore::Semaphore">
-<area shape="rect" id="node1" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="5,39,169,80"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="217,39,329,80"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="377,5,505,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="385,71,497,112"/>
+<area shape="rect" id="node1" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="217,5,329,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="537,5,665,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="377,35,489,76"/>
 </map>

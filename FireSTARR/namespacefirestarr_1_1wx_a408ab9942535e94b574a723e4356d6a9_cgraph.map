@@ -1,8 +1,8 @@
 <map id="firestarr::wx::read" name="firestarr::wx::read">
-<area shape="rect" id="node1" title=" " alt="" coords="5,103,124,130"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="182,37,294,79"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#a933f0ea560bbcbddf9b1233b359dac3c" title="Read from a stream until delimiter is found." alt="" coords="172,103,304,130"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1wx.html#ad3cd5a25917f9b17ed935ca459ea2d64" title=" " alt="" coords="179,154,297,181"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="352,5,480,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="360,71,472,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,124,98"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="182,5,294,47"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#a933f0ea560bbcbddf9b1233b359dac3c" title="Read from a stream until delimiter is found." alt="" coords="172,71,304,98"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1wx.html#ad3cd5a25917f9b17ed935ca459ea2d64" title=" " alt="" coords="179,122,297,149"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="512,5,640,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="352,35,464,76"/>
 </map>

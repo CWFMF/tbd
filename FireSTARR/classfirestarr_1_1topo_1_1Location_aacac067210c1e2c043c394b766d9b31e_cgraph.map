@@ -1,0 +1,10 @@
+<map id="firestarr::topo::Location::Location" name="firestarr::topo::Location::Location">
+<area shape="rect" id="node1" title="Construct using hash of row and column." alt="" coords="5,123,157,164"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="239,5,351,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="219,123,371,164"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Location.html#a1dac8eb781487264dc55b149d8f6bd16" title="Column." alt="" coords="432,85,584,127"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="205,189,384,215"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Location.html#a55bd803fab05c48f8e803cb61d29e490" title="Row from hash." alt="" coords="432,216,584,257"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="452,5,564,47"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="432,151,584,192"/>
+</map>

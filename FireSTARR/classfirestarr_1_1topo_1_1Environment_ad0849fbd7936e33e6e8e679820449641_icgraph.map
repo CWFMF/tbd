@@ -1,10 +1,11 @@
 <map id="firestarr::topo::Environment::elevation" name="firestarr::topo::Environment::elevation">
-<area shape="rect" id="node1" title="Elevation of the origin Point." alt="" coords="549,104,724,145"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,5,501,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,71,501,112"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="327,136,501,177"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="347,201,481,243"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,5,279,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,71,258,112"/>
-<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,78,56,105"/>
+<area shape="rect" id="node1" title="Elevation of the origin Point." alt="" coords="549,136,724,177"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="327,5,501,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,71,501,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,136,501,177"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="327,201,501,243"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="347,267,481,308"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,71,279,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,136,258,177"/>
+<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,143,56,170"/>
 </map>

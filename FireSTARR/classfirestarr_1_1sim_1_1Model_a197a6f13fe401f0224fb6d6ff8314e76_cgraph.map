@@ -1,14 +1,18 @@
 <map id="firestarr::sim::Model::findStarts" name="firestarr::sim::Model::findStarts">
-<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="5,188,139,229"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="387,32,561,73"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="196,5,329,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="207,123,319,164"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#aa744a6caeb1cf6e09066cc5bd79af369" title="Log with ERROR level." alt="" coords="207,253,319,295"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="187,319,339,360"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="207,188,319,229"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="209,384,317,425"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="418,123,530,164"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="410,253,538,295"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="418,188,530,229"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="412,384,536,425"/>
+<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="5,224,139,265"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="413,5,588,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="209,65,343,107"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="220,132,332,173"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="200,253,352,295"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1logging.html#aa744a6caeb1cf6e09066cc5bd79af369" title="Log with ERROR level." alt="" coords="220,325,332,367"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="220,391,332,432"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="222,479,330,520"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="187,199,365,226"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="445,71,557,112"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="425,201,577,243"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Location.html#a1dac8eb781487264dc55b149d8f6bd16" title="Column." alt="" coords="425,267,577,308"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="636,384,764,425"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="445,384,557,425"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="439,501,563,543"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1Location.html#a55bd803fab05c48f8e803cb61d29e490" title="Row from hash." alt="" coords="425,136,577,177"/>
 </map>

@@ -1,7 +1,9 @@
 <map id="firestarr::sim::Scenario::burn" name="firestarr::sim::Scenario::burn">
 <area shape="rect" id="node1" title="Burn cell that Event takes place in." alt="" coords="5,71,155,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="212,5,343,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="221,71,333,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#a40f3bcb51195d0d99572bb4495fce9e5" title="Notify IObservers that a Cell has burned." alt="" coords="203,136,352,177"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="400,71,512,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="231,5,362,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="203,71,391,112"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Scenario.html#a40f3bcb51195d0d99572bb4495fce9e5" title="Notify IObservers that a Cell has burned." alt="" coords="222,136,371,177"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="439,39,581,80"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="454,104,566,145"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="629,104,741,145"/>
 </map>

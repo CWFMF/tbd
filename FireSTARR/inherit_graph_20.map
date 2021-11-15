@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classfirestarr_1_1sim_1_1CriticalSection.html" title="Indicates a section of code that is limited to a certain number of threads running at once." alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node1" href="$classfirestarr_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="5,5,117,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="165,13,315,39"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="363,13,537,39"/>
 </map>

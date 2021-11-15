@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="1707,153,1841,194"/>
 <area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1497,211,1631,253"/>
 <area shape="rect" id="node17" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1687,270,1861,311"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Environment.html#abfdcccd8ea3667352cac79d363d74a40" title="Cell at Location with offset of row and column from Location of Event." alt="" coords="1687,335,1861,377"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Environment.html#abfdcccd8ea3667352cac79d363d74a40" title="Cell at Location with given hash." alt="" coords="1687,335,1861,377"/>
 <area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1695,401,1853,442"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="1489,94,1639,135"/>
 <area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,43,431,69"/>

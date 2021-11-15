@@ -1,7 +1,7 @@
 <map id="firestarr::sim::Scenario::endSimulation" name="firestarr::sim::Scenario::endSimulation">
 <area shape="rect" id="node1" title="End the simulation." alt="" coords="5,39,155,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="203,5,352,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="221,71,333,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="400,37,528,79"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="408,103,520,144"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1SelfLogger.html#ac6b69fd2634e6991cce1aec9fb6debc4" title=" " alt="" coords="203,39,369,80"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="417,5,560,47"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="433,71,545,112"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="608,71,736,112"/>
 </map>

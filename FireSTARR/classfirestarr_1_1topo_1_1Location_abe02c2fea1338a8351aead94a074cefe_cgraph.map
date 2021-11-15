@@ -1,4 +1,5 @@
 <map id="firestarr::topo::Location::column" name="firestarr::topo::Location::column">
-<area shape="rect" id="node1" title="Column." alt="" coords="5,5,157,47"/>
+<area shape="rect" id="node1" title="Column." alt="" coords="5,71,157,112"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="205,5,357,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html#a1dac8eb781487264dc55b149d8f6bd16" title="Column." alt="" coords="205,71,357,112"/>
 </map>

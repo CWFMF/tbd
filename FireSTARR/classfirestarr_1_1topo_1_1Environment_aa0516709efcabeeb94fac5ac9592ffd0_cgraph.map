@@ -1,21 +1,22 @@
 <map id="firestarr::topo::Environment::loadEnvironment" name="firestarr::topo::Environment::loadEnvironment">
 <area shape="rect" id="node1" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="5,323,180,364"/>
 <area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="259,5,371,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="701,217,813,259"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="701,85,813,127"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="228,407,403,448"/>
-<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="258,239,373,280"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="701,152,813,193"/>
-<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="701,87,813,128"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="249,472,381,513"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a1d2ce56608f37939c0676f93aaa0a56a" title="Load EnvironmentInfo from given rasters." alt="" coords="228,537,403,579"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="249,603,381,644"/>
-<area shape="rect" id="node19" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="701,283,813,324"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="258,188,373,229"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="701,224,813,265"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="701,289,813,331"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="249,472,381,513"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a1d2ce56608f37939c0676f93aaa0a56a" title="Load EnvironmentInfo from given rasters." alt="" coords="228,537,403,579"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="249,603,381,644"/>
+<area shape="rect" id="node20" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="701,355,813,396"/>
 <area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="482,5,594,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="888,217,1016,259"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="896,152,1008,193"/>
-<area shape="rect" id="node9" href="$namespacefirestarr_1_1util.html#a001d3e1e4b0849d30e61351c1df7d4cc" title="Check if a directory exists." alt="" coords="467,239,609,280"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="479,173,597,215"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a0f18fd38428821f18f13e37dc6964675" title="Construct from given rasters." alt="" coords="451,569,625,611"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="465,504,611,545"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="673,504,840,545"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="1048,224,1176,265"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="888,195,1000,236"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1util.html#a001d3e1e4b0849d30e61351c1df7d4cc" title="Check if a directory exists." alt="" coords="467,123,609,164"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="479,188,597,229"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="701,159,813,200"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a0f18fd38428821f18f13e37dc6964675" title="Construct from given rasters." alt="" coords="451,569,625,611"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="465,504,611,545"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="673,504,840,545"/>
 </map>

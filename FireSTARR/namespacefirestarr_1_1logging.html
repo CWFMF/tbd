@@ -79,9 +79,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1logging_1_1Log.html">Log</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides logging functionality.  <a href="classfirestarr_1_1logging_1_1Log.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1logging_1_1SelfLogger.html">SelfLogger</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a98dea140139de3ac81d583ed3a18dbf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2">output</a> (int log_level, const char *format, va_list *args) noexcept</td></tr>
+<tr class="memdesc:a98dea140139de3ac81d583ed3a18dbf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a message to the log.  <a href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2">More...</a><br /></td></tr>
+<tr class="separator:a98dea140139de3ac81d583ed3a18dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fcb338a90c4921f3c6109d9a88c9d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92">extensive</a> (const char *format,...) noexcept</td></tr>
 <tr class="memdesc:a7fcb338a90c4921f3c6109d9a88c9d92"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classfirestarr_1_1logging_1_1Log.html" title="Provides logging functionality.">Log</a> with EXTENSIVE level.  <a href="namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92">More...</a><br /></td></tr>
 <tr class="separator:a7fcb338a90c4921f3c6109d9a88c9d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +122,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a7996bbe6d08510282f3e938970a6071d"><td class="memItemLeft" align="right" valign="top">mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a7996bbe6d08510282f3e938970a6071d">mutex_</a></td></tr>
+<tr class="separator:a7996bbe6d08510282f3e938970a6071d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf637068c12e7b081a87e8472b33bf8"><td class="memItemLeft" align="right" valign="top">static ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a2cf637068c12e7b081a87e8472b33bf8">out_stream_</a></td></tr>
+<tr class="separator:a2cf637068c12e7b081a87e8472b33bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae637cf6d254b5519632dda8c7075564f"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#ae637cf6d254b5519632dda8c7075564f">LOG_EXTENSIVE</a> = 0</td></tr>
 <tr class="separator:ae637cf6d254b5519632dda8c7075564f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1dfd94ca5a2b2cbe033dd5ebcd2a28"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a1c1dfd94ca5a2b2cbe033dd5ebcd2a28">LOG_VERBOSE</a> = 1</td></tr>
@@ -135,6 +144,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad813f9f0e308d3e3917570a39918ab58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22c37db697891f17eb45fd7716ad1fb"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#ae22c37db697891f17eb45fd7716ad1fb">LOG_SILENT</a> = 8</td></tr>
 <tr class="separator:ae22c37db697891f17eb45fd7716ad1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cdde8081019cb01260620a465da1ede"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1logging.html#a3cdde8081019cb01260620a465da1ede">LOG_LABELS</a> []</td></tr>
+<tr class="separator:a3cdde8081019cb01260620a465da1ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a4c258ea06f3994a222c7b64bd7d6e6fd"></a>
@@ -187,7 +198,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00150">150</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00174">174</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -240,7 +251,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00143">143</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00167">167</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -255,53 +266,56 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a7ecc8a94d5ffa708b378cfa37e8d4fe5_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a7ecc8a94d5ffa708b378cfa37e8d4fe5_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a7ecc8a94d5ffa708b378cfa37e8d4fe5_icgraph" id="anamespacefirestarr_1_1logging_a7ecc8a94d5ffa708b378cfa37e8d4fe5_icgraph">
-<area shape="rect" title=" " alt="" coords="1792,937,1904,979"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="717,543,835,584"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,543,237,584"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="1574,937,1733,979"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="1563,199,1743,226"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="911,252,1061,293"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,433,653,459"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="1585,1003,1722,1030"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="1355,315,1504,356"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1569,1055,1737,1096"/>
-<area shape="rect" href="namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="1579,1120,1727,1161"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="1576,1185,1731,1227"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="1566,1251,1741,1292"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1587,99,1720,140"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="1363,5,1496,47"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="1563,652,1744,693"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="1142,593,1275,635"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="1583,1317,1724,1343"/>
-<area shape="rect" href="Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="953,827,1019,854"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="1578,1368,1729,1409"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="1590,1434,1717,1461"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="479,484,653,525"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1566,1485,1741,1527"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="1576,1551,1731,1578"/>
-<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="1579,1603,1728,1644"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1350,937,1509,979"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="1590,1668,1717,1709"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="1576,820,1731,861"/>
-<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="1579,1733,1728,1775"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="1580,1799,1727,1826"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,543,425,584"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,550,56,577"/>
-<area shape="rect" href="namespacefirestarr_1_1wx.html#a0c8d10fe976a60255354cf622c4930a0" title="Equality operator." alt="" coords="1351,258,1507,285"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,437,431,463"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="1355,127,1504,168"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a65d40bc4af71694eb559bbb188d48510" title="FwiWeather for given time." alt="" coords="1355,192,1504,233"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,462,231,489"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1134,172,1283,213"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="701,263,851,304"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#a9aabf58b3c57b9408a907f9aee0707e1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="1344,1209,1515,1251"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#af366f8bf2b384edccd1e2bea0c1bf3d5" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="1344,1031,1515,1072"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#a5aedea9453a2f17107b5787b05cdb9c5" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="1344,1120,1515,1161"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="1356,652,1503,693"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="1121,711,1296,752"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="1121,879,1296,920"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="899,879,1073,920"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="1352,820,1507,861"/>
+<area shape="rect" title=" " alt="" coords="1189,1216,1301,1258"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="536,290,655,331"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,260,237,302"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,309,56,336"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="968,1092,1127,1134"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="957,705,1137,732"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2" title="Value for grid at given Location." alt="" coords="970,1158,1125,1199"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="731,1288,905,1330"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="979,1274,1116,1301"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="963,1326,1131,1367"/>
+<area shape="rect" href="namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="973,1391,1121,1432"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="970,1456,1125,1498"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="960,1522,1135,1563"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="981,71,1114,112"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="751,114,885,155"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="957,858,1138,899"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="529,799,662,840"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="977,1588,1118,1614"/>
+<area shape="rect" href="Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="340,1005,405,1032"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1Grid.html#a23ec2dc1de600000bb8123469c9a8dc2" title="Constructor." alt="" coords="984,1639,1111,1680"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="972,1704,1123,1746"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="984,1770,1111,1797"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,172,460,214"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Location.html#aacac067210c1e2c043c394b766d9b31e" title="Construct using hash of row and column." alt="" coords="971,1822,1123,1863"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="953,456,1141,498"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="970,1888,1125,1914"/>
+<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="973,1939,1122,1980"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="739,1040,897,1082"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="984,2004,1111,2046"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="970,924,1125,966"/>
+<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="973,2070,1122,2111"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="974,2136,1121,2162"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="306,290,439,331"/>
+<area shape="rect" href="namespacefirestarr_1_1wx.html#a0c8d10fe976a60255354cf622c4930a0" title="Equality operator." alt="" coords="740,756,896,782"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="300,630,445,657"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="743,574,893,615"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a65d40bc4af71694eb559bbb188d48510" title="FwiWeather for given time." alt="" coords="743,639,893,680"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,338,231,365"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="521,544,670,586"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a34e2b440cb83d848f5b61540fbe323a3" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="731,1223,905,1264"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="741,1158,895,1199"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#a9aabf58b3c57b9408a907f9aee0707e1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="733,1467,903,1508"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#af366f8bf2b384edccd1e2bea0c1bf3d5" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="733,1556,903,1598"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelVariable.html#a5aedea9453a2f17107b5787b05cdb9c5" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="733,1378,903,1419"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="745,858,891,899"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="508,916,683,958"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="743,456,893,498"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="509,409,682,436"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="743,391,893,432"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="741,975,895,1016"/>
 </map>
 </div>
 
@@ -350,15 +364,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00080">80</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00104">104</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_cgraph" id="anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_cgraph">
-<area shape="rect" title="Log with DEBUG level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with DEBUG level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -366,36 +380,27 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_icgraph" id="anamespacefirestarr_1_1logging_a4253b6677b26aa72ac4e784e0891af82_icgraph">
-<area shape="rect" title="Log with DEBUG level." alt="" coords="995,635,1107,676"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="781,71,937,112"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="772,233,947,275"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="781,299,937,340"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,383,501,424"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,601,501,643"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,641,258,683"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,649,56,675"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="793,944,926,985"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="800,635,919,676"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="796,1009,923,1051"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="347,681,481,723"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="773,834,946,861"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="354,850,474,877"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="570,784,703,825"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="786,1075,933,1102"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="559,5,714,47"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="561,71,712,112"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="559,136,715,177"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="549,201,724,243"/>
-<area shape="rect" href="namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="573,267,700,308"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="559,332,714,373"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="327,161,501,203"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="327,96,501,137"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="335,317,493,359"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="337,252,491,293"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,383,279,424"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="579,601,694,643"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="577,667,696,708"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="564,850,709,877"/>
+<area shape="rect" title="Log with DEBUG level." alt="" coords="896,395,1008,436"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="673,52,848,93"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,117,839,159"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,168,615,209"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,267,403,308"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="673,336,848,377"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="471,459,605,500"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="290,466,341,493"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="694,453,827,495"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="697,519,824,560"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="694,584,827,625"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="694,649,827,691"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="478,651,598,678"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="687,766,834,793"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,71,616,112"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,5,625,47"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="228,5,403,47"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,71,403,112"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,136,395,177"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,201,393,243"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,267,180,308"/>
 </map>
 </div>
 
@@ -444,15 +449,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00120">120</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00144">144</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_aa744a6caeb1cf6e09066cc5bd79af369_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_aa744a6caeb1cf6e09066cc5bd79af369_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_aa744a6caeb1cf6e09066cc5bd79af369_cgraph" id="anamespacefirestarr_1_1logging_aa744a6caeb1cf6e09066cc5bd79af369_cgraph">
-<area shape="rect" title="Log with ERROR level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with ERROR level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -513,15 +518,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00060">60</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00084">84</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_cgraph" id="anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_cgraph">
-<area shape="rect" title="Log with EXTENSIVE level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with EXTENSIVE level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -529,9 +534,18 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_icgraph" id="anamespacefirestarr_1_1logging_a7fcb338a90c4921f3c6109d9a88c9d92_icgraph">
-<area shape="rect" title="Log with EXTENSIVE level." alt="" coords="176,35,288,76"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#afdb97071581cec39531413a6d62997bc" title=" " alt="" coords="5,5,128,47"/>
-<area shape="rect" href="namespacefirestarr_1_1wx.html#a408ab9942535e94b574a723e4356d6a9" title=" " alt="" coords="7,71,126,98"/>
+<area shape="rect" title="Log with EXTENSIVE level." alt="" coords="915,139,1027,180"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="711,51,867,92"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="508,5,663,47"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="510,96,661,137"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#afdb97071581cec39531413a6d62997bc" title=" " alt="" coords="727,168,850,209"/>
+<area shape="rect" href="namespacefirestarr_1_1wx.html#a408ab9942535e94b574a723e4356d6a9" title=" " alt="" coords="729,234,848,261"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="729,285,848,327"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="528,252,643,293"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="526,317,645,359"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,252,460,293"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,252,237,293"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,259,56,286"/>
 </map>
 </div>
 
@@ -587,62 +601,62 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Nothing, because this ends the program </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00130">130</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00154">154</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a4e14a9d6e63b99c959e0d7530e1f422a_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a4e14a9d6e63b99c959e0d7530e1f422a_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a4e14a9d6e63b99c959e0d7530e1f422a_icgraph" id="anamespacefirestarr_1_1logging_a4e14a9d6e63b99c959e0d7530e1f422a_icgraph">
-<area shape="rect" title="Log a fatal error and quit." alt="" coords="1844,1847,1956,1889"/>
-<area shape="rect" href="namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="1657,1017,1769,1058"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,1283,237,1325"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,144,56,171"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,93,231,120"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="923,550,1072,591"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="1387,1814,1521,1855"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="1635,1931,1791,1973"/>
-<area shape="rect" href="namespacefirestarr_1_1logging.html#ad345a213947faa534f72d602dfb8d8ec" title="Log with FATAL level and exit." alt="" coords="1657,1997,1769,2038"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#a76f4ea042990187a07aab97f34488f83" title=" " alt="" coords="1651,2062,1774,2103"/>
-<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a973eab9691aba4d8e740147f6d6e9f19" title="Look up the original grid code for a FuelType." alt="" coords="1629,2127,1796,2169"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#ae6648daac0a7c330ced60717ce8b5a92" title=" " alt="" coords="1655,2193,1771,2234"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="934,94,1061,135"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="938,1050,1057,1091"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="1375,1435,1533,1477"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="1364,195,1544,221"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,839,652,865"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="1385,1501,1523,1528"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a87b68ad8aa371e39c85beecbf19547a7" title="Burn cell that Event takes place in." alt="" coords="1125,831,1274,873"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="1370,1553,1538,1594"/>
-<area shape="rect" href="namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="1380,1618,1528,1659"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="1377,1683,1531,1725"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="1367,246,1541,287"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="1387,1749,1521,1790"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="1133,1342,1266,1383"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="1363,311,1545,353"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="1383,377,1525,404"/>
-<area shape="rect" href="Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="965,999,1030,1025"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="1379,479,1529,521"/>
-<area shape="rect" href="classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="1391,545,1517,572"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="700,1283,875,1325"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1367,597,1541,638"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="1377,663,1531,689"/>
-<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="1379,882,1529,923"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="1120,579,1279,621"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="1391,1101,1517,1142"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="1377,714,1531,755"/>
-<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="1379,1166,1529,1207"/>
-<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="1381,1384,1527,1411"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,1050,425,1091"/>
-<area shape="rect" href="namespacefirestarr_1_1wx.html#a0c8d10fe976a60255354cf622c4930a0" title="Equality operator." alt="" coords="1121,393,1277,420"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,195,431,221"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aea6c14a4ac7665103ff8c4e922064d9c" title="Whether or not the fire survives the conditions." alt="" coords="1125,327,1274,369"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a65d40bc4af71694eb559bbb188d48510" title="FwiWeather for given time." alt="" coords="1125,262,1274,303"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="713,773,862,814"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="1377,1931,1531,1973"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="1379,1997,1529,2038"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#ae7807ba572421ad7231ff5cfb43e91c2" title="Constructor." alt="" coords="1376,2062,1532,2103"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="1327,2193,1581,2234"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="496,94,635,135"/>
+<area shape="rect" title="Log a fatal error and quit." alt="" coords="1025,1191,1137,1232"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="838,1158,950,1199"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,811,237,852"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,305,56,332"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,128,231,154"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="569,290,702,331"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="816,1288,972,1330"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#ad345a213947faa534f72d602dfb8d8ec" title="Log with FATAL level and exit." alt="" coords="838,1354,950,1395"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a76f4ea042990187a07aab97f34488f83" title=" " alt="" coords="833,1419,955,1460"/>
+<area shape="rect" href="classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a973eab9691aba4d8e740147f6d6e9f19" title="Look up the original grid code for a FuelType." alt="" coords="811,1484,977,1526"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#ae6648daac0a7c330ced60717ce8b5a92" title=" " alt="" coords="836,1959,952,2000"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a8c1da05e9229eea790463a8f5b1febba" title=" " alt="" coords="821,1223,967,1264"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="831,166,957,207"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="576,1027,695,1068"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="556,1391,715,1432"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="545,356,725,382"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2" title="Value for grid at given Location." alt="" coords="558,2120,713,2162"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="285,2076,460,2118"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="567,1457,704,1484"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="551,1508,719,1550"/>
+<area shape="rect" href="namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="561,1574,709,1615"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="558,1639,713,1680"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="548,1704,723,1746"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="569,859,702,900"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="306,811,439,852"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="545,1770,726,1811"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="565,1836,706,1862"/>
+<area shape="rect" href="Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="138,1056,203,1082"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1Grid.html#a23ec2dc1de600000bb8123469c9a8dc2" title="Constructor." alt="" coords="572,1887,699,1928"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="560,1952,711,1994"/>
+<area shape="rect" href="classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="572,457,699,484"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,898,460,939"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Location.html#aacac067210c1e2c043c394b766d9b31e" title="Construct using hash of row and column." alt="" coords="559,508,711,550"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="541,1326,729,1367"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="558,640,713,666"/>
+<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="561,691,710,732"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="293,654,452,695"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="572,1092,699,1134"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="558,574,713,615"/>
+<area shape="rect" href="classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="561,1158,710,1199"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="562,1274,709,1301"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="306,1027,439,1068"/>
+<area shape="rect" href="namespacefirestarr_1_1wx.html#a0c8d10fe976a60255354cf622c4930a0" title="Equality operator." alt="" coords="295,356,451,382"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="300,153,445,180"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="295,2163,450,2204"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="298,1690,447,1731"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="560,2186,711,2227"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#ae7807ba572421ad7231ff5cfb43e91c2" title="Constructor." alt="" coords="557,2303,713,2344"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="508,2368,763,2410"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="566,152,705,194"/>
 </map>
 </div>
 
@@ -706,7 +720,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Nothing, because this ends the program </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00135">135</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00159">159</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -762,15 +776,15 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00090">90</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00114">114</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_cgraph" id="anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_cgraph">
-<area shape="rect" title="Log with INFO level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with INFO level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -778,27 +792,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_icgraph" id="anamespacefirestarr_1_1logging_ae505e6144c4c8127c9870e1dfa81039b_icgraph">
-<area shape="rect" title="Log with INFO level." alt="" coords="1227,341,1339,383"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="967,5,1135,47"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="977,224,1126,265"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,194,653,221"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,135,431,162"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,135,56,162"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,293,237,335"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="985,341,1118,383"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="701,509,876,551"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="479,392,653,433"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="976,625,1127,667"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="974,560,1129,601"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="291,447,425,488"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="924,691,1179,732"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="714,224,863,265"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,199,425,240"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,135,231,162"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="499,327,633,368"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="479,509,653,551"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="709,575,868,616"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="711,640,866,681"/>
+<area shape="rect" title="Log with INFO level." alt="" coords="852,296,964,337"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="593,5,761,47"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="610,123,743,164"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,211,258,252"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,218,56,245"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="327,501,501,543"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,240,501,281"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="601,355,752,396"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="599,427,754,468"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="347,305,481,347"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="604,71,749,98"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="549,619,804,660"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="347,123,481,164"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="104,501,279,543"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="335,436,493,477"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="337,371,491,412"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="131,101,251,127"/>
 </map>
 </div>
 
@@ -847,15 +857,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00100">100</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00124">124</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_cgraph" id="anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_cgraph">
-<area shape="rect" title="Log with NOTE level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with NOTE level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -863,32 +873,152 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_icgraph" id="anamespacefirestarr_1_1logging_a0ce472ba500e288fc9ddce4fe754ff9a_icgraph">
-<area shape="rect" title="Log with NOTE level." alt="" coords="889,492,1001,534"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="698,354,817,395"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="471,270,605,311"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="249,156,382,198"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="67,164,118,190"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="673,522,841,563"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="228,456,403,498"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="679,639,835,680"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,763,615,804"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,700,403,742"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="451,62,625,103"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="471,127,605,168"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="685,420,830,446"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="478,413,598,440"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="696,236,819,278"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="678,807,837,848"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Semaphore.html#aed3949517b62c68db0f26588013473b3" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="675,872,839,914"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a90df654319d36e91f11c5bf941327796" title="Output Statistics to log." alt="" coords="678,938,837,979"/>
-<area shape="rect" href="classfirestarr_1_1util_1_1UsageCount.html#a6a327e552b07301e571a206d7fb6fe33" title=" " alt="" coords="674,1003,841,1044"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,515,616,556"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,580,625,622"/>
-<area shape="rect" href="namespacefirestarr_1_1topo.html#a03d701e836ff628b6b907683e7ff656e" title=" " alt="" coords="475,646,601,687"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,522,403,563"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,766,395,807"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,831,393,872"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,700,180,742"/>
+<area shape="rect" title="Log with NOTE level." alt="" coords="889,461,1001,503"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="698,156,817,197"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="471,161,605,203"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="249,196,382,237"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="67,203,118,230"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="673,491,841,532"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="228,480,403,521"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="679,608,835,649"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,669,615,711"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,741,403,783"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="451,231,625,272"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="471,305,605,347"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="685,439,830,466"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="478,389,598,415"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="696,221,819,263"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="678,776,837,817"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Semaphore.html#aed3949517b62c68db0f26588013473b3" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="675,841,839,883"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a90df654319d36e91f11c5bf941327796" title="Output Statistics to log." alt="" coords="678,907,837,948"/>
+<area shape="rect" href="classfirestarr_1_1util_1_1UsageCount.html#a6a327e552b07301e571a206d7fb6fe33" title=" " alt="" coords="674,972,841,1013"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,604,616,645"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,539,625,580"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a3c91989f571aecbec02c8b79dfa4b1df" title="Determine Coordinates in the grid for the Point." alt="" coords="228,545,403,587"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,611,395,652"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,676,393,717"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,741,180,783"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a98dea140139de3ac81d583ed3a18dbf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98dea140139de3ac81d583ed3a18dbf2">&#9670;&nbsp;</a></span>output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void firestarr::logging::output </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>log_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">va_list *&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Output a message to the log. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">log_level</td><td><a class="el" href="classfirestarr_1_1logging_1_1Log.html" title="Provides logging functionality.">Log</a> level to use for label </td></tr>
+    <tr><td class="paramname">format</td><td>Format string for message </td></tr>
+    <tr><td class="paramname">args</td><td>Arguments to use in format string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00051">51</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_cgraph" alt=""/></div>
+<map name="anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_cgraph" id="anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_cgraph">
+<area shape="rect" title="Output a message to the log." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_icgraph" alt=""/></div>
+<map name="anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_icgraph" id="anamespacefirestarr_1_1logging_a98dea140139de3ac81d583ed3a18dbf2_icgraph">
+<area shape="rect" title="Output a message to the log." alt="" coords="1076,2212,1188,2254"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="884,579,996,620"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#aa744a6caeb1cf6e09066cc5bd79af369" title="Log with ERROR level." alt="" coords="884,1447,996,1488"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="884,2488,996,2530"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="884,1006,996,1047"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a751cc5eb69161e17318d8ffe8e843ac3" title=" " alt="" coords="862,2179,1018,2220"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a5f3a4590732d329d7ca2bcd48c0f8eda" title=" " alt="" coords="867,2554,1013,2595"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a0d185929c35f972f6c05b95839601c90" title=" " alt="" coords="852,2619,1028,2660"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a8a6d84be222d89dff61e134ba8614ac8" title=" " alt="" coords="869,2244,1011,2286"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#ac5d65ab5550f824b69f2d138e6e324f2" title=" " alt="" coords="867,2684,1013,2726"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#ac6b69fd2634e6991cce1aec9fb6debc4" title=" " alt="" coords="857,2310,1023,2351"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1SelfLogger.html#a605b2a1ac8d20c369135407c44447a0e" title=" " alt="" coords="857,2750,1023,2791"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="884,1710,996,1751"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="884,1184,996,1226"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="661,136,773,178"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="629,267,804,308"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="639,855,795,896"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="377,731,531,772"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="104,579,279,620"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="629,1155,804,1196"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="125,1064,258,1106"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,578,56,605"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="650,790,783,831"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="653,202,780,243"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="650,972,783,1014"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="387,1710,521,1751"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="131,2102,251,2129"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="643,333,790,360"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="650,1272,783,1314"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="387,1502,521,1543"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="639,2606,795,2647"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="377,2726,531,2767"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="379,2576,529,2618"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#afdb97071581cec39531413a6d62997bc" title=" " alt="" coords="655,2671,778,2712"/>
+<area shape="rect" href="namespacefirestarr_1_1wx.html#a408ab9942535e94b574a723e4356d6a9" title=" " alt="" coords="657,2737,776,2764"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="657,2488,776,2530"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="633,1338,801,1379"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="641,1038,792,1079"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="381,2102,527,2129"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="327,419,581,460"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="630,2204,803,2230"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="379,2338,529,2379"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#ae9fea7b9a4248046eb5886fd5b431ed6" title="End the simulation." alt="" coords="642,2306,791,2347"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="642,2371,791,2412"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="657,1739,776,1780"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="629,1556,804,1598"/>
+<area shape="rect" href="namespacefirestarr_1_1sim.html#a608e95dcaf1ac0da95fdf74bbbd26967" title=" " alt="" coords="655,1935,778,1976"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#adc9a4cb7a0d86f4d60c3deca91192aa3" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="637,1622,796,1663"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Semaphore.html#aed3949517b62c68db0f26588013473b3" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="635,1804,799,1846"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a90df654319d36e91f11c5bf941327796" title="Output Statistics to log." alt="" coords="637,1870,796,1911"/>
 </map>
 </div>
 
@@ -937,15 +1067,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00070">70</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00094">94</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_cgraph" id="anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_cgraph">
-<area shape="rect" title="Log with VERBOSE level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with VERBOSE level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -953,25 +1083,20 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_icgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_icgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_icgraph" id="anamespacefirestarr_1_1logging_a348ff451a66eac8e3d5c853ee9a1b75c_icgraph">
-<area shape="rect" title="Log with VERBOSE level." alt="" coords="1323,261,1435,302"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#ae9fea7b9a4248046eb5886fd5b431ed6" title="End the simulation." alt="" coords="1123,108,1272,149"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="923,108,1072,149"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,115,652,142"/>
-<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="700,225,875,266"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="1131,408,1264,449"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="1138,290,1257,332"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="499,316,632,357"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="1120,473,1275,514"/>
-<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="1122,538,1273,580"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1123,173,1272,214"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="713,108,862,149"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,115,431,142"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,166,425,208"/>
-<area shape="rect" href="namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,130,231,156"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,174,56,200"/>
-<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,196,237,237"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="940,225,1055,266"/>
-<area shape="rect" href="namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="938,290,1057,332"/>
+<area shape="rect" title="Log with VERBOSE level." alt="" coords="933,114,1045,156"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,49,460,90"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="741,49,875,90"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="749,114,867,156"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="731,212,885,253"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="306,306,439,348"/>
+<area shape="rect" href="classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,209,237,250"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,216,56,243"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="538,49,653,90"/>
+<area shape="rect" href="namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69" title=" " alt="" coords="536,114,655,156"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="508,180,683,221"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="516,245,675,286"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="518,310,673,352"/>
+<area shape="rect" href="classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="285,180,460,221"/>
 </map>
 </div>
 
@@ -1020,15 +1145,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00110">110</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00134">134</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacefirestarr_1_1logging_af593934bad06e48689405ed621934f1c_cgraph.png" border="0" usemap="#anamespacefirestarr_1_1logging_af593934bad06e48689405ed621934f1c_cgraph" alt=""/></div>
 <map name="anamespacefirestarr_1_1logging_af593934bad06e48689405ed621934f1c_cgraph" id="anamespacefirestarr_1_1logging_af593934bad06e48689405ed621934f1c_cgraph">
-<area shape="rect" title="Log with WARNING level." alt="" coords="5,39,117,80"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="165,5,293,47"/>
-<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="173,71,285,112"/>
+<area shape="rect" title="Log with WARNING level." alt="" coords="5,5,117,47"/>
+<area shape="rect" href="classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="325,5,453,47"/>
+<area shape="rect" href="namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="165,35,277,76"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1170,6 +1295,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3cdde8081019cb01260620a465da1ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cdde8081019cb01260620a465da1ede">&#9670;&nbsp;</a></span>LOG_LABELS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* firestarr::logging::LOG_LABELS[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">  {</div>
+<div class="line">    <span class="stringliteral">&quot;EXTENSIVE: &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;VERBOSE:   &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;DEBUG:     &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;INFO:      &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;NOTE:      &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;WARNING:   &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ERROR:     &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;FATAL:     &quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SILENT:    &quot;</span>}</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="Log_8h_source.html#l00030">30</a> of file <a class="el" href="Log_8h_source.html">Log.h</a>.</p>
+
+</div>
+</div>
 <a id="ac472cf3cf99510f272c2c1a711f2686e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac472cf3cf99510f272c2c1a711f2686e">&#9670;&nbsp;</a></span>LOG_NOTE</h2>
 
@@ -1263,6 +1423,46 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="Log_8h_source.html#l00026">26</a> of file <a class="el" href="Log_8h_source.html">Log.h</a>.</p>
+
+</div>
+</div>
+<a id="a7996bbe6d08510282f3e938970a6071d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7996bbe6d08510282f3e938970a6071d">&#9670;&nbsp;</a></span>mutex_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mutex firestarr::logging::mutex_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00021">21</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2cf637068c12e7b081a87e8472b33bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf637068c12e7b081a87e8472b33bf8">&#9670;&nbsp;</a></span>out_stream_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ofstream firestarr::logging::out_stream_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Log_8cpp_source.html#l00040">40</a> of file <a class="el" href="Log_8cpp_source.html">Log.cpp</a>.</p>
 
 </div>
 </div>

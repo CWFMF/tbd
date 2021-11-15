@@ -1,25 +1,25 @@
 <map id="firestarr::topo::EnvironmentInfo::findFullCoordinates" name="firestarr::topo::EnvironmentInfo::findFullCoordinates">
-<area shape="rect" id="node1" title="Determine FullCoordinates in the grid for the Point." alt="" coords="5,431,180,472"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="228,431,384,472"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="432,217,588,259"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="432,120,588,161"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="454,332,566,373"/>
-<area shape="rect" id="node13" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="452,463,568,504"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="444,528,576,569"/>
-<area shape="rect" id="node21" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="444,593,576,635"/>
-<area shape="rect" id="node22" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="454,397,566,439"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridBase.html#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="432,659,588,700"/>
+<area shape="rect" id="node1" title="Determine FullCoordinates in the grid for the Point." alt="" coords="5,463,180,504"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="228,463,384,504"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="432,104,588,145"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="432,235,588,276"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="454,625,566,667"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="452,364,568,405"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="444,495,576,536"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="444,560,576,601"/>
+<area shape="rect" id="node22" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="454,429,566,471"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridBase.html#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="432,691,588,732"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="636,136,792,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="636,201,792,243"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981" title="Upper right corner X coordinate in meters." alt="" coords="636,267,792,308"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="636,5,792,47"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7" title="Upper right corner Y coordinate in meters." alt="" coords="636,71,792,112"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="650,332,778,373"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1logging_1_1Log.html#aeae41fa8b4fe6765c7ed57763e293a63" title="Output a message to the log." alt="" coords="658,397,770,439"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="651,463,777,504"/>
-<area shape="rect" id="node16" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="863,524,969,565"/>
-<area shape="rect" id="node18" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="652,580,776,621"/>
-<area shape="rect" id="node15" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="847,459,985,500"/>
-<area shape="rect" id="node17" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="1040,524,1147,565"/>
-<area shape="rect" id="node19" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="840,589,992,631"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="636,71,792,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981" title="Upper right corner X coordinate in meters." alt="" coords="636,5,792,47"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="636,267,792,308"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7" title="Upper right corner Y coordinate in meters." alt="" coords="636,201,792,243"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="852,567,980,608"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="658,567,770,608"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="651,449,777,491"/>
+<area shape="rect" id="node16" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="863,323,969,364"/>
+<area shape="rect" id="node18" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="652,384,776,425"/>
+<area shape="rect" id="node15" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="847,453,985,495"/>
+<area shape="rect" id="node17" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="1040,323,1147,364"/>
+<area shape="rect" id="node19" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="840,388,992,429"/>
 </map>
