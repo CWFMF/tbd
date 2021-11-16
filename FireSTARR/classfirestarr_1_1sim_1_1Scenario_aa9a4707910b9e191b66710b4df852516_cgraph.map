@@ -29,7 +29,7 @@
 <area shape="rect" id="node20" href="$classfirestarr_1_1fuel_1_1FuelType.html#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="623,1836,773,1878"/>
 <area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Settings.html#ac21db35bf8e389d21c11c3ab5cedb805" title="Path to directory that outputs are saved to." alt="" coords="625,1902,771,1943"/>
 <area shape="rect" id="node24" href="$classfirestarr_1_1util_1_1SafeVector.html#ac0b40a5c8623fa8d00e1cbf95f1c936e" title="Add a value to the SafeVector." alt="" coords="619,1967,777,2008"/>
-<area shape="rect" id="node26" href="$structfirestarr_1_1sim_1_1InnerPos.html#a69a88aa5c6e706ee80319f2c3a45469e" title="Add offset to position and return result." alt="" coords="609,1406,787,1433"/>
+<area shape="rect" id="node26" href="$structfirestarr_1_1sim_1_1InnerPos.html#aa770ef6a8d79fc0cf3b227ede665ef80" title="Add offset to position and return result." alt="" coords="609,1406,787,1433"/>
 <area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Whether or not Location with given hash has burned already." alt="" coords="623,1458,773,1499"/>
 <area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="623,1523,773,1564"/>
 <area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="854,822,1003,863"/>
@@ -44,7 +44,7 @@
 <area shape="rect" id="node39" href="$classfirestarr_1_1sim_1_1Scenario.html#ac29c1dc8d89870ae9f850c51ed245f52" title="Minimum Fine Fuel Moisture Code for spread to be possible." alt="" coords="613,1042,783,1083"/>
 <area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1Settings.html#a3ce9a88163e6feb8cc0d16796fbcaedc" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="625,1107,771,1148"/>
 <area shape="rect" id="node41" href="$classfirestarr_1_1sim_1_1Scenario.html#a828d6ae1200f1b93f985b09a615e5bde" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="613,1224,783,1250"/>
-<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ab0d959b9d8053e93b7aa82e15bfe6cf3" title="Offsets from origin point that represent spread under these conditions." alt="" coords="617,1275,779,1316"/>
+<area shape="rect" id="node42" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#a4a8fae594429caf59e863a75bebe37cc" title="Offsets from origin point that represent spread under these conditions." alt="" coords="617,1275,779,1316"/>
 <area shape="rect" id="node45" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="1083,727,1201,768"/>
 <area shape="rect" id="node44" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="839,608,1019,634"/>
 <area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1Scenario.html#a9442b0c37c94d703927b4ae836eb97da" title="Get extinction threshold for given time." alt="" coords="854,727,1003,768"/>

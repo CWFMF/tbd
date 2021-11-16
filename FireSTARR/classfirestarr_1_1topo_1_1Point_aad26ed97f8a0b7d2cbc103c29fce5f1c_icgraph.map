@@ -1,8 +1,9 @@
 <map id="firestarr::topo::Point::longitude" name="firestarr::topo::Point::longitude">
-<area shape="rect" id="node1" title="Longitude (decimal degrees)" alt="" coords="896,281,1028,323"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,169,839,211"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="673,281,848,323"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="694,347,827,388"/>
+<area shape="rect" id="node1" title="Longitude (decimal degrees)" alt="" coords="896,235,1028,276"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,136,839,177"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="673,201,848,243"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="694,267,827,308"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="694,332,827,373"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,71,616,112"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,136,625,177"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,201,615,243"/>
@@ -12,6 +13,6 @@
 <area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="236,201,395,243"/>
 <area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a851154bfeb80231893ebaa39f546adef" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="238,267,393,308"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#ac04ed7793cb19b735889820a064c59b1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,136,180,177"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="471,296,605,337"/>
-<area shape="rect" id="node14" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="290,333,341,359"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="471,328,605,369"/>
+<area shape="rect" id="node14" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="290,335,341,362"/>
 </map>
