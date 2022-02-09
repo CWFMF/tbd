@@ -1,11 +1,12 @@
 <map id="firestarr::topo::Environment::Environment" name="firestarr::topo::Environment::Environment">
-<area shape="rect" id="node1" title="Load from rasters." alt="" coords="5,607,180,648"/>
+<area shape="rect" id="node1" title="Load from rasters." alt="" coords="5,636,180,677"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="228,453,403,495"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="237,519,393,560"/>
 <area shape="rect" id="node24" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="725,577,837,619"/>
 <area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="242,636,389,677"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1Settings.html#ac21db35bf8e389d21c11c3ab5cedb805" title="Path to directory that outputs are saved to." alt="" coords="242,701,389,743"/>
 <area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a9c9e5a5a2a16be7677639999f491454b" title="Save contents to .asc file." alt="" coords="238,767,393,808"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a1bd6f51d763cba046825991c0a6332b4" title="Save contents to .tif file." alt="" coords="238,832,393,873"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="475,381,631,423"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="703,153,859,195"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="703,251,859,292"/>

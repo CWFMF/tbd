@@ -1,5 +1,5 @@
 <map id="firestarr::data::GridBase::cellSize" name="firestarr::data::GridBase::cellSize">
-<area shape="rect" id="node1" title="Cell size used for GridBase." alt="" coords="1119,253,1275,295"/>
+<area shape="rect" id="node1" title="Cell size used for GridBase." alt="" coords="1119,287,1275,328"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="899,5,1067,47"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="905,71,1061,112"/>
 <area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,129,615,171"/>
@@ -9,6 +9,7 @@
 <area shape="rect" id="node19" href="$classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="908,384,1059,425"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="906,449,1061,491"/>
 <area shape="rect" id="node21" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="908,515,1059,556"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a5b48dc667771660c60cfbef6e9564ef1" title="Save contents to .tif file." alt="" coords="906,580,1061,621"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a09ace8fedf8ab99c3dc297592cfb6a5f" title="Number of columns in grid." alt="" coords="673,20,848,61"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,239,839,280"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,239,616,280"/>
