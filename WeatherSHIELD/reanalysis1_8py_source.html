@@ -190,7 +190,7 @@ $(function() {
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                          only_use_python_datetimes=<span class="keyword">True</span>)</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    valid = <a class="code" href="namespacereanalysis1.html#a827460601f3fe23840bb94e36dd2663b">get_valid_locs</a>(lats, lons)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment"># every day is the first key?</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    index = [<span class="stringliteral">&#39;model&#39;</span>, <span class="stringliteral">&#39;member&#39;</span>, <span class="stringliteral">&#39;year&#39;</span>, <span class="stringliteral">&#39;fortime&#39;</span>, <span class="stringliteral">&#39;latitude&#39;</span>, <span class="stringliteral">&#39;longitude&#39;</span>]</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    index = [<span class="stringliteral">&#39;model&#39;</span>, <span class="stringliteral">&#39;Member&#39;</span>, <span class="stringliteral">&#39;year&#39;</span>, <span class="stringliteral">&#39;fortime&#39;</span>, <span class="stringliteral">&#39;latitude&#39;</span>, <span class="stringliteral">&#39;longitude&#39;</span>]</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    stations = []</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="comment"># HACK: determine length of each period in the data</span></div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    period = datetime.datetime.strptime(prate.variables[<span class="stringliteral">&#39;time&#39;</span>].delta_t, <span class="stringliteral">&#39;0000-00-00 %H:%M:%S&#39;</span>)</div>
@@ -264,14 +264,14 @@ $(function() {
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                        ]</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            df = pandas.DataFrame(</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                    map(calc_values, valid),</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                    columns=[<span class="stringliteral">&#39;latitude&#39;</span>, <span class="stringliteral">&#39;longitude&#39;</span>, <span class="stringliteral">&#39;tmp&#39;</span>, <span class="stringliteral">&#39;rh&#39;</span>, <span class="stringliteral">&#39;ws&#39;</span>, <span class="stringliteral">&#39;wd&#39;</span>, <span class="stringliteral">&#39;apcp&#39;</span>, <span class="stringliteral">&#39;apcp_0800&#39;</span>])</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                    columns=[<span class="stringliteral">&#39;latitude&#39;</span>, <span class="stringliteral">&#39;longitude&#39;</span>, <span class="stringliteral">&#39;TMP&#39;</span>, <span class="stringliteral">&#39;RH&#39;</span>, <span class="stringliteral">&#39;WS&#39;</span>, <span class="stringliteral">&#39;WD&#39;</span>, <span class="stringliteral">&#39;APCP&#39;</span>, <span class="stringliteral">&#39;APCP_0800&#39;</span>])</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            df[<span class="stringliteral">&#39;model&#39;</span>] = MODEL_NAME</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <span class="comment"># use time from 18z</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            df[<span class="stringliteral">&#39;fortime&#39;</span>] = jd[t]</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            df[<span class="stringliteral">&#39;year&#39;</span>] = jd[t].year</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="comment"># HACK: for some reason Latitude&#39;s type is object, so fix that</span></div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            df[<span class="stringliteral">&#39;latitude&#39;</span>] = df[<span class="stringliteral">&#39;latitude&#39;</span>].astype(float)</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            df[<span class="stringliteral">&#39;member&#39;</span>] = 0</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            df[<span class="stringliteral">&#39;Member&#39;</span>] = 0</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            df = df.set_index(index)</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            stations.append(df)</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    all = pandas.concat(stations)</div>
