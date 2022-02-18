@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structfirestarr_1_1wx_1_1ModelCompare.html" title="Provides ordering for WeatherModel comparison." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node1" href="$classfirestarr_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="195,5,357,32"/>
 </map>

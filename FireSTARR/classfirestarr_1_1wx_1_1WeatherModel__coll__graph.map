@@ -1,7 +1,0 @@
-<map id="firestarr::wx::WeatherModel" name="firestarr::wx::WeatherModel">
-<area shape="rect" id="node1" title="A model within the WxSHIELD ensemble set." alt="" coords="199,403,375,612"/>
-<area shape="rect" id="node2" title=" " alt="" coords="10,5,70,83"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="141,160,273,340"/>
-<area shape="rect" id="node3" title=" " alt="" coords="297,211,352,289"/>
-<area shape="rect" id="node5" title=" " alt="" coords="376,211,534,289"/>
-</map>
