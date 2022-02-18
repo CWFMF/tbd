@@ -1,6 +1,6 @@
 <map id="firestarr::topo::Environment::rows" name="firestarr::topo::Environment::rows">
 <area shape="rect" id="node1" title="Number of rows in grid." alt="" coords="425,39,600,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a34e2b440cb83d848f5b61540fbe323a3" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="203,5,377,47"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#aa8b4a24d8941bc6f69c4e0a146c7a3ac" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="203,5,377,47"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#a3ccafc17080e8d693d96744258094101" title="Cell at the Location represented by the given hash." alt="" coords="223,71,357,112"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#a50cbb9eaf1755005b96548874016c8f1" title="Get Cell for Location with given hash." alt="" coords="5,71,155,112"/>
 </map>

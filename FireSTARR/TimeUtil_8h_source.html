@@ -87,63 +87,58 @@ $(function() {
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;odbcinst.h&gt;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;odbcinstext.h&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr.html">firestarr</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr_1_1util.html">firestarr::util</a></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span>util</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">   29</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">operator==</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                        <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">return</span> x.year == y.year</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      &amp;&amp; x.month == y.month</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      &amp;&amp; x.day == y.day</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      &amp;&amp; x.hour == y.hour</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      &amp;&amp; x.minute == y.minute</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      &amp;&amp; x.second == y.second</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      &amp;&amp; x.fraction == y.fraction;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">   46</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">operator&lt;</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                       <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (x.year == y.year)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (x.month == y.month)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keywordflow">if</span> (x.day == y.day)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> (x.minute == y.minute)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <span class="keywordflow">if</span> (x.second == y.second)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> x.fraction &lt; y.fraction;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;          }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <span class="keywordflow">return</span> x.second &lt; y.second;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> x.minute &lt; y.minute;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="keywordflow">return</span> x.day &lt; y.day;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">return</span> x.month &lt; y.month;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">return</span> x.year &lt; y.year;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">   77</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">operator&gt;</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                       <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">return</span> !(x == y || x &lt; y);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefirestarr_1_1util.html#a6e852990deb9c44ea6b0a158eef08fc6">to_tm</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; s, tm* t) noexcept;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefirestarr_1_1util.html#a0c37e144188df1898e685df13c74d438">to_tm_gm</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; s, tm* t) noexcept;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefirestarr_1_1util.html#a28b7342cbf0f556d3391abae7de5fb1f">to_ts</a>(<span class="keyword">const</span> tm&amp; t, TIMESTAMP_STRUCT* s) noexcept;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
-<div class="ttc" id="anamespacefirestarr_1_1util_html_a0c37e144188df1898e685df13c74d438"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a0c37e144188df1898e685df13c74d438">firestarr::util::to_tm_gm</a></div><div class="ttdeci">void to_tm_gm(const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</div><div class="ttdoc">Convert to GMT.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00041">TimeUtil.cpp:41</a></div></div>
-<div class="ttc" id="anamespacefirestarr_1_1util_html_a28b7342cbf0f556d3391abae7de5fb1f"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a28b7342cbf0f556d3391abae7de5fb1f">firestarr::util::to_ts</a></div><div class="ttdeci">void to_ts(const tm &amp;t, TIMESTAMP_STRUCT *s) noexcept</div><div class="ttdoc">Convert to TIMESTAMP_STRUCT.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00049">TimeUtil.cpp:49</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">   27</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">operator==</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                        <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordflow">return</span> x.year == y.year</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      &amp;&amp; x.month == y.month</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      &amp;&amp; x.day == y.day</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      &amp;&amp; x.hour == y.hour</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      &amp;&amp; x.minute == y.minute</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      &amp;&amp; x.second == y.second</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      &amp;&amp; x.fraction == y.fraction;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">   44</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">operator&lt;</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                       <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (x.year == y.year)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (x.month == y.month)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="keywordflow">if</span> (x.day == y.day)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> (x.minute == y.minute)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;          <span class="keywordflow">if</span> (x.second == y.second)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;          {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> x.fraction &lt; y.fraction;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;          <span class="keywordflow">return</span> x.second &lt; y.second;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> x.minute &lt; y.minute;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">return</span> x.day &lt; y.day;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> x.month &lt; y.month;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordflow">return</span> x.year &lt; y.year;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">   75</a></span>&#160;[[nodiscard]] constexpr <span class="keywordtype">bool</span> <a class="code" href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">operator&gt;</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; x,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                       <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; y) noexcept</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">return</span> !(x == y || x &lt; y);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefirestarr_1_1util.html#a6e852990deb9c44ea6b0a158eef08fc6">to_tm</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; s, tm* t) noexcept;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacefirestarr_1_1util.html#a28b7342cbf0f556d3391abae7de5fb1f">to_ts</a>(<span class="keyword">const</span> tm&amp; t, TIMESTAMP_STRUCT* s) noexcept;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="ttc" id="anamespacefirestarr_1_1util_html"><div class="ttname"><a href="namespacefirestarr_1_1util.html">firestarr::util</a></div><div class="ttdef"><b>Definition:</b> <a href="LookupTable_8h_source.html#l00018">LookupTable.h:19</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1util_html_a28b7342cbf0f556d3391abae7de5fb1f"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a28b7342cbf0f556d3391abae7de5fb1f">firestarr::util::to_ts</a></div><div class="ttdeci">void to_ts(const tm &amp;t, TIMESTAMP_STRUCT *s) noexcept</div><div class="ttdoc">Convert to GMT.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00041">TimeUtil.cpp:41</a></div></div>
 <div class="ttc" id="anamespacefirestarr_1_1util_html_a6e852990deb9c44ea6b0a158eef08fc6"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a6e852990deb9c44ea6b0a158eef08fc6">firestarr::util::to_tm</a></div><div class="ttdeci">void to_tm(const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</div><div class="ttdoc">Convert to local time.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00034">TimeUtil.cpp:34</a></div></div>
-<div class="ttc" id="anamespacefirestarr_1_1util_html_a734e3eecde508ad8fd63a012186a0cae"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">firestarr::util::operator&lt;</a></div><div class="ttdeci">constexpr bool operator&lt;(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Less than operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00046">TimeUtil.h:46</a></div></div>
-<div class="ttc" id="anamespacefirestarr_1_1util_html_ac08d78357451ab72fe69b199066464c8"><div class="ttname"><a href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">firestarr::util::operator&gt;</a></div><div class="ttdeci">constexpr bool operator&gt;(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Greater than operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00077">TimeUtil.h:77</a></div></div>
-<div class="ttc" id="anamespacefirestarr_1_1util_html_ac63bbee53a5c3a2b5803cfd07820bbe4"><div class="ttname"><a href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">firestarr::util::operator==</a></div><div class="ttdeci">constexpr bool operator==(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Equality operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00029">TimeUtil.h:29</a></div></div>
-<div class="ttc" id="anamespacefirestarr_html"><div class="ttname"><a href="namespacefirestarr.html">firestarr</a></div><div class="ttdef"><b>Definition:</b> <a href="firestarr_8py_source.html#l00001">firestarr.py:1</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1util_html_a734e3eecde508ad8fd63a012186a0cae"><div class="ttname"><a href="namespacefirestarr_1_1util.html#a734e3eecde508ad8fd63a012186a0cae">firestarr::util::operator&lt;</a></div><div class="ttdeci">constexpr bool operator&lt;(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Less than operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00044">TimeUtil.h:44</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1util_html_ac08d78357451ab72fe69b199066464c8"><div class="ttname"><a href="namespacefirestarr_1_1util.html#ac08d78357451ab72fe69b199066464c8">firestarr::util::operator&gt;</a></div><div class="ttdeci">constexpr bool operator&gt;(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Greater than operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00075">TimeUtil.h:75</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1util_html_ac63bbee53a5c3a2b5803cfd07820bbe4"><div class="ttname"><a href="namespacefirestarr_1_1util.html#ac63bbee53a5c3a2b5803cfd07820bbe4">firestarr::util::operator==</a></div><div class="ttdeci">constexpr bool operator==(const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</div><div class="ttdoc">Equality operator.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8h_source.html#l00027">TimeUtil.h:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

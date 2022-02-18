@@ -88,19 +88,16 @@ $(function() {
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Weather_8h.html">Weather.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Log_8h.html">Log.h</a>&quot;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TimeUtil_8h.html">TimeUtil.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr.html">firestarr</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr_1_1wx.html">firestarr::wx</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span>wx</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">const</span> Temperature <a class="code" href="classfirestarr_1_1wx_1_1Temperature.html#ae3c1354a512f9bbe66d4a30cda4ad3e6">Temperature::Zero</a> = Temperature(0);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> RelativeHumidity <a class="code" href="classfirestarr_1_1wx_1_1RelativeHumidity.html#ac43239532cec763311e087a5e9abdf97">RelativeHumidity::Zero</a> = RelativeHumidity(0);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">const</span> Direction <a class="code" href="classfirestarr_1_1wx_1_1Direction.html#ac235f58e64644eef0fea7f563b72ae38">Direction::Zero</a> = Direction(0, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">const</span> Speed <a class="code" href="classfirestarr_1_1wx_1_1Speed.html#a40743bc2bf092637d89bdedc2f1d8ee3">Speed::Zero</a> = Speed(0);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">const</span> Wind <a class="code" href="classfirestarr_1_1wx_1_1Wind.html#a1d205ca60ac20e9ee96fd897c0c11261">Wind::Zero</a> = Wind(Direction(0, <span class="keyword">false</span>), Speed(0));</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">const</span> AccumulatedPrecipitation <a class="code" href="classfirestarr_1_1wx_1_1AccumulatedPrecipitation.html#a6e77dde786be9491064646db2bf01d33">AccumulatedPrecipitation::Zero</a> =</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  AccumulatedPrecipitation(0);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">const</span> Temperature <a class="code" href="classfirestarr_1_1wx_1_1Temperature.html#ae3c1354a512f9bbe66d4a30cda4ad3e6">Temperature::Zero</a> = Temperature(0);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">const</span> RelativeHumidity <a class="code" href="classfirestarr_1_1wx_1_1RelativeHumidity.html#ac43239532cec763311e087a5e9abdf97">RelativeHumidity::Zero</a> = RelativeHumidity(0);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">const</span> Direction <a class="code" href="classfirestarr_1_1wx_1_1Direction.html#ac235f58e64644eef0fea7f563b72ae38">Direction::Zero</a> = Direction(0, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> Speed <a class="code" href="classfirestarr_1_1wx_1_1Speed.html#a40743bc2bf092637d89bdedc2f1d8ee3">Speed::Zero</a> = Speed(0);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">const</span> Wind <a class="code" href="classfirestarr_1_1wx_1_1Wind.html#a1d205ca60ac20e9ee96fd897c0c11261">Wind::Zero</a> = Wind(Direction(0, <span class="keyword">false</span>), Speed(0));</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">const</span> AccumulatedPrecipitation <a class="code" href="classfirestarr_1_1wx_1_1AccumulatedPrecipitation.html#a6e77dde786be9491064646db2bf01d33">AccumulatedPrecipitation::Zero</a> =</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  AccumulatedPrecipitation(0);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="aLog_8h_html"><div class="ttname"><a href="Log_8h.html">Log.h</a></div></div>
 <div class="ttc" id="aTimeUtil_8h_html"><div class="ttname"><a href="TimeUtil_8h.html">TimeUtil.h</a></div></div>
 <div class="ttc" id="aWeather_8h_html"><div class="ttname"><a href="Weather_8h.html">Weather.h</a></div></div>
@@ -110,7 +107,7 @@ $(function() {
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1Speed_html_a40743bc2bf092637d89bdedc2f1d8ee3"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Speed.html#a40743bc2bf092637d89bdedc2f1d8ee3">firestarr::wx::Speed::Zero</a></div><div class="ttdeci">static const Speed Zero</div><div class="ttdoc">0 km/h</div><div class="ttdef"><b>Definition:</b> <a href="Weather_8h_source.html#l00064">Weather.h:64</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1Temperature_html_ae3c1354a512f9bbe66d4a30cda4ad3e6"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Temperature.html#ae3c1354a512f9bbe66d4a30cda4ad3e6">firestarr::wx::Temperature::Zero</a></div><div class="ttdeci">static const Temperature Zero</div><div class="ttdoc">0 degrees Celsius</div><div class="ttdef"><b>Definition:</b> <a href="Weather_8h_source.html#l00036">Weather.h:36</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1Wind_html_a1d205ca60ac20e9ee96fd897c0c11261"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Wind.html#a1d205ca60ac20e9ee96fd897c0c11261">firestarr::wx::Wind::Zero</a></div><div class="ttdeci">static const Wind Zero</div><div class="ttdoc">Wind with 0 Speed from Direction 0.</div><div class="ttdef"><b>Definition:</b> <a href="Weather_8h_source.html#l00268">Weather.h:268</a></div></div>
-<div class="ttc" id="anamespacefirestarr_html"><div class="ttname"><a href="namespacefirestarr.html">firestarr</a></div><div class="ttdef"><b>Definition:</b> <a href="firestarr_8py_source.html#l00001">firestarr.py:1</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1wx_html"><div class="ttname"><a href="namespacefirestarr_1_1wx.html">firestarr::wx</a></div><div class="ttdef"><b>Definition:</b> <a href="FireWeather_8cpp_source.html#l00019">FireWeather.cpp:20</a></div></div>
 <div class="ttc" id="astdafx_8h_html"><div class="ttname"><a href="stdafx_8h.html">stdafx.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -46,7 +46,7 @@
 <area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Event.html#a4882cdc18140c9b122253078636d588a" title="Cell Event takes place in." alt="" coords="1127,1036,1258,1077"/>
 <area shape="rect" id="node25" href="$classfirestarr_1_1sim_1_1Scenario.html#a40f3bcb51195d0d99572bb4495fce9e5" title="Notify IObservers that a Cell has burned." alt="" coords="1118,1101,1267,1143"/>
 <area shape="rect" id="node29" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="674,1112,826,1153"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1topo_1_1Location.html#a1dac8eb781487264dc55b149d8f6bd16" title="Column." alt="" coords="674,1180,826,1221"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1topo_1_1Location.html#a56f601ce843473ffa22fcffcd60b0618" title="Column." alt="" coords="674,1180,826,1221"/>
 <area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="675,1043,825,1084"/>
 <area shape="rect" id="node50" href="$classfirestarr_1_1fuel_1_1FuelType.html#abafed0f685ef59a90afdf7af3d8ea110" title="Code for this fuel type." alt="" coords="450,1804,601,1845"/>
 </map>

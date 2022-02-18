@@ -1,6 +1,6 @@
 <map id="firestarr::fuel::FuelVariable::buiEffect" name="firestarr::fuel::FuelVariable::buiEffect">
 <area shape="rect" id="node1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,71,176,112"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="224,71,372,112"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#a3c09314eb8e81cdbe9440acefc14891d" title=" " alt="" coords="224,71,372,112"/>
 <area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="449,5,561,47"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="420,71,591,112"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a296eefde7b028b7ab7f1f766b1f2cee6" title="Fuel to use after green&#45;up." alt="" coords="420,136,591,177"/>

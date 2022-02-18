@@ -92,9 +92,7 @@ var menudata={children:[
 {text:"u",url:"namespacemembers_vars_u.html#index_u"},
 {text:"w",url:"namespacemembers_vars_w.html#index_w"},
 {text:"y",url:"namespacemembers_vars_y.html#index_y"}]},
-{text:"Typedefs",url:"namespacemembers_type.html"},
-{text:"Enumerations",url:"namespacemembers_enum.html"},
-{text:"Enumerator",url:"namespacemembers_eval.html"}]}]},
+{text:"Typedefs",url:"namespacemembers_type.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},

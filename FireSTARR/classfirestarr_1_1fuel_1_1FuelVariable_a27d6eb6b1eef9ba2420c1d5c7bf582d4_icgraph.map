@@ -1,6 +1,6 @@
 <map id="firestarr::fuel::FuelVariable::spring" name="firestarr::fuel::FuelVariable::spring">
 <area shape="rect" id="node1" title="Fuel to use before green&#45;up." alt="" coords="443,217,613,259"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#acddb5b9700c113f4fa93c8bb84e7f25b" title=" " alt="" coords="235,119,383,160"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1fuel.html#a3c09314eb8e81cdbe9440acefc14891d" title=" " alt="" coords="235,119,383,160"/>
 <area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#af8408f7c9eed1717166efcebd6fa9e90" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="224,184,395,225"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#ab0c89a1321fc9e18c7472ab0d9690833" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="224,249,395,291"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a95020902eb7fab03b956ba32ade06da1" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="224,315,395,356"/>

@@ -1,12 +1,12 @@
 <map id="firestarr::sim::Event" name="firestarr::sim::Event">
-<area shape="rect" id="node1" title="A specific Event scheduled in a specific Scenario." alt="" coords="446,880,582,1207"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="199,593,323,803"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="61,189,213,443"/>
+<area shape="rect" id="node1" title="A specific Event scheduled in a specific Scenario." alt="" coords="446,865,582,1192"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="199,579,323,788"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="61,175,213,428"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,73,83"/>
 <area shape="rect" id="node5" title=" " alt="" coords="141,5,292,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="361,277,507,355"/>
-<area shape="rect" id="node7" title=" " alt="" coords="347,659,407,737"/>
-<area shape="rect" id="node8" title=" " alt="" coords="491,659,537,737"/>
-<area shape="rect" id="node9" title=" " alt="" coords="573,659,623,737"/>
-<area shape="rect" id="node10" title=" " alt="" coords="648,659,705,737"/>
+<area shape="rect" id="node6" title=" " alt="" coords="361,263,507,340"/>
+<area shape="rect" id="node7" title=" " alt="" coords="347,645,407,722"/>
+<area shape="rect" id="node8" title=" " alt="" coords="491,645,537,722"/>
+<area shape="rect" id="node9" title=" " alt="" coords="573,645,623,722"/>
+<area shape="rect" id="node10" title=" " alt="" coords="648,645,705,722"/>
 </map>

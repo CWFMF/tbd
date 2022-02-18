@@ -86,42 +86,37 @@ $(function() {
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stdafx_8h.html">stdafx.h</a>&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Startup_8h.html">Startup.h</a>&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TimeUtil_8h.html">TimeUtil.h</a>&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr.html">firestarr</a></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span>wx</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">   23</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">Startup::Startup</a>(<span class="keywordtype">string</span> station,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                 <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; generated,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1Point.html">topo::Point</a>&amp; point,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                 <span class="keyword">const</span> <span class="keywordtype">double</span> distance_from,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Ffmc.html">Ffmc</a>&amp; ffmc,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Dmc.html">Dmc</a>&amp; dmc,</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Dc.html">Dc</a>&amp; dc,</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a>&amp; apcp_0800,</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                 <span class="keyword">const</span> <span class="keywordtype">bool</span> overridden) noexcept</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  : station_(std::move(station)),</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    generated_(generated),</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    point_(point),</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    distance_from_(distance_from),</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    ffmc_(ffmc),</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    dmc_(dmc),</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    dc_(dc),</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    apcp_0800_(apcp_0800),</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    is_overridden_(overridden)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefirestarr_1_1wx.html">firestarr::wx</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">   20</a></span>&#160;<a class="code" href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">Startup::Startup</a>(<span class="keywordtype">string</span> station,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                 <span class="keyword">const</span> TIMESTAMP_STRUCT&amp; generated,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1topo_1_1Point.html">topo::Point</a>&amp; point,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                 <span class="keyword">const</span> <span class="keywordtype">double</span> distance_from,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Ffmc.html">Ffmc</a>&amp; ffmc,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Dmc.html">Dmc</a>&amp; dmc,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1Dc.html">Dc</a>&amp; dc,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                 <span class="keyword">const</span> <a class="code" href="classfirestarr_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a>&amp; apcp_0800,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                 <span class="keyword">const</span> <span class="keywordtype">bool</span> overridden) noexcept</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  : station_(std::move(station)),</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    generated_(generated),</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    point_(point),</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    distance_from_(distance_from),</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    ffmc_(ffmc),</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    dmc_(dmc),</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    dc_(dc),</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    apcp_0800_(apcp_0800),</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    is_overridden_(overridden)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="ttc" id="aStartup_8h_html"><div class="ttname"><a href="Startup_8h.html">Startup.h</a></div></div>
-<div class="ttc" id="aTimeUtil_8h_html"><div class="ttname"><a href="TimeUtil_8h.html">TimeUtil.h</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1topo_1_1Point_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1Point.html">firestarr::topo::Point</a></div><div class="ttdoc">A geographic location in lat/long coordinates.</div><div class="ttdef"><b>Definition:</b> <a href="Point_8h_source.html#l00024">Point.h:25</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1topo_1_1Point_html"><div class="ttname"><a href="classfirestarr_1_1topo_1_1Point.html">firestarr::topo::Point</a></div><div class="ttdoc">A geographic location in lat/long coordinates.</div><div class="ttdef"><b>Definition:</b> <a href="Point_8h_source.html#l00022">Point.h:23</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1wx_1_1AccumulatedPrecipitation_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1AccumulatedPrecipitation.html">firestarr::wx::AccumulatedPrecipitation</a></div><div class="ttdoc">Accumulated precipitation in mm.</div><div class="ttdef"><b>Definition:</b> <a href="Weather_8h_source.html#l00290">Weather.h:291</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1Dc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Dc.html">firestarr::wx::Dc</a></div><div class="ttdoc">Drought Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00082">FWI.h:83</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1Dmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Dmc.html">firestarr::wx::Dmc</a></div><div class="ttdoc">Duff Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00053">FWI.h:54</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1Ffmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Ffmc.html">firestarr::wx::Ffmc</a></div><div class="ttdoc">Fine Fuel Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00026">FWI.h:27</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1wx_1_1Startup_html_a1507d1a7502363bea718a95511f15f1d"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">firestarr::wx::Startup::Startup</a></div><div class="ttdeci">Startup(string station, const TIMESTAMP_STRUCT &amp;generated, const topo::Point &amp;point, double distance_from, const Ffmc &amp;ffmc, const Dmc &amp;dmc, const Dc &amp;dc, const AccumulatedPrecipitation &amp;apcp_0800, bool overridden) noexcept</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="Startup_8cpp_source.html#l00023">Startup.cpp:23</a></div></div>
-<div class="ttc" id="anamespacefirestarr_html"><div class="ttname"><a href="namespacefirestarr.html">firestarr</a></div><div class="ttdef"><b>Definition:</b> <a href="firestarr_8py_source.html#l00001">firestarr.py:1</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1Dc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Dc.html">firestarr::wx::Dc</a></div><div class="ttdoc">Drought Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00080">FWI.h:81</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1Dmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Dmc.html">firestarr::wx::Dmc</a></div><div class="ttdoc">Duff Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00051">FWI.h:52</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1Ffmc_html"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Ffmc.html">firestarr::wx::Ffmc</a></div><div class="ttdoc">Fine Fuel Moisture Code value.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00024">FWI.h:25</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1wx_1_1Startup_html_a1507d1a7502363bea718a95511f15f1d"><div class="ttname"><a href="classfirestarr_1_1wx_1_1Startup.html#a1507d1a7502363bea718a95511f15f1d">firestarr::wx::Startup::Startup</a></div><div class="ttdeci">Startup(string station, const TIMESTAMP_STRUCT &amp;generated, const topo::Point &amp;point, double distance_from, const Ffmc &amp;ffmc, const Dmc &amp;dmc, const Dc &amp;dc, const AccumulatedPrecipitation &amp;apcp_0800, bool overridden) noexcept</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="Startup_8cpp_source.html#l00020">Startup.cpp:20</a></div></div>
+<div class="ttc" id="anamespacefirestarr_1_1wx_html"><div class="ttname"><a href="namespacefirestarr_1_1wx.html">firestarr::wx</a></div><div class="ttdef"><b>Definition:</b> <a href="FireWeather_8cpp_source.html#l00019">FireWeather.cpp:20</a></div></div>
 <div class="ttc" id="astdafx_8h_html"><div class="ttname"><a href="stdafx_8h.html">stdafx.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

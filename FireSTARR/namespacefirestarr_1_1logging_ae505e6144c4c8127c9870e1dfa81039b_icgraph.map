@@ -8,7 +8,7 @@
 <area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="327,240,501,281"/>
 <area shape="rect" id="node10" href="$classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="601,355,752,396"/>
 <area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="599,427,754,468"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="347,305,481,347"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#aae328c133509998a5577ca7db4ecf18d" title="Read weather used for Scenarios." alt="" coords="347,305,481,347"/>
 <area shape="rect" id="node15" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="604,71,749,98"/>
 <area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="549,619,804,660"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="347,123,481,164"/>

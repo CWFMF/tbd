@@ -1,7 +1,6 @@
 <map id="FireSTARR/src/StandardFuel.h" name="FireSTARR/src/StandardFuel.h">
-<area shape="rect" id="node1" title=" " alt="" coords="425,5,626,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="318,5,519,32"/>
 <area shape="rect" id="node2" href="$FBP45_8h.html" title=" " alt="" coords="337,80,501,107"/>
-<area shape="rect" id="node7" href="$StandardFuel_8cpp.html" title=" " alt="" coords="525,80,739,107"/>
 <area shape="rect" id="node3" href="$FBP45_8cpp.html" title=" " alt="" coords="5,162,184,189"/>
 <area shape="rect" id="node4" href="$FuelLookup_8cpp.html" title=" " alt="" coords="209,162,415,189"/>
 <area shape="rect" id="node5" href="$Model_8cpp.html" title=" " alt="" coords="440,162,613,189"/>

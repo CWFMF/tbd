@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0b40a5c8623fa8d00e1cbf95f1c936e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#ac0b40a5c8623fa8d00e1cbf95f1c936e">addValue</a> (double value)</td></tr>
 <tr class="memdesc:ac0b40a5c8623fa8d00e1cbf95f1c936e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value to the <a class="el" href="classfirestarr_1_1util_1_1SafeVector.html" title="A vector with added thread safety.">SafeVector</a>.  <a href="classfirestarr_1_1util_1_1SafeVector.html#ac0b40a5c8623fa8d00e1cbf95f1c936e">More...</a><br /></td></tr>
 <tr class="separator:ac0b40a5c8623fa8d00e1cbf95f1c936e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1757f5aca2fa6fd5ceb8fc1c667227e1"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#a1757f5aca2fa6fd5ceb8fc1c667227e1">getValues</a> () const</td></tr>
+<tr class="memitem:a1757f5aca2fa6fd5ceb8fc1c667227e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#a1757f5aca2fa6fd5ceb8fc1c667227e1">getValues</a> () const</td></tr>
 <tr class="memdesc:a1757f5aca2fa6fd5ceb8fc1c667227e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a vector with the stored values.  <a href="classfirestarr_1_1util_1_1SafeVector.html#a1757f5aca2fa6fd5ceb8fc1c667227e1">More...</a><br /></td></tr>
 <tr class="separator:a1757f5aca2fa6fd5ceb8fc1c667227e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4562ea0d6042efc0f63b67d9212ec0fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classfirestarr_1_1util_1_1Statistics.html">Statistics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#a4562ea0d6042efc0f63b67d9212ec0fd">getStatistics</a> () const</td></tr>
@@ -127,9 +127,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a606f034efed1c23782b280aec97be42d"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#a606f034efed1c23782b280aec97be42d">values_</a> {}</td></tr>
-<tr class="memdesc:a606f034efed1c23782b280aec97be42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of stored values.  <a href="classfirestarr_1_1util_1_1SafeVector.html#a606f034efed1c23782b280aec97be42d">More...</a><br /></td></tr>
-<tr class="separator:a606f034efed1c23782b280aec97be42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786c0975f9b48531040ddc5f082e3236"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#a786c0975f9b48531040ddc5f082e3236">values_</a> {}</td></tr>
+<tr class="memdesc:a786c0975f9b48531040ddc5f082e3236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of stored values.  <a href="classfirestarr_1_1util_1_1SafeVector.html#a786c0975f9b48531040ddc5f082e3236">More...</a><br /></td></tr>
+<tr class="separator:a786c0975f9b48531040ddc5f082e3236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6601bcec0f5845bfefa0e3e2befc987"><td class="memItemLeft" align="right" valign="top">mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfirestarr_1_1util_1_1SafeVector.html#aa6601bcec0f5845bfefa0e3e2befc987">mutex_</a> {}</td></tr>
 <tr class="memdesc:aa6601bcec0f5845bfefa0e3e2befc987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for parallel access.  <a href="classfirestarr_1_1util_1_1SafeVector.html#aa6601bcec0f5845bfefa0e3e2befc987">More...</a><br /></td></tr>
 <tr class="separator:aa6601bcec0f5845bfefa0e3e2befc987"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,7 +137,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A vector with added thread safety. </p>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00026">26</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00024">24</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a258c89a840672ae58ea0f5af6fbd1221"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a258c89a840672ae58ea0f5af6fbd1221">&#9670;&nbsp;</a></span>~SafeVector()</h2>
@@ -217,7 +217,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00024">24</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00021">21</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00028">28</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00025">25</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00058">58</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00055">55</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -330,7 +330,7 @@ Here is the caller graph for this function:</div>
 <p>Calculate <a class="el" href="classfirestarr_1_1util_1_1Statistics.html" title="Provides statistics calculation for vectors of values.">Statistics</a> for values in this <a class="el" href="classfirestarr_1_1util_1_1SafeVector.html" title="A vector with added thread safety.">SafeVector</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classfirestarr_1_1util_1_1Statistics.html" title="Provides statistics calculation for vectors of values.">Statistics</a> for values in this <a class="el" href="classfirestarr_1_1util_1_1SafeVector.html" title="A vector with added thread safety.">SafeVector</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00068">68</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00065">65</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -361,7 +361,7 @@ Here is the call graph for this function:</div>
 <p>Get a vector with the stored values. </p>
 <dl class="section return"><dt>Returns</dt><dd>A vector with the stored values </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00063">63</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00060">60</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -411,7 +411,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This, after assignment </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00032">32</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00029">29</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This, after assignment </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00045">45</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00042">42</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ Here is the caller graph for this function:</div>
 <p>Number of values in the <a class="el" href="classfirestarr_1_1util_1_1SafeVector.html" title="A vector with added thread safety.">SafeVector</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Size of the <a class="el" href="classfirestarr_1_1util_1_1SafeVector.html" title="A vector with added thread safety.">SafeVector</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00072">72</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8cpp_source.html#l00069">69</a> of file <a class="el" href="SafeVector_8cpp_source.html">SafeVector.cpp</a>.</p>
 
 </div>
 </div>
@@ -505,12 +505,12 @@ Here is the caller graph for this function:</div>
 
 <p>Mutex for parallel access. </p>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00035">35</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00033">33</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
 
 </div>
 </div>
-<a id="a606f034efed1c23782b280aec97be42d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a606f034efed1c23782b280aec97be42d">&#9670;&nbsp;</a></span>values_</h2>
+<a id="a786c0975f9b48531040ddc5f082e3236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786c0975f9b48531040ddc5f082e3236">&#9670;&nbsp;</a></span>values_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,7 +519,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;double&gt; firestarr::util::SafeVector::values_ {}</td>
+          <td class="memname">std::vector&lt;double&gt; firestarr::util::SafeVector::values_ {}</td>
         </tr>
       </table>
   </td>
@@ -531,7 +531,7 @@ Here is the caller graph for this function:</div>
 
 <p>Vector of stored values. </p>
 
-<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00031">31</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SafeVector_8h_source.html#l00029">29</a> of file <a class="el" href="SafeVector_8h_source.html">SafeVector.h</a>.</p>
 
 </div>
 </div>

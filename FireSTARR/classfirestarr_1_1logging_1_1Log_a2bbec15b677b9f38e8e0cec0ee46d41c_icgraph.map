@@ -19,7 +19,7 @@
 <area shape="rect" id="node9" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,1319,56,1345"/>
 <area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="610,2463,743,2505"/>
 <area shape="rect" id="node11" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="613,2245,740,2286"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Model.html#aa19ecc6c74dc7c34c333deb68518b717" title="Read weather used for Scenarios." alt="" coords="610,1829,743,1870"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Model.html#aae328c133509998a5577ca7db4ecf18d" title="Read weather used for Scenarios." alt="" coords="610,1829,743,1870"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="347,882,481,923"/>
 <area shape="rect" id="node14" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="354,775,474,801"/>
 <area shape="rect" id="node15" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="603,2193,750,2220"/>
@@ -27,12 +27,12 @@
 <area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="610,1223,743,1265"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="347,947,481,989"/>
 <area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="852,174,1008,215"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ae8236c3408d50748317151523961be22" title="Save contents to .asc file." alt="" coords="599,109,754,150"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ada2e4df2cb97f52df74263aad8737354" title="Save contents to .asc file." alt="" coords="599,109,754,150"/>
 <area shape="rect" id="node24" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="601,174,752,215"/>
 <area shape="rect" id="node25" href="$namespacefirestarr_1_1data.html#afdb97071581cec39531413a6d62997bc" title=" " alt="" coords="869,291,991,333"/>
 <area shape="rect" id="node26" href="$namespacefirestarr_1_1wx.html#a408ab9942535e94b574a723e4356d6a9" title=" " alt="" coords="871,5,989,32"/>
 <area shape="rect" id="node27" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="871,1711,989,1753"/>
-<area shape="rect" id="node28" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a5b48dc667771660c60cfbef6e9564ef1" title="Save contents to .tif file." alt="" coords="853,57,1007,98"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a1e745cd8fbba67e52002e444dd4bcb75" title="Save contents to .tif file." alt="" coords="853,57,1007,98"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="593,1158,761,1199"/>
 <area shape="rect" id="node32" href="$classfirestarr_1_1data_1_1GridMap.html#a72142b89653f96b2513a0859fafc5c1d" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="601,1442,752,1483"/>
 <area shape="rect" id="node33" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="604,720,749,747"/>

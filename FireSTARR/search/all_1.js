@@ -6,7 +6,7 @@ var searchData=
   ['acquire_5fmap_7',['acquire_map',['../namespacefirestarr_1_1sim.html#a528b6f8e47399976740bfacb858704d2',1,'firestarr::sim']]],
   ['actuals_8',['ACTUALS',['../namespacefirestarr_1_1sim.html#a291ed55d68f2bc1dbf6e8f4f13c2cf64',1,'firestarr::sim']]],
   ['add_9',['add',['../structfirestarr_1_1sim_1_1InnerPos.html#aa770ef6a8d79fc0cf3b227ede665ef80',1,'firestarr::sim::InnerPos']]],
-  ['add_5flog_10',['add_log',['../classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6',1,'firestarr::logging::SelfLogger::add_log()'],['../classfirestarr_1_1sim_1_1Scenario.html#a94e007baa93bc423605134b119c04f60',1,'firestarr::sim::Scenario::add_log()']]],
+  ['add_5flog_10',['add_log',['../classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6',1,'firestarr::logging::SelfLogger::add_log()'],['../classfirestarr_1_1sim_1_1Scenario.html#adec886ce5e172b29c7b7b2daa65509c9',1,'firestarr::sim::Scenario::add_log()']]],
   ['add_5fstatistics_11',['add_statistics',['../namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af',1,'firestarr::sim']]],
   ['addevent_12',['addEvent',['../classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450',1,'firestarr::sim::Scenario']]],
   ['addprobabilities_13',['addProbabilities',['../classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e',1,'firestarr::sim::ProbabilityMap']]],
@@ -24,7 +24,7 @@ var searchData=
   ['applyperimeter_25',['applyPerimeter',['../classfirestarr_1_1sim_1_1IntensityMap.html#a271813e8929f1a5dfc5237274751cfe1',1,'firestarr::sim::IntensityMap']]],
   ['arc_5flength_5fof_5fmeridian_26',['arc_length_of_meridian',['../namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9',1,'firestarr::topo']]],
   ['arrival_5f_27',['arrival_',['../classfirestarr_1_1sim_1_1Scenario.html#adebd80e25ce4837cec86c398f754826b',1,'firestarr::sim::Scenario']]],
-  ['arrivalobserver_28',['ArrivalObserver',['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a5faab947586e79acc3cb3dbd3f541628',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(const ArrivalObserver &amp;rhs)=delete'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a1052ac83155e4f5a6bc9fa3ee62c49b5',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(ArrivalObserver &amp;&amp;rhs)=delete'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a56c08bf1fcf071a7e0e83f8de9dad3f9',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(const Scenario &amp;scenario)'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html',1,'firestarr::sim::ArrivalObserver']]],
+  ['arrivalobserver_28',['ArrivalObserver',['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a1052ac83155e4f5a6bc9fa3ee62c49b5',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(ArrivalObserver &amp;&amp;rhs)=delete'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a56c08bf1fcf071a7e0e83f8de9dad3f9',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(const Scenario &amp;scenario)'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html#a5faab947586e79acc3cb3dbd3f541628',1,'firestarr::sim::ArrivalObserver::ArrivalObserver(const ArrivalObserver &amp;rhs)=delete'],['../classfirestarr_1_1sim_1_1ArrivalObserver.html',1,'firestarr::sim::ArrivalObserver']]],
   ['asdegrees_29',['asDegrees',['../classfirestarr_1_1wx_1_1Direction.html#a142a69baa6cdf546a168f8066fa13a69',1,'firestarr::wx::Direction']]],
   ['asdouble_30',['asDouble',['../classfirestarr_1_1data_1_1Index.html#a5df875f5afca6423b3cba29287a4911d',1,'firestarr::data::Index']]],
   ['ash_31',['ash',['../classfirestarr_1_1fuel_1_1DuffType.html#ad66cdcad3ca8a99421bb42a093d8e8ac',1,'firestarr::fuel::DuffType']]],
@@ -37,7 +37,5 @@ var searchData=
   ['aspectsize_38',['AspectSize',['../namespacefirestarr.html#a669a03594dfad3736cacb90eda6dae54',1,'firestarr']]],
   ['asradians_39',['asRadians',['../classfirestarr_1_1wx_1_1Direction.html#abaf38a8ed02d6b6e5c6ecb84b9b1091c',1,'firestarr::wx::Direction']]],
   ['assets_5f_40',['assets_',['../classfirestarr_1_1util_1_1MemoryPool.html#a94bba142e59e9dc871b44a934fd94a60',1,'firestarr::util::MemoryPool']]],
-  ['at_41',['at',['../classfirestarr_1_1data_1_1GridMap.html#ad55f99fad6fee494a4b99fed0a7a1b76',1,'firestarr::data::GridMap::at()'],['../classfirestarr_1_1data_1_1Grid.html#a1620ad95151519bafb93e23a4fabca12',1,'firestarr::data::Grid::at()'],['../classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9',1,'firestarr::wx::FireWeather::at()'],['../classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2',1,'firestarr::data::ConstantGrid::at()']]],
-  ['average_42',['average',['../classfirestarr_1_1wx_1_1Score.html#a820174c95f741687908269b957184535',1,'firestarr::wx::Score']]],
-  ['average_5f_43',['average_',['../classfirestarr_1_1wx_1_1Score.html#ae47cf2aa406f257f05a31560a0e126fc',1,'firestarr::wx::Score']]]
+  ['at_41',['at',['../classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2',1,'firestarr::data::ConstantGrid::at()'],['../classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9',1,'firestarr::wx::FireWeather::at()'],['../classfirestarr_1_1data_1_1Grid.html#a1620ad95151519bafb93e23a4fabca12',1,'firestarr::data::Grid::at()'],['../classfirestarr_1_1data_1_1GridMap.html#ad55f99fad6fee494a4b99fed0a7a1b76',1,'firestarr::data::GridMap::at()']]]
 ];

@@ -30,7 +30,7 @@
 <area shape="rect" id="node11" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="1353,786,1486,828"/>
 <area shape="rect" id="node12" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="1539,786,1713,828"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="472,1782,624,1824"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Location.html#a1dac8eb781487264dc55b149d8f6bd16" title="Column." alt="" coords="472,1848,624,1889"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1topo_1_1Location.html#a56f601ce843473ffa22fcffcd60b0618" title="Column." alt="" coords="472,1848,624,1889"/>
 <area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="473,778,623,820"/>
 <area shape="rect" id="node20" href="$namespacefirestarr_1_1fuel.html#a7f316a4b4fa829cff4596b5a9d3feb1a" title="Get FuelType based on the given cell." alt="" coords="672,443,833,470"/>
 <area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1Scenario.html#ae9fea7b9a4248046eb5886fd5b431ed6" title="End the simulation." alt="" coords="678,225,827,266"/>
@@ -48,5 +48,5 @@
 <area shape="rect" id="node24" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="1142,108,1254,149"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="1115,1632,1281,1673"/>
 <area shape="rect" id="node32" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a46f71c449e9645995584cfc492e21ceb" title="Path to directory that outputs are saved to." alt="" coords="1096,1697,1300,1738"/>
-<area shape="rect" id="node48" href="$classfirestarr_1_1topo_1_1Location.html#a55bd803fab05c48f8e803cb61d29e490" title="Row from hash." alt="" coords="472,1717,624,1758"/>
+<area shape="rect" id="node48" href="$classfirestarr_1_1topo_1_1Location.html#af6bc728d57699e85915888e94b3f5d40" title="Row from hash." alt="" coords="472,1717,624,1758"/>
 </map>
