@@ -1,5 +1,5 @@
 <map id="firestarr::data::GridMap&lt; T, V &gt;" name="firestarr::data::GridMap&lt; T, V &gt;">
-<area shape="rect" id="node1" title="A GridData that uses an unordered_map for storage." alt="" coords="113,1567,278,1908"/>
+<area shape="rect" id="node1" title="A GridData that uses an unordered_map for storage." alt="" coords="113,1567,278,1937"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="102,1337,289,1517"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Grid.html" title="A GridBase with an associated type of data." alt="" coords="196,837,323,1017"/>
 <area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="61,1080,215,1260"/>

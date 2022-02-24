@@ -1,19 +1,19 @@
 <map id="firestarr::sim::ProbabilityMap" name="firestarr::sim::ProbabilityMap">
-<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="471,2463,654,2833"/>
+<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="471,2521,654,2892"/>
 <area shape="rect" id="node2" title=" " alt="" coords="211,160,271,237"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="343,388,499,773"/>
 <area shape="rect" id="node15" title=" " alt="" coords="61,542,203,619"/>
-<area shape="rect" id="node3" title=" " alt="" coords="634,2147,681,2224"/>
-<area shape="rect" id="node4" title=" " alt="" coords="709,2147,790,2224"/>
+<area shape="rect" id="node3" title=" " alt="" coords="634,2191,681,2268"/>
+<area shape="rect" id="node4" title=" " alt="" coords="709,2191,790,2268"/>
 <area shape="rect" id="node5" title=" " alt="" coords="494,160,533,237"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="383,2015,548,2356"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1data_1_1GridMap.html" title=" " alt="" coords="383,2044,548,2415"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="290,1095,443,1275"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1data_1_1GridData.html" title=" " alt="" coords="372,1381,559,1561"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1Grid.html" title=" " alt="" coords="358,823,485,1032"/>
 <area shape="rect" id="node10" title=" " alt="" coords="382,160,461,237"/>
 <area shape="rect" id="node11" title=" " alt="" coords="359,5,483,97"/>
 <area shape="rect" id="node12" title=" " alt="" coords="295,889,334,966"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="383,1611,548,1952"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="383,1611,548,1981"/>
 <area shape="rect" id="node16" title=" " alt="" coords="5,160,117,237"/>
 <area shape="rect" id="node17" title=" " alt="" coords="42,13,81,90"/>
 </map>
