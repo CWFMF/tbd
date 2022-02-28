@@ -1,5 +1,6 @@
 <map id="firestarr::sim::Scenario::clear" name="firestarr::sim::Scenario::clear">
-<area shape="rect" id="node1" title="Clear the Event list and all other data." alt="" coords="203,39,352,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a9d787b7294930f8adf68d5b79b649b0b" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#a385b400056da8eee2b93f2940d4dfce5" title=" " alt="" coords="5,71,155,112"/>
+<area shape="rect" id="node1" title="Clear the Event list and all other data." alt="" coords="425,39,575,80"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a9d787b7294930f8adf68d5b79b649b0b" title="Reset thresholds and set SafeVector to output results to." alt="" coords="228,5,377,47"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#a385b400056da8eee2b93f2940d4dfce5" title=" " alt="" coords="228,71,377,112"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1TestScenario.html#a1beb27b13217f8fbf971ec971e66059d" title="Constructor." alt="" coords="5,5,180,47"/>
 </map>

@@ -1,18 +1,19 @@
 <map id="firestarr::logging::debug" name="firestarr::logging::debug">
-<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="896,395,1008,436"/>
+<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="896,424,1008,465"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="673,52,848,93"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="683,117,839,159"/>
 <area shape="rect" id="node8" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,168,615,209"/>
 <area shape="rect" id="node9" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,267,403,308"/>
 <area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="673,336,848,377"/>
-<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="471,459,605,500"/>
-<area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="290,466,341,493"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="471,489,605,531"/>
+<area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="290,497,341,523"/>
 <area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Model.html#aa8dc7239c3336f6703cbd6208c55de24" title="Constructor." alt="" coords="694,453,827,495"/>
 <area shape="rect" id="node17" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="697,519,824,560"/>
 <area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Model.html#aae328c133509998a5577ca7db4ecf18d" title="Read weather used for Scenarios." alt="" coords="694,584,827,625"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="694,649,827,691"/>
-<area shape="rect" id="node20" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="478,651,598,678"/>
-<area shape="rect" id="node21" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="687,766,834,793"/>
+<area shape="rect" id="node19" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="688,715,833,742"/>
+<area shape="rect" id="node20" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="478,715,598,742"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="694,649,827,691"/>
+<area shape="rect" id="node22" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="687,817,834,843"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1data_1_1GridBase.html#aa2f5f9bcd53090215dcefe78e70e740f" title="Find Coordinates for Point." alt="" coords="460,71,616,112"/>
 <area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a300d7f90a685e93008724ead89f61cdf" title="Determine FullCoordinates in the grid for the Point." alt="" coords="451,5,625,47"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="228,5,403,47"/>

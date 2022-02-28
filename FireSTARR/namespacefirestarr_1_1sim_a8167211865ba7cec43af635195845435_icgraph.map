@@ -1,0 +1,12 @@
+<map id="firestarr::sim::relativeIndex" name="firestarr::sim::relativeIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="1292,27,1432,69"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1095,27,1244,69"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,27,1047,69"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#aa9a4707910b9e191b66710b4df852516" title="Evaluate next Event in the queue." alt="" coords="700,27,849,69"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#a6c27d631ec97664e71dcc8af8653fdf6" title="Run the Scenario." alt="" coords="479,35,652,61"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="285,5,431,32"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="291,57,425,98"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="111,5,231,32"/>
+<area shape="rect" id="node8" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,35,56,61"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,57,237,98"/>
+</map>

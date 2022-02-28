@@ -159,6 +159,8 @@ Functions</h2></td></tr>
 <tr class="separator:af036be4f6c431f0c328e8aac117b2fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a929155be361201ad45adddd72f701d2b"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a929155be361201ad45adddd72f701d2b">firestarr::sim::operator&lt;&lt;</a> (ostream &amp;os, const PointSet &amp;a)</td></tr>
 <tr class="separator:a929155be361201ad45adddd72f701d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8167211865ba7cec43af635195845435"><td class="memItemLeft" align="right" valign="top">CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a8167211865ba7cec43af635195845435">firestarr::sim::relativeIndex</a> (const topo::Cell &amp;for_cell, const topo::Cell &amp;from_cell)</td></tr>
+<tr class="separator:a8167211865ba7cec43af635195845435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -176,6 +178,24 @@ Variables</h2></td></tr>
 <tr class="separator:a959449a813bcbcf959d03bdc0d8ea1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af402542cb0c47ee0276652ee500e8fd9"><td class="memItemLeft" align="right" valign="top">static util::MemoryPool&lt; BurnedData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#af402542cb0c47ee0276652ee500e8fd9">firestarr::sim::POOL_BURNED_DATA</a> {}</td></tr>
 <tr class="separator:af402542cb0c47ee0276652ee500e8fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ce95d81256dc75793b9680068cb4e8"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#aa0ce95d81256dc75793b9680068cb4e8">firestarr::sim::DIRECTION_NONE</a> = 0b00000000</td></tr>
+<tr class="separator:aa0ce95d81256dc75793b9680068cb4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54d2f903c87752feda48092c0c8edd0"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#aa54d2f903c87752feda48092c0c8edd0">firestarr::sim::DIRECTION_W</a> = 0b00000001</td></tr>
+<tr class="separator:aa54d2f903c87752feda48092c0c8edd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27acabf253e62165daac474a4adb6c11"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a27acabf253e62165daac474a4adb6c11">firestarr::sim::DIRECTION_E</a> = 0b00000010</td></tr>
+<tr class="separator:a27acabf253e62165daac474a4adb6c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11406930599ed223ed71e5e018a3579a"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a11406930599ed223ed71e5e018a3579a">firestarr::sim::DIRECTION_S</a> = 0b00000100</td></tr>
+<tr class="separator:a11406930599ed223ed71e5e018a3579a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef77fb399cba36ce81ca365e1bf434d8"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#aef77fb399cba36ce81ca365e1bf434d8">firestarr::sim::DIRECTION_N</a> = 0b00001000</td></tr>
+<tr class="separator:aef77fb399cba36ce81ca365e1bf434d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313399cc0ac8f63816aff84283a1e938"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a313399cc0ac8f63816aff84283a1e938">firestarr::sim::DIRECTION_SW</a> = 0b00010000</td></tr>
+<tr class="separator:a313399cc0ac8f63816aff84283a1e938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53e4ad3001d0f6f5c198c2ec7d809e2"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#ae53e4ad3001d0f6f5c198c2ec7d809e2">firestarr::sim::DIRECTION_NE</a> = 0b00100000</td></tr>
+<tr class="separator:ae53e4ad3001d0f6f5c198c2ec7d809e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea285f8eb13050ea9f0491dc0a9d286"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#a5ea285f8eb13050ea9f0491dc0a9d286">firestarr::sim::DIRECTION_NW</a> = 0b01000000</td></tr>
+<tr class="separator:a5ea285f8eb13050ea9f0491dc0a9d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab324abcd95857ab83a2dc5164caf3691"><td class="memItemLeft" align="right" valign="top">static constexpr CellIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1sim.html#ab324abcd95857ab83a2dc5164caf3691">firestarr::sim::DIRECTION_SE</a> = 0b10000000</td></tr>
+<tr class="separator:ab324abcd95857ab83a2dc5164caf3691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

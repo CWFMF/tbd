@@ -1,7 +1,25 @@
 <map id="firestarr::sim::TestScenario::TestScenario" name="firestarr::sim::TestScenario::TestScenario">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,104,180,145"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Whether or not Location with given hash has burned already." alt="" coords="228,5,377,47"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.html#a6632c5ccb5fd9063c0371b6177be3118" title="Make simulation end event." alt="" coords="237,71,368,112"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#ac8d7b10803f69f75dd84576b7e519f70" title="Register an IObserver that will be notified when Cells burn." alt="" coords="228,136,377,177"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="425,71,556,112"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Scenario.html#a9d787b7294930f8adf68d5b79b649b0b" title="Reset thresholds and set SafeVector to output results to." alt="" coords="228,217,377,259"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="455,53,586,95"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#a7dd88c0c9dc866831840e584801b440b" title="Determine rate of spread from probability of spread threshold." alt="" coords="425,315,616,356"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a3fc953966435ba2dba4c247032dd5e41" title="Call reset on T before releasing it." alt="" coords="456,380,585,421"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1sim_1_1Scenario.html#abbc0cb934854ee509e607e2681ebae47" title="Clear the Event list and all other data." alt="" coords="446,119,595,160"/>
+<area shape="rect" id="node15" href="$namespacefirestarr_1_1sim.html#a38ee56bc3e16cf65c9c10ce42eeb3c1e" title=" " alt="" coords="455,184,586,225"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Scenario.html#a10e2a0c7a261b5d0cb1adaf1187e5d97" title="Model this Scenario is running in." alt="" coords="446,249,595,291"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1util_1_1MemoryPool.html#ac83590bb8563771c5609d6b146305c4e" title="Add a T* to the pool of available T*s." alt="" coords="675,380,841,421"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="664,73,852,115"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="939,8,1082,49"/>
+<area shape="rect" id="node13" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="955,73,1067,115"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="1169,73,1281,115"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Settings.html#ad7fe946af1ad21946ce1aeadf455666b" title="Weight to give to daily part of thresholds." alt="" coords="683,152,833,193"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1Settings.html#a026d88f079fdd646fa35000aabf494fe" title="Weight to give to hourly part of thresholds." alt="" coords="679,283,837,324"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Settings.html#ac2c8b9f39c694fa4e93592c89a9f3de2" title="Weight to give to Scenario part of thresholds." alt="" coords="672,217,844,259"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="927,217,1094,259"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a981bd066a8658bb6295b4e007cd0a2a3" title="Weight to give to daily part of thresholds." alt="" coords="911,138,1110,194"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a0d4e1d27b4d9d0c976ce9afa05378d96" title="Weight to give to hourly part of thresholds." alt="" coords="907,362,1114,418"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a5c145a2ccb016d438762f9d9d203d3bd" title="Weight to give to Scenario part of thresholds." alt="" coords="900,282,1121,338"/>
 </map>

@@ -146,6 +146,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acb9ffa306ada9b4c8551e048db87ac81"><td class="memItemLeft" align="right" valign="top">TIFF *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Util_8cpp.html#acb9ffa306ada9b4c8551e048db87ac81">GeoTiffOpen</a> (const char *const filename, const char *const mode)</td></tr>
+<tr class="separator:acb9ffa306ada9b4c8551e048db87ac81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a216a6c4fff5389e386c8c5969b92afe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7">firestarr::util::read_directory</a> (const string &amp;name, vector&lt; string &gt; *v, const string &amp;match)</td></tr>
 <tr class="separator:a216a6c4fff5389e386c8c5969b92afe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a184a1348724695546113f8be7cdb0f69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefirestarr_1_1util.html#a184a1348724695546113f8be7cdb0f69">firestarr::util::read_directory</a> (const string &amp;name, vector&lt; string &gt; *v)</td></tr>
@@ -166,6 +168,56 @@ Functions</h2></td></tr>
 <tr class="memdesc:af3454ef26fced73a1407de0ecdf63574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a date from the given stream.  <a href="namespacefirestarr_1_1util.html#af3454ef26fced73a1407de0ecdf63574">More...</a><br /></td></tr>
 <tr class="separator:af3454ef26fced73a1407de0ecdf63574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="acb9ffa306ada9b4c8551e048db87ac81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb9ffa306ada9b4c8551e048db87ac81">&#9670;&nbsp;</a></span>GeoTiffOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TIFF* GeoTiffOpen </td>
+          <td>(</td>
+          <td class="paramtype">const char *const&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Open file and register GeoTIFF tags so we can read and write properly </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Name of file to open </td></tr>
+    <tr><td class="paramname">mode</td><td>Mode to open file with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Handle to open TIFF with fields registered </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Util_8cpp_source.html#l00023">23</a> of file <a class="el" href="Util_8cpp_source.html">Util.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="Util_8cpp_acb9ffa306ada9b4c8551e048db87ac81_icgraph.png" border="0" usemap="#aUtil_8cpp_acb9ffa306ada9b4c8551e048db87ac81_icgraph" alt=""/></div>
+<map name="aUtil_8cpp_acb9ffa306ada9b4c8551e048db87ac81_icgraph" id="aUtil_8cpp_acb9ffa306ada9b4c8551e048db87ac81_icgraph">
+<area shape="rect" title=" " alt="" coords="208,78,303,105"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1ConstantGrid.html#a1e745cd8fbba67e52002e444dd4bcb75" title="Save contents to .tif file." alt="" coords="5,5,160,47"/>
+<area shape="rect" href="classfirestarr_1_1data_1_1GridMap.html#a59665fa6047ae55ec29870b6fd0ace0f" title="Save GridMap contents to .tif file." alt="" coords="7,71,158,112"/>
+<area shape="rect" href="namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="9,137,156,163"/>
+</map>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
