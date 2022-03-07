@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Scenario::checkCondense" name="firestarr::sim::Scenario::checkCondense">
-<area shape="rect" id="node1" title="Condense set of points down to a smaller number." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$ConvexHull_8cpp.html#a8c129eaf9b963ad90ecdc2c6952d8330" title=" " alt="" coords="203,13,245,39"/>
-<area shape="rect" id="node3" href="$ConvexHull_8cpp.html#a84235ef68417699c3de95b22840acfcc" title=" " alt="" coords="293,13,369,39"/>
-<area shape="rect" id="node4" href="$ConvexHull_8cpp.html#a41eab117c5ea8e071b667680440aa1a3" title=" " alt="" coords="417,13,487,39"/>
-</map>

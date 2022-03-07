@@ -1,6 +1,6 @@
 <map id="firestarr::sim::TestScenario" name="firestarr::sim::TestScenario">
-<area shape="rect" id="node1" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="2291,2489,2465,2640"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2286,1556,2470,2440"/>
+<area shape="rect" id="node1" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="2291,2475,2465,2625"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2286,1556,2470,2425"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="501,1167,631,1391"/>
 <area shape="rect" id="node4" title=" " alt="" coords="1321,1233,1491,1325"/>
 <area shape="rect" id="node5" title=" " alt="" coords="1303,5,1363,83"/>

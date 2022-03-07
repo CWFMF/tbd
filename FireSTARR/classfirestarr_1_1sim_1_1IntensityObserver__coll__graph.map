@@ -1,7 +1,7 @@
 <map id="firestarr::sim::IntensityObserver" name="firestarr::sim::IntensityObserver">
-<area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="2137,2484,2287,2693"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="1941,1875,2096,2084"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2120,1537,2304,2421"/>
+<area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="2137,2469,2287,2679"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="1941,1867,2096,2077"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2120,1537,2304,2407"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="3301,1148,3432,1372"/>
 <area shape="rect" id="node5" title=" " alt="" coords="732,1214,903,1306"/>
 <area shape="rect" id="node6" title=" " alt="" coords="1250,5,1310,83"/>
@@ -47,6 +47,6 @@
 <area shape="rect" id="node46" title=" " alt="" coords="1979,226,2037,303"/>
 <area shape="rect" id="node47" title=" " alt="" coords="2923,1199,3093,1321"/>
 <area shape="rect" id="node48" title=" " alt="" coords="3117,1214,3277,1306"/>
-<area shape="rect" id="node49" title=" " alt="" coords="3261,1941,3339,2018"/>
+<area shape="rect" id="node49" title=" " alt="" coords="3261,1933,3339,2011"/>
 <area shape="rect" id="node50" title=" " alt="" coords="4189,1214,4313,1306"/>
 </map>

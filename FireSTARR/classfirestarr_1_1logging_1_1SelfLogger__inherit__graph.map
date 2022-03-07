@@ -1,5 +1,5 @@
 <map id="firestarr::logging::SelfLogger" name="firestarr::logging::SelfLogger">
 <area shape="rect" id="node1" title=" " alt="" coords="35,5,166,229"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,277,196,1557"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="13,1605,188,1756"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,277,196,1543"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="13,1591,188,1741"/>
 </map>
