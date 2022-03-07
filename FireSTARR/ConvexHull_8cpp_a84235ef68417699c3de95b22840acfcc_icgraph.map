@@ -1,6 +1,6 @@
 <map id="quickHull" name="quickHull">
 <area shape="rect" id="node1" title=" " alt="" coords="1383,46,1459,73"/>
-<area shape="rect" id="node2" href="$ConvexHull_8cpp.html#a01d96190a8a0f188f77c5a58f40842f9" title=" " alt="" coords="1292,46,1335,73"/>
+<area shape="rect" id="node2" href="$ConvexHull_8cpp.html#a8c129eaf9b963ad90ecdc2c6952d8330" title=" " alt="" coords="1292,46,1335,73"/>
 <area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Scenario.html#af373b34a5938b7aeaab6834f7af4b1c3" title="Condense set of points down to a smaller number." alt="" coords="1095,5,1244,47"/>
 <area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#ab8a1fff89a55abc3893a9fcbe40e3617" title="Schedule a fire spread Event." alt="" coords="1095,71,1244,112"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="897,71,1047,112"/>

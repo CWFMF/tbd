@@ -9,10 +9,10 @@ var searchData=
   ['hashmask_495',['HashMask',['../classfirestarr_1_1topo_1_1Location.html#aa4bc656d9cfff5630e8b333d4ffc5a8c',1,'firestarr::topo::Location']]],
   ['hashsize_496',['HashSize',['../namespacefirestarr.html#a88110494aa5868b148b3ac654148e1c3',1,'firestarr']]],
   ['head_5fros_5f_497',['head_ros_',['../classfirestarr_1_1sim_1_1SpreadInfo.html#a38f740d20b52cd1435681f3344c1b4f8',1,'firestarr::sim::SpreadInfo']]],
-  ['heading_498',['heading',['../classfirestarr_1_1wx_1_1Direction.html#a6845016de2466a346e27d580c09d8840',1,'firestarr::wx::Direction::heading()'],['../classfirestarr_1_1wx_1_1Wind.html#a6c273f6341d57a4ac61ba579917319dc',1,'firestarr::wx::Wind::heading()']]],
+  ['heading_498',['heading',['../classfirestarr_1_1wx_1_1Wind.html#a6c273f6341d57a4ac61ba579917319dc',1,'firestarr::wx::Wind::heading()'],['../classfirestarr_1_1wx_1_1Direction.html#a6845016de2466a346e27d580c09d8840',1,'firestarr::wx::Direction::heading()']]],
   ['headros_499',['headRos',['../classfirestarr_1_1sim_1_1SpreadInfo.html#ae33fd984d1c1161551e4eb237c1c7242',1,'firestarr::sim::SpreadInfo']]],
   ['high_5f_500',['high_',['../classfirestarr_1_1sim_1_1ProbabilityMap.html#ae229c1622f7e9077e307fa7198f7ea4c',1,'firestarr::sim::ProbabilityMap']]],
   ['hour_5fminutes_501',['HOUR_MINUTES',['../namespacefirestarr.html#a7018b01a17b452603dda1dad8ee384c9',1,'firestarr']]],
   ['hourly_20fire_20and_20weather_20indices_502',['Hourly fire and weather indices',['../weather.html',1,'']]],
-  ['hull_503',['hull',['../ConvexHull_8cpp.html#a01d96190a8a0f188f77c5a58f40842f9',1,'hull(vector&lt; firestarr::sim::InnerPos &gt; &amp;a):&#160;ConvexHull.cpp'],['../ConvexHull_8cpp.html#a09af9922d190536c2d0acefe99ef801b',1,'hull(map&lt; firestarr::topo::Cell, vector&lt; firestarr::sim::InnerPos &gt;&gt; &amp;a):&#160;ConvexHull.cpp'],['../ConvexHull_8h.html#a01d96190a8a0f188f77c5a58f40842f9',1,'hull(vector&lt; firestarr::sim::InnerPos &gt; &amp;a):&#160;ConvexHull.cpp'],['../ConvexHull_8h.html#a09af9922d190536c2d0acefe99ef801b',1,'hull(map&lt; firestarr::topo::Cell, vector&lt; firestarr::sim::InnerPos &gt;&gt; &amp;a):&#160;ConvexHull.cpp']]]
+  ['hull_503',['hull',['../ConvexHull_8cpp.html#a8c129eaf9b963ad90ecdc2c6952d8330',1,'hull(vector&lt; firestarr::sim::InnerPos &gt; &amp;a) noexcept:&#160;ConvexHull.cpp'],['../ConvexHull_8h.html#a8c129eaf9b963ad90ecdc2c6952d8330',1,'hull(vector&lt; firestarr::sim::InnerPos &gt; &amp;a) noexcept:&#160;ConvexHull.cpp']]]
 ];

@@ -35,7 +35,7 @@
 <area shape="rect" id="node29" href="$classfirestarr_1_1sim_1_1Scenario.html#a9edef4c4652a7bd5a8df142c6a69a970" title="Cell width and height (m)" alt="" coords="426,895,575,937"/>
 <area shape="rect" id="node30" href="$classfirestarr_1_1sim_1_1Scenario.html#a1babffa4e8bb2a9107f086c37752168f" title="Number of Scenarios that have been initialized." alt="" coords="426,961,575,1002"/>
 <area shape="rect" id="node31" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ae33fd984d1c1161551e4eb237c1c7242" title="Head fire rate of spread (m/min)" alt="" coords="420,1026,581,1067"/>
-<area shape="rect" id="node32" href="$ConvexHull_8cpp.html#a01d96190a8a0f188f77c5a58f40842f9" title=" " alt="" coords="479,1143,522,1169"/>
+<area shape="rect" id="node32" href="$ConvexHull_8cpp.html#a8c129eaf9b963ad90ecdc2c6952d8330" title=" " alt="" coords="479,1143,522,1169"/>
 <area shape="rect" id="node33" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#a31e0108ebbb594dadb4350bac098c880" title="Whether or not there is no spread." alt="" coords="420,1194,581,1235"/>
 <area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Scenario.html#a6739b3fcc4e346746e164714cf7d575b" title="Whether or not the given Location is surrounded by cells that are burnt." alt="" coords="426,1259,575,1301"/>
 <area shape="rect" id="node35" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="435,1821,566,1862"/>

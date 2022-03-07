@@ -8,7 +8,7 @@
 <area shape="rect" id="node13" href="$classfirestarr_1_1sim_1_1Scenario.html#a9edef4c4652a7bd5a8df142c6a69a970" title="Cell width and height (m)" alt="" coords="217,723,366,764"/>
 <area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Scenario.html#a1babffa4e8bb2a9107f086c37752168f" title="Number of Scenarios that have been initialized." alt="" coords="217,788,366,829"/>
 <area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ae33fd984d1c1161551e4eb237c1c7242" title="Head fire rate of spread (m/min)" alt="" coords="211,853,372,895"/>
-<area shape="rect" id="node17" href="$ConvexHull_8cpp.html#a01d96190a8a0f188f77c5a58f40842f9" title=" " alt="" coords="270,919,313,946"/>
+<area shape="rect" id="node17" href="$ConvexHull_8cpp.html#a8c129eaf9b963ad90ecdc2c6952d8330" title=" " alt="" coords="270,919,313,946"/>
 <area shape="rect" id="node19" href="$namespacefirestarr_1_1fuel.html#aa4ed31c7956cc53b1e796260fe176c42" title="Whether or not there is no fuel in the Cell." alt="" coords="237,475,345,516"/>
 <area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#a31e0108ebbb594dadb4350bac098c880" title="Whether or not there is no spread." alt="" coords="211,971,372,1012"/>
 <area shape="rect" id="node23" href="$classfirestarr_1_1sim_1_1Scenario.html#a6739b3fcc4e346746e164714cf7d575b" title="Whether or not the given Location is surrounded by cells that are burnt." alt="" coords="217,1036,366,1077"/>
@@ -31,7 +31,7 @@
 <area shape="rect" id="node8" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="703,231,845,272"/>
 <area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="707,384,841,425"/>
 <area shape="rect" id="node14" href="$classfirestarr_1_1sim_1_1Model.html#a212b014b39987d48a8afe814136da7af" title="Cell width and height (m)" alt="" coords="469,748,602,789"/>
-<area shape="rect" id="node18" href="$ConvexHull_8cpp.html#a94e040910f7ef42c6252b992256e0003" title=" " alt="" coords="497,854,573,881"/>
+<area shape="rect" id="node18" href="$ConvexHull_8cpp.html#a84235ef68417699c3de95b22840acfcc" title=" " alt="" coords="497,854,573,881"/>
 <area shape="rect" id="node20" href="$classfirestarr_1_1topo_1_1Cell.html#a53369695b84a84519907994f9862909e" title="Fuel." alt="" coords="473,449,597,491"/>
 <area shape="rect" id="node22" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#ac0872d45e40f4e07f145a1874da1db21" title="Whether or not there is no spread for given conditions." alt="" coords="455,905,616,947"/>
 <area shape="rect" id="node25" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="479,319,591,360"/>
