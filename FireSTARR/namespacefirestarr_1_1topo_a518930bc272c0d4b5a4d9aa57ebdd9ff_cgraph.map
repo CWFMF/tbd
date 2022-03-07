@@ -1,10 +1,12 @@
 <map id="firestarr::topo::sunset" name="firestarr::topo::sunset">
-<area shape="rect" id="node1" title=" " alt="" coords="5,111,147,138"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a323235b777c91f207111a24b1bb6d2c8" title=" " alt="" coords="195,104,339,145"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#a49475fec1712a1d137f5374e9000b0a7" title=" " alt="" coords="387,5,501,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1topo.html#a5f05233dc6917eb1c2eafb376d4d2276" title=" " alt="" coords="387,71,501,112"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#a332d871cd3b5b638cb94e5f30accb5da" title="Convert radians to degrees." alt="" coords="391,136,497,177"/>
-<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="391,201,497,243"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.html#a930c2160fca19f1a495f2281e409f794" title=" " alt="" coords="549,55,664,96"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="553,152,660,193"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,148,147,175"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a323235b777c91f207111a24b1bb6d2c8" title=" " alt="" coords="195,141,339,182"/>
+<area shape="rect" id="node3" href="$unstable_8cpp.html#a2f350287e49ce0f0ead60ab192ef9ae2" title=" " alt="" coords="419,5,469,32"/>
+<area shape="rect" id="node4" href="$unstable_8cpp.html#a346eb2bc5711dd6bf30f4be5bf3ddf92" title=" " alt="" coords="421,56,467,83"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1topo.html#a49475fec1712a1d137f5374e9000b0a7" title=" " alt="" coords="387,107,501,149"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.html#a5f05233dc6917eb1c2eafb376d4d2276" title=" " alt="" coords="387,173,501,214"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1util.html#a332d871cd3b5b638cb94e5f30accb5da" title="Convert radians to degrees." alt="" coords="391,238,497,279"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="391,303,497,345"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1topo.html#a930c2160fca19f1a495f2281e409f794" title=" " alt="" coords="549,157,664,198"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="553,254,660,295"/>
 </map>

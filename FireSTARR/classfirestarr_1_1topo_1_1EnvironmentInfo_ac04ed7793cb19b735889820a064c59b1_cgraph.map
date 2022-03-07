@@ -1,40 +1,42 @@
 <map id="firestarr::topo::EnvironmentInfo::load" name="firestarr::topo::EnvironmentInfo::load">
-<area shape="rect" id="node1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,491,180,532"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,491,403,532"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="925,273,1037,315"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="451,687,625,728"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a" title="Move constructor." alt="" coords="451,752,625,793"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="465,556,611,597"/>
+<area shape="rect" id="node1" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,497,180,539"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#af2e15b039d63c00334e9fcf956ccc55b" title="Load from rasters." alt="" coords="228,497,403,539"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4253b6677b26aa72ac4e784e0891af82" title="Log with DEBUG level." alt="" coords="925,280,1037,321"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Environment.html#ad0849fbd7936e33e6e8e679820449641" title="Elevation of the origin Point." alt="" coords="451,693,625,735"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1topo_1_1Environment.html#ab3ad01dc9a53d4896f6fddd8175ea46a" title="Move constructor." alt="" coords="451,759,625,800"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1sim_1_1Settings.html#ae7ee6a28e102f8aa27c584409cf00ab9" title="Fuel lookup table." alt="" coords="465,563,611,604"/>
 <area shape="rect" id="node13" href="$namespacefirestarr_1_1logging.html#ae505e6144c4c8127c9870e1dfa81039b" title="Log with INFO level." alt="" coords="708,5,820,47"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="925,143,1037,184"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,491,615,532"/>
-<area shape="rect" id="node37" href="$namespacefirestarr_1_1logging.html#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="708,92,820,133"/>
-<area shape="rect" id="node38" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="465,621,611,663"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="1323,115,1451,156"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="1129,144,1241,185"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="673,936,855,977"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="681,1001,847,1043"/>
-<area shape="rect" id="node10" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="925,913,1037,955"/>
-<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="1129,913,1241,955"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="903,600,1059,641"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="1107,696,1263,737"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="1107,631,1263,672"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="903,717,1059,759"/>
-<area shape="rect" id="node21" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="1107,827,1263,868"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="686,432,842,473"/>
-<area shape="rect" id="node34" href="$classfirestarr_1_1data_1_1GridBase.html#a6abba7838eacc3f6b708b78dafd15419" title="Value used for grid locations that have no data." alt="" coords="686,549,842,591"/>
-<area shape="rect" id="node35" href="$classfirestarr_1_1data_1_1GridBase.html#a775dda8c067476d971c57a3e880c46d1" title="Proj4 string defining coordinate system for this grid. Must be a UTM projection." alt="" coords="686,717,842,759"/>
-<area shape="rect" id="node36" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="925,208,1037,249"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981" title="Upper right corner X coordinate in meters." alt="" coords="1107,565,1263,607"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7" title="Upper right corner Y coordinate in meters." alt="" coords="1107,761,1263,803"/>
-<area shape="rect" id="node24" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="923,404,1039,445"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="915,469,1047,511"/>
-<area shape="rect" id="node32" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="915,535,1047,576"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1GridBase.html#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="903,339,1059,380"/>
-<area shape="rect" id="node25" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="1121,343,1248,384"/>
-<area shape="rect" id="node27" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="1334,405,1439,447"/>
-<area shape="rect" id="node29" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="1123,463,1247,504"/>
-<area shape="rect" id="node26" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="1317,340,1456,381"/>
-<area shape="rect" id="node28" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="1511,405,1617,447"/>
-<area shape="rect" id="node30" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="1311,471,1463,512"/>
+<area shape="rect" id="node14" href="$namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a" title="Log with NOTE level." alt="" coords="925,149,1037,191"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,497,615,539"/>
+<area shape="rect" id="node39" href="$namespacefirestarr_1_1logging.html#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="708,99,820,140"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39" title="Whether or not to run things asynchronously where possible." alt="" coords="465,628,611,669"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="1323,123,1451,164"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="1129,152,1241,193"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="673,943,855,984"/>
+<area shape="rect" id="node12" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="681,1008,847,1049"/>
+<area shape="rect" id="node10" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="925,920,1037,961"/>
+<area shape="rect" id="node11" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="1129,920,1241,961"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1data_1_1GridBase.html#aff27b7ec5294e3cb61d1b6ab10c1fb4b" title="Number of columns in the GridBase." alt="" coords="903,607,1059,648"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1data_1_1GridBase.html#a607fcdf301c03fabfa2cdff549a8ab90" title="Cell size used for GridBase." alt="" coords="1107,703,1263,744"/>
+<area shape="rect" id="node18" href="$classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100" title="Lower left corner X coordinate in meters." alt="" coords="1107,637,1263,679"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1data_1_1GridBase.html#ae843570ea69fb725cfa371d3c9c232e4" title="Number of rows in the GridBase." alt="" coords="903,724,1059,765"/>
+<area shape="rect" id="node21" href="$classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b" title="Lower left corner Y coordinate in meters." alt="" coords="1107,833,1263,875"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridBase.html#a0d3d9af1c8842b380d2465d94ee29c5c" title="Find FullCoordinates for Point." alt="" coords="686,439,842,480"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1data_1_1GridBase.html#a6abba7838eacc3f6b708b78dafd15419" title="Value used for grid locations that have no data." alt="" coords="686,556,842,597"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1data_1_1GridBase.html#a775dda8c067476d971c57a3e880c46d1" title="Proj4 string defining coordinate system for this grid. Must be a UTM projection." alt="" coords="686,724,842,765"/>
+<area shape="rect" id="node38" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="925,215,1037,256"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981" title="Upper right corner X coordinate in meters." alt="" coords="1107,572,1263,613"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7" title="Upper right corner Y coordinate in meters." alt="" coords="1107,768,1263,809"/>
+<area shape="rect" id="node24" href="$namespacefirestarr_1_1topo.html#a413f3a673f33e4fa3c2ffdabd2ce14cb" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="923,411,1039,452"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1topo_1_1Point.html#aef13d155b163a77c85e0ed82dbf37bd8" title="Latitude (decimal degrees)" alt="" coords="915,476,1047,517"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1topo_1_1Point.html#aad26ed97f8a0b7d2cbc103c29fce5f1c" title="Longitude (decimal degrees)" alt="" coords="915,541,1047,583"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1data_1_1GridBase.html#a0685b9b66d4da7ed7a537a5279dfb412" title="UTM zone represented by proj4 string for this grid." alt="" coords="903,345,1059,387"/>
+<area shape="rect" id="node25" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="1121,352,1248,393"/>
+<area shape="rect" id="node29" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="1334,411,1439,452"/>
+<area shape="rect" id="node31" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="1123,469,1247,511"/>
+<area shape="rect" id="node26" href="$unstable_8cpp.html#a2f350287e49ce0f0ead60ab192ef9ae2" title=" " alt="" coords="1361,359,1412,386"/>
+<area shape="rect" id="node27" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="1317,293,1456,335"/>
+<area shape="rect" id="node28" href="$unstable_8cpp.html#a346eb2bc5711dd6bf30f4be5bf3ddf92" title=" " alt="" coords="1541,301,1587,327"/>
+<area shape="rect" id="node30" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="1511,411,1617,452"/>
+<area shape="rect" id="node32" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="1311,476,1463,517"/>
 </map>

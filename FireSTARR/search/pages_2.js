@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['probability_20of_20events_2769',['Probability of events',['../probability.html',1,'']]],
-  ['probability_20of_20fire_20survival_2770',['Probability of fire survival',['../survival.html',1,'']]]
+  ['probability_20of_20events_2767',['Probability of events',['../probability.html',1,'']]],
+  ['probability_20of_20fire_20survival_2768',['Probability of fire survival',['../survival.html',1,'']]]
 ];

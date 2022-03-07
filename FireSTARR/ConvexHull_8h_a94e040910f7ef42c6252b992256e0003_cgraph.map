@@ -1,0 +1,9 @@
+<map id="quickHull" name="quickHull">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,81,98"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="129,5,241,47"/>
+<area shape="rect" id="node4" href="$ConvexHull_8cpp.html#a954d6c15431a8b100ad72f48798fa80b" title=" " alt="" coords="151,71,220,98"/>
+<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#af593934bad06e48689405ed621934f1c" title="Log with WARNING level." alt="" coords="129,123,241,164"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="289,5,401,47"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="449,123,577,164"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="289,152,401,193"/>
+</map>

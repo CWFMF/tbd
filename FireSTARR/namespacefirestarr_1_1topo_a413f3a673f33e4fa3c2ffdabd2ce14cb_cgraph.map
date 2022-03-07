@@ -1,9 +1,11 @@
 <map id="firestarr::topo::lat_lon_to_utm" name="firestarr::topo::lat_lon_to_utm">
-<area shape="rect" id="node1" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="5,69,121,111"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="169,8,296,49"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="367,71,473,112"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="171,128,295,169"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="351,5,489,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="544,71,651,112"/>
-<area shape="rect" id="node7" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="344,136,496,177"/>
+<area shape="rect" id="node1" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="5,119,121,161"/>
+<area shape="rect" id="node2" href="$namespacefirestarr_1_1topo.html#a1abcffe1770ea4198f8531573ba41f17" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="169,57,296,98"/>
+<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="367,122,473,163"/>
+<area shape="rect" id="node8" href="$namespacefirestarr_1_1topo.html#a335cf8c34493816d17377f3731327092" title=" " alt="" coords="171,178,295,219"/>
+<area shape="rect" id="node3" href="$unstable_8cpp.html#a2f350287e49ce0f0ead60ab192ef9ae2" title=" " alt="" coords="395,5,445,32"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.html#af279faac006359727167a94cc787f9e9" title="Computes the ellipsoidal distance from the equator to a point at a given latitude." alt="" coords="351,57,489,98"/>
+<area shape="rect" id="node5" href="$unstable_8cpp.html#a346eb2bc5711dd6bf30f4be5bf3ddf92" title=" " alt="" coords="574,64,621,91"/>
+<area shape="rect" id="node7" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="544,122,651,163"/>
+<area shape="rect" id="node9" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="344,187,496,229"/>
 </map>

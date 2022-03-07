@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yllcorner_2196',['yllcorner',['../classfirestarr_1_1data_1_1GridBase.html#ada6e7b58b4d58418c6b29674a017c00b',1,'firestarr::data::GridBase']]],
-  ['yurcorner_2197',['yurcorner',['../classfirestarr_1_1data_1_1GridBase.html#a11565ce341b4d7862b52c8a68f3970e7',1,'firestarr::data::GridBase']]]
+  ['xllcorner_2194',['xllcorner',['../classfirestarr_1_1data_1_1GridBase.html#a453cd4c17e6e1a030f308378ce384100',1,'firestarr::data::GridBase']]],
+  ['xurcorner_2195',['xurcorner',['../classfirestarr_1_1data_1_1GridBase.html#a3d68f9c73919b7c811402c834c91e981',1,'firestarr::data::GridBase']]]
 ];

@@ -1,7 +1,7 @@
 <map id="firestarr::sim::Scenario" name="firestarr::sim::Scenario">
 <area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2097,1556,2281,2440"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="5,1167,136,1391"/>
-<area shape="rect" id="node3" title=" " alt="" coords="1392,1233,1563,1325"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1367,1233,1537,1325"/>
 <area shape="rect" id="node4" title=" " alt="" coords="1134,5,1194,83"/>
 <area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="1893,531,2075,902"/>
 <area shape="rect" id="node8" title=" " alt="" coords="2030,226,2173,303"/>
@@ -35,7 +35,7 @@
 <area shape="rect" id="node38" title=" " alt="" coords="4058,219,4219,311"/>
 <area shape="rect" id="node22" href="$classfirestarr_1_1topo_1_1StartPoint.html" title="A Point that has sunrise and sunset times for each day." alt="" coords="292,627,452,807"/>
 <area shape="rect" id="node24" title=" " alt="" coords="211,219,375,311"/>
-<area shape="rect" id="node27" title=" " alt="" coords="3273,226,3377,303"/>
+<area shape="rect" id="node27" title=" " alt="" coords="3261,226,3365,303"/>
 <area shape="rect" id="node28" title=" " alt="" coords="3831,226,3887,303"/>
 <area shape="rect" id="node29" title=" " alt="" coords="2368,1240,2429,1317"/>
 <area shape="rect" id="node32" title=" " alt="" coords="3095,678,3163,755"/>
@@ -45,8 +45,8 @@
 <area shape="rect" id="node43" title=" " alt="" coords="4219,1240,4266,1317"/>
 <area shape="rect" id="node45" title=" " alt="" coords="2538,226,2595,303"/>
 <area shape="rect" id="node46" title=" " alt="" coords="4364,1218,4535,1339"/>
-<area shape="rect" id="node47" title=" " alt="" coords="4342,663,4511,770"/>
-<area shape="rect" id="node48" title=" " alt="" coords="4535,226,4671,303"/>
+<area shape="rect" id="node47" title=" " alt="" coords="4350,663,4519,770"/>
+<area shape="rect" id="node48" title=" " alt="" coords="4568,226,4704,303"/>
 <area shape="rect" id="node50" title=" " alt="" coords="4711,948,4871,1040"/>
-<area shape="rect" id="node49" title=" " alt="" coords="4536,678,4629,755"/>
+<area shape="rect" id="node49" title=" " alt="" coords="4544,678,4637,755"/>
 </map>
