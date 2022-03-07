@@ -1,4 +1,6 @@
 <map id="firestarr::sim::MapObserver::save" name="firestarr::sim::MapObserver::save">
-<area shape="rect" id="node1" title="Save observations." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node1" title="Save observations." alt="" coords="5,39,181,80"/>
 <area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html#adacd9cfd852b21084b6d39c91dac4c39" title="Make name to save file as." alt="" coords="229,5,384,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Settings.html#af45b05819efc38dc1c1703a4f1a598ef" title="Whether or not to save grids as .asc." alt="" coords="233,71,380,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="432,71,599,112"/>
 </map>

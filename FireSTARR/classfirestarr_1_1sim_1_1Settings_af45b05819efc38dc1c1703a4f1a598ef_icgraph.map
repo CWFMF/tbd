@@ -1,0 +1,6 @@
+<map id="firestarr::sim::Settings::saveAsAscii" name="firestarr::sim::Settings::saveAsAscii">
+<area shape="rect" id="node1" title="Whether or not to save grids as .asc." alt="" coords="229,71,376,112"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="6,5,181,47"/>
+<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a5b21667c7ec8fb4b1459ae9acc777180" title="Save contents to an ASCII file." alt="" coords="20,71,167,112"/>
+<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1MapObserver.html#afdaac04f3df0a525656064b77a571853" title="Save observations." alt="" coords="5,136,181,177"/>
+</map>
