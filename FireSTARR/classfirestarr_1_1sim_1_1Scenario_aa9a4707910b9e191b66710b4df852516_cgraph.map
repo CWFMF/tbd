@@ -28,7 +28,7 @@
 <area shape="rect" id="node19" href="$classfirestarr_1_1fuel_1_1FuelType.html#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="623,1941,773,1982"/>
 <area shape="rect" id="node21" href="$classfirestarr_1_1sim_1_1Settings.html#ac21db35bf8e389d21c11c3ab5cedb805" title="Path to directory that outputs are saved to." alt="" coords="625,2006,771,2048"/>
 <area shape="rect" id="node23" href="$classfirestarr_1_1util_1_1SafeVector.html#ac0b40a5c8623fa8d00e1cbf95f1c936e" title="Add a value to the SafeVector." alt="" coords="619,2072,777,2113"/>
-<area shape="rect" id="node25" href="$structfirestarr_1_1sim_1_1InnerPos.html#aa770ef6a8d79fc0cf3b227ede665ef80" title="Add offset to position and return result." alt="" coords="609,584,787,611"/>
+<area shape="rect" id="node25" href="$structfirestarr_1_1sim_1_1InnerPos.html#a0d87481a06029e84d3657a2dfdeb5456" title="Add offset to position and return result." alt="" coords="609,584,787,611"/>
 <area shape="rect" id="node26" href="$classfirestarr_1_1sim_1_1Scenario.html#a27213c80fe726d3d70c5c3f4d29d4450" title="Whether or not Location with given hash has burned already." alt="" coords="623,636,773,677"/>
 <area shape="rect" id="node27" href="$classfirestarr_1_1sim_1_1Scenario.html#acaaea47720d6adb6f6ccb30bdc77f3ba" title="Whether or not a Cell can burn." alt="" coords="623,701,773,742"/>
 <area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#a0bd19e55b83a2eca2da29e7a3fc69848" title="Get Cell for given row and column." alt="" coords="854,1630,1003,1672"/>

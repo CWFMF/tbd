@@ -6,7 +6,7 @@ var searchData=
   ['observer_2ecpp_1014',['Observer.cpp',['.././FireSTARR/Observer_8cpp.html',1,'']]],
   ['observer_2eh_1015',['Observer.h',['.././FireSTARR/Observer_8h.html',1,'']]],
   ['observers_5f_1016',['observers_',['.././FireSTARR/classfirestarr_1_1sim_1_1Scenario.html#ab8f4ac29c3f7e3b9639befcc46481eed',1,'firestarr::sim::Scenario']]],
-  ['offset_1017',['Offset',['.././FireSTARR/structfirestarr_1_1Offset.html',1,'firestarr::Offset'],['.././FireSTARR/structfirestarr_1_1Offset.html#a251c3d2f63f4b41ca9ded2184ca6f6f1',1,'firestarr::Offset::Offset()']]],
+  ['offset_1017',['Offset',['.././FireSTARR/structfirestarr_1_1Offset.html',1,'firestarr::Offset'],['.././FireSTARR/structfirestarr_1_1Offset.html#a1aac53c8792d67c2539e2a232c5ce9c3',1,'firestarr::Offset::Offset()']]],
   ['offset_1018',['offset',['.././FireSTARR/classfirestarr_1_1topo_1_1Environment.html#abfdcccd8ea3667352cac79d363d74a40',1,'firestarr::topo::Environment']]],
   ['offset_5fsunrise_5f_1019',['offset_sunrise_',['.././FireSTARR/classfirestarr_1_1sim_1_1SettingsImplementation.html#a6d38e428884e46171f06b99f55c31a79',1,'firestarr::sim::SettingsImplementation']]],
   ['offset_5fsunset_5f_1020',['offset_sunset_',['.././FireSTARR/classfirestarr_1_1sim_1_1SettingsImplementation.html#a5da9474a7f60394c129fcf068dc789e4',1,'firestarr::sim::SettingsImplementation']]],

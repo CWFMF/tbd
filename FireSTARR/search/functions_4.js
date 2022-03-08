@@ -16,7 +16,7 @@ var searchData=
   ['direction_1734',['direction',['../classfirestarr_1_1wx_1_1Wind.html#a9fab530375a3ba95deb5e536f2422291',1,'firestarr::wx::Wind']]],
   ['directory_5fexists_1735',['directory_exists',['../namespacefirestarr_1_1util.html#a001d3e1e4b0849d30e61351c1df7d4cc',1,'firestarr::util']]],
   ['distancefrom_1736',['distanceFrom',['../classfirestarr_1_1wx_1_1Startup.html#a2f06a34391d167fbfdfac6b158e143b0',1,'firestarr::wx::Startup']]],
-  ['distptpt_1737',['distPtPt',['../ConvexHull_8h.html#a41eab117c5ea8e071b667680440aa1a3',1,'distPtPt(firestarr::sim::InnerPos &amp;a, firestarr::sim::InnerPos &amp;b) noexcept:&#160;ConvexHull.cpp'],['../ConvexHull_8cpp.html#a41eab117c5ea8e071b667680440aa1a3',1,'distPtPt(firestarr::sim::InnerPos &amp;a, firestarr::sim::InnerPos &amp;b) noexcept:&#160;ConvexHull.cpp']]],
+  ['distptpt_1737',['distPtPt',['../ConvexHull_8h.html#a807a8414094a5e695dc4c76967b7fb7f',1,'distPtPt(const firestarr::sim::InnerPos &amp;a, const firestarr::sim::InnerPos &amp;b) noexcept:&#160;ConvexHull.cpp'],['../ConvexHull_8cpp.html#a807a8414094a5e695dc4c76967b7fb7f',1,'distPtPt(const firestarr::sim::InnerPos &amp;a, const firestarr::sim::InnerPos &amp;b) noexcept:&#160;ConvexHull.cpp']]],
   ['dmc_1738',['dmc',['../classfirestarr_1_1wx_1_1Startup.html#a005d3f0d2516def53ba70d2437c17e62',1,'firestarr::wx::Startup']]],
   ['dmc_1739',['Dmc',['../classfirestarr_1_1wx_1_1Dmc.html#abd4c600660c31d616f5d5d3480b8a4d7',1,'firestarr::wx::Dmc']]],
   ['dmc_1740',['dmc',['../classfirestarr_1_1sim_1_1SpreadInfo.html#a414bd85bb750b8d5c74bd8caf72f5bf1',1,'firestarr::sim::SpreadInfo::dmc()'],['../classfirestarr_1_1wx_1_1FwiWeather.html#a024781d0d515d867b6db0ceb46b36f1c',1,'firestarr::wx::FwiWeather::dmc()']]],

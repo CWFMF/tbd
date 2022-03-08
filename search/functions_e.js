@@ -1,7 +1,7 @@
 var searchData=
 [
   ['offset_2327',['offset',['.././FireSTARR/classfirestarr_1_1topo_1_1Environment.html#abfdcccd8ea3667352cac79d363d74a40',1,'firestarr::topo::Environment']]],
-  ['offset_2328',['Offset',['.././FireSTARR/structfirestarr_1_1Offset.html#a251c3d2f63f4b41ca9ded2184ca6f6f1',1,'firestarr::Offset']]],
+  ['offset_2328',['Offset',['.././FireSTARR/structfirestarr_1_1Offset.html#a1aac53c8792d67c2539e2a232c5ce9c3',1,'firestarr::Offset']]],
   ['offsets_2329',['offsets',['.././FireSTARR/classfirestarr_1_1sim_1_1SpreadInfo.html#a4a8fae594429caf59e863a75bebe37cc',1,'firestarr::sim::SpreadInfo']]],
   ['offsetsunrise_2330',['offsetSunrise',['.././FireSTARR/classfirestarr_1_1sim_1_1Settings.html#ae2c9df43ade1617f40483572c1610d17',1,'firestarr::sim::Settings::offsetSunrise()'],['.././FireSTARR/classfirestarr_1_1sim_1_1SettingsImplementation.html#ad28777a775484f2dfb26e2edbe55404e',1,'firestarr::sim::SettingsImplementation::offsetSunrise()']]],
   ['offsetsunset_2331',['offsetSunset',['.././FireSTARR/classfirestarr_1_1sim_1_1Settings.html#ac62b5e13d287c20dd297329f06db9d6f',1,'firestarr::sim::Settings::offsetSunset()'],['.././FireSTARR/classfirestarr_1_1sim_1_1SettingsImplementation.html#a7719e39d07beb3b00ca631dd66495baf',1,'firestarr::sim::SettingsImplementation::offsetSunset()']]],
