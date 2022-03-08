@@ -1,52 +1,52 @@
 <map id="firestarr::logging::fatal" name="firestarr::logging::fatal">
-<area shape="rect" id="node1" title="Log a fatal error and quit." alt="" coords="1025,824,1137,866"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="838,1208,950,1250"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,820,237,862"/>
-<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,252,56,278"/>
-<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Model.html#aae328c133509998a5577ca7db4ecf18d" title="Read weather used for Scenarios." alt="" coords="569,408,702,450"/>
-<area shape="rect" id="node39" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="816,190,972,231"/>
-<area shape="rect" id="node41" href="$namespacefirestarr_1_1logging.html#ad345a213947faa534f72d602dfb8d8ec" title="Log with FATAL level and exit." alt="" coords="838,1339,950,1380"/>
-<area shape="rect" id="node42" href="$namespacefirestarr_1_1data.html#a76f4ea042990187a07aab97f34488f83" title=" " alt="" coords="833,1404,955,1446"/>
-<area shape="rect" id="node44" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a973eab9691aba4d8e740147f6d6e9f19" title="Look up the original grid code for a FuelType." alt="" coords="811,1470,977,1511"/>
-<area shape="rect" id="node45" href="$namespacefirestarr_1_1sim.html#ae6648daac0a7c330ced60717ce8b5a92" title=" " alt="" coords="836,2010,952,2051"/>
-<area shape="rect" id="node47" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a8c1da05e9229eea790463a8f5b1febba" title=" " alt="" coords="821,1274,967,1315"/>
-<area shape="rect" id="node48" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="831,72,957,114"/>
-<area shape="rect" id="node50" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="313,138,433,165"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="576,824,695,866"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="556,1307,715,1348"/>
-<area shape="rect" id="node8" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="545,1373,725,1400"/>
-<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2" title="Value for grid at given Location." alt="" coords="558,474,713,515"/>
-<area shape="rect" id="node10" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="285,575,460,616"/>
-<area shape="rect" id="node12" href="$classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="567,1592,704,1618"/>
-<area shape="rect" id="node13" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="551,1643,719,1684"/>
-<area shape="rect" id="node14" href="$namespacefirestarr_1_1fuel.html#a3c09314eb8e81cdbe9440acefc14891d" title=" " alt="" coords="561,1708,709,1750"/>
-<area shape="rect" id="node15" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="558,1774,713,1815"/>
-<area shape="rect" id="node16" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="548,1839,723,1880"/>
-<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="569,942,702,983"/>
-<area shape="rect" id="node18" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="306,886,439,927"/>
-<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="545,1904,726,1946"/>
-<area shape="rect" id="node20" href="$classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="565,1970,706,1997"/>
-<area shape="rect" id="node21" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="138,1156,203,1182"/>
-<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1Grid.html#a23ec2dc1de600000bb8123469c9a8dc2" title="Constructor." alt="" coords="572,2022,699,2063"/>
-<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="560,2087,711,2128"/>
-<area shape="rect" id="node24" href="$classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="572,2153,699,2180"/>
-<area shape="rect" id="node25" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,976,460,1018"/>
-<area shape="rect" id="node26" href="$classfirestarr_1_1topo_1_1Location.html#aacac067210c1e2c043c394b766d9b31e" title="Construct using hash of row and column." alt="" coords="559,2204,711,2246"/>
-<area shape="rect" id="node27" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="541,2270,729,2311"/>
-<area shape="rect" id="node29" href="$namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="558,605,713,632"/>
-<area shape="rect" id="node30" href="$classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="561,656,710,698"/>
-<area shape="rect" id="node31" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="293,714,452,755"/>
-<area shape="rect" id="node32" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="572,1059,699,1100"/>
-<area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="558,539,713,580"/>
-<area shape="rect" id="node35" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a1e745cd8fbba67e52002e444dd4bcb75" title="Save contents to .tif file." alt="" coords="558,1176,713,1218"/>
-<area shape="rect" id="node36" href="$classfirestarr_1_1data_1_1GridMap.html#a59665fa6047ae55ec29870b6fd0ace0f" title="Save GridMap contents to .tif file." alt="" coords="560,1242,711,1283"/>
-<area shape="rect" id="node37" href="$classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="561,1475,710,1516"/>
-<area shape="rect" id="node38" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="562,1541,709,1568"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.html#ad73313aead546785538f27f53fe0f914" title="Run Iterations until confidence is reached." alt="" coords="306,820,439,862"/>
-<area shape="rect" id="node11" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ada2e4df2cb97f52df74263aad8737354" title="Save contents to .asc file." alt="" coords="295,472,450,514"/>
-<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="298,2299,447,2340"/>
-<area shape="rect" id="node40" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="560,190,711,231"/>
-<area shape="rect" id="node43" href="$classfirestarr_1_1data_1_1GridBase.html#a7f48f4604dff2ed5b5f6eaf914f6f021" title="Constructor." alt="" coords="557,2387,713,2428"/>
-<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="508,2452,763,2494"/>
-<area shape="rect" id="node49" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="566,72,705,114"/>
+<area shape="rect" id="node1" title="Log a fatal error and quit." alt="" coords="1025,2158,1137,2200"/>
+<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#a5910826d96f9fc52ea75bc7bd048f165" title="Add in an IntensityMap to the appropriate probability grid based on each cell burn intensity." alt="" coords="815,953,973,994"/>
+<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="838,1084,950,1125"/>
+<area shape="rect" id="node17" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,1782,237,1824"/>
+<area shape="rect" id="node18" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,1994,56,2020"/>
+<area shape="rect" id="node34" href="$classfirestarr_1_1sim_1_1Model.html#aae328c133509998a5577ca7db4ecf18d" title="Read weather used for Scenarios." alt="" coords="569,1982,702,2024"/>
+<area shape="rect" id="node39" href="$classfirestarr_1_1data_1_1GridBase.html#a95140f9c6c4d9b2302f906a9353136a5" title="Create .prj file in directory with base name for file." alt="" coords="816,2041,972,2082"/>
+<area shape="rect" id="node41" href="$namespacefirestarr_1_1logging.html#ad345a213947faa534f72d602dfb8d8ec" title="Log with FATAL level and exit." alt="" coords="838,2158,950,2200"/>
+<area shape="rect" id="node42" href="$namespacefirestarr_1_1data.html#a76f4ea042990187a07aab97f34488f83" title=" " alt="" coords="833,2224,955,2265"/>
+<area shape="rect" id="node44" href="$classfirestarr_1_1fuel_1_1FuelLookupImpl.html#a973eab9691aba4d8e740147f6d6e9f19" title="Look up the original grid code for a FuelType." alt="" coords="811,2289,977,2330"/>
+<area shape="rect" id="node45" href="$namespacefirestarr_1_1sim.html#ae6648daac0a7c330ced60717ce8b5a92" title=" " alt="" coords="836,2354,952,2396"/>
+<area shape="rect" id="node47" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a8c1da05e9229eea790463a8f5b1febba" title=" " alt="" coords="821,1018,967,1060"/>
+<area shape="rect" id="node48" href="$namespacefirestarr_1_1util.html#af84e30648d870de9e0a25f7d604f3889" title="Make the given directory if it does not exist." alt="" coords="831,2472,957,2513"/>
+<area shape="rect" id="node50" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="313,2522,433,2548"/>
+<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.html#a65bb7516ac34869a79ef27aac8ab84af" title=" " alt="" coords="576,486,695,528"/>
+<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="556,552,715,593"/>
+<area shape="rect" id="node6" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="545,618,725,644"/>
+<area shape="rect" id="node7" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a97528db332a9c5302c4015f6b34124d2" title="Value for grid at given Location." alt="" coords="558,1734,713,1776"/>
+<area shape="rect" id="node8" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="285,1705,460,1746"/>
+<area shape="rect" id="node10" href="$classfirestarr_1_1wx_1_1Bui.html#a8632a02850972c53ee3ff1a035612910" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="567,836,704,863"/>
+<area shape="rect" id="node11" href="$classfirestarr_1_1topo_1_1BurnedMap.html#a8775fc310860e0203977d750d96beab4" title="Constructor." alt="" coords="551,888,719,929"/>
+<area shape="rect" id="node12" href="$namespacefirestarr_1_1fuel.html#a3c09314eb8e81cdbe9440acefc14891d" title=" " alt="" coords="561,953,709,994"/>
+<area shape="rect" id="node13" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a9cc858decb7e5875d8ee157ea13095dd" title="Constructor." alt="" coords="558,1018,713,1060"/>
+<area shape="rect" id="node14" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a83162004d5d873d00030d30b288cb7e8" title="Constructor." alt="" coords="548,1084,723,1125"/>
+<area shape="rect" id="node15" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="569,1201,702,1242"/>
+<area shape="rect" id="node16" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="306,1201,439,1242"/>
+<area shape="rect" id="node19" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#abaa42c6ad311877b39d7898eb3742f1d" title="Fuel lookup table." alt="" coords="545,1266,726,1308"/>
+<area shape="rect" id="node20" href="$classfirestarr_1_1wx_1_1Fwi.html#a163579c69c4ab84562b87278a2413cc6" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="565,1332,706,1359"/>
+<area shape="rect" id="node21" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="138,1120,203,1147"/>
+<area shape="rect" id="node22" href="$classfirestarr_1_1data_1_1Grid.html#a23ec2dc1de600000bb8123469c9a8dc2" title="Constructor." alt="" coords="572,1384,699,1425"/>
+<area shape="rect" id="node23" href="$classfirestarr_1_1data_1_1GridMap.html#a67c4712d49505ba92b48fbba068a4918" title="Constructor." alt="" coords="560,1449,711,1490"/>
+<area shape="rect" id="node24" href="$classfirestarr_1_1wx_1_1Isi.html#a631226eb0d6e4c447fd59ebd940cc16c" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="572,1515,699,1542"/>
+<area shape="rect" id="node25" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,1584,460,1625"/>
+<area shape="rect" id="node26" href="$classfirestarr_1_1topo_1_1Location.html#aacac067210c1e2c043c394b766d9b31e" title="Construct using hash of row and column." alt="" coords="559,1617,711,1658"/>
+<area shape="rect" id="node27" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="541,70,729,112"/>
+<area shape="rect" id="node29" href="$namespacefirestarr_1_1sim.html#a3fd30526cb8f1cfd084bbef01f9e22e0" title=" " alt="" coords="558,1800,713,1827"/>
+<area shape="rect" id="node30" href="$classfirestarr_1_1util_1_1Statistics.html#ad93a2c03f07df386523d487f4cdb65f4" title="Value for given percentile." alt="" coords="561,1852,710,1893"/>
+<area shape="rect" id="node31" href="$classfirestarr_1_1topo_1_1Perimeter.html#a68c886bbc16e8a8434668c3f2a1ba63f" title="Initialize perimeter from a file." alt="" coords="293,428,452,469"/>
+<area shape="rect" id="node32" href="$namespacefirestarr_1_1data.html#ab4496fe1247936b36ead7a86e7abee7e" title=" " alt="" coords="572,1917,699,1958"/>
+<area shape="rect" id="node33" href="$classfirestarr_1_1data_1_1ConstantGrid.html#acb83ad8fd5645c39fd501c1f361bed8b" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="558,669,713,710"/>
+<area shape="rect" id="node35" href="$classfirestarr_1_1data_1_1ConstantGrid.html#a1e745cd8fbba67e52002e444dd4bcb75" title="Save contents to .tif file." alt="" coords="558,238,713,280"/>
+<area shape="rect" id="node36" href="$classfirestarr_1_1data_1_1GridMap.html#a59665fa6047ae55ec29870b6fd0ace0f" title="Save GridMap contents to .tif file." alt="" coords="560,304,711,345"/>
+<area shape="rect" id="node37" href="$classfirestarr_1_1util_1_1Statistics.html#ab06f0f39025e8b4e9b7254ce44ba7f8e" title="Calculates statistics on a vector of values." alt="" coords="561,369,710,410"/>
+<area shape="rect" id="node38" href="$namespacefirestarr_1_1data.html#a9a0bafd711ce9aa0aeaa528ee234542b" title=" " alt="" coords="562,435,709,462"/>
+<area shape="rect" id="node9" href="$classfirestarr_1_1data_1_1ConstantGrid.html#ada2e4df2cb97f52df74263aad8737354" title="Save contents to .asc file." alt="" coords="295,1861,450,1902"/>
+<area shape="rect" id="node28" href="$classfirestarr_1_1sim_1_1Scenario.html#aecb0887700a3e690cc4e1b058666d305" title="Take whatever steps are necessary to process the given Event." alt="" coords="298,41,447,82"/>
+<area shape="rect" id="node40" href="$classfirestarr_1_1data_1_1GridMap.html#a0d8649c9a44527ed8a127e6d52571a8f" title="Save GridMap contents to .asc file." alt="" coords="560,2100,711,2141"/>
+<area shape="rect" id="node43" href="$classfirestarr_1_1data_1_1GridBase.html#a7f48f4604dff2ed5b5f6eaf914f6f021" title="Constructor." alt="" coords="557,2224,713,2265"/>
+<area shape="rect" id="node46" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ad62d323b119c294af4957ad6d789b5dc" title="Read settings from a file." alt="" coords="508,2354,763,2396"/>
+<area shape="rect" id="node49" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="566,2472,705,2513"/>
 </map>
