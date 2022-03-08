@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::setMaxGrade" name="firestarr::sim::Settings::setMaxGrade">
-<area shape="rect" id="node1" title="Set maximum grade target used for selecting WeatherSHIELD historic years." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="214,5,381,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a7fd397bbafa845fff7136ee1e923891a" title="Set maximum grade target used for selecting WeatherSHIELD historic years." alt="" coords="200,71,395,112"/>
-</map>
