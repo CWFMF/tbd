@@ -265,83 +265,89 @@ $(function() {
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39">sim::Settings::runAsync</a>())</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    vector&lt;std::future&lt;void&gt;&gt; results{};</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                            &amp;ProbabilityMap::saveTotal,</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                            <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                            make_string(for_actuals ? <span class="stringliteral">&quot;actuals&quot;</span> : <span class="stringliteral">&quot;probability&quot;</span>)));</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">if</span> (Settings::saveOccurrence())</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    {</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                              &amp;ProbabilityMap::saveTotalCount,</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                              <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                              make_string(<span class="stringliteral">&quot;occurrence&quot;</span>)));</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">if</span> (Settings::saveIntensity())</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    {</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                              &amp;ProbabilityMap::saveLow,</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                              <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_L&quot;</span>)));</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                              &amp;ProbabilityMap::saveModerate,</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                              <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_M&quot;</span>)));</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                              &amp;ProbabilityMap::saveHigh,</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                              <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_H&quot;</span>)));</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    results.push_back(async(launch::async,</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                            &amp;ProbabilityMap::saveSizes,</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                            <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                            make_string(<span class="stringliteral">&quot;sizes&quot;</span>)));</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; result : results)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      result.wait();</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    }</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  {</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    saveTotal(make_string(for_actuals ? <span class="stringliteral">&quot;actuals&quot;</span> : <span class="stringliteral">&quot;probability&quot;</span>));</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">if</span> (Settings::saveOccurrence())</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      saveTotalCount(make_string(<span class="stringliteral">&quot;occurrence&quot;</span>));</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">if</span> (Settings::saveIntensity())</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    {</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      saveLow(make_string(<span class="stringliteral">&quot;intensity_L&quot;</span>));</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      saveModerate(make_string(<span class="stringliteral">&quot;intensity_M&quot;</span>));</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      saveHigh(make_string(<span class="stringliteral">&quot;intensity_H&quot;</span>));</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">if</span> (Settings::saveProbability())</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                              &amp;ProbabilityMap::saveTotal,</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                              <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                              make_string(for_actuals ? <span class="stringliteral">&quot;actuals&quot;</span> : <span class="stringliteral">&quot;probability&quot;</span>)));</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">if</span> (Settings::saveOccurrence())</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                              &amp;ProbabilityMap::saveTotalCount,</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                              <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                              make_string(<span class="stringliteral">&quot;occurrence&quot;</span>)));</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">if</span> (Settings::saveIntensity())</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;      results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                              &amp;ProbabilityMap::saveLow,</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                              <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_L&quot;</span>)));</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                              &amp;ProbabilityMap::saveModerate,</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                              <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_M&quot;</span>)));</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                              &amp;ProbabilityMap::saveHigh,</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                              <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                              make_string(<span class="stringliteral">&quot;intensity_H&quot;</span>)));</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    results.push_back(async(launch::async,</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                            &amp;ProbabilityMap::saveSizes,</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                            <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                            make_string(<span class="stringliteral">&quot;sizes&quot;</span>)));</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; result : results)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      result.wait();</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">if</span> (Settings::saveProbability())</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      saveTotal(make_string(for_actuals ? <span class="stringliteral">&quot;actuals&quot;</span> : <span class="stringliteral">&quot;probability&quot;</span>));</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">if</span> (Settings::saveOccurrence())</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      saveTotalCount(make_string(<span class="stringliteral">&quot;occurrence&quot;</span>));</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    saveSizes(make_string(<span class="stringliteral">&quot;sizes&quot;</span>));</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  }</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> nd = model.<a class="code" href="classfirestarr_1_1sim_1_1Model.html#ad055295ef517b62ad0557e37a7628a7c">nd</a>(day);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <a class="code" href="namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a">logging::note</a>(<span class="stringliteral">&quot;Fuels for day %d are %s green-up and grass has %d%% curing&quot;</span>,</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                day - <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_day),</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                <a class="code" href="namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb">fuel::calculate_is_green</a>(nd) ? <span class="stringliteral">&quot;after&quot;</span> : <span class="stringliteral">&quot;before&quot;</span>,</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                <a class="code" href="namespacefirestarr_1_1fuel.html#af7a1a489774c9e7d8e4245409d07d7f5">fuel::calculate_grass_curing</a>(nd));</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;}</div>
-<div class="line"><a name="l00253"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a58dd2226c014b4e47497e0fd8e6cdad0">  253</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveTotal(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  all_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;}</div>
-<div class="line"><a name="l00257"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a60e81fdaa3857131564e8d597719da01">  257</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveTotalCount(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  all_.saveToProbabilityFile&lt;uint32&gt;(Settings::outputDirectory(), base_name, 1);</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;}</div>
-<div class="line"><a name="l00261"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#aa94b569416b986773d17686d1ce6c70a">  261</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveHigh(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  high_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
-<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#afb01d45778d56b59f41da61e8e1b9b98">  265</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveModerate(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  med_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
-<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a7a1cb1eb99331b70a8cef262f5bbb0df">  269</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveLow(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  low_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;}</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;}</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">if</span> (Settings::saveIntensity())</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      saveLow(make_string(<span class="stringliteral">&quot;intensity_L&quot;</span>));</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      saveModerate(make_string(<span class="stringliteral">&quot;intensity_M&quot;</span>));</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      saveHigh(make_string(<span class="stringliteral">&quot;intensity_H&quot;</span>));</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    saveSizes(make_string(<span class="stringliteral">&quot;sizes&quot;</span>));</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> nd = model.<a class="code" href="classfirestarr_1_1sim_1_1Model.html#ad055295ef517b62ad0557e37a7628a7c">nd</a>(day);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <a class="code" href="namespacefirestarr_1_1logging.html#a0ce472ba500e288fc9ddce4fe754ff9a">logging::note</a>(<span class="stringliteral">&quot;Fuels for day %d are %s green-up and grass has %d%% curing&quot;</span>,</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                day - <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_day),</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <a class="code" href="namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb">fuel::calculate_is_green</a>(nd) ? <span class="stringliteral">&quot;after&quot;</span> : <span class="stringliteral">&quot;before&quot;</span>,</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                <a class="code" href="namespacefirestarr_1_1fuel.html#af7a1a489774c9e7d8e4245409d07d7f5">fuel::calculate_grass_curing</a>(nd));</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;}</div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a58dd2226c014b4e47497e0fd8e6cdad0">  259</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveTotal(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  all_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;}</div>
+<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a60e81fdaa3857131564e8d597719da01">  263</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveTotalCount(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  all_.saveToProbabilityFile&lt;uint32&gt;(Settings::outputDirectory(), base_name, 1);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div>
+<div class="line"><a name="l00267"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#aa94b569416b986773d17686d1ce6c70a">  267</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveHigh(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  high_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;}</div>
+<div class="line"><a name="l00271"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#afb01d45778d56b59f41da61e8e1b9b98">  271</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveModerate(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  med_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;}</div>
+<div class="line"><a name="l00275"></a><span class="lineno"><a class="line" href="classfirestarr_1_1sim_1_1ProbabilityMap.html#a7a1cb1eb99331b70a8cef262f5bbb0df">  275</a></span>&#160;<span class="keywordtype">void</span> ProbabilityMap::saveLow(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  low_.saveToProbabilityFile&lt;<span class="keywordtype">float</span>&gt;(Settings::outputDirectory(), base_name, <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(numSizes()));</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;}</div>
 <div class="ttc" id="aFBP45_8h_html"><div class="ttname"><a href="FBP45_8h.html">FBP45.h</a></div></div>
 <div class="ttc" id="aIntensityMap_8h_html"><div class="ttname"><a href="IntensityMap_8h.html">IntensityMap.h</a></div></div>
 <div class="ttc" id="aModel_8h_html"><div class="ttname"><a href="Model_8h.html">Model.h</a></div></div>
@@ -372,8 +378,8 @@ $(function() {
 <div class="ttc" id="aclassfirestarr_1_1sim_1_1ProbabilityMap_html_ae0f5e1dbcce0c09d37a78cf0fe74a416"><div class="ttname"><a href="classfirestarr_1_1sim_1_1ProbabilityMap.html#ae0f5e1dbcce0c09d37a78cf0fe74a416">firestarr::sim::ProbabilityMap::sizes_</a></div><div class="ttdeci">vector&lt; double &gt; sizes_</div><div class="ttdoc">List of sizes for perimeters that have been added.</div><div class="ttdef"><b>Definition:</b> <a href="ProbabilityMap_8h_source.html#l00155">ProbabilityMap.h:155</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1sim_1_1ProbabilityMap_html_ae229c1622f7e9077e307fa7198f7ea4c"><div class="ttname"><a href="classfirestarr_1_1sim_1_1ProbabilityMap.html#ae229c1622f7e9077e307fa7198f7ea4c">firestarr::sim::ProbabilityMap::high_</a></div><div class="ttdeci">data::GridMap&lt; size_t &gt; high_</div><div class="ttdoc">Map representing high intensities.</div><div class="ttdef"><b>Definition:</b> <a href="ProbabilityMap_8h_source.html#l00143">ProbabilityMap.h:143</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1sim_1_1ProbabilityMap_html_ae419bb8d1251dcf7182ef44dc0659914"><div class="ttname"><a href="classfirestarr_1_1sim_1_1ProbabilityMap.html#ae419bb8d1251dcf7182ef44dc0659914">firestarr::sim::ProbabilityMap::time_</a></div><div class="ttdeci">const double time_</div><div class="ttdoc">Time in simulation this ProbabilityMap represents.</div><div class="ttdef"><b>Definition:</b> <a href="ProbabilityMap_8h_source.html#l00163">ProbabilityMap.h:163</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1Settings_html_a435f63a417f7f0d081390fd72cc96b39"><div class="ttname"><a href="classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39">firestarr::sim::Settings::runAsync</a></div><div class="ttdeci">static bool runAsync() noexcept</div><div class="ttdoc">Whether or not to run things asynchronously where possible.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00519">Settings.cpp:519</a></div></div>
-<div class="ttc" id="aclassfirestarr_1_1sim_1_1Settings_html_ab849706884373f551afab916f60f2fc4"><div class="ttname"><a href="classfirestarr_1_1sim_1_1Settings.html#ab849706884373f551afab916f60f2fc4">firestarr::sim::Settings::saveIntensity</a></div><div class="ttdeci">static bool saveIntensity() noexcept</div><div class="ttdoc">Whether or not to save intensity grids.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00535">Settings.cpp:535</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1Settings_html_a435f63a417f7f0d081390fd72cc96b39"><div class="ttname"><a href="classfirestarr_1_1sim_1_1Settings.html#a435f63a417f7f0d081390fd72cc96b39">firestarr::sim::Settings::runAsync</a></div><div class="ttdeci">static bool runAsync() noexcept</div><div class="ttdoc">Whether or not to run things asynchronously where possible.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00524">Settings.cpp:524</a></div></div>
+<div class="ttc" id="aclassfirestarr_1_1sim_1_1Settings_html_ab849706884373f551afab916f60f2fc4"><div class="ttname"><a href="classfirestarr_1_1sim_1_1Settings.html#ab849706884373f551afab916f60f2fc4">firestarr::sim::Settings::saveIntensity</a></div><div class="ttdeci">static bool saveIntensity() noexcept</div><div class="ttdoc">Whether or not to save intensity grids.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00540">Settings.cpp:540</a></div></div>
 <div class="ttc" id="aclassfirestarr_1_1util_1_1Statistics_html"><div class="ttname"><a href="classfirestarr_1_1util_1_1Statistics.html">firestarr::util::Statistics</a></div><div class="ttdoc">Provides statistics calculation for vectors of values.</div><div class="ttdef"><b>Definition:</b> <a href="Statistics_8h_source.html#l00134">Statistics.h:135</a></div></div>
 <div class="ttc" id="anamespacefirestarr_1_1fuel_html_a6a4a8aeb07fb52d3b332c57fd67bdffb"><div class="ttname"><a href="namespacefirestarr_1_1fuel.html#a6a4a8aeb07fb52d3b332c57fd67bdffb">firestarr::fuel::calculate_is_green</a></div><div class="ttdeci">constexpr bool calculate_is_green(const int nd)</div><div class="ttdoc">Calculate if green-up has occurred.</div><div class="ttdef"><b>Definition:</b> <a href="FBP45_8h_source.html#l00031">FBP45.h:31</a></div></div>
 <div class="ttc" id="anamespacefirestarr_1_1fuel_html_af7a1a489774c9e7d8e4245409d07d7f5"><div class="ttname"><a href="namespacefirestarr_1_1fuel.html#af7a1a489774c9e7d8e4245409d07d7f5">firestarr::fuel::calculate_grass_curing</a></div><div class="ttdeci">constexpr int calculate_grass_curing(const int nd)</div><div class="ttdef"><b>Definition:</b> <a href="FBP45_8h_source.html#l00039">FBP45.h:39</a></div></div>
