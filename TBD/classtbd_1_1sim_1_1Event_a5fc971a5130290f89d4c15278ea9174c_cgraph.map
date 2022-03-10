@@ -1,0 +1,7 @@
+<map id="tbd::sim::Event::makeFireSpread" name="tbd::sim::Event::makeFireSpread">
+<area shape="rect" id="node1" title="Make fire spread event." alt="" coords="5,78,172,119"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Event.html#a0d751a061b4613d3f2deba80cf9ec801" title="Cell Event takes place in." alt="" coords="237,5,369,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Event.html#a1b4093d350f35c8dde7ae0426ad350eb" title="Burn Intensity (kW/m)" alt="" coords="223,56,383,83"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Event.html#a99198cd864b48d15c88a3ab078faf8a8" title="Make fire spread event." alt="" coords="220,107,387,149"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Event.html#a9bf378fda8b20714085b5aec70499610" title="Time of Event (decimal days)" alt="" coords="435,144,572,171"/>
+</map>

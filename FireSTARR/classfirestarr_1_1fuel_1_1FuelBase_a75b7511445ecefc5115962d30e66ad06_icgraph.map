@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelBase::bulkDensity" name="firestarr::fuel::FuelBase::bulkDensity">
-<area shape="rect" id="node1" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="408,5,561,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelBase.html#a8f8697c56dd0787b4a0296344dac9229" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="207,5,360,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelBase.html#a748d7f71e6cb627cdcd62045900ca491" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,159,47"/>
-</map>

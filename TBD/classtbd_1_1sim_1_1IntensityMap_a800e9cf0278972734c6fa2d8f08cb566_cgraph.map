@@ -1,0 +1,10 @@
+<map id="tbd::sim::IntensityMap::isSurrounded" name="tbd::sim::IntensityMap::isSurrounded">
+<area shape="rect" id="node1" title="Whether or not the Location with the given hash can burn." alt="" coords="5,105,152,147"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="214,8,341,49"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1IntensityMap.html#a5c5065f642df43f417b83681a84798d3" title="Number of columns in this extent." alt="" coords="204,76,351,117"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="200,142,355,169"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1IntensityMap.html#a3331355cd9b0f06630f60f15d64f2ba9" title="Number of rows in this extent." alt="" coords="204,193,351,235"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="403,71,529,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Location.html#ac6d9e698ba125501dc5621ed2babaf9f" title="Column." alt="" coords="403,5,529,47"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Location.html#ac4411045a82382aa26397f4c7d23676a" title="Row from hash." alt="" coords="403,136,529,177"/>
+</map>

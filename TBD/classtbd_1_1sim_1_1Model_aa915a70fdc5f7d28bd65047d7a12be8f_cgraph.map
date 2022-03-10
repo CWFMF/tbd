@@ -1,0 +1,18 @@
+<map id="tbd::sim::Model::findStarts" name="tbd::sim::Model::findStarts">
+<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="5,226,175,253"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a7ab62639d50841e186013bf28507cc45" title="Cell at given row and column." alt="" coords="429,5,578,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519" title="Cell at the given row and column." alt="" coords="233,66,367,93"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="236,121,364,163"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="237,248,363,289"/>
+<area shape="rect" id="node9" href="$namespacetbd_1_1logging.html#a5aa6a96f8861e483cff761854b80d145" title="Log with ERROR level." alt="" coords="241,319,359,346"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="243,370,357,397"/>
+<area shape="rect" id="node13" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="231,446,369,473"/>
+<area shape="rect" id="node15" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="223,194,377,221"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="444,71,563,98"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="440,188,567,229"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Location.html#ac6d9e698ba125501dc5621ed2babaf9f" title="Column." alt="" coords="440,253,567,295"/>
+<area shape="rect" id="node10" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="629,363,751,404"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="439,370,568,397"/>
+<area shape="rect" id="node14" href="$classtbd_1_1topo_1_1Cell.html#a487ad9732e6781fa41a3fbc163dde4c7" title="Fuel." alt="" coords="425,471,581,498"/>
+<area shape="rect" id="node16" href="$classtbd_1_1topo_1_1Location.html#ac4411045a82382aa26397f4c7d23676a" title="Row from hash." alt="" coords="440,123,567,164"/>
+</map>

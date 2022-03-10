@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::confidenceLevel" name="firestarr::sim::Settings::confidenceLevel">
-<area shape="rect" id="node1" title="Confidence required before simulation stops (% / 100)" alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ae4dee120eb5578c02ce7bac8c1eb2242" title="Confidence required before simulation stops (% / 100)" alt="" coords="200,5,411,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="222,71,389,112"/>
-</map>

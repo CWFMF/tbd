@@ -1,4 +1,0 @@
-<map id="firestarr::data::ConstantGrid::saveToTiffFile" name="firestarr::data::ConstantGrid::saveToTiffFile">
-<area shape="rect" id="node1" title="Save contents to .tif file." alt="" coords="228,5,383,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Environment.html#a3574c58d65996f9ad0a30df2a1515579" title="Load from rasters." alt="" coords="5,5,180,47"/>
-</map>

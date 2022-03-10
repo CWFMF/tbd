@@ -1,9 +1,0 @@
-<map id="firestarr::topo::Perimeter" name="firestarr::topo::Perimeter">
-<area shape="rect" id="node1" title="Perimeter for an existing fire to initialize a simulation with." alt="" coords="152,675,311,796"/>
-<area shape="rect" id="node2" title=" " alt="" coords="171,505,291,597"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="82,175,234,428"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,73,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="97,5,248,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="258,263,351,340"/>
-<area shape="rect" id="node7" title=" " alt="" coords="285,5,324,83"/>
-</map>

@@ -1,0 +1,5 @@
+<map id="tbd::fuel::fbp::FuelD1::isfD1" name="tbd::fuel::fbp::FuelD1::isfD1">
+<area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="365,5,504,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixed.html#a29539a859ebc82a4602769aac738e2bf" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="185,5,317,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelMixed.html#a6641a6caefa02fa8735f8dec8a271ff8" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,5,137,47"/>
+</map>

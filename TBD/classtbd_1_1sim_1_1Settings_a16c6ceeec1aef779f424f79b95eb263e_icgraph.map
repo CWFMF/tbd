@@ -1,0 +1,7 @@
+<map id="tbd::sim::Settings::saveAsAscii" name="tbd::sim::Settings::saveAsAscii">
+<area shape="rect" id="node1" title="Whether or not to save grids as .asc." alt="" coords="205,104,327,145"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="7,5,156,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1IntensityMap.html#a8081440b4c92d8e5f8fa2c8f2fea9ba0" title="Save contents to an ASCII file." alt="" coords="8,71,155,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1MapObserver.html#a410c0c0bae901c60543b52fd9dc39314" title="Save observations." alt="" coords="6,136,157,177"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridMap.html#a23301cbdb6f152ec0d33cfbbfbbabf20" title="Save GridMap contents to .asc file as probability." alt="" coords="5,201,157,243"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbd::fuel::FuelVariable::survivalProbability" name="tbd::fuel::FuelVariable::survivalProbability">
+<area shape="rect" id="node1" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,39,151,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ab1c7c21271619c729cbcb26b1329fd26" title="Fuel to use before green&#45;up." alt="" coords="199,5,344,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a54360592457504e0aeb5f225345df38e" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="205,71,338,112"/>
+</map>

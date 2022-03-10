@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::simulationRecheckInterval" name="firestarr::sim::Settings::simulationRecheckInterval">
-<area shape="rect" id="node1" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="5,41,187,83"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="265,5,431,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a60010cdbeb90d1853ad3a369b99eed2c" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="235,70,461,126"/>
-</map>

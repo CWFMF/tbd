@@ -1,0 +1,12 @@
+<map id="tbd::fuel::FuelLookup" name="tbd::fuel::FuelLookup">
+<area shape="rect" id="node1" title="Provides ability to look up a fuel type based on name or code." alt="" coords="110,821,251,1045"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,659,164,751"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,314,172,391"/>
+<area shape="rect" id="node4" title=" " alt="" coords="192,5,231,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="218,314,322,391"/>
+<area shape="rect" id="node5" title=" " alt="" coords="191,652,371,759"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="369,145,555,560"/>
+<area shape="rect" id="node7" title=" " alt="" coords="331,5,377,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="437,5,487,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="511,5,602,83"/>
+</map>

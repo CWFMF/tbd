@@ -1,4 +1,0 @@
-<map id="firestarr::wx::FireWeather::weightedDsr" name="firestarr::wx::FireWeather::weightedDsr">
-<area shape="rect" id="node1" title="Weighted Danger Severity Rating for the stream." alt="" coords="203,5,365,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#ae7d06cd240c9a2a3fc2d9d54ae224544" title="Weighted Danger Severity Rating." alt="" coords="5,5,155,47"/>
-</map>

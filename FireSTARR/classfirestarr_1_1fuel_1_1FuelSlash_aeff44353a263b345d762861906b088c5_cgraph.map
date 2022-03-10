@@ -1,7 +1,0 @@
-<map id="firestarr::fuel::FuelSlash::surfaceFuelConsumption" name="firestarr::fuel::FuelSlash::surfaceFuelConsumption">
-<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 25]." alt="" coords="5,104,177,145"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelSlash.html#aa48782d7dc6c615e1cf15eb05f4ea030" title="Forest Floor Consumption parameter a [ST&#45;X&#45;3 eq 19/21/23]." alt="" coords="225,5,381,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelSlash.html#ab4672fbc36c9a10b66881d28f2e94685" title="Forest Floor Consumption parameter b [ST&#45;X&#45;3 eq 19/21/23]." alt="" coords="225,71,381,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelSlash.html#a20ebefe85abeb5a35d11966fe438a6e2" title="Woody Fuel Consumption parameter a [ST&#45;X&#45;3 eq 20/22/24]." alt="" coords="225,136,381,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelSlash.html#ab6ad58609c235687a70fe9334ba73249" title="Woody Fuel Consumption parameter b [ST&#45;X&#45;3 eq 20/22/24]." alt="" coords="225,201,381,243"/>
-</map>

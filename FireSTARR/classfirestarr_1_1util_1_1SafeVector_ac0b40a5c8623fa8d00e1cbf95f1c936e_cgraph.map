@@ -1,4 +1,0 @@
-<map id="firestarr::util::SafeVector::addValue" name="firestarr::util::SafeVector::addValue">
-<area shape="rect" id="node1" title="Add a value to the SafeVector." alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="212,5,339,47"/>
-</map>

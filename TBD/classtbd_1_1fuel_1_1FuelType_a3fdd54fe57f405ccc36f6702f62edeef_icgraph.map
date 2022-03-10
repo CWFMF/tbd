@@ -1,0 +1,8 @@
+<map id="tbd::fuel::FuelType::safeCode" name="tbd::fuel::FuelType::safeCode">
+<area shape="rect" id="node1" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="447,57,573,98"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#a8ea5649a165bf3997eb42a06badd396e" title=" " alt="" coords="247,5,399,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="248,57,397,98"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="263,123,383,149"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,123,199,149"/>
+<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,123,56,149"/>
+</map>

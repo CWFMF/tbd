@@ -1,0 +1,5 @@
+<map id="tbd::fuel::check_fuel" name="tbd::fuel::check_fuel">
+<area shape="rect" id="node1" title="Get FuelType based on the given cell." alt="" coords="5,31,141,57"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#ad4c403260ec0b4e23ebae77dfdcf4521" title="Look up a FuelType based on the given code." alt="" coords="193,5,342,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Cell.html#a487ad9732e6781fa41a3fbc163dde4c7" title="Fuel." alt="" coords="189,56,345,83"/>
+</map>

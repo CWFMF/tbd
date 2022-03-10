@@ -1,0 +1,5 @@
+<map id="tbd::data::LogValue" name="tbd::data::LogValue">
+<area shape="rect" id="node1" title="A result of calling log(x) for some value of x, pre&#45;calculated at compile time." alt="" coords="32,771,164,848"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html" title=" " alt="" coords="5,395,191,721"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="29,5,167,332"/>
+</map>

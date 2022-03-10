@@ -1,0 +1,13 @@
+<map id="tbd::wx::operator&lt;" name="tbd::wx::operator&lt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,245,128,272"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Weather.html#a4b5e2f1d175a4a4ebdb40384f1808a06" title="Accumulated Precipitation (mm)" alt="" coords="185,5,335,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1FwiWeather.html#a82e87495d69bdcf7ba510a94b8e61506" title="Build&#45;up Index." alt="" coords="180,56,340,83"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="181,107,339,133"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="176,157,344,184"/>
+<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1FwiWeather.html#ad06210654348daff788713a71284acbb" title="Fine Fuel Moisture Code." alt="" coords="191,209,329,250"/>
+<area shape="rect" id="node7" href="$classtbd_1_1wx_1_1FwiWeather.html#a4b50336f39d9b353f97d476d2e58988c" title="Fire Weather Index." alt="" coords="180,275,340,301"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1FwiWeather.html#aa7ce178a5eb8b76a668961fe4d364052" title="Initial Spread Index." alt="" coords="182,325,338,352"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad" title="Relative Humidity (%)" alt="" coords="193,376,327,403"/>
+<area shape="rect" id="node10" href="$classtbd_1_1wx_1_1Weather.html#a45b5f4438056e2b8d084b8843a19eecc" title="Temperature (Celsius)" alt="" coords="188,427,332,453"/>
+<area shape="rect" id="node11" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="185,477,335,504"/>
+</map>

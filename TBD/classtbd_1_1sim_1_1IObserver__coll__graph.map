@@ -1,0 +1,3 @@
+<map id="tbd::sim::IObserver" name="tbd::sim::IObserver">
+<area shape="rect" id="node1" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,5,136,215"/>
+</map>

@@ -1,6 +1,0 @@
-<map id="firestarr::logging::SelfLogger::log_note" name="firestarr::logging::SelfLogger::log_note">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="200,5,343,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="215,71,327,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="391,71,519,112"/>
-</map>

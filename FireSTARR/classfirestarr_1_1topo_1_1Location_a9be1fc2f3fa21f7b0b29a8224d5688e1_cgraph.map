@@ -1,8 +1,0 @@
-<map id="firestarr::topo::Location::doHash" name="firestarr::topo::Location::doHash">
-<area shape="rect" id="node1" title="Create a hash from given values." alt="" coords="5,72,157,113"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="219,40,371,81"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="205,109,384,135"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="432,71,584,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.html#a56f601ce843473ffa22fcffcd60b0618" title="Column." alt="" coords="432,5,584,47"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Location.html#af6bc728d57699e85915888e94b3f5d40" title="Row from hash." alt="" coords="432,136,584,177"/>
-</map>

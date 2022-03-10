@@ -1,0 +1,9 @@
+<map id="tbd::wx::FwiWeather::ffmc" name="tbd::wx::FwiWeather::ffmc">
+<area shape="rect" id="node1" title="Fine Fuel Moisture Code." alt="" coords="577,89,715,131"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a66d454133898096e1e8f5d4eff671b7a" title="Fine Fuel Moisture Code used for spread." alt="" coords="368,5,504,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="373,71,499,98"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="375,122,497,149"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="343,173,529,199"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,173,295,199"/>
+<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,173,56,199"/>
+</map>

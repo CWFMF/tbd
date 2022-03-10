@@ -1,5 +1,0 @@
-<map id="gethistoric.load_file" name="gethistoric.load_file">
-<area shape="rect" id="node1" title="Load data for a given run into the database." alt="" coords="403,31,535,57"/>
-<area shape="rect" id="node2" href="$namespacegethistoric.html#aaa4f9b97b4c630db5b33643caf3cf014" title="Save long range match data." alt="" coords="195,5,355,32"/>
-<area shape="rect" id="node3" href="$namespacegethistoric.html#a5254e397994d83a945575afcb0d5ad0e" title="Determine which past run files we have and load them." alt="" coords="5,23,147,65"/>
-</map>

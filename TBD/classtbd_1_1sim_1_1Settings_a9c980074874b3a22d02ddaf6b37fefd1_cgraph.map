@@ -1,0 +1,5 @@
+<map id="tbd::sim::Settings::confidenceLevel" name="tbd::sim::Settings::confidenceLevel">
+<area shape="rect" id="node1" title="Confidence required before simulation stops (% / 100)" alt="" coords="5,39,128,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a4af3d6d939e8fd5ec1e7ea19304bfedc" title="Confidence required before simulation stops (% / 100)" alt="" coords="176,5,387,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="176,71,387,112"/>
+</map>

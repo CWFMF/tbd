@@ -1,3 +1,0 @@
-<map id="firestarr::sim::IObserver" name="firestarr::sim::IObserver">
-<area shape="rect" id="node1" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,5,160,215"/>
-</map>

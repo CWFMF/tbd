@@ -1,6 +1,0 @@
-<map id="firestarr::topo::utm_central_meridian" name="firestarr::topo::utm_central_meridian">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,129,80"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a9a56b59e9e56e464019be9064248e613" title="Convert degrees to radians." alt="" coords="201,5,306,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1topo.html#a592202c035b67668804735681230bd48" title=" " alt="" coords="177,71,329,112"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="377,5,484,47"/>
-</map>

@@ -1,0 +1,8 @@
+<map id="gis.find_raster_meridians" name="gis.find_raster_meridians">
+<area shape="rect" id="node1" title="Find the meridians of input rasters for the given year." alt="" coords="861,5,1027,32"/>
+<area shape="rect" id="node2" href="$namespacegis.html#aa3db796d3e79c108633e4797ff105a61" title="Find the raster with the closest meridian." alt="" coords="679,5,813,32"/>
+<area shape="rect" id="node3" href="$namespacegis.html#ade86415df6e6689594f3a6982d3c9eb0" title="Convert a perimeter to a raster." alt="" coords="500,5,631,32"/>
+<area shape="rect" id="node4" href="$namespacetbd.html#a76333d70bd039fb65ba22680420eff3d" title=" " alt="" coords="369,5,452,32"/>
+<area shape="rect" id="node5" href="$namespaceget__fgmj.html#af14131bd8102b6677b92df99bfc4e100" title=" " alt="" coords="197,5,321,32"/>
+<area shape="rect" id="node6" href="$namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27" title=" " alt="" coords="5,5,149,32"/>
+</map>

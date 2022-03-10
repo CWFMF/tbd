@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Scenario::completed" name="firestarr::sim::Scenario::completed">
-<area shape="rect" id="node1" title="Number of Scenarios that have completed running." alt="" coords="285,5,435,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,237,47"/>
-<area shape="rect" id="node3" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
-</map>

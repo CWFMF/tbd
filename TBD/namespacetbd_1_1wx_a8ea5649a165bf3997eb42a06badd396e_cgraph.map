@@ -1,0 +1,8 @@
+<map id="tbd::wx::make_survival" name="tbd::wx::make_survival">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,157,105"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a3fdd54fe57f405ccc36f6702f62edeef" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="207,5,334,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelType.html#a342fe97a1cae08168ed7ab93632935ac" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="207,71,334,112"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="205,137,336,163"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a9158601435e5f99612885308d68648da" title="Code for this fuel type." alt="" coords="384,5,511,47"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html#a0e9014ba4690124add74fd7cdb6df722" title="Name of the fuel." alt="" coords="384,71,511,112"/>
+</map>

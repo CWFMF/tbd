@@ -1,0 +1,52 @@
+<map id="tbd::sim::Model::runIterations" name="tbd::sim::Model::runIterations">
+<area shape="rect" id="node1" title="Run Iterations until confidence is reached." alt="" coords="5,739,192,765"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="261,188,416,215"/>
+<area shape="rect" id="node9" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="541,305,660,332"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Settings.html#a8664e9fcc1ece9e151f676aaed81ca9a" title="Maximum number of Iterations to run at once if running async." alt="" coords="241,698,436,739"/>
+<area shape="rect" id="node14" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="537,943,665,969"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="276,763,401,805"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="261,533,416,574"/>
+<area shape="rect" id="node19" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="261,1515,416,1541"/>
+<area shape="rect" id="node20" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="256,1565,421,1592"/>
+<area shape="rect" id="node21" href="$namespacetbd_1_1sim.html#a8f919a2dc7f2caec01e4532c462680d9" title=" " alt="" coords="254,1891,423,1917"/>
+<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Settings.html#ac877cdde2b1e47f1090ab07192e234e8" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="507,357,694,398"/>
+<area shape="rect" id="node25" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="534,877,667,918"/>
+<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="240,883,437,909"/>
+<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="265,1464,413,1491"/>
+<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Settings.html#a18bcbf516e300f035e3e0eee7adf46c6" title="Whether or not to run things asynchronously where possible." alt="" coords="278,617,399,658"/>
+<area shape="rect" id="node49" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="263,305,414,332"/>
+<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Settings.html#a8500ef9e3b3a39cc4d0cfadcf58d1494" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="248,466,429,507"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="537,57,665,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1util_1_1SafeVector.html#a6501630d26bf2a92915e2f51a2161095" title="Get a vector with the stored values." alt="" coords="533,122,668,163"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a19fa0dd2f028cc3c06528057bfb407cc" title="Insert value into vector in sorted order even if it is already present." alt="" coords="529,5,673,32"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="507,188,695,215"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Settings.html#a48e1334d25c34b8ae63922316afd1a84" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="519,239,683,281"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="764,583,975,625"/>
+<area shape="rect" id="node10" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1023,935,1144,977"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="805,993,934,1020"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aeddbcbac847f9b00d59016029b285784" title="Maximum number of Iterations to run at once if running async." alt="" coords="495,642,706,683"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a925d19c5a8ed46736feea4e67530cebc" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="495,759,706,801"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aad3429116d8e1981c7896d5bc49d6e5d" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="495,474,706,515"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Model.html#aa8a7f526b1b5fe525febac5a501c9ff6" title="Create a ProbabilityMap with the same extent as this." alt="" coords="485,2140,716,2167"/>
+<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a2142c657a86e80af42059cfd762816b6" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="764,357,975,398"/>
+<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a9d7c84a23049ab0509f0b72f6c744964" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="764,877,975,918"/>
+<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="539,994,663,1035"/>
+<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="539,2074,663,2115"/>
+<area shape="rect" id="node31" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="791,2045,947,2086"/>
+<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Scenario.html#a2181d9e7d0197255c426ab15af8910f5" title="Whether or not a Cell can burn." alt="" coords="539,1059,663,1101"/>
+<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Scenario.html#a55938067a51d12385b928030ab40b62c" title="Get Cell for given row and column." alt="" coords="539,1125,663,1166"/>
+<area shape="rect" id="node34" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="537,1190,664,1231"/>
+<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1Scenario.html#aa109b93f40c500acdffcd4146857c54e" title="Current fire size (ha)" alt="" coords="539,1255,663,1297"/>
+<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1Model.html#aec5b7ddbd1dac837a9f64478aff3231c" title="Environment simulation is occurring in." alt="" coords="508,1321,693,1348"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="532,1373,669,1414"/>
+<area shape="rect" id="node38" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="531,1439,670,1465"/>
+<area shape="rect" id="node39" href="$classtbd_1_1logging_1_1SelfLogger.html#a0e130a853f4c5d7586fb3453f1cacc12" title=" " alt="" coords="523,1891,679,1933"/>
+<area shape="rect" id="node40" href="$classtbd_1_1logging_1_1SelfLogger.html#a5f694bb1d4caf8e7662921517f40b446" title=" " alt="" coords="523,1957,679,1998"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Event.html#a494c54e055285f319f96839aa9a82dbc" title="Make simulation end event." alt="" coords="517,1489,684,1516"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Event.html#a99198cd864b48d15c88a3ab078faf8a8" title="Make fire spread event." alt="" coords="517,1541,684,1582"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Event.html#a3225b67b6e6c3c7e0ad2ad1c7d947597" title="Make new fire event." alt="" coords="504,1607,697,1633"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Event.html#a5705cb9d70d87a8299c94786e5237f08" title="Make simulation save event." alt="" coords="513,1657,688,1684"/>
+<area shape="rect" id="node45" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="539,1709,663,1750"/>
+<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="540,1826,661,1867"/>
+<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Scenario.html#aa02ef37f10492fa787dccdbcceea6049" title="Whether or not this Scenario has run already." alt="" coords="527,1775,675,1801"/>
+</map>

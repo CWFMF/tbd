@@ -1,0 +1,7 @@
+<map id="tbd::util::MemoryPool::release" name="tbd::util::MemoryPool::release">
+<area shape="rect" id="node1" title="Add a T* to the pool of available T*s." alt="" coords="564,23,705,65"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#aefd44118cca0bad40a1519b0e3d95961" title="Call clear on T before releasing it." alt="" coords="377,5,515,32"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1util.html#af2fb1f79394edb5d4915b6b83b1e0a78" title="Call reset on T before releasing it." alt="" coords="376,56,516,83"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="204,49,328,90"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="5,49,156,90"/>
+</map>

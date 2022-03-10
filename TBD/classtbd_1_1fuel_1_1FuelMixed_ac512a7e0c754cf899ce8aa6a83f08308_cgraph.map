@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelMixed::crownConsumption" name="tbd::fuel::FuelMixed::crownConsumption">
+<area shape="rect" id="node1" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66, pg 38]." alt="" coords="5,39,144,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#a743ee4473d7e79131a3e4a63fec8edef" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="192,5,343,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelMixed.html#a0f25afb52abed76993e6c87121ca2944" title="Percent Conifer (% / 100)" alt="" coords="201,71,333,112"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1StandardFuel.html#ad91946af64a4f0ebab4a9e5244b6e509" title="Crown fuel load (kg/m^2) [ST&#45;X&#45;3 table 8]." alt="" coords="391,13,560,39"/>
+</map>

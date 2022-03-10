@@ -1,6 +1,0 @@
-<map id="firestarr::wx::FireWeather::minDate" name="firestarr::wx::FireWeather::minDate">
-<area shape="rect" id="node1" title="Minimum date present in FireWeather." alt="" coords="209,64,372,105"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a62154ec0821a0d80dd4b3d6a74988625" title="Add a save point for simulation data at the given offset." alt="" coords="9,5,158,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.html#a0c8d10fe976a60255354cf622c4930a0" title="Equality operator." alt="" coords="5,71,161,98"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Scenario.html#a84780c108d7f33dec201a322445727be" title="Constructor." alt="" coords="9,123,158,164"/>
-</map>

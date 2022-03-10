@@ -1,0 +1,5 @@
+<map id="tbd::fuel::FuelVariable::crownFractionBurned" name="tbd::fuel::FuelVariable::crownFractionBurned">
+<area shape="rect" id="node1" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#ab1c7c21271619c729cbcb26b1329fd26" title="Fuel to use before green&#45;up." alt="" coords="207,71,352,112"/>
+</map>

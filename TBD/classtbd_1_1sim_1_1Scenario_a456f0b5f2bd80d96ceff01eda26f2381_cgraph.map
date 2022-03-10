@@ -1,0 +1,6 @@
+<map id="tbd::sim::Scenario::clear" name="tbd::sim::Scenario::clear">
+<area shape="rect" id="node1" title="Clear the Event list and all other data." alt="" coords="5,35,129,76"/>
+<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="177,35,333,76"/>
+<area shape="rect" id="node3" href="$classtbd_1_1logging_1_1SelfLogger.html#a3941667b2400a87824ce80dc341a4ba7" title=" " alt="" coords="381,5,537,47"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="400,71,519,98"/>
+</map>

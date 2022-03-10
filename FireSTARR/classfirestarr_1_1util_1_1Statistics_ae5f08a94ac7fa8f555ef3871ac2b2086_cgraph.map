@@ -1,7 +1,0 @@
-<map id="firestarr::util::Statistics::isConfident" name="firestarr::util::Statistics::isConfident">
-<area shape="rect" id="node1" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,64,155,105"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1Statistics.html#ae7d9596bdc38d7b4dc673ead813d9be8" title="Calculate Student&#39;s T value." alt="" coords="203,64,352,105"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1util_1_1Statistics.html#a3c04c3c46e5549ba7acd5796a7965347" title="Mean (average) value." alt="" coords="407,5,556,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1util_1_1Statistics.html#acfb6a4ba115f8251bb774fe6778359e6" title="Number of data points in the set." alt="" coords="400,71,563,98"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1util_1_1Statistics.html#a522d0c902df8017b81d011d7f75ca145" title="Sample Variance." alt="" coords="407,123,556,164"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::logging::Log::decreaseLogLevel" name="firestarr::logging::Log::decreaseLogLevel">
-<area shape="rect" id="node1" title="Decrease amount of logging output by one level." alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="216,5,344,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::StandardFuel::cfl" name="firestarr::fuel::StandardFuel::cfl">
-<area shape="rect" id="node1" title="Crown fuel load (kg/m^2) [ST&#45;X&#45;3 table 8]." alt="" coords="423,5,573,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.html#ab4baff796c6f6d1ab9cd8143c25f1dfb" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="211,5,375,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#ab0f8ff38e6a853f7c4f0f77df75ffdc9" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66, pg 38]." alt="" coords="5,5,163,47"/>
-</map>

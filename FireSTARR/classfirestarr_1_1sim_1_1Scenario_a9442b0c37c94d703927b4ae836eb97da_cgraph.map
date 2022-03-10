@@ -1,4 +1,0 @@
-<map id="firestarr::sim::Scenario::extinctionThreshold" name="firestarr::sim::Scenario::extinctionThreshold">
-<area shape="rect" id="node1" title="Get extinction threshold for given time." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="203,5,321,47"/>
-</map>

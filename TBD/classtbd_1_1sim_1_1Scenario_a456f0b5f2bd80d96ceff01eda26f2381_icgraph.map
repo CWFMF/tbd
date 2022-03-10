@@ -1,0 +1,6 @@
+<map id="tbd::sim::Scenario::clear" name="tbd::sim::Scenario::clear">
+<area shape="rect" id="node1" title="Clear the Event list and all other data." alt="" coords="376,39,500,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="204,5,328,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#ac2fff8142ac882799671b6b542a1829a" title=" " alt="" coords="204,71,328,112"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="5,5,156,47"/>
+</map>

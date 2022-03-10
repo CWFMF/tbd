@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::maxDateOffset" name="firestarr::sim::Settings::maxDateOffset">
-<area shape="rect" id="node1" title="Whatever the maximum value in the date offsets is." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="218,5,385,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#ab547350aa93eb2d6d8cf650ad3361b5e" title="Whatever the maximum value in the date offsets is." alt="" coords="200,71,403,112"/>
-</map>

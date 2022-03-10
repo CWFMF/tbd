@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelGrass::calculateRos" name="tbd::fuel::FuelGrass::calculateRos">
+<area shape="rect" id="node1" title="Calculate rate of spread (m/min)" alt="" coords="5,27,139,69"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#aa7bb9a4a636e994093a832226ec9d186" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="187,5,385,91"/>
+</map>

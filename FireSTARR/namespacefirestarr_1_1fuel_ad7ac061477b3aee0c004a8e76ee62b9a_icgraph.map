@@ -1,8 +1,0 @@
-<map id="firestarr::fuel::find_fuel_by_season" name="firestarr::fuel::find_fuel_by_season">
-<area shape="rect" id="node1" title=" " alt="" coords="225,136,344,177"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#aef4ae1e1517f987b8480df86416a331e" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="6,5,177,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a23b8ad0236a5b591a49217fc04647590" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="6,71,177,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a0b1494d1a97b88b7741b3334a3408f87" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="6,136,177,177"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a851f08296e9ec2c9c60195f1b7099773" title="Final rate of spread (m/min)" alt="" coords="6,201,177,243"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#aab3b4418e22678a7af192887980f8bc5" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,267,177,308"/>
-</map>

@@ -1,3 +1,0 @@
-<map id="firestarr::sim::IObserver_deleter" name="firestarr::sim::IObserver_deleter">
-<area shape="rect" id="node1" title="Deleter for IObserver to get around incomplete class with unique_ptr." alt="" coords="5,5,160,97"/>
-</map>

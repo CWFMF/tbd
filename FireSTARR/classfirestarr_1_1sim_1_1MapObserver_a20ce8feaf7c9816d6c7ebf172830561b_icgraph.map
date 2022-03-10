@@ -1,4 +1,0 @@
-<map id="firestarr::sim::MapObserver::getValue" name="firestarr::sim::MapObserver::getValue">
-<area shape="rect" id="node1" title="Function that returns the value we care about regarding the Event." alt="" coords="229,5,405,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1MapObserver.html#a4a4e343e1e1439ae6765cf50e1c23c56" title="Handle given event." alt="" coords="5,5,181,47"/>
-</map>

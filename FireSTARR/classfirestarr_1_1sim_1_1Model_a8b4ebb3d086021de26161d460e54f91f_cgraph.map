@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Model::isOutOfTime" name="firestarr::sim::Model::isOutOfTime">
-<area shape="rect" id="node1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="5,39,139,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#ad0285b922ff5861df6c949b5fc065f05" title="Time to use for simulation start." alt="" coords="187,5,320,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Model.html#a273e8da79fd8091cfac18ede49020985" title="Maximum amount of time simulation can run for before being stopped." alt="" coords="187,71,320,112"/>
-</map>

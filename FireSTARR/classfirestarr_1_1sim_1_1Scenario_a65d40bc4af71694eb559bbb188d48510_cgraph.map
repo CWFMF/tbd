@@ -1,7 +1,0 @@
-<map id="firestarr::sim::Scenario::weather" name="firestarr::sim::Scenario::weather">
-<area shape="rect" id="node1" title="FwiWeather for given time." alt="" coords="5,39,155,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="203,46,383,73"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="434,5,546,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="431,71,549,112"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="597,5,709,47"/>
-</map>

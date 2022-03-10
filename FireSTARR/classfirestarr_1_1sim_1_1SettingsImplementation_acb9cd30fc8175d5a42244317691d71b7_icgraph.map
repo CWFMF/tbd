@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::setConfidenceLevel" name="firestarr::sim::SettingsImplementation::setConfidenceLevel">
-<area shape="rect" id="node1" title="Set confidence required before simulation stops (% / 100)" alt="" coords="200,5,431,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#a8e1379e0b0e87a0b4f2b3a0982b49781" title="Set confidence required before simulation stops (% / 100)" alt="" coords="5,5,152,47"/>
-</map>

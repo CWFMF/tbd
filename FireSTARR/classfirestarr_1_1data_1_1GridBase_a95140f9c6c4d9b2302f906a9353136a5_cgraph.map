@@ -1,8 +1,0 @@
-<map id="firestarr::data::GridBase::createPrj" name="firestarr::data::GridBase::createPrj">
-<area shape="rect" id="node1" title="Create .prj file in directory with base name for file." alt="" coords="5,71,161,112"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="215,5,327,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="215,71,327,112"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1data.html#a8aa881855523df49449791df69a61c02" title=" " alt="" coords="209,136,332,177"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="540,5,668,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="380,35,492,76"/>
-</map>

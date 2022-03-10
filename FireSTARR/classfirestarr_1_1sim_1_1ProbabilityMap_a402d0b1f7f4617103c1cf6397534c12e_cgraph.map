@@ -1,8 +1,0 @@
-<map id="firestarr::sim::ProbabilityMap::addProbabilities" name="firestarr::sim::ProbabilityMap::addProbabilities">
-<area shape="rect" id="node1" title="Combine results from another ProbabilityMap into this one." alt="" coords="5,71,164,112"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="229,5,341,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1util.html#acc5bf52e0cc51625dbd07e45dab78417" title="Insert value into vector in sorted order even if it is already present." alt="" coords="222,71,349,112"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1Settings.html#ab849706884373f551afab916f60f2fc4" title="Whether or not to save intensity grids." alt="" coords="212,136,359,177"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="434,5,546,47"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="407,136,573,177"/>
-</map>

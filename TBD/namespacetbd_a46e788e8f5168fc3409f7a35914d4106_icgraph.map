@@ -1,0 +1,5 @@
+<map id="tbd::binary_find" name="tbd::binary_find">
+<area shape="rect" id="node1" title="Do binary search over function for T that results in value." alt="" coords="388,13,495,39"/>
+<area shape="rect" id="node2" href="$namespacetbd.html#a8b821bcc13925df3fd655ba828eb1e2f" title="Check lower and upper limits before doing binary search over function for T that results in value." alt="" coords="177,13,340,39"/>
+<area shape="rect" id="node3" href="$classtbd_1_1util_1_1Statistics.html#aa026d28fca37ae534205c6f42f8932a0" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="5,5,129,47"/>
+</map>

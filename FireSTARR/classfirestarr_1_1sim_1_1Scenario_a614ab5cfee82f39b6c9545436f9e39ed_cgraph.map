@@ -1,8 +1,0 @@
-<map id="firestarr::sim::Scenario::saveObservers" name="firestarr::sim::Scenario::saveObservers">
-<area shape="rect" id="node1" title="Tell Observers to save their data for the given time." alt="" coords="5,72,155,113"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a27a9b11eea8e32d1ca35af86310980e3" title="Tell Observers to save their data with base file name." alt="" coords="203,39,352,80"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Scenario.html#af9a9411e412fec6b624ba4b8a49d4992" title="Simulation number." alt="" coords="203,104,352,145"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Settings.html#ac21db35bf8e389d21c11c3ab5cedb805" title="Path to directory that outputs are saved to." alt="" coords="400,39,547,80"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="613,5,780,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a46f71c449e9645995584cfc492e21ceb" title="Path to directory that outputs are saved to." alt="" coords="595,71,799,112"/>
-</map>

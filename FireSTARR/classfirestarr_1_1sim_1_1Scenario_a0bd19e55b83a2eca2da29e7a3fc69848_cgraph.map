@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Scenario::cell" name="firestarr::sim::Scenario::cell">
-<area shape="rect" id="node1" title="Get Cell for given row and column." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#aba49482a87f60a7222c6329513996d25" title="Cell at the given row and column." alt="" coords="203,5,336,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#a63fb262bd6d79947b40c24a1c413e173" title="Cell at given row and column." alt="" coords="384,5,559,47"/>
-</map>

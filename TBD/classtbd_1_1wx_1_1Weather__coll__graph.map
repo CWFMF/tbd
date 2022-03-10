@@ -1,0 +1,11 @@
+<map id="tbd::wx::Weather" name="tbd::wx::Weather">
+<area shape="rect" id="node1" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="520,1229,636,1453"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="765,783,932,860"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="353,145,491,472"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1AccumulatedPrecipitation.html" title="Accumulated precipitation in mm." alt="" coords="481,783,697,860"/>
+<area shape="rect" id="node7" href="$classtbd_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="256,615,361,693"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="52,549,171,759"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="373,987,514,1064"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,65,83"/>
+<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction." alt="" coords="113,884,217,1167"/>
+</map>

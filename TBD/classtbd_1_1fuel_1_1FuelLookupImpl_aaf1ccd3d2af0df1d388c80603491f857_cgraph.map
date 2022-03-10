@@ -1,0 +1,5 @@
+<map id="tbd::fuel::FuelLookupImpl::emplaceFuel" name="tbd::fuel::FuelLookupImpl::emplaceFuel">
+<area shape="rect" id="node1" title="Put fuel into lookup table based on name." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a342fe97a1cae08168ed7ab93632935ac" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="220,5,347,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a0e9014ba4690124add74fd7cdb6df722" title="Name of the fuel." alt="" coords="395,5,521,47"/>
+</map>

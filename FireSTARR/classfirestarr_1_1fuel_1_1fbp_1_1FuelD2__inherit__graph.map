@@ -1,8 +1,0 @@
-<map id="firestarr::fuel::fbp::FuelD2" name="firestarr::fuel::fbp::FuelD2">
-<area shape="rect" id="node1" title="FBP fuel type D&#45;2." alt="" coords="31,1913,216,2123"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html" title=" " alt="" coords="46,1655,201,1864"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="5,889,231,1304"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html" title="A StandardFuel that is not made of multiple fuels." alt="" coords="139,1353,337,1577"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="13,499,223,840"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="25,5,211,449"/>
-</map>

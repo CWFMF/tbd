@@ -1,9 +1,0 @@
-<map id="firestarr::wx::operator==" name="firestarr::wx::operator==">
-<area shape="rect" id="node1" title="Equality operator." alt="" coords="5,103,161,130"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FireWeather.html#a475cd722bfbd68bf5e6a5db5e14c80f9" title="Get FwiWeather for given time." alt="" coords="209,45,389,71"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1wx_1_1FireWeather.html#a647dc1e60ea9bd9db334ea9df7d122a4" title="Maximum date present in FireWeather." alt="" coords="218,96,381,137"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1wx_1_1FireWeather.html#a4f2e8d87a50db4bd00d1ef2d62fb026c" title="Minimum date present in FireWeather." alt="" coords="218,161,381,203"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="441,5,553,47"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="437,71,556,112"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="604,5,716,47"/>
-</map>

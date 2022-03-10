@@ -1,0 +1,5 @@
+<map id="tbd::topo::footpoint_latitude" name="tbd::topo::footpoint_latitude">
+<area shape="rect" id="node1" title="Computes the footpoint latitude." alt="" coords="403,5,529,47"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1topo.html#aa543c82b099742ebd2db8d0ec01b4eab" title="Converts Transverse Mercator to latitude/longitude." alt="" coords="216,5,355,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1topo.html#a9b00fc96e95d2dd52c49095d355c770d" title="Convert UTM to latitude/longitude." alt="" coords="5,13,168,39"/>
+</map>

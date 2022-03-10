@@ -1,4 +1,0 @@
-<map id="firestarr::sim::Scenario::dayEnd" name="firestarr::sim::Scenario::dayEnd">
-<area shape="rect" id="node1" title="Sunset time for given day." alt="" coords="5,5,155,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1StartPoint.html#aecf4a0228109fece6a83658192c1674c" title="Sunset time." alt="" coords="203,5,363,47"/>
-</map>

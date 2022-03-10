@@ -1,0 +1,4 @@
+<map id="tbd::topo::Environment::makeBurnedData" name="tbd::topo::Environment::makeBurnedData">
+<area shape="rect" id="node1" title="Create BurnedData and set burned bits based on Perimeter." alt="" coords="227,5,376,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="5,5,179,47"/>
+</map>

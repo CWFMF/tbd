@@ -1,7 +1,0 @@
-<map id="firestarr::util::make_directory" name="firestarr::util::make_directory">
-<area shape="rect" id="node1" title="Make the given directory if it does not exist." alt="" coords="652,23,779,65"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#ae3b22e446ec7ab8aad35999e15b014b0" title="Make the given directory and any parent directories that do not exist." alt="" coords="465,23,604,65"/>
-<area shape="rect" id="node3" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="272,31,417,57"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,31,224,57"/>
-</map>

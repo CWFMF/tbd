@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelVariable::crownFractionBurned" name="firestarr::fuel::FuelVariable::crownFractionBurned">
-<area shape="rect" id="node1" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#add8ecf3a277fb57eb69248ce3bc30efb" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="234,5,385,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelVariable.html#a27d6eb6b1eef9ba2420c1d5c7bf582d4" title="Fuel to use before green&#45;up." alt="" coords="224,71,395,112"/>
-</map>

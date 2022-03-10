@@ -1,0 +1,7 @@
+<map id="tbd::wx::Direction::asRadians" name="tbd::wx::Direction::asRadians">
+<area shape="rect" id="node1" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="5,35,124,76"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="177,5,296,47"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="172,71,301,98"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="349,13,517,39"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a17655e7a400e8955146ef7ae23461408" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="368,71,499,98"/>
+</map>

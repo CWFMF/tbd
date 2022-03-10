@@ -1,4 +1,0 @@
-<map id="firestarr::wx::FwiWeather::mcDmc" name="firestarr::wx::FwiWeather::mcDmc">
-<area shape="rect" id="node1" title="Moisture content (ratio) based on Dmc." alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1FwiWeather.html#aab8757d23a08227d114d3a844311c517" title="Moisture content (%) based on Dmc." alt="" coords="216,5,379,47"/>
-</map>

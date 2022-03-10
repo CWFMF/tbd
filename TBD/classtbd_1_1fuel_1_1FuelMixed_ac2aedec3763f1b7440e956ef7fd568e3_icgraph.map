@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelMixed::surfaceFuelConsumption" name="tbd::fuel::FuelMixed::surfaceFuelConsumption">
+<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 10]." alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixedWood.html#a9ccd5de24e45da7b230de873e0fa82a1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 17]." alt="" coords="5,5,177,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbd::logging::SelfLogger::log_info" name="tbd::logging::SelfLogger::log_info">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,161,76"/>
+<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1SelfLogger.html#a3941667b2400a87824ce80dc341a4ba7" title=" " alt="" coords="209,5,365,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="223,71,352,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="413,64,535,105"/>
+</map>

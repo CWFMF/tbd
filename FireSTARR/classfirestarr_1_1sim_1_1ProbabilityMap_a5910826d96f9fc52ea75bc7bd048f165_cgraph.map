@@ -1,5 +1,0 @@
-<map id="firestarr::sim::ProbabilityMap::addProbability" name="firestarr::sim::ProbabilityMap::addProbability">
-<area shape="rect" id="node1" title="Add in an IntensityMap to the appropriate probability grid based on each cell burn intensity." alt="" coords="5,39,164,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a2e9c1926c7e1b6a182681ffcd3597b90" title="Iterator for underlying GridMap." alt="" coords="212,5,359,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a1ead3e51f69db1ab1a6bfac807ced79d" title="Iterator for underlying GridMap." alt="" coords="212,71,359,112"/>
-</map>

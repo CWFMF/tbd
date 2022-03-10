@@ -1,5 +1,0 @@
-<map id="firestarr::data::GridMap::saveToProbabilityFile" name="firestarr::data::GridMap::saveToProbabilityFile">
-<area shape="rect" id="node1" title="Save GridMap contents to .asc file as probability." alt="" coords="5,5,157,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#af45b05819efc38dc1c1703a4f1a598ef" title="Whether or not to save grids as .asc." alt="" coords="205,5,352,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="400,5,567,47"/>
-</map>

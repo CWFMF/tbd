@@ -1,0 +1,5 @@
+<map id="tbd::sim::SpreadInfo::dc" name="tbd::sim::SpreadInfo::dc">
+<area shape="rect" id="node1" title="Drought Code used for spread." alt="" coords="5,35,161,61"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="209,5,367,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="220,57,356,98"/>
+</map>

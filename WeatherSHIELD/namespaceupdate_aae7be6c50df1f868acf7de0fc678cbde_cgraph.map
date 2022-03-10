@@ -1,4 +1,0 @@
-<map id="update.get_standard" name="update.get_standard">
-<area shape="rect" id="node1" title="Get standard available weather." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$namespaceupdate.html#a92665ad897ee9e6d25a4dcd5a2ec1bc0" title="Try to run function and ignore failure." alt="" coords="192,5,315,32"/>
-</map>

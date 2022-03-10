@@ -1,8 +1,0 @@
-<map id="firestarr::wx::make_survival" name="firestarr::wx::make_survival">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,131,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#af5a3f460d906dbd37e70ea06532c2d01" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="179,5,329,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelType.html#adc303bf4a936c65869ad225884338842" title="Convert FuelType to its name, or 0 if nullptr." alt="" coords="179,71,329,112"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="195,136,313,177"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelType.html#abafed0f685ef59a90afdf7af3d8ea110" title="Code for this fuel type." alt="" coords="377,5,528,47"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelType.html#a30b502469a8011c6df38119eb33736fc" title="Name of the fuel." alt="" coords="377,71,528,112"/>
-</map>

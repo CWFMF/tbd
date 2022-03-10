@@ -1,0 +1,7 @@
+<map id="tbd::fuel::FuelVariable::calculateIsf" name="tbd::fuel::FuelVariable::calculateIsf">
+<area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,71,151,112"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="213,5,340,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1fuel.html#a9617fe80fed0d3d52ab32a956bcee9fa" title=" " alt="" coords="216,71,337,112"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="199,137,355,163"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1fuel.html#a35f38b87438f75c4da2be966ce3fdf45" title="Calculate if green&#45;up has occurred." alt="" coords="403,71,528,112"/>
+</map>

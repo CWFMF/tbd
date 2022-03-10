@@ -1,9 +1,0 @@
-<map id="firestarr::fuel::FuelType::code" name="firestarr::fuel::FuelType::code">
-<area shape="rect" id="node1" title="Code for this fuel type." alt="" coords="693,71,844,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelType.html#af5a3f460d906dbd37e70ea06532c2d01" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="495,71,645,112"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1wx.html#a81aebfc241a2535bf8244cef8756904e" title=" " alt="" coords="297,5,422,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Environment.html#a930d3a17258143b20f2a4ed2cb8a1649" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="272,71,447,112"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1sim.html#a4e9ae7c464517ec7d85c6e49d4478032" title=" " alt="" coords="287,137,432,163"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1sim.html#a96b22fe1cbbbe23ee5add23f198bf3d6" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,137,224,163"/>
-<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,137,56,163"/>
-</map>

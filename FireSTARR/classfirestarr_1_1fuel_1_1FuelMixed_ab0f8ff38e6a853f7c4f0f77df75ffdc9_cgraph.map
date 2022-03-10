@@ -1,6 +1,0 @@
-<map id="firestarr::fuel::FuelMixed::crownConsumption" name="firestarr::fuel::FuelMixed::crownConsumption">
-<area shape="rect" id="node1" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66, pg 38]." alt="" coords="5,39,163,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1StandardFuel.html#ab4baff796c6f6d1ab9cd8143c25f1dfb" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="211,5,375,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a4d7ee66483e7cf1946c38cf857ec3167" title="Percent Conifer (% / 100)" alt="" coords="214,71,371,112"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1StandardFuel.html#ad1106cc122aeab357ef5b7fee8364df3" title="Crown fuel load (kg/m^2) [ST&#45;X&#45;3 table 8]." alt="" coords="423,5,573,47"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="firestarr::fuel::FuelMixed::calculateIsf" name="firestarr::fuel::FuelMixed::calculateIsf">
-<area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,157,163,199"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a647efb3229650c2dca4ff810ce9825ae" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="244,37,401,79"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1StandardFuel.html#a15ff42656b872ab4c97bb64119687ad1" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="211,103,435,173"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a4d7ee66483e7cf1946c38cf857ec3167" title="Percent Conifer (% / 100)" alt="" coords="244,197,401,239"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#ab4fb76034d7a147501a998921d2271ba" title="Percent Deciduous (% / 100)" alt="" coords="244,263,401,304"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelD1.html#a9287c2b2b8ff44d835d5820d8a5ffab0" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="503,5,619,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a6a97f32603cbc5cfde5392627b2959e7" title="Rate of spread multiplier [ST&#45;X&#45;3 eq 27/28, GLC&#45;X&#45;10 eq 29/30]." alt="" coords="483,71,640,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="firestarr::wx::Bui::Bui" name="firestarr::wx::Bui::Bui">
-<area shape="rect" id="node1" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="5,13,143,39"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1logging.html#a7ecc8a94d5ffa708b378cfa37e8d4fe5" title=" " alt="" coords="191,5,303,47"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="351,5,463,47"/>
-</map>

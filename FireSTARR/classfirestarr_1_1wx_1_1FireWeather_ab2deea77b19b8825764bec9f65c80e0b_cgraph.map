@@ -1,4 +1,0 @@
-<map id="firestarr::wx::FireWeather::survivalProbability" name="firestarr::wx::FireWeather::survivalProbability">
-<area shape="rect" id="node1" title="Probability of survival in given fuel at given time." alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a5a25c7eae1bb4c27eee50652d9ff3675" title="Convert day and hour into time index." alt="" coords="216,5,335,47"/>
-</map>

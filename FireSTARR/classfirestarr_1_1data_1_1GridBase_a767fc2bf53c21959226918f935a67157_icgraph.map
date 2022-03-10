@@ -1,4 +1,0 @@
-<map id="firestarr::data::GridBase::meridian" name="firestarr::data::GridBase::meridian">
-<area shape="rect" id="node1" title="Central meridian of UTM zone for this grid." alt="" coords="228,5,384,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1EnvironmentInfo.html#a4e60f3017bf27790c0a7a2411362bd3f" title="Central meridian of UTM projection this uses." alt="" coords="5,5,180,47"/>
-</map>

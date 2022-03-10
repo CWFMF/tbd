@@ -1,0 +1,4 @@
+<map id="tbd::sim::Settings::offsetSunset" name="tbd::sim::Settings::offsetSunset">
+<area shape="rect" id="node1" title="Offset from sunrise at which the day is considered to end (hours)" alt="" coords="196,5,317,47"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1topo.html#a650c4d1c382a8243948120d080d99522" title=" " alt="" coords="5,13,148,39"/>
+</map>

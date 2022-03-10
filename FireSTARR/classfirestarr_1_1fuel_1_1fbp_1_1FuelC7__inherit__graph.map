@@ -1,9 +1,0 @@
-<map id="firestarr::fuel::fbp::FuelC7" name="firestarr::fuel::fbp::FuelC7">
-<area shape="rect" id="node1" title="FBP fuel type C&#45;7." alt="" coords="31,2187,216,2381"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1FuelConifer.html" title=" " alt="" coords="41,1928,205,2137"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelNonMixed.html" title="A StandardFuel that is not made of multiple fuels." alt="" coords="19,1353,217,1577"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1fuel_1_1FuelConifer.html" title="A conifer fuel type." alt="" coords="139,1627,342,1851"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="5,889,231,1304"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="13,499,223,840"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="25,5,211,449"/>
-</map>

@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelType::crownFractionBurned" name="tbd::fuel::FuelType::crownFractionBurned">
+<area shape="rect" id="node1" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,5,156,47"/>
+</map>

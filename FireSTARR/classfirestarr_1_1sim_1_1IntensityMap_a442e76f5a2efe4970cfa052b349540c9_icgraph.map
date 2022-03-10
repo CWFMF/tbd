@@ -1,4 +1,0 @@
-<map id="firestarr::sim::IntensityMap::rows" name="firestarr::sim::IntensityMap::rows">
-<area shape="rect" id="node1" title="Number of rows in this extent." alt="" coords="200,5,347,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IntensityMap.html#a9c24dbd41b96c1bbdf93c62725f4c0f2" title="Whether or not the Location with the given hash can burn." alt="" coords="5,5,152,47"/>
-</map>

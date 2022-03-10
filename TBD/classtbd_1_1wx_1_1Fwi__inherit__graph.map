@@ -1,0 +1,4 @@
+<map id="tbd::wx::Fwi" name="tbd::wx::Fwi">
+<area shape="rect" id="node1" title="Fire Weather Index value." alt="" coords="30,380,119,472"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,144,332"/>
+</map>

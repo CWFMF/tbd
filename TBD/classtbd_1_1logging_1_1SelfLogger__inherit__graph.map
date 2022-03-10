@@ -1,0 +1,5 @@
+<map id="tbd::logging::SelfLogger" name="tbd::logging::SelfLogger">
+<area shape="rect" id="node1" title=" " alt="" coords="23,5,179,215"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,263,196,1528"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="25,1576,176,1727"/>
+</map>

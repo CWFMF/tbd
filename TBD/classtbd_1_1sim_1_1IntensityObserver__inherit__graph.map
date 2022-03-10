@@ -1,0 +1,4 @@
+<map id="tbd::sim::IntensityObserver" name="tbd::sim::IntensityObserver">
+<area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="5,263,180,472"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="27,5,158,215"/>
+</map>

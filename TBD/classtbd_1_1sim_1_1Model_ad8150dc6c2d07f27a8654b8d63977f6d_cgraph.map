@@ -1,0 +1,13 @@
+<map id="tbd::sim::Model::Model" name="tbd::sim::Model::Model">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,231,155,258"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#a9663fa5d24f3470bab91111babae7bb8" title=" " alt="" coords="223,5,348,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1fuel.html#a35f38b87438f75c4da2be966ce3fdf45" title="Calculate if green&#45;up has occurred." alt="" coords="223,71,348,112"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1sim.html#a543b218d89a7061751f9e8eb722c4cc0" title="Possible results of an attempt to spread." alt="" coords="223,136,348,177"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="221,202,349,229"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="211,253,360,295"/>
+<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="208,319,363,346"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="203,370,368,397"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="216,421,355,447"/>
+<area shape="rect" id="node6" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="593,275,715,316"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="416,282,545,309"/>
+</map>

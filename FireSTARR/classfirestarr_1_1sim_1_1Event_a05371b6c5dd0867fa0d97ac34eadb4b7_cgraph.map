@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Event::makeFireSpread" name="firestarr::sim::Event::makeFireSpread">
-<area shape="rect" id="node1" title="Make fire spread event." alt="" coords="5,71,136,112"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Event.html#a32d8dca5bcd899898aed398a07ac14f8" title="Burn Intensity (kW/m)" alt="" coords="184,5,315,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1Event.html#a23e06e997d566bf8609c45c0b06ab941" title="Make fire spread event." alt="" coords="184,71,315,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Event.html#a0b95b65827ca8c62446f19b4d2136a94" title="Time of Event (decimal days)" alt="" coords="363,100,493,141"/>
-</map>

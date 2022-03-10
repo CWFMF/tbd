@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelType::calculateIsf" name="tbd::fuel::FuelType::calculateIsf">
+<area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="199,5,325,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#a4b2e53d8e683b17e2e3af752ffab320b" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,151,47"/>
+</map>

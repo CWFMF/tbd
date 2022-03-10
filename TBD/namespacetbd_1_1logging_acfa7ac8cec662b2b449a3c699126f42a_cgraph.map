@@ -1,0 +1,5 @@
+<map id="tbd::logging::info" name="tbd::logging::info">
+<area shape="rect" id="node1" title="Log with INFO level." alt="" coords="5,13,120,39"/>
+<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="345,5,467,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="168,38,297,65"/>
+</map>

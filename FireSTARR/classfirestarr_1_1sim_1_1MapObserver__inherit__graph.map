@@ -1,8 +1,0 @@
-<map id="firestarr::sim::MapObserver&lt; T &gt;" name="firestarr::sim::MapObserver&lt; T &gt;">
-<area shape="rect" id="node1" title="An IObserver that tracks notification data using a GridMap." alt="" coords="99,264,305,488"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1MapObserver.html" title=" " alt="" coords="15,551,191,789"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1sim_1_1MapObserver.html" title=" " alt="" coords="222,551,398,789"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="125,5,279,215"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1ArrivalObserver.html" title="Tracks when fire initially arrives in a Cell." alt="" coords="5,839,193,1004"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1SourceObserver.html" title="Tracks source Cell that fire arrived in Cell from." alt="" coords="218,839,410,1004"/>
-</map>

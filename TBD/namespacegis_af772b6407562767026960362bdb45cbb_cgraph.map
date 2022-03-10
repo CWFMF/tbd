@@ -1,0 +1,4 @@
+<map id="gis.Rasterize" name="gis.Rasterize">
+<area shape="rect" id="node1" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node2" href="$namespacegis.html#ad5aebd38aeb7e3cec0cb7629bec7216e" title="Determine spatial reference from a source file." alt="" coords="149,5,312,32"/>
+</map>

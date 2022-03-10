@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelType::isCrown" name="tbd::fuel::FuelType::isCrown">
+<area shape="rect" id="node1" title="Whether or not this is a crown fire." alt="" coords="189,5,316,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+</map>

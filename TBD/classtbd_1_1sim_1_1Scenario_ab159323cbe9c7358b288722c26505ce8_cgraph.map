@@ -1,0 +1,19 @@
+<map id="tbd::sim::Scenario::reset" name="tbd::sim::Scenario::reset">
+<area shape="rect" id="node1" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,123,129,164"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a6d91ab7290f8c82c8423c3903a9bd168" title="Determine rate of spread from probability of spread threshold." alt="" coords="177,5,368,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1util.html#af2fb1f79394edb5d4915b6b83b1e0a78" title="Call reset on T before releasing it." alt="" coords="203,71,343,98"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="211,123,335,164"/>
+<area shape="rect" id="node9" href="$namespacetbd_1_1sim.html#aa8b7e3e2af7531687eb8629139f98a14" title=" " alt="" coords="190,191,355,218"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="211,243,335,284"/>
+<area shape="rect" id="node4" href="$classtbd_1_1util_1_1MemoryPool.html#aa318fa60b470852788ba18323cfd77db" title="Add a T* to the pool of available T*s." alt="" coords="431,53,573,95"/>
+<area shape="rect" id="node6" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="424,119,580,160"/>
+<area shape="rect" id="node7" href="$classtbd_1_1logging_1_1SelfLogger.html#a3941667b2400a87824ce80dc341a4ba7" title=" " alt="" coords="663,61,819,103"/>
+<area shape="rect" id="node8" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="682,127,801,154"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1Settings.html#ab948c2aeabe3b781cbeddab875e30ce4" title="Weight to give to daily part of thresholds." alt="" coords="427,249,577,291"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Settings.html#ada2501a04a36d7f712263e864c90f369" title="Weight to give to hourly part of thresholds." alt="" coords="423,184,581,225"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#aa9f0e6dfcfdcfd2f93c60246cebae558" title="Weight to give to Scenario part of thresholds." alt="" coords="416,315,588,356"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="636,312,847,353"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a390eafeb7ca855861639a841807281be" title="Weight to give to daily part of thresholds." alt="" coords="636,247,847,288"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa9f8e19e000f7d4c29078eda7d4eda09" title="Weight to give to hourly part of thresholds." alt="" coords="636,181,847,223"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a3ede35b555fce23af12859bd7d9120ad" title="Weight to give to Scenario part of thresholds." alt="" coords="636,377,847,419"/>
+</map>

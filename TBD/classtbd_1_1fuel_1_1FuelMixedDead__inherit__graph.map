@@ -1,0 +1,13 @@
+<map id="tbd::fuel::FuelMixedDead&lt; A, B, C, Bui0, RosMultiplier, PercentDeadFir &gt;" name="tbd::fuel::FuelMixedDead&lt; A, B, C, Bui0, RosMultiplier, PercentDeadFir &gt;">
+<area shape="rect" id="node1" title="A fuel made of dead fir and D1." alt="" coords="83,2625,277,2820"/>
+<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1FuelMixedDead.html" title=" " alt="" coords="5,2897,168,3092"/>
+<area shape="rect" id="node10" href="$classtbd_1_1fuel_1_1FuelMixedDead.html" title=" " alt="" coords="192,2897,355,3092"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixed.html" title=" " alt="" coords="83,2264,277,2576"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1StandardFuel.html" title=" " alt="" coords="73,1396,276,1811"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1FuelMixed.html" title="A mixedwood fuel type." alt="" coords="195,1860,394,2187"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="64,499,275,840"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="190,889,415,1304"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="77,5,262,449"/>
+<area shape="rect" id="node9" href="$classtbd_1_1fuel_1_1fbp_1_1FuelM4.html" title="FBP fuel type M&#45;4." alt="" coords="17,3141,157,3321"/>
+<area shape="rect" id="node11" href="$classtbd_1_1fuel_1_1fbp_1_1FuelM3.html" title="FBP fuel type M&#45;3." alt="" coords="203,3141,343,3321"/>
+</map>

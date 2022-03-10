@@ -1,0 +1,7 @@
+<map id="tbd::sim::Scenario::weather" name="tbd::sim::Scenario::weather">
+<area shape="rect" id="node1" title="FwiWeather for given time." alt="" coords="5,35,129,76"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="177,42,332,69"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="381,5,509,47"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="380,71,511,98"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="559,13,677,39"/>
+</map>

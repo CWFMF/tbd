@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelMixed::ratioConifer" name="tbd::fuel::FuelMixed::ratioConifer">
+<area shape="rect" id="node1" title="Percent Conifer (% / 100)" alt="" coords="192,71,324,112"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixed.html#a6641a6caefa02fa8735f8dec8a271ff8" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="9,5,141,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelMixed.html#a89cf2606534ce594ea7959222c092e47" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="9,71,141,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelMixed.html#ac512a7e0c754cf899ce8aa6a83f08308" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66, pg 38]." alt="" coords="5,136,144,177"/>
+</map>

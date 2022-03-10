@@ -1,0 +1,6 @@
+<map id="tbd::wx::FireWeather::minDate" name="tbd::wx::FireWeather::minDate">
+<area shape="rect" id="node1" title="Minimum date present in FireWeather." alt="" coords="184,64,323,105"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#a4b67d61225d685e5fa59813e901ef96d" title="Add a save point for simulation data at the given offset." alt="" coords="6,5,135,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a55ce6272a01d614a18cdd50b5387fd66" title="Equality operator." alt="" coords="5,71,136,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#a6e5582d39f54e2c386d54358c121e908" title="Constructor." alt="" coords="9,123,133,164"/>
+</map>

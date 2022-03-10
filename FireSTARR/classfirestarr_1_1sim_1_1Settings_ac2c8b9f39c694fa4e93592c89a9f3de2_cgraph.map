@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::thresholdScenarioWeight" name="firestarr::sim::Settings::thresholdScenarioWeight">
-<area shape="rect" id="node1" title="Weight to give to Scenario part of thresholds." alt="" coords="5,41,177,83"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="253,5,419,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a5c145a2ccb016d438762f9d9d203d3bd" title="Weight to give to Scenario part of thresholds." alt="" coords="225,70,447,126"/>
-</map>

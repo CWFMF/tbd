@@ -1,9 +1,0 @@
-<map id="firestarr::logging::error" name="firestarr::logging::error">
-<area shape="rect" id="node1" title="Log with ERROR level." alt="" coords="689,39,801,80"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a01f442cbfac0eb7538a6eeb690d45311" title="Get a list of rasters in the given directory for the specified year." alt="" coords="517,5,632,47"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1sim_1_1Model.html#a197a6f13fe401f0224fb6d6ff8314e76" title="Find Cell(s) that can burn closest to Location." alt="" coords="508,71,641,112"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#aa0516709efcabeeb94fac5ac9592ffd0" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="285,5,460,47"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1sim_1_1Model.html#af823eee83997ad23100b47cdcf2afc8a" title="Run Scenarios initialized from given inputs." alt="" coords="104,39,237,80"/>
-<area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,46,56,73"/>
-<area shape="rect" id="node7" href="$classfirestarr_1_1sim_1_1Model.html#aa426303dd9471bfc0f772042b64d7ed9" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="306,71,439,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Settings::outputDirectory" name="firestarr::sim::Settings::outputDirectory">
-<area shape="rect" id="node1" title="Path to directory that outputs are saved to." alt="" coords="5,39,152,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="219,5,385,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a46f71c449e9645995584cfc492e21ceb" title="Path to directory that outputs are saved to." alt="" coords="200,71,404,112"/>
-</map>

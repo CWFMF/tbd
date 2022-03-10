@@ -1,5 +1,0 @@
-<map id="firestarr::sim::Model::getBurnedVector" name="firestarr::sim::Model::getBurnedVector">
-<area shape="rect" id="node1" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="5,39,139,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Model.html#a59884aac3e028634fe2797c293800fd5" title="Environment simulation is occurring in." alt="" coords="207,5,341,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Environment.html#a15d727fba79ad7e309ef89e1a68e38b6" title="Create BurnedData and set burned bits based on Perimeter." alt="" coords="187,71,361,112"/>
-</map>

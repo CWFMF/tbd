@@ -1,4 +1,0 @@
-<map id="firestarr::wx::Wind::heading" name="firestarr::wx::Wind::heading">
-<area shape="rect" id="node1" title="Direction wind is going towards." alt="" coords="215,5,337,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
-</map>

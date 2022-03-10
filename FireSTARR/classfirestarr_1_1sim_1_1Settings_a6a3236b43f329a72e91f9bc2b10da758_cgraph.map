@@ -1,4 +1,0 @@
-<map id="firestarr::sim::Settings::setSaveOccurrence" name="firestarr::sim::Settings::setSaveOccurrence">
-<area shape="rect" id="node1" title="Set whether or not to save occurrence grids." alt="" coords="5,5,152,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1SettingsImplementation.html#a230bb0270a6af6f854d3ac24d3c9998e" title="The singleton instance for this class." alt="" coords="200,5,367,47"/>
-</map>

@@ -1,0 +1,4 @@
+<map id="tbd::wx::Wind::heading" name="tbd::wx::Wind::heading">
+<area shape="rect" id="node1" title="Direction wind is going towards." alt="" coords="189,13,337,39"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+</map>

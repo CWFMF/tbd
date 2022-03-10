@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::defaultPercentDeadFir" name="firestarr::sim::SettingsImplementation::defaultPercentDeadFir">
-<area shape="rect" id="node1" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="211,5,412,61"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#a3c30c8f213ec8a03c23abb0515301d08" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="5,13,163,54"/>
-</map>

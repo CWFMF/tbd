@@ -1,0 +1,13 @@
+<map id="tbd::data::GridBase::proj4" name="tbd::data::GridBase::proj4">
+<area shape="rect" id="node1" title="Proj4 string defining coordinate system for this grid. Must be a UTM projection." alt="" coords="644,159,775,200"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="436,5,585,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#ad0cc5b06cc113a0ed6ff0139bf87fb97" title="UTM projection that this uses." alt="" coords="425,71,596,112"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="437,137,585,163"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="434,188,587,229"/>
+<area shape="rect" id="node10" href="$classtbd_1_1data_1_1ConstantGrid.html#a2b1920524b98329b8eec6ce917c8ed03" title="Save contents to .tif file." alt="" coords="434,253,587,295"/>
+<area shape="rect" id="node11" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="447,319,574,360"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="226,123,375,164"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="234,188,367,229"/>
+<area shape="rect" id="node9" href="$classtbd_1_1data_1_1ConstantGrid.html#a2389a5ce37e26ca1f0687ccd6774ef81" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="224,253,377,295"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,123,176,164"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="firestarr::util::to_tm" name="firestarr::util::to_tm">
-<area shape="rect" id="node1" title="Convert to local time." alt="" coords="5,13,132,39"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a9f500e44d7820ce2aab999f0df130089" title="Convert from TIMESTAMP_STRUCT to tm." alt="" coords="180,5,285,47"/>
-</map>

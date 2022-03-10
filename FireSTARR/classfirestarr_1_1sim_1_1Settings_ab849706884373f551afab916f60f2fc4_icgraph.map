@@ -1,4 +1,0 @@
-<map id="firestarr::sim::Settings::saveIntensity" name="firestarr::sim::Settings::saveIntensity">
-<area shape="rect" id="node1" title="Whether or not to save intensity grids." alt="" coords="212,5,359,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1ProbabilityMap.html#a402d0b1f7f4617103c1cf6397534c12e" title="Combine results from another ProbabilityMap into this one." alt="" coords="5,5,164,47"/>
-</map>

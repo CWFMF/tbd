@@ -1,0 +1,11 @@
+<map id="tbd::fuel::fbp::FuelM1&lt; PercentConifer &gt;" name="tbd::fuel::fbp::FuelM1&lt; PercentConifer &gt;">
+<area shape="rect" id="node1" title="FBP fuel type M&#45;1." alt="" coords="57,3156,197,3336"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixedWood.html" title=" " alt="" coords="34,2912,219,3107"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelMixed.html" title=" " alt="" coords="29,2279,214,2605"/>
+<area shape="rect" id="node9" href="$classtbd_1_1fuel_1_1FuelMixedWood.html" title="A fuel composed of C2 and D1 mixed." alt="" coords="143,2655,334,2849"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1StandardFuel.html" title=" " alt="" coords="15,1396,217,1811"/>
+<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1FuelMixed.html" title="A mixedwood fuel type." alt="" coords="137,1860,335,2187"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="5,499,216,840"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="131,889,357,1304"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="18,5,203,449"/>
+</map>

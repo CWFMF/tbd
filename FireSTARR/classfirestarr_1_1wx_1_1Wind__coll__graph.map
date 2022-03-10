@@ -1,7 +1,0 @@
-<map id="firestarr::wx::Wind" name="firestarr::wx::Wind">
-<area shape="rect" id="node1" title="Wind with a Speed and Direction." alt="" coords="62,821,185,1104"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="51,549,195,759"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="51,145,214,472"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="281,615,411,693"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,65,83"/>
-</map>

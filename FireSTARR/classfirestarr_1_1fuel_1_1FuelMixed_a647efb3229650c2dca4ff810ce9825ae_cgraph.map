@@ -1,5 +1,0 @@
-<map id="firestarr::fuel::FuelMixed::isfD1" name="firestarr::fuel::FuelMixed::isfD1">
-<area shape="rect" id="node1" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="5,39,163,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1fuel_1_1fbp_1_1FuelD1.html#a9287c2b2b8ff44d835d5820d8a5ffab0" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="231,5,347,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1fuel_1_1FuelMixed.html#a6a97f32603cbc5cfde5392627b2959e7" title="Rate of spread multiplier [ST&#45;X&#45;3 eq 27/28, GLC&#45;X&#45;10 eq 29/30]." alt="" coords="211,71,368,112"/>
-</map>

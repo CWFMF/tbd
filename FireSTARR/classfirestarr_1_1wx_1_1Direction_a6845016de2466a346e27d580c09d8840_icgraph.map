@@ -1,5 +1,0 @@
-<map id="firestarr::wx::Direction::heading" name="firestarr::wx::Direction::heading">
-<area shape="rect" id="node1" title="Heading (opposite of this direction)" alt="" coords="385,5,529,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1wx_1_1Wind.html#a6c273f6341d57a4ac61ba579917319dc" title="Direction wind is going towards." alt="" coords="215,5,337,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1SpreadInfo.html#abd6a5409ebab16e177bd76aca9ee2f94" title="Calculate fire spread for time and place." alt="" coords="5,5,167,47"/>
-</map>

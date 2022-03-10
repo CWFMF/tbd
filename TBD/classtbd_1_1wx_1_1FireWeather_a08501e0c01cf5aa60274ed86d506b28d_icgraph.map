@@ -1,0 +1,15 @@
+<map id="tbd::wx::FireWeather::at" name="tbd::wx::FireWeather::at">
+<area shape="rect" id="node1" title="Get FwiWeather for given time." alt="" coords="1500,85,1655,112"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#a55ce6272a01d614a18cdd50b5387fd66" title="Equality operator." alt="" coords="1321,5,1452,32"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,60,496,87"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="1325,107,1449,149"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Scenario.html#ac70293a36ff91a623694e6a5665e3525" title="FwiWeather for given time." alt="" coords="1325,173,1449,214"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,60,247,87"/>
+<area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,85,56,112"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="959,146,1083,187"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1131,158,1273,199"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,133,911,174"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,111,725,137"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,111,529,137"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,111,295,137"/>
+</map>

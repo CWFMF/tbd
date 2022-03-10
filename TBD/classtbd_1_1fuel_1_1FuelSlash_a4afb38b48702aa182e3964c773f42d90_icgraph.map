@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelSlash::ffcB" name="tbd::fuel::FuelSlash::ffcB">
+<area shape="rect" id="node1" title="Forest Floor Consumption parameter b [ST&#45;X&#45;3 eq 19/21/23]." alt="" coords="225,5,356,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelSlash.html#ad65fbcb75ccf227eaa22cec20edf9111" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 25]." alt="" coords="5,5,177,47"/>
+</map>

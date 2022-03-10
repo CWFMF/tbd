@@ -1,4 +1,0 @@
-<map id="firestarr::wx::AccumulatedPrecipitation" name="firestarr::wx::AccumulatedPrecipitation">
-<area shape="rect" id="node1" title="Accumulated precipitation in mm." alt="" coords="5,380,175,472"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="9,5,171,332"/>
-</map>

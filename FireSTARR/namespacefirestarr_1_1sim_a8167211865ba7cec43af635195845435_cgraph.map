@@ -1,8 +1,0 @@
-<map id="firestarr::sim::relativeIndex" name="firestarr::sim::relativeIndex">
-<area shape="rect" id="node1" title=" " alt="" coords="5,72,145,113"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1topo_1_1Location.html#abe02c2fea1338a8351aead94a074cefe" title="Column." alt="" coords="207,40,359,81"/>
-<area shape="rect" id="node5" href="$classfirestarr_1_1topo_1_1Location.html#a95eede212209b6a602433b821a265984" title="Row." alt="" coords="193,109,372,135"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1topo_1_1Location.html#a0e35097431076ed861481ea096476b64" title="Hash derived from row and column." alt="" coords="420,71,572,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1topo_1_1Location.html#a56f601ce843473ffa22fcffcd60b0618" title="Column." alt="" coords="420,5,572,47"/>
-<area shape="rect" id="node6" href="$classfirestarr_1_1topo_1_1Location.html#af6bc728d57699e85915888e94b3f5d40" title="Row from hash." alt="" coords="420,136,572,177"/>
-</map>

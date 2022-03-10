@@ -1,0 +1,10 @@
+<map id="tbd::data::Index::asDouble" name="tbd::data::Index::asDouble">
+<area shape="rect" id="node1" title="Returns value as a double." alt="" coords="917,101,1085,127"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="735,5,853,47"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,39,141,80"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1StandardFuel.html#a96a1c9b075371936af4251180965b219" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="719,123,869,164"/>
+<area shape="rect" id="node8" href="$namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="733,189,855,215"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="552,5,671,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="385,5,504,47"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="189,17,337,43"/>
+</map>

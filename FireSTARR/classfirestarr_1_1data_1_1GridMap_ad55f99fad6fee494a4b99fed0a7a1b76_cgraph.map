@@ -1,4 +1,0 @@
-<map id="firestarr::data::GridMap::at" name="firestarr::data::GridMap::at">
-<area shape="rect" id="node1" title="Retrieve value at Location." alt="" coords="5,13,173,39"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1data_1_1Grid.html#a9d4ca0705e80a8707c49c27eff0148ba" title="Value representing no data." alt="" coords="221,5,348,47"/>
-</map>

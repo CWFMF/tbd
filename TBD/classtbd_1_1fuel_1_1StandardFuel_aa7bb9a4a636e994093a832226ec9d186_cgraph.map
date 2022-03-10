@@ -1,0 +1,6 @@
+<map id="tbd::fuel::StandardFuel::rosBasic" name="tbd::fuel::StandardFuel::rosBasic">
+<area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,49,156,90"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#ae537bce65fe6a4140fc1616fd64918b2" title="Rate of spread parameter a [ST&#45;X&#45;3 table 6]." alt="" coords="204,5,367,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1StandardFuel.html#a5a84e6066caf25fdb44b77dbc8e8ac2c" title="Rate of spread parameter c [ST&#45;X&#45;3 table 6]." alt="" coords="204,56,367,83"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1StandardFuel.html#a10ad0e3c57c3fca99a86e8e413d114aa" title="Negative of rate of spread parameter b [ST&#45;X&#45;3 table 6]." alt="" coords="210,107,361,149"/>
+</map>

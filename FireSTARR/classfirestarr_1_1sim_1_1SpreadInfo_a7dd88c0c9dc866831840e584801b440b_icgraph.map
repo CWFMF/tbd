@@ -1,5 +1,0 @@
-<map id="firestarr::sim::SpreadInfo::calculateRosFromThreshold" name="firestarr::sim::SpreadInfo::calculateRosFromThreshold">
-<area shape="rect" id="node1" title="Determine rate of spread from probability of spread threshold." alt="" coords="425,5,616,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Scenario.html#a9d787b7294930f8adf68d5b79b649b0b" title="Reset thresholds and set SafeVector to output results to." alt="" coords="228,5,377,47"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1sim_1_1TestScenario.html#a1beb27b13217f8fbf971ec971e66059d" title="Constructor." alt="" coords="5,5,180,47"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="firestarr::sim::Scenario::clear" name="firestarr::sim::Scenario::clear">
-<area shape="rect" id="node1" title="Clear the Event list and all other data." alt="" coords="5,39,155,80"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a7dec31c1ffed849c2f9b0aaabafd3e00" title=" " alt="" coords="203,39,391,80"/>
-<area shape="rect" id="node3" href="$classfirestarr_1_1logging_1_1SelfLogger.html#a549bac683dd6194b5efbad429a9f17a6" title=" " alt="" coords="439,5,581,47"/>
-<area shape="rect" id="node4" href="$namespacefirestarr_1_1logging.html#a4e14a9d6e63b99c959e0d7530e1f422a" title="Log a fatal error and quit." alt="" coords="454,71,566,112"/>
-</map>

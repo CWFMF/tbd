@@ -1,0 +1,4 @@
+<map id="tbd::logging::fatal" name="tbd::logging::fatal">
+<area shape="rect" id="node1" title="Log with FATAL level and exit." alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="172,5,291,32"/>
+</map>

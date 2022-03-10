@@ -1,0 +1,4 @@
+<map id="tbd::util::read_date" name="tbd::util::read_date">
+<area shape="rect" id="node1" title="Read a date from the given stream." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="180,5,287,32"/>
+</map>

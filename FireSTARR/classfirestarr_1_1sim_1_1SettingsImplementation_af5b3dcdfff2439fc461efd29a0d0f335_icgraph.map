@@ -1,4 +1,0 @@
-<map id="firestarr::sim::SettingsImplementation::setWeatherFile" name="firestarr::sim::SettingsImplementation::setWeatherFile">
-<area shape="rect" id="node1" title="Set name of file to save weather to." alt="" coords="200,5,404,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1sim_1_1Settings.html#abdec4fd48d00a6c667b65e2ddf605aed" title="Set name of file to save weather to." alt="" coords="5,5,152,47"/>
-</map>

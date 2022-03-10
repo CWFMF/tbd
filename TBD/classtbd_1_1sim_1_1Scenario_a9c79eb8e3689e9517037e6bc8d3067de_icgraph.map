@@ -1,0 +1,4 @@
+<map id="tbd::sim::Scenario::saveIntensity" name="tbd::sim::Scenario::saveIntensity">
+<area shape="rect" id="node1" title="Save burn intensity information." alt="" coords="228,5,352,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IntensityObserver.html#a1024b1317514109ce0adc9beb376e767" title="Save observations." alt="" coords="5,5,180,47"/>
+</map>

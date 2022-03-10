@@ -1,4 +1,0 @@
-<map id="firestarr::util::check_reset" name="firestarr::util::check_reset">
-<area shape="rect" id="node1" title="Call reset on T before releasing it." alt="" coords="5,5,135,47"/>
-<area shape="rect" id="node2" href="$classfirestarr_1_1util_1_1MemoryPool.html#ac83590bb8563771c5609d6b146305c4e" title="Add a T* to the pool of available T*s." alt="" coords="183,5,349,47"/>
-</map>

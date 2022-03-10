@@ -1,4 +1,0 @@
-<map id="firestarr::util::read_date" name="firestarr::util::read_date">
-<area shape="rect" id="node1" title="Read a date from the given stream." alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a933f0ea560bbcbddf9b1233b359dac3c" title="Read from a stream until delimiter is found." alt="" coords="204,5,336,32"/>
-</map>

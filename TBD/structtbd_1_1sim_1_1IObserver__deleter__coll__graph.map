@@ -1,0 +1,3 @@
+<map id="tbd::sim::IObserver_deleter" name="tbd::sim::IObserver_deleter">
+<area shape="rect" id="node1" title="Deleter for IObserver to get around incomplete class with unique_ptr." alt="" coords="5,5,136,97"/>
+</map>

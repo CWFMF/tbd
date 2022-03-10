@@ -1,4 +1,0 @@
-<map id="firestarr::util::to_heading" name="firestarr::util::to_heading">
-<area shape="rect" id="node1" title="Convert Bearing to Heading (opposite angle)" alt="" coords="5,5,111,47"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#adc9bdaafefc6e77a08a81c1563a796aa" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="159,5,265,47"/>
-</map>

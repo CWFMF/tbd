@@ -1,0 +1,5 @@
+<map id="tbd::sim::Model::isOutOfTime" name="tbd::sim::Model::isOutOfTime">
+<area shape="rect" id="node1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="5,31,193,57"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a31ef49308d5a269d64a3b42a5005e79b" title="Time to use for simulation start." alt="" coords="241,5,411,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a23a8b6bf668601c779b20ff9081fb976" title="Maximum amount of time simulation can run for before being stopped." alt="" coords="242,56,410,83"/>
+</map>

@@ -1,8 +1,0 @@
-<map id="firestarr::util::read_directory" name="firestarr::util::read_directory">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,124,80"/>
-<area shape="rect" id="node2" href="$namespacefirestarr_1_1util.html#a216a6c4fff5389e386c8c5969b92afe7" title=" " alt="" coords="172,39,291,80"/>
-<area shape="rect" id="node3" href="$namespacefirestarr_1_1logging.html#a7fcb338a90c4921f3c6109d9a88c9d92" title="Log with EXTENSIVE level." alt="" coords="339,5,451,47"/>
-<area shape="rect" id="node6" href="$namespacefirestarr_1_1logging.html#a348ff451a66eac8e3d5c853ee9a1b75c" title="Log with VERBOSE level." alt="" coords="339,71,451,112"/>
-<area shape="rect" id="node4" href="$classfirestarr_1_1logging_1_1Log.html#a2bbec15b677b9f38e8e0cec0ee46d41c" title="Get current logging level." alt="" coords="659,37,787,79"/>
-<area shape="rect" id="node5" href="$namespacefirestarr_1_1logging.html#a98dea140139de3ac81d583ed3a18dbf2" title="Output a message to the log." alt="" coords="499,37,611,79"/>
-</map>

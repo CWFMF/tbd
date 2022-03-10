@@ -1,0 +1,7 @@
+<map id="tbd::fuel::FuelVariable::surfaceFuelConsumption" name="tbd::fuel::FuelVariable::surfaceFuelConsumption">
+<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,64,177,105"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#a9617fe80fed0d3d52ab32a956bcee9fa" title=" " alt="" coords="251,5,372,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="233,71,389,98"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="225,123,397,164"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1fuel.html#a35f38b87438f75c4da2be966ce3fdf45" title="Calculate if green&#45;up has occurred." alt="" coords="445,5,571,47"/>
+</map>
