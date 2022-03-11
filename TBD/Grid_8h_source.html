@@ -341,98 +341,99 @@ $(function() {
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <span class="comment">//                         &quot;Cannot use grids with more than %d rows&quot;,</span></div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    <span class="comment">//                         numeric_limits&lt;Idx&gt;::max());</span></div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    TIFFGetField(tif, <a class="code" href="Util_8h.html#af7628d1eb2981d21013dfedbd0961448">TIFFTAG_GDAL_NODATA</a>, &amp;count, &amp;data);</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a> = stoi(<span class="keywordtype">string</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(data)));</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <span class="keywordtype">double</span> x = 0.0;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <span class="keywordtype">double</span> y = rows;</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a> = y;</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a> = x;</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Lower left for header is (%f, %f)&quot;</span>, <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>);</div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <span class="keywordtype">double</span> adf_coefficient[6] = {0};</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    x = 0.5;</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    y = 0.5;</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    adf_coefficient[4] = x;</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    adf_coefficient[5] = y;</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    x = 1.5;</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    y = 0.5;</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> cell_width = x - adf_coefficient[4];</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    x = 0.5;</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    y = 1.5;</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> cell_height = y - adf_coefficient[5];</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(cell_width != -cell_height,</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                         <span class="stringliteral">&quot;Can only use grids with square pixels&quot;</span>);</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Cell size is %f&quot;</span>, cell_width);</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> proj4_char = GTIFGetProj4Defn(&amp;definition);</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a> = string(proj4_char);</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keyword">delete</span> proj4_char;</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> zone_pos = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+zone=&quot;</span>);</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <span class="keywordflow">if</span> (string::npos != zone_pos &amp;&amp; string::npos != <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+proj=utm&quot;</span>))</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    {</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      <span class="comment">// convert from utm zone to tmerc</span></div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> zone_str = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.substr(zone_pos + 6);</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">zone</a> = stoi(zone_str);</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="comment">// zone 15 is -93 and other zones are 6 degrees difference</span></div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> degrees = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(6.0 * (<a class="code" href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">zone</a> - 15.0) - 93);</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      <span class="comment">// HACK: assume utm zone is at start</span></div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a> = string(</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        <span class="stringliteral">&quot;+proj=tmerc +lat_0=0.000000000 +lon_0=&quot;</span> + to_string(degrees) + <span class="stringliteral">&quot;.000000000 +k=0.999600 +x_0=500000.000 +y_0=0.000&quot;</span>);</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    }</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a> = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a> + cell_width * columns;</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a> = <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a> + cell_width * rows;</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keywordflow">return</span> {</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;      cell_width,</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a>,</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>,</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>,</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>,</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>,</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;      string(<a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>)</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    };</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  }</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;  <span class="keywordflow">throw</span> runtime_error(<span class="stringliteral">&quot;Cannot read TIFF header&quot;</span>);</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;}</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
-<div class="line"><a name="l00563"></a><span class="lineno"><a class="line" href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">  563</a></span>&#160;[[nodiscard]] R <a class="code" href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">with_tiff</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filename, <span class="keyword">function</span>&lt;R(TIFF*, GTIF*)&gt; fct)</div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;{</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Reading file %s&quot;</span>, filename.c_str());</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;  <span class="comment">// suppress warnings about geotiff tags that aren&#39;t found</span></div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  TIFFSetWarningHandler(<span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  <span class="keyword">auto</span> tif = <a class="code" href="Util_8cpp.html#acb9ffa306ada9b4c8551e048db87ac81">GeoTiffOpen</a>(filename.c_str(), <span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!tif, <span class="stringliteral">&quot;Cannot open file %s as a TIF&quot;</span>, filename.c_str());</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;  <span class="keyword">auto</span> gtif = GTIFNew(tif);</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!gtif, <span class="stringliteral">&quot;Cannot open file %s as a GEOTIFF&quot;</span>, filename.c_str());</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;  <span class="comment">//  try</span></div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;  <span class="comment">//  {</span></div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;  R result = fct(tif, gtif);</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;  <span class="keywordflow">if</span> (tif)</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    XTIFFClose(tif);</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;  <span class="keywordflow">if</span> (gtif)</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    GTIFFree(gtif);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;  GTIFDeaccessCSV();</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;  <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;  <span class="comment">//  }</span></div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;  <span class="comment">//  catch (std::exception&amp;)</span></div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;  <span class="comment">//  {</span></div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;  <span class="comment">//    return logging::fatal&lt;R&gt;(&quot;Unable to process file %s&quot;, filename.c_str());</span></div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;  <span class="comment">//  }</span></div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;}</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00588"></a><span class="lineno"><a class="line" href="namespacetbd_1_1data.html#a62612c06f539bf2a9e088a215e329163">  588</a></span>&#160;[[nodiscard]] <a class="code" href="classtbd_1_1data_1_1GridBase.html">GridBase</a> <a class="code" href="namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16">read_header</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filename)</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;{</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;  <span class="keywordflow">return</span> with_tiff&lt;GridBase&gt;(filename,</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;                             [](TIFF* tif, GTIF* gtif)</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;                             {</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                               <span class="keywordflow">return</span> read_header&lt;T&gt;(tif, gtif);</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                             });</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;}</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(0 == count, <span class="stringliteral">&quot;NODATA value is not set in input&quot;</span>);</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a> = stoi(<span class="keywordtype">string</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(data)));</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <span class="keywordtype">double</span> x = 0.0;</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <span class="keywordtype">double</span> y = rows;</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a> = y;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a> = x;</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Lower left for header is (%f, %f)&quot;</span>, <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>);</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    <span class="keywordtype">double</span> adf_coefficient[6] = {0};</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    x = 0.5;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    y = 0.5;</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    adf_coefficient[4] = x;</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    adf_coefficient[5] = y;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    x = 1.5;</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    y = 0.5;</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> cell_width = x - adf_coefficient[4];</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    x = 0.5;</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    y = 1.5;</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!GTIFImageToPCS(gtif, &amp;x, &amp;y),</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;                         <span class="stringliteral">&quot;Unable to translate image to PCS coordinates.&quot;</span>);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> cell_height = y - adf_coefficient[5];</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(cell_width != -cell_height,</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;                         <span class="stringliteral">&quot;Can only use grids with square pixels&quot;</span>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Cell size is %f&quot;</span>, cell_width);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> proj4_char = GTIFGetProj4Defn(&amp;definition);</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a> = string(proj4_char);</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <span class="keyword">delete</span> proj4_char;</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> zone_pos = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+zone=&quot;</span>);</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <span class="keywordflow">if</span> (string::npos != zone_pos &amp;&amp; string::npos != <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+proj=utm&quot;</span>))</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    {</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;      <span class="comment">// convert from utm zone to tmerc</span></div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> zone_str = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.substr(zone_pos + 6);</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">zone</a> = stoi(zone_str);</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;      <span class="comment">// zone 15 is -93 and other zones are 6 degrees difference</span></div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> degrees = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(6.0 * (<a class="code" href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">zone</a> - 15.0) - 93);</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;      <span class="comment">// HACK: assume utm zone is at start</span></div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a> = string(</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        <span class="stringliteral">&quot;+proj=tmerc +lat_0=0.000000000 +lon_0=&quot;</span> + to_string(degrees) + <span class="stringliteral">&quot;.000000000 +k=0.999600 +x_0=500000.000 +y_0=0.000&quot;</span>);</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    }</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a> = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a> + cell_width * columns;</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a> = <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a> + cell_width * rows;</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <span class="keywordflow">return</span> {</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;      cell_width,</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a>,</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>,</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>,</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>,</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;      <a class="code" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>,</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;      string(<a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>)</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    };</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;  }</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  <span class="keywordflow">throw</span> runtime_error(<span class="stringliteral">&quot;Cannot read TIFF header&quot;</span>);</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;}</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
+<div class="line"><a name="l00564"></a><span class="lineno"><a class="line" href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">  564</a></span>&#160;[[nodiscard]] R <a class="code" href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">with_tiff</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filename, <span class="keyword">function</span>&lt;R(TIFF*, GTIF*)&gt; fct)</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;{</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Reading file %s&quot;</span>, filename.c_str());</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  <span class="comment">// suppress warnings about geotiff tags that aren&#39;t found</span></div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  TIFFSetWarningHandler(<span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;  <span class="keyword">auto</span> tif = <a class="code" href="Util_8cpp.html#acb9ffa306ada9b4c8551e048db87ac81">GeoTiffOpen</a>(filename.c_str(), <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!tif, <span class="stringliteral">&quot;Cannot open file %s as a TIF&quot;</span>, filename.c_str());</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;  <span class="keyword">auto</span> gtif = GTIFNew(tif);</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(!gtif, <span class="stringliteral">&quot;Cannot open file %s as a GEOTIFF&quot;</span>, filename.c_str());</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;  <span class="comment">//  try</span></div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;  <span class="comment">//  {</span></div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;  R result = fct(tif, gtif);</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;  <span class="keywordflow">if</span> (tif)</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    XTIFFClose(tif);</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;  <span class="keywordflow">if</span> (gtif)</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    GTIFFree(gtif);</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;  GTIFDeaccessCSV();</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;  <span class="comment">//  }</span></div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;  <span class="comment">//  catch (std::exception&amp;)</span></div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;  <span class="comment">//  {</span></div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;  <span class="comment">//    return logging::fatal&lt;R&gt;(&quot;Unable to process file %s&quot;, filename.c_str());</span></div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;  <span class="comment">//  }</span></div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;}</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00589"></a><span class="lineno"><a class="line" href="namespacetbd_1_1data.html#a62612c06f539bf2a9e088a215e329163">  589</a></span>&#160;[[nodiscard]] <a class="code" href="classtbd_1_1data_1_1GridBase.html">GridBase</a> <a class="code" href="namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16">read_header</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filename)</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;{</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;  <span class="keywordflow">return</span> with_tiff&lt;GridBase&gt;(filename,</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;                             [](TIFF* tif, GTIF* gtif)</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                             {</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                               <span class="keywordflow">return</span> read_header&lt;T&gt;(tif, gtif);</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;                             });</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;}</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;}</div>
 <div class="ttc" id="aLocation_8h_html"><div class="ttname"><a href="Location_8h.html">Location.h</a></div></div>
 <div class="ttc" id="aLog_8h_html"><div class="ttname"><a href="Log_8h.html">Log.h</a></div></div>
 <div class="ttc" id="aPoint_8h_html"><div class="ttname"><a href="Point_8h.html">Point.h</a></div></div>
@@ -490,7 +491,7 @@ $(function() {
 <div class="ttc" id="aclasstbd_1_1topo_1_1Location_html"><div class="ttname"><a href="classtbd_1_1topo_1_1Location.html">tbd::topo::Location</a></div><div class="ttdoc">A location with a row and column.</div><div class="ttdef"><b>Definition:</b> <a href="Location_8h_source.html#l00024">Location.h:25</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1data_html"><div class="ttname"><a href="namespacetbd_1_1data.html">tbd::data</a></div><div class="ttdef"><b>Definition:</b> <a href="ConstantGrid_8h_source.html#l00025">ConstantGrid.h:26</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1data_html_a142bf257e1776d1183c328e8900d4a16"><div class="ttname"><a href="namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16">tbd::data::read_header</a></div><div class="ttdeci">GridBase read_header(TIFF *tif, GTIF *gtif)</div><div class="ttdef"><b>Definition:</b> <a href="Grid_8h_source.html#l00487">Grid.h:487</a></div></div>
-<div class="ttc" id="anamespacetbd_1_1data_html_a65299e1978179cb979e8c07d754f6e35"><div class="ttname"><a href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">tbd::data::with_tiff</a></div><div class="ttdeci">R with_tiff(const string &amp;filename, function&lt; R(TIFF *, GTIF *)&gt; fct)</div><div class="ttdef"><b>Definition:</b> <a href="Grid_8h_source.html#l00563">Grid.h:563</a></div></div>
+<div class="ttc" id="anamespacetbd_1_1data_html_a65299e1978179cb979e8c07d754f6e35"><div class="ttname"><a href="namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35">tbd::data::with_tiff</a></div><div class="ttdeci">R with_tiff(const string &amp;filename, function&lt; R(TIFF *, GTIF *)&gt; fct)</div><div class="ttdef"><b>Definition:</b> <a href="Grid_8h_source.html#l00564">Grid.h:564</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1data_html_ae25c8d6c684a193d5fb0887fb5618596"><div class="ttname"><a href="namespacetbd_1_1data.html#ae25c8d6c684a193d5fb0887fb5618596">tbd::data::write_ascii_header</a></div><div class="ttdeci">void write_ascii_header(ofstream &amp;out, const double num_columns, const double num_rows, const double xll, const double yll, const double cell_size, const double no_data)</div><div class="ttdef"><b>Definition:</b> <a href="Grid_8cpp_source.html#l00182">Grid.cpp:182</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1logging_html_a4fe088d344958464a276fc693621d4ac"><div class="ttname"><a href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">tbd::logging::debug</a></div><div class="ttdeci">void debug(const char *format,...) noexcept</div><div class="ttdoc">Log with DEBUG level.</div><div class="ttdef"><b>Definition:</b> <a href="Log_8cpp_source.html#l00116">Log.cpp:116</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1logging_html_af3720582651a46753513b97a4c4ce47a"><div class="ttname"><a href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">tbd::logging::check_fatal</a></div><div class="ttdeci">void check_fatal(const bool condition, const char *format, va_list *args) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="Log_8cpp_source.html#l00179">Log.cpp:179</a></div></div>
