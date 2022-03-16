@@ -670,126 +670,129 @@ $(function() {
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;      }</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;      runs_left = <a class="code" href="namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302">runs_required</a>(i, &amp;means, &amp;pct, *<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Done %d iterations&quot;</span>, total_runs);</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;      runs_left = max(runs_left, min_rounds - total_runs);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Need another %d iterations&quot;</span>, runs_left);</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;      <span class="keywordflow">if</span> (runs_left &gt; recheck_interval)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;      {</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        runs_left = recheck_interval;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Capping at %d iterations before checking again&quot;</span>, runs_left);</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;      }</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    }</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <span class="comment">// everything should be done when this section ends</span></div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;  }</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;  {</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Running in synchronous mode&quot;</span>);</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="keywordflow">while</span> (runs_left &gt; 0)</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    {</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> cur_runs = runs_left;</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;      <span class="keywordtype">size_t</span> k = 0;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;      <span class="keywordflow">while</span> (k &lt; cur_runs)</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;      {</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Running iteration %d&quot;</span>, i + 1);</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;        iterations.reset(&amp;mt_extinction, &amp;mt_spread);</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> s : iterations.getScenarios())</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        {</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;          <span class="comment">//          s-&gt;run_fake(&amp;probabilities);</span></div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;          <span class="comment">//          iterations.reset(&amp;mt_extinction, &amp;mt_spread);</span></div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;          s-&gt;run(&amp;probabilities);</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        }</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        ++i;</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187">add_statistics</a>(i, &amp;means, &amp;pct, *<span class="keyword">this</span>, iterations.finalSizes()))</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        {</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;          <span class="comment">// ran out of time</span></div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;          <span class="keywordflow">return</span> probabilities;</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        }</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        ++k;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;      }</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;      runs_left = <a class="code" href="namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302">runs_required</a>(i, &amp;means, &amp;pct, *<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Need another %d iterations&quot;</span>, runs_left);</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;      <span class="keywordflow">if</span> (runs_left &gt; recheck_interval)</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;      {</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        runs_left = recheck_interval;</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Capping at %d iterations before checking again&quot;</span>, runs_left);</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      }</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    }</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;  }</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;  <span class="keywordflow">return</span> probabilities;</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;}</div>
-<div class="line"><a name="l00659"></a><span class="lineno"><a class="line" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">  659</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">Model::runScenarios</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> weather_input,</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> raster_root,</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                        <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a>&amp; yesterday,</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                        <span class="keyword">const</span> <a class="code" href="classtbd_1_1topo_1_1StartPoint.html">topo::StartPoint</a>&amp; start_point,</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                        <span class="keyword">const</span> tm&amp; start_time,</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">bool</span> save_intensity,</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">bool</span> for_actuals,</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; perimeter,</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">size_t</span> size)</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;{</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;  <span class="keyword">auto</span> env = <a class="code" href="classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e">topo::Environment::loadEnvironment</a>(raster_root,</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                                                start_point,</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                                                perimeter,</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;                                                start_time.tm_year);</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Environment loaded&quot;</span>);</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> position = env.findCoordinates(start_point, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    std::get&lt;0&gt;(*position) &gt; <a class="code" href="namespacetbd.html#a9ad2fe85ce09e48527174cbcf1ede517">MAX_ROWS</a> || std::get&lt;1&gt;(*position) &gt; <a class="code" href="namespacetbd.html#ae2a7100299257fa1c552cbbdc6cda96f">MAX_COLUMNS</a>,</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <span class="stringliteral">&quot;Location loaded outside of grid at position (%d, %d)&quot;</span>,</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    std::get&lt;0&gt;(*position),</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    std::get&lt;1&gt;(*position));</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a">logging::info</a>(<span class="stringliteral">&quot;Position is (%d, %d)&quot;</span>, std::get&lt;0&gt;(*position), std::get&lt;1&gt;(*position));</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;  <span class="keyword">const</span> <a class="code" href="classtbd_1_1topo_1_1Location.html">Location</a> location{std::get&lt;0&gt;(*position), std::get&lt;1&gt;(*position)};</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;  <a class="code" href="classtbd_1_1sim_1_1Model.html">Model</a> model(start_point, &amp;env);</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;  <span class="keyword">auto</span> x = 0.0;</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;  <span class="keyword">auto</span> y = 0.0;</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> zone = <a class="code" href="namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c">lat_lon_to_utm</a>(start_point, &amp;x, &amp;y);</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;UTM coordinates are: %d %d %d&quot;</span>,</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                zone,</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;                <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(x),</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(y));</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Grid has size (%d, %d)&quot;</span>, env.rows(), env.columns());</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Fire start position is cell (%d, %d)&quot;</span>,</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                location.row(),</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                location.column());</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c">readWeather</a>(weather_input, for_actuals, yesterday, start_point.<a class="code" href="classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313">latitude</a>());</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;  <span class="keywordflow">if</span> (model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd">wx_</a>.empty())</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;  {</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(<span class="stringliteral">&quot;No weather provided&quot;</span>);</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;  }</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> w = model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd">wx_</a>.begin()-&gt;second;</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Have weather from day %d to %d&quot;</span>, w-&gt;minDate(), w-&gt;maxDate());</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> numDays = (w-&gt;maxDate() - w-&gt;minDate() + 1);</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> needDays = <a class="code" href="classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc">Settings::maxDateOffset</a>();</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <span class="keywordflow">if</span> (numDays &lt; needDays)</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  {</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(<span class="stringliteral">&quot;Not enough weather to proceed - have %d days but looking for %d&quot;</span>, numDays, needDays);</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  }</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;                     / <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  <span class="comment">// HACK: round to 2 digits so that we can keep test output the same</span></div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#ab464e8f4b593af81f1f77bd74a2152a6">Day</a><span class="keyword">&gt;</span>(start);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    model.<a class="code" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50">runIterations</a>(start_point, start, start_day, save_intensity, for_actuals);</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa">Scenario::completed</a>());</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  <a class="code" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e">show_probabilities</a>(probabilities);</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;  {</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    final_time = max(final_time, time);</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    prob-&gt;saveAll(model, start_time, for_actuals, time, start_day);</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  }</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;  {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  }</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;}</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;}</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;      <span class="keywordflow">if</span> (min_rounds &gt; total_runs)</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;      {</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        runs_left = max(runs_left, min_rounds - total_runs);</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;      }</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Need another %d iterations&quot;</span>, runs_left);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;      <span class="keywordflow">if</span> (runs_left &gt; recheck_interval)</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;      {</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        runs_left = recheck_interval;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Capping at %d iterations before checking again&quot;</span>, runs_left);</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;      }</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    }</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="comment">// everything should be done when this section ends</span></div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;  }</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;  {</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Running in synchronous mode&quot;</span>);</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keywordflow">while</span> (runs_left &gt; 0)</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    {</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> cur_runs = runs_left;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;      <span class="keywordtype">size_t</span> k = 0;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;      <span class="keywordflow">while</span> (k &lt; cur_runs)</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;      {</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Running iteration %d&quot;</span>, i + 1);</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        iterations.reset(&amp;mt_extinction, &amp;mt_spread);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> s : iterations.getScenarios())</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        {</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;          <span class="comment">//          s-&gt;run_fake(&amp;probabilities);</span></div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;          <span class="comment">//          iterations.reset(&amp;mt_extinction, &amp;mt_spread);</span></div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;          s-&gt;run(&amp;probabilities);</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        }</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        ++i;</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187">add_statistics</a>(i, &amp;means, &amp;pct, *<span class="keyword">this</span>, iterations.finalSizes()))</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        {</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;          <span class="comment">// ran out of time</span></div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;          <span class="keywordflow">return</span> probabilities;</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;        }</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        ++k;</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;      }</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;      runs_left = <a class="code" href="namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302">runs_required</a>(i, &amp;means, &amp;pct, *<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Need another %d iterations&quot;</span>, runs_left);</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;      <span class="keywordflow">if</span> (runs_left &gt; recheck_interval)</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      {</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        runs_left = recheck_interval;</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Capping at %d iterations before checking again&quot;</span>, runs_left);</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;      }</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    }</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  }</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;  <span class="keywordflow">return</span> probabilities;</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;}</div>
+<div class="line"><a name="l00662"></a><span class="lineno"><a class="line" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">  662</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">Model::runScenarios</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> weather_input,</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> raster_root,</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                        <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a>&amp; yesterday,</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                        <span class="keyword">const</span> <a class="code" href="classtbd_1_1topo_1_1StartPoint.html">topo::StartPoint</a>&amp; start_point,</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                        <span class="keyword">const</span> tm&amp; start_time,</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">bool</span> save_intensity,</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">bool</span> for_actuals,</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; perimeter,</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;{</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;  <span class="keyword">auto</span> env = <a class="code" href="classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e">topo::Environment::loadEnvironment</a>(raster_root,</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;                                                start_point,</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;                                                perimeter,</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;                                                start_time.tm_year);</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Environment loaded&quot;</span>);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> position = env.findCoordinates(start_point, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    std::get&lt;0&gt;(*position) &gt; <a class="code" href="namespacetbd.html#a9ad2fe85ce09e48527174cbcf1ede517">MAX_ROWS</a> || std::get&lt;1&gt;(*position) &gt; <a class="code" href="namespacetbd.html#ae2a7100299257fa1c552cbbdc6cda96f">MAX_COLUMNS</a>,</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <span class="stringliteral">&quot;Location loaded outside of grid at position (%d, %d)&quot;</span>,</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    std::get&lt;0&gt;(*position),</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    std::get&lt;1&gt;(*position));</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a">logging::info</a>(<span class="stringliteral">&quot;Position is (%d, %d)&quot;</span>, std::get&lt;0&gt;(*position), std::get&lt;1&gt;(*position));</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;  <span class="keyword">const</span> <a class="code" href="classtbd_1_1topo_1_1Location.html">Location</a> location{std::get&lt;0&gt;(*position), std::get&lt;1&gt;(*position)};</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;  <a class="code" href="classtbd_1_1sim_1_1Model.html">Model</a> model(start_point, &amp;env);</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;  <span class="keyword">auto</span> x = 0.0;</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;  <span class="keyword">auto</span> y = 0.0;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> zone = <a class="code" href="namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c">lat_lon_to_utm</a>(start_point, &amp;x, &amp;y);</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;UTM coordinates are: %d %d %d&quot;</span>,</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                zone,</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(x),</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(y));</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Grid has size (%d, %d)&quot;</span>, env.rows(), env.columns());</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Fire start position is cell (%d, %d)&quot;</span>,</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;                location.row(),</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                location.column());</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c">readWeather</a>(weather_input, for_actuals, yesterday, start_point.<a class="code" href="classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313">latitude</a>());</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;  <span class="keywordflow">if</span> (model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd">wx_</a>.empty())</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;  {</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(<span class="stringliteral">&quot;No weather provided&quot;</span>);</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;  }</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> w = model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd">wx_</a>.begin()-&gt;second;</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Have weather from day %d to %d&quot;</span>, w-&gt;minDate(), w-&gt;maxDate());</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> numDays = (w-&gt;maxDate() - w-&gt;minDate() + 1);</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> needDays = <a class="code" href="classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc">Settings::maxDateOffset</a>();</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  <span class="keywordflow">if</span> (numDays &lt; needDays)</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  {</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(<span class="stringliteral">&quot;Not enough weather to proceed - have %d days but looking for %d&quot;</span>, numDays, needDays);</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;  }</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;                     / <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;  <span class="comment">// HACK: round to 2 digits so that we can keep test output the same</span></div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#ab464e8f4b593af81f1f77bd74a2152a6">Day</a><span class="keyword">&gt;</span>(start);</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    model.<a class="code" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50">runIterations</a>(start_point, start, start_day, save_intensity, for_actuals);</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa">Scenario::completed</a>());</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;  <a class="code" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e">show_probabilities</a>(probabilities);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    final_time = max(final_time, time);</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    prob-&gt;saveAll(model, start_time, for_actuals, time, start_day);</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;  }</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  {</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  }</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;}</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;}</div>
 <div class="ttc" id="aFBP45_8h_html"><div class="ttname"><a href="FBP45_8h.html">FBP45.h</a></div></div>
 <div class="ttc" id="aModel_8h_html"><div class="ttname"><a href="Model_8h.html">Model.h</a></div></div>
 <div class="ttc" id="aObserver_8h_html"><div class="ttname"><a href="Observer_8h.html">Observer.h</a></div></div>
@@ -814,7 +817,7 @@ $(function() {
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_a80c0565e34fb52461c60d50854324c33"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33">tbd::sim::Model::getBurnedVector</a></div><div class="ttdeci">BurnedData * getBurnedVector() const noexcept</div><div class="ttdoc">Acquire a BurnedData that has already burnt cells set.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00027">Model.cpp:27</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_a90690eb7c132b9c5fba9ea9efb552f55"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#a90690eb7c132b9c5fba9ea9efb552f55">tbd::sim::Model::env_</a></div><div class="ttdeci">topo::Environment * env_</div><div class="ttdoc">Environment to use for Model.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00383">Model.h:383</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa1bb1d89bdd1bb905601a09b13e41de1"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1">tbd::sim::Model::isOutOfTime</a></div><div class="ttdeci">bool isOutOfTime() const noexcept</div><div class="ttdoc">Whether or not simulation has been running longer than maximum duration.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00382">Model.cpp:382</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa2919ba0512202d50bd3ae15f4da93ae"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">tbd::sim::Model::runScenarios</a></div><div class="ttdeci">static int runScenarios(const char *weather_input, const char *raster_root, const wx::FwiWeather &amp;yesterday, const topo::StartPoint &amp;start_point, const tm &amp;start_time, bool save_intensity, bool for_actuals, const string &amp;perimeter, size_t size)</div><div class="ttdoc">Run Scenarios initialized from given inputs.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00659">Model.cpp:659</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa2919ba0512202d50bd3ae15f4da93ae"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae">tbd::sim::Model::runScenarios</a></div><div class="ttdeci">static int runScenarios(const char *weather_input, const char *raster_root, const wx::FwiWeather &amp;yesterday, const topo::StartPoint &amp;start_point, const tm &amp;start_time, bool save_intensity, bool for_actuals, const string &amp;perimeter, size_t size)</div><div class="ttdoc">Run Scenarios initialized from given inputs.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00662">Model.cpp:662</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa2acea9acc483f751bb919d16f5ffb4a"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa2acea9acc483f751bb919d16f5ffb4a">tbd::sim::Model::perimeter_</a></div><div class="ttdeci">shared_ptr&lt; topo::Perimeter &gt; perimeter_</div><div class="ttdoc">Perimeter to use for initializing simulations.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00379">Model.h:379</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa8a7f526b1b5fe525febac5a501c9ff6"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa8a7f526b1b5fe525febac5a501c9ff6">tbd::sim::Model::makeProbabilityMap</a></div><div class="ttdeci">ProbabilityMap * makeProbabilityMap(const char *for_what, double time, double start_time, int min_value, int low_max, int med_max, int max_value) const</div><div class="ttdoc">Create a ProbabilityMap with the same extent as this.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00386">Model.cpp:386</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa915a70fdc5f7d28bd65047d7a12be8f"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f">tbd::sim::Model::findStarts</a></div><div class="ttdeci">void findStarts(Location location)</div><div class="ttdoc">Find Cell(s) that can burn closest to Location.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00237">Model.cpp:237</a></div></div>
