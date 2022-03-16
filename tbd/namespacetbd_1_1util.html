@@ -79,9 +79,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1util_1_1LookupTable.html">LookupTable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A table initialized using the given function ranging over the number of digits and precision.  <a href="classtbd_1_1util_1_1LookupTable.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1util_1_1MemoryPool.html">MemoryPool</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps track of data structures so they can be reused instead of freeing and reacquiring them.  <a href="classtbd_1_1util_1_1MemoryPool.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1util_1_1SafeVector.html">SafeVector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector with added thread safety.  <a href="classtbd_1_1util_1_1SafeVector.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,14 +91,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aefd44118cca0bad40a1519b0e3d95961"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aefd44118cca0bad40a1519b0e3d95961"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#aefd44118cca0bad40a1519b0e3d95961">check_clear</a> (T *t, <a class="el" href="classtbd_1_1util_1_1MemoryPool.html">MemoryPool</a>&lt; T &gt; &amp;pool)</td></tr>
-<tr class="memdesc:aefd44118cca0bad40a1519b0e3d95961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call clear on T before releasing it.  <a href="namespacetbd_1_1util.html#aefd44118cca0bad40a1519b0e3d95961">More...</a><br /></td></tr>
-<tr class="separator:aefd44118cca0bad40a1519b0e3d95961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2fb1f79394edb5d4915b6b83b1e0a78"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:af2fb1f79394edb5d4915b6b83b1e0a78"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#af2fb1f79394edb5d4915b6b83b1e0a78">check_reset</a> (T *t, <a class="el" href="classtbd_1_1util_1_1MemoryPool.html">MemoryPool</a>&lt; T &gt; &amp;pool)</td></tr>
-<tr class="memdesc:af2fb1f79394edb5d4915b6b83b1e0a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call reset on T before releasing it.  <a href="namespacetbd_1_1util.html#af2fb1f79394edb5d4915b6b83b1e0a78">More...</a><br /></td></tr>
-<tr class="separator:af2fb1f79394edb5d4915b6b83b1e0a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa18b48fa0bfb55d849255486263c700d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">to_tm_no_fix</a> (const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</td></tr>
 <tr class="memdesc:aa18b48fa0bfb55d849255486263c700d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from TIMESTAMP_STRUCT to tm.  <a href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">More...</a><br /></td></tr>
 <tr class="separator:aa18b48fa0bfb55d849255486263c700d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,130 +275,6 @@ template&lt;unsigned int N, class T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Bit mask of all 1's of specified size </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Util_8h_source.html#l00250">250</a> of file <a class="el" href="Util_8h_source.html">Util.h</a>.</p>
-
-</div>
-</div>
-<a id="aefd44118cca0bad40a1519b0e3d95961"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefd44118cca0bad40a1519b0e3d95961">&#9670;&nbsp;</a></span>check_clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T* tbd::util::check_clear </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classtbd_1_1util_1_1MemoryPool.html">MemoryPool</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>pool</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Call clear on T before releasing it. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>Type of item to release </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">t</td><td>Item to release </td></tr>
-    <tr><td class="paramname">pool</td><td><a class="el" href="classtbd_1_1util_1_1MemoryPool.html" title="Keeps track of data structures so they can be reused instead of freeing and reacquiring them.">MemoryPool</a> to release item into </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>nullptr </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="MemoryPool_8h_source.html#l00086">86</a> of file <a class="el" href="MemoryPool_8h_source.html">MemoryPool.h</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_aefd44118cca0bad40a1519b0e3d95961_cgraph.png" border="0" usemap="#anamespacetbd_1_1util_aefd44118cca0bad40a1519b0e3d95961_cgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_aefd44118cca0bad40a1519b0e3d95961_cgraph" id="anamespacetbd_1_1util_aefd44118cca0bad40a1519b0e3d95961_cgraph">
-<area shape="rect" title="Call clear on T before releasing it." alt="" coords="5,13,144,39"/>
-<area shape="rect" href="classtbd_1_1util_1_1MemoryPool.html#aa318fa60b470852788ba18323cfd77db" title="Add a T* to the pool of available T*s." alt="" coords="192,5,333,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="af2fb1f79394edb5d4915b6b83b1e0a78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2fb1f79394edb5d4915b6b83b1e0a78">&#9670;&nbsp;</a></span>check_reset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T* tbd::util::check_reset </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classtbd_1_1util_1_1MemoryPool.html">MemoryPool</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>pool</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Call reset on T before releasing it. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>Type of item to release </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">t</td><td>Item to release </td></tr>
-    <tr><td class="paramname">pool</td><td><a class="el" href="classtbd_1_1util_1_1MemoryPool.html" title="Keeps track of data structures so they can be reused instead of freeing and reacquiring them.">MemoryPool</a> to release item into </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>nullptr </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="MemoryPool_8h_source.html#l00103">103</a> of file <a class="el" href="MemoryPool_8h_source.html">MemoryPool.h</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_cgraph.png" border="0" usemap="#anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_cgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_cgraph" id="anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_cgraph">
-<area shape="rect" title="Call reset on T before releasing it." alt="" coords="5,13,145,39"/>
-<area shape="rect" href="classtbd_1_1util_1_1MemoryPool.html#aa318fa60b470852788ba18323cfd77db" title="Add a T* to the pool of available T*s." alt="" coords="193,5,335,47"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_icgraph.png" border="0" usemap="#anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_icgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_icgraph" id="anamespacetbd_1_1util_af2fb1f79394edb5d4915b6b83b1e0a78_icgraph">
-<area shape="rect" title="Call reset on T before releasing it." alt="" coords="376,13,516,39"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="204,5,328,47"/>
-<area shape="rect" href="classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="5,5,156,47"/>
-</map>
-</div>
 
 </div>
 </div>

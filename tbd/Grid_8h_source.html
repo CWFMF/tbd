@@ -372,7 +372,7 @@ $(function() {
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Cell size is %f&quot;</span>, cell_width);</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> proj4_char = GTIFGetProj4Defn(&amp;definition);</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a> = string(proj4_char);</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <span class="keyword">delete</span> proj4_char;</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    free(proj4_char);</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> zone_pos = <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+zone=&quot;</span>);</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <span class="keywordflow">if</span> (string::npos != zone_pos &amp;&amp; string::npos != <a class="code" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>.find(<span class="stringliteral">&quot;+proj=utm&quot;</span>))</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    {</div>

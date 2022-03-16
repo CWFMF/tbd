@@ -6,7 +6,7 @@
 <area shape="rect" id="node12" href="$namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="217,384,332,425"/>
 <area shape="rect" id="node21" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="197,501,352,527"/>
 <area shape="rect" id="node22" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="192,551,357,578"/>
-<area shape="rect" id="node23" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="215,450,334,477"/>
+<area shape="rect" id="node23" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="205,450,344,477"/>
 <area shape="rect" id="node24" href="$classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd" title="UTM zone represented by proj4 string for this grid." alt="" coords="209,653,340,695"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf" title="Cell size used for GridBase." alt="" coords="413,136,543,177"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892" title="Lower left corner X coordinate in meters." alt="" coords="413,71,543,112"/>
