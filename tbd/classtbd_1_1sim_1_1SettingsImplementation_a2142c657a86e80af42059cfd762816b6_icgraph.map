@@ -1,9 +1,0 @@
-<map id="tbd::sim::SettingsImplementation::minimumSimulationRounds" name="tbd::sim::SettingsImplementation::minimumSimulationRounds">
-<area shape="rect" id="node1" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="1011,23,1221,65"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#ac877cdde2b1e47f1090ab07192e234e8" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="776,23,963,65"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,5,529,32"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="577,31,728,57"/>
-<area shape="rect" id="node7" href="$classtbd_1_1util_1_1Statistics.html#aa026d28fca37ae534205c6f42f8932a0" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="591,82,715,123"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,295,32"/>
-<area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
-</map>

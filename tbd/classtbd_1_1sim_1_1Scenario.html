@@ -85,8 +85,8 @@ Inheritance diagram for tbd::sim::Scenario:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1sim_1_1Scenario__inherit__graph.png" border="0" usemap="#atbd_1_1sim_1_1Scenario_inherit__map" alt="Inheritance graph"/></div>
 <map name="atbd_1_1sim_1_1Scenario_inherit__map" id="atbd_1_1sim_1_1Scenario_inherit__map">
-<area shape="rect" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,263,196,1528"/>
-<area shape="rect" href="classtbd_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="25,1576,176,1727"/>
+<area shape="rect" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,263,196,1557"/>
+<area shape="rect" href="classtbd_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="25,1605,176,1756"/>
 <area shape="rect" href="classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="23,5,179,215"/>
 </map>
 </div>
@@ -95,7 +95,7 @@ Collaboration diagram for tbd::sim::Scenario:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1sim_1_1Scenario__coll__graph.png" border="0" usemap="#atbd_1_1sim_1_1Scenario_coll__map" alt="Collaboration graph"/></div>
 <map name="atbd_1_1sim_1_1Scenario_coll__map" id="atbd_1_1sim_1_1Scenario_coll__map">
-<area shape="rect" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1850,1571,2034,2440"/>
+<area shape="rect" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1850,1585,2034,2469"/>
 <area shape="rect" href="classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="5,1189,161,1398"/>
 <area shape="rect" title=" " alt="" coords="87,955,227,1047"/>
 <area shape="rect" title=" " alt="" coords="125,226,261,303"/>
@@ -109,7 +109,7 @@ Collaboration diagram for tbd::sim::Scenario:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario." alt="" coords="2125,546,2261,887"/>
 <area shape="rect" href="classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="921,175,1027,355"/>
 <area shape="rect" title=" " alt="" coords="1500,1247,1659,1339"/>
-<area shape="rect" href="classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="1423,531,1581,902"/>
+<area shape="rect" href="classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="1423,524,1581,909"/>
 <area shape="rect" title=" " alt="" coords="1815,671,1946,763"/>
 <area shape="rect" title=" " alt="" coords="685,226,770,303"/>
 <area shape="rect" title=" " alt="" coords="645,671,825,763"/>
@@ -177,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae16b310ca8b528e9d77f9c5292d296ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff">burn</a> (const <a class="el" href="classtbd_1_1sim_1_1Event.html">Event</a> &amp;event, <a class="el" href="namespacetbd.html#a7530bdb51ba402b61aeabdb064ccb427">IntensitySize</a> burn_intensity)</td></tr>
 <tr class="memdesc:ae16b310ca8b528e9d77f9c5292d296ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Burn cell that <a class="el" href="classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario.">Event</a> takes place in.  <a href="classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff">More...</a><br /></td></tr>
 <tr class="separator:ae16b310ca8b528e9d77f9c5292d296ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda10468f53137ae343e98ed97eae918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Scenario.html#acda10468f53137ae343e98ed97eae918">cancel</a> () noexcept</td></tr>
+<tr class="separator:acda10468f53137ae343e98ed97eae918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55938067a51d12385b928030ab40b62c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classtbd_1_1topo_1_1Cell.html">topo::Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Scenario.html#a55938067a51d12385b928030ab40b62c">cell</a> (const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> row, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> column) const</td></tr>
 <tr class="memdesc:a55938067a51d12385b928030ab40b62c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Cell for given row and column.  <a href="classtbd_1_1sim_1_1Scenario.html#a55938067a51d12385b928030ab40b62c">More...</a><br /></td></tr>
 <tr class="separator:a55938067a51d12385b928030ab40b62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,6 +426,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a63b168f18a0ed728ebec539478b0bf9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Scenario.html#a63b168f18a0ed728ebec539478b0bf9e">ran_</a></td></tr>
 <tr class="memdesc:a63b168f18a0ed728ebec539478b0bf9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> has completed running.  <a href="classtbd_1_1sim_1_1Scenario.html#a63b168f18a0ed728ebec539478b0bf9e">More...</a><br /></td></tr>
 <tr class="separator:a63b168f18a0ed728ebec539478b0bf9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f29c934c013d007360dc8452f368c25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Scenario.html#a6f29c934c013d007360dc8452f368c25">cancelled_</a> = false</td></tr>
+<tr class="memdesc:a6f29c934c013d007360dc8452f368c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this has been cancelled.  <a href="classtbd_1_1sim_1_1Scenario.html#a6f29c934c013d007360dc8452f368c25">More...</a><br /></td></tr>
+<tr class="separator:a6f29c934c013d007360dc8452f368c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A single <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> in an <a class="el" href="classtbd_1_1sim_1_1Iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a> using a specific FireWeather stream. </p>
@@ -663,7 +668,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00344">344</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00345">345</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -771,7 +776,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00262">262</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00263">263</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -811,7 +816,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classtbd_1_1logging_1_1SelfLogger.html#a3941667b2400a87824ce80dc341a4ba7">tbd::logging::SelfLogger</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00422">422</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00423">423</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -846,7 +851,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00830">830</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00835">835</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -900,7 +905,7 @@ template&lt;class V &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00825">825</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00830">830</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -937,7 +942,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00815">815</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00820">820</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -986,7 +991,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00403">403</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00404">404</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1045,7 +1050,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not a Cell can burn </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00793">793</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00798">798</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1063,6 +1068,34 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,53,911,94"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="acda10468f53137ae343e98ed97eae918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda10468f53137ae343e98ed97eae918">&#9670;&nbsp;</a></span>cancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::Scenario::cancel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mark as cancelled so it stops computing on next event. </p>
+
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00849">849</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1143,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Cell for given row and column </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00141">141</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00145">145</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1175,7 +1208,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Cell that <a class="el" href="structtbd_1_1sim_1_1InnerPos.html" title="The position within a Cell that a spreading point has.">InnerPos</a> falls within </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00418">418</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00419">419</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -1212,7 +1245,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Cell for given Location </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00150">150</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00154">154</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1252,7 +1285,7 @@ Here is the call graph for this function:</div>
 <p>Cell width and height (m) </p>
 <dl class="section return"><dt>Returns</dt><dd>Cell width and height (m) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00183">183</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00187">187</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1361,7 +1394,7 @@ Here is the caller graph for this function:</div>
 <p>Number of columns. </p>
 <dl class="section return"><dt>Returns</dt><dd>Number of columns </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00175">175</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00179">179</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1480,7 +1513,7 @@ Here is the caller graph for this function:</div>
 <p>Current fire size (ha) </p>
 <dl class="section return"><dt>Returns</dt><dd>Current fire size (ha) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00789">789</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00794">794</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1531,7 +1564,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sunset time for given day </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00241">241</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00245">245</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1596,7 +1629,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Sunrise time for given day </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00232">232</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00236">236</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1653,7 +1686,7 @@ Here is the caller graph for this function:</div>
 
 <p>End the simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00809">809</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00814">814</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1709,7 +1742,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00213">213</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00214">214</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1802,7 +1835,7 @@ Here is the caller graph for this function:</div>
 
 <p>Evaluate next <a class="el" href="classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario.">Event</a> in the queue. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00834">834</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00839">839</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1910,7 +1943,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Extinction threshold for given time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00268">268</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00272">272</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1973,7 +2006,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not Location has burned already </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00801">801</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00806">806</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -2003,7 +2036,7 @@ Here is the caller graph for this function:</div>
 <p>Identifier. </p>
 <dl class="section return"><dt>Returns</dt><dd>Identifier </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00215">215</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00219">219</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -2040,7 +2073,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not time is after sunrise and before sunset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00286">286</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00290">290</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2099,7 +2132,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not the given Location is surrounded by cells that are burnt </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00414">414</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00415">415</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2153,7 +2186,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Minimum Fine Fuel Moisture Code for spread to be possible </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00297">297</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00301">301</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2218,7 +2251,7 @@ Here is the caller graph for this function:</div>
 <p><a class="el" href="classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios.">Model</a> this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> is running in. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios.">Model</a> this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> is running in </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00223">223</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00227">227</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2275,7 +2308,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Difference between date and the date of minimum foliar moisture content </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00259">259</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00263">263</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2330,7 +2363,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00300">300</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00301">301</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2411,7 +2444,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This, after assignment </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00373">373</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00374">374</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -2441,7 +2474,7 @@ Here is the caller graph for this function:</div>
 <p>Whether or not this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> has run already. </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> has run already </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00340">340</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00341">341</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2483,7 +2516,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00296">296</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00297">297</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2607,7 +2640,7 @@ Here is the caller graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>Cell for Location with given hash</dd></dl>
 <p>Number of rows </p><dl class="section return"><dt>Returns</dt><dd>Number of rows </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00167">167</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00171">171</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2646,7 +2679,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00446">446</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00447">447</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2755,7 +2788,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00335">335</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00336">336</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2792,7 +2825,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00307">307</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00308">308</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2848,7 +2881,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00314">314</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00315">315</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2883,7 +2916,7 @@ Here is the call graph for this function:</div>
 <p>List of what times the simulation will save. </p>
 <dl class="section return"><dt>Returns</dt><dd>List of what times the simulation will save </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00820">820</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00825">825</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 
 </div>
 </div>
@@ -2911,7 +2944,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00288">288</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00289">289</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2965,7 +2998,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00618">618</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8cpp_source.html#l00623">623</a> of file <a class="el" href="Scenario_8cpp_source.html">Scenario.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3068,7 +3101,7 @@ Here is the caller graph for this function:</div>
 <p>Simulation number. </p>
 <dl class="section return"><dt>Returns</dt><dd>Simulation number </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00191">191</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00195">195</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3120,7 +3153,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Spread threshold for given time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00277">277</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00281">281</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3168,7 +3201,7 @@ Here is the caller graph for this function:</div>
 <p>StartPoint that provides sunrise/sunset times. </p>
 <dl class="section return"><dt>Returns</dt><dd>StartPoint </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00199">199</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00203">203</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3198,7 +3231,7 @@ Here is the caller graph for this function:</div>
 <p>Simulation start time. </p>
 <dl class="section return"><dt>Returns</dt><dd>Simulation start time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00207">207</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00211">211</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3253,7 +3286,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether or not the fire survives the conditions </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00406">406</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00410">410</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3326,7 +3359,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>FwiWeather for given time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00250">250</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00254">254</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3421,7 +3454,33 @@ Here is the call graph for this function:</div>
 
 <p>Map of when Cell had first Point arrive in it. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00526">526</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00530">530</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+
+</div>
+</div>
+<a id="a6f29c934c013d007360dc8452f368c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f29c934c013d007360dc8452f368c25">&#9670;&nbsp;</a></span>cancelled_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tbd::sim::Scenario::cancelled_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this has been cancelled. </p>
+
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00594">594</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3447,7 +3506,7 @@ Here is the call graph for this function:</div>
 
 <p>Current time for this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00494">494</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00498">498</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3473,7 +3532,7 @@ Here is the call graph for this function:</div>
 
 <p>Time index for current time. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00570">570</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00574">574</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3499,7 +3558,7 @@ Here is the call graph for this function:</div>
 
 <p>Thresholds used to determine if extinction occurs. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00486">486</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00490">490</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3525,7 +3584,7 @@ Here is the call graph for this function:</div>
 
 <p>Where to append the final size of this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> when run is complete. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00550">550</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00554">554</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3551,7 +3610,7 @@ Here is the call graph for this function:</div>
 
 <p>Identifier. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00558">558</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00562">562</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3577,7 +3636,7 @@ Here is the call graph for this function:</div>
 
 <p>Map of what intensity each cell has burned at. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00510">510</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00514">514</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3603,7 +3662,7 @@ Here is the call graph for this function:</div>
 
 <p>Last day of simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00582">582</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00586">586</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3629,7 +3688,7 @@ Here is the call graph for this function:</div>
 
 <p>Which save point is the last one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00566">566</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00570">570</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3655,7 +3714,7 @@ Here is the call graph for this function:</div>
 
 <p>Calculated maximum intensity for spread given SpreadKey for current time. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00522">522</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00526">526</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3681,7 +3740,7 @@ Here is the call graph for this function:</div>
 
 <p>Maximum rate of spread for current time. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00530">530</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00534">534</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3707,7 +3766,7 @@ Here is the call graph for this function:</div>
 
 <p><a class="el" href="classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios.">Model</a> this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> is being run in. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00542">542</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00546">546</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3733,7 +3792,7 @@ Here is the call graph for this function:</div>
 
 <p>Observers to be notified when cells burn. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00478">478</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00482">482</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3759,7 +3818,7 @@ Here is the call graph for this function:</div>
 
 <p>Calculated offsets from origin Point for spread given SpreadKey for current time. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00518">518</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00522">522</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3785,7 +3844,7 @@ Here is the call graph for this function:</div>
 
 <p>Perimeter used to start <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> from. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00514">514</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00518">518</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3811,7 +3870,7 @@ Here is the call graph for this function:</div>
 
 <p>Map of Cells to the PointSets within them. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00498">498</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00502">502</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3837,7 +3896,7 @@ Here is the call graph for this function:</div>
 
 <p>Map of ProbabilityMaps by time snapshot for them was taken. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00546">546</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00550">550</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3863,7 +3922,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether or not this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> has completed running. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00586">586</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00590">590</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3889,7 +3948,7 @@ Here is the call graph for this function:</div>
 
 <p>List of times to save simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00482">482</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00486">486</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3915,7 +3974,7 @@ Here is the call graph for this function:</div>
 
 <p><a class="el" href="classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario.">Event</a> scheduler used for ordering events. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00506">506</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00510">510</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3941,7 +4000,7 @@ Here is the call graph for this function:</div>
 
 <p>Simulation number. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00574">574</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00578">578</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3967,7 +4026,7 @@ Here is the call graph for this function:</div>
 
 <p>Thresholds used to determine if spread occurs. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00490">490</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00494">494</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -3993,7 +4052,7 @@ Here is the call graph for this function:</div>
 
 <p>Cell that the <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a> starts from if no Perimeter. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00534">534</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00538">538</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -4019,7 +4078,7 @@ Here is the call graph for this function:</div>
 
 <p>First day of simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00578">578</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00582">582</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -4045,7 +4104,7 @@ Here is the call graph for this function:</div>
 
 <p>Origin of fire. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00554">554</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00558">558</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -4071,7 +4130,7 @@ Here is the call graph for this function:</div>
 
 <p>Start time (decimal days) </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00562">562</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00566">566</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -4097,7 +4156,7 @@ Here is the call graph for this function:</div>
 
 <p>Contains information on cells that are not burnable. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00502">502</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00506">506</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>
@@ -4123,7 +4182,7 @@ Here is the call graph for this function:</div>
 
 <p>Weather to use for this <a class="el" href="classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream.">Scenario</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00538">538</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scenario_8h_source.html#l00542">542</a> of file <a class="el" href="Scenario_8h_source.html">Scenario.h</a>.</p>
 
 </div>
 </div>

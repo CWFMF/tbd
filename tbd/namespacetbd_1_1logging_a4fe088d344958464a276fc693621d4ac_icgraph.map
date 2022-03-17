@@ -1,19 +1,18 @@
 <map id="tbd::logging::debug" name="tbd::logging::debug">
-<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="916,427,1044,454"/>
+<area shape="rect" id="node1" title="Log with DEBUG level." alt="" coords="916,386,1044,413"/>
 <area shape="rect" id="node2" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#af65a76d3daf457beff9ed71ccba2e48f" title="Constructor." alt="" coords="689,52,860,93"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="705,117,844,159"/>
 <area shape="rect" id="node8" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="461,168,615,209"/>
 <area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="235,267,384,308"/>
-<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="700,336,849,377"/>
-<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="443,478,633,505"/>
-<area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="284,478,335,505"/>
-<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Model.html#ad8150dc6c2d07f27a8654b8d63977f6d" title="Constructor." alt="" coords="700,453,849,479"/>
-<area shape="rect" id="node17" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="701,503,849,530"/>
-<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="681,554,868,581"/>
-<area shape="rect" id="node19" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="715,655,835,682"/>
-<area shape="rect" id="node20" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="491,655,585,682"/>
-<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="681,605,868,631"/>
-<area shape="rect" id="node22" href="$namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35" title=" " alt="" coords="713,757,836,783"/>
+<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="700,589,849,631"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="443,538,633,565"/>
+<area shape="rect" id="node15" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="284,538,335,565"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Model.html#ad8150dc6c2d07f27a8654b8d63977f6d" title="Constructor." alt="" coords="700,437,849,463"/>
+<area shape="rect" id="node17" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="701,487,849,514"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="681,538,868,565"/>
+<area shape="rect" id="node19" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="715,335,835,362"/>
+<area shape="rect" id="node20" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="491,335,585,362"/>
+<area shape="rect" id="node21" href="$namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35" title=" " alt="" coords="713,706,836,733"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="473,71,603,112"/>
 <area shape="rect" id="node7" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#aa9ce084f3a335c8f0df361cf8ebfa47a" title="Determine FullCoordinates in the grid for the Point." alt="" coords="453,5,623,47"/>
 <area shape="rect" id="node5" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="235,5,384,47"/>

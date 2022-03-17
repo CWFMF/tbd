@@ -1,52 +1,52 @@
 <map id="tbd::sim::SettingsImplementation::instance" name="tbd::sim::SettingsImplementation::instance">
-<area shape="rect" id="node1" title="The singleton instance for this class." alt="" coords="956,1175,1167,1216"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#a8664e9fcc1ece9e151f676aaed81ca9a" title="Maximum number of Iterations to run at once if running async." alt="" coords="479,67,673,108"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Settings.html#a9c980074874b3a22d02ddaf6b37fefd1" title="Confidence required before simulation stops (% / 100)" alt="" coords="753,235,876,276"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Settings.html#a1e162e865fcd441b16a02b3b5d7aad47" title="Default Percent Conifer to use for M1/M2 fuels where none is specified (%)" alt="" coords="738,861,891,903"/>
-<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Settings.html#ab04d0b05953a6108726d7a681568951a" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="736,927,893,968"/>
-<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="754,665,875,707"/>
-<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="513,235,639,276"/>
-<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="499,417,653,459"/>
-<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="277,121,398,163"/>
-<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Settings.html#a9c479a20f7fdd6e55553d4f9b60c607d" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="488,987,664,1028"/>
-<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Settings.html#a48e1334d25c34b8ae63922316afd1a84" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="733,169,897,211"/>
-<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Settings.html#a60dbd3f6f1c70f6f6c97221483061e39" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="754,1109,875,1151"/>
-<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Settings.html#acefe321276ae3bc46cb14e91f95933b5" title="Minimum Fine Fuel Moisture Code required for spread during the night." alt="" coords="737,1044,892,1085"/>
-<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1Settings.html#a537a72ac309924204ef0325e1eb56730" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="754,1175,875,1216"/>
-<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1Settings.html#ac877cdde2b1e47f1090ab07192e234e8" title="Minimum number of Iterations to run before precision required to stop is considered." alt="" coords="721,352,908,393"/>
-<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Settings.html#a193fedb9b5959ce1feada36b85d2030d" title="Offset from sunrise at which the day is considered to start (hours)" alt="" coords="754,1240,875,1281"/>
-<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Settings.html#abe455cdbe5b676a84b32dcaf3b9b8119" title="Offset from sunrise at which the day is considered to end (hours)" alt="" coords="754,1305,875,1347"/>
-<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="509,483,643,524"/>
-<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="754,796,875,837"/>
-<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Settings.html#a6dd9721512781ace419583d9a071ca45" title="Root directory that raster inputs are stored in." alt="" coords="754,1371,875,1412"/>
-<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Settings.html#a18bcbf516e300f035e3e0eee7adf46c6" title="Whether or not to run things asynchronously where possible." alt="" coords="754,600,875,641"/>
-<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Settings.html#a16c6ceeec1aef779f424f79b95eb263e" title="Whether or not to save grids as .asc." alt="" coords="754,731,875,772"/>
-<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1Settings.html#afff0e3e233b34bbe67b3fc37b063c528" title="Whether or not to save intensity grids." alt="" coords="754,1436,875,1477"/>
-<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1Settings.html#adbd6fe9d4f9c11a8d9d090876785be0c" title="Whether or not to save occurrence grids." alt="" coords="753,1501,876,1543"/>
-<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Settings.html#a7d7bef56342d7209722bf7649280bcb2" title="Whether or not to save probability grids." alt="" coords="754,1567,875,1608"/>
-<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Settings.html#a78b9b4082f624a49e230573df21e9b70" title="Set confidence required before simulation stops (% / 100)" alt="" coords="743,1632,886,1673"/>
-<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="747,1697,883,1739"/>
-<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Settings.html#a730e51432ec5034ba527a0875e5b6132" title="Set whether or not to run things asynchronously where possible." alt="" coords="754,1763,875,1804"/>
-<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Settings.html#afddee48a43c418281f6334ad70615989" title="Set whether or not to save grids as .asc." alt="" coords="754,1828,875,1869"/>
-<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#a4d54836afcb41b426edf8cfbc92c4b76" title="Set whether or not to save intensity grids." alt="" coords="752,1893,877,1935"/>
-<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Settings.html#afc925128f4cc06511d8b0e647387ef34" title="Set whether or not to save occurrence grids." alt="" coords="743,1959,886,2000"/>
-<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Settings.html#a68f69154f557b5ed21216aecf2a46776" title="Set whether or not to save probability grids." alt="" coords="747,2024,883,2065"/>
-<area shape="rect" id="node45" href="$classtbd_1_1sim_1_1Settings.html#a54333eed085b26af760454f47d45c1b5" title="Set name of file to save weather to." alt="" coords="754,2089,875,2131"/>
-<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Settings.html#a8500ef9e3b3a39cc4d0cfadcf58d1494" title="Maximum number of Iterations to run before checking if accuracy is good enough to stop." alt="" coords="485,548,667,589"/>
-<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Settings.html#ab948c2aeabe3b781cbeddab875e30ce4" title="Weight to give to daily part of thresholds." alt="" coords="740,2155,889,2196"/>
-<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Settings.html#ada2501a04a36d7f712263e864c90f369" title="Weight to give to hourly part of thresholds." alt="" coords="735,2220,894,2261"/>
-<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Settings.html#aa9f0e6dfcfdcfd2f93c60246cebae558" title="Weight to give to Scenario part of thresholds." alt="" coords="729,2285,901,2327"/>
-<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Settings.html#a32f8c63232e381bc1fbb0337c10ec142" title="Name of file to save weather to." alt="" coords="754,2351,875,2392"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="244,301,431,327"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="5,301,196,327"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="501,183,651,210"/>
-<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="501,833,651,875"/>
-<area shape="rect" id="node11" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="501,665,651,707"/>
-<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="244,566,431,593"/>
-<area shape="rect" id="node13" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="516,731,636,758"/>
-<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="266,1053,409,1095"/>
-<area shape="rect" id="node20" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="499,133,653,159"/>
-<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Scenario.html#a6fe19d5a35f42caee2055f2acbacf813" title="Minimum Fine Fuel Moisture Code for spread to be possible." alt="" coords="491,1053,661,1095"/>
-<area shape="rect" id="node25" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="508,1175,644,1216"/>
-<area shape="rect" id="node27" href="$classtbd_1_1util_1_1Statistics.html#aa026d28fca37ae534205c6f42f8932a0" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="514,352,638,393"/>
+<area shape="rect" id="node1" title="The singleton instance for this class." alt="" coords="944,1119,1155,1161"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#a9c980074874b3a22d02ddaf6b37fefd1" title="Confidence required before simulation stops (% / 100)" alt="" coords="749,87,871,129"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Settings.html#a1e162e865fcd441b16a02b3b5d7aad47" title="Default Percent Conifer to use for M1/M2 fuels where none is specified (%)" alt="" coords="733,707,887,749"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Settings.html#ab04d0b05953a6108726d7a681568951a" title="Default Percent Dead Fir to use for M3/M4 fuels where none is specified (%)" alt="" coords="731,773,889,814"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="749,459,871,501"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="515,197,640,238"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="500,262,655,303"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="277,694,398,735"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Settings.html#a9c479a20f7fdd6e55553d4f9b60c607d" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="489,831,665,873"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Settings.html#a48e1334d25c34b8ae63922316afd1a84" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="728,153,892,194"/>
+<area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Settings.html#a60dbd3f6f1c70f6f6c97221483061e39" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="749,955,871,997"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Settings.html#acefe321276ae3bc46cb14e91f95933b5" title="Minimum Fine Fuel Moisture Code required for spread during the night." alt="" coords="733,1021,887,1062"/>
+<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Settings.html#a537a72ac309924204ef0325e1eb56730" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="749,890,871,931"/>
+<area shape="rect" id="node25" href="$classtbd_1_1sim_1_1Settings.html#a193fedb9b5959ce1feada36b85d2030d" title="Offset from sunrise at which the day is considered to start (hours)" alt="" coords="749,1086,871,1127"/>
+<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Settings.html#abe455cdbe5b676a84b32dcaf3b9b8119" title="Offset from sunrise at which the day is considered to end (hours)" alt="" coords="749,1151,871,1193"/>
+<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="743,22,877,63"/>
+<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="749,590,871,631"/>
+<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Settings.html#a6dd9721512781ace419583d9a071ca45" title="Root directory that raster inputs are stored in." alt="" coords="749,1217,871,1258"/>
+<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Settings.html#a18bcbf516e300f035e3e0eee7adf46c6" title="Whether or not to run things asynchronously where possible." alt="" coords="749,379,871,421"/>
+<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1Settings.html#a16c6ceeec1aef779f424f79b95eb263e" title="Whether or not to save grids as .asc." alt="" coords="749,525,871,566"/>
+<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1Settings.html#afff0e3e233b34bbe67b3fc37b063c528" title="Whether or not to save intensity grids." alt="" coords="749,1282,871,1323"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Settings.html#adbd6fe9d4f9c11a8d9d090876785be0c" title="Whether or not to save occurrence grids." alt="" coords="749,1347,871,1389"/>
+<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Settings.html#a7d7bef56342d7209722bf7649280bcb2" title="Whether or not to save probability grids." alt="" coords="749,1413,871,1454"/>
+<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Settings.html#a78b9b4082f624a49e230573df21e9b70" title="Set confidence required before simulation stops (% / 100)" alt="" coords="739,1478,881,1519"/>
+<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="742,1543,878,1585"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Settings.html#a730e51432ec5034ba527a0875e5b6132" title="Set whether or not to run things asynchronously where possible." alt="" coords="749,1609,871,1650"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#afddee48a43c418281f6334ad70615989" title="Set whether or not to save grids as .asc." alt="" coords="749,1674,871,1715"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Settings.html#a4d54836afcb41b426edf8cfbc92c4b76" title="Set whether or not to save intensity grids." alt="" coords="747,1739,873,1781"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Settings.html#afc925128f4cc06511d8b0e647387ef34" title="Set whether or not to save occurrence grids." alt="" coords="739,1805,881,1846"/>
+<area shape="rect" id="node45" href="$classtbd_1_1sim_1_1Settings.html#a68f69154f557b5ed21216aecf2a46776" title="Set whether or not to save probability grids." alt="" coords="742,1870,878,1911"/>
+<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Settings.html#a54333eed085b26af760454f47d45c1b5" title="Set name of file to save weather to." alt="" coords="749,1935,871,1977"/>
+<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Settings.html#ab948c2aeabe3b781cbeddab875e30ce4" title="Weight to give to daily part of thresholds." alt="" coords="735,2001,885,2042"/>
+<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Settings.html#ada2501a04a36d7f712263e864c90f369" title="Weight to give to hourly part of thresholds." alt="" coords="731,2066,889,2107"/>
+<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Settings.html#aa9f0e6dfcfdcfd2f93c60246cebae558" title="Weight to give to Scenario part of thresholds." alt="" coords="724,2131,896,2173"/>
+<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Settings.html#a32f8c63232e381bc1fbb0337c10ec142" title="Name of file to save weather to." alt="" coords="749,2197,871,2238"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="502,95,653,121"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="244,204,431,231"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="5,445,196,472"/>
+<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="503,547,652,589"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="503,379,652,421"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="244,445,431,472"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="277,613,397,640"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="266,890,409,931"/>
+<area shape="rect" id="node19" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="500,145,655,172"/>
+<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Scenario.html#a6fe19d5a35f42caee2055f2acbacf813" title="Minimum Fine Fuel Moisture Code for spread to be possible." alt="" coords="492,1014,663,1055"/>
+<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="509,949,645,990"/>
+<area shape="rect" id="node26" href="$namespacetbd_1_1topo.html#a650c4d1c382a8243948120d080d99522" title=" " alt="" coords="506,1125,649,1152"/>
+<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="479,44,676,71"/>
+<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="503,613,651,640"/>
+<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Scenario.html#aa18d3d1ec8d12c832343413acd989903" title="Tell Observers to save their data with base file name." alt="" coords="515,665,639,706"/>
 </map>

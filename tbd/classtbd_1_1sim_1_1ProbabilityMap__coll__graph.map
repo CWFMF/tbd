@@ -1,5 +1,5 @@
 <map id="tbd::sim::ProbabilityMap" name="tbd::sim::ProbabilityMap">
-<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="486,2521,645,2892"/>
+<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="486,2521,645,2907"/>
 <area shape="rect" id="node2" title=" " alt="" coords="211,160,271,237"/>
 <area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="341,388,491,773"/>
 <area shape="rect" id="node15" title=" " alt="" coords="61,542,203,619"/>

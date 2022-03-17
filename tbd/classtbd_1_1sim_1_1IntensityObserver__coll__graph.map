@@ -1,7 +1,7 @@
 <map id="tbd::sim::IntensityObserver" name="tbd::sim::IntensityObserver">
-<area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="2277,2503,2451,2697"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="2117,1901,2248,2110"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2272,1571,2456,2440"/>
+<area shape="rect" id="node1" title="Tracks the intensity that Cells burn at." alt="" coords="2277,2532,2451,2727"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="2117,1923,2248,2132"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="2272,1585,2456,2469"/>
 <area shape="rect" id="node4" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="3794,1189,3950,1398"/>
 <area shape="rect" id="node5" title=" " alt="" coords="3974,1247,4114,1339"/>
 <area shape="rect" id="node6" title=" " alt="" coords="3987,678,4123,755"/>
@@ -14,7 +14,7 @@
 <area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario." alt="" coords="787,546,923,887"/>
 <area shape="rect" id="node25" href="$classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="5,175,112,355"/>
 <area shape="rect" id="node42" title=" " alt="" coords="1091,1247,1250,1339"/>
-<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="2251,531,2410,902"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="2251,524,2410,909"/>
 <area shape="rect" id="node48" title=" " alt="" coords="1535,671,1665,763"/>
 <area shape="rect" id="node11" title=" " alt="" coords="441,226,527,303"/>
 <area shape="rect" id="node17" title=" " alt="" coords="302,671,482,763"/>
@@ -47,6 +47,6 @@
 <area shape="rect" id="node41" title=" " alt="" coords="2401,1255,2463,1332"/>
 <area shape="rect" id="node45" title=" " alt="" coords="2745,1255,2791,1332"/>
 <area shape="rect" id="node46" title=" " alt="" coords="2815,1240,3017,1347"/>
-<area shape="rect" id="node49" title=" " alt="" coords="3350,1967,3429,2044"/>
+<area shape="rect" id="node49" title=" " alt="" coords="3350,1989,3429,2066"/>
 <area shape="rect" id="node50" title=" " alt="" coords="4226,1247,4350,1339"/>
 </map>

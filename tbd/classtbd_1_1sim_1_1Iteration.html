@@ -83,7 +83,7 @@ Collaboration diagram for tbd::sim::Iteration:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1sim_1_1Iteration__coll__graph.png" border="0" usemap="#atbd_1_1sim_1_1Iteration_coll__map" alt="Collaboration graph"/></div>
 <map name="atbd_1_1sim_1_1Iteration_coll__map" id="atbd_1_1sim_1_1Iteration_coll__map">
-<area shape="rect" title="Represents a full set of simulations using all available weather streams." alt="" coords="107,697,227,936"/>
+<area shape="rect" title="Represents a full set of simulations using all available weather streams." alt="" coords="201,697,321,951"/>
 <area shape="rect" href="classtbd_1_1util_1_1SafeVector.html" title="A vector with added thread safety." alt="" coords="7,425,141,635"/>
 <area shape="rect" title=" " alt="" coords="5,285,63,363"/>
 <area shape="rect" title=" " alt="" coords="87,285,229,363"/>
@@ -91,6 +91,7 @@ Collaboration diagram for tbd::sim::Iteration:</div>
 <area shape="rect" title=" " alt="" coords="161,145,273,223"/>
 <area shape="rect" title=" " alt="" coords="197,5,236,83"/>
 <area shape="rect" title=" " alt="" coords="165,491,356,569"/>
+<area shape="rect" title=" " alt="" coords="380,491,427,569"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -119,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2cb00f89cb6d786e4c55be99404226b5"><td class="memItemLeft" align="right" valign="top">const vector&lt; <a class="el" href="classtbd_1_1sim_1_1Scenario.html">Scenario</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Iteration.html#a2cb00f89cb6d786e4c55be99404226b5">getScenarios</a> () const noexcept</td></tr>
 <tr class="memdesc:a2cb00f89cb6d786e4c55be99404226b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of Scenarios this <a class="el" href="classtbd_1_1sim_1_1Iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a> contains.  <a href="classtbd_1_1sim_1_1Iteration.html#a2cb00f89cb6d786e4c55be99404226b5">More...</a><br /></td></tr>
 <tr class="separator:a2cb00f89cb6d786e4c55be99404226b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb1011a29c3099a4b6cbce875f34260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Iteration.html#a4cb1011a29c3099a4b6cbce875f34260">cancel</a> () noexcept</td></tr>
+<tr class="separator:a4cb1011a29c3099a4b6cbce875f34260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf2e449b096ebce54080de89adc372d4"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Iteration.html#acf2e449b096ebce54080de89adc372d4">savePoints</a> () const</td></tr>
 <tr class="memdesc:acf2e449b096ebce54080de89adc372d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points in time that ProbabilityMaps get saved for.  <a href="classtbd_1_1sim_1_1Iteration.html#acf2e449b096ebce54080de89adc372d4">More...</a><br /></td></tr>
 <tr class="separator:acf2e449b096ebce54080de89adc372d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +143,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a83a192365308646f28604f0d632bc210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1util_1_1SafeVector.html">util::SafeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Iteration.html#a83a192365308646f28604f0d632bc210">final_sizes_</a> {}</td></tr>
 <tr class="memdesc:a83a192365308646f28604f0d632bc210"><td class="mdescLeft">&#160;</td><td class="mdescRight">SafeVector of sizes that Scenarios have resulted in.  <a href="classtbd_1_1sim_1_1Iteration.html#a83a192365308646f28604f0d632bc210">More...</a><br /></td></tr>
 <tr class="separator:a83a192365308646f28604f0d632bc210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8131408af962847f64b6d9d1a71067b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Iteration.html#a8131408af962847f64b6d9d1a71067b1">cancelled_</a> = false</td></tr>
+<tr class="memdesc:a8131408af962847f64b6d9d1a71067b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this has been cancelled and should stop computing.  <a href="classtbd_1_1sim_1_1Iteration.html#a8131408af962847f64b6d9d1a71067b1">More...</a><br /></td></tr>
+<tr class="separator:a8131408af962847f64b6d9d1a71067b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a full set of simulations using all available weather streams. </p>
@@ -270,6 +276,34 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4cb1011a29c3099a4b6cbce875f34260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb1011a29c3099a4b6cbce875f34260">&#9670;&nbsp;</a></span>cancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::Iteration::cancel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mark as cancelled so it stops computing on next event. </p>
+
+<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00106">106</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a14aa2ff7be44a94aa6fdf68aefcdd117"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14aa2ff7be44a94aa6fdf68aefcdd117">&#9670;&nbsp;</a></span>finalSizes()</h2>
 
@@ -288,7 +322,7 @@ Private Attributes</h2></td></tr>
 <p>SafeVector of sizes that Scenarios have resulted in. </p>
 <dl class="section return"><dt>Returns</dt><dd>SafeVector of sizes that Scenarios have resulted in </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00101">101</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00102">102</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
 
 </div>
 </div>
@@ -450,7 +484,7 @@ Private Attributes</h2></td></tr>
 <p>Points in time that ProbabilityMaps get saved for. </p>
 <dl class="section return"><dt>Returns</dt><dd>Points in time that ProbabilityMaps get saved for </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00089">89</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00090">90</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
 
 </div>
 </div>
@@ -480,7 +514,7 @@ Private Attributes</h2></td></tr>
 <p>Number of Scenarios in this <a class="el" href="classtbd_1_1sim_1_1Iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Number of Scenarios in this <a class="el" href="classtbd_1_1sim_1_1Iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00097">97</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00098">98</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
 
 </div>
 </div>
@@ -502,11 +536,37 @@ Private Attributes</h2></td></tr>
 <p>Time that simulations start. </p>
 <dl class="section return"><dt>Returns</dt><dd>Time that simulations start </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00093">93</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8cpp_source.html#l00094">94</a> of file <a class="el" href="Iteration_8cpp_source.html">Iteration.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8131408af962847f64b6d9d1a71067b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8131408af962847f64b6d9d1a71067b1">&#9670;&nbsp;</a></span>cancelled_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tbd::sim::Iteration::cancelled_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this has been cancelled and should stop computing. </p>
+
+<p class="definition">Definition at line <a class="el" href="Iteration_8h_source.html#l00109">109</a> of file <a class="el" href="Iteration_8h_source.html">Iteration.h</a>.</p>
+
+</div>
+</div>
 <a id="a83a192365308646f28604f0d632bc210"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83a192365308646f28604f0d632bc210">&#9670;&nbsp;</a></span>final_sizes_</h2>
 
@@ -529,7 +589,7 @@ Private Attributes</h2></td></tr>
 
 <p>SafeVector of sizes that Scenarios have resulted in. </p>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8h_source.html#l00101">101</a> of file <a class="el" href="Iteration_8h_source.html">Iteration.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8h_source.html#l00105">105</a> of file <a class="el" href="Iteration_8h_source.html">Iteration.h</a>.</p>
 
 </div>
 </div>
@@ -555,7 +615,7 @@ Private Attributes</h2></td></tr>
 
 <p>List of Scenarios this <a class="el" href="classtbd_1_1sim_1_1Iteration.html" title="Represents a full set of simulations using all available weather streams.">Iteration</a> contains. </p>
 
-<p class="definition">Definition at line <a class="el" href="Iteration_8h_source.html#l00097">97</a> of file <a class="el" href="Iteration_8h_source.html">Iteration.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Iteration_8h_source.html#l00101">101</a> of file <a class="el" href="Iteration_8h_source.html">Iteration.h</a>.</p>
 
 </div>
 </div>
