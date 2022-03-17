@@ -1,10 +1,10 @@
 <map id="tbd::sim::Model::environment" name="tbd::sim::Model::environment">
-<area shape="rect" id="node1" title="Environment simulation is occurring in." alt="" coords="799,42,984,69"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="577,5,751,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="590,71,738,98"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,46,496,73"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,97,529,123"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,46,247,73"/>
-<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,71,56,98"/>
-<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,97,295,123"/>
+<area shape="rect" id="node1" title="Environment simulation is occurring in." alt="" coords="995,42,1180,69"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="773,5,947,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,42,725,69"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,17,496,43"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,67,529,94"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,17,247,43"/>
+<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,42,56,69"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,67,295,94"/>
 </map>
