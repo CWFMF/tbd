@@ -6,7 +6,7 @@
 <area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="261,238,416,279"/>
 <area shape="rect" id="node16" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="261,491,416,517"/>
 <area shape="rect" id="node17" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="256,541,421,568"/>
-<area shape="rect" id="node18" href="$namespacetbd_1_1sim.html#a8f919a2dc7f2caec01e4532c462680d9" title=" " alt="" coords="254,693,423,720"/>
+<area shape="rect" id="node18" href="$namespacetbd_1_1sim.html#a2549bbbc1bb3e4d030224b99b2ef3e2b" title=" " alt="" coords="254,693,423,720"/>
 <area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="534,763,667,805"/>
 <area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="240,744,437,771"/>
 <area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="265,1484,413,1511"/>
@@ -22,7 +22,7 @@
 <area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="805,899,934,925"/>
 <area shape="rect" id="node13" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a925d19c5a8ed46736feea4e67530cebc" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="495,62,706,103"/>
 <area shape="rect" id="node15" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aad3429116d8e1981c7896d5bc49d6e5d" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="495,179,706,221"/>
-<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Model.html#aa8a7f526b1b5fe525febac5a501c9ff6" title="Create a ProbabilityMap with the same extent as this." alt="" coords="485,712,716,739"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Model.html#a8ad8669cbfe36950de89211fe1815edd" title="Create a ProbabilityMap with the same extent as this." alt="" coords="485,712,716,739"/>
 <area shape="rect" id="node21" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a9d7c84a23049ab0509f0b72f6c744964" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="764,763,975,805"/>
 <area shape="rect" id="node24" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="539,1878,663,1919"/>
 <area shape="rect" id="node25" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="539,1477,663,1518"/>

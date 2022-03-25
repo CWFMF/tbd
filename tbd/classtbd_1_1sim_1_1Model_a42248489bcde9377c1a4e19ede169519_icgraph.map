@@ -7,10 +7,10 @@
 <area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,72,725,99"/>
 <area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1131,145,1273,186"/>
 <area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="1350,94,1474,135"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,97,529,124"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,97,529,124"/>
 <area shape="rect" id="node5" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,47,247,73"/>
 <area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,72,56,99"/>
-<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,97,295,124"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,97,295,124"/>
 <area shape="rect" id="node10" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="959,94,1083,135"/>
 <area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,94,911,135"/>
 </map>

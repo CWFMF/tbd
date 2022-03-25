@@ -1,7 +1,7 @@
 <map id="tbd::sim::Settings::confidenceLevel" name="tbd::sim::Settings::confidenceLevel">
 <area shape="rect" id="node1" title="Confidence required before simulation stops (% / 100)" alt="" coords="776,5,899,47"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="577,13,728,39"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,13,529,39"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,13,529,39"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
 <area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
 </map>

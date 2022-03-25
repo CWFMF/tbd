@@ -1,8 +1,8 @@
 <map id="tbd::logging::note" name="tbd::logging::note">
 <area shape="rect" id="node1" title="Log with NOTE level." alt="" coords="784,434,903,460"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="579,99,734,126"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,226,529,252"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,384,295,411"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,226,529,252"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,384,295,411"/>
 <area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,384,56,411"/>
 <area shape="rect" id="node6" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="585,201,728,242"/>
 <area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="582,266,731,308"/>
@@ -13,7 +13,7 @@
 <area shape="rect" id="node15" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="597,48,717,75"/>
 <area shape="rect" id="node16" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="389,48,483,75"/>
 <area shape="rect" id="node17" href="$namespacetbd_1_1sim.html#a7ed3f161bcd679d4917afee45397a302" title=" " alt="" coords="581,332,732,359"/>
-<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1ProbabilityMap.html#a8feb98572ffe7bf8912aa5d94c34967b" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="577,704,736,745"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1ProbabilityMap.html#a9b205c8966cfd5f7c275dc23c3ae38ac" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="577,704,736,745"/>
 <area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Semaphore.html#a7c5c06c644d9a8af64c3f25c23dd5e92" title="Create a Semaphore that limits number of concurrent things running." alt="" coords="587,769,726,810"/>
 <area shape="rect" id="node20" href="$classtbd_1_1sim_1_1ProbabilityMap.html#a52d6f4843a337ecfa84d959e0ab0f0af" title="Output Statistics to log." alt="" coords="577,834,736,876"/>
 <area shape="rect" id="node21" href="$classtbd_1_1util_1_1UsageCount.html#ac7ec3de81d68be294a4191cce481107e" title=" " alt="" coords="586,900,727,941"/>

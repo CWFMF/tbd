@@ -1,7 +1,7 @@
 <map id="tbd::sim::Settings::outputDateOffsets" name="tbd::sim::Settings::outputDateOffsets">
 <area shape="rect" id="node1" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="823,23,956,65"/>
 <area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="577,5,775,32"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,31,529,57"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,31,295,57"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,31,529,57"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,31,295,57"/>
 <area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,31,56,57"/>
 </map>

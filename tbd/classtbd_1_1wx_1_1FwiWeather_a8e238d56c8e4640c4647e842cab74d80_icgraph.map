@@ -1,9 +1,11 @@
 <map id="tbd::wx::FwiWeather::dc" name="tbd::wx::FwiWeather::dc">
-<area shape="rect" id="node1" title="Drought Code." alt="" coords="577,81,735,108"/>
+<area shape="rect" id="node1" title="Drought Code." alt="" coords="577,132,735,159"/>
 <area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#abfee5ca0617380b5da032e7f4916cb98" title="Drought Code used for spread." alt="" coords="358,5,514,32"/>
 <area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="373,56,499,83"/>
 <area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="375,107,497,133"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="343,157,529,184"/>
-<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,157,295,184"/>
-<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,157,56,184"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1wx.html#a57e2553afb56a06d67087c2c5b4ece84" title=" " alt="" coords="371,157,501,184"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc" title=" " alt="" coords="389,208,483,235"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,259,529,285"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,259,295,285"/>
+<area shape="rect" id="node9" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,259,56,285"/>
 </map>

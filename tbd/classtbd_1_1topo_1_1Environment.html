@@ -155,9 +155,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e57a868cec668ad01139164e555345d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classtbd_1_1topo_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1topo_1_1Environment.html#a6e57a868cec668ad01139164e555345d">offset</a> (const <a class="el" href="classtbd_1_1sim_1_1Event.html">sim::Event</a> &amp;event, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> row, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> column) const</td></tr>
 <tr class="memdesc:a6e57a868cec668ad01139164e555345d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel.">Cell</a> at <a class="el" href="classtbd_1_1topo_1_1Location.html" title="A location with a row and column.">Location</a> with given hash.  <a href="classtbd_1_1topo_1_1Environment.html#a6e57a868cec668ad01139164e555345d">More...</a><br /></td></tr>
 <tr class="separator:a6e57a868cec668ad01139164e555345d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8ecfe5a3071e9c1e4950fb4f0d4ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html">sim::ProbabilityMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1topo_1_1Environment.html#a0c8ecfe5a3071e9c1e4950fb4f0d4ad1">makeProbabilityMap</a> (const char *for_what, double time, double start_time, int min_value, int low_max, int med_max, int max_value) const</td></tr>
-<tr class="memdesc:a0c8ecfe5a3071e9c1e4950fb4f0d4ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a ProbabilityMap that covers this <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a>.  <a href="classtbd_1_1topo_1_1Environment.html#a0c8ecfe5a3071e9c1e4950fb4f0d4ad1">More...</a><br /></td></tr>
-<tr class="separator:a0c8ecfe5a3071e9c1e4950fb4f0d4ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f19175764766fc6e6e418162115fdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html">sim::ProbabilityMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1topo_1_1Environment.html#ab4f19175764766fc6e6e418162115fdf">makeProbabilityMap</a> (double time, double start_time, int min_value, int low_max, int med_max, int max_value) const</td></tr>
+<tr class="memdesc:ab4f19175764766fc6e6e418162115fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a ProbabilityMap that covers this <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a>.  <a href="classtbd_1_1topo_1_1Environment.html#ab4f19175764766fc6e6e418162115fdf">More...</a><br /></td></tr>
+<tr class="separator:ab4f19175764766fc6e6e418162115fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12d38b1c3e4e5da2f58119a33f43ebdc"><td class="memTemplParams" colspan="2">template&lt;class Other &gt; </td></tr>
 <tr class="memitem:a12d38b1c3e4e5da2f58119a33f43ebdc"><td class="memTemplItemLeft" align="right" valign="top">unique_ptr&lt; <a class="el" href="classtbd_1_1data_1_1GridMap.html">data::GridMap</a>&lt; Other &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtbd_1_1topo_1_1Environment.html#a12d38b1c3e4e5da2f58119a33f43ebdc">makeMap</a> (const Other nodata) const</td></tr>
 <tr class="memdesc:a12d38b1c3e4e5da2f58119a33f43ebdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GridMap&lt;Other&gt; covering this <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a>.  <a href="classtbd_1_1topo_1_1Environment.html#a12d38b1c3e4e5da2f58119a33f43ebdc">More...</a><br /></td></tr>
@@ -359,7 +359,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00406">406</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00404">404</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -451,7 +451,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00451">451</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00449">449</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 
 </div>
 </div>
@@ -519,10 +519,10 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,72,725,99"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1131,145,1273,186"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="1350,94,1474,135"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,97,529,124"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,97,529,124"/>
 <area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,47,247,73"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,72,56,99"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,97,295,124"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,97,295,124"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="959,94,1083,135"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,94,911,135"/>
 </map>
@@ -609,10 +609,10 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,12,911,53"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,25,725,51"/>
 <area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,25,496,51"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,75,529,102"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,75,529,102"/>
 <area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,25,247,51"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,50,56,77"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,75,295,102"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,75,295,102"/>
 </map>
 </div>
 
@@ -698,7 +698,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="343,201,492,243"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Model.html#ad8150dc6c2d07f27a8654b8d63977f6d" title="Constructor." alt="" coords="343,267,492,294"/>
 <area shape="rect" href="classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="114,71,285,112"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,143,295,170"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,143,295,170"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,143,56,170"/>
 </map>
 </div>
@@ -741,7 +741,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Coordinates that would be at <a class="el" href="classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates.">Point</a> within this <a class="el" href="classtbd_1_1topo_1_1EnvironmentInfo.html" title="Information regarding an Environment, such as grids to read and location.">EnvironmentInfo</a>, or nullptr if it is not </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8cpp_source.html#l00161">161</a> of file <a class="el" href="Environment_8cpp_source.html">Environment.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8cpp_source.html#l00159">159</a> of file <a class="el" href="Environment_8cpp_source.html">Environment.cpp</a>.</p>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Here is the caller graph for this function:</div>
 
 <p>Creates a map of areas that are not burnable either because of fuel or the initial perimeter. </p>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00382">382</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00380">380</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -957,7 +957,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8cpp_source.html#l00082">82</a> of file <a class="el" href="Environment_8cpp_source.html">Environment.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8cpp_source.html#l00080">80</a> of file <a class="el" href="Environment_8cpp_source.html">Environment.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -992,7 +992,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classtbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e_icgraph.png" border="0" usemap="#aclasstbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e_icgraph" id="aclasstbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e_icgraph">
 <area shape="rect" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="343,5,492,47"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
 </map>
 </div>
@@ -1025,7 +1025,7 @@ Here is the caller graph for this function:</div>
 <p>Create BurnedData and set burned bits based on <a class="el" href="classtbd_1_1topo_1_1Perimeter.html" title="Perimeter for an existing fire to initialize a simulation with.">Perimeter</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>BurnedData with all initially burned locations set </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00235">235</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00233">233</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1035,10 +1035,10 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="773,23,947,65"/>
 <area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,31,725,57"/>
 <area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,5,496,32"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,56,529,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,56,529,83"/>
 <area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,5,247,32"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,56,295,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,56,295,83"/>
 </map>
 </div>
 
@@ -1087,7 +1087,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00255">255</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00253">253</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1163,7 +1163,7 @@ template&lt;class Other &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>GridMap&lt;Other&gt; covering this <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00227">227</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00225">225</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1176,8 +1176,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0c8ecfe5a3071e9c1e4950fb4f0d4ad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c8ecfe5a3071e9c1e4950fb4f0d4ad1">&#9670;&nbsp;</a></span>makeProbabilityMap()</h2>
+<a id="ab4f19175764766fc6e6e418162115fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f19175764766fc6e6e418162115fdf">&#9670;&nbsp;</a></span>makeProbabilityMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1185,12 +1185,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html">sim::ProbabilityMap</a> * tbd::topo::Environment::makeProbabilityMap </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>for_what</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>time</em>, </td>
         </tr>
@@ -1235,7 +1229,6 @@ Here is the caller graph for this function:</div>
 <p>Make a ProbabilityMap that covers this <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">for_what</td><td>What type of size this represents </td></tr>
     <tr><td class="paramname">time</td><td>Time in simulation this ProbabilityMap represents </td></tr>
     <tr><td class="paramname">start_time</td><td>Start time of simulation </td></tr>
     <tr><td class="paramname">min_value</td><td>Lower bound of 'low' intensity range </td></tr>
@@ -1251,13 +1244,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1topo_1_1Environment_a0c8ecfe5a3071e9c1e4950fb4f0d4ad1_icgraph.png" border="0" usemap="#aclasstbd_1_1topo_1_1Environment_a0c8ecfe5a3071e9c1e4950fb4f0d4ad1_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1topo_1_1Environment_a0c8ecfe5a3071e9c1e4950fb4f0d4ad1_icgraph" id="aclasstbd_1_1topo_1_1Environment_a0c8ecfe5a3071e9c1e4950fb4f0d4ad1_icgraph">
+<div class="center"><img src="classtbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf_icgraph.png" border="0" usemap="#aclasstbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf_icgraph" id="aclasstbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf_icgraph">
 <area shape="rect" title="Make a ProbabilityMap that covers this Environment." alt="" coords="1073,5,1223,47"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa8a7f526b1b5fe525febac5a501c9ff6" title="Create a ProbabilityMap with the same extent as this." alt="" coords="795,13,1025,39"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a8f919a2dc7f2caec01e4532c462680d9" title=" " alt="" coords="577,13,747,39"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,13,529,39"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ad8669cbfe36950de89211fe1815edd" title="Create a ProbabilityMap with the same extent as this." alt="" coords="795,13,1025,39"/>
+<area shape="rect" href="namespacetbd_1_1sim.html#a2549bbbc1bb3e4d030224b99b2ef3e2b" title=" " alt="" coords="577,13,747,39"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,13,529,39"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
 </map>
 </div>
@@ -1467,7 +1460,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00244">244</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00242">242</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 
 </div>
 </div>
@@ -1535,7 +1528,7 @@ Here is the caller graph for this function:</div>
 
 <p>Cells representing <a class="el" href="classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids.">Environment</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00470">470</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00468">468</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 
 </div>
 </div>
@@ -1561,7 +1554,7 @@ Here is the caller graph for this function:</div>
 
 <p>Elevation at <a class="el" href="classtbd_1_1topo_1_1StartPoint.html" title="A Point that has sunrise and sunset times for each day.">StartPoint</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00478">478</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00476">476</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1580,7 @@ Here is the caller graph for this function:</div>
 
 <p>BurnedData of cells that are not burnable. </p>
 
-<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00474">474</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Environment_8h_source.html#l00472">472</a> of file <a class="el" href="Environment_8h_source.html">Environment.h</a>.</p>
 
 </div>
 </div>

@@ -11,8 +11,8 @@
 <area shape="rect" id="node24" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="762,1031,881,1058"/>
 <area shape="rect" id="node26" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="247,1181,428,1207"/>
 <area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="277,1755,398,1796"/>
-<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="491,229,677,255"/>
-<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="244,1543,431,1570"/>
+<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="491,229,677,255"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="244,1543,431,1570"/>
 <area shape="rect" id="node50" href="$namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e" title=" " alt="" coords="247,2111,427,2138"/>
 <area shape="rect" id="node6" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1212,608,1333,649"/>
 <area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="994,615,1123,642"/>
@@ -44,7 +44,7 @@
 <area shape="rect" id="node42" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="507,1239,661,1266"/>
 <area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="521,1696,647,1737"/>
 <area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="507,1761,661,1803"/>
-<area shape="rect" id="node45" href="$namespacetbd_1_1sim.html#a8f919a2dc7f2caec01e4532c462680d9" title=" " alt="" coords="499,1594,669,1621"/>
+<area shape="rect" id="node45" href="$namespacetbd_1_1sim.html#a2549bbbc1bb3e4d030224b99b2ef3e2b" title=" " alt="" coords="499,1594,669,1621"/>
 <area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="755,1820,888,1861"/>
 <area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="485,1878,683,1905"/>
 <area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="510,1543,658,1570"/>

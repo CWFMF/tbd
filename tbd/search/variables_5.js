@@ -4,7 +4,7 @@ var searchData=
   ['ffmc_5f_2353',['ffmc_',['../classtbd_1_1wx_1_1FwiWeather.html#a74dc60b66b62e2c3f770d33ed37da088',1,'tbd::wx::FwiWeather::ffmc_()'],['../classtbd_1_1wx_1_1Startup.html#a625d96354ebfa4233f7e768f3d0ae87f',1,'tbd::wx::Startup::ffmc_()']]],
   ['ffmc_5feffect_5f_2354',['ffmc_effect_',['../classtbd_1_1wx_1_1FwiWeather.html#adbb933068a959e4edb33f0e4d6e829d0',1,'tbd::wx::FwiWeather']]],
   ['final_5fsizes_5f_2355',['final_sizes_',['../classtbd_1_1sim_1_1Iteration.html#a83a192365308646f28604f0d632bc210',1,'tbd::sim::Iteration::final_sizes_()'],['../classtbd_1_1sim_1_1Scenario.html#ae5d05528b75f126a59df1a29ae9b9771',1,'tbd::sim::Scenario::final_sizes_()']]],
-  ['for_5fwhat_5f_2356',['for_what_',['../classtbd_1_1sim_1_1ProbabilityMap.html#ad63b1f9149dcfed6d802f881a11d2736',1,'tbd::sim::ProbabilityMap::for_what_()'],['../classtbd_1_1util_1_1UsageCount.html#ac312e33509b52c9614e822b244e719c1',1,'tbd::util::UsageCount::for_what_()']]],
+  ['for_5fwhat_5f_2356',['for_what_',['../classtbd_1_1util_1_1UsageCount.html#ac312e33509b52c9614e822b244e719c1',1,'tbd::util::UsageCount']]],
   ['fuel_5f_2357',['fuel_',['../classtbd_1_1topo_1_1EnvironmentInfo.html#a2c633fdbef63d332a7a52f897cf69523',1,'tbd::topo::EnvironmentInfo']]],
   ['fuel_5fbad_5fvalues_5f_2358',['fuel_bad_values_',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#a4e6649f14e1243f0091faca7208040b9',1,'tbd::fuel::FuelLookupImpl']]],
   ['fuel_5fby_5fname_5f_2359',['fuel_by_name_',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#a7aa0a4542fd9b74ffb494d947d053b3f',1,'tbd::fuel::FuelLookupImpl']]],

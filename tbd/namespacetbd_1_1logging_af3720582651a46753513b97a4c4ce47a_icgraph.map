@@ -1,7 +1,7 @@
 <map id="tbd::logging::check_fatal" name="tbd::logging::check_fatal">
 <area shape="rect" id="node1" title=" " alt="" coords="1065,1026,1193,1067"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="835,957,989,984"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#aa2919ba0512202d50bd3ae15f4da93ae" title="Run Scenarios initialized from given inputs." alt="" coords="104,932,295,959"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,932,295,959"/>
 <area shape="rect" id="node5" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,324,56,351"/>
 <area shape="rect" id="node6" href="$classtbd_1_1sim_1_1ProbabilityMap.html#ab1de25a4b8d6ad3832c06c1a47cc4e65" title="Combine results from another ProbabilityMap into this one." alt="" coords="833,325,991,366"/>
 <area shape="rect" id="node7" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="835,197,989,224"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="827,856,997,883"/>
 <area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="577,907,759,933"/>
 <area shape="rect" id="node29" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="807,1110,1017,1151"/>
-<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#ad6e9dc963569ff733c2d5469a238587c" title="Read weather used for Scenarios." alt="" coords="343,1216,529,1243"/>
+<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,1216,529,1243"/>
 <area shape="rect" id="node34" href="$classtbd_1_1wx_1_1Fwi.html#acc563b381d6609f38785733c9aed637b" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="854,1059,970,1085"/>
 <area shape="rect" id="node35" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="167,40,232,67"/>
 <area shape="rect" id="node36" href="$classtbd_1_1data_1_1Grid.html#a7891ababf2777f8dec0d5c69b591a8e2" title="Constructor." alt="" coords="847,1176,977,1203"/>
@@ -32,7 +32,7 @@
 <area shape="rect" id="node48" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="849,1811,975,1853"/>
 <area shape="rect" id="node49" href="$classtbd_1_1util_1_1Statistics.html#aaea792af8245d61f4a84c7b25b8d4ac6" title="Calculates statistics on a vector of values." alt="" coords="850,1877,974,1918"/>
 <area shape="rect" id="node50" href="$namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35" title=" " alt="" coords="851,1943,973,1969"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#ae8f8332361efea5fd32934a756d66c50" title="Run Iterations until confidence is reached." alt="" coords="343,957,529,984"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,957,529,984"/>
 <area shape="rect" id="node8" href="$namespacetbd_1_1wx.html#a55ce6272a01d614a18cdd50b5387fd66" title="Equality operator." alt="" coords="603,248,733,275"/>
 <area shape="rect" id="node9" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,349,496,376"/>
 <area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="606,131,730,173"/>
