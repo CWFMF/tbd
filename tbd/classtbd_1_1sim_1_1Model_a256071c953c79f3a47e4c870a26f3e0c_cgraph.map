@@ -1,15 +1,17 @@
 <map id="tbd::sim::Model::readWeather" name="tbd::sim::Model::readWeather">
-<area shape="rect" id="node1" title="Read weather used for Scenarios." alt="" coords="5,236,192,263"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="685,29,813,70"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="861,99,980,126"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="245,211,373,238"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="249,94,370,136"/>
-<area shape="rect" id="node10" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="479,414,585,440"/>
-<area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="252,262,367,288"/>
-<area shape="rect" id="node12" href="$namespacetbd_1_1util.html#afccc02b1e09d85dd1d6c1bbfa6d9a0f7" title="Read a date from the given stream." alt="" coords="246,414,373,440"/>
-<area shape="rect" id="node13" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="240,312,379,339"/>
-<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="689,280,810,321"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="467,312,597,339"/>
-<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="427,29,637,70"/>
-<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="427,94,637,136"/>
+<area shape="rect" id="node1" title="Read weather used for Scenarios." alt="" coords="5,302,192,329"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="685,55,813,96"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="861,33,980,60"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="245,302,373,329"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="249,120,370,162"/>
+<area shape="rect" id="node10" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="479,505,585,532"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="252,353,367,380"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="249,186,370,227"/>
+<area shape="rect" id="node14" href="$namespacetbd_1_1util.html#afccc02b1e09d85dd1d6c1bbfa6d9a0f7" title="Read a date from the given stream." alt="" coords="246,505,373,532"/>
+<area shape="rect" id="node15" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="240,404,379,430"/>
+<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="689,371,810,412"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="467,353,597,380"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="427,55,637,96"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="427,120,637,162"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="427,186,637,227"/>
 </map>
