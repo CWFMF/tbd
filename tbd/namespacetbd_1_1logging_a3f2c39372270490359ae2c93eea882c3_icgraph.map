@@ -1,52 +1,52 @@
 <map id="tbd::logging::fatal" name="tbd::logging::fatal">
-<area shape="rect" id="node1" title="Log a fatal error and quit." alt="" coords="1045,2090,1164,2117"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="850,1083,978,1124"/>
-<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,1758,295,1785"/>
-<area shape="rect" id="node17" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,901,56,928"/>
-<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="584,1938,771,1965"/>
-<area shape="rect" id="node36" href="$classtbd_1_1data_1_1GridBase.html#a375c8ab4c79c0041905c52d0040deb0b" title="Create .prj file in directory with base name for file." alt="" coords="849,106,979,147"/>
-<area shape="rect" id="node38" href="$namespacetbd_1_1logging.html#a717023504c6a0f2fb4dfcc1379f0c028" title="Log with FATAL level and exit." alt="" coords="855,2090,973,2117"/>
-<area shape="rect" id="node39" href="$namespacetbd_1_1data.html#a5fefe849cb54293b34c0dfd572d8434d" title=" " alt="" coords="837,2141,991,2168"/>
-<area shape="rect" id="node41" href="$classtbd_1_1fuel_1_1FuelLookupImpl.html#aec8701e079649db238f1bbd30d75ccd9" title="Look up the original grid code for a FuelType." alt="" coords="831,2192,997,2234"/>
-<area shape="rect" id="node42" href="$namespacetbd_1_1sim.html#a7b62e464a18d6382144f6c9c32d95221" title=" " alt="" coords="849,2258,979,2285"/>
-<area shape="rect" id="node44" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="836,2375,992,2416"/>
-<area shape="rect" id="node48" href="$classtbd_1_1logging_1_1SelfLogger.html#abacb0f20405fe23f38ebefb9fbc569a7" title=" " alt="" coords="836,2310,992,2351"/>
-<area shape="rect" id="node49" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="835,2441,993,2468"/>
-<area shape="rect" id="node50" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,1962,247,1989"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="600,332,755,358"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1ProbabilityMap.html#ab1de25a4b8d6ad3832c06c1a47cc4e65" title="Combine results from another ProbabilityMap into this one." alt="" coords="598,383,757,424"/>
-<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="600,449,755,476"/>
-<area shape="rect" id="node6" href="$classtbd_1_1data_1_1ConstantGrid.html#a64c169a3460579fc2f0fe95db3e40e26" title="Value for grid at given Location." alt="" coords="592,500,763,526"/>
-<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="359,663,508,704"/>
-<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Bui.html#a286a1e3888c2c3817a289cba93690536" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="621,733,733,760"/>
-<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="606,784,749,826"/>
-<area shape="rect" id="node11" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="616,952,739,994"/>
-<area shape="rect" id="node12" href="$classtbd_1_1data_1_1ConstantGrid.html#af88ad538b456593c04fbab1287ffce65" title="Constructor." alt="" coords="601,1018,754,1059"/>
-<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#af65a76d3daf457beff9ed71ccba2e48f" title="Constructor." alt="" coords="592,1083,763,1124"/>
-<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="593,1149,762,1176"/>
-<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="343,1266,524,1293"/>
-<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="572,1368,783,1410"/>
-<area shape="rect" id="node19" href="$classtbd_1_1wx_1_1Fwi.html#acc563b381d6609f38785733c9aed637b" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="619,1434,735,1461"/>
-<area shape="rect" id="node20" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="167,901,232,928"/>
-<area shape="rect" id="node21" href="$classtbd_1_1data_1_1Grid.html#a7891ababf2777f8dec0d5c69b591a8e2" title="Constructor." alt="" coords="612,1485,743,1512"/>
-<area shape="rect" id="node22" href="$classtbd_1_1data_1_1GridMap.html#a13bf6e04a38b734efa00540222f19d05" title="Constructor." alt="" coords="614,1587,741,1628"/>
-<area shape="rect" id="node23" href="$classtbd_1_1wx_1_1Isi.html#ad21a1cd5a856b17c71b91ce6c8ed6f76" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="626,1653,729,1680"/>
-<area shape="rect" id="node24" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="359,1675,508,1716"/>
-<area shape="rect" id="node25" href="$classtbd_1_1topo_1_1Location.html#ada3de488179519dcb75dea8383511c4e" title="Construct using hash of row and column." alt="" coords="614,1704,741,1746"/>
-<area shape="rect" id="node26" href="$namespacetbd_1_1sim.html#a7e4eef86cd71637d8083bca7815a4119" title=" " alt="" coords="613,1770,742,1797"/>
-<area shape="rect" id="node27" href="$classtbd_1_1util_1_1Statistics.html#a9a6f61326d00a1f5f2c89557bc30213e" title="Value for given percentile." alt="" coords="615,1822,739,1863"/>
-<area shape="rect" id="node28" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="367,240,500,282"/>
-<area shape="rect" id="node29" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="603,550,751,577"/>
-<area shape="rect" id="node30" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="601,266,754,307"/>
-<area shape="rect" id="node32" href="$classtbd_1_1data_1_1ConstantGrid.html#a2b1920524b98329b8eec6ce917c8ed03" title="Save contents to .tif file." alt="" coords="601,602,754,643"/>
-<area shape="rect" id="node33" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="614,667,741,708"/>
-<area shape="rect" id="node34" href="$classtbd_1_1util_1_1Statistics.html#aaea792af8245d61f4a84c7b25b8d4ac6" title="Calculates statistics on a vector of values." alt="" coords="615,1200,739,1242"/>
-<area shape="rect" id="node35" href="$namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35" title=" " alt="" coords="616,1317,739,1344"/>
-<area shape="rect" id="node8" href="$classtbd_1_1data_1_1ConstantGrid.html#ae7bfc96903a75f33816c1beb12a6e805" title="Save contents to .asc file." alt="" coords="357,98,510,139"/>
-<area shape="rect" id="node37" href="$classtbd_1_1data_1_1GridMap.html#aab8585e94a28cb6426918bc419d18ba9" title="Save GridMap contents to .asc file." alt="" coords="614,47,741,88"/>
-<area shape="rect" id="node40" href="$classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2" title="Constructor." alt="" coords="612,2134,743,2175"/>
-<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a6106ee0baa92cb5aa0201589fbfd7eb7" title="Read settings from a file." alt="" coords="572,2251,783,2292"/>
-<area shape="rect" id="node45" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="615,2419,739,2460"/>
-<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="371,2360,495,2402"/>
-<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="615,2484,739,2526"/>
+<area shape="rect" id="node1" title="Log a fatal error and quit." alt="" coords="1045,2181,1164,2208"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="850,943,978,985"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,1727,295,1753"/>
+<area shape="rect" id="node17" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,1727,56,1753"/>
+<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="584,1828,771,1855"/>
+<area shape="rect" id="node37" href="$classtbd_1_1data_1_1GridBase.html#a375c8ab4c79c0041905c52d0040deb0b" title="Create .prj file in directory with base name for file." alt="" coords="849,2014,979,2055"/>
+<area shape="rect" id="node39" href="$namespacetbd_1_1logging.html#a717023504c6a0f2fb4dfcc1379f0c028" title="Log with FATAL level and exit." alt="" coords="855,2131,973,2157"/>
+<area shape="rect" id="node40" href="$namespacetbd_1_1data.html#a5fefe849cb54293b34c0dfd572d8434d" title=" " alt="" coords="837,2181,991,2208"/>
+<area shape="rect" id="node42" href="$classtbd_1_1fuel_1_1FuelLookupImpl.html#aec8701e079649db238f1bbd30d75ccd9" title="Look up the original grid code for a FuelType." alt="" coords="831,2233,997,2274"/>
+<area shape="rect" id="node43" href="$namespacetbd_1_1sim.html#a7b62e464a18d6382144f6c9c32d95221" title=" " alt="" coords="849,2299,979,2325"/>
+<area shape="rect" id="node45" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="836,1945,992,1986"/>
+<area shape="rect" id="node48" href="$classtbd_1_1logging_1_1SelfLogger.html#abacb0f20405fe23f38ebefb9fbc569a7" title=" " alt="" coords="836,2401,992,2442"/>
+<area shape="rect" id="node49" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="835,2467,993,2493"/>
+<area shape="rect" id="node50" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,2459,247,2485"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="600,589,755,616"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1ProbabilityMap.html#ab1de25a4b8d6ad3832c06c1a47cc4e65" title="Combine results from another ProbabilityMap into this one." alt="" coords="598,641,757,682"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="600,707,755,733"/>
+<area shape="rect" id="node6" href="$classtbd_1_1data_1_1ConstantGrid.html#a64c169a3460579fc2f0fe95db3e40e26" title="Value for grid at given Location." alt="" coords="592,1777,763,1804"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="359,1467,508,1509"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Bui.html#a286a1e3888c2c3817a289cba93690536" title="Calculate Build&#45;up Index and verify previous value is within tolerance of calculated value." alt="" coords="621,859,733,885"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="606,910,749,951"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="616,975,739,1017"/>
+<area shape="rect" id="node12" href="$classtbd_1_1data_1_1ConstantGrid.html#af88ad538b456593c04fbab1287ffce65" title="Constructor." alt="" coords="601,1041,754,1082"/>
+<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#af65a76d3daf457beff9ed71ccba2e48f" title="Constructor." alt="" coords="592,1106,763,1147"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="593,1223,762,1249"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="343,1223,524,1249"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="572,1325,783,1366"/>
+<area shape="rect" id="node19" href="$classtbd_1_1wx_1_1Fwi.html#acc563b381d6609f38785733c9aed637b" title="Calculate Fire Weather Index and verify previous value is within tolerance of calculated value." alt="" coords="619,1391,735,1417"/>
+<area shape="rect" id="node20" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="167,1216,232,1243"/>
+<area shape="rect" id="node21" href="$classtbd_1_1data_1_1Grid.html#a7891ababf2777f8dec0d5c69b591a8e2" title="Constructor." alt="" coords="612,1441,743,1468"/>
+<area shape="rect" id="node22" href="$classtbd_1_1data_1_1GridMap.html#a13bf6e04a38b734efa00540222f19d05" title="Constructor." alt="" coords="614,1493,741,1534"/>
+<area shape="rect" id="node23" href="$classtbd_1_1wx_1_1Isi.html#ad21a1cd5a856b17c71b91ce6c8ed6f76" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="626,1559,729,1585"/>
+<area shape="rect" id="node24" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="359,982,508,1023"/>
+<area shape="rect" id="node25" href="$classtbd_1_1topo_1_1Location.html#ada3de488179519dcb75dea8383511c4e" title="Construct using hash of row and column." alt="" coords="614,1661,741,1702"/>
+<area shape="rect" id="node26" href="$namespacetbd_1_1sim.html#a7e4eef86cd71637d8083bca7815a4119" title=" " alt="" coords="613,5,742,32"/>
+<area shape="rect" id="node27" href="$classtbd_1_1util_1_1Statistics.html#a9a6f61326d00a1f5f2c89557bc30213e" title="Value for given percentile." alt="" coords="615,57,739,98"/>
+<area shape="rect" id="node28" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="367,170,500,211"/>
+<area shape="rect" id="node29" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="603,173,751,200"/>
+<area shape="rect" id="node30" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="601,225,754,266"/>
+<area shape="rect" id="node32" href="$classtbd_1_1data_1_1ConstantGrid.html#a2b1920524b98329b8eec6ce917c8ed03" title="Save contents to .tif file." alt="" coords="601,290,754,331"/>
+<area shape="rect" id="node33" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="614,355,741,397"/>
+<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="362,1778,505,1819"/>
+<area shape="rect" id="node35" href="$classtbd_1_1util_1_1Statistics.html#aaea792af8245d61f4a84c7b25b8d4ac6" title="Calculates statistics on a vector of values." alt="" coords="615,473,739,514"/>
+<area shape="rect" id="node36" href="$namespacetbd_1_1data.html#a65299e1978179cb979e8c07d754f6e35" title=" " alt="" coords="616,539,739,565"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1ConstantGrid.html#ae7bfc96903a75f33816c1beb12a6e805" title="Save contents to .asc file." alt="" coords="357,1843,510,1885"/>
+<area shape="rect" id="node38" href="$classtbd_1_1data_1_1GridMap.html#aab8585e94a28cb6426918bc419d18ba9" title="Save GridMap contents to .asc file." alt="" coords="614,2062,741,2103"/>
+<area shape="rect" id="node41" href="$classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2" title="Constructor." alt="" coords="612,2179,743,2221"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a6106ee0baa92cb5aa0201589fbfd7eb7" title="Read settings from a file." alt="" coords="572,2283,783,2325"/>
+<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="615,1879,739,1921"/>
+<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="615,1945,739,1986"/>
 </map>
