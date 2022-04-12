@@ -88,38 +88,15 @@ $(function() {
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TimeUtil_8h.html">TimeUtil.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacetbd_1_1util.html">tbd::util</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">   25</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">to_tm_no_fix</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; s, tm* t) noexcept</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  t-&gt;tm_year = s.year - 1900;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  t-&gt;tm_mon = s.month - 1;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  t-&gt;tm_mday = s.day;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  t-&gt;tm_hour = s.hour;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  t-&gt;tm_min = s.minute;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  t-&gt;tm_sec = s.second;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166">to_tm</a>(<span class="keyword">const</span> TIMESTAMP_STRUCT&amp; s, tm* t) noexcept</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment">// this doesn&#39;t set yday or other things properly, so convert to time and back</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <a class="code" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">to_tm_no_fix</a>(s, t);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keyword">const</span> time_t t_t = mktime(t);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  t = localtime(&amp;t_t);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="namespacetbd_1_1util.html#a8cdf3250ebdca4cca58cdbeb8dff5825">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetbd_1_1util.html#a8cdf3250ebdca4cca58cdbeb8dff5825">to_ts</a>(<span class="keyword">const</span> tm&amp; t, TIMESTAMP_STRUCT* s) noexcept</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  s-&gt;year = <span class="keyword">static_cast&lt;</span>SQLSMALLINT<span class="keyword">&gt;</span>(t.tm_year + 1900);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  s-&gt;month = <span class="keyword">static_cast&lt;</span>SQLUSMALLINT<span class="keyword">&gt;</span>(t.tm_mon + 1);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  s-&gt;day = <span class="keyword">static_cast&lt;</span>SQLUSMALLINT<span class="keyword">&gt;</span>(t.tm_mday);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  s-&gt;hour = <span class="keyword">static_cast&lt;</span>SQLUSMALLINT<span class="keyword">&gt;</span>(t.tm_hour);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  s-&gt;minute = <span class="keyword">static_cast&lt;</span>SQLUSMALLINT<span class="keyword">&gt;</span>(t.tm_min);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  s-&gt;second = <span class="keyword">static_cast&lt;</span>SQLUSMALLINT<span class="keyword">&gt;</span>(t.tm_sec);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  s-&gt;fraction = 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d">   20</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d">fix_tm</a>(tm* t)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">const</span> time_t t_t = mktime(t);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  t = localtime(&amp;t_t);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="ttc" id="aTimeUtil_8h_html"><div class="ttname"><a href="TimeUtil_8h.html">TimeUtil.h</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1util_html"><div class="ttname"><a href="namespacetbd_1_1util.html">tbd::util</a></div><div class="ttdef"><b>Definition:</b> <a href="LookupTable_8h_source.html#l00018">LookupTable.h:19</a></div></div>
-<div class="ttc" id="anamespacetbd_1_1util_html_a858e3d277ad72d821d204946c8740166"><div class="ttname"><a href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166">tbd::util::to_tm</a></div><div class="ttdeci">void to_tm(const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</div><div class="ttdoc">Convert to local time.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00034">TimeUtil.cpp:34</a></div></div>
-<div class="ttc" id="anamespacetbd_1_1util_html_a8cdf3250ebdca4cca58cdbeb8dff5825"><div class="ttname"><a href="namespacetbd_1_1util.html#a8cdf3250ebdca4cca58cdbeb8dff5825">tbd::util::to_ts</a></div><div class="ttdeci">void to_ts(const tm &amp;t, TIMESTAMP_STRUCT *s) noexcept</div><div class="ttdoc">Convert to GMT.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00041">TimeUtil.cpp:41</a></div></div>
-<div class="ttc" id="anamespacetbd_1_1util_html_aa18b48fa0bfb55d849255486263c700d"><div class="ttname"><a href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">tbd::util::to_tm_no_fix</a></div><div class="ttdeci">void to_tm_no_fix(const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</div><div class="ttdoc">Convert from TIMESTAMP_STRUCT to tm.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00025">TimeUtil.cpp:25</a></div></div>
+<div class="ttc" id="anamespacetbd_1_1util_html_a81bfcd7da69a7976da1fafe5e2c2228d"><div class="ttname"><a href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d">tbd::util::fix_tm</a></div><div class="ttdeci">void fix_tm(tm *t)</div><div class="ttdoc">Calculate tm fields from values already there.</div><div class="ttdef"><b>Definition:</b> <a href="TimeUtil_8cpp_source.html#l00020">TimeUtil.cpp:20</a></div></div>
 <div class="ttc" id="astdafx_8h_html"><div class="ttname"><a href="stdafx_8h.html">stdafx.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

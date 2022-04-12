@@ -91,24 +91,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa18b48fa0bfb55d849255486263c700d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">to_tm_no_fix</a> (const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</td></tr>
-<tr class="memdesc:aa18b48fa0bfb55d849255486263c700d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from TIMESTAMP_STRUCT to tm.  <a href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d">More...</a><br /></td></tr>
-<tr class="separator:aa18b48fa0bfb55d849255486263c700d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858e3d277ad72d821d204946c8740166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166">to_tm</a> (const TIMESTAMP_STRUCT &amp;s, tm *t) noexcept</td></tr>
-<tr class="memdesc:a858e3d277ad72d821d204946c8740166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to local time.  <a href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166">More...</a><br /></td></tr>
-<tr class="separator:a858e3d277ad72d821d204946c8740166"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cdf3250ebdca4cca58cdbeb8dff5825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a8cdf3250ebdca4cca58cdbeb8dff5825">to_ts</a> (const tm &amp;t, TIMESTAMP_STRUCT *s) noexcept</td></tr>
-<tr class="memdesc:a8cdf3250ebdca4cca58cdbeb8dff5825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to GMT.  <a href="namespacetbd_1_1util.html#a8cdf3250ebdca4cca58cdbeb8dff5825">More...</a><br /></td></tr>
-<tr class="separator:a8cdf3250ebdca4cca58cdbeb8dff5825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4230db06bfbc0de1cea23e809dafb79c"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a4230db06bfbc0de1cea23e809dafb79c">operator==</a> (const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</td></tr>
-<tr class="memdesc:a4230db06bfbc0de1cea23e809dafb79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="namespacetbd_1_1util.html#a4230db06bfbc0de1cea23e809dafb79c">More...</a><br /></td></tr>
-<tr class="separator:a4230db06bfbc0de1cea23e809dafb79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3d5c99cdc01ad75a3328955e845ea8"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a4a3d5c99cdc01ad75a3328955e845ea8">operator&lt;</a> (const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</td></tr>
-<tr class="memdesc:a4a3d5c99cdc01ad75a3328955e845ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than operator.  <a href="namespacetbd_1_1util.html#a4a3d5c99cdc01ad75a3328955e845ea8">More...</a><br /></td></tr>
-<tr class="separator:a4a3d5c99cdc01ad75a3328955e845ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5327146dd63329c356bc5ccc753d1e68"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a5327146dd63329c356bc5ccc753d1e68">operator&gt;</a> (const TIMESTAMP_STRUCT &amp;x, const TIMESTAMP_STRUCT &amp;y) noexcept</td></tr>
-<tr class="memdesc:a5327146dd63329c356bc5ccc753d1e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater than operator.  <a href="namespacetbd_1_1util.html#a5327146dd63329c356bc5ccc753d1e68">More...</a><br /></td></tr>
-<tr class="separator:a5327146dd63329c356bc5ccc753d1e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bfcd7da69a7976da1fafe5e2c2228d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d">fix_tm</a> (tm *t)</td></tr>
+<tr class="memdesc:a81bfcd7da69a7976da1fafe5e2c2228d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate tm fields from values already there.  <a href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d">More...</a><br /></td></tr>
+<tr class="separator:a81bfcd7da69a7976da1fafe5e2c2228d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7470498df41e8f4e30ba11515d7f4ec1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a7470498df41e8f4e30ba11515d7f4ec1">trim_left</a> (string *s)</td></tr>
 <tr class="separator:a7470498df41e8f4e30ba11515d7f4ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8632cb18b3d4efd34240099e6ecb0b10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1util.html#a8632cb18b3d4efd34240099e6ecb0b10">trim_right</a> (string *s)</td></tr>
@@ -459,6 +444,43 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,217,176,258"/>
 <area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="503,479,553,506"/>
 <area shape="rect" href="namespacetbd_1_1topo.html#a9b00fc96e95d2dd52c49095d355c770d" title="Convert UTM to latitude/longitude." alt="" coords="900,430,1063,456"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81bfcd7da69a7976da1fafe5e2c2228d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81bfcd7da69a7976da1fafe5e2c2228d">&#9670;&nbsp;</a></span>fix_tm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::util::fix_tm </td>
+          <td>(</td>
+          <td class="paramtype">tm *&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate tm fields from values already there. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>tm object to update </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="TimeUtil_8cpp_source.html#l00020">20</a> of file <a class="el" href="TimeUtil_8cpp_source.html">TimeUtil.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacetbd_1_1util_a81bfcd7da69a7976da1fafe5e2c2228d_icgraph.png" border="0" usemap="#anamespacetbd_1_1util_a81bfcd7da69a7976da1fafe5e2c2228d_icgraph" alt=""/></div>
+<map name="anamespacetbd_1_1util_a81bfcd7da69a7976da1fafe5e2c2228d_icgraph" id="anamespacetbd_1_1util_a81bfcd7da69a7976da1fafe5e2c2228d_icgraph">
+<area shape="rect" title="Calculate tm fields from values already there." alt="" coords="104,5,207,32"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -817,150 +839,6 @@ template&lt;class T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Value casted to type T </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Util_8h_source.html#l00110">110</a> of file <a class="el" href="Util_8h_source.html">Util.h</a>.</p>
-
-</div>
-</div>
-<a id="a4a3d5c99cdc01ad75a3328955e845ea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a3d5c99cdc01ad75a3328955e845ea8">&#9670;&nbsp;</a></span>operator&lt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool tbd::util::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Less than operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>First TIMESTAMP_STRUCT </td></tr>
-    <tr><td class="paramname">y</td><td>Second TIMESTAMP_STRUCT </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether or not the first is less than the second </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8h_source.html#l00044">44</a> of file <a class="el" href="TimeUtil_8h_source.html">TimeUtil.h</a>.</p>
-
-</div>
-</div>
-<a id="a4230db06bfbc0de1cea23e809dafb79c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4230db06bfbc0de1cea23e809dafb79c">&#9670;&nbsp;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool tbd::util::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Equality operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>First TIMESTAMP_STRUCT </td></tr>
-    <tr><td class="paramname">y</td><td>Second TIMESTAMP_STRUCT </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether or not they are equivalent </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8h_source.html#l00027">27</a> of file <a class="el" href="TimeUtil_8h_source.html">TimeUtil.h</a>.</p>
-
-</div>
-</div>
-<a id="a5327146dd63329c356bc5ccc753d1e68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5327146dd63329c356bc5ccc753d1e68">&#9670;&nbsp;</a></span>operator&gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool tbd::util::operator&gt; </td>
-          <td>(</td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Greater than operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>First TIMESTAMP_STRUCT </td></tr>
-    <tr><td class="paramname">y</td><td>Second TIMESTAMP_STRUCT </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether or not the first is greater than the second </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8h_source.html#l00075">75</a> of file <a class="el" href="TimeUtil_8h_source.html">TimeUtil.h</a>.</p>
 
 </div>
 </div>
@@ -1833,184 +1711,6 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>double representing time at day and hour </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Util_8h_source.html#l00044">44</a> of file <a class="el" href="Util_8h_source.html">Util.h</a>.</p>
-
-</div>
-</div>
-<a id="a858e3d277ad72d821d204946c8740166"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858e3d277ad72d821d204946c8740166">&#9670;&nbsp;</a></span>to_tm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tbd::util::to_tm </td>
-          <td>(</td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">tm *&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert to local time. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>Input value </td></tr>
-    <tr><td class="paramname">t</td><td>Output value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8cpp_source.html#l00034">34</a> of file <a class="el" href="TimeUtil_8cpp_source.html">TimeUtil.cpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_cgraph.png" border="0" usemap="#anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_cgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_cgraph" id="anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_cgraph">
-<area shape="rect" title="Convert to local time." alt="" coords="5,5,108,32"/>
-<area shape="rect" href="namespacetbd_1_1util.html#aa18b48fa0bfb55d849255486263c700d" title="Convert from TIMESTAMP_STRUCT to tm." alt="" coords="156,5,299,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_icgraph.png" border="0" usemap="#anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_icgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_icgraph" id="anamespacetbd_1_1util_a858e3d277ad72d821d204946c8740166_icgraph">
-<area shape="rect" title="Convert to local time." alt="" coords="104,5,207,32"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="aa18b48fa0bfb55d849255486263c700d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa18b48fa0bfb55d849255486263c700d">&#9670;&nbsp;</a></span>to_tm_no_fix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tbd::util::to_tm_no_fix </td>
-          <td>(</td>
-          <td class="paramtype">const TIMESTAMP_STRUCT &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">tm *&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert from TIMESTAMP_STRUCT to tm. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>Input value </td></tr>
-    <tr><td class="paramname">t</td><td>Output value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8cpp_source.html#l00025">25</a> of file <a class="el" href="TimeUtil_8cpp_source.html">TimeUtil.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_aa18b48fa0bfb55d849255486263c700d_icgraph.png" border="0" usemap="#anamespacetbd_1_1util_aa18b48fa0bfb55d849255486263c700d_icgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_aa18b48fa0bfb55d849255486263c700d_icgraph" id="anamespacetbd_1_1util_aa18b48fa0bfb55d849255486263c700d_icgraph">
-<area shape="rect" title="Convert from TIMESTAMP_STRUCT to tm." alt="" coords="255,5,397,32"/>
-<area shape="rect" href="namespacetbd_1_1util.html#a858e3d277ad72d821d204946c8740166" title="Convert to local time." alt="" coords="104,5,207,32"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a8cdf3250ebdca4cca58cdbeb8dff5825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cdf3250ebdca4cca58cdbeb8dff5825">&#9670;&nbsp;</a></span>to_ts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tbd::util::to_ts </td>
-          <td>(</td>
-          <td class="paramtype">const tm &amp;&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TIMESTAMP_STRUCT *&#160;</td>
-          <td class="paramname"><em>s</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert to GMT. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>Input value </td></tr>
-    <tr><td class="paramname">t</td><td>Output value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="TimeUtil_8cpp_source.html#l00041">41</a> of file <a class="el" href="TimeUtil_8cpp_source.html">TimeUtil.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespacetbd_1_1util_a8cdf3250ebdca4cca58cdbeb8dff5825_icgraph.png" border="0" usemap="#anamespacetbd_1_1util_a8cdf3250ebdca4cca58cdbeb8dff5825_icgraph" alt=""/></div>
-<map name="anamespacetbd_1_1util_a8cdf3250ebdca4cca58cdbeb8dff5825_icgraph" id="anamespacetbd_1_1util_a8cdf3250ebdca4cca58cdbeb8dff5825_icgraph">
-<area shape="rect" title="Convert to GMT." alt="" coords="212,13,311,39"/>
-<area shape="rect" href="classtbd_1_1sim_1_1ProbabilityMap.html#a9b205c8966cfd5f7c275dc23c3ae38ac" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="5,5,164,47"/>
-</map>
-</div>
 
 </div>
 </div>

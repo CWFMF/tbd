@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['bui_1340',['Bui',['../classtbd_1_1wx_1_1Bui.html',1,'tbd::wx']]],
-  ['burnedmap_1341',['BurnedMap',['../classtbd_1_1topo_1_1BurnedMap.html',1,'tbd::topo']]]
+  ['bui_1338',['Bui',['../classtbd_1_1wx_1_1Bui.html',1,'tbd::wx']]],
+  ['burnedmap_1339',['BurnedMap',['../classtbd_1_1topo_1_1BurnedMap.html',1,'tbd::topo']]]
 ];
