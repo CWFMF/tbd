@@ -1,52 +1,52 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,793,56,820"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="877,718,1005,759"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="1100,347,1219,373"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="619,768,747,795"/>
-<area shape="rect" id="node7" href="$namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d" title="Calculate tm fields from values already there." alt="" coords="148,2313,251,2340"/>
-<area shape="rect" id="node8" href="$Main_8cpp.html#a73ba90a97f6c650c66f26f5a6e6c008d" title=" " alt="" coords="167,532,232,559"/>
-<area shape="rect" id="node9" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="884,1489,999,1516"/>
-<area shape="rect" id="node10" href="$namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="604,230,761,271"/>
-<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="882,2103,1001,2129"/>
-<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,1707,295,1733"/>
-<area shape="rect" id="node44" href="$Main_8cpp.html#a0384b0585f68a5d6f7365569b719550c" title=" " alt="" coords="124,2364,275,2391"/>
-<area shape="rect" id="node45" href="$namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="153,2415,246,2441"/>
-<area shape="rect" id="node46" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,651,247,677"/>
-<area shape="rect" id="node50" href="$namespacetbd_1_1logging.html#a2253acdeb3f913181c319d71d93fb7b9" title="Log with WARNING level." alt="" coords="872,667,1011,693"/>
-<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1272,994,1393,1035"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="1095,1001,1224,1028"/>
-<area shape="rect" id="node11" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="863,241,1020,268"/>
-<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa" title="Number of Scenarios that have completed running." alt="" coords="374,1809,498,1850"/>
-<area shape="rect" id="node15" href="$namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="379,2630,493,2671"/>
-<area shape="rect" id="node19" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="605,2179,760,2205"/>
-<area shape="rect" id="node20" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="361,1525,511,1566"/>
-<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="345,2229,527,2256"/>
-<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="375,677,497,718"/>
-<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,900,529,927"/>
-<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,1757,529,1784"/>
-<area shape="rect" id="node43" href="$namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e" title=" " alt="" coords="346,2448,526,2475"/>
-<area shape="rect" id="node16" href="$namespacetbd_1_1topo.html#ae465078d2a656eee078fd67f3fafc699" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="621,2601,744,2642"/>
-<area shape="rect" id="node17" href="$namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="877,2696,1006,2723"/>
-<area shape="rect" id="node18" href="$namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="610,2718,755,2759"/>
-<area shape="rect" id="node21" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="608,1407,757,1449"/>
-<area shape="rect" id="node22" href="$namespacetbd_1_1util.html#adf0098fd4cc72b6d4a19d6dec16e2afc" title="Get a list of rasters in the given directory for the specified year." alt="" coords="615,1473,751,1500"/>
-<area shape="rect" id="node23" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#acb6ba4c7ce81bed04a6d4cb99cf67e88" title="Load EnvironmentInfo from given rasters." alt="" coords="597,1525,768,1566"/>
-<area shape="rect" id="node24" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="600,2077,765,2104"/>
-<area shape="rect" id="node25" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="872,1052,1011,1079"/>
-<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519" title="Cell at the given row and column." alt="" coords="874,1925,1009,1952"/>
-<area shape="rect" id="node28" href="$classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="608,2281,757,2322"/>
-<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="598,1925,767,1952"/>
-<area shape="rect" id="node30" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="872,2001,1011,2028"/>
-<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="836,961,1047,1002"/>
-<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a281d49148bb25073432922b4de020c7a" title="Whatever the maximum value in the date offsets is." alt="" coords="577,550,788,591"/>
-<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="622,986,743,1027"/>
-<area shape="rect" id="node36" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="888,885,995,912"/>
-<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="622,921,743,962"/>
-<area shape="rect" id="node38" href="$namespacetbd_1_1util.html#afccc02b1e09d85dd1d6c1bbfa6d9a0f7" title="Read a date from the given stream." alt="" coords="619,819,746,845"/>
-<area shape="rect" id="node40" href="$namespacetbd_1_1sim.html#a56e5b0a1fd8501903fffd3dff4c41187" title=" " alt="" coords="605,1757,760,1784"/>
-<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="620,1590,745,1631"/>
-<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="605,1809,760,1850"/>
-<area shape="rect" id="node47" href="$classtbd_1_1logging_1_1Log.html#a5b939553fc79d12a9aa86ba1c1214247" title="Increase amount of logging output by one level." alt="" coords="1097,82,1222,123"/>
-<area shape="rect" id="node48" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,993,496,1020"/>
-<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="368,567,504,609"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1525,56,1552"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="877,529,1005,570"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="1100,325,1219,352"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="619,1412,747,1439"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d" title="Calculate tm fields from values already there." alt="" coords="148,1925,251,1952"/>
+<area shape="rect" id="node8" href="$Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="167,183,232,209"/>
+<area shape="rect" id="node9" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="884,1311,999,1337"/>
+<area shape="rect" id="node10" href="$namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="604,234,761,275"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="623,1849,742,1876"/>
+<area shape="rect" id="node13" href="$Main_8cpp.html#a59be389204f7c16de1899c061b813cc4" title=" " alt="" coords="395,2043,477,2069"/>
+<area shape="rect" id="node14" href="$Main_8cpp.html#a7262409129f3f5bd8338c5d27f51a7b2" title=" " alt="" coords="373,2093,499,2120"/>
+<area shape="rect" id="node15" href="$Main_8cpp.html#aa19aad653de13b90244dc5316e855b85" title=" " alt="" coords="153,2027,245,2053"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,1496,295,1523"/>
+<area shape="rect" id="node44" href="$Main_8cpp.html#a0496dd9ab312f5e1aa5d0bccb39fc71d" title=" " alt="" coords="124,2128,275,2155"/>
+<area shape="rect" id="node45" href="$namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="153,2179,246,2205"/>
+<area shape="rect" id="node46" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,507,247,533"/>
+<area shape="rect" id="node50" href="$namespacetbd_1_1logging.html#a2253acdeb3f913181c319d71d93fb7b9" title="Log with WARNING level." alt="" coords="872,1007,1011,1033"/>
+<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1272,1354,1393,1395"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="1095,1412,1224,1439"/>
+<area shape="rect" id="node11" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="863,245,1020,272"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa" title="Number of Scenarios that have completed running." alt="" coords="374,1489,498,1530"/>
+<area shape="rect" id="node18" href="$namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="379,1977,493,2018"/>
+<area shape="rect" id="node22" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="605,1748,760,1775"/>
+<area shape="rect" id="node23" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="361,1606,511,1647"/>
+<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="345,1925,527,1952"/>
+<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="375,554,497,595"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,1032,529,1059"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,1723,529,1749"/>
+<area shape="rect" id="node43" href="$namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e" title=" " alt="" coords="346,1437,526,1464"/>
+<area shape="rect" id="node19" href="$namespacetbd_1_1topo.html#ae465078d2a656eee078fd67f3fafc699" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="621,2119,744,2161"/>
+<area shape="rect" id="node20" href="$namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="877,2221,1006,2248"/>
+<area shape="rect" id="node21" href="$namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="610,2185,755,2226"/>
+<area shape="rect" id="node24" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="608,1514,757,1555"/>
+<area shape="rect" id="node25" href="$namespacetbd_1_1util.html#adf0098fd4cc72b6d4a19d6dec16e2afc" title="Get a list of rasters in the given directory for the specified year." alt="" coords="615,1580,751,1607"/>
+<area shape="rect" id="node26" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#acb6ba4c7ce81bed04a6d4cb99cf67e88" title="Load EnvironmentInfo from given rasters." alt="" coords="597,1631,768,1673"/>
+<area shape="rect" id="node27" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="600,1799,765,1825"/>
+<area shape="rect" id="node28" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="872,1463,1011,1489"/>
+<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519" title="Cell at the given row and column." alt="" coords="874,1900,1009,1927"/>
+<area shape="rect" id="node31" href="$classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="608,1951,757,1993"/>
+<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="598,1900,767,1927"/>
+<area shape="rect" id="node33" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="872,2009,1011,2036"/>
+<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="836,658,1047,699"/>
+<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a281d49148bb25073432922b4de020c7a" title="Whatever the maximum value in the date offsets is." alt="" coords="577,554,788,595"/>
+<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="622,941,743,982"/>
+<area shape="rect" id="node39" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="888,1057,995,1084"/>
+<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="622,722,743,763"/>
+<area shape="rect" id="node41" href="$namespacetbd_1_1util.html#afccc02b1e09d85dd1d6c1bbfa6d9a0f7" title="Read a date from the given stream." alt="" coords="619,1057,746,1084"/>
+<area shape="rect" id="node47" href="$classtbd_1_1logging_1_1Log.html#a5b939553fc79d12a9aa86ba1c1214247" title="Increase amount of logging output by one level." alt="" coords="1097,129,1222,170"/>
+<area shape="rect" id="node48" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,1108,496,1135"/>
+<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="368,386,504,427"/>
 </map>

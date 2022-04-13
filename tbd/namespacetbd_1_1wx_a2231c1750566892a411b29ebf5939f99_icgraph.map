@@ -1,9 +1,10 @@
 <map id="tbd::wx::stod" name="tbd::wx::stod">
-<area shape="rect" id="node1" title=" " alt="" coords="644,85,737,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="644,107,737,133"/>
 <area shape="rect" id="node2" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="465,5,516,32"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc" title=" " alt="" coords="444,56,537,83"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a6106ee0baa92cb5aa0201589fbfd7eb7" title="Read settings from a file." alt="" coords="385,107,596,149"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1data.html#a5d93e53633e601220be392a67d39575f" title=" " alt="" coords="413,173,568,200"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1data.html#a5fefe849cb54293b34c0dfd572d8434d" title=" " alt="" coords="184,173,337,200"/>
-<area shape="rect" id="node7" href="$classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2" title="Constructor." alt="" coords="5,166,136,207"/>
+<area shape="rect" id="node3" href="$Main_8cpp.html#acf7c193d7a8f96571ee45a63f1440a24" title=" " alt="" coords="445,56,536,83"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc" title=" " alt="" coords="444,107,537,133"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a6106ee0baa92cb5aa0201589fbfd7eb7" title="Read settings from a file." alt="" coords="385,158,596,199"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1data.html#a5d93e53633e601220be392a67d39575f" title=" " alt="" coords="413,224,568,251"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1data.html#a5fefe849cb54293b34c0dfd572d8434d" title=" " alt="" coords="184,224,337,251"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2" title="Constructor." alt="" coords="5,217,136,258"/>
 </map>
