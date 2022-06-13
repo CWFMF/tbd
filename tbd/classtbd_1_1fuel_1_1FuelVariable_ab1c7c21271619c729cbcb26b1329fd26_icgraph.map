@@ -1,10 +1,10 @@
 <map id="tbd::fuel::FuelVariable::spring" name="tbd::fuel::FuelVariable::spring">
-<area shape="rect" id="node1" title="Fuel to use before green&#45;up." alt="" coords="397,217,543,259"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="213,119,335,160"/>
-<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="199,184,349,225"/>
-<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1FuelVariable.html#af7bba19fe09ceee84f63261fa8cf49b3" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="201,249,347,291"/>
-<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1FuelVariable.html#a20512104990f47b4380746589e9f1aac" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="201,315,347,356"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#ac7afe1ddbfe28d0456d48e19c9e0176a" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,29,151,71"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a5629f0d1df026a853b581ca65a57e87c" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,119,151,160"/>
-<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelVariable.html#a164ba89c86c0d88b18451e030e681bbb" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="5,208,151,249"/>
+<area shape="rect" id="node1" title="Fuel to use before green&#45;up." alt="" coords="397,169,543,211"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="213,71,335,112"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="199,136,349,177"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1FuelVariable.html#af7bba19fe09ceee84f63261fa8cf49b3" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="201,201,347,243"/>
+<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1FuelVariable.html#a20512104990f47b4380746589e9f1aac" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="201,267,347,308"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#ac7afe1ddbfe28d0456d48e19c9e0176a" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a5629f0d1df026a853b581ca65a57e87c" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,71,151,112"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelVariable.html#a164ba89c86c0d88b18451e030e681bbb" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="5,136,151,177"/>
 </map>

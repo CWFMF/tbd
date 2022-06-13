@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelType::buiEffect" name="tbd::fuel::FuelType::buiEffect">
+<area shape="rect" id="node1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="199,5,325,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ac7afe1ddbfe28d0456d48e19c9e0176a" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,5,151,47"/>
+</map>

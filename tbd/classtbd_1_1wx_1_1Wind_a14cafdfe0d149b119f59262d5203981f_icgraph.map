@@ -1,6 +1,5 @@
 <map id="tbd::wx::Wind::speed" name="tbd::wx::Wind::speed">
-<area shape="rect" id="node1" title="Speed of wind (km/h)" alt="" coords="189,56,328,83"/>
+<area shape="rect" id="node1" title="Speed of wind (km/h)" alt="" coords="189,35,328,61"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="12,5,135,32"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a57e2553afb56a06d67087c2c5b4ece84" title=" " alt="" coords="8,56,139,83"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,107,141,149"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,57,141,98"/>
 </map>

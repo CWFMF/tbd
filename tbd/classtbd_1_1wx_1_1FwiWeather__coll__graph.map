@@ -1,5 +1,5 @@
 <map id="tbd::wx::FwiWeather" name="tbd::wx::FwiWeather">
-<area shape="rect" id="node1" title="A Weather value with calculated FWI indices." alt="" coords="978,1593,1115,1979"/>
+<area shape="rect" id="node1" title="A Weather value with calculated FWI indices." alt="" coords="978,1593,1115,2008"/>
 <area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="499,1307,615,1531"/>
 <area shape="rect" id="node3" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="696,783,863,860"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="710,145,849,472"/>

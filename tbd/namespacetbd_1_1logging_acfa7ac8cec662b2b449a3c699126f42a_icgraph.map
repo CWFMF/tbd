@@ -1,19 +1,19 @@
 <map id="tbd::logging::info" name="tbd::logging::info">
-<area shape="rect" id="node1" title="Log with INFO level." alt="" coords="836,285,951,311"/>
+<area shape="rect" id="node1" title="Log with INFO level." alt="" coords="836,253,951,279"/>
 <area shape="rect" id="node2" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="611,5,754,47"/>
 <area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="598,122,767,149"/>
 <area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,205,295,231"/>
 <area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,205,56,231"/>
-<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="361,472,511,513"/>
-<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="361,224,511,265"/>
-<area shape="rect" id="node10" href="$classtbd_1_1data_1_1GridMap.html#a038b4e28baa6d133601d012e6b5d7a16" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="619,336,746,377"/>
-<area shape="rect" id="node11" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="606,405,759,447"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="361,224,511,265"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridMap.html#a038b4e28baa6d133601d012e6b5d7a16" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="619,275,746,316"/>
+<area shape="rect" id="node9" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="606,399,759,440"/>
 <area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,290,529,317"/>
 <area shape="rect" id="node15" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="623,71,743,98"/>
 <area shape="rect" id="node17" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a6106ee0baa92cb5aa0201589fbfd7eb7" title="Read settings from a file." alt="" coords="577,589,788,631"/>
 <area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="345,122,527,149"/>
-<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="114,472,285,513"/>
-<area shape="rect" id="node12" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="369,407,503,448"/>
-<area shape="rect" id="node13" href="$classtbd_1_1data_1_1ConstantGrid.html#a2389a5ce37e26ca1f0687ccd6774ef81" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="359,341,513,383"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="361,472,511,513"/>
+<area shape="rect" id="node12" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="369,341,503,383"/>
+<area shape="rect" id="node13" href="$classtbd_1_1data_1_1ConstantGrid.html#a2389a5ce37e26ca1f0687ccd6774ef81" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="359,407,513,448"/>
+<area shape="rect" id="node11" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="114,472,285,513"/>
 <area shape="rect" id="node16" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,99,247,126"/>
 </map>

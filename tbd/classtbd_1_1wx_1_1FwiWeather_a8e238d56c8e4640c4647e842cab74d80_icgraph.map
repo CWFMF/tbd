@@ -1,8 +1,7 @@
 <map id="tbd::wx::FwiWeather::dc" name="tbd::wx::FwiWeather::dc">
-<area shape="rect" id="node1" title="Drought Code." alt="" coords="209,107,367,133"/>
+<area shape="rect" id="node1" title="Drought Code." alt="" coords="209,81,367,108"/>
 <area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#abfee5ca0617380b5da032e7f4916cb98" title="Drought Code used for spread." alt="" coords="5,5,161,32"/>
 <area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="20,56,147,83"/>
 <area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="22,107,145,133"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1wx.html#a57e2553afb56a06d67087c2c5b4ece84" title=" " alt="" coords="18,157,149,184"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc" title=" " alt="" coords="37,208,130,235"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc" title=" " alt="" coords="37,157,130,184"/>
 </map>
