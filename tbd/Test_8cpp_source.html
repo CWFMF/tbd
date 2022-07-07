@@ -279,114 +279,116 @@ $(function() {
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac">logging::debug</a>(<span class="stringliteral">&quot;Output directory is %s&quot;</span>, output_directory.c_str());</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10">util::make_directory_recursive</a>(output_directory.c_str());</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <a class="code" href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67">Settings::setOutputDirectory</a>(output_directory);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span> (i == argc - 1 &amp;&amp; 0 == strcmp(argv[i], <span class="stringliteral">&quot;all&quot;</span>))</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    {</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = <a class="code" href="namespacetbd_1_1sim.html#a563928f25248f81f40623a91dda964be">DEFAULT_HOURS</a>;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;      constexpr <span class="keyword">auto</span> mask = <span class="stringliteral">&quot;%s%s_S%03d_A%03d_WD%03d_WS%03d/&quot;</span>;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; fuel : <a class="code" href="namespacetbd_1_1sim.html#a4319ab1e88f0a9fc8262f46d0a95f31b">FUEL_NAMES</a>)</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      {</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keyword">auto</span> simple_fuel_name{fuel};</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;-&#39;</span>),</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39; &#39;</span>),</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;(&#39;</span>),</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;)&#39;</span>),</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        simple_fuel_name.erase(</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;/&#39;</span>),</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          simple_fuel_name.end());</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out_length = output_directory.length() + 28 + simple_fuel_name.length();</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out = <span class="keyword">new</span> <span class="keywordtype">char</span>[out_length];</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="namespacetbd.html#a585c3652ca98fef74a654fbd785fadff">SlopeSize</a> slope = 0; slope &lt;= 100; slope += <a class="code" href="namespacetbd_1_1sim.html#a0203912080f5ecd60744d76542e7b431">SLOPE_INCREMENT</a>)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;          <span class="keywordflow">for</span> (<a class="code" href="namespacetbd.html#a6ebdcc73803878c9e44fff8838e6dea7">AspectSize</a> aspect = 0; aspect &lt; 360; aspect += <a class="code" href="namespacetbd_1_1sim.html#a6993fe2f5925c368a024e073752749e9">ASPECT_INCREMENT</a>)</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          {</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_direction = 0; wind_direction &lt; 360; wind_direction +=</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                                                <a class="code" href="namespacetbd_1_1sim.html#a449745ccc619092c2e205c971a6fa804">WD_INCREMENT</a>)</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            {</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;              <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Direction.html">wx::Direction</a> direction(wind_direction, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;              <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_speed = 0; wind_speed &lt;= <a class="code" href="namespacetbd_1_1sim.html#a803858e714ea53952a3151e3c09b64ef">MAX_WIND</a>; wind_speed += <a class="code" href="namespacetbd_1_1sim.html#ac708503aef5b5049049ca152013f3382">WS_INCREMENT</a>)</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;              {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Wind.html">wx::Wind</a> wind(direction, <a class="code" href="classtbd_1_1wx_1_1Speed.html">wx::Speed</a>(wind_speed));</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(mask,</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                              output_directory.c_str(),</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                              simple_fuel_name.c_str(),</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                              slope,</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                              aspect,</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                              wind_direction,</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                              wind_speed);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                sprintf(out,</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                        mask,</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                        output_directory.c_str(),</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                        simple_fuel_name.c_str(),</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                        slope,</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                        aspect,</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                        wind_direction,</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                        wind_speed);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67">Settings::setOutputDirectory</a>(out);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                result += <a class="code" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c">run_test</a>(out,</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                                   fuel,</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                                   slope,</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                   aspect,</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                                   num_hours,</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                                   dc,</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                   bui,</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                                   dmc,</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                                   ffmc,</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                   wind);</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;              }</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            }</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;          }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keyword">delete</span>[] out;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      }</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    {</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = argc &gt; i ? stoi(argv[i++]) : <a class="code" href="namespacetbd_1_1sim.html#a563928f25248f81f40623a91dda964be">DEFAULT_HOURS</a>;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> slope = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#a585c3652ca98fef74a654fbd785fadff">SlopeSize</a><span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> aspect = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#a6ebdcc73803878c9e44fff8838e6dea7">AspectSize</a><span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Speed.html">wx::Speed</a> wind_speed(argc &gt; i ? stoi(argv[i++]) : 20);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Direction.html">wx::Direction</a> wind_direction(argc &gt; i ? stoi(argv[i++]) : 180, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Wind.html">wx::Wind</a> wind(wind_direction, wind_speed);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      assert(i == argc);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <span class="stringliteral">&quot;Running tests with constant inputs for %d:\n&quot;</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="stringliteral">&quot;\tSlope:\t\t\t%d\n&quot;</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="stringliteral">&quot;\tAspect:\t\t\t%d\n&quot;</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="stringliteral">&quot;\tWind Speed:\t\t%f\n&quot;</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="stringliteral">&quot;\tWind Direction:\t\t%f\n&quot;</span>,</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        num_hours,</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        slope,</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        aspect,</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        wind_speed,</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        wind_direction);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      result = <a class="code" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c">run_test</a>(output_directory.c_str(),</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                        <span class="stringliteral">&quot;C-2&quot;</span>,</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                        slope,</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                        aspect,</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                        num_hours,</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                        dc,</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                        bui,</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                        dmc,</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                        ffmc,</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                        wind);</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    }</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  }</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  <span class="keywordflow">catch</span> (<span class="keyword">const</span> runtime_error&amp; err)</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  {</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(err.what());</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  }</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;}</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;}</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="comment">//    // just manually set for now since only using to debug</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">//    Settings::setSavePoints(true);</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">if</span> (i == argc - 1 &amp;&amp; 0 == strcmp(argv[i], <span class="stringliteral">&quot;all&quot;</span>))</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = <a class="code" href="namespacetbd_1_1sim.html#a563928f25248f81f40623a91dda964be">DEFAULT_HOURS</a>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      constexpr <span class="keyword">auto</span> mask = <span class="stringliteral">&quot;%s%s_S%03d_A%03d_WD%03d_WS%03d/&quot;</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; fuel : <a class="code" href="namespacetbd_1_1sim.html#a4319ab1e88f0a9fc8262f46d0a95f31b">FUEL_NAMES</a>)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keyword">auto</span> simple_fuel_name{fuel};</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;-&#39;</span>),</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39; &#39;</span>),</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;(&#39;</span>),</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;)&#39;</span>),</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        simple_fuel_name.erase(</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;          std::remove(simple_fuel_name.begin(), simple_fuel_name.end(), <span class="charliteral">&#39;/&#39;</span>),</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;          simple_fuel_name.end());</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out_length = output_directory.length() + 28 + simple_fuel_name.length();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keyword">const</span> <span class="keyword">auto</span> out = <span class="keyword">new</span> <span class="keywordtype">char</span>[out_length];</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="namespacetbd.html#a585c3652ca98fef74a654fbd785fadff">SlopeSize</a> slope = 0; slope &lt;= 100; slope += <a class="code" href="namespacetbd_1_1sim.html#a0203912080f5ecd60744d76542e7b431">SLOPE_INCREMENT</a>)</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;          <span class="keywordflow">for</span> (<a class="code" href="namespacetbd.html#a6ebdcc73803878c9e44fff8838e6dea7">AspectSize</a> aspect = 0; aspect &lt; 360; aspect += <a class="code" href="namespacetbd_1_1sim.html#a6993fe2f5925c368a024e073752749e9">ASPECT_INCREMENT</a>)</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;          {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_direction = 0; wind_direction &lt; 360; wind_direction +=</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                                                <a class="code" href="namespacetbd_1_1sim.html#a449745ccc619092c2e205c971a6fa804">WD_INCREMENT</a>)</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;              <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Direction.html">wx::Direction</a> direction(wind_direction, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;              <span class="keywordflow">for</span> (<span class="keyword">auto</span> wind_speed = 0; wind_speed &lt;= <a class="code" href="namespacetbd_1_1sim.html#a803858e714ea53952a3151e3c09b64ef">MAX_WIND</a>; wind_speed += <a class="code" href="namespacetbd_1_1sim.html#ac708503aef5b5049049ca152013f3382">WS_INCREMENT</a>)</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;              {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Wind.html">wx::Wind</a> wind(direction, <a class="code" href="classtbd_1_1wx_1_1Speed.html">wx::Speed</a>(wind_speed));</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(mask,</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                              output_directory.c_str(),</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                              simple_fuel_name.c_str(),</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                              slope,</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                              aspect,</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                              wind_direction,</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                              wind_speed);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                sprintf(out,</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                        mask,</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                        output_directory.c_str(),</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                        simple_fuel_name.c_str(),</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                        slope,</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                        aspect,</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                        wind_direction,</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                        wind_speed);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67">Settings::setOutputDirectory</a>(out);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                result += <a class="code" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c">run_test</a>(out,</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                   fuel,</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                                   slope,</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                                   aspect,</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                   num_hours,</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                                   dc,</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                                   bui,</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                   dmc,</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                   ffmc,</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                   wind);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;              }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            }</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;          }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="keyword">delete</span>[] out;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> num_hours = argc &gt; i ? stoi(argv[i++]) : <a class="code" href="namespacetbd_1_1sim.html#a563928f25248f81f40623a91dda964be">DEFAULT_HOURS</a>;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> slope = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#a585c3652ca98fef74a654fbd785fadff">SlopeSize</a><span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span> aspect = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#a6ebdcc73803878c9e44fff8838e6dea7">AspectSize</a><span class="keyword">&gt;</span>(argc &gt; i ? stoi(argv[i++]) : 0);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Speed.html">wx::Speed</a> wind_speed(argc &gt; i ? stoi(argv[i++]) : 20);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Direction.html">wx::Direction</a> wind_direction(argc &gt; i ? stoi(argv[i++]) : 180, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      <span class="keyword">const</span> <a class="code" href="classtbd_1_1wx_1_1Wind.html">wx::Wind</a> wind(wind_direction, wind_speed);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;      assert(i == argc);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;      <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="stringliteral">&quot;Running tests with constant inputs for %d:\n&quot;</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="stringliteral">&quot;\tSlope:\t\t\t%d\n&quot;</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="stringliteral">&quot;\tAspect:\t\t\t%d\n&quot;</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="stringliteral">&quot;\tWind Speed:\t\t%f\n&quot;</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="stringliteral">&quot;\tWind Direction:\t\t%f\n&quot;</span>,</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        num_hours,</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        slope,</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        aspect,</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        wind_speed,</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        wind_direction);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      result = <a class="code" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c">run_test</a>(output_directory.c_str(),</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                        <span class="stringliteral">&quot;C-2&quot;</span>,</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                        slope,</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                        aspect,</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                        num_hours,</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                        dc,</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                        bui,</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                        dmc,</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                        ffmc,</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                        wind);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    }</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  <span class="keywordflow">catch</span> (<span class="keyword">const</span> runtime_error&amp; err)</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(err.what());</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;}</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;}</div>
 <div class="ttc" id="aFireSpread_8h_html"><div class="ttname"><a href="FireSpread_8h.html">FireSpread.h</a></div></div>
 <div class="ttc" id="aModel_8h_html"><div class="ttname"><a href="Model_8h.html">Model.h</a></div></div>
 <div class="ttc" id="aObserver_8h_html"><div class="ttname"><a href="Observer_8h.html">Observer.h</a></div></div>
@@ -403,18 +405,18 @@ $(function() {
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_a42248489bcde9377c1a4e19ede169519"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519">tbd::sim::Model::cell</a></div><div class="ttdeci">constexpr topo::Cell cell(const Idx row, const Idx column) const</div><div class="ttdoc">Cell at the given row and column.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00157">Model.h:157</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_af9cac50f871805ac056c2f5d4bcb5126"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#af9cac50f871805ac056c2f5d4bcb5126">tbd::sim::Model::nd</a></div><div class="ttdeci">constexpr int nd(const double time) const</div><div class="ttdoc">Difference between date and the date of minimum foliar moisture content.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00237">Model.h:237</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html">tbd::sim::Scenario</a></div><div class="ttdoc">A single Scenario in an Iteration using a specific FireWeather stream.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8h_source.html#l00045">Scenario.h:47</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_a194cf00f71f2903876722a26a4c390a4"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4">tbd::sim::Scenario::run</a></div><div class="ttdeci">Scenario * run(map&lt; double, ProbabilityMap * &gt; *probabilities)</div><div class="ttdoc">Run the Scenario.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00441">Scenario.cpp:441</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_a368992d2886667b0b6e814b6fc3519cb"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#a368992d2886667b0b6e814b6fc3519cb">tbd::sim::Scenario::registerObserver</a></div><div class="ttdeci">void registerObserver(IObserver *observer)</div><div class="ttdoc">Register an IObserver that will be notified when Cells burn.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00303">Scenario.cpp:303</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_a194cf00f71f2903876722a26a4c390a4"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4">tbd::sim::Scenario::run</a></div><div class="ttdeci">Scenario * run(map&lt; double, ProbabilityMap * &gt; *probabilities)</div><div class="ttdoc">Run the Scenario.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00464">Scenario.cpp:464</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_a368992d2886667b0b6e814b6fc3519cb"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#a368992d2886667b0b6e814b6fc3519cb">tbd::sim::Scenario::registerObserver</a></div><div class="ttdeci">void registerObserver(IObserver *observer)</div><div class="ttdoc">Register an IObserver that will be notified when Cells burn.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00326">Scenario.cpp:326</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_a9ef873285adb20de9658410116d117ad"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#a9ef873285adb20de9658410116d117ad">tbd::sim::Scenario::last_save_</a></div><div class="ttdeci">double last_save_</div><div class="ttdoc">Which save point is the last one.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8h_source.html#l00570">Scenario.h:570</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_aa109b93f40c500acdffcd4146857c54e"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#aa109b93f40c500acdffcd4146857c54e">tbd::sim::Scenario::currentFireSize</a></div><div class="ttdeci">double currentFireSize() const</div><div class="ttdoc">Current fire size (ha)</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00785">Scenario.cpp:785</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_aa18d3d1ec8d12c832343413acd989903"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#aa18d3d1ec8d12c832343413acd989903">tbd::sim::Scenario::saveObservers</a></div><div class="ttdeci">void saveObservers(const string &amp;base_name) const</div><div class="ttdoc">Tell Observers to save their data with base file name.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00314">Scenario.cpp:314</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_ab159323cbe9c7358b288722c26505ce8"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8">tbd::sim::Scenario::reset</a></div><div class="ttdeci">Scenario * reset(mt19937 *mt_extinction, mt19937 *mt_spread, util::SafeVector *final_sizes)</div><div class="ttdoc">Reset thresholds and set SafeVector to output results to.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00153">Scenario.cpp:153</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_aa109b93f40c500acdffcd4146857c54e"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#aa109b93f40c500acdffcd4146857c54e">tbd::sim::Scenario::currentFireSize</a></div><div class="ttdeci">double currentFireSize() const</div><div class="ttdoc">Current fire size (ha)</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00813">Scenario.cpp:813</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_aa18d3d1ec8d12c832343413acd989903"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#aa18d3d1ec8d12c832343413acd989903">tbd::sim::Scenario::saveObservers</a></div><div class="ttdeci">void saveObservers(const string &amp;base_name) const</div><div class="ttdoc">Tell Observers to save their data with base file name.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00337">Scenario.cpp:337</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_ab159323cbe9c7358b288722c26505ce8"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8">tbd::sim::Scenario::reset</a></div><div class="ttdeci">Scenario * reset(mt19937 *mt_extinction, mt19937 *mt_spread, util::SafeVector *final_sizes)</div><div class="ttdoc">Reset thresholds and set SafeVector to output results to.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00170">Scenario.cpp:170</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_ab80604c5a5f96832a1f6c5fe74480c8b"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b">tbd::sim::Scenario::model</a></div><div class="ttdeci">constexpr const Model &amp; model() const</div><div class="ttdoc">Model this Scenario is running in.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8h_source.html#l00227">Scenario.h:227</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_ac70293a36ff91a623694e6a5665e3525"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#ac70293a36ff91a623694e6a5665e3525">tbd::sim::Scenario::weather</a></div><div class="ttdeci">const wx::FwiWeather * weather(const double time) const</div><div class="ttdoc">FwiWeather for given time.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8h_source.html#l00254">Scenario.h:254</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_ae5d05528b75f126a59df1a29ae9b9771"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#ae5d05528b75f126a59df1a29ae9b9771">tbd::sim::Scenario::final_sizes_</a></div><div class="ttdeci">util::SafeVector * final_sizes_</div><div class="ttdoc">Where to append the final size of this Scenario when run is complete.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8h_source.html#l00554">Scenario.h:554</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_af17a12e05150dd95ea53d33e33982789"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789">tbd::sim::Scenario::addEvent</a></div><div class="ttdeci">void addEvent(Event &amp;&amp;event)</div><div class="ttdoc">Whether or not Location with given hash has burned already.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00826">Scenario.cpp:826</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Settings_html_a105d2051eec4bd8ed37d3a8b53fca3a8"><div class="ttname"><a href="classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8">tbd::sim::Settings::fuelLookup</a></div><div class="ttdeci">static const fuel::FuelLookup &amp; fuelLookup() noexcept</div><div class="ttdoc">Fuel lookup table.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00461">Settings.cpp:461</a></div></div>
-<div class="ttc" id="aclasstbd_1_1sim_1_1Settings_html_a42dd7b3f8abe01b7bf8c274e5f00cf67"><div class="ttname"><a href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67">tbd::sim::Settings::setOutputDirectory</a></div><div class="ttdeci">static void setOutputDirectory(const string &amp;d)</div><div class="ttdoc">Set path to directory that outputs are saved to.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00453">Settings.cpp:453</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Scenario_html_af17a12e05150dd95ea53d33e33982789"><div class="ttname"><a href="classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789">tbd::sim::Scenario::addEvent</a></div><div class="ttdeci">void addEvent(Event &amp;&amp;event)</div><div class="ttdoc">Whether or not Location with given hash has burned already.</div><div class="ttdef"><b>Definition:</b> <a href="Scenario_8cpp_source.html#l00854">Scenario.cpp:854</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Settings_html_a105d2051eec4bd8ed37d3a8b53fca3a8"><div class="ttname"><a href="classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8">tbd::sim::Settings::fuelLookup</a></div><div class="ttdeci">static const fuel::FuelLookup &amp; fuelLookup() noexcept</div><div class="ttdoc">Fuel lookup table.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00466">Settings.cpp:466</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Settings_html_a42dd7b3f8abe01b7bf8c274e5f00cf67"><div class="ttname"><a href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67">tbd::sim::Settings::setOutputDirectory</a></div><div class="ttdeci">static void setOutputDirectory(const string &amp;d)</div><div class="ttdoc">Set path to directory that outputs are saved to.</div><div class="ttdef"><b>Definition:</b> <a href="Settings_8cpp_source.html#l00458">Settings.cpp:458</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1SourceObserver_html"><div class="ttname"><a href="classtbd_1_1sim_1_1SourceObserver.html">tbd::sim::SourceObserver</a></div><div class="ttdoc">Tracks source Cell that fire arrived in Cell from.</div><div class="ttdef"><b>Definition:</b> <a href="Observer_8h_source.html#l00158">Observer.h:160</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1SpreadInfo_html"><div class="ttname"><a href="classtbd_1_1sim_1_1SpreadInfo.html">tbd::sim::SpreadInfo</a></div><div class="ttdoc">Information regarding spread within a Cell for a specific Scenario and time.</div><div class="ttdef"><b>Definition:</b> <a href="FireSpread_8h_source.html#l00033">FireSpread.h:34</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1TestEnvironment_html"><div class="ttname"><a href="classtbd_1_1sim_1_1TestEnvironment.html">tbd::sim::TestEnvironment</a></div><div class="ttdoc">An Environment with no elevation and the same value in every Cell.</div><div class="ttdef"><b>Definition:</b> <a href="Test_8cpp_source.html#l00026">Test.cpp:28</a></div></div>
