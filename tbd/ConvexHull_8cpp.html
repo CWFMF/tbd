@@ -73,13 +73,15 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ConvexHull_8h_source.html">ConvexHull.h</a>&quot;</code><br />
+<code>#include &lt;numbers&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ConvexHull.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="ConvexHull_8cpp__incl.png" border="0" usemap="#atbd_2src_2ConvexHull_8cpp" alt=""/></div>
 <map name="atbd_2src_2ConvexHull_8cpp" id="atbd_2src_2ConvexHull_8cpp">
-<area shape="rect" title=" " alt="" coords="19,5,175,32"/>
+<area shape="rect" title=" " alt="" coords="74,5,230,32"/>
 <area shape="rect" href="ConvexHull_8h.html" title=" " alt="" coords="48,80,147,107"/>
+<area shape="rect" title=" " alt="" coords="171,80,243,107"/>
 <area shape="rect" href="InnerPos_8h.html" title=" " alt="" coords="55,155,139,181"/>
 <area shape="rect" href="Settings_8h.html" title=" " alt="" coords="57,229,137,256"/>
 <area shape="rect" title=" " alt="" coords="5,677,64,704"/>
@@ -137,8 +139,6 @@ Functions</h2></td></tr>
 <tr class="separator:ab4634c58064558254aca1c81988cdef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfbda863798f10d827ddce8c62932a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#a9cfbda863798f10d827ddce8c62932a5">hull</a> (vector&lt; <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &gt; &amp;a) noexcept</td></tr>
 <tr class="separator:a9cfbda863798f10d827ddce8c62932a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf79d7620db74d8513ea9d302a64294"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#aebf79d7620db74d8513ea9d302a64294">quickHull</a> (const vector&lt; <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &gt; &amp;a, vector&lt; <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &gt; &amp;hullPoints, const <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &amp;n1, const <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &amp;n2) noexcept</td></tr>
-<tr class="separator:aebf79d7620db74d8513ea9d302a64294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -146,6 +146,12 @@ Variables</h2></td></tr>
 <tr class="separator:adf13c042259418044c8923ade74f8acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a040d1eabf9b21f5f1b1832270f6aa7"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#a9a040d1eabf9b21f5f1b1832270f6aa7">MAX_X</a> = std::numeric_limits&lt;double&gt;::max()</td></tr>
 <tr class="separator:a9a040d1eabf9b21f5f1b1832270f6aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11eec76338321f9779838a46b1ada387"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#a11eec76338321f9779838a46b1ada387">DIST_22_5</a> = 0.2071067811865475244008443621048490392848359376884740365883398689</td></tr>
+<tr class="separator:a11eec76338321f9779838a46b1ada387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe81e2b2701fde117c3188a98c240b4"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#a9fe81e2b2701fde117c3188a98c240b4">P_0_5</a> = 0.5 + <a class="el" href="ConvexHull_8cpp.html#a11eec76338321f9779838a46b1ada387">DIST_22_5</a></td></tr>
+<tr class="separator:a9fe81e2b2701fde117c3188a98c240b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82be749abc7b36ce4df5b9597dd67ce1"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConvexHull_8cpp.html#a82be749abc7b36ce4df5b9597dd67ce1">M_0_5</a> = 0.5 - <a class="el" href="ConvexHull_8cpp.html#a11eec76338321f9779838a46b1ada387">DIST_22_5</a></td></tr>
+<tr class="separator:a82be749abc7b36ce4df5b9597dd67ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab4634c58064558254aca1c81988cdef0"></a>
@@ -190,26 +196,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>'distance' from point a to point b </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00021">21</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="ConvexHull_8cpp_ab4634c58064558254aca1c81988cdef0_icgraph.png" border="0" usemap="#aConvexHull_8cpp_ab4634c58064558254aca1c81988cdef0_icgraph" alt=""/></div>
-<map name="aConvexHull_8cpp_ab4634c58064558254aca1c81988cdef0_icgraph" id="aConvexHull_8cpp_ab4634c58064558254aca1c81988cdef0_icgraph">
-<area shape="rect" title=" " alt="" coords="1536,31,1605,57"/>
-<area shape="rect" href="ConvexHull_8cpp.html#aebf79d7620db74d8513ea9d302a64294" title=" " alt="" coords="1412,31,1488,57"/>
-<area shape="rect" href="ConvexHull_8cpp.html#a9cfbda863798f10d827ddce8c62932a5" title=" " alt="" coords="1321,31,1364,57"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1131,23,1273,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="959,23,1083,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,23,911,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,31,725,57"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,5,496,32"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,56,529,83"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,5,247,32"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,56,295,83"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00027">27</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
 
 </div>
 </div>
@@ -243,15 +230,18 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00026">26</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00031">31</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="ConvexHull_8cpp_a9cfbda863798f10d827ddce8c62932a5_cgraph.png" border="0" usemap="#aConvexHull_8cpp_a9cfbda863798f10d827ddce8c62932a5_cgraph" alt=""/></div>
 <map name="aConvexHull_8cpp_a9cfbda863798f10d827ddce8c62932a5_cgraph" id="aConvexHull_8cpp_a9cfbda863798f10d827ddce8c62932a5_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,48,32"/>
-<area shape="rect" href="ConvexHull_8cpp.html#aebf79d7620db74d8513ea9d302a64294" title=" " alt="" coords="96,5,172,32"/>
-<area shape="rect" href="ConvexHull_8cpp.html#ab4634c58064558254aca1c81988cdef0" title=" " alt="" coords="220,5,289,32"/>
+<area shape="rect" title=" " alt="" coords="5,42,48,69"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="96,5,224,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="101,71,219,98"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="277,13,396,39"/>
+<area shape="rect" href="classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="449,85,571,127"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="272,118,401,145"/>
 </map>
 </div>
 <div class="dynheader">
@@ -274,8 +264,9 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aebf79d7620db74d8513ea9d302a64294"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebf79d7620db74d8513ea9d302a64294">&#9670;&nbsp;</a></span>quickHull()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a11eec76338321f9779838a46b1ada387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11eec76338321f9779838a46b1ada387">&#9670;&nbsp;</a></span>DIST_22_5</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,83 +275,44 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void quickHull </td>
-          <td>(</td>
-          <td class="paramtype">const vector&lt; <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">vector&lt; <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>hullPoints</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &amp;&#160;</td>
-          <td class="paramname"><em>n1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structtbd_1_1sim_1_1InnerPos.html">tbd::sim::InnerPos</a> &amp;&#160;</td>
-          <td class="paramname"><em>n2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">constexpr double DIST_22_5 = 0.2071067811865475244008443621048490392848359376884740365883398689</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Implementation of the quickhull algorithm to find a convex hull. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>Points to find hull for </td></tr>
-    <tr><td class="paramname">hullPoints</td><td>Points already in the hull </td></tr>
-    <tr><td class="paramname">n1</td><td>First point </td></tr>
-    <tr><td class="paramname">n2</td><td>Second point </td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00059">59</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="ConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_cgraph.png" border="0" usemap="#aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_cgraph" alt=""/></div>
-<map name="aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_cgraph" id="aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,81,32"/>
-<area shape="rect" href="ConvexHull_8cpp.html#ab4634c58064558254aca1c81988cdef0" title=" " alt="" coords="129,5,199,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="ConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_icgraph.png" border="0" usemap="#aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_icgraph" alt=""/></div>
-<map name="aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_icgraph" id="aConvexHull_8cpp_aebf79d7620db74d8513ea9d302a64294_icgraph">
-<area shape="rect" title=" " alt="" coords="1412,31,1488,57"/>
-<area shape="rect" href="ConvexHull_8cpp.html#a9cfbda863798f10d827ddce8c62932a5" title=" " alt="" coords="1321,31,1364,57"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1131,23,1273,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="959,23,1083,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="773,23,911,65"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="577,31,725,57"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,5,496,32"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,56,529,83"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,5,247,32"/>
-<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,56,295,83"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00023">23</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
+<a id="a82be749abc7b36ce4df5b9597dd67ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82be749abc7b36ce4df5b9597dd67ce1">&#9670;&nbsp;</a></span>M_0_5</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double M_0_5 = 0.5 - <a class="el" href="ConvexHull_8cpp.html#a11eec76338321f9779838a46b1ada387">DIST_22_5</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00025">25</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a9a040d1eabf9b21f5f1b1832270f6aa7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a040d1eabf9b21f5f1b1832270f6aa7">&#9670;&nbsp;</a></span>MAX_X</h2>
 
@@ -381,7 +333,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00019">19</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00020">20</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +357,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00018">18</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00019">19</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9fe81e2b2701fde117c3188a98c240b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe81e2b2701fde117c3188a98c240b4">&#9670;&nbsp;</a></span>P_0_5</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double P_0_5 = 0.5 + <a class="el" href="ConvexHull_8cpp.html#a11eec76338321f9779838a46b1ada387">DIST_22_5</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ConvexHull_8cpp_source.html#l00024">24</a> of file <a class="el" href="ConvexHull_8cpp_source.html">ConvexHull.cpp</a>.</p>
 
 </div>
 </div>
