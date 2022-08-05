@@ -254,15 +254,15 @@ Variables</h2></td></tr>
 <tr class="separator:a6993fe2f5925c368a024e073752749e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0203912080f5ecd60744d76542e7b431"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacetbd.html#a585c3652ca98fef74a654fbd785fadff">SlopeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a0203912080f5ecd60744d76542e7b431">SLOPE_INCREMENT</a> = 60</td></tr>
 <tr class="separator:a0203912080f5ecd60744d76542e7b431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac708503aef5b5049049ca152013f3382"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#ac708503aef5b5049049ca152013f3382">WS_INCREMENT</a> = 20</td></tr>
+<tr class="memitem:ac708503aef5b5049049ca152013f3382"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#ac708503aef5b5049049ca152013f3382">WS_INCREMENT</a> = 5</td></tr>
 <tr class="separator:ac708503aef5b5049049ca152013f3382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a449745ccc619092c2e205c971a6fa804"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a449745ccc619092c2e205c971a6fa804">WD_INCREMENT</a> = 45</td></tr>
 <tr class="separator:a449745ccc619092c2e205c971a6fa804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a803858e714ea53952a3151e3c09b64ef"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a803858e714ea53952a3151e3c09b64ef">MAX_WIND</a> = 20</td></tr>
+<tr class="memitem:a803858e714ea53952a3151e3c09b64ef"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a803858e714ea53952a3151e3c09b64ef">MAX_WIND</a> = 50</td></tr>
 <tr class="separator:a803858e714ea53952a3151e3c09b64ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a563928f25248f81f40623a91dda964be"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a563928f25248f81f40623a91dda964be">DEFAULT_HOURS</a> = 10</td></tr>
 <tr class="separator:a563928f25248f81f40623a91dda964be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4319ab1e88f0a9fc8262f46d0a95f31b"><td class="memItemLeft" align="right" valign="top">const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a4319ab1e88f0a9fc8262f46d0a95f31b">FUEL_NAMES</a> {&quot;C-2&quot;, &quot;O-1a&quot;, &quot;M-1/M-2 (25 PC)&quot;}</td></tr>
+<tr class="memitem:a4319ab1e88f0a9fc8262f46d0a95f31b"><td class="memItemLeft" align="right" valign="top">const vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a4319ab1e88f0a9fc8262f46d0a95f31b">FUEL_NAMES</a> {&quot;C-2&quot;, &quot;O-1a&quot;, &quot;M-1/M-2 (25 PC)&quot;, &quot;S-1&quot;, &quot;C-3&quot;}</td></tr>
 <tr class="separator:a4319ab1e88f0a9fc8262f46d0a95f31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db7ae9cc9a43bd53711c961e8409c39"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1sim.html#a9db7ae9cc9a43bd53711c961e8409c39">TEST_GRID_SIZE</a> = 100.0</td></tr>
 <tr class="separator:a9db7ae9cc9a43bd53711c961e8409c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1930,7 +1930,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const vector&lt;string&gt; tbd::sim::FUEL_NAMES {&quot;C-2&quot;, &quot;O-1a&quot;, &quot;M-1/M-2 (25 PC)&quot;}</td>
+          <td class="memname">const vector&lt;string&gt; tbd::sim::FUEL_NAMES {&quot;C-2&quot;, &quot;O-1a&quot;, &quot;M-1/M-2 (25 PC)&quot;, &quot;S-1&quot;, &quot;C-3&quot;}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1970,7 +1970,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int tbd::sim::MAX_WIND = 20</td>
+          <td class="memname">const int tbd::sim::MAX_WIND = 50</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2313,7 +2313,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int tbd::sim::WS_INCREMENT = 20</td>
+          <td class="memname">const int tbd::sim::WS_INCREMENT = 5</td>
         </tr>
       </table>
 </div><div class="memdoc">
