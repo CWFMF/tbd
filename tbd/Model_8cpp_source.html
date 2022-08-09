@@ -806,12 +806,12 @@ $(function() {
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordtype">size_t</span> wx_size = wx-&gt;size();</div>
 <div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="keywordtype">size_t</span> hour = min_hour;</div>
 <div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <span class="keywordtype">size_t</span> diff_hrs = (max_hour - min_hour);</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Weather is size %ld&quot;</span>, wx_size);</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;min_hour is %ld&quot;</span>, min_hour);</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;max_hour is %ld&quot;</span>, max_hour);</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;max_hour - min_hour is %ld&quot;</span>, diff_hrs);</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      <span class="comment">//    for (auto&amp; w : *s-&gt;getWeather())</span></div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;<span class="comment">//    while (hour &lt;= max_hour)</span></div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">//    logging::note(&quot;Weather is size %ld&quot;, wx_size);</span></div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="comment">//    logging::note(&quot;min_hour is %ld&quot;, min_hour);</span></div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <span class="comment">//    logging::note(&quot;max_hour is %ld&quot;, max_hour);</span></div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="comment">//    logging::note(&quot;max_hour - min_hour is %ld&quot;, diff_hrs);</span></div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    <span class="comment">//    for (auto&amp; w : *s-&gt;getWeather())</span></div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <span class="comment">//    while (hour &lt;= max_hour)</span></div>
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; wx_size; ++j)</div>
 <div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    {</div>
 <div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;      <span class="keywordtype">size_t</span> day = hour / 24;</div>
