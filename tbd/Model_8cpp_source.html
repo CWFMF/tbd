@@ -802,61 +802,53 @@ $(function() {
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="comment">// was assuming it started at 0 for first hour and day</span></div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <span class="keyword">auto</span> wx = s-&gt;getWeather();</div>
 <div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="keywordtype">size_t</span> min_hour = s-&gt;minDate() * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>;</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordtype">size_t</span> max_hour = s-&gt;maxDate() * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>;</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordtype">size_t</span> wx_size = wx-&gt;size();</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="keywordtype">size_t</span> hour = min_hour;</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <span class="keywordtype">size_t</span> diff_hrs = (max_hour - min_hour);</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">//    logging::note(&quot;Weather is size %ld&quot;, wx_size);</span></div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="comment">//    logging::note(&quot;min_hour is %ld&quot;, min_hour);</span></div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <span class="comment">//    logging::note(&quot;max_hour is %ld&quot;, max_hour);</span></div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="comment">//    logging::note(&quot;max_hour - min_hour is %ld&quot;, diff_hrs);</span></div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    <span class="comment">//    for (auto&amp; w : *s-&gt;getWeather())</span></div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <span class="comment">//    while (hour &lt;= max_hour)</span></div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; wx_size; ++j)</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    {</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;      <span class="keywordtype">size_t</span> day = hour / 24;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;      <span class="keyword">auto</span> w = wx-&gt;at(hour - min_hour);</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;      <span class="keywordtype">size_t</span> month;</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;      <span class="keywordtype">size_t</span> day_of_month;</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;      <a class="code" href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">month_and_day</a>(<a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>, day, &amp;month, &amp;day_of_month);</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> != w)</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;      {</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        fprintf(out,</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n&quot;</span>,</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                i,</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>,</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                month,</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                day_of_month,</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>,</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                w-&gt;apcp().asDouble(),</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                w-&gt;tmp().asDouble(),</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                w-&gt;rh().asDouble(),</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                w-&gt;wind().speed().asDouble(),</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                w-&gt;wind().direction().asDouble(),</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                w-&gt;ffmc().asDouble(),</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                w-&gt;dmc().asDouble(),</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                w-&gt;dc().asDouble(),</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                w-&gt;isi().asDouble(),</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                w-&gt;bui().asDouble(),</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                w-&gt;fwi().asDouble());</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;      }</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;      {</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        fprintf(out,</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,,,,,,,,,,,\n&quot;</span>,</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                i,</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>,</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                month,</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                day_of_month,</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;      }</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;      ++hour;</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    }</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    ++i;</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;  }</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(0 != fclose(out), <span class="stringliteral">&quot;Could not close file %s&quot;</span>, file_out.c_str());</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;}</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;}</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordtype">size_t</span> wx_size = wx-&gt;size();</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordtype">size_t</span> hour = min_hour;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; wx_size; ++j)</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    {</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;      <span class="keywordtype">size_t</span> day = hour / 24;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;      <span class="keyword">auto</span> w = wx-&gt;at(hour - min_hour);</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;      <span class="keywordtype">size_t</span> month;</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;      <span class="keywordtype">size_t</span> day_of_month;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      <a class="code" href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">month_and_day</a>(<a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>, day, &amp;month, &amp;day_of_month);</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> != w)</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;      {</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        fprintf(out,</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n&quot;</span>,</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;                i,</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>,</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;                month,</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;                day_of_month,</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>,</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;                w-&gt;apcp().asDouble(),</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                w-&gt;tmp().asDouble(),</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                w-&gt;rh().asDouble(),</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                w-&gt;wind().speed().asDouble(),</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                w-&gt;wind().direction().asDouble(),</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                w-&gt;ffmc().asDouble(),</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                w-&gt;dmc().asDouble(),</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                w-&gt;dc().asDouble(),</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                w-&gt;isi().asDouble(),</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                w-&gt;bui().asDouble(),</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                w-&gt;fwi().asDouble());</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;      }</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;      {</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        fprintf(out,</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,,,,,,,,,,,\n&quot;</span>,</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                i,</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                <a class="code" href="classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25">year_</a>,</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                month,</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                day_of_month,</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;      }</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;      ++hour;</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    }</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    ++i;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  }</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(0 != fclose(out), <span class="stringliteral">&quot;Could not close file %s&quot;</span>, file_out.c_str());</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;}</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;}</div>
 <div class="ttc" id="aFBP45_8h_html"><div class="ttname"><a href="FBP45_8h.html">FBP45.h</a></div></div>
 <div class="ttc" id="aModel_8h_html"><div class="ttname"><a href="Model_8h.html">Model.h</a></div></div>
 <div class="ttc" id="aObserver_8h_html"><div class="ttname"><a href="Observer_8h.html">Observer.h</a></div></div>
