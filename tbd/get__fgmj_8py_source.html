@@ -194,50 +194,52 @@ $(function() {
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    logging.debug(<span class="stringliteral">&quot;Applying symbology...&quot;</span>)</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    subprocess.run(<span class="stringliteral">&#39;gdaldem color-relief {} /appl/tbd/col.txt {} -alpha -co COMPRESS=LZW -co TILED=YES&#39;</span>.format(file_int, file_cr), shell=<span class="keyword">True</span>)</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    dir_tile = common.ensure_dir(dir_tile)</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    subprocess.run(<span class="stringliteral">&#39;python /usr/local/bin/gdal2tiles.py -a 0 -z 5-12 {} {} --processes={}&#39;</span>.format(file_cr, dir_tile, os.cpu_count()), shell=<span class="keyword">True</span>)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="comment">#retun dir_tile</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">  129</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(dir_input, dates=None):</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">for</span> d <span class="keywordflow">in</span> sorted(os.listdir(dir_input)):</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">if</span> dates <span class="keywordflow">is</span> <span class="keywordtype">None</span> <span class="keywordflow">or</span> d <span class="keywordflow">in</span> dates:</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            dir_in = os.path.join(dir_input, d)</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            result = <a class="code" href="namespaceget__fgmj.html#ae36875b5de73af362caaf372b95df26b">merge_dir</a>(dir_in)</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment"># result should now be the results for the most current day</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    dir_out = os.path.join(dir_input, <span class="stringliteral">&#39;tiled&#39;</span>)</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span> os.path.exists(dir_out):</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        shutil.rmtree(dir_out)</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="comment">#shutil.move(result, dir_out)</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    shutil.move(os.path.join(dir_in, <span class="stringliteral">&#39;tiled&#39;</span>), dir_out)</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment"># move and then copy from there since it shouldn&#39;t affect access for as long</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    shutil.copytree(dir_out, os.path.join(dir_in, <span class="stringliteral">&#39;tiled&#39;</span>))</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">  143</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">run_all_fires</a>():</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    results = {}</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    results[<span class="stringliteral">&#39;canada&#39;</span>] = <a class="code" href="namespaceget__fgmj.html#af14131bd8102b6677b92df99bfc4e100">run_fires</a>(<span class="stringliteral">&#39;https://cfsdip.intellifirenwt.com&#39;</span>, <span class="stringliteral">&#39;canada&#39;</span>)</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    simtimes = {}</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    dates = []</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    totaltime = 0</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">for</span> k <span class="keywordflow">in</span> results.keys():</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">if</span> results[k] <span class="keywordflow">is</span> <span class="keywordflow">not</span> <span class="keywordtype">None</span>:</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            s, t, d = results[k]</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">for</span> f <span class="keywordflow">in</span> s.keys():</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                simtimes[<span class="stringliteral">&#39;{}_{}&#39;</span>.format(k, f)] = s[f]</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            dates = sorted(dates + [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> d <span class="keywordflow">if</span> x <span class="keywordflow">not</span> <span class="keywordflow">in</span> dates])</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            totaltime = totaltime + t</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">return</span> simtimes, totaltime, dates</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="keywordflow">if</span> __name__ == <span class="stringliteral">&quot;__main__&quot;</span>:</div>
-<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#a0ced49cd42fc3a133fb10e4d3d6328e3">  159</a></span>&#160;    simtimes, totaltime, dates = <a class="code" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">run_all_fires</a>()</div>
-<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#affc735751ba46f79e5db0b23753992ee">  160</a></span>&#160;    n = len(simtimes)</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">if</span> n &gt; 0:</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        logging.info(<span class="stringliteral">&quot;Total of {} fires took {}s - average time is {}s&quot;</span>.format(n, totaltime, totaltime / n))</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(<span class="stringliteral">&#39;/appl/data/output/probability&#39;</span>, dates)</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(<span class="stringliteral">&#39;/appl/data/output/perimeter&#39;</span>, dates)</div>
-<div class="ttc" id="anamespaceget__fgmj_html_a17f26388721ad74ef208ce8408263eec"><div class="ttname"><a href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">get_fgmj.merge_dirs</a></div><div class="ttdeci">def merge_dirs(dir_input, dates=None)</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00129">get_fgmj.py:129</a></div></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    logging.debug(<span class="stringliteral">&#39;python /usr/local/bin/gdal2tiles.py -a 0 -z 5-12 {} {} --processes={}&#39;</span>.format(file_cr, dir_tile, os.cpu_count()))</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    subprocess.run(<span class="stringliteral">&#39;python /usr/local/bin/gdal2tiles.py -a 0 -z 5-12 {} {} --processes={}&#39;</span>.format(file_cr, dir_tile, os.cpu_count()), shell=<span class="keyword">True</span>)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    logging.debug(<span class="stringliteral">&quot;Made tiles...&quot;</span>)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">#retun dir_tile</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">  131</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(dir_input, dates=None):</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">for</span> d <span class="keywordflow">in</span> sorted(os.listdir(dir_input)):</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span> dates <span class="keywordflow">is</span> <span class="keywordtype">None</span> <span class="keywordflow">or</span> d <span class="keywordflow">in</span> dates:</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            dir_in = os.path.join(dir_input, d)</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            result = <a class="code" href="namespaceget__fgmj.html#ae36875b5de73af362caaf372b95df26b">merge_dir</a>(dir_in)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment"># result should now be the results for the most current day</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    dir_out = os.path.join(dir_input, <span class="stringliteral">&#39;tiled&#39;</span>)</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">if</span> os.path.exists(dir_out):</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        shutil.rmtree(dir_out)</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">#shutil.move(result, dir_out)</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    shutil.move(os.path.join(dir_in, <span class="stringliteral">&#39;tiled&#39;</span>), dir_out)</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="comment"># move and then copy from there since it shouldn&#39;t affect access for as long</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    shutil.copytree(dir_out, os.path.join(dir_in, <span class="stringliteral">&#39;tiled&#39;</span>))</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">  145</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">run_all_fires</a>():</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    results = {}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    results[<span class="stringliteral">&#39;canada&#39;</span>] = <a class="code" href="namespaceget__fgmj.html#af14131bd8102b6677b92df99bfc4e100">run_fires</a>(<span class="stringliteral">&#39;https://cfsdip.intellifirenwt.com&#39;</span>, <span class="stringliteral">&#39;canada&#39;</span>)</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    simtimes = {}</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    dates = []</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    totaltime = 0</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">for</span> k <span class="keywordflow">in</span> results.keys():</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">if</span> results[k] <span class="keywordflow">is</span> <span class="keywordflow">not</span> <span class="keywordtype">None</span>:</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            s, t, d = results[k]</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">for</span> f <span class="keywordflow">in</span> s.keys():</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                simtimes[<span class="stringliteral">&#39;{}_{}&#39;</span>.format(k, f)] = s[f]</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            dates = sorted(dates + [x <span class="keywordflow">for</span> x <span class="keywordflow">in</span> d <span class="keywordflow">if</span> x <span class="keywordflow">not</span> <span class="keywordflow">in</span> dates])</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            totaltime = totaltime + t</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> simtimes, totaltime, dates</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keywordflow">if</span> __name__ == <span class="stringliteral">&quot;__main__&quot;</span>:</div>
+<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#a0ced49cd42fc3a133fb10e4d3d6328e3">  161</a></span>&#160;    simtimes, totaltime, dates = <a class="code" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">run_all_fires</a>()</div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="namespaceget__fgmj.html#affc735751ba46f79e5db0b23753992ee">  162</a></span>&#160;    n = len(simtimes)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">if</span> n &gt; 0:</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        logging.info(<span class="stringliteral">&quot;Total of {} fires took {}s - average time is {}s&quot;</span>.format(n, totaltime, totaltime / n))</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(<span class="stringliteral">&#39;/appl/data/output/probability&#39;</span>, dates)</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">merge_dirs</a>(<span class="stringliteral">&#39;/appl/data/output/perimeter&#39;</span>, dates)</div>
+<div class="ttc" id="anamespaceget__fgmj_html_a17f26388721ad74ef208ce8408263eec"><div class="ttname"><a href="namespaceget__fgmj.html#a17f26388721ad74ef208ce8408263eec">get_fgmj.merge_dirs</a></div><div class="ttdeci">def merge_dirs(dir_input, dates=None)</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00131">get_fgmj.py:131</a></div></div>
 <div class="ttc" id="anamespaceget__fgmj_html_ab37548f75d7db35f112c22a9fd7a380c"><div class="ttname"><a href="namespaceget__fgmj.html#ab37548f75d7db35f112c22a9fd7a380c">get_fgmj.getPage</a></div><div class="ttdeci">def getPage(url)</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00027">get_fgmj.py:27</a></div></div>
 <div class="ttc" id="anamespaceget__fgmj_html_ae36875b5de73af362caaf372b95df26b"><div class="ttname"><a href="namespaceget__fgmj.html#ae36875b5de73af362caaf372b95df26b">get_fgmj.merge_dir</a></div><div class="ttdeci">def merge_dir(dir_input)</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00097">get_fgmj.py:97</a></div></div>
 <div class="ttc" id="anamespaceget__fgmj_html_af14131bd8102b6677b92df99bfc4e100"><div class="ttname"><a href="namespaceget__fgmj.html#af14131bd8102b6677b92df99bfc4e100">get_fgmj.run_fires</a></div><div class="ttdeci">def run_fires(site, region)</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00034">get_fgmj.py:34</a></div></div>
-<div class="ttc" id="anamespaceget__fgmj_html_afe6279115693adfe5b79b98ff7ab9c27"><div class="ttname"><a href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">get_fgmj.run_all_fires</a></div><div class="ttdeci">def run_all_fires()</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00143">get_fgmj.py:143</a></div></div>
+<div class="ttc" id="anamespaceget__fgmj_html_afe6279115693adfe5b79b98ff7ab9c27"><div class="ttname"><a href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27">get_fgmj.run_all_fires</a></div><div class="ttdeci">def run_all_fires()</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00145">get_fgmj.py:145</a></div></div>
 <div class="ttc" id="anamespacetbd_html_a76333d70bd039fb65ba22680420eff3d"><div class="ttname"><a href="namespacetbd.html#a76333d70bd039fb65ba22680420eff3d">tbd.do_run</a></div><div class="ttdeci">def do_run(fgmj)</div><div class="ttdef"><b>Definition:</b> <a href="tbd_8py_source.html#l00049">tbd.py:49</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

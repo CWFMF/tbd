@@ -1,5 +1,5 @@
 <map id="tbd::sim::Model" name="tbd::sim::Model">
-<area shape="rect" id="node1" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="1111,2885,1274,3315"/>
+<area shape="rect" id="node1" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="1111,2885,1274,3329"/>
 <area shape="rect" id="node2" title=" " alt="" coords="776,2569,969,2661"/>
 <area shape="rect" id="node3" title=" " alt="" coords="715,2066,851,2158"/>
 <area shape="rect" id="node4" title=" " alt="" coords="516,1699,653,1776"/>

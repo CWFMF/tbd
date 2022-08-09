@@ -1,6 +1,6 @@
 <map id="tbd::sim::Scenario" name="tbd::sim::Scenario">
-<area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1829,1523,2013,2407"/>
-<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="5,1126,161,1335"/>
+<area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1829,1537,2013,2421"/>
+<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="5,1133,161,1343"/>
 <area shape="rect" id="node3" title=" " alt="" coords="27,900,167,992"/>
 <area shape="rect" id="node4" title=" " alt="" coords="15,226,151,303"/>
 <area shape="rect" id="node46" title=" " alt="" coords="95,615,264,722"/>
@@ -9,7 +9,7 @@
 <area shape="rect" id="node11" title=" " alt="" coords="1427,226,1569,303"/>
 <area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Event.html" title="A specific Event scheduled in a specific Scenario." alt="" coords="2025,498,2161,839"/>
 <area shape="rect" id="node20" href="$classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="261,175,367,355"/>
-<area shape="rect" id="node40" title=" " alt="" coords="1400,1185,1559,1277"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1400,1192,1559,1284"/>
 <area shape="rect" id="node41" href="$classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="1323,476,1481,861"/>
 <area shape="rect" id="node50" title=" " alt="" coords="1715,623,1846,715"/>
 <area shape="rect" id="node7" title=" " alt="" coords="727,226,813,303"/>
@@ -20,14 +20,14 @@
 <area shape="rect" id="node9" href="$classtbd_1_1util_1_1SafeVector.html" title="A vector with added thread safety." alt="" coords="1112,564,1247,773"/>
 <area shape="rect" id="node10" title=" " alt="" coords="1047,226,1104,303"/>
 <area shape="rect" id="node13" title=" " alt="" coords="581,226,658,303"/>
-<area shape="rect" id="node14" title=" " alt="" coords="1999,1185,2213,1277"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1999,1192,2213,1284"/>
 <area shape="rect" id="node16" href="$classtbd_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="2018,160,2117,369"/>
 <area shape="rect" id="node17" title=" " alt="" coords="3872,226,3929,303"/>
-<area shape="rect" id="node48" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="4191,549,4338,788"/>
+<area shape="rect" id="node48" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="4191,542,4338,795"/>
 <area shape="rect" id="node18" title=" " alt="" coords="2185,630,2280,707"/>
 <area shape="rect" id="node19" href="$classtbd_1_1topo_1_1StartPoint.html" title="A Point that has sunrise and sunset times for each day." alt="" coords="407,579,541,759"/>
 <area shape="rect" id="node21" title=" " alt="" coords="392,219,556,311"/>
-<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="2926,1016,3089,1445"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="2926,1016,3089,1460"/>
 <area shape="rect" id="node24" title=" " alt="" coords="4583,226,4639,303"/>
 <area shape="rect" id="node25" title=" " alt="" coords="2935,623,3080,715"/>
 <area shape="rect" id="node26" title=" " alt="" coords="3104,630,3172,707"/>
@@ -42,11 +42,11 @@
 <area shape="rect" id="node35" title=" " alt="" coords="4103,226,4207,303"/>
 <area shape="rect" id="node36" href="$classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="3535,461,3693,876"/>
 <area shape="rect" id="node37" title=" " alt="" coords="3713,226,3835,303"/>
-<area shape="rect" id="node38" title=" " alt="" coords="4271,1192,4330,1269"/>
-<area shape="rect" id="node39" title=" " alt="" coords="4355,1192,4417,1269"/>
+<area shape="rect" id="node38" title=" " alt="" coords="4271,1199,4330,1277"/>
+<area shape="rect" id="node39" title=" " alt="" coords="4355,1199,4417,1277"/>
 <area shape="rect" id="node43" title=" " alt="" coords="1922,226,1994,303"/>
-<area shape="rect" id="node44" title=" " alt="" coords="4471,1192,4517,1269"/>
-<area shape="rect" id="node45" title=" " alt="" coords="300,1177,501,1284"/>
+<area shape="rect" id="node44" title=" " alt="" coords="4471,1199,4517,1277"/>
+<area shape="rect" id="node45" title=" " alt="" coords="300,1185,501,1291"/>
 <area shape="rect" id="node47" title=" " alt="" coords="289,630,382,707"/>
 <area shape="rect" id="node49" title=" " alt="" coords="4341,219,4500,311"/>
 </map>

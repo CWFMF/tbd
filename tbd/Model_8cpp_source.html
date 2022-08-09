@@ -760,32 +760,103 @@ $(function() {
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;  {</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3">logging::fatal</a>(<span class="stringliteral">&quot;Not enough weather to proceed - have %d days but looking for %d&quot;</span>, numDays, needDays);</div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;  }</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;                     / <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  <span class="comment">// HACK: round to 2 digits so that we can keep test output the same</span></div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#ab464e8f4b593af81f1f77bd74a2152a6">Day</a><span class="keyword">&gt;</span>(start);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8">runIterations</a>(start_point, start, start_day, save_intensity);</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa">Scenario::completed</a>());</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;  <a class="code" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e">show_probabilities</a>(probabilities);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  {</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    final_time = max(final_time, time);</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    prob-&gt;saveAll(model, start_time, time, start_day);</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  }</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  {</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  }</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;}</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;}</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <span class="comment">// want to output internal representation of weather to file</span></div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390">outputWeather</a>();</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;  model.<a class="code" href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519">makeStarts</a>(*position, start_point, yesterday, perimeter, size);</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  <span class="keyword">auto</span> start_hour = ((start_time.tm_hour + (<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(start_time.tm_min) / 60))</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;                     / <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;  <span class="comment">// HACK: round to 2 digits so that we can keep test output the same</span></div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;  start_hour = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(start_hour * 100)) / 100;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start = start_time.tm_yday + start_hour;</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> start_day = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacetbd.html#ab464e8f4b593af81f1f77bd74a2152a6">Day</a><span class="keyword">&gt;</span>(start);</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <span class="keyword">auto</span> probabilities =</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    model.<a class="code" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8">runIterations</a>(start_point, start, start_day, save_intensity);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Ran %d simulations&quot;</span>, <a class="code" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa">Scenario::completed</a>());</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  <a class="code" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e">show_probabilities</a>(probabilities);</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <span class="keyword">auto</span> final_time = numeric_limits&lt;double&gt;::min();</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> by_time : probabilities)</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;  {</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> time = by_time.first;</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    final_time = max(final_time, time);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> prob = by_time.second;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    prob-&gt;saveAll(model, start_time, time, start_day);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  }</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; kv : probabilities)</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  {</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <span class="keyword">delete</span> kv.second;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;  }</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;}</div>
+<div class="line"><a name="l00730"></a><span class="lineno"><a class="line" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390">  730</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390">Model::outputWeather</a>()</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;{</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> file_out = string(<a class="code" href="classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b">Settings::outputDirectory</a>()) + <span class="stringliteral">&quot;/wx_hourly_out.csv&quot;</span>;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  FILE* out = fopen(file_out.c_str(), <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(<span class="keyword">nullptr</span> == out, <span class="stringliteral">&quot;Cannot open file %s for output&quot;</span>, file_out.c_str());</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  fprintf(out, <span class="stringliteral">&quot;Scenario,Day,Hour,APCP,TMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\n&quot;</span>);</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;  <span class="keywordtype">size_t</span> i = 1;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; kv : <a class="code" href="classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd">wx_</a>)</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;  {</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="keyword">auto</span>&amp; s = kv.second;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="comment">// do we need to index this by hour and day?</span></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="comment">// was assuming it started at 0 for first hour and day</span></div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="keyword">auto</span> wx = s-&gt;getWeather();</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <span class="keywordtype">size_t</span> min_hour = s-&gt;minDate() * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="keywordtype">size_t</span> max_hour = s-&gt;maxDate() * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>;</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordtype">size_t</span> wx_size = wx-&gt;size();</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordtype">size_t</span> hour = min_hour;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="keywordtype">size_t</span> diff_hrs = (max_hour - min_hour);</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;Weather is size %ld&quot;</span>, wx_size);</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;min_hour is %ld&quot;</span>, min_hour);</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;max_hour is %ld&quot;</span>, max_hour);</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <a class="code" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b">logging::note</a>(<span class="stringliteral">&quot;max_hour - min_hour is %ld&quot;</span>, diff_hrs);</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="keywordtype">int</span> year = 2017;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      <span class="comment">//    for (auto&amp; w : *s-&gt;getWeather())</span></div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;<span class="comment">//    while (hour &lt;= max_hour)</span></div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; wx_size; ++j)</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    {</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;      <span class="keywordtype">size_t</span> day = hour / 24;</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;      <span class="keyword">auto</span> w = wx-&gt;at(hour - min_hour);</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;      <span class="keywordtype">size_t</span> month;</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;      <span class="keywordtype">size_t</span> day_of_month;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;      <a class="code" href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">month_and_day</a>(year, day, &amp;month, &amp;day_of_month);</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      <span class="keywordflow">if</span> (<span class="keyword">nullptr</span> != w)</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;      {</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        fprintf(out,</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n&quot;</span>,</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                i,</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                year,</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                month,</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                day_of_month,</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>,</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                w-&gt;apcp().asDouble(),</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                w-&gt;tmp().asDouble(),</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                w-&gt;rh().asDouble(),</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                w-&gt;wind().speed().asDouble(),</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                w-&gt;wind().direction().asDouble(),</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                w-&gt;ffmc().asDouble(),</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                w-&gt;dmc().asDouble(),</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                w-&gt;dc().asDouble(),</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                w-&gt;isi().asDouble(),</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                w-&gt;bui().asDouble(),</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                w-&gt;fwi().asDouble());</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;      }</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;      {</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        fprintf(out,</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                <span class="stringliteral">&quot;%ld,%d-%02ld-%02ld,%ld,,,,,,,,,,,\n&quot;</span>,</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                i,</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                year,</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                month,</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                day_of_month,</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                hour - day * <a class="code" href="namespacetbd.html#a46795f92454029919222bcdf49bd3274">DAY_HOURS</a>);</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;      }</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;      ++hour;</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    }</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    ++i;</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;  }</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;  <a class="code" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a">logging::check_fatal</a>(0 != fclose(out), <span class="stringliteral">&quot;Could not close file %s&quot;</span>, file_out.c_str());</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;}</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;}</div>
 <div class="ttc" id="aFBP45_8h_html"><div class="ttname"><a href="FBP45_8h.html">FBP45.h</a></div></div>
 <div class="ttc" id="aModel_8h_html"><div class="ttname"><a href="Model_8h.html">Model.h</a></div></div>
 <div class="ttc" id="aObserver_8h_html"><div class="ttname"><a href="Observer_8h.html">Observer.h</a></div></div>
@@ -818,6 +889,7 @@ $(function() {
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aa915a70fdc5f7d28bd65047d7a12be8f"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f">tbd::sim::Model::findStarts</a></div><div class="ttdeci">void findStarts(Location location)</div><div class="ttdoc">Find Cell(s) that can burn closest to Location.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00228">Model.cpp:228</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_acd234c800f2291d32ab00f706e554519"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519">tbd::sim::Model::makeStarts</a></div><div class="ttdeci">void makeStarts(Coordinates coordinates, const topo::Point &amp;point, const wx::FwiWeather &amp;yesterday, const string &amp;perim, size_t size)</div><div class="ttdoc">Make starts based on desired point and where nearest combustible cells are.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00260">Model.cpp:260</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_ad8150dc6c2d07f27a8654b8d63977f6d"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#ad8150dc6c2d07f27a8654b8d63977f6d">tbd::sim::Model::Model</a></div><div class="ttdeci">Model(const topo::StartPoint &amp;start_point, topo::Environment *env)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00069">Model.cpp:69</a></div></div>
+<div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_ade3d4d0a6c44237ca48629ac5ced3390"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390">tbd::sim::Model::outputWeather</a></div><div class="ttdeci">void outputWeather()</div><div class="ttdoc">Write the hourly weather that was loaded to an output file.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8cpp_source.html#l00730">Model.cpp:730</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_aec5b7ddbd1dac837a9f64478aff3231c"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#aec5b7ddbd1dac837a9f64478aff3231c">tbd::sim::Model::environment</a></div><div class="ttdeci">constexpr const topo::Environment &amp; environment() const</div><div class="ttdoc">Environment simulation is occurring in.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00207">Model.h:207</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1Model_html_af741f45273360b4ea6466725ba3d0d69"><div class="ttname"><a href="classtbd_1_1sim_1_1Model.html#af741f45273360b4ea6466725ba3d0d69">tbd::sim::Model::vector_mutex_</a></div><div class="ttdeci">mutex vector_mutex_</div><div class="ttdoc">Mutex for parallel access.</div><div class="ttdef"><b>Definition:</b> <a href="Model_8h_source.html#l00323">Model.h:323</a></div></div>
 <div class="ttc" id="aclasstbd_1_1sim_1_1ProbabilityMap_html"><div class="ttname"><a href="classtbd_1_1sim_1_1ProbabilityMap.html">tbd::sim::ProbabilityMap</a></div><div class="ttdoc">Map of the percentage of simulations in which a Cell burned in each intensity category.</div><div class="ttdef"><b>Definition:</b> <a href="ProbabilityMap_8h_source.html#l00030">ProbabilityMap.h:31</a></div></div>
@@ -853,7 +925,7 @@ $(function() {
 <div class="ttc" id="aclasstbd_1_1util_1_1SafeVector_html_a6501630d26bf2a92915e2f51a2161095"><div class="ttname"><a href="classtbd_1_1util_1_1SafeVector.html#a6501630d26bf2a92915e2f51a2161095">tbd::util::SafeVector::getValues</a></div><div class="ttdeci">std::vector&lt; double &gt; getValues() const</div><div class="ttdoc">Get a vector with the stored values.</div><div class="ttdef"><b>Definition:</b> <a href="SafeVector_8cpp_source.html#l00060">SafeVector.cpp:60</a></div></div>
 <div class="ttc" id="aclasstbd_1_1util_1_1Statistics_html"><div class="ttname"><a href="classtbd_1_1util_1_1Statistics.html">tbd::util::Statistics</a></div><div class="ttdoc">Provides statistics calculation for vectors of values.</div><div class="ttdef"><b>Definition:</b> <a href="Statistics_8h_source.html#l00134">Statistics.h:135</a></div></div>
 <div class="ttc" id="aclasstbd_1_1wx_1_1FwiWeather_html"><div class="ttname"><a href="classtbd_1_1wx_1_1FwiWeather.html">tbd::wx::FwiWeather</a></div><div class="ttdoc">A Weather value with calculated FWI indices.</div><div class="ttdef"><b>Definition:</b> <a href="FWI_8h_source.html#l00210">FWI.h:212</a></div></div>
-<div class="ttc" id="anamespaceget__fgmj_html_a0ced49cd42fc3a133fb10e4d3d6328e3"><div class="ttname"><a href="namespaceget__fgmj.html#a0ced49cd42fc3a133fb10e4d3d6328e3">get_fgmj.dates</a></div><div class="ttdeci">dates</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00159">get_fgmj.py:159</a></div></div>
+<div class="ttc" id="anamespaceget__fgmj_html_a0ced49cd42fc3a133fb10e4d3d6328e3"><div class="ttname"><a href="namespaceget__fgmj.html#a0ced49cd42fc3a133fb10e4d3d6328e3">get_fgmj.dates</a></div><div class="ttdeci">dates</div><div class="ttdef"><b>Definition:</b> <a href="get__fgmj_8py_source.html#l00161">get_fgmj.py:161</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1fuel_html_a35f38b87438f75c4da2be966ce3fdf45"><div class="ttname"><a href="namespacetbd_1_1fuel.html#a35f38b87438f75c4da2be966ce3fdf45">tbd::fuel::calculate_is_green</a></div><div class="ttdeci">constexpr bool calculate_is_green(const int nd)</div><div class="ttdoc">Calculate if green-up has occurred.</div><div class="ttdef"><b>Definition:</b> <a href="FBP45_8h_source.html#l00031">FBP45.h:31</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1fuel_html_a9663fa5d24f3470bab91111babae7bb8"><div class="ttname"><a href="namespacetbd_1_1fuel.html#a9663fa5d24f3470bab91111babae7bb8">tbd::fuel::calculate_grass_curing</a></div><div class="ttdeci">constexpr int calculate_grass_curing(const int nd)</div><div class="ttdef"><b>Definition:</b> <a href="FBP45_8h_source.html#l00039">FBP45.h:39</a></div></div>
 <div class="ttc" id="anamespacetbd_1_1fuel_html_afb89952bafa51d4b27e905d2717b97d0"><div class="ttname"><a href="namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0">tbd::fuel::is_null_fuel</a></div><div class="ttdeci">constexpr bool is_null_fuel(const topo::Cell &amp;cell)</div><div class="ttdoc">Whether or not there is no fuel in the Cell.</div><div class="ttdef"><b>Definition:</b> <a href="FuelLookup_8h_source.html#l00125">FuelLookup.h:125</a></div></div>
@@ -883,6 +955,7 @@ $(function() {
 <div class="ttc" id="anamespacetbd_html_aa5f1717742b6182062c6b18367c1ebf3"><div class="ttname"><a href="namespacetbd.html#aa5f1717742b6182062c6b18367c1ebf3">tbd::MAX_DAYS</a></div><div class="ttdeci">static constexpr Day MAX_DAYS</div><div class="ttdef"><b>Definition:</b> <a href="stdafx_8h_source.html#l00170">stdafx.h:170</a></div></div>
 <div class="ttc" id="anamespacetbd_html_aa63a427df357ed6a3c58ce9c3ffc925e"><div class="ttname"><a href="namespacetbd.html#aa63a427df357ed6a3c58ce9c3ffc925e">tbd::Clock</a></div><div class="ttdeci">std::chrono::steady_clock Clock</div><div class="ttdoc">Type of clock to use for times.</div><div class="ttdef"><b>Definition:</b> <a href="stdafx_8h_source.html#l00263">stdafx.h:263</a></div></div>
 <div class="ttc" id="anamespacetbd_html_ab464e8f4b593af81f1f77bd74a2152a6"><div class="ttname"><a href="namespacetbd.html#ab464e8f4b593af81f1f77bd74a2152a6">tbd::Day</a></div><div class="ttdeci">uint16 Day</div><div class="ttdoc">A day (0 - 366)</div><div class="ttdef"><b>Definition:</b> <a href="stdafx_8h_source.html#l00169">stdafx.h:169</a></div></div>
+<div class="ttc" id="anamespacetbd_html_ada3c9b926e1c6a605808adb910d4efae"><div class="ttname"><a href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">tbd::month_and_day</a></div><div class="ttdeci">void month_and_day(const int year, const size_t day_of_year, size_t *month, size_t *day_of_month)</div><div class="ttdoc">Determine month and day that a day of the year represents.</div><div class="ttdef"><b>Definition:</b> <a href="Util_8cpp_source.html#l00154">Util.cpp:154</a></div></div>
 <div class="ttc" id="anamespacetbd_html_ae2a7100299257fa1c552cbbdc6cda96f"><div class="ttname"><a href="namespacetbd.html#ae2a7100299257fa1c552cbbdc6cda96f">tbd::MAX_COLUMNS</a></div><div class="ttdeci">static constexpr Idx MAX_COLUMNS</div><div class="ttdoc">Maximum number of columns for an Environment.</div><div class="ttdef"><b>Definition:</b> <a href="stdafx_8h_source.html#l00174">stdafx.h:174</a></div></div>
 <div class="ttc" id="astdafx_8h_html"><div class="ttname"><a href="stdafx_8h.html">stdafx.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

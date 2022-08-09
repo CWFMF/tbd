@@ -1,0 +1,13 @@
+<map id="tbd::sim::Model::outputWeather" name="tbd::sim::Model::outputWeather">
+<area shape="rect" id="node1" title="Write the hourly weather that was loaded to an output file." alt="" coords="5,97,204,123"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="257,5,385,47"/>
+<area shape="rect" id="node4" href="$namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae" title="Determine month and day that a day of the year represents." alt="" coords="252,71,389,98"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="261,122,380,149"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="260,220,381,261"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="483,13,602,39"/>
+<area shape="rect" id="node5" href="$namespacetbd.html#aa3c515942c156e32e669b4963b10c725" title="Determine if year is a leap year." alt="" coords="483,67,602,94"/>
+<area shape="rect" id="node7" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="696,136,817,177"/>
+<area shape="rect" id="node8" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="478,169,607,195"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="437,220,648,261"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="437,285,648,327"/>
+</map>

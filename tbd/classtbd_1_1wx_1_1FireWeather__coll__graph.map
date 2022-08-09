@@ -1,5 +1,5 @@
 <map id="tbd::wx::FireWeather" name="tbd::wx::FireWeather">
-<area shape="rect" id="node1" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="1517,2317,1664,2556"/>
+<area shape="rect" id="node1" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="1517,2317,1664,2571"/>
 <area shape="rect" id="node2" title=" " alt="" coords="1207,2148,1366,2240"/>
 <area shape="rect" id="node3" href="$classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="771,1608,909,2023"/>
 <area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="431,1321,547,1545"/>

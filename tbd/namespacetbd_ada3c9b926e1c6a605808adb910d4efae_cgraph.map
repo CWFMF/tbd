@@ -1,0 +1,4 @@
+<map id="tbd::month_and_day" name="tbd::month_and_day">
+<area shape="rect" id="node1" title="Determine month and day that a day of the year represents." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$namespacetbd.html#aa3c515942c156e32e669b4963b10c725" title="Determine if year is a leap year." alt="" coords="191,5,309,32"/>
+</map>

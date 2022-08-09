@@ -165,6 +165,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a8b821bcc13925df3fd655ba828eb1e2f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetbd.html#a8b821bcc13925df3fd655ba828eb1e2f">binary_find_checked</a> (const T lower, const T upper, const double value, const std::function&lt; V(T)&gt; &amp;fct)</td></tr>
 <tr class="memdesc:a8b821bcc13925df3fd655ba828eb1e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check lower and upper limits before doing binary search over function for T that results in value.  <a href="namespacetbd.html#a8b821bcc13925df3fd655ba828eb1e2f">More...</a><br /></td></tr>
 <tr class="separator:a8b821bcc13925df3fd655ba828eb1e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3c9b926e1c6a605808adb910d4efae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">month_and_day</a> (const int year, const size_t day_of_year, size_t *month, size_t *day_of_month)</td></tr>
+<tr class="memdesc:ada3c9b926e1c6a605808adb910d4efae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine month and day that a day of the year represents.  <a href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae">More...</a><br /></td></tr>
+<tr class="separator:ada3c9b926e1c6a605808adb910d4efae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c515942c156e32e669b4963b10c725"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd.html#aa3c515942c156e32e669b4963b10c725">is_leap_year</a> (const int year)</td></tr>
+<tr class="memdesc:aa3c515942c156e32e669b4963b10c725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if year is a leap year.  <a href="namespacetbd.html#aa3c515942c156e32e669b4963b10c725">More...</a><br /></td></tr>
+<tr class="separator:aa3c515942c156e32e669b4963b10c725"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8566a79b10002cdb9189d755ed4e6136"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd.html#a8566a79b10002cdb9189d755ed4e6136">unnest_values</a> (dict)</td></tr>
 <tr class="separator:a8566a79b10002cdb9189d755ed4e6136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84e676e02084210667bf82daa1b2676e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd.html#a84e676e02084210667bf82daa1b2676e">try_read_first</a> (dict, key, fail_msg=None, is_fatal=False)</td></tr>
@@ -776,6 +782,120 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="369,5,452,32"/>
 <area shape="rect" href="namespaceget__fgmj.html#af14131bd8102b6677b92df99bfc4e100" title=" " alt="" coords="197,5,321,32"/>
 <area shape="rect" href="namespaceget__fgmj.html#afe6279115693adfe5b79b98ff7ab9c27" title=" " alt="" coords="5,5,149,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa3c515942c156e32e669b4963b10c725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c515942c156e32e669b4963b10c725">&#9670;&nbsp;</a></span>is_leap_year()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tbd::is_leap_year </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determine if year is a leap year. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">year</td><td>Year to determine for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the given year is a leap year </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Util_8cpp_source.html#l00166">166</a> of file <a class="el" href="Util_8cpp_source.html">Util.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacetbd_aa3c515942c156e32e669b4963b10c725_icgraph.png" border="0" usemap="#anamespacetbd_aa3c515942c156e32e669b4963b10c725_icgraph" alt=""/></div>
+<map name="anamespacetbd_aa3c515942c156e32e669b4963b10c725_icgraph" id="anamespacetbd_aa3c515942c156e32e669b4963b10c725_icgraph">
+<area shape="rect" title="Determine if year is a leap year." alt="" coords="775,5,893,32"/>
+<area shape="rect" href="namespacetbd.html#ada3c9b926e1c6a605808adb910d4efae" title="Determine month and day that a day of the year represents." alt="" coords="589,5,727,32"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390" title="Write the hourly weather that was loaded to an output file." alt="" coords="343,5,541,32"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,295,32"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ada3c9b926e1c6a605808adb910d4efae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3c9b926e1c6a605808adb910d4efae">&#9670;&nbsp;</a></span>month_and_day()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::month_and_day </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>year</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>day_of_year</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>month</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>day_of_month</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determine month and day that a day of the year represents. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">year</td><td>Year to determine for </td></tr>
+    <tr><td class="paramname">day_of_year</td><td>Day of year to determine for </td></tr>
+    <tr><td class="paramname">month</td><td>Month that was determined </td></tr>
+    <tr><td class="paramname">day_of_month</td><td>Day of month that was determined </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="Util_8cpp_source.html#l00154">154</a> of file <a class="el" href="Util_8cpp_source.html">Util.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacetbd_ada3c9b926e1c6a605808adb910d4efae_cgraph.png" border="0" usemap="#anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_cgraph" alt=""/></div>
+<map name="anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_cgraph" id="anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_cgraph">
+<area shape="rect" title="Determine month and day that a day of the year represents." alt="" coords="5,5,143,32"/>
+<area shape="rect" href="namespacetbd.html#aa3c515942c156e32e669b4963b10c725" title="Determine if year is a leap year." alt="" coords="191,5,309,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacetbd_ada3c9b926e1c6a605808adb910d4efae_icgraph.png" border="0" usemap="#anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_icgraph" alt=""/></div>
+<map name="anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_icgraph" id="anamespacetbd_ada3c9b926e1c6a605808adb910d4efae_icgraph">
+<area shape="rect" title="Determine month and day that a day of the year represents." alt="" coords="589,5,727,32"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390" title="Write the hourly weather that was loaded to an output file." alt="" coords="343,5,541,32"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,5,295,32"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
