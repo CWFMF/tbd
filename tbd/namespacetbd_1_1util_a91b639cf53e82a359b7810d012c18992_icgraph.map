@@ -1,26 +1,27 @@
 <map id="tbd::util::to_radians" name="tbd::util::to_radians">
-<area shape="rect" id="node1" title="Convert degrees to radians." alt="" coords="1304,138,1433,165"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="1124,72,1243,114"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="460,24,596,66"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="924,138,1039,179"/>
-<area shape="rect" id="node19" href="$namespacetbd_1_1topo.html#a7563beb12393e7837a06c96da7d374fb" title=" " alt="" coords="1124,255,1243,296"/>
-<area shape="rect" id="node23" href="$namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="1111,190,1256,231"/>
-<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="922,72,1041,114"/>
-<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="683,76,831,102"/>
-<area shape="rect" id="node7" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="687,210,826,251"/>
-<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="661,136,852,162"/>
-<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="463,231,593,272"/>
-<area shape="rect" id="node11" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#aa9ce084f3a335c8f0df361cf8ebfa47a" title="Determine FullCoordinates in the grid for the Point." alt="" coords="443,296,613,338"/>
-<area shape="rect" id="node12" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="451,166,605,207"/>
-<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="235,231,384,272"/>
-<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a12255c1ea93603ca64c9fd8d7ec688a2" title="Determine Coordinates in the grid for the Point." alt="" coords="224,296,395,338"/>
-<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="235,166,384,207"/>
-<area shape="rect" id="node15" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="243,35,376,76"/>
-<area shape="rect" id="node16" href="$classtbd_1_1data_1_1ConstantGrid.html#a2389a5ce37e26ca1f0687ccd6774ef81" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="233,100,386,142"/>
-<area shape="rect" id="node14" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,166,176,207"/>
-<area shape="rect" id="node18" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="503,114,553,141"/>
-<area shape="rect" id="node20" href="$namespacetbd_1_1topo.html#a1b22ca8b782978565d626f4354f898a6" title=" " alt="" coords="922,258,1041,285"/>
-<area shape="rect" id="node22" href="$namespacetbd_1_1topo.html#a88e90d08a6a83b9a6f9f0231e06a338a" title=" " alt="" coords="923,309,1039,336"/>
-<area shape="rect" id="node21" href="$namespacetbd_1_1topo.html#a650c4d1c382a8243948120d080d99522" title=" " alt="" coords="685,288,828,314"/>
-<area shape="rect" id="node24" href="$namespacetbd_1_1topo.html#a9b00fc96e95d2dd52c49095d355c770d" title="Convert UTM to latitude/longitude." alt="" coords="900,204,1063,230"/>
+<area shape="rect" id="node1" title="Convert degrees to radians." alt="" coords="1304,122,1433,149"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="1124,5,1243,47"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="241,25,377,67"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="924,123,1039,164"/>
+<area shape="rect" id="node20" href="$namespacetbd_1_1topo.html#a7563beb12393e7837a06c96da7d374fb" title=" " alt="" coords="1124,239,1243,280"/>
+<area shape="rect" id="node24" href="$namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="1111,173,1256,215"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="922,5,1041,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="683,13,831,39"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="460,5,596,47"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="687,192,826,233"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="661,129,852,155"/>
+<area shape="rect" id="node9" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="463,340,593,381"/>
+<area shape="rect" id="node12" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#aa9ce084f3a335c8f0df361cf8ebfa47a" title="Determine FullCoordinates in the grid for the Point." alt="" coords="443,177,613,219"/>
+<area shape="rect" id="node13" href="$classtbd_1_1data_1_1ConstantGrid.html#a083e8423217b156085192c1330ea9ad2" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="451,243,605,284"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="235,405,384,447"/>
+<area shape="rect" id="node11" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a12255c1ea93603ca64c9fd8d7ec688a2" title="Determine Coordinates in the grid for the Point." alt="" coords="224,340,395,381"/>
+<area shape="rect" id="node14" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="235,144,384,185"/>
+<area shape="rect" id="node16" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="243,209,376,251"/>
+<area shape="rect" id="node17" href="$classtbd_1_1data_1_1ConstantGrid.html#a77453a0b7a58153c7463f92deed2e353" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="233,275,386,316"/>
+<area shape="rect" id="node15" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,144,176,185"/>
+<area shape="rect" id="node19" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="503,126,553,153"/>
+<area shape="rect" id="node21" href="$namespacetbd_1_1topo.html#a1b22ca8b782978565d626f4354f898a6" title=" " alt="" coords="922,243,1041,270"/>
+<area shape="rect" id="node23" href="$namespacetbd_1_1topo.html#a88e90d08a6a83b9a6f9f0231e06a338a" title=" " alt="" coords="923,294,1039,321"/>
+<area shape="rect" id="node22" href="$namespacetbd_1_1topo.html#a650c4d1c382a8243948120d080d99522" title=" " alt="" coords="685,270,828,297"/>
+<area shape="rect" id="node25" href="$namespacetbd_1_1topo.html#a9b00fc96e95d2dd52c49095d355c770d" title="Convert UTM to latitude/longitude." alt="" coords="900,189,1063,215"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="gis.rasterize_perim" name="gis.rasterize_perim">
 <area shape="rect" id="node1" title="Convert a perimeter to a raster." alt="" coords="5,132,136,159"/>
-<area shape="rect" id="node2" href="$namespacegis.html#ad7ffd79c5722d50d0d40a19cdbc16aa3" title="Delete the given shapefile." alt="" coords="410,107,489,133"/>
-<area shape="rect" id="node3" href="$namespacegis.html#aa3db796d3e79c108633e4797ff105a61" title="Find the raster with the closest meridian." alt="" coords="184,5,319,32"/>
-<area shape="rect" id="node5" href="$namespacegis.html#aca9992ebea445738afa8dca91e933e30" title="Determine cell size for a raster and ensure pixels are square." alt="" coords="196,107,307,133"/>
-<area shape="rect" id="node6" href="$namespacegis.html#ad5aebd38aeb7e3cec0cb7629bec7216e" title="Determine spatial reference from a source file." alt="" coords="368,208,531,235"/>
-<area shape="rect" id="node7" href="$namespacegis.html#a91a77c89ad6cc599b5fe858f12c60497" title="Project to given spatial reference." alt="" coords="210,157,293,184"/>
-<area shape="rect" id="node8" href="$namespacegis.html#af772b6407562767026960362bdb45cbb" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="203,259,299,285"/>
-<area shape="rect" id="node4" href="$namespacegis.html#a8bee27d798d3006190e7092c01618023" title="Find the meridians of input rasters for the given year." alt="" coords="367,5,532,32"/>
+<area shape="rect" id="node2" href="$namespacegis.html#ad7ffd79c5722d50d0d40a19cdbc16aa3" title="Delete the given shapefile." alt="" coords="226,5,305,32"/>
+<area shape="rect" id="node3" href="$namespacegis.html#a4360637a97949c0f8c809669591819f7" title="Find the raster with the closest meridian." alt="" coords="198,56,333,83"/>
+<area shape="rect" id="node5" href="$namespacegis.html#aca9992ebea445738afa8dca91e933e30" title="Determine cell size for a raster and ensure pixels are square." alt="" coords="210,107,321,133"/>
+<area shape="rect" id="node6" href="$namespacegis.html#ad5aebd38aeb7e3cec0cb7629bec7216e" title="Determine spatial reference from a source file." alt="" coords="184,157,347,184"/>
+<area shape="rect" id="node7" href="$namespacegis.html#a91a77c89ad6cc599b5fe858f12c60497" title="Project to given spatial reference." alt="" coords="224,208,307,235"/>
+<area shape="rect" id="node8" href="$namespacegis.html#af706a72daba6c8182341223abfbe58f8" title="Convert a shapefile into a raster with the given spatial reference." alt="" coords="217,259,313,285"/>
+<area shape="rect" id="node4" href="$namespacegis.html#a8bee27d798d3006190e7092c01618023" title="Find the meridians of input rasters for the given year." alt="" coords="395,56,560,83"/>
 </map>

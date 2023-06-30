@@ -1,4 +1,5 @@
 <map id="tbd::wx::Wind::wsvX" name="tbd::wx::Wind::wsvX">
-<area shape="rect" id="node1" title="X component of wind vector (km/h)" alt="" coords="189,13,325,39"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+<area shape="rect" id="node1" title="X component of wind vector (km/h)" alt="" coords="373,13,509,39"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
 </map>

@@ -84,7 +84,7 @@ Inheritance diagram for tbd::wx::Weather:</div>
 <div class="center"><img src="classtbd_1_1wx_1_1Weather__inherit__graph.png" border="0" usemap="#atbd_1_1wx_1_1Weather_inherit__map" alt="Inheritance graph"/></div>
 <map name="atbd_1_1wx_1_1Weather_inherit__map" id="atbd_1_1wx_1_1Weather_inherit__map">
 <area shape="rect" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="16,5,132,273"/>
-<area shape="rect" href="classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="5,321,143,868"/>
+<area shape="rect" href="classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="5,321,143,883"/>
 </map>
 </div>
 <div class="dynheader">
@@ -93,12 +93,12 @@ Collaboration diagram for tbd::wx::Weather:</div>
 <div class="center"><img src="classtbd_1_1wx_1_1Weather__coll__graph.png" border="0" usemap="#atbd_1_1wx_1_1Weather_coll__map" alt="Collaboration graph"/></div>
 <map name="atbd_1_1wx_1_1Weather_coll__map" id="atbd_1_1wx_1_1Weather_coll__map">
 <area shape="rect" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="520,1229,636,1453"/>
-<area shape="rect" href="classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="765,783,932,860"/>
+<area shape="rect" href="classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="691,783,857,860"/>
 <area shape="rect" href="classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="353,145,491,472"/>
-<area shape="rect" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html" title="Accumulated precipitation in mm." alt="" coords="481,783,697,860"/>
 <area shape="rect" href="classtbd_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="256,615,361,693"/>
 <area shape="rect" href="classtbd_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="52,549,171,759"/>
-<area shape="rect" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="373,987,514,1064"/>
+<area shape="rect" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)" alt="" coords="373,987,513,1064"/>
+<area shape="rect" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="481,783,622,860"/>
 <area shape="rect" title=" " alt="" coords="5,5,65,83"/>
 <area shape="rect" href="classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction." alt="" coords="113,884,217,1167"/>
 </map>
@@ -112,9 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af32831c88dc0983151de22e0a0d68c6e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#af32831c88dc0983151de22e0a0d68c6e">Weather</a> () noexcept=default</td></tr>
 <tr class="memdesc:af32831c88dc0983151de22e0a0d68c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with no initialization.  <a href="classtbd_1_1wx_1_1Weather.html#af32831c88dc0983151de22e0a0d68c6e">More...</a><br /></td></tr>
 <tr class="separator:af32831c88dc0983151de22e0a0d68c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a656c38deb63f17c228ebc5fb79cde1de"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a656c38deb63f17c228ebc5fb79cde1de">Weather</a> (const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#a45b5f4438056e2b8d084b8843a19eecc">tmp</a>, const <a class="el" href="classtbd_1_1wx_1_1RelativeHumidity.html">RelativeHumidity</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad">rh</a>, const <a class="el" href="classtbd_1_1wx_1_1Wind.html">Wind</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953">wind</a>, const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#a4b5e2f1d175a4a4ebdb40384f1808a06">apcp</a>) noexcept</td></tr>
-<tr class="memdesc:a656c38deb63f17c228ebc5fb79cde1de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with given indices.  <a href="classtbd_1_1wx_1_1Weather.html#a656c38deb63f17c228ebc5fb79cde1de">More...</a><br /></td></tr>
-<tr class="separator:a656c38deb63f17c228ebc5fb79cde1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e706ea7c5a4675c1ee2e52d84f33298"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a0e706ea7c5a4675c1ee2e52d84f33298">Weather</a> (const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8">temp</a>, const <a class="el" href="classtbd_1_1wx_1_1RelativeHumidity.html">RelativeHumidity</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad">rh</a>, const <a class="el" href="classtbd_1_1wx_1_1Wind.html">Wind</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953">wind</a>, const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> &amp;<a class="el" href="classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50">prec</a>) noexcept</td></tr>
+<tr class="memdesc:a0e706ea7c5a4675c1ee2e52d84f33298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with given indices.  <a href="classtbd_1_1wx_1_1Weather.html#a0e706ea7c5a4675c1ee2e52d84f33298">More...</a><br /></td></tr>
+<tr class="separator:a0e706ea7c5a4675c1ee2e52d84f33298"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a012bb08f3eb3f3ceca579e98428e19"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a6a012bb08f3eb3f3ceca579e98428e19">Weather</a> (<a class="el" href="classtbd_1_1wx_1_1Weather.html">Weather</a> &amp;&amp;rhs) noexcept=default</td></tr>
 <tr class="memdesc:a6a012bb08f3eb3f3ceca579e98428e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="classtbd_1_1wx_1_1Weather.html#a6a012bb08f3eb3f3ceca579e98428e19">More...</a><br /></td></tr>
 <tr class="separator:a6a012bb08f3eb3f3ceca579e98428e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,33 +127,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa37440e4b5f4ae2637a14c3c13215f10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1Weather.html">Weather</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#aa37440e4b5f4ae2637a14c3c13215f10">operator=</a> (const <a class="el" href="classtbd_1_1wx_1_1Weather.html">Weather</a> &amp;rhs)=default</td></tr>
 <tr class="memdesc:aa37440e4b5f4ae2637a14c3c13215f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <a href="classtbd_1_1wx_1_1Weather.html#aa37440e4b5f4ae2637a14c3c13215f10">More...</a><br /></td></tr>
 <tr class="separator:aa37440e4b5f4ae2637a14c3c13215f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45b5f4438056e2b8d084b8843a19eecc"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a45b5f4438056e2b8d084b8843a19eecc">tmp</a> () const noexcept</td></tr>
-<tr class="memdesc:a45b5f4438056e2b8d084b8843a19eecc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius)  <a href="classtbd_1_1wx_1_1Weather.html#a45b5f4438056e2b8d084b8843a19eecc">More...</a><br /></td></tr>
-<tr class="separator:a45b5f4438056e2b8d084b8843a19eecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0368ce1a45d0063153c09084f6168a8"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8">temp</a> () const noexcept</td></tr>
+<tr class="memdesc:ad0368ce1a45d0063153c09084f6168a8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius)  <a href="classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8">More...</a><br /></td></tr>
+<tr class="separator:ad0368ce1a45d0063153c09084f6168a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3afc52e94916d211b3299c49c9fa88ad"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1RelativeHumidity.html">RelativeHumidity</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad">rh</a> () const noexcept</td></tr>
 <tr class="memdesc:a3afc52e94916d211b3299c49c9fa88ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative Humidity (%)  <a href="classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad">More...</a><br /></td></tr>
 <tr class="separator:a3afc52e94916d211b3299c49c9fa88ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad97433581f03249f43140ad738d3d953"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1Wind.html">Wind</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953">wind</a> () const noexcept</td></tr>
 <tr class="memdesc:ad97433581f03249f43140ad738d3d953"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction.">Wind</a> (km/h)  <a href="classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953">More...</a><br /></td></tr>
 <tr class="separator:ad97433581f03249f43140ad738d3d953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b5e2f1d175a4a4ebdb40384f1808a06"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a4b5e2f1d175a4a4ebdb40384f1808a06">apcp</a> () const noexcept</td></tr>
-<tr class="memdesc:a4b5e2f1d175a4a4ebdb40384f1808a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulated Precipitation (mm)  <a href="classtbd_1_1wx_1_1Weather.html#a4b5e2f1d175a4a4ebdb40384f1808a06">More...</a><br /></td></tr>
-<tr class="separator:a4b5e2f1d175a4a4ebdb40384f1808a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584ac248ca052812480f70584fe30b50"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50">prec</a> () const noexcept</td></tr>
+<tr class="memdesc:a584ac248ca052812480f70584fe30b50"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm)  <a href="classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50">More...</a><br /></td></tr>
+<tr class="separator:a584ac248ca052812480f70584fe30b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1f9d61d345ec7bcfa2d1776b95bad14b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a1f9d61d345ec7bcfa2d1776b95bad14b">tmp_</a></td></tr>
-<tr class="memdesc:a1f9d61d345ec7bcfa2d1776b95bad14b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius)  <a href="classtbd_1_1wx_1_1Weather.html#a1f9d61d345ec7bcfa2d1776b95bad14b">More...</a><br /></td></tr>
-<tr class="separator:a1f9d61d345ec7bcfa2d1776b95bad14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6137deaa9f656b4cba1470141b06d5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#ab6137deaa9f656b4cba1470141b06d5f">temp_</a></td></tr>
+<tr class="memdesc:ab6137deaa9f656b4cba1470141b06d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius)  <a href="classtbd_1_1wx_1_1Weather.html#ab6137deaa9f656b4cba1470141b06d5f">More...</a><br /></td></tr>
+<tr class="separator:ab6137deaa9f656b4cba1470141b06d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf866f23f5f2116d27268e71e8373353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1RelativeHumidity.html">RelativeHumidity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#adf866f23f5f2116d27268e71e8373353">rh_</a></td></tr>
 <tr class="memdesc:adf866f23f5f2116d27268e71e8373353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative Humidity (%)  <a href="classtbd_1_1wx_1_1Weather.html#adf866f23f5f2116d27268e71e8373353">More...</a><br /></td></tr>
 <tr class="separator:adf866f23f5f2116d27268e71e8373353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af58a237f4997ca49eb6e6c83eaec06cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1Wind.html">Wind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#af58a237f4997ca49eb6e6c83eaec06cc">wind_</a></td></tr>
 <tr class="memdesc:af58a237f4997ca49eb6e6c83eaec06cc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction.">Wind</a> (km/h)  <a href="classtbd_1_1wx_1_1Weather.html#af58a237f4997ca49eb6e6c83eaec06cc">More...</a><br /></td></tr>
 <tr class="separator:af58a237f4997ca49eb6e6c83eaec06cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c22b1d32c6bb2f11fedad99e25cf9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#a80c22b1d32c6bb2f11fedad99e25cf9c">apcp_</a></td></tr>
-<tr class="memdesc:a80c22b1d32c6bb2f11fedad99e25cf9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulated Precipitation (mm)  <a href="classtbd_1_1wx_1_1Weather.html#a80c22b1d32c6bb2f11fedad99e25cf9c">More...</a><br /></td></tr>
-<tr class="separator:a80c22b1d32c6bb2f11fedad99e25cf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf5720069e2b6d136c60adc05320b38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Weather.html#adcf5720069e2b6d136c60adc05320b38">prec_</a></td></tr>
+<tr class="memdesc:adcf5720069e2b6d136c60adc05320b38"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm)  <a href="classtbd_1_1wx_1_1Weather.html#adcf5720069e2b6d136c60adc05320b38">More...</a><br /></td></tr>
+<tr class="separator:adcf5720069e2b6d136c60adc05320b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Collection of weather indices used for calculating <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices.">FwiWeather</a>. </p>
@@ -214,8 +214,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a656c38deb63f17c228ebc5fb79cde1de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a656c38deb63f17c228ebc5fb79cde1de">&#9670;&nbsp;</a></span>Weather() <span class="overload">[2/4]</span></h2>
+<a id="a0e706ea7c5a4675c1ee2e52d84f33298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e706ea7c5a4675c1ee2e52d84f33298">&#9670;&nbsp;</a></span>Weather() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">constexpr tbd::wx::Weather::Weather </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;&#160;</td>
-          <td class="paramname"><em>tmp</em>, </td>
+          <td class="paramname"><em>temp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -244,8 +244,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> &amp;&#160;</td>
-          <td class="paramname"><em>apcp</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> &amp;&#160;</td>
+          <td class="paramname"><em>prec</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -263,10 +263,10 @@ Private Attributes</h2></td></tr>
 <p>Construct with given indices. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tmp</td><td><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius) </td></tr>
+    <tr><td class="paramname">temp</td><td><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius) </td></tr>
     <tr><td class="paramname">rh</td><td>Relative Humidity (%) </td></tr>
     <tr><td class="paramname">wind</td><td><a class="el" href="classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction.">Wind</a> (km/h) </td></tr>
-    <tr><td class="paramname">apcp</td><td>Accumulated Precipitation (mm) </td></tr>
+    <tr><td class="paramname">prec</td><td><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm) </td></tr>
   </table>
   </dd>
 </dl>
@@ -344,46 +344,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4b5e2f1d175a4a4ebdb40384f1808a06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b5e2f1d175a4a4ebdb40384f1808a06">&#9670;&nbsp;</a></span>apcp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a>&amp; tbd::wx::Weather::apcp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Accumulated Precipitation (mm) </p>
-<dl class="section return"><dt>Returns</dt><dd>Accumulated Precipitation (mm) </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="Weather_8h_source.html#l00380">380</a> of file <a class="el" href="Weather_8h_source.html">Weather.h</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classtbd_1_1wx_1_1Weather_a4b5e2f1d175a4a4ebdb40384f1808a06_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_a4b5e2f1d175a4a4ebdb40384f1808a06_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1wx_1_1Weather_a4b5e2f1d175a4a4ebdb40384f1808a06_icgraph" id="aclasstbd_1_1wx_1_1Weather_a4b5e2f1d175a4a4ebdb40384f1808a06_icgraph">
-<area shape="rect" title="Accumulated Precipitation (mm)" alt="" coords="180,31,331,57"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="5,5,132,32"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="7,56,130,83"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="aa37440e4b5f4ae2637a14c3c13215f10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa37440e4b5f4ae2637a14c3c13215f10">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -454,6 +414,52 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a584ac248ca052812480f70584fe30b50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584ac248ca052812480f70584fe30b50">&#9670;&nbsp;</a></span>prec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a>&amp; tbd::wx::Weather::prec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm) </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Weather_8h_source.html#l00380">380</a> of file <a class="el" href="Weather_8h_source.html">Weather.h</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50_icgraph" id="aclasstbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50_icgraph">
+<area shape="rect" title="Precipitation (1hr accumulation) (mm)" alt="" coords="577,107,724,133"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="375,31,497,57"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="373,81,499,108"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="375,132,497,159"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="343,183,529,209"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a2a77261ebf27cba2e7e7c321df25c2ee" title=" " alt="" coords="128,5,271,32"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="138,56,261,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,183,295,209"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,183,56,209"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a3afc52e94916d211b3299c49c9fa88ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3afc52e94916d211b3299c49c9fa88ad">&#9670;&nbsp;</a></span>rh()</h2>
 
@@ -486,16 +492,22 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad_icgraph" id="aclasstbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad_icgraph">
-<area shape="rect" title="Relative Humidity (%)" alt="" coords="180,31,313,57"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="5,5,132,32"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="7,56,130,83"/>
+<area shape="rect" title="Relative Humidity (%)" alt="" coords="577,107,711,133"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="375,31,497,57"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="373,81,499,108"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="375,132,497,159"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="343,183,529,209"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a2a77261ebf27cba2e7e7c321df25c2ee" title=" " alt="" coords="128,5,271,32"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="138,56,261,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,183,295,209"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,183,56,209"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a45b5f4438056e2b8d084b8843a19eecc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45b5f4438056e2b8d084b8843a19eecc">&#9670;&nbsp;</a></span>tmp()</h2>
+<a id="ad0368ce1a45d0063153c09084f6168a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0368ce1a45d0063153c09084f6168a8">&#9670;&nbsp;</a></span>temp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +516,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a>&amp; tbd::wx::Weather::tmp </td>
+          <td class="memname">constexpr const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a>&amp; tbd::wx::Weather::temp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -524,11 +536,17 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1wx_1_1Weather_a45b5f4438056e2b8d084b8843a19eecc_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_a45b5f4438056e2b8d084b8843a19eecc_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1wx_1_1Weather_a45b5f4438056e2b8d084b8843a19eecc_icgraph" id="aclasstbd_1_1wx_1_1Weather_a45b5f4438056e2b8d084b8843a19eecc_icgraph">
-<area shape="rect" title="Temperature (Celsius)" alt="" coords="180,31,324,57"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="5,5,132,32"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="7,56,130,83"/>
+<div class="center"><img src="classtbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8_icgraph" id="aclasstbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8_icgraph">
+<area shape="rect" title="Temperature (Celsius)" alt="" coords="577,107,728,133"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="375,31,497,57"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="373,81,499,108"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="375,132,497,159"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="343,183,529,209"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a2a77261ebf27cba2e7e7c321df25c2ee" title=" " alt="" coords="128,5,271,32"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="138,56,261,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,183,295,209"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,183,56,209"/>
 </map>
 </div>
 
@@ -566,20 +584,26 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953_icgraph.png" border="0" usemap="#aclasstbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953_icgraph" id="aclasstbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953_icgraph">
-<area shape="rect" title="Wind (km/h)" alt="" coords="373,81,523,108"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="196,5,319,32"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="194,56,321,83"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="196,107,319,133"/>
-<area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="189,158,325,199"/>
-<area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,158,141,199"/>
+<area shape="rect" title="Wind (km/h)" alt="" coords="663,132,812,159"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="460,31,583,57"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a14f7700096e4320ca7de62e92641af38" title=" " alt="" coords="458,81,585,108"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a63fd37693833a41e1b61fd2413796813" title=" " alt="" coords="460,132,583,159"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="428,183,615,209"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="453,234,589,275"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a2a77261ebf27cba2e7e7c321df25c2ee" title=" " alt="" coords="213,5,356,32"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="223,56,346,83"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="189,183,380,209"/>
+<area shape="rect" href="Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="48,183,99,209"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="217,234,353,275"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,234,141,275"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a80c22b1d32c6bb2f11fedad99e25cf9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80c22b1d32c6bb2f11fedad99e25cf9c">&#9670;&nbsp;</a></span>apcp_</h2>
+<a id="adcf5720069e2b6d136c60adc05320b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf5720069e2b6d136c60adc05320b38">&#9670;&nbsp;</a></span>prec_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +612,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> tbd::wx::Weather::apcp_</td>
+          <td class="memname"><a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> tbd::wx::Weather::prec_</td>
         </tr>
       </table>
   </td>
@@ -598,7 +622,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Accumulated Precipitation (mm) </p>
+<p><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (1hr accumulation) (mm) </p>
 
 <p class="definition">Definition at line <a class="el" href="Weather_8h_source.html#l00400">400</a> of file <a class="el" href="Weather_8h_source.html">Weather.h</a>.</p>
 
@@ -630,8 +654,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1f9d61d345ec7bcfa2d1776b95bad14b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f9d61d345ec7bcfa2d1776b95bad14b">&#9670;&nbsp;</a></span>tmp_</h2>
+<a id="ab6137deaa9f656b4cba1470141b06d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6137deaa9f656b4cba1470141b06d5f">&#9670;&nbsp;</a></span>temp_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,7 +664,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> tbd::wx::Weather::tmp_</td>
+          <td class="memname"><a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> tbd::wx::Weather::temp_</td>
         </tr>
       </table>
   </td>

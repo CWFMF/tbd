@@ -1,14 +1,13 @@
 <map id="tbd::data::GridBase::xllcorner" name="tbd::data::GridBase::xllcorner">
-<area shape="rect" id="node1" title="Lower left corner X coordinate in meters." alt="" coords="1081,363,1212,404"/>
+<area shape="rect" id="node1" title="Lower left corner X coordinate in meters." alt="" coords="1081,337,1212,379"/>
 <area shape="rect" id="node2" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="885,121,1028,163"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="891,187,1022,228"/>
-<area shape="rect" id="node10" href="$classtbd_1_1data_1_1ConstantGrid.html#a67be7c01da5bb61143cd98d54eb5e0bb" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="451,201,605,243"/>
+<area shape="rect" id="node10" href="$classtbd_1_1data_1_1ConstantGrid.html#a083e8423217b156085192c1330ea9ad2" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="451,201,605,243"/>
 <area shape="rect" id="node15" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="882,304,1031,345"/>
-<area shape="rect" id="node16" href="$namespacetbd_1_1data.html#a142bf257e1776d1183c328e8900d4a16" title=" " alt="" coords="883,370,1031,397"/>
-<area shape="rect" id="node17" href="$classtbd_1_1data_1_1ConstantGrid.html#ae7bfc96903a75f33816c1beb12a6e805" title="Save contents to .asc file." alt="" coords="880,421,1033,463"/>
-<area shape="rect" id="node18" href="$classtbd_1_1data_1_1GridMap.html#aab8585e94a28cb6426918bc419d18ba9" title="Save GridMap contents to .asc file." alt="" coords="893,487,1020,528"/>
-<area shape="rect" id="node19" href="$classtbd_1_1data_1_1ConstantGrid.html#a2b1920524b98329b8eec6ce917c8ed03" title="Save contents to .tif file." alt="" coords="880,552,1033,593"/>
-<area shape="rect" id="node20" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="893,617,1020,659"/>
+<area shape="rect" id="node16" href="$classtbd_1_1data_1_1GridMap.html#aab8585e94a28cb6426918bc419d18ba9" title="Save GridMap contents to .asc file." alt="" coords="893,369,1020,411"/>
+<area shape="rect" id="node17" href="$classtbd_1_1data_1_1ConstantGrid.html#a21c0aa9f922cace5ad706d67b0d1176d" title="Save contents to .asc file." alt="" coords="880,435,1033,476"/>
+<area shape="rect" id="node18" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="893,500,1020,541"/>
+<area shape="rect" id="node19" href="$classtbd_1_1data_1_1ConstantGrid.html#acbc669266f232a2a3ca462d16c48723c" title="Save contents to .tif file." alt="" coords="880,565,1033,607"/>
 <area shape="rect" id="node4" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a70c96f4b96e6ee5849b116700c03062a" title="Number of columns in grid." alt="" coords="661,71,832,112"/>
 <area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="677,136,816,177"/>
 <area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="463,71,593,112"/>
@@ -17,6 +16,6 @@
 <area shape="rect" id="node8" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a12255c1ea93603ca64c9fd8d7ec688a2" title="Determine Coordinates in the grid for the Point." alt="" coords="224,71,395,112"/>
 <area shape="rect" id="node11" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="235,136,384,177"/>
 <area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="243,201,376,243"/>
-<area shape="rect" id="node14" href="$classtbd_1_1data_1_1ConstantGrid.html#a2389a5ce37e26ca1f0687ccd6774ef81" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="233,267,386,308"/>
+<area shape="rect" id="node14" href="$classtbd_1_1data_1_1ConstantGrid.html#a77453a0b7a58153c7463f92deed2e353" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="233,267,386,308"/>
 <area shape="rect" id="node12" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,136,176,177"/>
 </map>

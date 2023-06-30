@@ -1,4 +1,6 @@
 <map id="tbd::fuel::FuelType::finalRos" name="tbd::fuel::FuelType::finalRos">
-<area shape="rect" id="node1" title="Final rate of spread (m/min)" alt="" coords="199,5,325,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ada2a027a9fb971cf2e17051c0d0f9452" title="Final rate of spread (m/min)" alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node1" title="Final rate of spread (m/min)" alt="" coords="383,39,509,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ada2a027a9fb971cf2e17051c0d0f9452" title="Final rate of spread (m/min)" alt="" coords="189,5,335,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="194,71,330,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,71,141,112"/>
 </map>

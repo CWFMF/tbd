@@ -100,9 +100,9 @@ Collaboration diagram for tbd::wx::Dc:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a90bcd7c628caf498ad4be261bafb9afc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Dc.html#a90bcd7c628caf498ad4be261bafb9afc">Dc</a> (const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;temperature, const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> &amp;rain, const <a class="el" href="classtbd_1_1wx_1_1Dc.html">Dc</a> &amp;dc_previous, int month, double latitude) noexcept</td></tr>
-<tr class="memdesc:a90bcd7c628caf498ad4be261bafb9afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Drought Code.  <a href="classtbd_1_1wx_1_1Dc.html#a90bcd7c628caf498ad4be261bafb9afc">More...</a><br /></td></tr>
-<tr class="separator:a90bcd7c628caf498ad4be261bafb9afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab503ee1c4f9915e6b03383f57a142e33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1wx_1_1Dc.html#ab503ee1c4f9915e6b03383f57a142e33">Dc</a> (const <a class="el" href="classtbd_1_1wx_1_1Temperature.html">Temperature</a> &amp;temperature, const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> &amp;prec, const <a class="el" href="classtbd_1_1wx_1_1Dc.html">Dc</a> &amp;dc_previous, int month, double latitude) noexcept</td></tr>
+<tr class="memdesc:ab503ee1c4f9915e6b03383f57a142e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Drought Code.  <a href="classtbd_1_1wx_1_1Dc.html#ab503ee1c4f9915e6b03383f57a142e33">More...</a><br /></td></tr>
+<tr class="separator:ab503ee1c4f9915e6b03383f57a142e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classtbd_1_1data_1_1Index"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classtbd_1_1data_1_1Index')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classtbd_1_1data_1_1Index.html">tbd::data::Index&lt; T &gt;</a></td></tr>
 <tr class="memitem:ad5caf349865f703cc849cadf659f9085 inherit pub_methods_classtbd_1_1data_1_1Index"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Index.html#ad5caf349865f703cc849cadf659f9085">~Index</a> ()=default</td></tr>
 <tr class="memdesc:ad5caf349865f703cc849cadf659f9085 inherit pub_methods_classtbd_1_1data_1_1Index"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classtbd_1_1data_1_1Index.html#ad5caf349865f703cc849cadf659f9085">More...</a><br /></td></tr>
@@ -170,8 +170,8 @@ Static Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="FWI_8h_source.html#l00080">80</a> of file <a class="el" href="FWI_8h_source.html">FWI.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a90bcd7c628caf498ad4be261bafb9afc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90bcd7c628caf498ad4be261bafb9afc">&#9670;&nbsp;</a></span>Dc()</h2>
+<a id="ab503ee1c4f9915e6b03383f57a142e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab503ee1c4f9915e6b03383f57a142e33">&#9670;&nbsp;</a></span>Dc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,8 +188,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1AccumulatedPrecipitation.html">AccumulatedPrecipitation</a> &amp;&#160;</td>
-          <td class="paramname"><em>rain</em>, </td>
+          <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1Precipitation.html">Precipitation</a> &amp;&#160;</td>
+          <td class="paramname"><em>prec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,7 +226,7 @@ Static Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">temperature</td><td><a class="el" href="classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius.">Temperature</a> (Celsius) </td></tr>
-    <tr><td class="paramname">rain</td><td>Accumulated Precipitation (mm) </td></tr>
+    <tr><td class="paramname">prec</td><td><a class="el" href="classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)">Precipitation</a> (24hr accumulated, noon-to-noon) (mm) </td></tr>
     <tr><td class="paramname">dc_previous</td><td>Drought Code from the previous day </td></tr>
     <tr><td class="paramname">month</td><td>Month to calculate for </td></tr>
     <tr><td class="paramname">latitude</td><td>Latitude to calculate for </td></tr>
@@ -234,7 +234,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="FWI_8cpp_source.html#l00390">390</a> of file <a class="el" href="FWI_8cpp_source.html">FWI.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="FWI_8cpp_source.html#l00391">391</a> of file <a class="el" href="FWI_8cpp_source.html">FWI.cpp</a>.</p>
 
 </div>
 </div>

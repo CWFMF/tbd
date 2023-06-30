@@ -1,0 +1,8 @@
+<map id="tbd::util::Statistics::runsRequired" name="tbd::util::Statistics::runsRequired">
+<area shape="rect" id="node1" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="5,86,129,127"/>
+<area shape="rect" id="node2" href="$namespacetbd.html#a8b821bcc13925df3fd655ba828eb1e2f" title="Check lower and upper limits before doing binary search over function for T that results in value." alt="" coords="177,5,340,32"/>
+<area shape="rect" id="node4" href="$classtbd_1_1util_1_1Statistics.html#a13c306307103f526e6a57700cb2a97ed" title="Mean (average) value." alt="" coords="197,57,321,98"/>
+<area shape="rect" id="node5" href="$classtbd_1_1util_1_1Statistics.html#a9153a28ce91d32818137cf7b5e788c1e" title="Number of data points in the set." alt="" coords="190,123,327,149"/>
+<area shape="rect" id="node6" href="$classtbd_1_1util_1_1Statistics.html#a117255ac24a038c6566bd133baf2545c" title="Sample Variance." alt="" coords="197,174,321,215"/>
+<area shape="rect" id="node3" href="$namespacetbd.html#a46e788e8f5168fc3409f7a35914d4106" title="Do binary search over function for T that results in value." alt="" coords="388,5,495,32"/>
+</map>

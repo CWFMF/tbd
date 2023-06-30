@@ -1,10 +1,11 @@
 <map id="tbd::sim::SpreadInfo::weather" name="tbd::sim::SpreadInfo::weather">
-<area shape="rect" id="node1" title="FwiWeather used for spread." alt="" coords="404,150,540,191"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2755dfde763e1e6adcd3bdf97bd2ad15" title="Build&#45;up Index used for spread." alt="" coords="193,5,352,32"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,162,141,203"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#abfee5ca0617380b5da032e7f4916cb98" title="Drought Code used for spread." alt="" coords="195,107,351,133"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#aba1d27e600fec5cc75ec2f3d2f57aa86" title="Duff Moisture Code used for spread." alt="" coords="189,157,356,184"/>
-<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#a66d454133898096e1e8f5d4eff671b7a" title="Fine Fuel Moisture Code used for spread." alt="" coords="205,209,341,250"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2ddf49bda8a02b0e9d5e5aa1b4a9abc4" title="FFMC effect used for spread." alt="" coords="205,274,341,315"/>
-<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="205,339,341,381"/>
+<area shape="rect" id="node1" title="FwiWeather used for spread." alt="" coords="611,179,747,221"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2755dfde763e1e6adcd3bdf97bd2ad15" title="Build&#45;up Index used for spread." alt="" coords="189,5,348,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,49,141,90"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#abfee5ca0617380b5da032e7f4916cb98" title="Drought Code used for spread." alt="" coords="401,107,557,133"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#aba1d27e600fec5cc75ec2f3d2f57aa86" title="Duff Moisture Code used for spread." alt="" coords="396,157,563,184"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#a66d454133898096e1e8f5d4eff671b7a" title="Fine Fuel Moisture Code used for spread." alt="" coords="411,209,547,250"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2ddf49bda8a02b0e9d5e5aa1b4a9abc4" title="FFMC effect used for spread." alt="" coords="411,274,547,315"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="201,303,337,345"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="411,391,547,433"/>
 </map>

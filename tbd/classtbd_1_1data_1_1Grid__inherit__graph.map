@@ -1,8 +1,8 @@
 <map id="tbd::data::Grid&lt; T, V &gt;" name="tbd::data::Grid&lt; T, V &gt;">
-<area shape="rect" id="node1" title="A GridBase with an associated type of data." alt="" coords="299,557,445,752"/>
+<area shape="rect" id="node1" title="A GridBase with an associated type of data." alt="" coords="299,513,445,752"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="213,801,366,996"/>
 <area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="391,801,526,996"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="297,5,447,508"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="297,5,447,464"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="195,1045,360,1416"/>
 <area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="5,1479,171,1849"/>
 <area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="195,1479,360,1849"/>

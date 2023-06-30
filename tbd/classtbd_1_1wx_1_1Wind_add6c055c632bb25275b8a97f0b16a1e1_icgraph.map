@@ -1,0 +1,9 @@
+<map id="tbd::wx::Wind::direction" name="tbd::wx::Wind::direction">
+<area shape="rect" id="node1" title="Direction wind is coming from." alt="" coords="577,81,729,108"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="375,56,497,83"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="343,107,529,133"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#a2a77261ebf27cba2e7e7c321df25c2ee" title=" " alt="" coords="128,5,271,32"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="138,56,261,83"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,107,295,133"/>
+<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,107,56,133"/>
+</map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ybottom_138',['yBottom',['../namespacenhn.html#a14eb7e260d14a76e7564412a44caa65c',1,'nhn']]],
-  ['ytop_139',['yTop',['../namespacenhn.html#a79da81bc66618b221af707002d5ed2da',1,'nhn']]]
+  ['xleft_144',['xLeft',['../namespacenhn.html#a0a78bce196109af90839bcbbe8e78899',1,'nhn']]],
+  ['xright_145',['xRight',['../namespacenhn.html#a094eccbef814619c065a50f2df50b3d6',1,'nhn']]]
 ];

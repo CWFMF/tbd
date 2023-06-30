@@ -1,6 +1,6 @@
 <map id="tbd::data::GridBase" name="tbd::data::GridBase">
-<area shape="rect" id="node1" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="204,5,355,508"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="206,557,353,752"/>
+<area shape="rect" id="node1" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="204,5,355,464"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="206,513,353,752"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="215,801,343,981"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1ConstantGrid.html" title=" " alt="" coords="5,1765,159,2077"/>
 <area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="218,1736,383,2107"/>

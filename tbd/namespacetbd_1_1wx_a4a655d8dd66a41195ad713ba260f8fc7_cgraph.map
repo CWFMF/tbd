@@ -1,4 +1,11 @@
 <map id="tbd::wx::make_wx" name="tbd::wx::make_wx">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#ac59b7863bd871edaf61efe61587b03b3" title=" " alt="" coords="176,5,299,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,128,184"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="176,157,299,184"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="352,5,509,32"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Wind.html#add6c055c632bb25275b8a97f0b16a1e1" title="Direction wind is coming from." alt="" coords="355,56,507,83"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="347,107,515,133"/>
+<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50" title="Precipitation (1hr accumulation) (mm)" alt="" coords="357,157,504,184"/>
+<area shape="rect" id="node7" href="$classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad" title="Relative Humidity (%)" alt="" coords="364,208,497,235"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8" title="Temperature (Celsius)" alt="" coords="355,259,506,285"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="356,309,505,336"/>
 </map>

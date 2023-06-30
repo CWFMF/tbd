@@ -1,52 +1,52 @@
 <map id="tbd::sim::run_test" name="tbd::sim::run_test">
-<area shape="rect" id="node1" title=" " alt="" coords="5,1659,125,1685"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="175,56,329,83"/>
-<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelLookup.html#a841525798f9600beedba9ec663979719" title="Look up a FuelType based on the given name." alt="" coords="181,1862,323,1903"/>
-<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519" title="Cell at the given row and column." alt="" coords="675,1657,810,1684"/>
-<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Scenario.html#aa109b93f40c500acdffcd4146857c54e" title="Current fire size (ha)" alt="" coords="422,342,546,383"/>
-<area shape="rect" id="node10" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="420,1877,548,1904"/>
-<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="191,166,313,207"/>
-<area shape="rect" id="node16" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="427,1709,541,1736"/>
-<area shape="rect" id="node17" href="$namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="173,517,331,558"/>
-<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Model.html#af9cac50f871805ac056c2f5d4bcb5126" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="188,1928,316,1955"/>
-<area shape="rect" id="node20" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="425,1827,543,1853"/>
-<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="178,1000,326,1027"/>
-<area shape="rect" id="node48" href="$classtbd_1_1fuel_1_1FuelType.html#a3fdd54fe57f405ccc36f6702f62edeef" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="189,1979,315,2021"/>
-<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Scenario.html#aa18d3d1ec8d12c832343413acd989903" title="Tell Observers to save their data with base file name." alt="" coords="190,305,314,346"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="679,107,807,149"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="419,5,549,32"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="911,291,1030,317"/>
-<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Environment.html#a7ab62639d50841e186013bf28507cc45" title="Cell at given row and column." alt="" coords="896,1650,1045,1691"/>
-<area shape="rect" id="node11" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="910,1787,1031,1829"/>
-<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="678,1769,807,1796"/>
-<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="379,107,589,149"/>
-<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="637,198,848,239"/>
-<area shape="rect" id="node18" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="664,291,821,317"/>
-<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="422,577,546,618"/>
-<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="422,459,546,501"/>
-<area shape="rect" id="node25" href="$classtbd_1_1logging_1_1SelfLogger.html#a50800186d5ea71a19479ca89535b9692" title=" " alt="" coords="665,394,821,435"/>
-<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Scenario.html#a2181d9e7d0197255c426ab15af8910f5" title="Whether or not a Cell can burn." alt="" coords="422,759,546,801"/>
-<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Scenario.html#a55938067a51d12385b928030ab40b62c" title="Get Cell for given row and column." alt="" coords="422,1058,546,1099"/>
-<area shape="rect" id="node29" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="421,642,547,683"/>
-<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Model.html#aec5b7ddbd1dac837a9f64478aff3231c" title="Environment simulation is occurring in." alt="" coords="650,905,835,932"/>
-<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="415,993,553,1034"/>
-<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="397,927,571,969"/>
-<area shape="rect" id="node34" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="415,1124,553,1151"/>
-<area shape="rect" id="node35" href="$classtbd_1_1logging_1_1SelfLogger.html#a0e130a853f4c5d7586fb3453f1cacc12" title=" " alt="" coords="406,1593,562,1634"/>
-<area shape="rect" id="node36" href="$classtbd_1_1logging_1_1SelfLogger.html#a5f694bb1d4caf8e7662921517f40b446" title=" " alt="" coords="406,1761,562,1802"/>
-<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Event.html#a494c54e055285f319f96839aa9a82dbc" title="Make simulation end event." alt="" coords="401,1241,567,1268"/>
-<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Event.html#a99198cd864b48d15c88a3ab078faf8a8" title="Make fire spread event." alt="" coords="401,1293,567,1334"/>
-<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Event.html#a3225b67b6e6c3c7e0ad2ad1c7d947597" title="Make new fire event." alt="" coords="387,525,581,552"/>
-<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Event.html#a5705cb9d70d87a8299c94786e5237f08" title="Make simulation save event." alt="" coords="397,1359,571,1385"/>
-<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="422,1410,546,1451"/>
-<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="423,225,545,266"/>
-<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Scenario.html#aa02ef37f10492fa787dccdbcceea6049" title="Whether or not this Scenario has run already." alt="" coords="410,1476,558,1503"/>
-<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="406,1527,562,1569"/>
-<area shape="rect" id="node45" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="407,825,561,852"/>
-<area shape="rect" id="node46" href="$namespacetbd_1_1sim.html#a64e5d5c178d5008a8bb869f5750a46ee" title=" " alt="" coords="398,708,570,735"/>
-<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Scenario.html#a5b3ef3afb595d5c3413536ff811e2724" title="Simulation number." alt="" coords="422,1175,546,1217"/>
-<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1Event.html#a0d751a061b4613d3f2deba80cf9ec801" title="Cell Event takes place in." alt="" coords="677,525,809,552"/>
-<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1Scenario.html#af7b7af843131495631f8993093744a9d" title="Notify IObservers that a Cell has burned." alt="" coords="681,459,805,501"/>
-<area shape="rect" id="node30" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="679,726,806,767"/>
-<area shape="rect" id="node49" href="$classtbd_1_1fuel_1_1FuelType.html#a9158601435e5f99612885308d68648da" title="Code for this fuel type." alt="" coords="421,1979,547,2021"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,384,125,411"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="175,245,329,272"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelLookup.html#a841525798f9600beedba9ec663979719" title="Look up a FuelType based on the given name." alt="" coords="181,78,323,119"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="675,1880,810,1907"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Scenario.html#aa109b93f40c500acdffcd4146857c54e" title="Current fire size (ha)" alt="" coords="422,377,546,418"/>
+<area shape="rect" id="node10" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="420,5,548,32"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="191,318,313,359"/>
+<area shape="rect" id="node16" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="427,56,541,83"/>
+<area shape="rect" id="node17" href="$namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="173,1450,331,1491"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Model.html#af9cac50f871805ac056c2f5d4bcb5126" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="188,501,316,528"/>
+<area shape="rect" id="node20" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="425,107,543,133"/>
+<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="178,1096,326,1123"/>
+<area shape="rect" id="node48" href="$classtbd_1_1fuel_1_1FuelType.html#a3fdd54fe57f405ccc36f6702f62edeef" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="189,1961,315,2002"/>
+<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Scenario.html#aa18d3d1ec8d12c832343413acd989903" title="Tell Observers to save their data with base file name." alt="" coords="190,435,314,477"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="679,259,807,301"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="419,157,549,184"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="911,1160,1030,1187"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="896,1873,1045,1914"/>
+<area shape="rect" id="node11" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="910,99,1031,141"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="678,157,807,184"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="379,259,589,301"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="637,383,848,425"/>
+<area shape="rect" id="node18" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="664,1640,821,1667"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="422,755,546,797"/>
+<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="422,1121,546,1162"/>
+<area shape="rect" id="node25" href="$classtbd_1_1logging_1_1SelfLogger.html#a362638a38792d5eacdcc0d1d886c61b3" title=" " alt="" coords="665,1062,821,1103"/>
+<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Scenario.html#a2181d9e7d0197255c426ab15af8910f5" title="Whether or not a Cell can burn." alt="" coords="422,873,546,914"/>
+<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Scenario.html#a87b5c11f81fe6bdf775dbb3343e373cf" title="Get Cell for given row and column." alt="" coords="422,1843,546,1885"/>
+<area shape="rect" id="node29" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="421,938,547,979"/>
+<area shape="rect" id="node31" href="$classtbd_1_1sim_1_1Model.html#aec5b7ddbd1dac837a9f64478aff3231c" title="Environment simulation is occurring in." alt="" coords="650,1308,835,1335"/>
+<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="415,1055,553,1097"/>
+<area shape="rect" id="node33" href="$classtbd_1_1sim_1_1Model.html#a80c0565e34fb52461c60d50854324c33" title="Acquire a BurnedData that has already burnt cells set." alt="" coords="397,1289,571,1330"/>
+<area shape="rect" id="node34" href="$namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="415,1187,553,1213"/>
+<area shape="rect" id="node35" href="$classtbd_1_1logging_1_1SelfLogger.html#a0e130a853f4c5d7586fb3453f1cacc12" title=" " alt="" coords="406,573,562,614"/>
+<area shape="rect" id="node36" href="$classtbd_1_1logging_1_1SelfLogger.html#a5f694bb1d4caf8e7662921517f40b446" title=" " alt="" coords="406,507,562,549"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Event.html#a494c54e055285f319f96839aa9a82dbc" title="Make simulation end event." alt="" coords="401,1456,567,1483"/>
+<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Event.html#a99198cd864b48d15c88a3ab078faf8a8" title="Make fire spread event." alt="" coords="401,1507,567,1549"/>
+<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Event.html#a3225b67b6e6c3c7e0ad2ad1c7d947597" title="Make new fire event." alt="" coords="387,1237,581,1264"/>
+<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Event.html#a5705cb9d70d87a8299c94786e5237f08" title="Make simulation save event." alt="" coords="397,1573,571,1600"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="422,1625,546,1666"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="423,442,545,483"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Scenario.html#aa02ef37f10492fa787dccdbcceea6049" title="Whether or not this Scenario has run already." alt="" coords="410,1691,558,1717"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="665,1385,821,1426"/>
+<area shape="rect" id="node45" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="407,821,561,848"/>
+<area shape="rect" id="node46" href="$namespacetbd_1_1sim.html#a64e5d5c178d5008a8bb869f5750a46ee" title=" " alt="" coords="398,1741,570,1768"/>
+<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Scenario.html#a5b3ef3afb595d5c3413536ff811e2724" title="Simulation number." alt="" coords="422,690,546,731"/>
+<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1Event.html#a0d751a061b4613d3f2deba80cf9ec801" title="Cell Event takes place in." alt="" coords="677,1195,809,1221"/>
+<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1Scenario.html#af7b7af843131495631f8993093744a9d" title="Notify IObservers that a Cell has burned." alt="" coords="681,1127,805,1169"/>
+<area shape="rect" id="node30" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="679,877,806,918"/>
+<area shape="rect" id="node49" href="$classtbd_1_1fuel_1_1FuelType.html#a9158601435e5f99612885308d68648da" title="Code for this fuel type." alt="" coords="421,1961,547,2002"/>
 </map>

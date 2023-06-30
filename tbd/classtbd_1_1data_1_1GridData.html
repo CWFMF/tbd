@@ -89,8 +89,8 @@ Inheritance diagram for tbd::data::GridData&lt; T, V, D &gt;:</div>
 <area shape="rect" href="classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="435,1736,600,2107"/>
 <area shape="rect" href="classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="316,1059,469,1253"/>
 <area shape="rect" href="classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="84,1059,218,1253"/>
-<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="203,557,350,752"/>
-<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="201,5,352,508"/>
+<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="203,513,350,752"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="201,5,352,464"/>
 <area shape="rect" href="classtbd_1_1topo_1_1BurnedMap.html" title="A map of locations which have burned in a Scenario." alt="" coords="446,2156,589,2233"/>
 <area shape="rect" href="classtbd_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="314,1303,479,1673"/>
 <area shape="rect" href="classtbd_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="80,1332,233,1644"/>
@@ -101,22 +101,21 @@ Collaboration diagram for tbd::data::GridData&lt; T, V, D &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1data_1_1GridData__coll__graph.png" border="0" usemap="#atbd_1_1data_1_1GridData_3_01T_00_01V_00_01D_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="atbd_1_1data_1_1GridData_3_01T_00_01V_00_01D_01_4_coll__map" id="atbd_1_1data_1_1GridData_3_01T_00_01V_00_01D_01_4_coll__map">
-<area shape="rect" title="A Grid that defines the data structure used for storing values." alt="" coords="162,1067,290,1247"/>
-<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="58,809,205,1004"/>
-<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="56,375,207,760"/>
+<area shape="rect" title="A Grid that defines the data structure used for storing values." alt="" coords="114,1081,242,1261"/>
+<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="10,780,157,1019"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="8,375,159,731"/>
 <area shape="rect" title=" " alt="" coords="5,147,65,224"/>
-<area shape="rect" title=" " alt="" coords="112,147,151,224"/>
-<area shape="rect" title=" " alt="" coords="176,147,255,224"/>
-<area shape="rect" title=" " alt="" coords="153,5,277,97"/>
-<area shape="rect" title=" " alt="" coords="303,868,341,945"/>
+<area shape="rect" title=" " alt="" coords="92,147,171,224"/>
+<area shape="rect" title=" " alt="" coords="69,5,193,97"/>
+<area shape="rect" title=" " alt="" coords="255,861,293,938"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac33ce00465c45377c264cff71cab9e80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridData.html#ac33ce00465c45377c264cff71cab9e80">GridData</a> (const double cell_size, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a>, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a>, const T no_data, const int <a class="el" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>, D &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec">data</a>)</td></tr>
-<tr class="memdesc:ac33ce00465c45377c264cff71cab9e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1GridData.html#ac33ce00465c45377c264cff71cab9e80">More...</a><br /></td></tr>
-<tr class="separator:ac33ce00465c45377c264cff71cab9e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64afdbffb36d3b503bccfc00c768ba16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridData.html#a64afdbffb36d3b503bccfc00c768ba16">GridData</a> (const double cell_size, const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a>, const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a>, const T no_data, const V <a class="el" href="classtbd_1_1data_1_1Grid.html#ade382c8122896a63543797c72cf92e9b">nodata</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>, D &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec">data</a>)</td></tr>
+<tr class="memdesc:a64afdbffb36d3b503bccfc00c768ba16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1GridData.html#a64afdbffb36d3b503bccfc00c768ba16">More...</a><br /></td></tr>
+<tr class="separator:a64afdbffb36d3b503bccfc00c768ba16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d1953c0f2132423097f1f3a33948f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridData.html#a04d1953c0f2132423097f1f3a33948f6">~GridData</a> ()=default</td></tr>
 <tr class="separator:a04d1953c0f2132423097f1f3a33948f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb0400213d8a3cae977d52d3f8db1ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridData.html#aeeb0400213d8a3cae977d52d3f8db1ed">GridData</a> (const <a class="el" href="classtbd_1_1data_1_1GridData.html">GridData</a> &amp;rhs)</td></tr>
@@ -135,15 +134,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1735050cc6da1f306eef21d2d56d6cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of data structure storing values.  <a href="classtbd_1_1data_1_1GridData.html#a1735050cc6da1f306eef21d2d56d6cde">More...</a><br /></td></tr>
 <tr class="separator:a1735050cc6da1f306eef21d2d56d6cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classtbd_1_1data_1_1Grid"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classtbd_1_1data_1_1Grid')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classtbd_1_1data_1_1Grid.html">tbd::data::Grid&lt; T, V &gt;</a></td></tr>
-<tr class="memitem:a8edef5e6e3c5a70f08b40200ce29f0c3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a> () const noexcept</td></tr>
+<tr class="memitem:a8edef5e6e3c5a70f08b40200ce29f0c3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a> () const noexcept</td></tr>
 <tr class="memdesc:a8edef5e6e3c5a70f08b40200ce29f0c3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of rows in the GridBase.  <a href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">More...</a><br /></td></tr>
 <tr class="separator:a8edef5e6e3c5a70f08b40200ce29f0c3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac057c771e231143bfd2f2d281b2a26fc inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a> () const noexcept</td></tr>
+<tr class="memitem:ac057c771e231143bfd2f2d281b2a26fc inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a> () const noexcept</td></tr>
 <tr class="memdesc:ac057c771e231143bfd2f2d281b2a26fc inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of columns in the GridBase.  <a href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">More...</a><br /></td></tr>
 <tr class="separator:ac057c771e231143bfd2f2d281b2a26fc inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade382c8122896a63543797c72cf92e9b inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#ade382c8122896a63543797c72cf92e9b">nodata</a> () const noexcept</td></tr>
+<tr class="memdesc:ade382c8122896a63543797c72cf92e9b inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used for grid locations that have no data.  <a href="classtbd_1_1data_1_1Grid.html#ade382c8122896a63543797c72cf92e9b">More...</a><br /></td></tr>
+<tr class="separator:ade382c8122896a63543797c72cf92e9b inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c2da61076166a7b25fc45e2d6f9f35d inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a2c2da61076166a7b25fc45e2d6f9f35d">noData</a> () const noexcept</td></tr>
 <tr class="memdesc:a2c2da61076166a7b25fc45e2d6f9f35d inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value representing no data.  <a href="classtbd_1_1data_1_1Grid.html#a2c2da61076166a7b25fc45e2d6f9f35d">More...</a><br /></td></tr>
 <tr class="separator:a2c2da61076166a7b25fc45e2d6f9f35d inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676c9c0fd0d2b4d7ab41b5fdd0025fc3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a676c9c0fd0d2b4d7ab41b5fdd0025fc3">noDataInt</a> () const noexcept</td></tr>
+<tr class="memdesc:a676c9c0fd0d2b4d7ab41b5fdd0025fc3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to represent no data at a Location.  <a href="classtbd_1_1data_1_1Grid.html#a676c9c0fd0d2b4d7ab41b5fdd0025fc3">More...</a><br /></td></tr>
+<tr class="separator:a676c9c0fd0d2b4d7ab41b5fdd0025fc3 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf2ab7753f9b9f0590895d5196b9b12 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a7bf2ab7753f9b9f0590895d5196b9b12">at</a> (const <a class="el" href="classtbd_1_1topo_1_1Location.html">Location</a> &amp;location) const=0</td></tr>
 <tr class="memdesc:a7bf2ab7753f9b9f0590895d5196b9b12 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value for grid at given Location.  <a href="classtbd_1_1data_1_1Grid.html#a7bf2ab7753f9b9f0590895d5196b9b12">More...</a><br /></td></tr>
 <tr class="separator:a7bf2ab7753f9b9f0590895d5196b9b12 inherit pub_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,15 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca30cba1c1b6f0415a3987e9612bffaf inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf">cellSize</a> () const noexcept</td></tr>
 <tr class="memdesc:aca30cba1c1b6f0415a3987e9612bffaf inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cell size used for <a class="el" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates.">GridBase</a>.  <a href="classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf">More...</a><br /></td></tr>
 <tr class="separator:aca30cba1c1b6f0415a3987e9612bffaf inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59bd243eeb65573a81561258fbedf106 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#af9c6e8de3c8a830823927005438adc6c">FullIdx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106">calculateRows</a> () const noexcept</td></tr>
+<tr class="memitem:a59bd243eeb65573a81561258fbedf106 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#af2e07c82efa8a8b96246fbde156ab297">FullIdx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106">calculateRows</a> () const noexcept</td></tr>
 <tr class="memdesc:a59bd243eeb65573a81561258fbedf106 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of rows in the <a class="el" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates.">GridBase</a>.  <a href="classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106">More...</a><br /></td></tr>
 <tr class="separator:a59bd243eeb65573a81561258fbedf106 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7645747824452ce1b828885e82492944 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#af9c6e8de3c8a830823927005438adc6c">FullIdx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944">calculateColumns</a> () const noexcept</td></tr>
+<tr class="memitem:a7645747824452ce1b828885e82492944 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetbd.html#af2e07c82efa8a8b96246fbde156ab297">FullIdx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944">calculateColumns</a> () const noexcept</td></tr>
 <tr class="memdesc:a7645747824452ce1b828885e82492944 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of columns in the <a class="el" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates.">GridBase</a>.  <a href="classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944">More...</a><br /></td></tr>
 <tr class="separator:a7645747824452ce1b828885e82492944 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad5f7da1239f0451756c451fd875930c inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a> () const noexcept</td></tr>
-<tr class="memdesc:aad5f7da1239f0451756c451fd875930c inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used for grid locations that have no data.  <a href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">More...</a><br /></td></tr>
-<tr class="separator:aad5f7da1239f0451756c451fd875930c inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5efc5fd7a0062b7eb69868ccbf7e8892 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a> () const noexcept</td></tr>
 <tr class="memdesc:a5efc5fd7a0062b7eb69868ccbf7e8892 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower left corner X coordinate in meters.  <a href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">More...</a><br /></td></tr>
 <tr class="separator:a5efc5fd7a0062b7eb69868ccbf7e8892 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,12 +200,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab968c34357a7266fc01208a350635dbd inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">zone</a> () const noexcept</td></tr>
 <tr class="memdesc:ab968c34357a7266fc01208a350635dbd inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTM zone represented by proj4 string for this grid.  <a href="classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd">More...</a><br /></td></tr>
 <tr class="separator:ab968c34357a7266fc01208a350635dbd inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af13e28d68310bef4e6c6568bfe3986cb inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#af13e28d68310bef4e6c6568bfe3986cb">noDataInt</a> () const noexcept</td></tr>
-<tr class="memdesc:af13e28d68310bef4e6c6568bfe3986cb inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to represent no data at a Location.  <a href="classtbd_1_1data_1_1GridBase.html#af13e28d68310bef4e6c6568bfe3986cb">More...</a><br /></td></tr>
-<tr class="separator:af13e28d68310bef4e6c6568bfe3986cb inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cceb57759214acf33c002b401520fe2 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2">GridBase</a> (double cell_size, int <a class="el" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>) noexcept</td></tr>
-<tr class="memdesc:a3cceb57759214acf33c002b401520fe2 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1GridBase.html#a3cceb57759214acf33c002b401520fe2">More...</a><br /></td></tr>
-<tr class="separator:a3cceb57759214acf33c002b401520fe2 inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3ff3bbecf27c1fe3230226f08959ce inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#a2e3ff3bbecf27c1fe3230226f08959ce">GridBase</a> (double cell_size, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>) noexcept</td></tr>
+<tr class="memdesc:a2e3ff3bbecf27c1fe3230226f08959ce inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1GridBase.html#a2e3ff3bbecf27c1fe3230226f08959ce">More...</a><br /></td></tr>
+<tr class="separator:a2e3ff3bbecf27c1fe3230226f08959ce inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e04ae3897f55bd23bb75e9c9ea11ae inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1GridBase.html#aa8e04ae3897f55bd23bb75e9c9ea11ae">GridBase</a> () noexcept</td></tr>
 <tr class="memdesc:aa8e04ae3897f55bd23bb75e9c9ea11ae inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classtbd_1_1data_1_1GridBase.html#aa8e04ae3897f55bd23bb75e9c9ea11ae">More...</a><br /></td></tr>
 <tr class="separator:aa8e04ae3897f55bd23bb75e9c9ea11ae inherit pub_methods_classtbd_1_1data_1_1GridBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,12 +225,12 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classtbd_1_1data_1_1Grid"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classtbd_1_1data_1_1Grid')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classtbd_1_1data_1_1Grid.html">tbd::data::Grid&lt; T, V &gt;</a></td></tr>
-<tr class="memitem:a7891ababf2777f8dec0d5c69b591a8e2 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a7891ababf2777f8dec0d5c69b591a8e2">Grid</a> (const double cell_size, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a>, const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a>, T no_data, const int <a class="el" href="classtbd_1_1data_1_1GridBase.html#aad5f7da1239f0451756c451fd875930c">nodata</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>) noexcept</td></tr>
-<tr class="memdesc:a7891ababf2777f8dec0d5c69b591a8e2 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1Grid.html#a7891ababf2777f8dec0d5c69b591a8e2">More...</a><br /></td></tr>
-<tr class="separator:a7891ababf2777f8dec0d5c69b591a8e2 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19db5234e6fc1cd326d1033944d26a09 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a19db5234e6fc1cd326d1033944d26a09">Grid</a> (const <a class="el" href="classtbd_1_1data_1_1GridBase.html">GridBase</a> &amp;grid_info, T no_data) noexcept</td></tr>
-<tr class="memdesc:a19db5234e6fc1cd326d1033944d26a09 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct based on GridBase and no data value.  <a href="classtbd_1_1data_1_1Grid.html#a19db5234e6fc1cd326d1033944d26a09">More...</a><br /></td></tr>
-<tr class="separator:a19db5234e6fc1cd326d1033944d26a09 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f69ebd2e2e90f0005b50ea50d05f497 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a0f69ebd2e2e90f0005b50ea50d05f497">Grid</a> (const double cell_size, const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3">rows</a>, const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a> <a class="el" href="classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc">columns</a>, T no_data, const V <a class="el" href="classtbd_1_1data_1_1Grid.html#ade382c8122896a63543797c72cf92e9b">nodata</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892">xllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f">yllcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0">xurcorner</a>, const double <a class="el" href="classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278">yurcorner</a>, string &amp;&amp;<a class="el" href="classtbd_1_1data_1_1GridBase.html#a58a632fa0b6f9ccb123d3a83641cf52f">proj4</a>) noexcept</td></tr>
+<tr class="memdesc:a0f69ebd2e2e90f0005b50ea50d05f497 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classtbd_1_1data_1_1Grid.html#a0f69ebd2e2e90f0005b50ea50d05f497">More...</a><br /></td></tr>
+<tr class="separator:a0f69ebd2e2e90f0005b50ea50d05f497 inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bfdad960790b1fa3f5f0f18c2b2e58d inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1data_1_1Grid.html#a9bfdad960790b1fa3f5f0f18c2b2e58d">Grid</a> (const <a class="el" href="classtbd_1_1data_1_1GridBase.html">GridBase</a> &amp;grid_info, V no_data) noexcept</td></tr>
+<tr class="memdesc:a9bfdad960790b1fa3f5f0f18c2b2e58d inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct based on GridBase and no data value.  <a href="classtbd_1_1data_1_1Grid.html#a9bfdad960790b1fa3f5f0f18c2b2e58d">More...</a><br /></td></tr>
+<tr class="separator:a9bfdad960790b1fa3f5f0f18c2b2e58d inherit pro_methods_classtbd_1_1data_1_1Grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T, class V, class D&gt;<br />
@@ -247,10 +246,10 @@ class tbd::data::GridData&lt; T, V, D &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00379">379</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00381">381</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac33ce00465c45377c264cff71cab9e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac33ce00465c45377c264cff71cab9e80">&#9670;&nbsp;</a></span>GridData() <span class="overload">[1/3]</span></h2>
+<a id="a64afdbffb36d3b503bccfc00c768ba16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64afdbffb36d3b503bccfc00c768ba16">&#9670;&nbsp;</a></span>GridData() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,13 +268,13 @@ template&lt;class T , class V , class D &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a>&#160;</td>
           <td class="paramname"><em>rows</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacetbd.html#a225c6532670fd24e8efe67bebe8b75a9">Idx</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacetbd.html#ae92189d083edaa19dade357d5884001b">Idx</a>&#160;</td>
           <td class="paramname"><em>columns</em>, </td>
         </tr>
         <tr>
@@ -287,7 +286,7 @@ template&lt;class T , class V , class D &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const V&#160;</td>
           <td class="paramname"><em>nodata</em>, </td>
         </tr>
         <tr>
@@ -357,7 +356,7 @@ template&lt;class T , class V , class D &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00398">398</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00400">400</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 
 </div>
 </div>
@@ -422,7 +421,7 @@ template&lt;class T , class V , class D &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00427">427</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00429">429</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 
 </div>
 </div>
@@ -460,7 +459,7 @@ template&lt;class T , class V , class D &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00435">435</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00437">437</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 
 </div>
 </div>
@@ -500,7 +499,7 @@ template&lt;class T , class V , class D &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This, after assignment </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00444">444</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00446">446</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -548,7 +547,7 @@ template&lt;class T , class V , class D &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This, after assignment </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00458">458</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00460">460</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -589,7 +588,7 @@ template&lt;class T , class V , class D &gt; </div>
 <p>Size of data structure storing values. </p>
 <dl class="section return"><dt>Returns</dt><dd>Size of data structure storing values </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00471">471</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00473">473</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +609,7 @@ template&lt;class T , class V , class D &gt; </div>
 
 <p>Structure that holds data represented by this <a class="el" href="classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values.">GridData</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00479">479</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Grid_8h_source.html#l00481">481</a> of file <a class="el" href="Grid_8h_source.html">Grid.h</a>.</p>
 
 </div>
 </div>

@@ -26,7 +26,14 @@
 <area shape="rect" id="node26" href="$namespacetbd_1_1wx.html#a789f48773a627fe14100141c60fccc54" title=" " alt="" coords="212,1171,340,1197"/>
 <area shape="rect" id="node27" href="$namespacetbd_1_1wx.html#a089c9efd5269fa565fce15b149157317" title=" " alt="" coords="212,1221,340,1248"/>
 <area shape="rect" id="node28" href="$namespacetbd_1_1wx.html#a15c220fff2d58328cf4d14f03e8da6d2" title=" " alt="" coords="212,1272,340,1299"/>
-<area shape="rect" id="node29" href="$namespacetbd_1_1wx.html#ac59b7863bd871edaf61efe61587b03b3" title=" " alt="" coords="215,1323,337,1349"/>
-<area shape="rect" id="node30" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="211,1373,341,1400"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#abef2c952964939d6c77a4c21bb0bf544" title=" " alt="" coords="404,631,531,673"/>
+<area shape="rect" id="node29" href="$namespacetbd_1_1wx.html#a46d9a4b92dec78c296d92455aacdec99" title=" " alt="" coords="215,1323,337,1349"/>
+<area shape="rect" id="node37" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="211,1373,341,1400"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1wx.html#abef2c952964939d6c77a4c21bb0bf544" title=" " alt="" coords="425,631,551,673"/>
+<area shape="rect" id="node30" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="409,1171,567,1197"/>
+<area shape="rect" id="node31" href="$classtbd_1_1wx_1_1Wind.html#add6c055c632bb25275b8a97f0b16a1e1" title="Direction wind is coming from." alt="" coords="412,1221,564,1248"/>
+<area shape="rect" id="node32" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="404,1272,572,1299"/>
+<area shape="rect" id="node33" href="$classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50" title="Precipitation (1hr accumulation) (mm)" alt="" coords="415,1323,561,1349"/>
+<area shape="rect" id="node34" href="$classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad" title="Relative Humidity (%)" alt="" coords="421,1373,555,1400"/>
+<area shape="rect" id="node35" href="$classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8" title="Temperature (Celsius)" alt="" coords="413,1424,563,1451"/>
+<area shape="rect" id="node36" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="413,1475,563,1501"/>
 </map>

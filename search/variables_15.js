@@ -1,12 +1,18 @@
 var searchData=
 [
-  ['x_2960',['x',['.././tbd/structtbd_1_1sim_1_1InnerPos.html#a2a9984b6fad05e4eba05de2280a7b56f',1,'tbd::sim::InnerPos::x()'],['.././tbd/structtbd_1_1Offset.html#ac21621708cb9ea7e7d8bebcdc947afa2',1,'tbd::Offset::x()']]],
-  ['xcenter_2961',['XCenter',['.././tbd/classgis_1_1Extent.html#a8c16b24fbd86050dfcd124941327c57c',1,'gis::Extent']]],
-  ['xleft_2962',['xLeft',['.././gis/namespacenhn.html#a0a78bce196109af90839bcbbe8e78899',1,'nhn']]],
-  ['xllcorner_5f_2963',['xllcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#a5f55b6487b91e4c93f237d946e101aa0',1,'tbd::data::GridBase']]],
-  ['xmax_2964',['XMax',['.././tbd/classgis_1_1Extent.html#a671fd7981f9b0a5e0bba6c8559432f24',1,'gis::Extent']]],
-  ['xmin_2965',['XMin',['.././tbd/classgis_1_1Extent.html#acc2235faedbe1fd4266eebc5e28182fa',1,'gis::Extent']]],
-  ['xright_2966',['xRight',['.././gis/namespacenhn.html#a094eccbef814619c065a50f2df50b3d6',1,'nhn']]],
-  ['xurcorner_5f_2967',['xurcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#a7499453d26ad0a9a56bfa87b22ea92c3',1,'tbd::data::GridBase']]],
-  ['xybits_2968',['XYBits',['.././tbd/classtbd_1_1topo_1_1Location.html#aac032fe1ed469c2c6c72f0a4a3889635',1,'tbd::topo::Location']]]
+  ['want_5fdates_3173',['WANT_DATES',['.././tbd/namespacemain.html#a91e3ecb088605b1a138cd867f2ab54da',1,'main']]],
+  ['wd_5fincrement_3174',['WD_INCREMENT',['.././tbd/namespacetbd_1_1sim.html#a449745ccc619092c2e205c971a6fa804',1,'tbd::sim']]],
+  ['weather_5f_3175',['weather_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#ac17b9dbee6598b74b5ea94b14950b618',1,'tbd::sim::Scenario::weather_()'],['.././tbd/classtbd_1_1sim_1_1SpreadInfo.html#a3e84fc2dac5b58edbcad947199d79ba0',1,'tbd::sim::SpreadInfo::weather_()']]],
+  ['weather_5fby_5fhour_5fby_5fday_5f_3176',['weather_by_hour_by_day_',['.././tbd/classtbd_1_1wx_1_1FireWeather.html#a0e53ff32d5c6683f2c9d68f0fef1da97',1,'tbd::wx::FireWeather']]],
+  ['weather_5fdaily_5f_3177',['weather_daily_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#a42e2a659355c9c6bedffb3ad7dae3963',1,'tbd::sim::Scenario']]],
+  ['weighted_5fdsr_5f_3178',['weighted_dsr_',['.././tbd/classtbd_1_1wx_1_1FireWeather.html#a31ccc71362ad9409aa46e4e89d044630',1,'tbd::wx::FireWeather']]],
+  ['whitespruce_3179',['WhiteSpruce',['.././tbd/classtbd_1_1fuel_1_1Duff.html#a71ab7a7d2c3232282dc434f9be4a8502',1,'tbd::fuel::Duff']]],
+  ['wind_5f_3180',['wind_',['.././tbd/classtbd_1_1wx_1_1Weather.html#af58a237f4997ca49eb6e6c83eaec06cc',1,'tbd::wx::Weather']]],
+  ['workspace_3181',['workspace',['.././tbd/namespacepublish__geoserver.html#a5a4f1f0903f34e49b94f89f28ff4fa90',1,'publish_geoserver']]],
+  ['workspace_3182',['WORKSPACE',['.././tbd/namespacepublish__geoserver.html#a48d301a9e78469def722c245dd1ea25e',1,'publish_geoserver']]],
+  ['ws_5fincrement_3183',['WS_INCREMENT',['.././tbd/namespacetbd_1_1sim.html#ac708503aef5b5049049ca152013f3382',1,'tbd::sim']]],
+  ['wsv_5fx_5f_3184',['wsv_x_',['.././tbd/classtbd_1_1wx_1_1Wind.html#ad4ae9a6b873976d9219ab10760c9f919',1,'tbd::wx::Wind']]],
+  ['wsv_5fy_5f_3185',['wsv_y_',['.././tbd/classtbd_1_1wx_1_1Wind.html#acc8af9c185dd64fc655595d1429041d8',1,'tbd::wx::Wind']]],
+  ['wx_5f_3186',['wx_',['.././tbd/classtbd_1_1sim_1_1Model.html#a5c82960ce647ec95896933ad3ec93ecd',1,'tbd::sim::Model']]],
+  ['wx_5fdaily_5f_3187',['wx_daily_',['.././tbd/classtbd_1_1sim_1_1Model.html#abdc7d74980bee5c186956ba63662c445',1,'tbd::sim::Model']]]
 ];

@@ -1,0 +1,4 @@
+<map id="gis.find_best_raster" name="gis.find_best_raster">
+<area shape="rect" id="node1" title="Find the raster with the closest meridian." alt="" coords="184,5,319,32"/>
+<area shape="rect" id="node2" href="$namespacegis.html#ade86415df6e6689594f3a6982d3c9eb0" title="Convert a perimeter to a raster." alt="" coords="5,5,136,32"/>
+</map>

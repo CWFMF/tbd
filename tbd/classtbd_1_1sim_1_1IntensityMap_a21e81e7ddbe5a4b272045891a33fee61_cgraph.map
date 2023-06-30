@@ -1,5 +1,6 @@
 <map id="tbd::sim::IntensityMap::~IntensityMap" name="tbd::sim::IntensityMap::~IntensityMap">
 <area shape="rect" id="node1" title=" " alt="" coords="5,27,152,69"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a4a53caeb02c09e05128a227268e2ad4f" title=" " alt="" coords="205,5,351,32"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="200,57,356,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="200,57,356,98"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="404,35,523,61"/>
 </map>

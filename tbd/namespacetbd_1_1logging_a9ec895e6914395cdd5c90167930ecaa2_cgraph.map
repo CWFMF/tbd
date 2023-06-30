@@ -1,4 +1,0 @@
-<map id="tbd::logging::check_fatal" name="tbd::logging::check_fatal">
-<area shape="rect" id="node1" title="Check condition and log and exit if true." alt="" coords="5,5,133,47"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="181,13,300,39"/>
-</map>

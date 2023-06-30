@@ -145,6 +145,8 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:acf1b24e8a68f90d51dd195cd3fcea91f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FWI_8cpp.html#acf1b24e8a68f90d51dd195cd3fcea91f">CHECK_CALCULATION</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:acf1b24e8a68f90d51dd195cd3fcea91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58b2f605ecce8eac620f73221241444"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FWI_8cpp.html#ad58b2f605ecce8eac620f73221241444">CHECK_EPSILON</a>&#160;&#160;&#160;0.001</td></tr>
+<tr class="separator:ad58b2f605ecce8eac620f73221241444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -159,12 +161,12 @@ Functions</h2></td></tr>
 <tr class="separator:a278936754c42e242650f543cfdc3bcce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363eee1b420bc0c03974fa1856e9cb00"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a363eee1b420bc0c03974fa1856e9cb00">tbd::wx::find_m</a> (const Temperature &amp;temperature, const RelativeHumidity &amp;rh, const Speed &amp;wind, const double mo) noexcept</td></tr>
 <tr class="separator:a363eee1b420bc0c03974fa1856e9cb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea260071637d7257fe17e9e07f8f6b3"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#abea260071637d7257fe17e9e07f8f6b3">tbd::wx::calculate_ffmc</a> (const Temperature &amp;temperature, const RelativeHumidity &amp;rh, const Speed &amp;wind, const AccumulatedPrecipitation &amp;rain, const Ffmc &amp;ffmc_previous) noexcept</td></tr>
-<tr class="separator:abea260071637d7257fe17e9e07f8f6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb9adbac6176e1c05409834c762a2042"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#adb9adbac6176e1c05409834c762a2042">tbd::wx::calculate_dmc</a> (const Temperature &amp;temperature, const RelativeHumidity &amp;rh, const AccumulatedPrecipitation &amp;rain, const Dmc &amp;dmc_previous, const int month, const double latitude) noexcept</td></tr>
-<tr class="separator:adb9adbac6176e1c05409834c762a2042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338f0bc3b1b534c9f9bf9b3f56b4515f"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a338f0bc3b1b534c9f9bf9b3f56b4515f">tbd::wx::calculate_dc</a> (const Temperature &amp;temperature, const AccumulatedPrecipitation &amp;rain, const Dc &amp;dc_previous, const int month, const double latitude) noexcept</td></tr>
-<tr class="separator:a338f0bc3b1b534c9f9bf9b3f56b4515f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364e46cd553b73b4d30d49504760a278"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a364e46cd553b73b4d30d49504760a278">tbd::wx::calculate_ffmc</a> (const Temperature &amp;temperature, const RelativeHumidity &amp;rh, const Speed &amp;wind, const Precipitation &amp;rain, const Ffmc &amp;ffmc_previous) noexcept</td></tr>
+<tr class="separator:a364e46cd553b73b4d30d49504760a278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5716673ccc27e95f7227450e0e141ef9"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a5716673ccc27e95f7227450e0e141ef9">tbd::wx::calculate_dmc</a> (const Temperature &amp;temperature, const RelativeHumidity &amp;rh, const Precipitation &amp;rain, const Dmc &amp;dmc_previous, const int month, const double latitude) noexcept</td></tr>
+<tr class="separator:a5716673ccc27e95f7227450e0e141ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab64056502bbe514d2c5aa63c81b1491c"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#ab64056502bbe514d2c5aa63c81b1491c">tbd::wx::calculate_dc</a> (const Temperature &amp;temperature, const Precipitation &amp;rain, const Dc &amp;dc_previous, const int month, const double latitude) noexcept</td></tr>
+<tr class="separator:ab64056502bbe514d2c5aa63c81b1491c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6119c388bae837c28945505032d659e4"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a6119c388bae837c28945505032d659e4">tbd::wx::calculate_isi</a> (const Speed &amp;wind, const Ffmc &amp;ffmc) noexcept</td></tr>
 <tr class="separator:a6119c388bae837c28945505032d659e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27cdf0480ad67fee3c1f3e46c9f52325"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a27cdf0480ad67fee3c1f3e46c9f52325">tbd::wx::calculate_bui</a> (const Dmc &amp;dmc, const Dc &amp;dc) noexcept</td></tr>
@@ -175,8 +177,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1dfae61f31bc8e2acbc62989d856f8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2231c1750566892a411b29ebf5939f99"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99">tbd::wx::stod</a> (const string *const str)</td></tr>
 <tr class="separator:a2231c1750566892a411b29ebf5939f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9981545ad50b9c44efd10ff127b4ebc"><td class="memItemLeft" align="right" valign="top">FwiWeather&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#aa9981545ad50b9c44efd10ff127b4ebc">tbd::wx::read</a> (istringstream *iss, string *str, const FwiWeather &amp;prev, const int month, const double latitude)</td></tr>
-<tr class="separator:aa9981545ad50b9c44efd10ff127b4ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de2a2bf46eb61bb48a0574b2b75294e"><td class="memItemLeft" align="right" valign="top">FwiWeather&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a7de2a2bf46eb61bb48a0574b2b75294e">tbd::wx::read</a> (istringstream *iss, string *str)</td></tr>
+<tr class="separator:a7de2a2bf46eb61bb48a0574b2b75294e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c60090a35bad1bebb82bf1bf4dfcd52"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetbd_1_1wx.html#a7c60090a35bad1bebb82bf1bf4dfcd52">tbd::wx::ffmc_effect</a> (const Ffmc &amp;ffmc) noexcept</td></tr>
 <tr class="separator:a7c60090a35bad1bebb82bf1bf4dfcd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -205,6 +207,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="FWI_8cpp_source.html#l00019">19</a> of file <a class="el" href="FWI_8cpp_source.html">FWI.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad58b2f605ecce8eac620f73221241444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad58b2f605ecce8eac620f73221241444">&#9670;&nbsp;</a></span>CHECK_EPSILON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHECK_EPSILON&#160;&#160;&#160;0.001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="FWI_8cpp_source.html#l00021">21</a> of file <a class="el" href="FWI_8cpp_source.html">FWI.cpp</a>.</p>
 
 </div>
 </div>

@@ -1,18 +1,18 @@
 <map id="tbd::sim::ProbabilityMap" name="tbd::sim::ProbabilityMap">
-<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="329,2521,487,2907"/>
-<area shape="rect" id="node2" title=" " alt="" coords="211,160,271,237"/>
-<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="341,388,491,773"/>
-<area shape="rect" id="node14" title=" " alt="" coords="61,542,203,619"/>
-<area shape="rect" id="node3" title=" " alt="" coords="638,2191,719,2268"/>
-<area shape="rect" id="node4" title=" " alt="" coords="493,160,531,237"/>
-<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="325,2044,491,2415"/>
-<area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="297,1080,425,1260"/>
-<area shape="rect" id="node13" href="$classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="378,1367,531,1561"/>
-<area shape="rect" id="node7" href="$classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="343,823,489,1017"/>
-<area shape="rect" id="node9" title=" " alt="" coords="377,160,455,237"/>
-<area shape="rect" id="node10" title=" " alt="" coords="354,5,478,97"/>
-<area shape="rect" id="node11" title=" " alt="" coords="279,881,318,959"/>
-<area shape="rect" id="node12" href="$classtbd_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="372,1611,537,1981"/>
-<area shape="rect" id="node15" title=" " alt="" coords="5,160,117,237"/>
-<area shape="rect" id="node16" title=" " alt="" coords="42,13,81,90"/>
+<area shape="rect" id="node1" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="137,2507,296,2892"/>
+<area shape="rect" id="node2" title=" " alt="" coords="280,160,340,237"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="460,388,611,744"/>
+<area shape="rect" id="node14" title=" " alt="" coords="5,527,148,605"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,2176,177,2253"/>
+<area shape="rect" id="node4" title=" " alt="" coords="201,2176,240,2253"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="347,2029,513,2400"/>
+<area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="369,1095,497,1275"/>
+<area shape="rect" id="node13" href="$classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="447,1352,600,1547"/>
+<area shape="rect" id="node7" href="$classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="470,793,617,1032"/>
+<area shape="rect" id="node9" title=" " alt="" coords="496,160,575,237"/>
+<area shape="rect" id="node10" title=" " alt="" coords="473,5,597,97"/>
+<area shape="rect" id="node11" title=" " alt="" coords="407,874,445,951"/>
+<area shape="rect" id="node12" href="$classtbd_1_1data_1_1GridMap.html" title="A GridData that uses an unordered_map for storage." alt="" coords="441,1596,606,1967"/>
+<area shape="rect" id="node15" title=" " alt="" coords="21,160,133,237"/>
+<area shape="rect" id="node16" title=" " alt="" coords="57,13,96,90"/>
 </map>

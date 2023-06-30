@@ -73,6 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 <code>#include &quot;<a class="el" href="Model_8h_source.html">Model.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Scenario_8h_source.html">Scenario.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Test_8h_source.html">Test.h</a>&quot;</code><br />
@@ -83,56 +84,56 @@ Include dependency graph for Main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="Main_8cpp__incl.png" border="0" usemap="#atbd_2src_2Main_8cpp" alt=""/></div>
 <map name="atbd_2src_2Main_8cpp" id="atbd_2src_2Main_8cpp">
-<area shape="rect" title=" " alt="" coords="889,5,1008,32"/>
-<area shape="rect" href="stdafx_8h.html" title=" " alt="" coords="2284,155,2351,181"/>
-<area shape="rect" href="Model_8h.html" title=" " alt="" coords="414,155,480,181"/>
-<area shape="rect" href="Scenario_8h.html" title=" " alt="" coords="795,80,878,107"/>
-<area shape="rect" href="Test_8h.html" title=" " alt="" coords="952,80,1011,107"/>
-<area shape="rect" href="TimeUtil_8h.html" title=" " alt="" coords="1036,80,1117,107"/>
-<area shape="rect" href="Log_8h.html" title=" " alt="" coords="1141,80,1196,107"/>
-<area shape="rect" title=" " alt="" coords="3081,229,3136,256"/>
-<area shape="rect" title=" " alt="" coords="3160,229,3222,256"/>
-<area shape="rect" title=" " alt="" coords="2682,304,2756,331"/>
-<area shape="rect" title=" " alt="" coords="3398,229,3448,256"/>
-<area shape="rect" title=" " alt="" coords="3472,229,3534,256"/>
-<area shape="rect" title=" " alt="" coords="3558,229,3624,256"/>
-<area shape="rect" title=" " alt="" coords="3648,229,3707,256"/>
-<area shape="rect" title=" " alt="" coords="3731,229,3790,256"/>
-<area shape="rect" title=" " alt="" coords="3814,229,3880,256"/>
-<area shape="rect" title=" " alt="" coords="884,229,941,256"/>
-<area shape="rect" title=" " alt="" coords="3904,229,3971,256"/>
-<area shape="rect" title=" " alt="" coords="3996,229,4074,256"/>
-<area shape="rect" title=" " alt="" coords="734,229,789,256"/>
-<area shape="rect" title=" " alt="" coords="1296,229,1363,256"/>
-<area shape="rect" title=" " alt="" coords="1387,229,1459,256"/>
-<area shape="rect" title=" " alt="" coords="1484,229,1546,256"/>
-<area shape="rect" title=" " alt="" coords="1571,229,1624,256"/>
-<area shape="rect" title=" " alt="" coords="1017,229,1056,256"/>
-<area shape="rect" title=" " alt="" coords="1648,229,1704,256"/>
-<area shape="rect" title=" " alt="" coords="813,229,860,256"/>
-<area shape="rect" title=" " alt="" coords="678,304,746,331"/>
-<area shape="rect" title=" " alt="" coords="1985,304,2050,331"/>
-<area shape="rect" title=" " alt="" coords="1080,229,1120,256"/>
-<area shape="rect" title=" " alt="" coords="1728,229,1798,256"/>
-<area shape="rect" title=" " alt="" coords="1822,229,1883,256"/>
-<area shape="rect" title=" " alt="" coords="574,304,629,331"/>
-<area shape="rect" title=" " alt="" coords="1907,229,1968,256"/>
-<area shape="rect" title=" " alt="" coords="1992,229,2080,256"/>
-<area shape="rect" title=" " alt="" coords="2105,229,2216,256"/>
-<area shape="rect" title=" " alt="" coords="3085,304,3137,331"/>
-<area shape="rect" title=" " alt="" coords="411,304,470,331"/>
-<area shape="rect" title=" " alt="" coords="2240,229,2395,256"/>
-<area shape="rect" title=" " alt="" coords="2419,229,2526,256"/>
-<area shape="rect" title=" " alt="" coords="2550,229,2680,256"/>
-<area shape="rect" title=" " alt="" coords="2705,229,2752,256"/>
-<area shape="rect" title=" " alt="" coords="2776,229,2830,256"/>
-<area shape="rect" title=" " alt="" coords="2854,229,2954,256"/>
-<area shape="rect" title=" " alt="" coords="2978,229,3057,256"/>
-<area shape="rect" title=" " alt="" coords="34,229,161,256"/>
-<area shape="rect" title=" " alt="" coords="185,229,242,256"/>
-<area shape="rect" title=" " alt="" coords="267,229,326,256"/>
-<area shape="rect" href="Environment_8h.html" title=" " alt="" coords="606,229,710,256"/>
-<area shape="rect" href="Iteration_8h.html" title=" " alt="" coords="401,229,480,256"/>
+<area shape="rect" title=" " alt="" coords="3278,5,3397,32"/>
+<area shape="rect" href="stdafx_8h.html" title=" " alt="" coords="1520,155,1587,181"/>
+<area shape="rect" title=" " alt="" coords="5,229,67,256"/>
+<area shape="rect" href="Model_8h.html" title=" " alt="" coords="3351,155,3417,181"/>
+<area shape="rect" href="Scenario_8h.html" title=" " alt="" coords="3296,80,3379,107"/>
+<area shape="rect" href="Test_8h.html" title=" " alt="" coords="3403,80,3461,107"/>
+<area shape="rect" href="TimeUtil_8h.html" title=" " alt="" coords="3486,80,3567,107"/>
+<area shape="rect" href="Log_8h.html" title=" " alt="" coords="3591,80,3646,107"/>
+<area shape="rect" title=" " alt="" coords="154,229,209,256"/>
+<area shape="rect" title=" " alt="" coords="1720,304,1795,331"/>
+<area shape="rect" title=" " alt="" coords="284,229,335,256"/>
+<area shape="rect" title=" " alt="" coords="359,229,420,256"/>
+<area shape="rect" title=" " alt="" coords="445,229,510,256"/>
+<area shape="rect" title=" " alt="" coords="535,229,593,256"/>
+<area shape="rect" title=" " alt="" coords="617,229,676,256"/>
+<area shape="rect" title=" " alt="" coords="701,229,766,256"/>
+<area shape="rect" title=" " alt="" coords="3089,229,3146,256"/>
+<area shape="rect" title=" " alt="" coords="791,229,857,256"/>
+<area shape="rect" title=" " alt="" coords="882,229,961,256"/>
+<area shape="rect" title=" " alt="" coords="3170,229,3225,256"/>
+<area shape="rect" title=" " alt="" coords="985,229,1052,256"/>
+<area shape="rect" title=" " alt="" coords="1076,229,1148,256"/>
+<area shape="rect" title=" " alt="" coords="1173,229,1235,256"/>
+<area shape="rect" title=" " alt="" coords="1260,229,1313,256"/>
+<area shape="rect" title=" " alt="" coords="91,229,130,256"/>
+<area shape="rect" title=" " alt="" coords="1337,229,1393,256"/>
+<area shape="rect" title=" " alt="" coords="3249,229,3295,256"/>
+<area shape="rect" title=" " alt="" coords="3314,304,3382,331"/>
+<area shape="rect" title=" " alt="" coords="3421,304,3486,331"/>
+<area shape="rect" title=" " alt="" coords="3024,229,3064,256"/>
+<area shape="rect" title=" " alt="" coords="1519,229,1588,256"/>
+<area shape="rect" title=" " alt="" coords="1612,229,1673,256"/>
+<area shape="rect" title=" " alt="" coords="3754,304,3809,331"/>
+<area shape="rect" title=" " alt="" coords="1748,229,1809,256"/>
+<area shape="rect" title=" " alt="" coords="1833,229,1921,256"/>
+<area shape="rect" title=" " alt="" coords="1946,229,2057,256"/>
+<area shape="rect" title=" " alt="" coords="3622,304,3674,331"/>
+<area shape="rect" title=" " alt="" coords="3861,304,3920,331"/>
+<area shape="rect" title=" " alt="" coords="2183,229,2337,256"/>
+<area shape="rect" title=" " alt="" coords="2361,229,2468,256"/>
+<area shape="rect" title=" " alt="" coords="2492,229,2623,256"/>
+<area shape="rect" title=" " alt="" coords="2647,229,2694,256"/>
+<area shape="rect" title=" " alt="" coords="2718,229,2773,256"/>
+<area shape="rect" title=" " alt="" coords="2797,229,2897,256"/>
+<area shape="rect" title=" " alt="" coords="2921,229,2999,256"/>
+<area shape="rect" title=" " alt="" coords="3473,229,3599,256"/>
+<area shape="rect" title=" " alt="" coords="3623,229,3681,256"/>
+<area shape="rect" title=" " alt="" coords="3705,229,3764,256"/>
+<area shape="rect" href="Environment_8h.html" title=" " alt="" coords="3839,229,3943,256"/>
+<area shape="rect" href="Iteration_8h.html" title=" " alt="" coords="3967,229,4046,256"/>
 </map>
 </div>
 </div>
@@ -224,15 +225,15 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00051">51</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00052">52</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="Main_8cpp_acfa014d6e2ef8f609f4d650eca7b3104_cgraph.png" border="0" usemap="#aMain_8cpp_acfa014d6e2ef8f609f4d650eca7b3104_cgraph" alt=""/></div>
 <map name="aMain_8cpp_acfa014d6e2ef8f609f4d650eca7b3104_cgraph" id="aMain_8cpp_acfa014d6e2ef8f609f4d650eca7b3104_cgraph">
 <area shape="rect" title=" " alt="" coords="5,13,71,39"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="119,5,247,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="295,13,413,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="119,5,247,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="295,13,413,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -278,62 +279,62 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00131">131</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00132">132</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="Main_8cpp_aee608aedd5b0b58f2966c2ff15101925_cgraph.png" border="0" usemap="#aMain_8cpp_aee608aedd5b0b58f2966c2ff15101925_cgraph" alt=""/></div>
 <map name="aMain_8cpp_aee608aedd5b0b58f2966c2ff15101925_cgraph" id="aMain_8cpp_aee608aedd5b0b58f2966c2ff15101925_cgraph">
-<area shape="rect" title=" " alt="" coords="5,809,56,835"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="851,629,979,671"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="1047,479,1165,506"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="619,1125,747,1151"/>
-<area shape="rect" href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d" title="Calculate tm fields from values already there." alt="" coords="148,1917,251,1943"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="857,1365,972,1391"/>
-<area shape="rect" href="namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="604,404,761,445"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="623,1815,742,1842"/>
-<area shape="rect" href="Main_8cpp.html#a86cc05a9b5cc22a2b89119af8830aae9" title=" " alt="" coords="150,223,249,250"/>
-<area shape="rect" href="namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="389,173,483,199"/>
-<area shape="rect" href="Main_8cpp.html#a0c26c03773e849d92ab774123357b226" title=" " alt="" coords="395,594,477,621"/>
-<area shape="rect" href="Main_8cpp.html#aae7e4ac4b8a141cdf97d5574e4358586" title=" " alt="" coords="152,274,247,301"/>
-<area shape="rect" href="Main_8cpp.html#a19efb72b91c1d8c38ca63a1b61f208d8" title=" " alt="" coords="153,767,246,794"/>
-<area shape="rect" href="Main_8cpp.html#a7262409129f3f5bd8338c5d27f51a7b2" title=" " alt="" coords="373,1967,499,1994"/>
-<area shape="rect" href="Main_8cpp.html#a213f39cbcf914d2f289112a1835d4e3e" title=" " alt="" coords="153,2018,245,2045"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a0876168ecfd914af72f01d60991dff7b" title="Run Scenarios initialized from given inputs." alt="" coords="104,1281,295,1307"/>
-<area shape="rect" href="Main_8cpp.html#a0496dd9ab312f5e1aa5d0bccb39fc71d" title=" " alt="" coords="124,2069,275,2095"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="152,579,247,606"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a2253acdeb3f913181c319d71d93fb7b9" title="Log with WARNING level." alt="" coords="845,1137,984,1163"/>
-<area shape="rect" href="classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1219,1231,1340,1272"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="1041,1289,1171,1315"/>
-<area shape="rect" href="namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="836,445,993,471"/>
-<area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="650,251,715,278"/>
-<area shape="rect" href="Main_8cpp.html#a59be389204f7c16de1899c061b813cc4" title=" " alt="" coords="395,2018,477,2045"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa" title="Number of Scenarios that have completed running." alt="" coords="374,1445,498,1487"/>
-<area shape="rect" href="namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="379,864,493,905"/>
-<area shape="rect" href="classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="605,1663,760,1690"/>
-<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="361,1380,511,1421"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#acd234c800f2291d32ab00f706e554519" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="345,1917,527,1943"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="375,645,497,687"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390" title="Write the hourly weather that was loaded to an output file." alt="" coords="583,637,782,663"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a256071c953c79f3a47e4c870a26f3e0c" title="Read weather used for Scenarios." alt="" coords="343,1023,529,1050"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,1613,529,1639"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e" title=" " alt="" coords="346,1562,526,1589"/>
-<area shape="rect" href="namespacetbd_1_1topo.html#ae465078d2a656eee078fd67f3fafc699" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="621,688,744,729"/>
-<area shape="rect" href="namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="850,842,979,869"/>
-<area shape="rect" href="namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="610,805,755,847"/>
-<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="608,1429,757,1471"/>
-<area shape="rect" href="namespacetbd_1_1util.html#adf0098fd4cc72b6d4a19d6dec16e2afc" title="Get a list of rasters in the given directory for the specified year." alt="" coords="615,1495,751,1522"/>
-<area shape="rect" href="classtbd_1_1topo_1_1EnvironmentInfo.html#acb6ba4c7ce81bed04a6d4cb99cf67e88" title="Load EnvironmentInfo from given rasters." alt="" coords="597,1547,768,1588"/>
-<area shape="rect" href="classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="600,1714,765,1741"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="845,1238,984,1265"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a42248489bcde9377c1a4e19ede169519" title="Cell at the given row and column." alt="" coords="847,1917,982,1943"/>
-<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="608,1968,757,2009"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="598,1917,767,1943"/>
-<area shape="rect" href="namespacetbd_1_1fuel.html#afb89952bafa51d4b27e905d2717b97d0" title="Whether or not there is no fuel in the Cell." alt="" coords="845,2026,984,2053"/>
-<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="577,469,788,511"/>
-<area shape="rect" href="classtbd_1_1logging_1_1Log.html#a5b939553fc79d12a9aa86ba1c1214247" title="Increase amount of logging output by one level." alt="" coords="1043,301,1169,343"/>
-<area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="376,1277,496,1303"/>
-<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="368,528,504,569"/>
+<area shape="rect" title=" " alt="" coords="5,450,56,477"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="1057,763,1185,804"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="1455,1163,1573,1190"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="1057,1618,1185,1645"/>
+<area shape="rect" href="namespacetbd_1_1util.html#a81bfcd7da69a7976da1fafe5e2c2228d" title="Calculate tm fields from values already there." alt="" coords="148,171,251,198"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="1064,1669,1179,1695"/>
+<area shape="rect" href="namespacetbd_1_1util.html#ab52168da5723211807f720bb48428b10" title="Make the given directory and any parent directories that do not exist." alt="" coords="1043,1503,1200,1544"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="1062,1415,1181,1442"/>
+<area shape="rect" href="Main_8cpp.html#a86cc05a9b5cc22a2b89119af8830aae9" title=" " alt="" coords="150,273,249,299"/>
+<area shape="rect" href="namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="395,323,489,350"/>
+<area shape="rect" href="Main_8cpp.html#a0c26c03773e849d92ab774123357b226" title=" " alt="" coords="401,222,483,249"/>
+<area shape="rect" href="Main_8cpp.html#aae7e4ac4b8a141cdf97d5574e4358586" title=" " alt="" coords="152,70,247,97"/>
+<area shape="rect" href="Main_8cpp.html#a19efb72b91c1d8c38ca63a1b61f208d8" title=" " alt="" coords="153,121,246,147"/>
+<area shape="rect" href="Main_8cpp.html#a7262409129f3f5bd8338c5d27f51a7b2" title=" " alt="" coords="379,425,505,451"/>
+<area shape="rect" href="Main_8cpp.html#a213f39cbcf914d2f289112a1835d4e3e" title=" " alt="" coords="153,475,245,502"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,1399,295,1426"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a2253acdeb3f913181c319d71d93fb7b9" title="Log with WARNING level." alt="" coords="1052,1745,1191,1771"/>
+<area shape="rect" href="Main_8cpp.html#a0496dd9ab312f5e1aa5d0bccb39fc71d" title=" " alt="" coords="124,2191,275,2218"/>
+<area shape="rect" href="namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="627,1922,722,1949"/>
+<area shape="rect" href="classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="1453,1712,1575,1753"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="1262,1669,1391,1695"/>
+<area shape="rect" href="namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="1248,1503,1405,1530"/>
+<area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="642,247,707,274"/>
+<area shape="rect" href="Main_8cpp.html#a59be389204f7c16de1899c061b813cc4" title=" " alt="" coords="401,475,483,502"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa" title="Number of Scenarios that have completed running." alt="" coords="380,1872,504,1913"/>
+<area shape="rect" href="namespacetbd_1_1topo.html#a375011c63e916d70704ed1ce980fc40c" title="Converts a latitude/longitude pair to x and y coordinates in the UTM projection." alt="" coords="385,824,499,865"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="597,1450,752,1477"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="367,1165,517,1207"/>
+<area shape="rect" href="namespacetbd.html#aa48672c951ff1af1252c3288fe48cbfb" title=" " alt="" coords="369,1231,515,1258"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aeca84cc603a0d9f0aefa705205248b57" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="811,627,992,654"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="381,1283,503,1324"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a48e1334d25c34b8ae63922316afd1a84" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="593,1552,757,1593"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390" title="Write weather that was loaded to an output file." alt="" coords="343,1399,541,1426"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="808,1163,995,1190"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="349,1551,535,1578"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#aafb39656bedad600f794fe4d480dc670" title="Duration that model has run for." alt="" coords="594,1770,755,1797"/>
+<area shape="rect" href="namespacetbd_1_1sim.html#ac5f4b9c68973eecff8b9065b7dd0080e" title=" " alt="" coords="352,1602,532,1629"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Scenario.html#a83222bc28a7527d747d81813b556eccb" title="Total number of spread events for all Scenarios." alt="" coords="380,1653,504,1695"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a6d43407d110301ab0619c42adcd410ee" title="What year the weather is for." alt="" coords="373,1719,511,1746"/>
+<area shape="rect" href="namespacetbd_1_1topo.html#ae465078d2a656eee078fd67f3fafc699" title="Converts a latitude/longitude pair to Transverse Mercator x and y coordinates." alt="" coords="613,795,736,836"/>
+<area shape="rect" href="namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="837,819,966,846"/>
+<area shape="rect" href="namespacetbd_1_1topo.html#a85cb1ac0dfe4c3c8280b82e44f2d9bce" title=" " alt="" coords="602,729,747,771"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="600,1064,749,1105"/>
+<area shape="rect" href="namespacetbd_1_1util.html#adf0098fd4cc72b6d4a19d6dec16e2afc" title="Get a list of rasters in the given directory for the specified year." alt="" coords="607,1130,743,1157"/>
+<area shape="rect" href="classtbd_1_1topo_1_1EnvironmentInfo.html#acb6ba4c7ce81bed04a6d4cb99cf67e88" title="Load EnvironmentInfo from given rasters." alt="" coords="589,1181,760,1223"/>
+<area shape="rect" href="namespacetbd_1_1data.html#a9968b5cfcffde2fdedb2b8fcc75fc5f9" title=" " alt="" coords="827,1079,975,1106"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="592,1399,757,1426"/>
+<area shape="rect" href="classtbd_1_1logging_1_1Log.html#a5b939553fc79d12a9aa86ba1c1214247" title="Increase amount of logging output by one level." alt="" coords="1264,1893,1389,1935"/>
+<area shape="rect" href="namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="841,1618,961,1645"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a42dd7b3f8abe01b7bf8c274e5f00cf67" title="Set path to directory that outputs are saved to." alt="" coords="833,1973,969,2015"/>
 </map>
 </div>
 
@@ -357,7 +358,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00062">62</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00063">63</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -385,7 +386,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00081">81</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00082">82</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -394,8 +395,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,38,104,65"/>
 <area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="166,13,231,39"/>
 <area shape="rect" href="namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="152,63,245,90"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="293,5,421,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="469,13,588,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="293,5,421,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="469,13,588,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -426,7 +427,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00077">77</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00078">78</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -457,7 +458,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00098">98</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00099">99</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -466,8 +467,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,38,96,65"/>
 <area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="158,13,223,39"/>
 <area shape="rect" href="namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="144,63,237,90"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="285,5,413,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="461,13,580,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="285,5,413,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="461,13,580,39"/>
 </map>
 </div>
 
@@ -491,7 +492,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00068">68</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00069">69</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -520,7 +521,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00089">89</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00090">90</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -528,8 +529,8 @@ Here is the call graph for this function:</div>
 <map name="aMain_8cpp_a0c26c03773e849d92ab774123357b226_cgraph" id="aMain_8cpp_a0c26c03773e849d92ab774123357b226_cgraph">
 <area shape="rect" title=" " alt="" coords="5,13,88,39"/>
 <area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="136,13,201,39"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="249,5,377,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="425,13,544,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="249,5,377,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="425,13,544,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -560,7 +561,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00085">85</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00086">86</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -568,8 +569,8 @@ Here is the call graph for this function:</div>
 <map name="aMain_8cpp_aae7e4ac4b8a141cdf97d5574e4358586_cgraph" id="aMain_8cpp_aae7e4ac4b8a141cdf97d5574e4358586_cgraph">
 <area shape="rect" title=" " alt="" coords="5,13,100,39"/>
 <area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="148,13,213,39"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="261,5,389,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="437,13,556,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="261,5,389,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="437,13,556,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -599,7 +600,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00093">93</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00094">94</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -608,8 +609,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,13,99,39"/>
 <area shape="rect" href="Main_8cpp.html#a0c26c03773e849d92ab774123357b226" title=" " alt="" coords="147,13,229,39"/>
 <area shape="rect" href="Main_8cpp.html#acfa014d6e2ef8f609f4d650eca7b3104" title=" " alt="" coords="277,13,343,39"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="391,5,519,47"/>
-<area shape="rect" href="namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="567,13,685,39"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="391,5,519,47"/>
+<area shape="rect" href="namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="567,13,685,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -662,7 +663,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00102">102</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00103">103</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -716,7 +717,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00122">122</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00123">123</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -768,7 +769,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00118">118</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00119">119</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -831,7 +832,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00127">127</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00128">128</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -890,7 +891,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00109">109</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00110">110</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -949,7 +950,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00114">114</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00115">115</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -977,7 +978,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00038">38</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00039">39</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1012,7 +1013,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00035">35</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00036">36</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1036,7 +1037,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00036">36</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00037">37</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1061,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00030">30</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00031">31</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1085,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00037">37</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00038">38</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +1109,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00031">31</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00032">32</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1133,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00034">34</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00035">35</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1156,7 +1157,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00032">32</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00033">33</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1180,7 +1181,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00033">33</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Main_8cpp_source.html#l00034">34</a> of file <a class="el" href="Main_8cpp_source.html">Main.cpp</a>.</p>
 
 </div>
 </div>

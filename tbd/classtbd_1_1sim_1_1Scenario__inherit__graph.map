@@ -1,5 +1,5 @@
 <map id="tbd::sim::Scenario" name="tbd::sim::Scenario">
-<area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,263,196,1587"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="25,1635,176,1785"/>
+<area shape="rect" id="node1" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="5,263,196,1631"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1TestScenario.html" title="A Scenario run with constant fuel, weather, and topography." alt="" coords="25,1679,176,1829"/>
 <area shape="rect" id="node2" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="23,5,179,215"/>
 </map>

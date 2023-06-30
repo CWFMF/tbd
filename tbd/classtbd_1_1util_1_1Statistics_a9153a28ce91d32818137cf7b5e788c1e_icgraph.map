@@ -1,5 +1,10 @@
 <map id="tbd::util::Statistics::n" name="tbd::util::Statistics::n">
-<area shape="rect" id="node1" title="Number of data points in the set." alt="" coords="349,13,487,39"/>
-<area shape="rect" id="node2" href="$classtbd_1_1util_1_1Statistics.html#a84a2f6737edc384408d735529db29388" title="Calculate Student&#39;s T value." alt="" coords="177,5,301,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1util_1_1Statistics.html#a7e47e3fc2e9efb417a7a49ebe43d7a0b" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,5,129,47"/>
+<area shape="rect" id="node1" title="Number of data points in the set." alt="" coords="948,46,1085,73"/>
+<area shape="rect" id="node2" href="$classtbd_1_1util_1_1Statistics.html#aa43939f093ffe591dfe3e7d6b3438748" title="Estimate how many more runs are required to achieve desired confidence." alt="" coords="776,5,900,47"/>
+<area shape="rect" id="node7" href="$classtbd_1_1util_1_1Statistics.html#a84a2f6737edc384408d735529db29388" title="Calculate Student&#39;s T value." alt="" coords="776,71,900,112"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#aa54c98c0ba13c9469ba6c85f01871291" title=" " alt="" coords="577,13,728,39"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="343,13,529,39"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
+<area shape="rect" id="node6" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
+<area shape="rect" id="node8" href="$classtbd_1_1util_1_1Statistics.html#a7e47e3fc2e9efb417a7a49ebe43d7a0b" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="591,71,715,112"/>
 </map>

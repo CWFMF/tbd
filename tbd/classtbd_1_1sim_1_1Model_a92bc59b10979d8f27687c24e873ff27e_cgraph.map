@@ -1,0 +1,31 @@
+<map id="tbd::sim::Model::readWeather" name="tbd::sim::Model::readWeather">
+<area shape="rect" id="node1" title="Read weather used for Scenarios." alt="" coords="5,637,192,664"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="240,5,408,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1FwiWeather.html#a82e87495d69bdcf7ba510a94b8e61506" title="Build&#45;up Index." alt="" coords="244,56,404,83"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="715,251,843,293"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="893,259,1012,285"/>
+<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="245,688,403,715"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a4fe088d344958464a276fc693621d4ac" title="Log with DEBUG level." alt="" coords="497,612,625,639"/>
+<area shape="rect" id="node10" href="$classtbd_1_1wx_1_1Wind.html#add6c055c632bb25275b8a97f0b16a1e1" title="Direction wind is coming from." alt="" coords="248,739,400,765"/>
+<area shape="rect" id="node11" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="240,789,408,816"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1logging.html#aa86b52e487b0b6cfb785c2f63ab58883" title="Log with EXTENSIVE level." alt="" coords="487,561,635,588"/>
+<area shape="rect" id="node13" href="$classtbd_1_1wx_1_1FwiWeather.html#ad06210654348daff788713a71284acbb" title="Fine Fuel Moisture Code." alt="" coords="255,841,393,882"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="263,202,385,243"/>
+<area shape="rect" id="node17" href="$classtbd_1_1wx_1_1FwiWeather.html#a4b50336f39d9b353f97d476d2e58988c" title="Fire Weather Index." alt="" coords="244,907,404,933"/>
+<area shape="rect" id="node18" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="508,511,615,537"/>
+<area shape="rect" id="node19" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="504,409,619,436"/>
+<area shape="rect" id="node20" href="$classtbd_1_1wx_1_1FwiWeather.html#aa7ce178a5eb8b76a668961fe4d364052" title="Initial Spread Index." alt="" coords="246,957,402,984"/>
+<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="263,267,385,309"/>
+<area shape="rect" id="node23" href="$classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50" title="Precipitation (1hr accumulation) (mm)" alt="" coords="251,1008,397,1035"/>
+<area shape="rect" id="node24" href="$namespacetbd_1_1util.html#afccc02b1e09d85dd1d6c1bbfa6d9a0f7" title="Read a date from the given stream." alt="" coords="261,485,387,512"/>
+<area shape="rect" id="node25" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="492,460,631,487"/>
+<area shape="rect" id="node26" href="$classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad" title="Relative Humidity (%)" alt="" coords="257,1059,391,1085"/>
+<area shape="rect" id="node27" href="$classtbd_1_1wx_1_1Wind.html#a14cafdfe0d149b119f59262d5203981f" title="Speed of wind (km/h)" alt="" coords="255,1109,393,1136"/>
+<area shape="rect" id="node28" href="$classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8" title="Temperature (Celsius)" alt="" coords="249,1160,399,1187"/>
+<area shape="rect" id="node29" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="249,1211,399,1237"/>
+<area shape="rect" id="node8" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="892,503,1013,545"/>
+<area shape="rect" id="node9" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="715,511,844,537"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="456,158,667,199"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="456,223,667,265"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="456,289,667,330"/>
+</map>

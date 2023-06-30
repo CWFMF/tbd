@@ -1,0 +1,7 @@
+<map id="tbd::logging::fatal" name="tbd::logging::fatal">
+<area shape="rect" id="node1" title="Log with FATAL level and exit." alt="" coords="5,42,124,69"/>
+<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1Log.html#a52b3a93b4b99bcc4443cd0871c2103bd" title="Set output log file." alt="" coords="176,5,297,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="172,71,301,98"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="351,42,469,69"/>
+<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="349,93,471,135"/>
+</map>

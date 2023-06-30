@@ -1,18 +1,15 @@
 var searchData=
 [
-  ['p_2819',['p',['.././gis/namespacemake__grids.html#a757b7e3418dfb4d6a553b3d1a9b73ca7',1,'make_grids']]],
-  ['peat_2820',['Peat',['.././tbd/classtbd_1_1fuel_1_1Duff.html#a2989e71b0dc97662c728dca8aa870a2c',1,'tbd::fuel::Duff']]],
-  ['peatmuck_2821',['PeatMuck',['.././tbd/classtbd_1_1fuel_1_1Duff.html#ac03e8f7fb2c31e7bdcf0c6655e3f6e5c',1,'tbd::fuel::Duff']]],
-  ['percentiles_5f_2822',['percentiles_',['.././tbd/classtbd_1_1util_1_1Statistics.html#aab85d16251b2daf14fd33886cf56ad79',1,'tbd::util::Statistics']]],
-  ['perim_5fdir_2823',['PERIM_DIR',['.././tbd/namespacetbd.html#a7dcc1888c73ae3a181b5230032bbb346',1,'tbd']]],
-  ['perimeter_5f_2824',['perimeter_',['.././tbd/classtbd_1_1sim_1_1Model.html#aa2acea9acc483f751bb919d16f5ffb4a',1,'tbd::sim::Model::perimeter_()'],['.././tbd/classtbd_1_1sim_1_1Scenario.html#a168dfd942ecbc21bae564dc35cc00d57',1,'tbd::sim::Scenario::perimeter_()']]],
-  ['pineseney_2825',['PineSeney',['.././tbd/classtbd_1_1fuel_1_1Duff.html#a2b8698a4d662c65c1f3b3c1b9a130136',1,'tbd::fuel::Duff']]],
-  ['point_5f_2826',['point_',['.././tbd/classtbd_1_1wx_1_1Startup.html#ac210b1ee77846c66440ac78df05ca205',1,'tbd::wx::Startup']]],
-  ['points_5f_2827',['points_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#a7f4ff97edd6a4d7b51c17e69b6e71d49',1,'tbd::sim::Scenario']]],
-  ['pool_2828',['pool',['.././gis/namespaceearthenv.html#a80587ddb0efec06e6cfa8231e88184e3',1,'earthenv']]],
-  ['precision_2829',['PRECISION',['.././tbd/namespacetbd_1_1sim.html#a1e8b970a0119c0982ad0f92abd9881b3',1,'tbd::sim']]],
-  ['prob_5fdir_2830',['PROB_DIR',['.././tbd/namespacetbd.html#a67f99b6cef87ca7c1ffdd5d08d057cc6',1,'tbd']]],
-  ['probabilities_5f_2831',['probabilities_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#ae5d0824075f066d6d5039138a3e02af2',1,'tbd::sim::Scenario']]],
-  ['probability_5fof_5fsurvival_5f_2832',['probability_of_survival_',['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 307, 1160, 586921, -2737, -5413, -1246 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 349, 2030, 372276, -1876, -2833, -951 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 359, 1220, 3325604, -12220, -21024, -12619 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 365, 1900, 451778, -3227, -3644, -362 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 94, 2220, -198198, -1169, 10414, 782 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 261, 563, 80359, -393, -591, -340 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 181, 427, 90970, -1040, 1165, -646 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'DuffType&lt; 124, 218, -88306, -608, 8095, 2735 &gt;::probability_of_survival_()'],['.././tbd/classtbd_1_1fuel_1_1DuffType.html#a6f53f0b519fa2f11dc5b4efb023f4b03',1,'tbd::fuel::DuffType::probability_of_survival_()']]],
-  ['proj4_5f_2833',['proj4_',['.././tbd/classtbd_1_1data_1_1GridBase.html#ad0327ab437ecf9bd011b1c413bdb6db0',1,'tbd::data::GridBase']]]
+  ['o1_5fa_3013',['O1_A',['.././tbd/namespacetbd_1_1fuel.html#a87a87d72180832f90af5203eb8a62ca1',1,'tbd::fuel']]],
+  ['o1_5fb_3014',['O1_B',['.././tbd/namespacetbd_1_1fuel.html#ae3875bf84d265836e6330f996cb3df77',1,'tbd::fuel']]],
+  ['observers_5f_3015',['observers_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#a851c8f0a1dd2780aeb9b8e72cbda95d0',1,'tbd::sim::Scenario']]],
+  ['offset_5fsunrise_5f_3016',['offset_sunrise_',['.././tbd/classtbd_1_1sim_1_1SettingsImplementation.html#a04489a207a0163d2454cde9204af04d7',1,'tbd::sim::SettingsImplementation']]],
+  ['offset_5fsunset_5f_3017',['offset_sunset_',['.././tbd/classtbd_1_1sim_1_1SettingsImplementation.html#a1ab8ba24abb46a8b4d4a80cbd86d3405',1,'tbd::sim::SettingsImplementation']]],
+  ['offsets_5f_3018',['offsets_',['.././tbd/classtbd_1_1sim_1_1Scenario.html#a1ebec0f4246234a1de09f3c65acc05ce',1,'tbd::sim::Scenario::offsets_()'],['.././tbd/classtbd_1_1sim_1_1SpreadInfo.html#a1de200af497a70dfed7db284df8f5d31',1,'tbd::sim::SpreadInfo::offsets_()']]],
+  ['out_5f_3019',['out_',['.././tbd/namespacetbd_1_1logging.html#aceb3173fdcb8002780433c55d5298e77',1,'tbd::logging']]],
+  ['out_5fdir_3020',['OUT_DIR',['.././gis/namespaceearthenv.html#af902c6fb30e40c374dafe9cc108eb340',1,'earthenv']]],
+  ['out_5ffile_3021',['out_file',['.././gis/namespaceearthenv.html#a7551b54b958bc0a6cd494fdc3e21e108',1,'earthenv']]],
+  ['out_5fmeta_3022',['out_meta',['.././gis/namespaceearthenv.html#a76b4dafe14a0d1cf41009bafc20bbcc7',1,'earthenv']]],
+  ['output_5fdate_5foffsets_5f_3023',['output_date_offsets_',['.././tbd/classtbd_1_1sim_1_1SettingsImplementation.html#a13490a5be9140bc19b20a0737f4d0a2e',1,'tbd::sim::SettingsImplementation']]],
+  ['output_5fdirectory_5f_3024',['output_directory_',['.././tbd/classtbd_1_1sim_1_1SettingsImplementation.html#a3d3a845e45a3a6ed152e02b6135194d1',1,'tbd::sim::SettingsImplementation']]]
 ];

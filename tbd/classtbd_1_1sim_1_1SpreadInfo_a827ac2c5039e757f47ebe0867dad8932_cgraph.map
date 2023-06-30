@@ -1,0 +1,29 @@
+<map id="tbd::sim::SpreadInfo::initial" name="tbd::sim::SpreadInfo::initial">
+<area shape="rect" id="node1" title=" " alt="" coords="5,521,141,563"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="964,37,1132,63"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="212,120,339,161"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5" title="Calculate rate of spread (m/min)" alt="" coords="212,185,339,227"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html#a9c3661beba173ec640cb3c95b628bcd0" title="Critical rate of spread (m/min)" alt="" coords="212,251,339,292"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="200,316,351,357"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1wx.html#a7c60090a35bad1bebb82bf1bf4dfcd52" title=" " alt="" coords="209,382,341,409"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2ddf49bda8a02b0e9d5e5aa1b4a9abc4" title="FFMC effect used for spread." alt="" coords="207,433,343,475"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="416,492,552,533"/>
+<area shape="rect" id="node11" href="$classtbd_1_1fuel_1_1FuelType.html#a345934b9de822a9a70c7893fffedd6a4" title="Final rate of spread (m/min)" alt="" coords="212,616,339,657"/>
+<area shape="rect" id="node12" href="$namespacetbd_1_1fuel.html#a92754300b4995ad91746a98d8563283e" title="Fire Intensity (kW/m) [ST&#45;X&#45;3 eq 69]." alt="" coords="203,682,348,709"/>
+<area shape="rect" id="node13" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="201,69,349,95"/>
+<area shape="rect" id="node20" href="$classtbd_1_1fuel_1_1FuelType.html#a41bff384ae4cbad2364a786fc53ffb98" title="Whether or not this is a crown fire." alt="" coords="212,733,339,775"/>
+<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="197,799,353,826"/>
+<area shape="rect" id="node22" href="$classtbd_1_1wx_1_1Wind.html#a14cafdfe0d149b119f59262d5203981f" title="Speed of wind (km/h)" alt="" coords="206,850,345,877"/>
+<area shape="rect" id="node23" href="$classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="189,901,361,943"/>
+<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="207,551,343,592"/>
+<area shape="rect" id="node26" href="$classtbd_1_1wx_1_1Wind.html#aef1d4f27ba7c4a49daedc7257ca96031" title="X component of wind vector (km/h)" alt="" coords="207,967,343,994"/>
+<area shape="rect" id="node27" href="$classtbd_1_1wx_1_1Wind.html#a092fe112a86a460c7a9d2a778fd2c391" title="Y component of wind vector (km/h)" alt="" coords="207,1018,343,1045"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1FwiWeather.html#a629da6a9e31fa74c85c275afc626351c" title="Ffmc effect used for spread." alt="" coords="415,427,553,468"/>
+<area shape="rect" id="node14" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="425,72,543,113"/>
+<area shape="rect" id="node15" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="613,72,732,113"/>
+<area shape="rect" id="node19" href="$namespacetbd_1_1util.html#a3dfd1c0dfacc65ca4b2949ebeeaa4087" title="Convert Bearing to Heading (opposite angle)" alt="" coords="607,150,739,177"/>
+<area shape="rect" id="node16" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="792,59,911,100"/>
+<area shape="rect" id="node17" href="$namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="787,125,916,151"/>
+<area shape="rect" id="node18" href="$namespacetbd_1_1util.html#a17655e7a400e8955146ef7ae23461408" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="983,150,1113,177"/>
+<area shape="rect" id="node25" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="409,558,559,585"/>
+</map>

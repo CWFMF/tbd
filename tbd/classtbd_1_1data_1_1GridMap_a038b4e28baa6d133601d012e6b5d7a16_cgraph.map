@@ -3,7 +3,8 @@
 <area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf" title="Cell size used for GridBase." alt="" coords="193,5,323,47"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1Grid.html#ac057c771e231143bfd2f2d281b2a26fc" title="Number of columns in the GridBase." alt="" coords="180,71,336,98"/>
 <area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#acfa7ac8cec662b2b449a3c699126f42a" title="Log with INFO level." alt="" coords="201,122,315,149"/>
-<area shape="rect" id="node7" href="$classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3" title="Number of rows in the GridBase." alt="" coords="191,173,325,199"/>
-<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="561,115,683,156"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="384,147,513,174"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1Grid.html#a8edef5e6e3c5a70f08b40200ce29f0c3" title="Number of rows in the GridBase." alt="" coords="191,173,325,199"/>
+<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="561,89,683,131"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="384,147,513,174"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="563,155,681,182"/>
 </map>

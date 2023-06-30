@@ -1,6 +1,7 @@
 <map id="tbd::sim::ProbabilityMap::show" name="tbd::sim::ProbabilityMap::show">
-<area shape="rect" id="node1" title="Output Statistics to log." alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="212,13,331,39"/>
+<area shape="rect" id="node1" title="Output Statistics to log." alt="" coords="5,31,164,72"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="212,38,331,65"/>
 <area shape="rect" id="node3" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="556,5,677,47"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a0bc7885de737078f81f47f7c18629faa" title="Output a message to the log." alt="" coords="379,38,508,65"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="379,63,508,90"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="557,71,676,98"/>
 </map>

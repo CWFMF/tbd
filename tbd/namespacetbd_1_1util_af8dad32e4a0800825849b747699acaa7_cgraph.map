@@ -1,4 +1,4 @@
 <map id="tbd::util::make_directory" name="tbd::util::make_directory">
 <area shape="rect" id="node1" title="Make the given directory if it does not exist." alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="211,5,329,32"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="211,5,329,32"/>
 </map>

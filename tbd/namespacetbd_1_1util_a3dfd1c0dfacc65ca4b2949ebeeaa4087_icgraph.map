@@ -1,6 +1,7 @@
 <map id="tbd::util::to_heading" name="tbd::util::to_heading">
-<area shape="rect" id="node1" title="Convert Bearing to Heading (opposite angle)" alt="" coords="552,42,684,69"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="385,5,504,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#ae5688bff18b520cb547d77eebfff4848" title="Calculate fire spread for time and place." alt="" coords="5,39,141,80"/>
-<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="189,17,337,43"/>
+<area shape="rect" id="node1" title="Convert Bearing to Heading (opposite angle)" alt="" coords="736,42,868,69"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="569,5,688,47"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,35,141,76"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="373,13,521,39"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
 </map>

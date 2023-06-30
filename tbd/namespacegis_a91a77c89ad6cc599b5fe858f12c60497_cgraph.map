@@ -1,5 +1,0 @@
-<map id="gis.Project" name="gis.Project">
-<area shape="rect" id="node1" title="Project to given spatial reference." alt="" coords="5,31,88,57"/>
-<area shape="rect" id="node2" href="$namespacegis.html#ad7ffd79c5722d50d0d40a19cdbc16aa3" title="Delete the given shapefile." alt="" coords="178,5,257,32"/>
-<area shape="rect" id="node3" href="$namespacegis.html#ad5aebd38aeb7e3cec0cb7629bec7216e" title="Determine spatial reference from a source file." alt="" coords="136,56,299,83"/>
-</map>

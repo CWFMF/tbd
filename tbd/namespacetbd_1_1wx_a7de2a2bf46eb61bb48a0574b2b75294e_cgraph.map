@@ -1,0 +1,9 @@
+<map id="tbd::wx::read" name="tbd::wx::read">
+<area shape="rect" id="node1" title=" " alt="" coords="5,89,99,115"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aa86b52e487b0b6cfb785c2f63ab58883" title="Log with EXTENSIVE level." alt="" coords="147,38,295,65"/>
+<area shape="rect" id="node6" href="$namespacetbd_1_1util.html#a25e7125447eb6e0721b0b094b8d0c2a0" title="Read from a stream until delimiter is found." alt="" coords="167,89,274,115"/>
+<area shape="rect" id="node7" href="$namespacetbd_1_1wx.html#a2231c1750566892a411b29ebf5939f99" title=" " alt="" coords="174,139,267,166"/>
+<area shape="rect" id="node3" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="520,5,641,47"/>
+<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="343,63,472,90"/>
+<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="521,71,640,98"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="tbd::util::Statistics::Statistics" name="tbd::util::Statistics::Statistics">
 <area shape="rect" id="node1" title="Calculates statistics on a vector of values." alt="" coords="5,5,129,47"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="177,5,305,47"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="353,13,472,39"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="177,5,305,47"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="353,13,472,39"/>
 </map>

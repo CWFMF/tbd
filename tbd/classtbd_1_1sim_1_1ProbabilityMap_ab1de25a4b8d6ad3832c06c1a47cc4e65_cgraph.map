@@ -1,8 +1,8 @@
 <map id="tbd::sim::ProbabilityMap::addProbabilities" name="tbd::sim::ProbabilityMap::addProbabilities">
 <area shape="rect" id="node1" title="Combine results from another ProbabilityMap into this one." alt="" coords="5,64,164,105"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#af3720582651a46753513b97a4c4ce47a" title=" " alt="" coords="220,5,348,47"/>
+<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="220,5,348,47"/>
 <area shape="rect" id="node4" href="$namespacetbd_1_1util.html#a19fa0dd2f028cc3c06528057bfb407cc" title="Insert value into vector in sorted order even if it is already present." alt="" coords="212,71,356,98"/>
 <area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Settings.html#afff0e3e233b34bbe67b3fc37b063c528" title="Whether or not to save intensity grids." alt="" coords="223,123,345,164"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="450,13,569,39"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="450,13,569,39"/>
 <area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="404,123,615,164"/>
 </map>

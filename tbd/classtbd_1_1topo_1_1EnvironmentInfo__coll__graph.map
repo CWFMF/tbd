@@ -1,8 +1,7 @@
 <map id="tbd::topo::EnvironmentInfo" name="tbd::topo::EnvironmentInfo">
-<area shape="rect" id="node1" title="Information regarding an Environment, such as grids to read and location." alt="" coords="130,837,301,1135"/>
-<area shape="rect" id="node2" title=" " alt="" coords="207,147,285,224"/>
-<area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="68,375,219,760"/>
-<area shape="rect" id="node3" title=" " alt="" coords="184,5,308,97"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,147,65,224"/>
-<area shape="rect" id="node6" title=" " alt="" coords="112,147,151,224"/>
+<area shape="rect" id="node1" title="Information regarding an Environment, such as grids to read and location." alt="" coords="57,808,227,1105"/>
+<area shape="rect" id="node2" title=" " alt="" coords="133,147,212,224"/>
+<area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="5,375,156,731"/>
+<area shape="rect" id="node3" title=" " alt="" coords="111,5,235,97"/>
+<area shape="rect" id="node5" title=" " alt="" coords="16,147,76,224"/>
 </map>

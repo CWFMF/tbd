@@ -1,5 +1,5 @@
 <map id="tbd::util::make_directory_recursive" name="tbd::util::make_directory_recursive">
 <area shape="rect" id="node1" title="Make the given directory and any parent directories that do not exist." alt="" coords="5,5,163,47"/>
 <area shape="rect" id="node2" href="$namespacetbd_1_1util.html#af8dad32e4a0800825849b747699acaa7" title="Make the given directory if it does not exist." alt="" coords="211,13,368,39"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a3f2c39372270490359ae2c93eea882c3" title="Log a fatal error and quit." alt="" coords="416,13,535,39"/>
+<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="416,13,535,39"/>
 </map>

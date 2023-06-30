@@ -1,4 +1,0 @@
-<map id="tbd::fuel::FuelLookup::intToFuel" name="tbd::fuel::FuelLookup::intToFuel">
-<area shape="rect" id="node1" title="Look up a FuelType based on the given code." alt="" coords="195,5,336,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelLookup.html#ae102ea5e601ef61785c649d70572c819" title="Look up a FuelType based on the given code." alt="" coords="5,5,147,47"/>
-</map>

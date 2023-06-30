@@ -1,6 +1,6 @@
 <map id="tbd::fuel::FuelType" name="tbd::fuel::FuelType">
-<area shape="rect" id="node1" title="An FBP fuel type." alt="" coords="44,145,229,560"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,52,83"/>
-<area shape="rect" id="node3" title=" " alt="" coords="111,5,162,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="186,5,277,83"/>
+<area shape="rect" id="node1" title="An FBP fuel type." alt="" coords="22,145,207,560"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,67,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="91,5,138,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="177,5,268,83"/>
 </map>
