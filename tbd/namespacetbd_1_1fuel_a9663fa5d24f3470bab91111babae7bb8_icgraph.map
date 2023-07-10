@@ -1,8 +1,0 @@
-<map id="tbd::fuel::calculate_grass_curing" name="tbd::fuel::calculate_grass_curing">
-<area shape="rect" id="node1" title=" " alt="" coords="575,64,700,105"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelGrass.html#a95974648614445d86b9b15184179c8dd" title="Calculate base rate of spread multiplier." alt="" coords="381,5,514,47"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#ad8150dc6c2d07f27a8654b8d63977f6d" title="Constructor." alt="" coords="373,71,522,98"/>
-<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1ProbabilityMap.html#a9b205c8966cfd5f7c275dc23c3ae38ac" title="Save total, low, moderate, and high maps, and output information to log." alt="" coords="368,123,527,164"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelGrass.html#a62247a0d4ce80ca7582d3227d1135d2d" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,139,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelGrass.html#abb5f877ac7c31ab0558e4d641d147d9b" title="Calculate rate of spread (m/min)" alt="" coords="187,35,320,76"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="tbd::fuel::StandardFuel::crownConsumption" name="tbd::fuel::StandardFuel::crownConsumption">
-<area shape="rect" id="node1" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#ad91946af64a4f0ebab4a9e5244b6e509" title="Crown fuel load (kg/m^2) [ST&#45;X&#45;3 table 8]." alt="" coords="204,13,373,39"/>
-</map>

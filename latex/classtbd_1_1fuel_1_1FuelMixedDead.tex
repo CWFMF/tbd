@@ -1,0 +1,100 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelMixedDead}{}\doxysection{tbd\+::fuel\+::Fuel\+Mixed\+Dead$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir $>$ Class Template Reference}
+\label{classtbd_1_1fuel_1_1FuelMixedDead}\index{tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$@{tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$}}
+
+
+A fuel made of dead fir and D1.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Mixed\+Dead$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelMixedDead__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Mixed\+Dead$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelMixedDead__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedDead_a49eef6c1c188e3cf715d53dbc6f40dd2}\label{classtbd_1_1fuel_1_1FuelMixedDead_a49eef6c1c188e3cf715d53dbc6f40dd2}} 
+{\bfseries Fuel\+Mixed\+Dead} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedDead_a3adbc9b8c6933baf45a8819917018473}\label{classtbd_1_1fuel_1_1FuelMixedDead_a3adbc9b8c6933baf45a8819917018473}} 
+{\bfseries Fuel\+Mixed\+Dead} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedDead_aaacff863075d87638916227f952878b2}\label{classtbd_1_1fuel_1_1FuelMixedDead_aaacff863075d87638916227f952878b2}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedDead_a19de4d9dec2a01da0bda2bdb14543f67}\label{classtbd_1_1fuel_1_1FuelMixedDead_a19de4d9dec2a01da0bda2bdb14543f67}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} \&\&rhs) noexcept=delete
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead_abfa84e12443b6c59fb9d469a99ebf5cc}{Fuel\+Mixed\+Dead}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}, const char $\ast$\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}}, const \mbox{\hyperlink{classtbd_1_1data_1_1LogValue}{Log\+Value}} log\+\_\+q)
+\begin{DoxyCompactList}\small\item\em A mixed dead F\+BP fuel type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int A, int B, int C, int Bui0, int Ros\+Multiplier, int Percent\+Dead\+Fir$>$\newline
+class tbd\+::fuel\+::\+Fuel\+Mixed\+Dead$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir $>$}
+
+A fuel made of dead fir and D1. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em A} & Rate of spread parameter a \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em B} & Rate of spread parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em C} & Rate of spread parameter c $\ast$ 100 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em Bui0} & Average Build-\/up Index for the fuel type \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+{\em Ros\+Multiplier} & Rate of spread multiplier $\ast$ 10 \mbox{[}S\+T-\/\+X-\/3 eq 27/28, G\+L\+C-\/\+X-\/10 eq 29/30\mbox{]} \\
+\hline
+{\em Percent\+Dead\+Fir} & Percent dead fir in the stand. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedDead_abfa84e12443b6c59fb9d469a99ebf5cc}\label{classtbd_1_1fuel_1_1FuelMixedDead_abfa84e12443b6c59fb9d469a99ebf5cc}} 
+\index{tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$@{tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$}!FuelMixedDead@{FuelMixedDead}}
+\index{FuelMixedDead@{FuelMixedDead}!tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$@{tbd::fuel::FuelMixedDead$<$ A, B, C, Bui0, RosMultiplier, PercentDeadFir $>$}}
+\doxysubsubsection{\texorpdfstring{FuelMixedDead()}{FuelMixedDead()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int Ros\+Multiplier, int Percent\+Dead\+Fir$>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{tbd\+::fuel\+::\+Fuel\+Mixed\+Dead}}$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir $>$\+::\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedDead}{Fuel\+Mixed\+Dead}} (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code,  }\item[{const char $\ast$}]{name,  }\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1LogValue}{Log\+Value}}}]{log\+\_\+q }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+A mixed dead F\+BP fuel type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+{\em name} & Name of the fuel \\
+\hline
+{\em log\+\_\+q} & Log value of q \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\end{DoxyCompactItemize}

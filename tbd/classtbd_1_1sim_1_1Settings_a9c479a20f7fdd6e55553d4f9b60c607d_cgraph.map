@@ -1,5 +1,0 @@
-<map id="tbd::sim::Settings::maximumSpreadDistance" name="tbd::sim::Settings::maximumSpreadDistance">
-<area shape="rect" id="node1" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="5,39,181,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="229,5,440,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a72c5a0f6eb42cccd4f3be23204e7f89d" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="229,71,440,112"/>
-</map>

@@ -1,0 +1,492 @@
+\hypertarget{classtbd_1_1topo_1_1Environment}{}\doxysection{tbd\+::topo\+::Environment Class Reference}
+\label{classtbd_1_1topo_1_1Environment}\index{tbd::topo::Environment@{tbd::topo::Environment}}
+
+
+The area that a Model is run for, with Fuel, Slope, and Aspect grids.  
+
+
+
+
+{\ttfamily \#include $<$Environment.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::topo\+::Environment\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classtbd_1_1topo_1_1Environment__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+unique\+\_\+ptr$<$ Coordinates $>$ \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a340fd51688713847b81e1032e1b0d9a2}{find\+Coordinates}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&point, bool flipped) const
+\begin{DoxyCompactList}\small\item\em Determine Coordinates in the grid for the \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}}. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_aeecb91ce96bb55c54e638647a22b4ef9}{Environment}} (\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_aedf42c38f7291dd9c981fe4429176a66}{Environment}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \& \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a391167f773fe7ee008dcf95b8c1f937a}{operator=}} (\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \& \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a802fb7dd8413c444cd30d81a346a243c}{operator=}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy assignment. \end{DoxyCompactList}\item 
+constexpr const string \& \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a8d89ba700ff3dc1276af7efcc35b4ad0}{proj4}} () const
+\begin{DoxyCompactList}\small\item\em U\+TM projection that this uses. \end{DoxyCompactList}\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_ab82219745b374df569813e6e1ee4f218}{rows}} () const
+\begin{DoxyCompactList}\small\item\em Number of rows in grid. \end{DoxyCompactList}\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_ae1c001dcceae484571a08b26f4a9bdfe}{columns}} () const
+\begin{DoxyCompactList}\small\item\em Number of columns in grid. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a7a801b0b28f12eeba669ab334c1d8412}{cell\+Size}} () const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} width and height (m) \end{DoxyCompactList}\item 
+constexpr Elevation\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}{elevation}} () const
+\begin{DoxyCompactList}\small\item\em Elevation of the origin \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a0126416f22ba35a8aaa09c5beeac3070}{cell}} (const Idx row, const Idx column) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given row and column. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a1eeb2dad5fbb9d1d21f5bdad286db651}{cell}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&location) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_ac1b5167d14976560fdb8c09c734bc740}{offset}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{sim\+::\+Event}} \&event, const Idx row, const Idx column) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with given hash. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{sim\+::\+Probability\+Map}} $\ast$ \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf}{make\+Probability\+Map}} (double time, double start\+\_\+time, int min\+\_\+value, int low\+\_\+max, int med\+\_\+max, int max\+\_\+value) const
+\begin{DoxyCompactList}\small\item\em Make a Probability\+Map that covers this \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Other $>$ }\\unique\+\_\+ptr$<$ \mbox{\hyperlink{classtbd_1_1data_1_1GridMap}{data\+::\+Grid\+Map}}$<$ Other $>$ $>$ \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a12d38b1c3e4e5da2f58119a33f43ebdc}{make\+Map}} (const Other nodata) const
+\begin{DoxyCompactList}\small\item\em Create a Grid\+Map$<$\+Other$>$ covering this \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}. \end{DoxyCompactList}\item 
+unique\+\_\+ptr$<$ sim\+::\+Burned\+Data $>$ \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a6de268583f0880f07acbe8f5c1d7f8bb}{make\+Burned\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Create Burned\+Data and set burned bits based on \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a2a81a50be56dd3031d0566a90e7f5b0e}{reset\+Burned\+Data}} (sim\+::\+Burned\+Data $\ast$data) const noexcept
+\begin{DoxyCompactList}\small\item\em Reset with known non-\/fuel cells. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e}{load\+Environment}} (const string \&path, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&point, const string \&perimeter, int year)
+\begin{DoxyCompactList}\small\item\em Load from rasters in folder that have same projection as \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a7c1a7c2c902a8162a6b9d5ed56a8e5c9}{load}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&point, const string \&in\+\_\+fuel, const string \&in\+\_\+elevation)
+\begin{DoxyCompactList}\small\item\em Load from rasters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a2cad6cce4fa2903074c7ddc1b9e6694f}\label{classtbd_1_1topo_1_1Environment_a2cad6cce4fa2903074c7ddc1b9e6694f}} 
+sim\+::\+Burned\+Data \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a2cad6cce4fa2903074c7ddc1b9e6694f}{initialize\+Not\+Burnable}} (const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Fuel\+Grid}} \&fuel) const
+\begin{DoxyCompactList}\small\item\em Creates a map of areas that are not burnable either because of fuel or the initial perimeter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a04091932de566cb55c71f9e523a459f5}{Environment}} (const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Fuel\+Grid}} \&fuel, const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Elevation\+Grid}} \&\mbox{\hyperlink{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}{elevation}}, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&point)
+\begin{DoxyCompactList}\small\item\em Load from rasters. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a897b6d62df73b22ab89283d30b303214}{Environment}} (\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{data\+::\+Constant\+Grid}}$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} $>$ $\ast$cells, const Elevation\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}{elevation}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct from cells and elevation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{data\+::\+Constant\+Grid}}$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} $>$ $\ast$ \mbox{\hyperlink{classtbd_1_1topo_1_1Environment_a63df05ef138b648d92704d769f571357}{make\+Cells}} (const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Fuel\+Grid}} \&fuel, const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Elevation\+Grid}} \&\mbox{\hyperlink{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}{elevation}})
+\begin{DoxyCompactList}\small\item\em Combine rasters into Constant\+Grid$<$\+Cell$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The area that a Model is run for, with Fuel, Slope, and Aspect grids. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_aeecb91ce96bb55c54e638647a22b4ef9}\label{classtbd_1_1topo_1_1Environment_aeecb91ce96bb55c54e638647a22b4ef9}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!Environment@{Environment}}
+\index{Environment@{Environment}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{Environment()}{Environment()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Environment\+::\+Environment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to move from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_aedf42c38f7291dd9c981fe4429176a66}\label{classtbd_1_1topo_1_1Environment_aedf42c38f7291dd9c981fe4429176a66}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!Environment@{Environment}}
+\index{Environment@{Environment}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{Environment()}{Environment()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Environment\+::\+Environment (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to copy from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a04091932de566cb55c71f9e523a459f5}\label{classtbd_1_1topo_1_1Environment_a04091932de566cb55c71f9e523a459f5}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!Environment@{Environment}}
+\index{Environment@{Environment}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{Environment()}{Environment()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Environment\+::\+Environment (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Fuel\+Grid}} \&}]{fuel,  }\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Elevation\+Grid}} \&}]{elevation,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Load from rasters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fuel} & Fuel raster \\
+\hline
+{\em elevation} & Elevation raster \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a897b6d62df73b22ab89283d30b303214}\label{classtbd_1_1topo_1_1Environment_a897b6d62df73b22ab89283d30b303214}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!Environment@{Environment}}
+\index{Environment@{Environment}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{Environment()}{Environment()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Environment\+::\+Environment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{data\+::\+Constant\+Grid}}$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} $>$ $\ast$}]{cells,  }\item[{const Elevation\+Size}]{elevation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Construct from cells and elevation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cells} & Cells representing \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \\
+\hline
+{\em elevation} & Elevation at origin \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a0126416f22ba35a8aaa09c5beeac3070}\label{classtbd_1_1topo_1_1Environment_a0126416f22ba35a8aaa09c5beeac3070}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!cell@{cell}}
+\index{cell@{cell}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{cell()}{cell()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} tbd\+::topo\+::\+Environment\+::cell (\begin{DoxyParamCaption}\item[{const Idx}]{row,  }\item[{const Idx}]{column }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given row and column. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row \\
+\hline
+{\em column} & Column \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given row and column 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a1eeb2dad5fbb9d1d21f5bdad286db651}\label{classtbd_1_1topo_1_1Environment_a1eeb2dad5fbb9d1d21f5bdad286db651}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!cell@{cell}}
+\index{cell@{cell}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{cell()}{cell()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} tbd\+::topo\+::\+Environment\+::cell (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{location }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at given \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a7a801b0b28f12eeba669ab334c1d8412}\label{classtbd_1_1topo_1_1Environment_a7a801b0b28f12eeba669ab334c1d8412}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!cellSize@{cellSize}}
+\index{cellSize@{cellSize}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{cellSize()}{cellSize()}}
+{\footnotesize\ttfamily constexpr double tbd\+::topo\+::\+Environment\+::cell\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} width and height (m) 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} width and height (m) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_ae1c001dcceae484571a08b26f4a9bdfe}\label{classtbd_1_1topo_1_1Environment_ae1c001dcceae484571a08b26f4a9bdfe}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!columns@{columns}}
+\index{columns@{columns}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{columns()}{columns()}}
+{\footnotesize\ttfamily constexpr Idx tbd\+::topo\+::\+Environment\+::columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Number of columns in grid. 
+
+\begin{DoxyReturn}{Returns}
+Number of columns in grid 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}\label{classtbd_1_1topo_1_1Environment_accc84ee9d2bea57acc03f144cb3a8019}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!elevation@{elevation}}
+\index{elevation@{elevation}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{elevation()}{elevation()}}
+{\footnotesize\ttfamily constexpr Elevation\+Size tbd\+::topo\+::\+Environment\+::elevation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Elevation of the origin \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}}. 
+
+\begin{DoxyReturn}{Returns}
+Elevation of the origin \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a340fd51688713847b81e1032e1b0d9a2}\label{classtbd_1_1topo_1_1Environment_a340fd51688713847b81e1032e1b0d9a2}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!findCoordinates@{findCoordinates}}
+\index{findCoordinates@{findCoordinates}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{findCoordinates()}{findCoordinates()}}
+{\footnotesize\ttfamily unique\+\_\+ptr$<$ Coordinates $>$ tbd\+::topo\+::\+Environment\+::find\+Coordinates (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&}]{point,  }\item[{bool}]{flipped }\end{DoxyParamCaption}) const}
+
+
+
+Determine Coordinates in the grid for the \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} to find Coordinates for \\
+\hline
+{\em flipped} & Whether the grid data is flipped across the horizontal axis \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Coordinates that would be at \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} within this \mbox{\hyperlink{classtbd_1_1topo_1_1EnvironmentInfo}{Environment\+Info}}, or nullptr if it is not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a7c1a7c2c902a8162a6b9d5ed56a8e5c9}\label{classtbd_1_1topo_1_1Environment_a7c1a7c2c902a8162a6b9d5ed56a8e5c9}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!load@{load}}
+\index{load@{load}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} tbd\+::topo\+::\+Environment\+::load (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&}]{point,  }\item[{const string \&}]{in\+\_\+fuel,  }\item[{const string \&}]{in\+\_\+elevation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Load from rasters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Origin point \\
+\hline
+{\em in\+\_\+fuel} & Fuel raster \\
+\hline
+{\em in\+\_\+elevation} & Elevation raster \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e}\label{classtbd_1_1topo_1_1Environment_a7447813b70ff8309e5adc935008bbe9e}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!loadEnvironment@{loadEnvironment}}
+\index{loadEnvironment@{loadEnvironment}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{loadEnvironment()}{loadEnvironment()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} tbd\+::topo\+::\+Environment\+::load\+Environment (\begin{DoxyParamCaption}\item[{const string \&}]{path,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&}]{point,  }\item[{const string \&}]{perimeter,  }\item[{int}]{year }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Load from rasters in folder that have same projection as \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Folder to read rasters from \\
+\hline
+{\em point} & Origin point \\
+\hline
+{\em perimeter} & \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} to use projection from \\
+\hline
+{\em year} & Year to look for rasters for if available \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a6de268583f0880f07acbe8f5c1d7f8bb}\label{classtbd_1_1topo_1_1Environment_a6de268583f0880f07acbe8f5c1d7f8bb}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!makeBurnedData@{makeBurnedData}}
+\index{makeBurnedData@{makeBurnedData}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{makeBurnedData()}{makeBurnedData()}}
+{\footnotesize\ttfamily unique\+\_\+ptr$<$sim\+::\+Burned\+Data$>$ tbd\+::topo\+::\+Environment\+::make\+Burned\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create Burned\+Data and set burned bits based on \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. 
+
+\begin{DoxyReturn}{Returns}
+Burned\+Data with all initially burned locations set 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a63df05ef138b648d92704d769f571357}\label{classtbd_1_1topo_1_1Environment_a63df05ef138b648d92704d769f571357}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!makeCells@{makeCells}}
+\index{makeCells@{makeCells}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{makeCells()}{makeCells()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{data\+::\+Constant\+Grid}}$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}}$>$$\ast$ tbd\+::topo\+::\+Environment\+::make\+Cells (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Fuel\+Grid}} \&}]{fuel,  }\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Elevation\+Grid}} \&}]{elevation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Combine rasters into Constant\+Grid$<$\+Cell$>$ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em elevation} & Elevation raster \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a12d38b1c3e4e5da2f58119a33f43ebdc}\label{classtbd_1_1topo_1_1Environment_a12d38b1c3e4e5da2f58119a33f43ebdc}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!makeMap@{makeMap}}
+\index{makeMap@{makeMap}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{makeMap()}{makeMap()}}
+{\footnotesize\ttfamily template$<$class Other $>$ \\
+unique\+\_\+ptr$<$\mbox{\hyperlink{classtbd_1_1data_1_1GridMap}{data\+::\+Grid\+Map}}$<$Other$>$ $>$ tbd\+::topo\+::\+Environment\+::make\+Map (\begin{DoxyParamCaption}\item[{const Other}]{nodata }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create a Grid\+Map$<$\+Other$>$ covering this \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Other} & Type of Grid\+Map \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em nodata} & Value that represents no data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grid\+Map$<$\+Other$>$ covering this \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf}\label{classtbd_1_1topo_1_1Environment_ab4f19175764766fc6e6e418162115fdf}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!makeProbabilityMap@{makeProbabilityMap}}
+\index{makeProbabilityMap@{makeProbabilityMap}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{makeProbabilityMap()}{makeProbabilityMap()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{sim\+::\+Probability\+Map}} $\ast$ tbd\+::topo\+::\+Environment\+::make\+Probability\+Map (\begin{DoxyParamCaption}\item[{double}]{time,  }\item[{double}]{start\+\_\+time,  }\item[{int}]{min\+\_\+value,  }\item[{int}]{low\+\_\+max,  }\item[{int}]{med\+\_\+max,  }\item[{int}]{max\+\_\+value }\end{DoxyParamCaption}) const}
+
+
+
+Make a Probability\+Map that covers this \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Time in simulation this Probability\+Map represents \\
+\hline
+{\em start\+\_\+time} & Start time of simulation \\
+\hline
+{\em min\+\_\+value} & Lower bound of \textquotesingle{}low\textquotesingle{} intensity range \\
+\hline
+{\em low\+\_\+max} & Upper bound of \textquotesingle{}low\textquotesingle{} intensity range \\
+\hline
+{\em med\+\_\+max} & Upper bound of \textquotesingle{}moderate\textquotesingle{} intensity range \\
+\hline
+{\em max\+\_\+value} & Upper bound of \textquotesingle{}high\textquotesingle{} intensity range \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Probability\+Map with the same extent as this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_ac1b5167d14976560fdb8c09c734bc740}\label{classtbd_1_1topo_1_1Environment_ac1b5167d14976560fdb8c09c734bc740}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!offset@{offset}}
+\index{offset@{offset}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{offset()}{offset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} tbd\+::topo\+::\+Environment\+::offset (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{sim\+::\+Event}} \&}]{event,  }\item[{const Idx}]{row,  }\item[{const Idx}]{column }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with given hash. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash\+\_\+size} & Hash \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with given hash
+\end{DoxyReturn}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} at \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with offset of row and column from \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} of Event 
+\begin{DoxyParams}{Parameters}
+{\em event} & Event to use for base \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \\
+\hline
+{\em row} & \\
+\hline
+{\em column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a802fb7dd8413c444cd30d81a346a243c}\label{classtbd_1_1topo_1_1Environment_a802fb7dd8413c444cd30d81a346a243c}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}\& tbd\+::topo\+::\+Environment\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a391167f773fe7ee008dcf95b8c1f937a}\label{classtbd_1_1topo_1_1Environment_a391167f773fe7ee008dcf95b8c1f937a}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}}\& tbd\+::topo\+::\+Environment\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a8d89ba700ff3dc1276af7efcc35b4ad0}\label{classtbd_1_1topo_1_1Environment_a8d89ba700ff3dc1276af7efcc35b4ad0}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!proj4@{proj4}}
+\index{proj4@{proj4}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{proj4()}{proj4()}}
+{\footnotesize\ttfamily constexpr const string\& tbd\+::topo\+::\+Environment\+::proj4 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+U\+TM projection that this uses. 
+
+\begin{DoxyReturn}{Returns}
+U\+TM projection that this uses 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_a2a81a50be56dd3031d0566a90e7f5b0e}\label{classtbd_1_1topo_1_1Environment_a2a81a50be56dd3031d0566a90e7f5b0e}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!resetBurnedData@{resetBurnedData}}
+\index{resetBurnedData@{resetBurnedData}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{resetBurnedData()}{resetBurnedData()}}
+{\footnotesize\ttfamily void tbd\+::topo\+::\+Environment\+::reset\+Burned\+Data (\begin{DoxyParamCaption}\item[{sim\+::\+Burned\+Data $\ast$}]{data }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Reset with known non-\/fuel cells. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Burned\+Data to reset \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Environment_ab82219745b374df569813e6e1ee4f218}\label{classtbd_1_1topo_1_1Environment_ab82219745b374df569813e6e1ee4f218}} 
+\index{tbd::topo::Environment@{tbd::topo::Environment}!rows@{rows}}
+\index{rows@{rows}!tbd::topo::Environment@{tbd::topo::Environment}}
+\doxysubsubsection{\texorpdfstring{rows()}{rows()}}
+{\footnotesize\ttfamily constexpr Idx tbd\+::topo\+::\+Environment\+::rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Number of rows in grid. 
+
+\begin{DoxyReturn}{Returns}
+Number of rows in grid 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Environment.\+h\item 
+src/Environment.\+cpp\end{DoxyCompactItemize}

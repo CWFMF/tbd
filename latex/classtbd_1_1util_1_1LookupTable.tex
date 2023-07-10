@@ -1,0 +1,72 @@
+\hypertarget{classtbd_1_1util_1_1LookupTable}{}\doxysection{tbd\+::util\+::Lookup\+Table$<$ Fct, Index\+Digits, Precision $>$ Class Template Reference}
+\label{classtbd_1_1util_1_1LookupTable}\index{tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$@{tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$}}
+
+
+A table initialized using the given function ranging over the number of digits and precision.  
+
+
+
+
+{\ttfamily \#include $<$Lookup\+Table.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1util_1_1LookupTable_a7bd916b26bc4f21037d014ef5b487699}\label{classtbd_1_1util_1_1LookupTable_a7bd916b26bc4f21037d014ef5b487699}} 
+{\bfseries Lookup\+Table} (\mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1util_1_1LookupTable_acf413bfe095073bbca3cc6b18ddfbf1d}\label{classtbd_1_1util_1_1LookupTable_acf413bfe095073bbca3cc6b18ddfbf1d}} 
+{\bfseries Lookup\+Table} (const \mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1util_1_1LookupTable_abe0a83d789bd3296099e0d00b3bd2ce5}\label{classtbd_1_1util_1_1LookupTable_abe0a83d789bd3296099e0d00b3bd2ce5}} 
+\mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1util_1_1LookupTable_a6dc8ce5f291cb7bbd68dd91dd43079ad}\label{classtbd_1_1util_1_1LookupTable_a6dc8ce5f291cb7bbd68dd91dd43079ad}} 
+\mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{Lookup\+Table}} \&rhs) noexcept=delete
+\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1util_1_1LookupTable_a16b5d86f7fefcc08b8167e7fb9620741}{operator()}} (const double value) const
+\begin{DoxyCompactList}\small\item\em Get result of function lookup table was initialized with for given value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$double($\ast$)(double) Fct, int Index\+Digits = 3, int Precision = 1$>$\newline
+class tbd\+::util\+::\+Lookup\+Table$<$ Fct, Index\+Digits, Precision $>$}
+
+A table initialized using the given function ranging over the number of digits and precision. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Fct} & Function to apply over the range of values \\
+\hline
+{\em Index\+Digits} & Number of digits to use for range of values \\
+\hline
+{\em Precision} & Precision in decimal places to use for range of values \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1util_1_1LookupTable_a16b5d86f7fefcc08b8167e7fb9620741}\label{classtbd_1_1util_1_1LookupTable_a16b5d86f7fefcc08b8167e7fb9620741}} 
+\index{tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$@{tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$@{tbd::util::LookupTable$<$ Fct, IndexDigits, Precision $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily template$<$double($\ast$)(double) Fct, int Index\+Digits = 3, int Precision = 1$>$ \\
+constexpr double \mbox{\hyperlink{classtbd_1_1util_1_1LookupTable}{tbd\+::util\+::\+Lookup\+Table}}$<$ Fct, Index\+Digits, Precision $>$\+::operator() (\begin{DoxyParamCaption}\item[{const double}]{value }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Get result of function lookup table was initialized with for given value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & value to get lookup result for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+result of lookup for function at value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Lookup\+Table.\+h\end{DoxyCompactItemize}

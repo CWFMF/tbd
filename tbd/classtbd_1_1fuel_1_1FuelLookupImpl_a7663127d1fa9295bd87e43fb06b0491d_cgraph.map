@@ -1,9 +1,0 @@
-<map id="tbd::fuel::FuelLookupImpl::fuelToCode" name="tbd::fuel::FuelLookupImpl::fuelToCode">
-<area shape="rect" id="node1" title="Look up the original grid code for a FuelType." alt="" coords="5,71,172,112"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a9158601435e5f99612885308d68648da" title="Code for this fuel type." alt="" coords="226,5,353,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a0e9014ba4690124add74fd7cdb6df722" title="Name of the fuel." alt="" coords="226,71,353,112"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a2253acdeb3f913181c319d71d93fb7b9" title="Log with WARNING level." alt="" coords="220,137,359,163"/>
-<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="584,104,705,145"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="407,162,536,189"/>
-<area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="585,170,704,197"/>
-</map>

@@ -1,0 +1,247 @@
+\hypertarget{classtbd_1_1data_1_1Grid}{}\doxysection{tbd\+::data\+::Grid$<$ T, V $>$ Class Template Reference}
+\label{classtbd_1_1data_1_1Grid}\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+
+
+A \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} with an associated type of data.  
+
+
+
+
+{\ttfamily \#include $<$Grid.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::data\+::Grid$<$ T, V $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classtbd_1_1data_1_1Grid__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::data\+::Grid$<$ T, V $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classtbd_1_1data_1_1Grid__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}{rows}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Number of rows in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. \end{DoxyCompactList}\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}{columns}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Number of columns in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. \end{DoxyCompactList}\item 
+constexpr V \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}{nodata}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Value used for grid locations that have no data. \end{DoxyCompactList}\item 
+constexpr T \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a2c2da61076166a7b25fc45e2d6f9f35d}{no\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Value representing no data. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a676c9c0fd0d2b4d7ab41b5fdd0025fc3}{no\+Data\+Int}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Value used to represent no data at a Location. \end{DoxyCompactList}\item 
+virtual T \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a7bf2ab7753f9b9f0590895d5196b9b12}{at}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&location) const =0
+\begin{DoxyCompactList}\small\item\em Value for grid at given Location. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classtbd_1_1data_1_1Grid_aafa808f73b5b97f5a33329b5f90247fe}{set}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&location, T value)=0
+\begin{DoxyCompactList}\small\item\em Set value for grid at given Location. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1Grid_a0f69ebd2e2e90f0005b50ea50d05f497}{Grid}} (const double cell\+\_\+size, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}{rows}}, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}{columns}}, T no\+\_\+data, const V \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}{nodata}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a5efc5fd7a0062b7eb69868ccbf7e8892}{xllcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_aecf88fe6a1a3877d4ec9ddb18d5e5a8f}{yllcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a75e7fe0f8904134f2274057fa08b54c0}{xurcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_ac229b964c0e7b3d9998ca6335fd1e278}{yurcorner}}, string \&\&\mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a58a632fa0b6f9ccb123d3a83641cf52f}{proj4}}) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1Grid_a9bfdad960790b1fa3f5f0f18c2b2e58d}{Grid}} (const \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} \&grid\+\_\+info, V no\+\_\+data) noexcept
+\begin{DoxyCompactList}\small\item\em Construct based on \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} and no data value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T, class V = T$>$\newline
+class tbd\+::data\+::\+Grid$<$ T, V $>$}
+
+A \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} with an associated type of data. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of data after conversion from initialization type. \\
+\hline
+{\em V} & Type of data used as an input when initializing. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a0f69ebd2e2e90f0005b50ea50d05f497}\label{classtbd_1_1data_1_1Grid_a0f69ebd2e2e90f0005b50ea50d05f497}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!Grid@{Grid}}
+\index{Grid@{Grid}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{Grid()}{Grid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1Grid}{Grid}} (\begin{DoxyParamCaption}\item[{const double}]{cell\+\_\+size,  }\item[{const Idx}]{rows,  }\item[{const Idx}]{columns,  }\item[{T}]{no\+\_\+data,  }\item[{const V}]{nodata,  }\item[{const double}]{xllcorner,  }\item[{const double}]{yllcorner,  }\item[{const double}]{xurcorner,  }\item[{const double}]{yurcorner,  }\item[{string \&\&}]{proj4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cell\+\_\+size} & Cell width and height (m) \\
+\hline
+{\em rows} & Number of rows \\
+\hline
+{\em columns} & Number of columns \\
+\hline
+{\em no\+\_\+data} & Value that represents no data \\
+\hline
+{\em nodata} & Integer value that represents no data \\
+\hline
+{\em xllcorner} & Lower left corner X coordinate (m) \\
+\hline
+{\em yllcorner} & Lower left corner Y coordinate (m) \\
+\hline
+{\em proj4} & Proj4 projection definition \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a9bfdad960790b1fa3f5f0f18c2b2e58d}\label{classtbd_1_1data_1_1Grid_a9bfdad960790b1fa3f5f0f18c2b2e58d}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!Grid@{Grid}}
+\index{Grid@{Grid}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{Grid()}{Grid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1Grid}{Grid}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} \&}]{grid\+\_\+info,  }\item[{V}]{no\+\_\+data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Construct based on \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} and no data value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grid\+\_\+info} & \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}} defining \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{Grid}} area \\
+\hline
+{\em no\+\_\+data} & Value that represents no data \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a7bf2ab7753f9b9f0590895d5196b9b12}\label{classtbd_1_1data_1_1Grid_a7bf2ab7753f9b9f0590895d5196b9b12}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!at@{at}}
+\index{at@{at}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+virtual T \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::at (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{location }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Value for grid at given Location. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & Location to get value for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value at grid Location. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1data_1_1GridMap_ad92598c8f71146a2d5155de8b45420a4}{tbd\+::data\+::\+Grid\+Map$<$ size\+\_\+t $>$}}, \mbox{\hyperlink{classtbd_1_1data_1_1GridMap_ad92598c8f71146a2d5155de8b45420a4}{tbd\+::data\+::\+Grid\+Map$<$ unsigned char $>$}}, and \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a64c169a3460579fc2f0fe95db3e40e26}{tbd\+::data\+::\+Constant\+Grid$<$ tbd\+::topo\+::\+Cell $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}\label{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!columns@{columns}}
+\index{columns@{columns}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{columns()}{columns()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Number of columns in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. 
+
+\begin{DoxyReturn}{Returns}
+Number of columns in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}\label{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!nodata@{nodata}}
+\index{nodata@{nodata}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{nodata()}{nodata()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr V \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::nodata (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Value used for grid locations that have no data. 
+
+\begin{DoxyReturn}{Returns}
+Value used for grid locations that have no data. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a2c2da61076166a7b25fc45e2d6f9f35d}\label{classtbd_1_1data_1_1Grid_a2c2da61076166a7b25fc45e2d6f9f35d}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!noData@{noData}}
+\index{noData@{noData}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{noData()}{noData()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr T \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::no\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Value representing no data. 
+
+\begin{DoxyReturn}{Returns}
+Value representing no data 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a676c9c0fd0d2b4d7ab41b5fdd0025fc3}\label{classtbd_1_1data_1_1Grid_a676c9c0fd0d2b4d7ab41b5fdd0025fc3}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!noDataInt@{noDataInt}}
+\index{noDataInt@{noDataInt}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{noDataInt()}{noDataInt()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr double \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::no\+Data\+Int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Value used to represent no data at a Location. 
+
+\begin{DoxyReturn}{Returns}
+Value used to represent no data at a Location. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}\label{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!rows@{rows}}
+\index{rows@{rows}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{rows()}{rows()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Number of rows in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. 
+
+\begin{DoxyReturn}{Returns}
+Number of rows in the \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{Grid\+Base}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Grid_aafa808f73b5b97f5a33329b5f90247fe}\label{classtbd_1_1data_1_1Grid_aafa808f73b5b97f5a33329b5f90247fe}} 
+\index{tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}!set@{set}}
+\index{set@{set}!tbd::data::Grid$<$ T, V $>$@{tbd::data::Grid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+virtual void \mbox{\hyperlink{classtbd_1_1data_1_1Grid}{tbd\+::data\+::\+Grid}}$<$ T, V $>$\+::set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{location,  }\item[{T}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set value for grid at given Location. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & Location to set value for. \\
+\hline
+{\em value} & Value to set at grid Location. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1data_1_1GridMap_a7ef4a81b958891bd49809a94f09328a6}{tbd\+::data\+::\+Grid\+Map$<$ unsigned char $>$}}, and \mbox{\hyperlink{classtbd_1_1data_1_1GridMap_a7ef4a81b958891bd49809a94f09328a6}{tbd\+::data\+::\+Grid\+Map$<$ size\+\_\+t $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Grid.\+h\end{DoxyCompactItemize}

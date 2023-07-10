@@ -1,4 +1,0 @@
-<map id="tbd::fuel::StandardFuel::bui0" name="tbd::fuel::StandardFuel::bui0">
-<area shape="rect" id="node1" title="Average Build&#45;up Index for the fuel type [ST&#45;X&#45;3 table 7]." alt="" coords="204,5,355,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#a96a1c9b075371936af4251180965b219" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,5,156,47"/>
-</map>

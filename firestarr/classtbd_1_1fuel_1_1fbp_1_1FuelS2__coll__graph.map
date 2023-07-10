@@ -1,0 +1,9 @@
+<map id="tbd::fuel::fbp::FuelS2" name="tbd::fuel::fbp::FuelS2">
+<area shape="rect" id="node1" title="FBP fuel type S&#45;2." alt="" coords="1377,27,1516,54"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelSlash.html" title=" " alt="" coords="1180,13,1329,69"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelConifer.html" title=" " alt="" coords="985,13,1132,69"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelNonMixed.html" title="A StandardFuel that is not made of multiple fuels." alt="" coords="712,5,937,76"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="439,5,664,76"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="180,13,391,69"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="5,27,132,54"/>
+</map>

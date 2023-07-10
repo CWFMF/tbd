@@ -1,0 +1,135 @@
+\hypertarget{classtbd_1_1fuel_1_1Duff}{}\doxysection{tbd\+::fuel\+::Duff Class Reference}
+\label{classtbd_1_1fuel_1_1Duff}\index{tbd::fuel::Duff@{tbd::fuel::Duff}}
+
+
+Base class for \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}.  
+
+
+
+
+{\ttfamily \#include $<$Duff.\+h$>$}
+
+
+
+Collaboration diagram for tbd\+::fuel\+::Duff\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1Duff__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_ab25b76ab4fcdcc31979ba42821e4aa76}\label{classtbd_1_1fuel_1_1Duff_ab25b76ab4fcdcc31979ba42821e4aa76}} 
+{\bfseries Duff} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_ad7b6b24db9673bbb9b48c7b153248722}\label{classtbd_1_1fuel_1_1Duff_ad7b6b24db9673bbb9b48c7b153248722}} 
+{\bfseries Duff} (\mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a41bb9b38c7b49a992f033ebe2213453a}\label{classtbd_1_1fuel_1_1Duff_a41bb9b38c7b49a992f033ebe2213453a}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_aac093c1653a4dd95666a028a61a4bc88}\label{classtbd_1_1fuel_1_1Duff_aac093c1653a4dd95666a028a61a4bc88}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&\&rhs) noexcept=delete
+\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a08a639cc073ab5d0d4cc155454579424}{operator==}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Equality operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_ae267c5bb4cbed5f772ac4372e876f7be}{operator!=}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Inequality operator. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a5fad768f009fb0ae7ee05023920aee83}{probability\+Of\+Survival}} (double mc\+\_\+pct) const noexcept=0
+\begin{DoxyCompactList}\small\item\em Survival probability calculated using probability of ony survival based on multiple formulae. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_aca8a4b0386a2431f1ae0f4d79f6c26b5}\label{classtbd_1_1fuel_1_1Duff_aca8a4b0386a2431f1ae0f4d79f6c26b5}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 124, 218, -\/88306, -\/608, 8095, 2735 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_aca8a4b0386a2431f1ae0f4d79f6c26b5}{Sphagnum\+Upper}} \{\}
+\begin{DoxyCompactList}\small\item\em Sphagnum (upper) \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a170ffe000ba5cf0f9fa7befc9c8b2c97}\label{classtbd_1_1fuel_1_1Duff_a170ffe000ba5cf0f9fa7befc9c8b2c97}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 181, 427, 90970, -\/1040, 1165, -\/646 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a170ffe000ba5cf0f9fa7befc9c8b2c97}{Feather\+Moss}} \{\}
+\begin{DoxyCompactList}\small\item\em Feather \mbox{[}Frandsen table 3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_afba11214be4296f6d56b176288c5898d}\label{classtbd_1_1fuel_1_1Duff_afba11214be4296f6d56b176288c5898d}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 261, 563, 80359, -\/393, -\/591, -\/340 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_afba11214be4296f6d56b176288c5898d}{Reindeer}} \{\}
+\begin{DoxyCompactList}\small\item\em Reindeer/feather \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a71ab7a7d2c3232282dc434f9be4a8502}\label{classtbd_1_1fuel_1_1Duff_a71ab7a7d2c3232282dc434f9be4a8502}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 359, 1220, 3325604, -\/12220, -\/21024, -\/12619 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a71ab7a7d2c3232282dc434f9be4a8502}{White\+Spruce}} \{\}
+\begin{DoxyCompactList}\small\item\em White spruce duff \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a2989e71b0dc97662c728dca8aa870a2c}\label{classtbd_1_1fuel_1_1Duff_a2989e71b0dc97662c728dca8aa870a2c}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 94, 2220, -\/198198, -\/1169, 10414, 782 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a2989e71b0dc97662c728dca8aa870a2c}{Peat}} \{\}
+\begin{DoxyCompactList}\small\item\em Peat \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_ac03e8f7fb2c31e7bdcf0c6655e3f6e5c}\label{classtbd_1_1fuel_1_1Duff_ac03e8f7fb2c31e7bdcf0c6655e3f6e5c}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 349, 2030, 372276, -\/1876, -\/2833, -\/951 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_ac03e8f7fb2c31e7bdcf0c6655e3f6e5c}{Peat\+Muck}} \{\}
+\begin{DoxyCompactList}\small\item\em Peat muck \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a2b8698a4d662c65c1f3b3c1b9a130136}\label{classtbd_1_1fuel_1_1Duff_a2b8698a4d662c65c1f3b3c1b9a130136}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 365, 1900, 451778, -\/3227, -\/3644, -\/362 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a2b8698a4d662c65c1f3b3c1b9a130136}{Pine\+Seney}} \{\}
+\begin{DoxyCompactList}\small\item\em Pine duff (Seney) \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a000a93a3f63cca329507b7aa272adbfb}\label{classtbd_1_1fuel_1_1Duff_a000a93a3f63cca329507b7aa272adbfb}} 
+static const \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}$<$ 307, 1160, 586921, -\/2737, -\/5413, -\/1246 $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff_a000a93a3f63cca329507b7aa272adbfb}{Spruce\+Pine}} \{\}
+\begin{DoxyCompactList}\small\item\em Spruce/pine duff \mbox{[}Frandsen table 2/3\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for \mbox{\hyperlink{classtbd_1_1fuel_1_1DuffType}{Duff\+Type}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_ae267c5bb4cbed5f772ac4372e876f7be}\label{classtbd_1_1fuel_1_1Duff_ae267c5bb4cbed5f772ac4372e876f7be}} 
+\index{tbd::fuel::Duff@{tbd::fuel::Duff}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!tbd::fuel::Duff@{tbd::fuel::Duff}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::fuel\+::\+Duff\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Inequality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are not identical 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a08a639cc073ab5d0d4cc155454579424}\label{classtbd_1_1fuel_1_1Duff_a08a639cc073ab5d0d4cc155454579424}} 
+\index{tbd::fuel::Duff@{tbd::fuel::Duff}!operator==@{operator==}}
+\index{operator==@{operator==}!tbd::fuel::Duff@{tbd::fuel::Duff}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::fuel\+::\+Duff\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Equality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are identical 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1Duff_a5fad768f009fb0ae7ee05023920aee83}\label{classtbd_1_1fuel_1_1Duff_a5fad768f009fb0ae7ee05023920aee83}} 
+\index{tbd::fuel::Duff@{tbd::fuel::Duff}!probabilityOfSurvival@{probabilityOfSurvival}}
+\index{probabilityOfSurvival@{probabilityOfSurvival}!tbd::fuel::Duff@{tbd::fuel::Duff}}
+\doxysubsubsection{\texorpdfstring{probabilityOfSurvival()}{probabilityOfSurvival()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Duff\+::probability\+Of\+Survival (\begin{DoxyParamCaption}\item[{double}]{mc\+\_\+pct }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Survival probability calculated using probability of ony survival based on multiple formulae. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mc\+\_\+pct} & Moisture content (\%) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Chance of survival (\% / 100) 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Duff.\+h\item 
+src/Duff.\+cpp\end{DoxyCompactItemize}

@@ -1,9 +1,0 @@
-<map id="tbd::wx::Wind::speed" name="tbd::wx::Wind::speed">
-<area shape="rect" id="node1" title="Speed of wind (km/h)" alt="" coords="577,71,716,98"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="368,5,504,47"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1wx.html#a624e488bcec73ef9e75cc3c18182864f" title=" " alt="" coords="375,71,497,98"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="343,122,529,149"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="131,5,267,47"/>
-<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,122,295,149"/>
-<area shape="rect" id="node7" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,122,56,149"/>
-</map>

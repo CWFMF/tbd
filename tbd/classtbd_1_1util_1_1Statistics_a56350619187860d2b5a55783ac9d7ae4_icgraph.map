@@ -1,8 +1,0 @@
-<map id="tbd::util::Statistics::confidenceInterval" name="tbd::util::Statistics::confidenceInterval">
-<area shape="rect" id="node1" title="Calculate Confidence Interval for given z value." alt="" coords="200,136,333,177"/>
-<area shape="rect" id="node2" href="$classtbd_1_1util_1_1Statistics.html#ab7dc881d919b3a1d5487c99354e66b46" title="80% Confidence Interval" alt="" coords="5,5,152,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1util_1_1Statistics.html#af9f33f0acd8dc1a66234c28302b1f978" title="90% Confidence Interval" alt="" coords="5,71,152,112"/>
-<area shape="rect" id="node4" href="$classtbd_1_1util_1_1Statistics.html#a522cafa0fefc1f27ebfcaf92ddc86215" title="95% Confidence Interval" alt="" coords="5,136,152,177"/>
-<area shape="rect" id="node5" href="$classtbd_1_1util_1_1Statistics.html#ae5ae8f4f3d778efc21e82b8e0a2b837f" title="98% Confidence Interval" alt="" coords="5,201,152,243"/>
-<area shape="rect" id="node6" href="$classtbd_1_1util_1_1Statistics.html#a701bdc0a443cec1249dd1c53fe51de18" title="99% Confidence Interval" alt="" coords="5,267,152,308"/>
-</map>

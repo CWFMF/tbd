@@ -1,6 +1,0 @@
-<map id="tbd::fuel::FuelVariable::calculateRos" name="tbd::fuel::FuelVariable::calculateRos">
-<area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,39,151,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5" title="Calculate rate of spread (m/min)" alt="" coords="199,5,325,47"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1fuel.html#a9617fe80fed0d3d52ab32a956bcee9fa" title=" " alt="" coords="201,71,323,112"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1fuel.html#a35f38b87438f75c4da2be966ce3fdf45" title="Calculate if green&#45;up has occurred." alt="" coords="373,71,499,112"/>
-</map>

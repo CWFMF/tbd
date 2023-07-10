@@ -1,4 +1,0 @@
-<map id="tbd::sim::Semaphore::wait" name="tbd::sim::Semaphore::wait">
-<area shape="rect" id="node1" title="Wait until allowed to run." alt="" coords="211,5,349,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1CriticalSection.html#a1aa32c8bfa1cf706f3fb1d8be057862f" title="Constructor." alt="" coords="5,5,163,47"/>
-</map>

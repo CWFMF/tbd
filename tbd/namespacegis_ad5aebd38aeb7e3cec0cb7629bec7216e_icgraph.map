@@ -1,6 +1,0 @@
-<map id="gis.GetSpatialReference" name="gis.GetSpatialReference">
-<area shape="rect" id="node1" title="Determine spatial reference from a source file." alt="" coords="355,31,517,57"/>
-<area shape="rect" id="node2" href="$namespacemain.html#a478b6e25d7e117f7ee6355257a338a41" title=" " alt="" coords="183,5,299,32"/>
-<area shape="rect" id="node4" href="$namespacegis.html#ade86415df6e6689594f3a6982d3c9eb0" title="Convert a perimeter to a raster." alt="" coords="176,56,307,83"/>
-<area shape="rect" id="node3" href="$namespacemain.html#aee797a2d4ae00474787a7f302d1d3429" title=" " alt="" coords="5,5,128,32"/>
-</map>

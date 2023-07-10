@@ -1,4 +1,0 @@
-<map id="tbd::wx::FireWeather::survivalProbability" name="tbd::wx::FireWeather::survivalProbability">
-<area shape="rect" id="node1" title="Probability of survival in given fuel at given time." alt="" coords="5,5,144,47"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="192,13,323,39"/>
-</map>

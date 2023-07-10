@@ -1,6 +1,0 @@
-<map id="tbd::wx::FwiWeather::ffmcEffect" name="tbd::wx::FwiWeather::ffmcEffect">
-<area shape="rect" id="node1" title="Ffmc effect used for spread." alt="" coords="557,5,695,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2ddf49bda8a02b0e9d5e5aa1b4a9abc4" title="FFMC effect used for spread." alt="" coords="373,5,509,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
-</map>

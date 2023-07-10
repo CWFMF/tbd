@@ -1,7 +1,0 @@
-<map id="tbd::sim::Scenario::isAtNight" name="tbd::sim::Scenario::isAtNight">
-<area shape="rect" id="node1" title="Whether or not time is after sunrise and before sunset." alt="" coords="5,39,129,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#a3dc75165950c51dc513ec7025f982809" title="Sunset time for given day." alt="" coords="177,5,301,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#a2283b130b5b0645a6ec0f89d15d1d7e1" title="Sunrise time for given day." alt="" coords="177,71,301,112"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1StartPoint.html#aaf24528ff9688c822384e097d4b7937a" title="Sunset time." alt="" coords="349,5,484,47"/>
-<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1StartPoint.html#ac6d2a5ef70386f0a785635f3bbc43539" title="Sunrise time." alt="" coords="349,71,484,112"/>
-</map>

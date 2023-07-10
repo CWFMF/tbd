@@ -1,6 +1,0 @@
-<map id="tbd::topo::utm_central_meridian" name="tbd::topo::utm_central_meridian">
-<area shape="rect" id="node1" title=" " alt="" coords="5,27,151,69"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#a91b639cf53e82a359b7810d012c18992" title="Convert degrees to radians." alt="" coords="207,5,336,32"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1topo.html#aa1a57dc2d6e7ca8452fecb3cdee87dae" title=" " alt="" coords="199,57,344,98"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1util.html#a17655e7a400e8955146ef7ae23461408" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="392,5,523,32"/>
-</map>

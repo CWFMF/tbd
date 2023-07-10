@@ -1,0 +1,238 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelLookup}{}\doxysection{tbd\+::fuel\+::Fuel\+Lookup Class Reference}
+\label{classtbd_1_1fuel_1_1FuelLookup}\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+
+
+Provides ability to look up a fuel type based on name or code.  
+
+
+
+
+{\ttfamily \#include $<$Fuel\+Lookup.\+h$>$}
+
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Lookup\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classtbd_1_1fuel_1_1FuelLookup__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a0be5244ce713919c8cd0419446cd5edf}{Fuel\+Lookup}} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Construct by reading from a file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_adcc7ef097df642abdc6291cc8d92d450}{Fuel\+Lookup}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a94c8adbaa31eb70b49f2be6380574c5f}{Fuel\+Lookup}} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \& \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_aa9516727a7780ce3e5234f2e7db17d5d}{operator=}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \& \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a2aaa46dda4f614d4f6bc6dbc9ace9c79}{operator=}} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a93b4abcd6f4a1e5f83d08318b907d4dd}{code\+To\+Fuel}} (Fuel\+Size value, Fuel\+Size nodata) const
+\begin{DoxyCompactList}\small\item\em Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given code. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_aaa60b8930ba010d514a5f7d9d11df38a}\label{classtbd_1_1fuel_1_1FuelLookup_aaa60b8930ba010d514a5f7d9d11df38a}} 
+void \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_aaa60b8930ba010d514a5f7d9d11df38a}{list\+Fuels}} () const
+\begin{DoxyCompactList}\small\item\em List all fuels and their codes. \end{DoxyCompactList}\item 
+Fuel\+Size \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a29f5dd81dca0d5bcef6a4318cf7d4100}{fuel\+To\+Code}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$fuel) const
+\begin{DoxyCompactList}\small\item\em Look up the original code for the given \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}}. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a813891a7d7f9055dc85f160ca3bf7cbc}{operator()}} (Fuel\+Size value, Fuel\+Size nodata) const
+\begin{DoxyCompactList}\small\item\em Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} ba1ed on the given code. \end{DoxyCompactList}\item 
+set$<$ const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_af1f7592f0c2afbfdf92999c08c840298}{used\+Fuels}} () const
+\begin{DoxyCompactList}\small\item\em Retrieve set of Fuel\+Types that are used in the lookup table. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a841525798f9600beedba9ec663979719}{by\+Name}} (const string \&name) const
+\begin{DoxyCompactList}\small\item\em Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a4b0cd9598d449721f5b4e0a6bfcd74f4}\label{classtbd_1_1fuel_1_1FuelLookup_a4b0cd9598d449721f5b4e0a6bfcd74f4}} 
+static const array$<$ const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$, N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+F\+U\+E\+LS $>$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup_a4b0cd9598d449721f5b4e0a6bfcd74f4}{Fuels}}
+\begin{DoxyCompactList}\small\item\em Array of all Fuel\+Types available to be used in simulations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides ability to look up a fuel type based on name or code. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a0be5244ce713919c8cd0419446cd5edf}\label{classtbd_1_1fuel_1_1FuelLookup_a0be5244ce713919c8cd0419446cd5edf}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!FuelLookup@{FuelLookup}}
+\index{FuelLookup@{FuelLookup}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{FuelLookup()}{FuelLookup()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily tbd\+::fuel\+::\+Fuel\+Lookup\+::\+Fuel\+Lookup (\begin{DoxyParamCaption}\item[{const char $\ast$}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct by reading from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & File to read from. Uses .lut format from Prometheus \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_adcc7ef097df642abdc6291cc8d92d450}\label{classtbd_1_1fuel_1_1FuelLookup_adcc7ef097df642abdc6291cc8d92d450}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!FuelLookup@{FuelLookup}}
+\index{FuelLookup@{FuelLookup}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{FuelLookup()}{FuelLookup()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily tbd\+::fuel\+::\+Fuel\+Lookup\+::\+Fuel\+Lookup (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} to copy from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a94c8adbaa31eb70b49f2be6380574c5f}\label{classtbd_1_1fuel_1_1FuelLookup_a94c8adbaa31eb70b49f2be6380574c5f}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!FuelLookup@{FuelLookup}}
+\index{FuelLookup@{FuelLookup}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{FuelLookup()}{FuelLookup()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily tbd\+::fuel\+::\+Fuel\+Lookup\+::\+Fuel\+Lookup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} to move from \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a841525798f9600beedba9ec663979719}\label{classtbd_1_1fuel_1_1FuelLookup_a841525798f9600beedba9ec663979719}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!byName@{byName}}
+\index{byName@{byName}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{byName()}{byName()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ tbd\+::fuel\+::\+Fuel\+Lookup\+::by\+Name (\begin{DoxyParamCaption}\item[{const string \&}]{name }\end{DoxyParamCaption}) const}
+
+
+
+Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the fuel to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a93b4abcd6f4a1e5f83d08318b907d4dd}\label{classtbd_1_1fuel_1_1FuelLookup_a93b4abcd6f4a1e5f83d08318b907d4dd}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!codeToFuel@{codeToFuel}}
+\index{codeToFuel@{codeToFuel}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{codeToFuel()}{codeToFuel()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ tbd\+::fuel\+::\+Fuel\+Lookup\+::code\+To\+Fuel (\begin{DoxyParamCaption}\item[{Fuel\+Size}]{value,  }\item[{Fuel\+Size}]{nodata }\end{DoxyParamCaption}) const}
+
+
+
+Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to use for lookup \\
+\hline
+{\em nodata} & Value that represents no data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a29f5dd81dca0d5bcef6a4318cf7d4100}\label{classtbd_1_1fuel_1_1FuelLookup_a29f5dd81dca0d5bcef6a4318cf7d4100}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!fuelToCode@{fuelToCode}}
+\index{fuelToCode@{fuelToCode}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{fuelToCode()}{fuelToCode()}}
+{\footnotesize\ttfamily Fuel\+Size tbd\+::fuel\+::\+Fuel\+Lookup\+::fuel\+To\+Code (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$}]{fuel }\end{DoxyParamCaption}) const}
+
+
+
+Look up the original code for the given \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to use for lookup \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+code for the given \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a813891a7d7f9055dc85f160ca3bf7cbc}\label{classtbd_1_1fuel_1_1FuelLookup_a813891a7d7f9055dc85f160ca3bf7cbc}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!operator()@{operator()}}
+\index{operator()@{operator()}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ tbd\+::fuel\+::\+Fuel\+Lookup\+::operator() (\begin{DoxyParamCaption}\item[{Fuel\+Size}]{value,  }\item[{Fuel\+Size}]{nodata }\end{DoxyParamCaption}) const}
+
+
+
+Look up a \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} ba1ed on the given code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to use for lookup \\
+\hline
+{\em nodata} & Value that represents no data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} based on the given code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_aa9516727a7780ce3e5234f2e7db17d5d}\label{classtbd_1_1fuel_1_1FuelLookup_aa9516727a7780ce3e5234f2e7db17d5d}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}}\& tbd\+::fuel\+::\+Fuel\+Lookup\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_a2aaa46dda4f614d4f6bc6dbc9ace9c79}\label{classtbd_1_1fuel_1_1FuelLookup_a2aaa46dda4f614d4f6bc6dbc9ace9c79}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}}\& tbd\+::fuel\+::\+Fuel\+Lookup\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{Fuel\+Lookup}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelLookup_af1f7592f0c2afbfdf92999c08c840298}\label{classtbd_1_1fuel_1_1FuelLookup_af1f7592f0c2afbfdf92999c08c840298}} 
+\index{tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}!usedFuels@{usedFuels}}
+\index{usedFuels@{usedFuels}!tbd::fuel::FuelLookup@{tbd::fuel::FuelLookup}}
+\doxysubsubsection{\texorpdfstring{usedFuels()}{usedFuels()}}
+{\footnotesize\ttfamily set$<$ const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$ $>$ tbd\+::fuel\+::\+Fuel\+Lookup\+::used\+Fuels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retrieve set of Fuel\+Types that are used in the lookup table. 
+
+\begin{DoxyReturn}{Returns}
+set of Fuel\+Types that are used in the lookup table 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Fuel\+Lookup.\+h\item 
+src/Fuel\+Lookup.\+cpp\end{DoxyCompactItemize}

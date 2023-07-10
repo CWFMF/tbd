@@ -1,6 +1,0 @@
-<map id="tbd::fuel::FuelLookup::byName" name="tbd::fuel::FuelLookup::byName">
-<area shape="rect" id="node1" title="Look up a FuelType based on the given name." alt="" coords="415,5,556,47"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#a117afd43e1603160a050e61d44ce726c" title=" " alt="" coords="247,13,367,39"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#a37bb8fe0af5e9b72e508475221ee37e2" title="Runs test cases for constant weather and fuel based on given arguments." alt="" coords="104,13,199,39"/>
-<area shape="rect" id="node4" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
-</map>

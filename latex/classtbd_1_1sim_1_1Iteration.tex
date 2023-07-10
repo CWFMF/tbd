@@ -1,0 +1,230 @@
+\hypertarget{classtbd_1_1sim_1_1Iteration}{}\doxysection{tbd\+::sim\+::Iteration Class Reference}
+\label{classtbd_1_1sim_1_1Iteration}\index{tbd::sim::Iteration@{tbd::sim::Iteration}}
+
+
+Represents a full set of simulations using all available weather streams.  
+
+
+
+
+{\ttfamily \#include $<$Iteration.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_aa2f611c3fab6d5d4b80aff1173befcfa}{Iteration}} (vector$<$ \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} $\ast$ $>$ scenarios) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a06fc1f4c0d6af8cd7c460911fc8927b6}{Iteration}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&rhs)=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a966843cf094a213ad63b3bc7119a3438}{Iteration}} (\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&\&rhs)=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a093f81a45ec2392a461c6dd2dc523e66}{operator=}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&rhs)=default
+\begin{DoxyCompactList}\small\item\em Copy assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a922791a6ecf10731dad0fccac3a6fc56}{operator=}} (\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&\&rhs)=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} $\ast$ \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a581f2e1b4851a26961f2e876ad8a1431}{reset}} (mt19937 $\ast$mt\+\_\+extinction, mt19937 $\ast$mt\+\_\+spread)
+\begin{DoxyCompactList}\small\item\em Create new thresholds for use in each \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}}. \end{DoxyCompactList}\item 
+const vector$<$ \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} $\ast$ $>$ \& \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a2cb00f89cb6d786e4c55be99404226b5}{get\+Scenarios}} () const noexcept
+\begin{DoxyCompactList}\small\item\em List of Scenarios this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} contains. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a48b45abc4da737d69e67689ae91f7059}{cancel}} (bool show\+\_\+warning) noexcept
+\item 
+vector$<$ double $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_acf2e449b096ebce54080de89adc372d4}{save\+Points}} () const
+\begin{DoxyCompactList}\small\item\em Points in time that Probability\+Maps get saved for. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a8de96c880574ff83be4194aa59808c28}{start\+Time}} () const
+\begin{DoxyCompactList}\small\item\em Time that simulations start. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_ab47fe5876d9df50c36d1a4e5360b507f}{size}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Number of Scenarios in this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1util_1_1SafeVector}{util\+::\+Safe\+Vector}} \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration_a14aa2ff7be44a94aa6fdf68aefcdd117}{final\+Sizes}} () const
+\begin{DoxyCompactList}\small\item\em Safe\+Vector of sizes that Scenarios have resulted in. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a full set of simulations using all available weather streams. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_aa2f611c3fab6d5d4b80aff1173befcfa}\label{classtbd_1_1sim_1_1Iteration_aa2f611c3fab6d5d4b80aff1173befcfa}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!Iteration@{Iteration}}
+\index{Iteration@{Iteration}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{Iteration()}{Iteration()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Iteration\+::\+Iteration (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} $\ast$ $>$}]{scenarios }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}, {\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scenarios} & List of Scenarios to wrap into \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a06fc1f4c0d6af8cd7c460911fc8927b6}\label{classtbd_1_1sim_1_1Iteration_a06fc1f4c0d6af8cd7c460911fc8927b6}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!Iteration@{Iteration}}
+\index{Iteration@{Iteration}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{Iteration()}{Iteration()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Iteration\+::\+Iteration (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} to copy form \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a966843cf094a213ad63b3bc7119a3438}\label{classtbd_1_1sim_1_1Iteration_a966843cf094a213ad63b3bc7119a3438}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!Iteration@{Iteration}}
+\index{Iteration@{Iteration}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{Iteration()}{Iteration()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Iteration\+::\+Iteration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} to move from \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a48b45abc4da737d69e67689ae91f7059}\label{classtbd_1_1sim_1_1Iteration_a48b45abc4da737d69e67689ae91f7059}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!cancel@{cancel}}
+\index{cancel@{cancel}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{cancel()}{cancel()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Iteration\+::cancel (\begin{DoxyParamCaption}\item[{bool}]{show\+\_\+warning }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+Mark as cancelled so it stops computing on next event. 
+\begin{DoxyParams}{Parameters}
+{\em Whether} & to log a warning about this being cancelled \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a14aa2ff7be44a94aa6fdf68aefcdd117}\label{classtbd_1_1sim_1_1Iteration_a14aa2ff7be44a94aa6fdf68aefcdd117}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!finalSizes@{finalSizes}}
+\index{finalSizes@{finalSizes}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{finalSizes()}{finalSizes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1util_1_1SafeVector}{util\+::\+Safe\+Vector}} tbd\+::sim\+::\+Iteration\+::final\+Sizes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Safe\+Vector of sizes that Scenarios have resulted in. 
+
+\begin{DoxyReturn}{Returns}
+Safe\+Vector of sizes that Scenarios have resulted in 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a2cb00f89cb6d786e4c55be99404226b5}\label{classtbd_1_1sim_1_1Iteration_a2cb00f89cb6d786e4c55be99404226b5}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!getScenarios@{getScenarios}}
+\index{getScenarios@{getScenarios}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{getScenarios()}{getScenarios()}}
+{\footnotesize\ttfamily const vector$<$\mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}}$\ast$$>$\& tbd\+::sim\+::\+Iteration\+::get\+Scenarios (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+List of Scenarios this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} contains. 
+
+\begin{DoxyReturn}{Returns}
+List of Scenarios this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} contains 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a093f81a45ec2392a461c6dd2dc523e66}\label{classtbd_1_1sim_1_1Iteration_a093f81a45ec2392a461c6dd2dc523e66}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}}\& tbd\+::sim\+::\+Iteration\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Copy assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a922791a6ecf10731dad0fccac3a6fc56}\label{classtbd_1_1sim_1_1Iteration_a922791a6ecf10731dad0fccac3a6fc56}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}}\& tbd\+::sim\+::\+Iteration\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a581f2e1b4851a26961f2e876ad8a1431}\label{classtbd_1_1sim_1_1Iteration_a581f2e1b4851a26961f2e876ad8a1431}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!reset@{reset}}
+\index{reset@{reset}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} $\ast$ tbd\+::sim\+::\+Iteration\+::reset (\begin{DoxyParamCaption}\item[{mt19937 $\ast$}]{mt\+\_\+extinction,  }\item[{mt19937 $\ast$}]{mt\+\_\+spread }\end{DoxyParamCaption})}
+
+
+
+Create new thresholds for use in each \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mt\+\_\+extinction} & Extinction thresholds \\
+\hline
+{\em mt\+\_\+spread} & Spread thresholds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_acf2e449b096ebce54080de89adc372d4}\label{classtbd_1_1sim_1_1Iteration_acf2e449b096ebce54080de89adc372d4}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!savePoints@{savePoints}}
+\index{savePoints@{savePoints}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{savePoints()}{savePoints()}}
+{\footnotesize\ttfamily vector$<$ double $>$ tbd\+::sim\+::\+Iteration\+::save\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Points in time that Probability\+Maps get saved for. 
+
+\begin{DoxyReturn}{Returns}
+Points in time that Probability\+Maps get saved for 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_ab47fe5876d9df50c36d1a4e5360b507f}\label{classtbd_1_1sim_1_1Iteration_ab47fe5876d9df50c36d1a4e5360b507f}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!size@{size}}
+\index{size@{size}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily size\+\_\+t tbd\+::sim\+::\+Iteration\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Number of Scenarios in this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}}. 
+
+\begin{DoxyReturn}{Returns}
+Number of Scenarios in this \mbox{\hyperlink{classtbd_1_1sim_1_1Iteration}{Iteration}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1Iteration_a8de96c880574ff83be4194aa59808c28}\label{classtbd_1_1sim_1_1Iteration_a8de96c880574ff83be4194aa59808c28}} 
+\index{tbd::sim::Iteration@{tbd::sim::Iteration}!startTime@{startTime}}
+\index{startTime@{startTime}!tbd::sim::Iteration@{tbd::sim::Iteration}}
+\doxysubsubsection{\texorpdfstring{startTime()}{startTime()}}
+{\footnotesize\ttfamily double tbd\+::sim\+::\+Iteration\+::start\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Time that simulations start. 
+
+\begin{DoxyReturn}{Returns}
+Time that simulations start 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Iteration.\+h\item 
+src/Iteration.\+cpp\end{DoxyCompactItemize}

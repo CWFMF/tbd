@@ -1,6 +1,0 @@
-<map id="tbd::data::ConstantGrid::at" name="tbd::data::ConstantGrid::at">
-<area shape="rect" id="node1" title="Value for grid at given Location." alt="" coords="207,78,377,105"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a2cad6cce4fa2903074c7ddc1b9e6694f" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="7,5,157,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="7,71,157,112"/>
-<area shape="rect" id="node4" href="$classtbd_1_1data_1_1ConstantGrid.html#a21c0aa9f922cace5ad706d67b0d1176d" title="Save contents to .asc file." alt="" coords="5,136,159,177"/>
-</map>

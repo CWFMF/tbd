@@ -1,5 +1,0 @@
-<map id="tbd::sim::Scenario::columns" name="tbd::sim::Scenario::columns">
-<area shape="rect" id="node1" title="Number of columns." alt="" coords="5,5,129,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a598f8d4a37266c70b6e22f9b27203178" title="Number of columns in extent." alt="" coords="177,13,340,39"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#ae1c001dcceae484571a08b26f4a9bdfe" title="Number of columns in grid." alt="" coords="388,5,537,47"/>
-</map>

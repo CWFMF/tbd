@@ -1,0 +1,82 @@
+\hypertarget{classtbd_1_1sim_1_1TestWeather}{}\doxysection{tbd\+::sim\+::Test\+Weather Class Reference}
+\label{classtbd_1_1sim_1_1TestWeather}\index{tbd::sim::TestWeather@{tbd::sim::TestWeather}}
+
+
+A Fire\+Weather stream with the same value for every date and time.  
+
+
+
+
+Inheritance diagram for tbd\+::sim\+::Test\+Weather\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classtbd_1_1sim_1_1TestWeather__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::sim\+::Test\+Weather\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classtbd_1_1sim_1_1TestWeather__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1TestWeather_af1c52dcf5b8d9f85317b7751b5077982}\label{classtbd_1_1sim_1_1TestWeather_af1c52dcf5b8d9f85317b7751b5077982}} 
+{\bfseries Test\+Weather} (const \mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1TestWeather_a296e254e70f13426d966f038802ff8d9}\label{classtbd_1_1sim_1_1TestWeather_a296e254e70f13426d966f038802ff8d9}} 
+{\bfseries Test\+Weather} (\mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1TestWeather_ae2ea424b087e92a330f624aff63a112c}\label{classtbd_1_1sim_1_1TestWeather_ae2ea424b087e92a330f624aff63a112c}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1TestWeather_a9221dcd031fb4ab01603e7b8c25fc30a}\label{classtbd_1_1sim_1_1TestWeather_a9221dcd031fb4ab01603e7b8c25fc30a}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather}{Test\+Weather}} \&\&rhs)=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1TestWeather_ae65a5a92f3d5149ceba834d603881ffa}{Test\+Weather}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{fuel\+::\+Fuel\+Type}} $\ast$fuel, const Day start\+\_\+date, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{wx\+::\+Dc}} \&dc, const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{wx\+::\+Bui}} \&bui, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{wx\+::\+Dmc}} \&dmc, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{wx\+::\+Ffmc}} \&ffmc, const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{wx\+::\+Wind}} \&wind)
+\begin{DoxyCompactList}\small\item\em A Constant weather stream with only one possible fuel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A Fire\+Weather stream with the same value for every date and time. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1TestWeather_ae65a5a92f3d5149ceba834d603881ffa}\label{classtbd_1_1sim_1_1TestWeather_ae65a5a92f3d5149ceba834d603881ffa}} 
+\index{tbd::sim::TestWeather@{tbd::sim::TestWeather}!TestWeather@{TestWeather}}
+\index{TestWeather@{TestWeather}!tbd::sim::TestWeather@{tbd::sim::TestWeather}}
+\doxysubsubsection{\texorpdfstring{TestWeather()}{TestWeather()}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Test\+Weather\+::\+Test\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{fuel\+::\+Fuel\+Type}} $\ast$}]{fuel,  }\item[{const Day}]{start\+\_\+date,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{wx\+::\+Dc}} \&}]{dc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{wx\+::\+Bui}} \&}]{bui,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{wx\+::\+Dmc}} \&}]{dmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{wx\+::\+Ffmc}} \&}]{ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{wx\+::\+Wind}} \&}]{wind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A Constant weather stream with only one possible fuel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fuel} & Fuel to use \\
+\hline
+{\em start\+\_\+date} & Start date for stream \\
+\hline
+{\em dc} & Drought Code \\
+\hline
+{\em bui} & Build-\/up Index \\
+\hline
+{\em dmc} & Duff Moisture Code \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code \\
+\hline
+{\em wind} & Wind \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Test.\+cpp\end{DoxyCompactItemize}

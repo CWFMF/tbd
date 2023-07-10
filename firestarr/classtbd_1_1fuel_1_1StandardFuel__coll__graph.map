@@ -1,0 +1,5 @@
+<map id="tbd::fuel::StandardFuel&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth &gt;" name="tbd::fuel::StandardFuel&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth &gt;">
+<area shape="rect" id="node1" title="A FuelBase made of a standard fuel type." alt="" coords="5,184,231,255"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="13,80,223,136"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="55,5,181,32"/>
+</map>

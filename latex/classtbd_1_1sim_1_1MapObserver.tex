@@ -1,0 +1,167 @@
+\hypertarget{classtbd_1_1sim_1_1MapObserver}{}\doxysection{tbd\+::sim\+::Map\+Observer$<$ T $>$ Class Template Reference}
+\label{classtbd_1_1sim_1_1MapObserver}\index{tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}}
+
+
+An \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} that tracks notification data using a Grid\+Map.  
+
+
+
+
+{\ttfamily \#include $<$Observer.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::sim\+::Map\+Observer$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classtbd_1_1sim_1_1MapObserver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::sim\+::Map\+Observer$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classtbd_1_1sim_1_1MapObserver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a33b84f0024206b9e7f926276e762de6d}\label{classtbd_1_1sim_1_1MapObserver_a33b84f0024206b9e7f926276e762de6d}} 
+{\bfseries Map\+Observer} (const \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a383f8f8131f8ac4745c5d901e706bb04}\label{classtbd_1_1sim_1_1MapObserver_a383f8f8131f8ac4745c5d901e706bb04}} 
+{\bfseries Map\+Observer} (\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a3d02c9763850c062636a05959c191bad}\label{classtbd_1_1sim_1_1MapObserver_a3d02c9763850c062636a05959c191bad}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a7637d71f856ab3eb088d5cff00798c6b}\label{classtbd_1_1sim_1_1MapObserver_a7637d71f856ab3eb088d5cff00798c6b}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_acdeb3af3bd82b414aaa85d4ff2876a77}{Map\+Observer}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&scenario, T nodata, string suffix)
+\begin{DoxyCompactList}\small\item\em Keeps observations in a map. \end{DoxyCompactList}\item 
+virtual T \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a84943329d0691ccbcf9a88e9676dfd96}{get\+Value}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&event) const =0
+\begin{DoxyCompactList}\small\item\em Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}{handle\+Event}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&event) override
+\begin{DoxyCompactList}\small\item\em Handle given event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}{save}} (const string \&dir, const string \&base\+\_\+name) const override
+\begin{DoxyCompactList}\small\item\em Save observations. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}\label{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}} 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}{reset}} () noexcept override
+\begin{DoxyCompactList}\small\item\em Clear all observations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\newline
+class tbd\+::sim\+::\+Map\+Observer$<$ T $>$}
+
+An \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} that tracks notification data using a Grid\+Map. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of map that is being tracked \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_acdeb3af3bd82b414aaa85d4ff2876a77}\label{classtbd_1_1sim_1_1MapObserver_acdeb3af3bd82b414aaa85d4ff2876a77}} 
+\index{tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}!MapObserver@{MapObserver}}
+\index{MapObserver@{MapObserver}!tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{MapObserver()}{MapObserver()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{tbd\+::sim\+::\+Map\+Observer}}$<$ T $>$\+::\mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{Map\+Observer}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&}]{scenario,  }\item[{T}]{nodata,  }\item[{string}]{suffix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Keeps observations in a map. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scenario} & \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} to observe \\
+\hline
+{\em nodata} & Value to use for no data \\
+\hline
+{\em suffix} & Suffix to use on saved file \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a84943329d0691ccbcf9a88e9676dfd96}\label{classtbd_1_1sim_1_1MapObserver_a84943329d0691ccbcf9a88e9676dfd96}} 
+\index{tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}!getValue@{getValue}}
+\index{getValue@{getValue}!tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+virtual T \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{tbd\+::sim\+::\+Map\+Observer}}$<$ T $>$\+::get\+Value (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&}]{event }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver_aa2cd53cdcd9f2adca1b1b96ee57b5ff8}{tbd\+::sim\+::\+Source\+Observer}}, and \mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver_aa819b6331f35275306f6d7ca3ca13ac3}{tbd\+::sim\+::\+Arrival\+Observer}}.
+
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}\label{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}} 
+\index{tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}!handleEvent@{handleEvent}}
+\index{handleEvent@{handleEvent}!tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{handleEvent()}{handleEvent()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{tbd\+::sim\+::\+Map\+Observer}}$<$ T $>$\+::handle\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Handle given event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} to handle \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_a75272d1deaa290b86c8356f390f3f835}{tbd\+::sim\+::\+I\+Observer}}.
+
+\mbox{\Hypertarget{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}\label{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}} 
+\index{tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}!save@{save}}
+\index{save@{save}!tbd::sim::MapObserver$<$ T $>$@{tbd::sim::MapObserver$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver}{tbd\+::sim\+::\+Map\+Observer}}$<$ T $>$\+::save (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Save observations. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save to \\
+\hline
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_a93be5cdb4752c886f589ae421dfbea86}{tbd\+::sim\+::\+I\+Observer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Observer.\+h\end{DoxyCompactItemize}

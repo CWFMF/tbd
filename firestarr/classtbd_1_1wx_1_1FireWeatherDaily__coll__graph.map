@@ -1,0 +1,4 @@
+<map id="tbd::wx::FireWeatherDaily" name="tbd::wx::FireWeatherDaily">
+<area shape="rect" id="node1" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="19,5,158,32"/>
+</map>

@@ -1,5 +1,0 @@
-<map id="tbd::sim::IntensityMap::canBurn" name="tbd::sim::IntensityMap::canBurn">
-<area shape="rect" id="node1" title="Whether or not the Cell can burn." alt="" coords="5,5,152,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IntensityMap.html#ac948481253fcef3538e6ad63d956a697" title="Whether or not the Cell with the given hash can burn." alt="" coords="200,5,347,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="395,5,521,47"/>
-</map>

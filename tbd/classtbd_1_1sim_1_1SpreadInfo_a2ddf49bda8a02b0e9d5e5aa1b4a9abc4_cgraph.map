@@ -1,5 +1,0 @@
-<map id="tbd::sim::SpreadInfo::ffmcEffect" name="tbd::sim::SpreadInfo::ffmcEffect">
-<area shape="rect" id="node1" title="FFMC effect used for spread." alt="" coords="5,39,141,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FwiWeather.html#a629da6a9e31fa74c85c275afc626351c" title="Ffmc effect used for spread." alt="" coords="189,5,327,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="190,71,326,112"/>
-</map>

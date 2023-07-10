@@ -1,0 +1,103 @@
+\hypertarget{classtbd_1_1sim_1_1ArrivalObserver}{}\doxysection{tbd\+::sim\+::Arrival\+Observer Class Reference}
+\label{classtbd_1_1sim_1_1ArrivalObserver}\index{tbd::sim::ArrivalObserver@{tbd::sim::ArrivalObserver}}
+
+
+Tracks when fire initially arrives in a Cell.  
+
+
+
+
+{\ttfamily \#include $<$Observer.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::sim\+::Arrival\+Observer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classtbd_1_1sim_1_1ArrivalObserver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::sim\+::Arrival\+Observer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classtbd_1_1sim_1_1ArrivalObserver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_afc4fe6a8b332dbd8aa7a10093b2da93d}\label{classtbd_1_1sim_1_1ArrivalObserver_afc4fe6a8b332dbd8aa7a10093b2da93d}} 
+{\bfseries Arrival\+Observer} (const \mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_af550e2661f84b2e78b14145a946e22bb}\label{classtbd_1_1sim_1_1ArrivalObserver_af550e2661f84b2e78b14145a946e22bb}} 
+{\bfseries Arrival\+Observer} (\mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_ae626923e5e6abf05492583cf6cf94317}\label{classtbd_1_1sim_1_1ArrivalObserver_ae626923e5e6abf05492583cf6cf94317}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_ad889e39ff00010de392332082c61a26c}\label{classtbd_1_1sim_1_1ArrivalObserver_ad889e39ff00010de392332082c61a26c}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver}{Arrival\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver_ac003757547121f04221feeab0f027ef5}{Arrival\+Observer}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&scenario)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1sim_1_1ArrivalObserver_aa819b6331f35275306f6d7ca3ca13ac3}{get\+Value}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&event) const noexcept override
+\begin{DoxyCompactList}\small\item\em Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Tracks when fire initially arrives in a Cell. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_ac003757547121f04221feeab0f027ef5}\label{classtbd_1_1sim_1_1ArrivalObserver_ac003757547121f04221feeab0f027ef5}} 
+\index{tbd::sim::ArrivalObserver@{tbd::sim::ArrivalObserver}!ArrivalObserver@{ArrivalObserver}}
+\index{ArrivalObserver@{ArrivalObserver}!tbd::sim::ArrivalObserver@{tbd::sim::ArrivalObserver}}
+\doxysubsubsection{\texorpdfstring{ArrivalObserver()}{ArrivalObserver()}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Arrival\+Observer\+::\+Arrival\+Observer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&}]{scenario }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scenario} & \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} to track \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ArrivalObserver_aa819b6331f35275306f6d7ca3ca13ac3}\label{classtbd_1_1sim_1_1ArrivalObserver_aa819b6331f35275306f6d7ca3ca13ac3}} 
+\index{tbd::sim::ArrivalObserver@{tbd::sim::ArrivalObserver}!getValue@{getValue}}
+\index{getValue@{getValue}!tbd::sim::ArrivalObserver@{tbd::sim::ArrivalObserver}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily double tbd\+::sim\+::\+Arrival\+Observer\+::get\+Value (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&}]{event }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a84943329d0691ccbcf9a88e9676dfd96}{tbd\+::sim\+::\+Map\+Observer$<$ double $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Observer.\+h\item 
+src/Observer.\+cpp\end{DoxyCompactItemize}

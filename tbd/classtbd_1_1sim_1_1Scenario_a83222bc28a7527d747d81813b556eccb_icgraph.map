@@ -1,5 +1,0 @@
-<map id="tbd::sim::Scenario::total_steps" name="tbd::sim::Scenario::total_steps">
-<area shape="rect" id="node1" title="Total number of spread events for all Scenarios." alt="" coords="343,5,467,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="104,13,295,39"/>
-<area shape="rect" id="node3" href="$Main_8cpp.html#aee608aedd5b0b58f2966c2ff15101925" title=" " alt="" coords="5,13,56,39"/>
-</map>

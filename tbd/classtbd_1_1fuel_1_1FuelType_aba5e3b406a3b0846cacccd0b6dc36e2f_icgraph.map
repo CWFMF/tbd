@@ -1,4 +1,0 @@
-<map id="tbd::fuel::FuelType::criticalSurfaceIntensity" name="tbd::fuel::FuelType::criticalSurfaceIntensity">
-<area shape="rect" id="node1" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="213,5,373,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#a385c57f4cc200a5522528760fbb01f0b" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="5,5,165,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="tbd::sim::CriticalSection::~CriticalSection" name="tbd::sim::CriticalSection::~CriticalSection">
-<area shape="rect" id="node1" title=" " alt="" coords="5,27,163,69"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="221,5,339,32"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Semaphore.html#a05f4e9ef60d0d21d8783c4ba014f4e61" title="Notify something that&#39;s waiting so it can run." alt="" coords="211,57,349,98"/>
-</map>

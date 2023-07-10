@@ -1,5 +1,0 @@
-<map id="tbd::logging::output" name="tbd::logging::output">
-<area shape="rect" id="node1" title="Output a message to the log." alt="" coords="5,35,135,61"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="184,5,303,32"/>
-<area shape="rect" id="node3" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="183,57,304,98"/>
-</map>

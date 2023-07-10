@@ -1,4 +1,0 @@
-<map id="tbd::fuel::FuelNonMixed::calculateRos" name="tbd::fuel::FuelNonMixed::calculateRos">
-<area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="209,5,365,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelNonMixed.html#a08f36446b0ab874030cf35318bf92117" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,161,47"/>
-</map>

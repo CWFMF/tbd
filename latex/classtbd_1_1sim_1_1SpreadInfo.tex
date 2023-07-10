@@ -1,0 +1,360 @@
+\hypertarget{classtbd_1_1sim_1_1SpreadInfo}{}\doxysection{tbd\+::sim\+::Spread\+Info Class Reference}
+\label{classtbd_1_1sim_1_1SpreadInfo}\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+
+
+Information regarding spread within a Cell for a specific \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} and time.  
+
+
+
+
+{\ttfamily \#include $<$Fire\+Spread.\+h$>$}
+
+
+
+Collaboration diagram for tbd\+::sim\+::Spread\+Info\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{classtbd_1_1sim_1_1SpreadInfo__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_ae5688bff18b520cb547d77eebfff4848}{Spread\+Info}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&scenario, double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a19d8886f94eb541314b4ca1467567d0c}{time}}, const \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{topo\+::\+Cell}} \&cell, int \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a531f07cd41d8492a60692b0ab696a6e2}{nd}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} $\ast$\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_adeb1b2cb5925d7b23df42a14392ba058}{weather}})
+\begin{DoxyCompactList}\small\item\em Calculate fire spread for time and place. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_abc0a1e5bebb16d315b1dfec5007cd1b8}\label{classtbd_1_1sim_1_1SpreadInfo_abc0a1e5bebb16d315b1dfec5007cd1b8}} 
+constexpr {\bfseries Spread\+Info} (\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a2ebdeffd32692bbf744fcbc0b13290c5}\label{classtbd_1_1sim_1_1SpreadInfo_a2ebdeffd32692bbf744fcbc0b13290c5}} 
+constexpr {\bfseries Spread\+Info} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a1b4900b5afba14c0f86235d467f7dd9f}\label{classtbd_1_1sim_1_1SpreadInfo_a1b4900b5afba14c0f86235d467f7dd9f}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_ab07f4ddf0cdaf5c381eb3a531c850174}\label{classtbd_1_1sim_1_1SpreadInfo_ab07f4ddf0cdaf5c381eb3a531c850174}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&rhs) noexcept=delete
+\item 
+double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a432122f374207d09fd557d61efb4508e}{max\+Intensity}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Maximum intensity in any direction for spread (k\+W/m) \end{DoxyCompactList}\item 
+Offset\+Set \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a532c8079b41c08d2304cc287613b3e5d}{offsets}} () const
+\begin{DoxyCompactList}\small\item\em Offsets from origin point that represent spread under these conditions. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_abce1e8525bf40a1f280ed20d82a52adc}{is\+Not\+Spreading}} () const
+\begin{DoxyCompactList}\small\item\em Whether or not there is no spread. \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a531f07cd41d8492a60692b0ab696a6e2}{nd}} () const
+\begin{DoxyCompactList}\small\item\em Difference between date and the date of minimum foliar moisture content. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} $\ast$ \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_adeb1b2cb5925d7b23df42a14392ba058}{weather}} () const
+\begin{DoxyCompactList}\small\item\em Fwi\+Weather used for spread. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{wx\+::\+Wind}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a562701c7fe4064b248d9fef7d3d00281}{wind}} () const
+\begin{DoxyCompactList}\small\item\em Wind used for spread. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{wx\+::\+Ffmc}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a66d454133898096e1e8f5d4eff671b7a}{ffmc}} () const
+\begin{DoxyCompactList}\small\item\em Fine Fuel Moisture Code used for spread. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{wx\+::\+Bui}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a2755dfde763e1e6adcd3bdf97bd2ad15}{bui}} () const
+\begin{DoxyCompactList}\small\item\em Build-\/up Index used for spread. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{wx\+::\+Dmc}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_aba1d27e600fec5cc75ec2f3d2f57aa86}{dmc}} () const
+\begin{DoxyCompactList}\small\item\em Duff Moisture Code used for spread. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{wx\+::\+Dc}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_abfee5ca0617380b5da032e7f4916cb98}{dc}} () const
+\begin{DoxyCompactList}\small\item\em Drought Code used for spread. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a2ddf49bda8a02b0e9d5e5aa1b4a9abc4}{ffmc\+Effect}} () const
+\begin{DoxyCompactList}\small\item\em F\+F\+MC effect used for spread. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a19d8886f94eb541314b4ca1467567d0c}{time}} () const
+\begin{DoxyCompactList}\small\item\em Time used for spread. \end{DoxyCompactList}\item 
+constexpr Slope\+Size \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_af2567efd417d589cf26daa916789b58f}{percent\+Slope}} () const
+\begin{DoxyCompactList}\small\item\em Slope used for spread (\%) \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_ab25f0d5e5a8f93ee61d229468c3822e6}{head\+Ros}} () const
+\begin{DoxyCompactList}\small\item\em Head fire rate of spread (m/min) \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_ac42235946d797156fcf06096d01e55e0}{slope\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Slope factor calculated from percent slope. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a1e070ec9c7355a19e6ee3d58d623f14b}{foliar\+Moisture}} () const
+\begin{DoxyCompactList}\small\item\em Calculate foliar moisture. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a987c655dccedd3b1a8535ee38e1b7ae3}{is\+Invalid}} () const
+\begin{DoxyCompactList}\small\item\em Whether or not there is no spread for given conditions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a6d91ab7290f8c82c8423c3903a9bd168}{calculate\+Ros\+From\+Threshold}} (const double threshold)
+\begin{DoxyCompactList}\small\item\em Determine rate of spread from probability of spread threshold. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a289a7d02cc62070b39f2dff4a4b37465}\label{classtbd_1_1sim_1_1SpreadInfo_a289a7d02cc62070b39f2dff4a4b37465}} 
+static const Slope\+Table\+Array \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo_a289a7d02cc62070b39f2dff4a4b37465}{Slope\+Table}} = make\+\_\+slope\+\_\+table()
+\begin{DoxyCompactList}\small\item\em Lookup table for Slope Factor calculated from Percent Slope. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Information regarding spread within a Cell for a specific \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} and time. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_ae5688bff18b520cb547d77eebfff4848}\label{classtbd_1_1sim_1_1SpreadInfo_ae5688bff18b520cb547d77eebfff4848}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!SpreadInfo@{SpreadInfo}}
+\index{SpreadInfo@{SpreadInfo}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{SpreadInfo()}{SpreadInfo()}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Spread\+Info\+::\+Spread\+Info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&}]{scenario,  }\item[{double}]{time,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{topo\+::\+Cell}} \&}]{cell,  }\item[{int}]{nd,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} $\ast$}]{weather }\end{DoxyParamCaption})}
+
+
+
+Calculate fire spread for time and place. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scenario} & \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} this is spreading in \\
+\hline
+{\em time} & Time spread is occurring \\
+\hline
+{\em cell} & Cell spread is occurring in \\
+\hline
+{\em nd} & Difference between date and the date of minimum foliar moisture content \\
+\hline
+{\em weather} & Fwi\+Weather to use for calculations \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a2755dfde763e1e6adcd3bdf97bd2ad15}\label{classtbd_1_1sim_1_1SpreadInfo_a2755dfde763e1e6adcd3bdf97bd2ad15}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!bui@{bui}}
+\index{bui@{bui}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{bui()}{bui()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{wx\+::\+Bui}}\& tbd\+::sim\+::\+Spread\+Info\+::bui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Build-\/up Index used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Build-\/up Index used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a6d91ab7290f8c82c8423c3903a9bd168}\label{classtbd_1_1sim_1_1SpreadInfo_a6d91ab7290f8c82c8423c3903a9bd168}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!calculateRosFromThreshold@{calculateRosFromThreshold}}
+\index{calculateRosFromThreshold@{calculateRosFromThreshold}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{calculateRosFromThreshold()}{calculateRosFromThreshold()}}
+{\footnotesize\ttfamily static constexpr double tbd\+::sim\+::\+Spread\+Info\+::calculate\+Ros\+From\+Threshold (\begin{DoxyParamCaption}\item[{const double}]{threshold }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+Determine rate of spread from probability of spread threshold. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em threshold} & Probability of spread threshold \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Rate of spread at given threshold (m/min) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_abfee5ca0617380b5da032e7f4916cb98}\label{classtbd_1_1sim_1_1SpreadInfo_abfee5ca0617380b5da032e7f4916cb98}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!dc@{dc}}
+\index{dc@{dc}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{dc()}{dc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{wx\+::\+Dc}}\& tbd\+::sim\+::\+Spread\+Info\+::dc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Drought Code used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Drought Code used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_aba1d27e600fec5cc75ec2f3d2f57aa86}\label{classtbd_1_1sim_1_1SpreadInfo_aba1d27e600fec5cc75ec2f3d2f57aa86}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!dmc@{dmc}}
+\index{dmc@{dmc}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{dmc()}{dmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{wx\+::\+Dmc}}\& tbd\+::sim\+::\+Spread\+Info\+::dmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Duff Moisture Code used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Duff Moisture Code used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a66d454133898096e1e8f5d4eff671b7a}\label{classtbd_1_1sim_1_1SpreadInfo_a66d454133898096e1e8f5d4eff671b7a}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!ffmc@{ffmc}}
+\index{ffmc@{ffmc}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{ffmc()}{ffmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{wx\+::\+Ffmc}}\& tbd\+::sim\+::\+Spread\+Info\+::ffmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Fine Fuel Moisture Code used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Fine Fuel Moisture Code used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a2ddf49bda8a02b0e9d5e5aa1b4a9abc4}\label{classtbd_1_1sim_1_1SpreadInfo_a2ddf49bda8a02b0e9d5e5aa1b4a9abc4}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!ffmcEffect@{ffmcEffect}}
+\index{ffmcEffect@{ffmcEffect}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{ffmcEffect()}{ffmcEffect()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Spread\+Info\+::ffmc\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+F\+F\+MC effect used for spread. 
+
+\begin{DoxyReturn}{Returns}
+F\+F\+MC effect used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a1e070ec9c7355a19e6ee3d58d623f14b}\label{classtbd_1_1sim_1_1SpreadInfo_a1e070ec9c7355a19e6ee3d58d623f14b}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!foliarMoisture@{foliarMoisture}}
+\index{foliarMoisture@{foliarMoisture}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{foliarMoisture()}{foliarMoisture()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Spread\+Info\+::foliar\+Moisture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Calculate foliar moisture. 
+
+\begin{DoxyReturn}{Returns}
+Calculated foliar moisture 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_ab25f0d5e5a8f93ee61d229468c3822e6}\label{classtbd_1_1sim_1_1SpreadInfo_ab25f0d5e5a8f93ee61d229468c3822e6}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!headRos@{headRos}}
+\index{headRos@{headRos}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{headRos()}{headRos()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Spread\+Info\+::head\+Ros (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Head fire rate of spread (m/min) 
+
+\begin{DoxyReturn}{Returns}
+Head fire rate of spread (m/min) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a987c655dccedd3b1a8535ee38e1b7ae3}\label{classtbd_1_1sim_1_1SpreadInfo_a987c655dccedd3b1a8535ee38e1b7ae3}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!isInvalid@{isInvalid}}
+\index{isInvalid@{isInvalid}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{isInvalid()}{isInvalid()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::sim\+::\+Spread\+Info\+::is\+Invalid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Whether or not there is no spread for given conditions. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not there is no spread for given conditions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_abce1e8525bf40a1f280ed20d82a52adc}\label{classtbd_1_1sim_1_1SpreadInfo_abce1e8525bf40a1f280ed20d82a52adc}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!isNotSpreading@{isNotSpreading}}
+\index{isNotSpreading@{isNotSpreading}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{isNotSpreading()}{isNotSpreading()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::sim\+::\+Spread\+Info\+::is\+Not\+Spreading (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Whether or not there is no spread. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not there is no spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a432122f374207d09fd557d61efb4508e}\label{classtbd_1_1sim_1_1SpreadInfo_a432122f374207d09fd557d61efb4508e}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!maxIntensity@{maxIntensity}}
+\index{maxIntensity@{maxIntensity}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{maxIntensity()}{maxIntensity()}}
+{\footnotesize\ttfamily double tbd\+::sim\+::\+Spread\+Info\+::max\+Intensity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Maximum intensity in any direction for spread (k\+W/m) 
+
+\begin{DoxyReturn}{Returns}
+Maximum intensity in any direction for spread (k\+W/m) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a531f07cd41d8492a60692b0ab696a6e2}\label{classtbd_1_1sim_1_1SpreadInfo_a531f07cd41d8492a60692b0ab696a6e2}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!nd@{nd}}
+\index{nd@{nd}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{nd()}{nd()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Spread\+Info\+::nd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Difference between date and the date of minimum foliar moisture content. 
+
+\begin{DoxyReturn}{Returns}
+Difference between date and the date of minimum foliar moisture content 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a532c8079b41c08d2304cc287613b3e5d}\label{classtbd_1_1sim_1_1SpreadInfo_a532c8079b41c08d2304cc287613b3e5d}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!offsets@{offsets}}
+\index{offsets@{offsets}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{offsets()}{offsets()}}
+{\footnotesize\ttfamily Offset\+Set tbd\+::sim\+::\+Spread\+Info\+::offsets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Offsets from origin point that represent spread under these conditions. 
+
+\begin{DoxyReturn}{Returns}
+Offsets from origin point that represent spread under these conditions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_af2567efd417d589cf26daa916789b58f}\label{classtbd_1_1sim_1_1SpreadInfo_af2567efd417d589cf26daa916789b58f}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!percentSlope@{percentSlope}}
+\index{percentSlope@{percentSlope}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{percentSlope()}{percentSlope()}}
+{\footnotesize\ttfamily constexpr Slope\+Size tbd\+::sim\+::\+Spread\+Info\+::percent\+Slope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Slope used for spread (\%) 
+
+\begin{DoxyReturn}{Returns}
+Slope used for spread (\%) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_ac42235946d797156fcf06096d01e55e0}\label{classtbd_1_1sim_1_1SpreadInfo_ac42235946d797156fcf06096d01e55e0}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!slopeFactor@{slopeFactor}}
+\index{slopeFactor@{slopeFactor}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{slopeFactor()}{slopeFactor()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Spread\+Info\+::slope\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Slope factor calculated from percent slope. 
+
+\begin{DoxyReturn}{Returns}
+Slope factor calculated from percent slope 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a19d8886f94eb541314b4ca1467567d0c}\label{classtbd_1_1sim_1_1SpreadInfo_a19d8886f94eb541314b4ca1467567d0c}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!time@{time}}
+\index{time@{time}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{time()}{time()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Spread\+Info\+::time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Time used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Time used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_adeb1b2cb5925d7b23df42a14392ba058}\label{classtbd_1_1sim_1_1SpreadInfo_adeb1b2cb5925d7b23df42a14392ba058}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!weather@{weather}}
+\index{weather@{weather}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{weather()}{weather()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}}$\ast$ tbd\+::sim\+::\+Spread\+Info\+::weather (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Fwi\+Weather used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Fwi\+Weather used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SpreadInfo_a562701c7fe4064b248d9fef7d3d00281}\label{classtbd_1_1sim_1_1SpreadInfo_a562701c7fe4064b248d9fef7d3d00281}} 
+\index{tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}!wind@{wind}}
+\index{wind@{wind}!tbd::sim::SpreadInfo@{tbd::sim::SpreadInfo}}
+\doxysubsubsection{\texorpdfstring{wind()}{wind()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{wx\+::\+Wind}}\& tbd\+::sim\+::\+Spread\+Info\+::wind (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Wind used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Wind used for spread 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Fire\+Spread.\+h\item 
+src/Fire\+Spread.\+cpp\end{DoxyCompactItemize}

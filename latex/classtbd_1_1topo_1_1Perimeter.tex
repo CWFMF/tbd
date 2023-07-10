@@ -1,0 +1,101 @@
+\hypertarget{classtbd_1_1topo_1_1Perimeter}{}\doxysection{tbd\+::topo\+::Perimeter Class Reference}
+\label{classtbd_1_1topo_1_1Perimeter}\index{tbd::topo::Perimeter@{tbd::topo::Perimeter}}
+
+
+\mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} for an existing fire to initialize a simulation with.  
+
+
+
+
+{\ttfamily \#include $<$Perimeter.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter_a541669edf82f5bc50c1d8ecf98c7093c}{Perimeter}} (const string \&perim, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&point, const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&env)
+\begin{DoxyCompactList}\small\item\em Initialize perimeter from a file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter_a9a3c677ecad925b4fd8b02c2e95c0ddd}{Perimeter}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&location, size\+\_\+t size, const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&env)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} of the given size at the given \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}}. \end{DoxyCompactList}\item 
+const list$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} $>$ \& \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter_a36e9cc311e057e7470c0e3c65a82567a}{burned}} () const noexcept
+\begin{DoxyCompactList}\small\item\em List of all burned Locations. \end{DoxyCompactList}\item 
+const list$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} $>$ \& \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter_a08769e9487ce35a06c4f8759fe423089}{edge}} () const noexcept
+\begin{DoxyCompactList}\small\item\em List of all Locations along the edge of this \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} for an existing fire to initialize a simulation with. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Perimeter_a541669edf82f5bc50c1d8ecf98c7093c}\label{classtbd_1_1topo_1_1Perimeter_a541669edf82f5bc50c1d8ecf98c7093c}} 
+\index{tbd::topo::Perimeter@{tbd::topo::Perimeter}!Perimeter@{Perimeter}}
+\index{Perimeter@{Perimeter}!tbd::topo::Perimeter@{tbd::topo::Perimeter}}
+\doxysubsubsection{\texorpdfstring{Perimeter()}{Perimeter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Perimeter\+::\+Perimeter (\begin{DoxyParamCaption}\item[{const string \&}]{perim,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{Point}} \&}]{point,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&}]{env }\end{DoxyParamCaption})}
+
+
+
+Initialize perimeter from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perim} & File to read from \\
+\hline
+{\em point} & Origin of fire \\
+\hline
+{\em env} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to apply \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Perimeter_a9a3c677ecad925b4fd8b02c2e95c0ddd}\label{classtbd_1_1topo_1_1Perimeter_a9a3c677ecad925b4fd8b02c2e95c0ddd}} 
+\index{tbd::topo::Perimeter@{tbd::topo::Perimeter}!Perimeter@{Perimeter}}
+\index{Perimeter@{Perimeter}!tbd::topo::Perimeter@{tbd::topo::Perimeter}}
+\doxysubsubsection{\texorpdfstring{Perimeter()}{Perimeter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Perimeter\+::\+Perimeter (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{location,  }\item[{size\+\_\+t}]{size,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} \&}]{env }\end{DoxyParamCaption})}
+
+
+
+Create a \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} of the given size at the given \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} to center \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} on \\
+\hline
+{\em size} & Size of \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} to create \\
+\hline
+{\em env} & \mbox{\hyperlink{classtbd_1_1topo_1_1Environment}{Environment}} to apply \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} to \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Perimeter_a36e9cc311e057e7470c0e3c65a82567a}\label{classtbd_1_1topo_1_1Perimeter_a36e9cc311e057e7470c0e3c65a82567a}} 
+\index{tbd::topo::Perimeter@{tbd::topo::Perimeter}!burned@{burned}}
+\index{burned@{burned}!tbd::topo::Perimeter@{tbd::topo::Perimeter}}
+\doxysubsubsection{\texorpdfstring{burned()}{burned()}}
+{\footnotesize\ttfamily const list$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} $>$ \& tbd\+::topo\+::\+Perimeter\+::burned (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+List of all burned Locations. 
+
+\begin{DoxyReturn}{Returns}
+All Locations burned by this \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Perimeter_a08769e9487ce35a06c4f8759fe423089}\label{classtbd_1_1topo_1_1Perimeter_a08769e9487ce35a06c4f8759fe423089}} 
+\index{tbd::topo::Perimeter@{tbd::topo::Perimeter}!edge@{edge}}
+\index{edge@{edge}!tbd::topo::Perimeter@{tbd::topo::Perimeter}}
+\doxysubsubsection{\texorpdfstring{edge()}{edge()}}
+{\footnotesize\ttfamily const list$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} $>$ \& tbd\+::topo\+::\+Perimeter\+::edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+List of all Locations along the edge of this \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}}. 
+
+\begin{DoxyReturn}{Returns}
+All Locations along the edge of this \mbox{\hyperlink{classtbd_1_1topo_1_1Perimeter}{Perimeter}} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Perimeter.\+h\item 
+src/Perimeter.\+cpp\end{DoxyCompactItemize}

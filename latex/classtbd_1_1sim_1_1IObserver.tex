@@ -1,0 +1,142 @@
+\hypertarget{classtbd_1_1sim_1_1IObserver}{}\doxysection{tbd\+::sim\+::I\+Observer Class Reference}
+\label{classtbd_1_1sim_1_1IObserver}\index{tbd::sim::IObserver@{tbd::sim::IObserver}}
+
+
+Interface for observers that get notified when cells burn so they can track things.  
+
+
+
+
+{\ttfamily \#include $<$Observer.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::sim\+::I\+Observer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1sim_1_1IObserver__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a470a0869de858a5556d2b5f96d954edc}\label{classtbd_1_1sim_1_1IObserver_a470a0869de858a5556d2b5f96d954edc}} 
+{\bfseries I\+Observer} (const \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a2d0697181caacc18506cb168a6333634}\label{classtbd_1_1sim_1_1IObserver_a2d0697181caacc18506cb168a6333634}} 
+{\bfseries I\+Observer} (\mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_ae815a638186533309d9600134a06a156}\label{classtbd_1_1sim_1_1IObserver_ae815a638186533309d9600134a06a156}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a93fbee6b03d5af411bf0af8bfaebf771}\label{classtbd_1_1sim_1_1IObserver_a93fbee6b03d5af411bf0af8bfaebf771}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1IObserver}{I\+Observer}} \&\&rhs)=delete
+\item 
+virtual void \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_a75272d1deaa290b86c8356f390f3f835}{handle\+Event}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&event)=0
+\begin{DoxyCompactList}\small\item\em Handle given event. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_a93be5cdb4752c886f589ae421dfbea86}{save}} (const string \&dir, const string \&base\+\_\+name) const =0
+\begin{DoxyCompactList}\small\item\em Save observations. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_ad7c64c2e3a48623e8cc6eb38fbbdfd6a}{reset}} ()=0
+\begin{DoxyCompactList}\small\item\em Clear all observations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{classtbd_1_1sim_1_1IObserver_a6a82aac4bc2895453ea851aec30ef98e}{make\+Name}} (const string \&base\+\_\+name, const string \&suffix)
+\begin{DoxyCompactList}\small\item\em Make name to save file as. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for observers that get notified when cells burn so they can track things. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a75272d1deaa290b86c8356f390f3f835}\label{classtbd_1_1sim_1_1IObserver_a75272d1deaa290b86c8356f390f3f835}} 
+\index{tbd::sim::IObserver@{tbd::sim::IObserver}!handleEvent@{handleEvent}}
+\index{handleEvent@{handleEvent}!tbd::sim::IObserver@{tbd::sim::IObserver}}
+\doxysubsubsection{\texorpdfstring{handleEvent()}{handleEvent()}}
+{\footnotesize\ttfamily virtual void tbd\+::sim\+::\+I\+Observer\+::handle\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Handle given event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} to handle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}{tbd\+::sim\+::\+Map\+Observer$<$ T $>$}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}{tbd\+::sim\+::\+Map\+Observer$<$ double $>$}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ab1108854aebe460cce6aa3c0e89b10cb}{tbd\+::sim\+::\+Map\+Observer$<$ Cell\+Index $>$}}, and \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityObserver_a07dc07bbba77167bfbd48ad2ea3e880f}{tbd\+::sim\+::\+Intensity\+Observer}}.
+
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a6a82aac4bc2895453ea851aec30ef98e}\label{classtbd_1_1sim_1_1IObserver_a6a82aac4bc2895453ea851aec30ef98e}} 
+\index{tbd::sim::IObserver@{tbd::sim::IObserver}!makeName@{makeName}}
+\index{makeName@{makeName}!tbd::sim::IObserver@{tbd::sim::IObserver}}
+\doxysubsubsection{\texorpdfstring{makeName()}{makeName()}}
+{\footnotesize\ttfamily string tbd\+::sim\+::\+I\+Observer\+::make\+Name (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name,  }\item[{const string \&}]{suffix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make name to save file as. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name \\
+\hline
+{\em suffix} & Suffix to append \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+File name to use based on inputs 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_ad7c64c2e3a48623e8cc6eb38fbbdfd6a}\label{classtbd_1_1sim_1_1IObserver_ad7c64c2e3a48623e8cc6eb38fbbdfd6a}} 
+\index{tbd::sim::IObserver@{tbd::sim::IObserver}!reset@{reset}}
+\index{reset@{reset}!tbd::sim::IObserver@{tbd::sim::IObserver}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily virtual void tbd\+::sim\+::\+I\+Observer\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Clear all observations. 
+
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityObserver_a16427d71d3b22ba00371d4b5a6041e60}{tbd\+::sim\+::\+Intensity\+Observer}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}{tbd\+::sim\+::\+Map\+Observer$<$ T $>$}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}{tbd\+::sim\+::\+Map\+Observer$<$ double $>$}}, and \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_ae070fada7a640443e030fa3133145476}{tbd\+::sim\+::\+Map\+Observer$<$ Cell\+Index $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1sim_1_1IObserver_a93be5cdb4752c886f589ae421dfbea86}\label{classtbd_1_1sim_1_1IObserver_a93be5cdb4752c886f589ae421dfbea86}} 
+\index{tbd::sim::IObserver@{tbd::sim::IObserver}!save@{save}}
+\index{save@{save}!tbd::sim::IObserver@{tbd::sim::IObserver}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily virtual void tbd\+::sim\+::\+I\+Observer\+::save (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Save observations. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save to \\
+\hline
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityObserver_a1024b1317514109ce0adc9beb376e767}{tbd\+::sim\+::\+Intensity\+Observer}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}{tbd\+::sim\+::\+Map\+Observer$<$ T $>$}}, \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}{tbd\+::sim\+::\+Map\+Observer$<$ double $>$}}, and \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a410c0c0bae901c60543b52fd9dc39314}{tbd\+::sim\+::\+Map\+Observer$<$ Cell\+Index $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Observer.\+h\item 
+src/Observer.\+cpp\end{DoxyCompactItemize}

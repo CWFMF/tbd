@@ -1,5 +1,0 @@
-<map id="tbd::sim::Scenario::addSaveByOffset" name="tbd::sim::Scenario::addSaveByOffset">
-<area shape="rect" id="node1" title="Add a save point for simulation data at the given offset." alt="" coords="5,39,135,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#ad10793875b3d49f37db8bde96a15f284" title="Add a save point for simulation data at given time." alt="" coords="183,5,307,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#ac939b318fa8a413c09458eecfa88a9ed" title="Simulation start time." alt="" coords="183,71,307,112"/>
-</map>

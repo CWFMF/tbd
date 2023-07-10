@@ -1,17 +1,8 @@
 var searchData=
 [
-  ['y_1490',['y',['.././tbd/structtbd_1_1sim_1_1InnerPos.html#a01942897b222d258525d0a892565b8a0',1,'tbd::sim::InnerPos::y()'],['.././tbd/structtbd_1_1Offset.html#ad56ba88ac993870b8b0eacd2451821cf',1,'tbd::Offset::y()']]],
-  ['ybottom_1491',['yBottom',['.././gis/namespacenhn.html#a14eb7e260d14a76e7564412a44caa65c',1,'nhn']]],
-  ['ycenter_1492',['YCenter',['.././tbd/classgis_1_1Extent.html#aecde4a43bf71a8c9911027a18de09a5a',1,'gis::Extent']]],
-  ['year_1493',['year',['.././tbd/classtbd_1_1sim_1_1Model.html#a6d43407d110301ab0619c42adcd410ee',1,'tbd::sim::Model']]],
-  ['year_1494',['YEAR',['.././tbd/namespacemain.html#a7aa3cfca8a2e1616033bbe1fd6cc672e',1,'main']]],
-  ['year_5f_1495',['year_',['.././tbd/classtbd_1_1sim_1_1Model.html#a1993ebba174d10a9a3f190c298dcbd25',1,'tbd::sim::Model']]],
-  ['year_5fhours_1496',['YEAR_HOURS',['.././tbd/namespacetbd.html#a43e6422402995f6be231076bd1a08ea7',1,'tbd']]],
-  ['yllcorner_1497',['yllcorner',['.././tbd/classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f',1,'tbd::data::GridBase']]],
-  ['yllcorner_5f_1498',['yllcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#ad23e875136c928c5c037f01cc05c5590',1,'tbd::data::GridBase']]],
-  ['ymax_1499',['YMax',['.././tbd/classgis_1_1Extent.html#adb3c15e58188af359536b0c87f7be4de',1,'gis::Extent']]],
-  ['ymin_1500',['YMin',['.././tbd/classgis_1_1Extent.html#ab6a3c8bac97699ced66d2629282715b6',1,'gis::Extent']]],
-  ['ytop_1501',['yTop',['.././gis/namespacenhn.html#a79da81bc66618b221af707002d5ed2da',1,'nhn']]],
-  ['yurcorner_1502',['yurcorner',['.././tbd/classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278',1,'tbd::data::GridBase']]],
-  ['yurcorner_5f_1503',['yurcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#a82844d861dfa47b7788d8c3ea41160ca',1,'tbd::data::GridBase']]]
+  ['zero_715',['Zero',['.././firestarr/classtbd_1_1wx_1_1Bui.html#ace09bc4e624004ed0979c4c4b349c211',1,'tbd::wx::Bui::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dc.html#aef5377bbec1617571e11550eb25fa8e7',1,'tbd::wx::Dc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Direction.html#a10a21a47d8d17924de93ee0d4fcbb638',1,'tbd::wx::Direction::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dmc.html#a4e2c7075d41b4b88cafe4b568c34f9fd',1,'tbd::wx::Dmc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dsr.html#a73a697129a9e45df07da941c358ffe29',1,'tbd::wx::Dsr::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Ffmc.html#a59195e31dc173e384e6d45dc6dd7eb1b',1,'tbd::wx::Ffmc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Fwi.html#ad5d0f25f2a4efdc519df11ef1e57f701',1,'tbd::wx::Fwi::Zero()'],['.././firestarr/classtbd_1_1wx_1_1FwiWeather.html#aa2daf17081a80d7a55a936f58b48cd47',1,'tbd::wx::FwiWeather::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Isi.html#ab6594ab7a4fe2b3dd604dd965424d2d8',1,'tbd::wx::Isi::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Precipitation.html#a65953772eec7b2a358a6870996397888',1,'tbd::wx::Precipitation::Zero()'],['.././firestarr/classtbd_1_1wx_1_1RelativeHumidity.html#a66a88b8006381eb7d27598a99bec2b79',1,'tbd::wx::RelativeHumidity::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Speed.html#ac53fa5285a6b098f11eb2802cb2b9e27',1,'tbd::wx::Speed::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Temperature.html#a3b03a0a3f4c199e0ff350a5d3d2b8d22',1,'tbd::wx::Temperature::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#a341f6e50bd71697dd87d4d8759af7d9f',1,'tbd::wx::Wind::Zero()']]],
+  ['zone_716',['zone',['.././firestarr/classtbd_1_1topo_1_1EnvironmentInfo.html#a18e46a79abf54241c7c3b5487dc53ca4',1,'tbd::topo::EnvironmentInfo::zone()'],['.././firestarr/classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd',1,'tbd::data::GridBase::zone()'],['.././gis/namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258',1,'make_grids::zone()']]],
+  ['zone_5fmax_717',['ZONE_MAX',['.././gis/namespacemake__grids.html#a1a259550194543043bad91a2b2b92f2d',1,'make_grids']]],
+  ['zone_5fmin_718',['ZONE_MIN',['.././gis/namespacemake__grids.html#ae0da6ae2f782922244e87771af58f3c8',1,'make_grids']]],
+  ['zones_719',['zones',['.././gis/namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d',1,'make_grids']]]
 ];

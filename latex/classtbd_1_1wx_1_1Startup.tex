@@ -1,0 +1,274 @@
+\hypertarget{classtbd_1_1wx_1_1Startup}{}\doxysection{tbd\+::wx\+::Startup Class Reference}
+\label{classtbd_1_1wx_1_1Startup}\index{tbd::wx::Startup@{tbd::wx::Startup}}
+
+
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values to initialize a weather stream calculation with.  
+
+
+
+
+{\ttfamily \#include $<$Startup.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr const string \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ac66cf1cedf7cf06f46fad14c77d4520f}{station}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Station providing the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values. \end{DoxyCompactList}\item 
+constexpr const tm \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a3dc7839c11b8c3ff81977c657b3218bb}{generated}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Time the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a180d950bad1efecfce5c36ccfcaa67c8}{point}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Point the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a1a930c4558ad5b22a16b4016637e8bb1}{distance\+From}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Distance \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value location is from the requested location (m) \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a6afd9c7e5366803b1f7a66a2ccc8cff5}{ffmc}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Fine Fuel Moisture Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a1c14fd578dadd81c0eb871d465af8992}{dmc}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Duff Moisture Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ae2e23682fed1a5454fe53948551391f0}{dc}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Drought Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a928cb4d93ee01496e2b611593c93fcdf}{apcp\+Prev}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Accumulated \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} from noon yesterday to start of hourly weather (mm) \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ad036079d7006846f3b80036f3303d9ce}{is\+Overridden}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Whether or not any \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values were overridden. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ab9af8112361604b6ee8c10e4336c12c4}{Startup}} (string \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ac66cf1cedf7cf06f46fad14c77d4520f}{station}}, const tm \&\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a3dc7839c11b8c3ff81977c657b3218bb}{generated}}, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a180d950bad1efecfce5c36ccfcaa67c8}{point}}, double distance\+\_\+from, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a6afd9c7e5366803b1f7a66a2ccc8cff5}{ffmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a1c14fd578dadd81c0eb871d465af8992}{dmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_ae2e23682fed1a5454fe53948551391f0}{dc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&apcp\+\_\+prev, bool overridden) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_aa2e8eeb7a610e3e2ee295b3ad3678a68}{Startup}} (\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a1e7e39a54e9721bf0b5089380c0328b5}{Startup}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&rhs)=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a74302468aa4dc0c67080c423fe33c464}{operator=}} (\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment operator. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1Startup_aa6a7857c263bd23f1ad852e7a98457e2}{operator=}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&rhs)=default
+\begin{DoxyCompactList}\small\item\em Copy assignment operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a37d98c16d6316e991e061407fd0b59ef}\label{classtbd_1_1wx_1_1Startup_a37d98c16d6316e991e061407fd0b59ef}} 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup_a37d98c16d6316e991e061407fd0b59ef}{$\sim$\+Startup}} ()=default
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values to initialize a weather stream calculation with. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_ab9af8112361604b6ee8c10e4336c12c4}\label{classtbd_1_1wx_1_1Startup_ab9af8112361604b6ee8c10e4336c12c4}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!Startup@{Startup}}
+\index{Startup@{Startup}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{Startup()}{Startup()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Startup\+::\+Startup (\begin{DoxyParamCaption}\item[{string}]{station,  }\item[{const tm \&}]{generated,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&}]{point,  }\item[{double}]{distance\+\_\+from,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&}]{ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&}]{dmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&}]{dc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{apcp\+\_\+prev,  }\item[{bool}]{overridden }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em station} & Station indices are from \\
+\hline
+{\em generated} & Date/\+Time indices are from \\
+\hline
+{\em point} & Point indices were requested for \\
+\hline
+{\em distance\+\_\+from} & Distance from requested point the weather station is (m) \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code \\
+\hline
+{\em dmc} & Duff Moisture Code \\
+\hline
+{\em dc} & Drought Code \\
+\hline
+{\em apcp\+\_\+prev} & Accumulated \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} from noon yesterday to start of hourly weather (mm) \\
+\hline
+{\em overridden} & whether or not any \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values were overridden \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_aa2e8eeb7a610e3e2ee295b3ad3678a68}\label{classtbd_1_1wx_1_1Startup_aa2e8eeb7a610e3e2ee295b3ad3678a68}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!Startup@{Startup}}
+\index{Startup@{Startup}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{Startup()}{Startup()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Startup\+::\+Startup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} to move from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a1e7e39a54e9721bf0b5089380c0328b5}\label{classtbd_1_1wx_1_1Startup_a1e7e39a54e9721bf0b5089380c0328b5}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!Startup@{Startup}}
+\index{Startup@{Startup}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{Startup()}{Startup()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Startup\+::\+Startup (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} to copy from \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a928cb4d93ee01496e2b611593c93fcdf}\label{classtbd_1_1wx_1_1Startup_a928cb4d93ee01496e2b611593c93fcdf}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!apcpPrev@{apcpPrev}}
+\index{apcpPrev@{apcpPrev}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{apcpPrev()}{apcpPrev()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}}\& tbd\+::wx\+::\+Startup\+::apcp\+Prev (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Accumulated \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} from noon yesterday to start of hourly weather (mm) 
+
+\begin{DoxyReturn}{Returns}
+Accumulated \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} from noon yesterday to start of hourly weather (mm) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_ae2e23682fed1a5454fe53948551391f0}\label{classtbd_1_1wx_1_1Startup_ae2e23682fed1a5454fe53948551391f0}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!dc@{dc}}
+\index{dc@{dc}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{dc()}{dc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}}\& tbd\+::wx\+::\+Startup\+::dc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Drought Code. 
+
+\begin{DoxyReturn}{Returns}
+Drought Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a1a930c4558ad5b22a16b4016637e8bb1}\label{classtbd_1_1wx_1_1Startup_a1a930c4558ad5b22a16b4016637e8bb1}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!distanceFrom@{distanceFrom}}
+\index{distanceFrom@{distanceFrom}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{distanceFrom()}{distanceFrom()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Startup\+::distance\+From (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Distance \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value location is from the requested location (m) 
+
+\begin{DoxyReturn}{Returns}
+Distance \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value location is from the requested location (m) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a1c14fd578dadd81c0eb871d465af8992}\label{classtbd_1_1wx_1_1Startup_a1c14fd578dadd81c0eb871d465af8992}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!dmc@{dmc}}
+\index{dmc@{dmc}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{dmc()}{dmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}\& tbd\+::wx\+::\+Startup\+::dmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Duff Moisture Code. 
+
+\begin{DoxyReturn}{Returns}
+Duff Moisture Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a6afd9c7e5366803b1f7a66a2ccc8cff5}\label{classtbd_1_1wx_1_1Startup_a6afd9c7e5366803b1f7a66a2ccc8cff5}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!ffmc@{ffmc}}
+\index{ffmc@{ffmc}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{ffmc()}{ffmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}\& tbd\+::wx\+::\+Startup\+::ffmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Fine Fuel Moisture Code. 
+
+\begin{DoxyReturn}{Returns}
+Fine Fuel Moisture Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a3dc7839c11b8c3ff81977c657b3218bb}\label{classtbd_1_1wx_1_1Startup_a3dc7839c11b8c3ff81977c657b3218bb}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!generated@{generated}}
+\index{generated@{generated}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{generated()}{generated()}}
+{\footnotesize\ttfamily constexpr const tm\& tbd\+::wx\+::\+Startup\+::generated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Time the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for. 
+
+\begin{DoxyReturn}{Returns}
+Time the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_ad036079d7006846f3b80036f3303d9ce}\label{classtbd_1_1wx_1_1Startup_ad036079d7006846f3b80036f3303d9ce}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!isOverridden@{isOverridden}}
+\index{isOverridden@{isOverridden}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{isOverridden()}{isOverridden()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::wx\+::\+Startup\+::is\+Overridden (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Whether or not any \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values were overridden. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not any \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values were overridden 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_aa6a7857c263bd23f1ad852e7a98457e2}\label{classtbd_1_1wx_1_1Startup_aa6a7857c263bd23f1ad852e7a98457e2}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}}\& tbd\+::wx\+::\+Startup\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Copy assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a74302468aa4dc0c67080c423fe33c464}\label{classtbd_1_1wx_1_1Startup_a74302468aa4dc0c67080c423fe33c464}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}}\& tbd\+::wx\+::\+Startup\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_a180d950bad1efecfce5c36ccfcaa67c8}\label{classtbd_1_1wx_1_1Startup_a180d950bad1efecfce5c36ccfcaa67c8}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!point@{point}}
+\index{point@{point}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{point()}{point()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}}\& tbd\+::wx\+::\+Startup\+::point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Point the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for. 
+
+\begin{DoxyReturn}{Returns}
+Point the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} value is for 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Startup_ac66cf1cedf7cf06f46fad14c77d4520f}\label{classtbd_1_1wx_1_1Startup_ac66cf1cedf7cf06f46fad14c77d4520f}} 
+\index{tbd::wx::Startup@{tbd::wx::Startup}!station@{station}}
+\index{station@{station}!tbd::wx::Startup@{tbd::wx::Startup}}
+\doxysubsubsection{\texorpdfstring{station()}{station()}}
+{\footnotesize\ttfamily constexpr const string\& tbd\+::wx\+::\+Startup\+::station (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Station providing the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values. 
+
+\begin{DoxyReturn}{Returns}
+Station providing the \mbox{\hyperlink{classtbd_1_1wx_1_1Startup}{Startup}} values 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Startup.\+h\item 
+src/Startup.\+cpp\end{DoxyCompactItemize}

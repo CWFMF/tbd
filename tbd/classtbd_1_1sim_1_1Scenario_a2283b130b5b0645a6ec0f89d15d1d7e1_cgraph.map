@@ -1,4 +1,0 @@
-<map id="tbd::sim::Scenario::dayStart" name="tbd::sim::Scenario::dayStart">
-<area shape="rect" id="node1" title="Sunrise time for given day." alt="" coords="5,5,129,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1StartPoint.html#ac6d2a5ef70386f0a785635f3bbc43539" title="Sunrise time." alt="" coords="177,5,312,47"/>
-</map>

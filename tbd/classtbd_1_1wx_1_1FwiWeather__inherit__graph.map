@@ -1,4 +1,0 @@
-<map id="tbd::wx::FwiWeather" name="tbd::wx::FwiWeather">
-<area shape="rect" id="node1" title="A Weather value with calculated FWI indices." alt="" coords="5,321,143,883"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="16,5,132,273"/>
-</map>

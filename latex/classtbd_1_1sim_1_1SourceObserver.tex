@@ -1,0 +1,103 @@
+\hypertarget{classtbd_1_1sim_1_1SourceObserver}{}\doxysection{tbd\+::sim\+::Source\+Observer Class Reference}
+\label{classtbd_1_1sim_1_1SourceObserver}\index{tbd::sim::SourceObserver@{tbd::sim::SourceObserver}}
+
+
+Tracks source Cell that fire arrived in Cell from.  
+
+
+
+
+{\ttfamily \#include $<$Observer.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::sim\+::Source\+Observer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classtbd_1_1sim_1_1SourceObserver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::sim\+::Source\+Observer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classtbd_1_1sim_1_1SourceObserver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_aeec79b341a78883f9ceb56a5fa94aa85}\label{classtbd_1_1sim_1_1SourceObserver_aeec79b341a78883f9ceb56a5fa94aa85}} 
+{\bfseries Source\+Observer} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_a5421b5b18381b71f3f3573c147807386}\label{classtbd_1_1sim_1_1SourceObserver_a5421b5b18381b71f3f3573c147807386}} 
+{\bfseries Source\+Observer} (\mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_a3c72619c8a893c5e29ea17366bd9b079}\label{classtbd_1_1sim_1_1SourceObserver_a3c72619c8a893c5e29ea17366bd9b079}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_ac55bca1f488cb1194dfa82f6a8aac52a}\label{classtbd_1_1sim_1_1SourceObserver_ac55bca1f488cb1194dfa82f6a8aac52a}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver}{Source\+Observer}} \&\&rhs)=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver_a96c65c2c67b78b3c046ec8ccc5c2aaf2}{Source\+Observer}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&scenario)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+Cell\+Index \mbox{\hyperlink{classtbd_1_1sim_1_1SourceObserver_aa2cd53cdcd9f2adca1b1b96ee57b5ff8}{get\+Value}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&event) const noexcept override
+\begin{DoxyCompactList}\small\item\em Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Tracks source Cell that fire arrived in Cell from. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_a96c65c2c67b78b3c046ec8ccc5c2aaf2}\label{classtbd_1_1sim_1_1SourceObserver_a96c65c2c67b78b3c046ec8ccc5c2aaf2}} 
+\index{tbd::sim::SourceObserver@{tbd::sim::SourceObserver}!SourceObserver@{SourceObserver}}
+\index{SourceObserver@{SourceObserver}!tbd::sim::SourceObserver@{tbd::sim::SourceObserver}}
+\doxysubsubsection{\texorpdfstring{SourceObserver()}{SourceObserver()}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Source\+Observer\+::\+Source\+Observer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} \&}]{scenario }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scenario} & \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} to track \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SourceObserver_aa2cd53cdcd9f2adca1b1b96ee57b5ff8}\label{classtbd_1_1sim_1_1SourceObserver_aa2cd53cdcd9f2adca1b1b96ee57b5ff8}} 
+\index{tbd::sim::SourceObserver@{tbd::sim::SourceObserver}!getValue@{getValue}}
+\index{getValue@{getValue}!tbd::sim::SourceObserver@{tbd::sim::SourceObserver}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily Cell\+Index tbd\+::sim\+::\+Source\+Observer\+::get\+Value (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}} \&}]{event }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Function that returns the value we care about regarding the \mbox{\hyperlink{classtbd_1_1sim_1_1Event}{Event}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1sim_1_1MapObserver_a84943329d0691ccbcf9a88e9676dfd96}{tbd\+::sim\+::\+Map\+Observer$<$ Cell\+Index $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Observer.\+h\item 
+src/Observer.\+cpp\end{DoxyCompactItemize}

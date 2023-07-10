@@ -1,5 +1,0 @@
-<map id="tbd::sim::make_prob_map" name="tbd::sim::make_prob_map">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,175,39"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a8ad8669cbfe36950de89211fe1815edd" title="Create a ProbabilityMap with the same extent as this." alt="" coords="223,13,453,39"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#ab4f19175764766fc6e6e418162115fdf" title="Make a ProbabilityMap that covers this Environment." alt="" coords="501,5,651,47"/>
-</map>

@@ -1,0 +1,270 @@
+\hypertarget{classtbd_1_1topo_1_1Location}{}\doxysection{tbd\+::topo\+::Location Class Reference}
+\label{classtbd_1_1topo_1_1Location}\index{tbd::topo::Location@{tbd::topo::Location}}
+
+
+A location with a row and column.  
+
+
+
+
+{\ttfamily \#include $<$Location.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::topo\+::Location\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classtbd_1_1topo_1_1Location__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Location_a24f348c02c1b2441f4ef39adf0525c2e}{Location}} (const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}}, const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}}, const Hash\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}{hash}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct using hash of row and column. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1topo_1_1Location_a33e4d6144155a8f45a7df4a3620f8789}{Location}} (const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}}, const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}}) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Row. \end{DoxyCompactList}\item 
+constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Column. \end{DoxyCompactList}\item 
+constexpr Hash\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}{hash}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Hash derived from row and column. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7fdf5c3fd0abd2d95a4ef44e73626626}{operator==}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Equality operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1topo_1_1Location_ab0b41b6576c588efb44abbd8d2eeea3e}{operator!=}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Inequality operator. \end{DoxyCompactList}\item 
+constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a8c72d709cf892462368c548d67730e92}{full\+Hash}} () const
+\begin{DoxyCompactList}\small\item\em Full stored hash that may contain data from subclasses. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a2e8d5628d20027b344e8bb35b8fdbdcb}{Location}} (const Topo \&topo) noexcept
+\begin{DoxyCompactList}\small\item\em Construct with given hash that may contain data from subclasses. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr Hash\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Location_aaefda10b25726f0e273d47e1d3533272}{do\+Hash}} (const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}}, const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}}) noexcept
+\begin{DoxyCompactList}\small\item\em Create a hash from given values. \end{DoxyCompactList}\item 
+static constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_ac4411045a82382aa26397f4c7d23676a}{unhash\+Row}} (const Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}}) noexcept
+\begin{DoxyCompactList}\small\item\em Row from hash. \end{DoxyCompactList}\item 
+static constexpr Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_ac6d9e698ba125501dc5621ed2babaf9f}{unhash\+Column}} (const Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}}) noexcept
+\begin{DoxyCompactList}\small\item\em Column. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a70a3137f932cf3870ca215a63bbe6092}\label{classtbd_1_1topo_1_1Location_a70a3137f932cf3870ca215a63bbe6092}} 
+Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a70a3137f932cf3870ca215a63bbe6092}{topo\+\_\+data\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Stored hash that contains row and column data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a1d3952f8067204e6db4802ca5802205f}\label{classtbd_1_1topo_1_1Location_a1d3952f8067204e6db4802ca5802205f}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a1d3952f8067204e6db4802ca5802205f}{X\+Y\+Bits}} = std\+::bit\+\_\+width$<$uint32\+\_\+t$>$(M\+A\+X\+\_\+\+R\+O\+WS -\/ 1)
+\begin{DoxyCompactList}\small\item\em Number of bits to use for storing one coordinate of location data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a41447b279b8e77c323e168916eb54d9d}\label{classtbd_1_1topo_1_1Location_a41447b279b8e77c323e168916eb54d9d}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a41447b279b8e77c323e168916eb54d9d}{Location\+Bits}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a1d3952f8067204e6db4802ca5802205f}{X\+Y\+Bits}} $\ast$ 2
+\begin{DoxyCompactList}\small\item\em Number of bits to use for storing location data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a192528643e92b471cd1fe0af2af7af97}\label{classtbd_1_1topo_1_1Location_a192528643e92b471cd1fe0af2af7af97}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a192528643e92b471cd1fe0af2af7af97}{Column\+Mask}} = util\+::bit\+\_\+mask$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Location_a1d3952f8067204e6db4802ca5802205f}{X\+Y\+Bits}}, Topo$>$()
+\begin{DoxyCompactList}\small\item\em Hash mask for bits being used for location data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a3866ff63d4c9310fe12b95178d03399b}\label{classtbd_1_1topo_1_1Location_a3866ff63d4c9310fe12b95178d03399b}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a3866ff63d4c9310fe12b95178d03399b}{Hash\+Mask}} = util\+::bit\+\_\+mask$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Location_a41447b279b8e77c323e168916eb54d9d}{Location\+Bits}}, Topo$>$()
+\begin{DoxyCompactList}\small\item\em Hash mask for bits being used for location data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A location with a row and column. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a24f348c02c1b2441f4ef39adf0525c2e}\label{classtbd_1_1topo_1_1Location_a24f348c02c1b2441f4ef39adf0525c2e}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!Location@{Location}}
+\index{Location@{Location}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Location\+::\+Location (\begin{DoxyParamCaption}\item[{const Idx}]{row,  }\item[{const Idx}]{column,  }\item[{const Hash\+Size}]{hash }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [noexcept]}}
+
+
+
+Construct using hash of row and column. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hash\+Size derived form row and column \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a33e4d6144155a8f45a7df4a3620f8789}\label{classtbd_1_1topo_1_1Location_a33e4d6144155a8f45a7df4a3620f8789}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!Location@{Location}}
+\index{Location@{Location}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily tbd\+::topo\+::\+Location\+::\+Location (\begin{DoxyParamCaption}\item[{const Idx}]{row,  }\item[{const Idx}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row \\
+\hline
+{\em column} & Column \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a2e8d5628d20027b344e8bb35b8fdbdcb}\label{classtbd_1_1topo_1_1Location_a2e8d5628d20027b344e8bb35b8fdbdcb}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!Location@{Location}}
+\index{Location@{Location}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{Location()}{Location()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Location\+::\+Location (\begin{DoxyParamCaption}\item[{const Topo \&}]{topo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [constexpr]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Construct with given hash that may contain data from subclasses. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topo} & Hash to store \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}\label{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!column@{column}}
+\index{column@{column}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{column()}{column()}}
+{\footnotesize\ttfamily constexpr Idx tbd\+::topo\+::\+Location\+::column (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Column. 
+
+\begin{DoxyReturn}{Returns}
+Column 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_aaefda10b25726f0e273d47e1d3533272}\label{classtbd_1_1topo_1_1Location_aaefda10b25726f0e273d47e1d3533272}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!doHash@{doHash}}
+\index{doHash@{doHash}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{doHash()}{doHash()}}
+{\footnotesize\ttfamily static constexpr Hash\+Size tbd\+::topo\+::\+Location\+::do\+Hash (\begin{DoxyParamCaption}\item[{const Idx}]{row,  }\item[{const Idx}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Create a hash from given values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row \\
+\hline
+{\em column} & Column \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Hash 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a8c72d709cf892462368c548d67730e92}\label{classtbd_1_1topo_1_1Location_a8c72d709cf892462368c548d67730e92}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!fullHash@{fullHash}}
+\index{fullHash@{fullHash}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{fullHash()}{fullHash()}}
+{\footnotesize\ttfamily constexpr Topo tbd\+::topo\+::\+Location\+::full\+Hash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Full stored hash that may contain data from subclasses. 
+
+\begin{DoxyReturn}{Returns}
+Full stored hash that may contain data from subclasses 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}\label{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!hash@{hash}}
+\index{hash@{hash}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{hash()}{hash()}}
+{\footnotesize\ttfamily constexpr Hash\+Size tbd\+::topo\+::\+Location\+::hash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Hash derived from row and column. 
+
+\begin{DoxyReturn}{Returns}
+Hash derived from row and column 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_ab0b41b6576c588efb44abbd8d2eeea3e}\label{classtbd_1_1topo_1_1Location_ab0b41b6576c588efb44abbd8d2eeea3e}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::topo\+::\+Location\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Inequality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are not equivalent 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a7fdf5c3fd0abd2d95a4ef44e73626626}\label{classtbd_1_1topo_1_1Location_a7fdf5c3fd0abd2d95a4ef44e73626626}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!operator==@{operator==}}
+\index{operator==@{operator==}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::topo\+::\+Location\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Equality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are equivalent 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}\label{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!row@{row}}
+\index{row@{row}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{row()}{row()}}
+{\footnotesize\ttfamily constexpr Idx tbd\+::topo\+::\+Location\+::row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Row. 
+
+\begin{DoxyReturn}{Returns}
+Row 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_ac6d9e698ba125501dc5621ed2babaf9f}\label{classtbd_1_1topo_1_1Location_ac6d9e698ba125501dc5621ed2babaf9f}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!unhashColumn@{unhashColumn}}
+\index{unhashColumn@{unhashColumn}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{unhashColumn()}{unhashColumn()}}
+{\footnotesize\ttfamily static constexpr Idx tbd\+::topo\+::\+Location\+::unhash\+Column (\begin{DoxyParamCaption}\item[{const Topo}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Column. 
+
+\begin{DoxyReturn}{Returns}
+Column 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Location_ac4411045a82382aa26397f4c7d23676a}\label{classtbd_1_1topo_1_1Location_ac4411045a82382aa26397f4c7d23676a}} 
+\index{tbd::topo::Location@{tbd::topo::Location}!unhashRow@{unhashRow}}
+\index{unhashRow@{unhashRow}!tbd::topo::Location@{tbd::topo::Location}}
+\doxysubsubsection{\texorpdfstring{unhashRow()}{unhashRow()}}
+{\footnotesize\ttfamily static constexpr Idx tbd\+::topo\+::\+Location\+::unhash\+Row (\begin{DoxyParamCaption}\item[{const Topo}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}, {\ttfamily [protected]}, {\ttfamily [noexcept]}}
+
+
+
+Row from hash. 
+
+\begin{DoxyReturn}{Returns}
+Row from hash 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Location.\+h\end{DoxyCompactItemize}

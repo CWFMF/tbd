@@ -1,5 +1,0 @@
-<map id="tbd::fuel::FuelBase::bulkDensity" name="tbd::fuel::FuelBase::bulkDensity">
-<area shape="rect" id="node1" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="363,5,491,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelBase.html#a2a88fb8ea5dfcde18d743dfb77084e60" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="187,5,315,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,139,47"/>
-</map>

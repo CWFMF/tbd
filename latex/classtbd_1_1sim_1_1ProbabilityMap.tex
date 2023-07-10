@@ -1,0 +1,295 @@
+\hypertarget{classtbd_1_1sim_1_1ProbabilityMap}{}\doxysection{tbd\+::sim\+::Probability\+Map Class Reference}
+\label{classtbd_1_1sim_1_1ProbabilityMap}\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+
+
+Map of the percentage of simulations in which a Cell burned in each intensity category.  
+
+
+
+
+{\ttfamily \#include $<$Probability\+Map.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_acf0a837074778eb57e7c81355af95c53}\label{classtbd_1_1sim_1_1ProbabilityMap_acf0a837074778eb57e7c81355af95c53}} 
+{\bfseries Probability\+Map} (const \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_ab8ca67457d3e5fc6c2d47d1b6924cd55}\label{classtbd_1_1sim_1_1ProbabilityMap_ab8ca67457d3e5fc6c2d47d1b6924cd55}} 
+{\bfseries Probability\+Map} (\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_af7103b2bdeded0bc33a7b2b6e7f8cf87}\label{classtbd_1_1sim_1_1ProbabilityMap_af7103b2bdeded0bc33a7b2b6e7f8cf87}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a3a7bfb2497f5073a90ce88e667280c21}\label{classtbd_1_1sim_1_1ProbabilityMap_a3a7bfb2497f5073a90ce88e667280c21}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_ae75f1bdd0ba308e02ed97c6ec0f554fe}{Probability\+Map}} (double time, double start\+\_\+time, int min\+\_\+value, int low\+\_\+max, int med\+\_\+max, int max\+\_\+value, const \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{data\+::\+Grid\+Base}} \&grid\+\_\+info)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} $\ast$ \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a3bb903424a84b6f6df6c2332e6c61eff}{copy\+Empty}} () const
+\begin{DoxyCompactList}\small\item\em Create a copy of this that is empty. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_ab1de25a4b8d6ad3832c06c1a47cc4e65}{add\+Probabilities}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Combine results from another \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} into this one. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a781eb0e1fb2fc28a1bf662419f157f11}{add\+Probability}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityMap}{Intensity\+Map}} \&for\+\_\+time)
+\begin{DoxyCompactList}\small\item\em Add in an \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityMap}{Intensity\+Map}} to the appropriate probability grid based on each cell burn intensity. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a9ec5d9cca3d9b9ceb05770f2223c8c51}{get\+Sizes}} () const
+\begin{DoxyCompactList}\small\item\em List of sizes of Intensity\+Maps that have been added. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1util_1_1Statistics}{util\+::\+Statistics}} \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_abe116ba5df47b7cc1df5ee41f61c8530}{get\+Statistics}} () const
+\begin{DoxyCompactList}\small\item\em Generate Statistics on sizes of Intensity\+Maps that have been added. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a980363d294daadd5ee20dd216bce13cd}{num\+Sizes}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Number of sizes that have been added. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a52d6f4843a337ecfa84d959e0ab0f0af}\label{classtbd_1_1sim_1_1ProbabilityMap_a52d6f4843a337ecfa84d959e0ab0f0af}} 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a52d6f4843a337ecfa84d959e0ab0f0af}{show}} () const
+\begin{DoxyCompactList}\small\item\em Output Statistics to log. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_ae5b357bae240bd5fe765db7954f78b93}{save\+Sizes}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save list of sizes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a9b205c8966cfd5f7c275dc23c3ae38ac}{save\+All}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1Model}{Model}} \&model, const tm \&start\+\_\+time, double time, double start\+\_\+day) const
+\begin{DoxyCompactList}\small\item\em Save total, low, moderate, and high maps, and output information to log. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a76dbbce506c949ddf1ee6e6957185994}{save\+Total}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save map representing all intensities. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a216eb0a3ad9b365852456d762e2b7c75}{save\+Total\+Count}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save map representing all intensities occurrence. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_af989aed1573afd22b25efe18877dd385}{save\+High}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save map representing high intensities. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a8d6488abaecadcf7704c87ec2476578a}{save\+Moderate}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save map representing moderate intensities. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a172f9fba80dc6ea19274e77d0ef39b59}{save\+Low}} (const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save map representing low intensities. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a31786342ba5df3277baba1230ef4744c}\label{classtbd_1_1sim_1_1ProbabilityMap_a31786342ba5df3277baba1230ef4744c}} 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap_a31786342ba5df3277baba1230ef4744c}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Clear maps and return to initial state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Map of the percentage of simulations in which a Cell burned in each intensity category. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_ae75f1bdd0ba308e02ed97c6ec0f554fe}\label{classtbd_1_1sim_1_1ProbabilityMap_ae75f1bdd0ba308e02ed97c6ec0f554fe}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!ProbabilityMap@{ProbabilityMap}}
+\index{ProbabilityMap@{ProbabilityMap}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{ProbabilityMap()}{ProbabilityMap()}}
+{\footnotesize\ttfamily tbd\+::sim\+::\+Probability\+Map\+::\+Probability\+Map (\begin{DoxyParamCaption}\item[{double}]{time,  }\item[{double}]{start\+\_\+time,  }\item[{int}]{min\+\_\+value,  }\item[{int}]{low\+\_\+max,  }\item[{int}]{med\+\_\+max,  }\item[{int}]{max\+\_\+value,  }\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1GridBase}{data\+::\+Grid\+Base}} \&}]{grid\+\_\+info }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Time in simulation this \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} represents \\
+\hline
+{\em start\+\_\+time} & Start time of simulation \\
+\hline
+{\em min\+\_\+value} & Lower bound of \textquotesingle{}low\textquotesingle{} intensity range \\
+\hline
+{\em low\+\_\+max} & Upper bound of \textquotesingle{}low\textquotesingle{} intensity range \\
+\hline
+{\em med\+\_\+max} & Upper bound of \textquotesingle{}moderate\textquotesingle{} intensity range \\
+\hline
+{\em max\+\_\+value} & Upper bound of \textquotesingle{}high\textquotesingle{} intensity range \\
+\hline
+{\em grid\+\_\+info} & Grid\+Base to use for extent of this \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_ab1de25a4b8d6ad3832c06c1a47cc4e65}\label{classtbd_1_1sim_1_1ProbabilityMap_ab1de25a4b8d6ad3832c06c1a47cc4e65}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!addProbabilities@{addProbabilities}}
+\index{addProbabilities@{addProbabilities}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{addProbabilities()}{addProbabilities()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::add\+Probabilities (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+Combine results from another \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} into this one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} to combine from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a781eb0e1fb2fc28a1bf662419f157f11}\label{classtbd_1_1sim_1_1ProbabilityMap_a781eb0e1fb2fc28a1bf662419f157f11}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!addProbability@{addProbability}}
+\index{addProbability@{addProbability}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{addProbability()}{addProbability()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::add\+Probability (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityMap}{Intensity\+Map}} \&}]{for\+\_\+time }\end{DoxyParamCaption})}
+
+
+
+Add in an \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityMap}{Intensity\+Map}} to the appropriate probability grid based on each cell burn intensity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em for\+\_\+time} & \mbox{\hyperlink{classtbd_1_1sim_1_1IntensityMap}{Intensity\+Map}} to add results from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a3bb903424a84b6f6df6c2332e6c61eff}\label{classtbd_1_1sim_1_1ProbabilityMap_a3bb903424a84b6f6df6c2332e6c61eff}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!copyEmpty@{copyEmpty}}
+\index{copyEmpty@{copyEmpty}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{copyEmpty()}{copyEmpty()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1ProbabilityMap}{Probability\+Map}} $\ast$ tbd\+::sim\+::\+Probability\+Map\+::copy\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Create a copy of this that is empty. 
+
+\begin{DoxyReturn}{Returns}
+New empty Probability with same range bounds and times 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a9ec5d9cca3d9b9ceb05770f2223c8c51}\label{classtbd_1_1sim_1_1ProbabilityMap_a9ec5d9cca3d9b9ceb05770f2223c8c51}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!getSizes@{getSizes}}
+\index{getSizes@{getSizes}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{getSizes()}{getSizes()}}
+{\footnotesize\ttfamily vector$<$ double $>$ tbd\+::sim\+::\+Probability\+Map\+::get\+Sizes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+List of sizes of Intensity\+Maps that have been added. 
+
+\begin{DoxyReturn}{Returns}
+List of sizes of Intensity\+Maps that have been added 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_abe116ba5df47b7cc1df5ee41f61c8530}\label{classtbd_1_1sim_1_1ProbabilityMap_abe116ba5df47b7cc1df5ee41f61c8530}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!getStatistics@{getStatistics}}
+\index{getStatistics@{getStatistics}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{getStatistics()}{getStatistics()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1util_1_1Statistics}{util\+::\+Statistics}} tbd\+::sim\+::\+Probability\+Map\+::get\+Statistics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Generate Statistics on sizes of Intensity\+Maps that have been added. 
+
+\begin{DoxyReturn}{Returns}
+Generate Statistics on sizes of Intensity\+Maps that have been added 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a980363d294daadd5ee20dd216bce13cd}\label{classtbd_1_1sim_1_1ProbabilityMap_a980363d294daadd5ee20dd216bce13cd}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!numSizes@{numSizes}}
+\index{numSizes@{numSizes}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{numSizes()}{numSizes()}}
+{\footnotesize\ttfamily size\+\_\+t tbd\+::sim\+::\+Probability\+Map\+::num\+Sizes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Number of sizes that have been added. 
+
+\begin{DoxyReturn}{Returns}
+Number of sizes that have been added 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a9b205c8966cfd5f7c275dc23c3ae38ac}\label{classtbd_1_1sim_1_1ProbabilityMap_a9b205c8966cfd5f7c275dc23c3ae38ac}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveAll@{saveAll}}
+\index{saveAll@{saveAll}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveAll()}{saveAll()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+All (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1Model}{Model}} \&}]{model,  }\item[{const tm \&}]{start\+\_\+time,  }\item[{double}]{time,  }\item[{double}]{start\+\_\+day }\end{DoxyParamCaption}) const}
+
+
+
+Save total, low, moderate, and high maps, and output information to log. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & \mbox{\hyperlink{classtbd_1_1sim_1_1Model}{Model}} this was derived from \\
+\hline
+{\em start\+\_\+time} & Start time of simulation \\
+\hline
+{\em time} & Time for these maps \\
+\hline
+{\em start\+\_\+day} & Day that simulation started \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_af989aed1573afd22b25efe18877dd385}\label{classtbd_1_1sim_1_1ProbabilityMap_af989aed1573afd22b25efe18877dd385}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveHigh@{saveHigh}}
+\index{saveHigh@{saveHigh}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveHigh()}{saveHigh()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+High (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save map representing high intensities. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a172f9fba80dc6ea19274e77d0ef39b59}\label{classtbd_1_1sim_1_1ProbabilityMap_a172f9fba80dc6ea19274e77d0ef39b59}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveLow@{saveLow}}
+\index{saveLow@{saveLow}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveLow()}{saveLow()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+Low (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save map representing low intensities. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a8d6488abaecadcf7704c87ec2476578a}\label{classtbd_1_1sim_1_1ProbabilityMap_a8d6488abaecadcf7704c87ec2476578a}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveModerate@{saveModerate}}
+\index{saveModerate@{saveModerate}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveModerate()}{saveModerate()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+Moderate (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save map representing moderate intensities. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_ae5b357bae240bd5fe765db7954f78b93}\label{classtbd_1_1sim_1_1ProbabilityMap_ae5b357bae240bd5fe765db7954f78b93}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveSizes@{saveSizes}}
+\index{saveSizes@{saveSizes}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveSizes()}{saveSizes()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+Sizes (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save list of sizes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base name of file to save into \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a76dbbce506c949ddf1ee6e6957185994}\label{classtbd_1_1sim_1_1ProbabilityMap_a76dbbce506c949ddf1ee6e6957185994}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveTotal@{saveTotal}}
+\index{saveTotal@{saveTotal}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveTotal()}{saveTotal()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+Total (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save map representing all intensities. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1ProbabilityMap_a216eb0a3ad9b365852456d762e2b7c75}\label{classtbd_1_1sim_1_1ProbabilityMap_a216eb0a3ad9b365852456d762e2b7c75}} 
+\index{tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}!saveTotalCount@{saveTotalCount}}
+\index{saveTotalCount@{saveTotalCount}!tbd::sim::ProbabilityMap@{tbd::sim::ProbabilityMap}}
+\doxysubsubsection{\texorpdfstring{saveTotalCount()}{saveTotalCount()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Probability\+Map\+::save\+Total\+Count (\begin{DoxyParamCaption}\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const}
+
+
+
+Save map representing all intensities occurrence. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+name} & Base file name to save to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Probability\+Map.\+h\item 
+src/Probability\+Map.\+cpp\end{DoxyCompactItemize}

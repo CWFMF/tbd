@@ -1,7 +1,0 @@
-<map id="tbd::topo::EnvironmentInfo::calculateColumns" name="tbd::topo::EnvironmentInfo::calculateColumns">
-<area shape="rect" id="node1" title="Number of columns in grid." alt="" coords="5,71,176,112"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="224,71,355,112"/>
-<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf" title="Cell size used for GridBase." alt="" coords="403,5,533,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892" title="Lower left corner X coordinate in meters." alt="" coords="403,71,533,112"/>
-<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0" title="Upper right corner X coordinate in meters." alt="" coords="403,136,533,177"/>
-</map>

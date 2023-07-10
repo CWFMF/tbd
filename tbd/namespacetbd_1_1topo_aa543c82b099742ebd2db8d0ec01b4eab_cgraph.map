@@ -1,6 +1,0 @@
-<map id="tbd::topo::map_xy_to_lat_lon" name="tbd::topo::map_xy_to_lat_lon">
-<area shape="rect" id="node1" title="Converts Transverse Mercator to latitude/longitude." alt="" coords="5,27,144,69"/>
-<area shape="rect" id="node2" href="$unstable_8cpp.html#a2f350287e49ce0f0ead60ab192ef9ae2" title=" " alt="" coords="230,5,281,32"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1topo.html#a5bee248bf57adb51081b5eb74223050b" title="Computes the footpoint latitude." alt="" coords="192,57,319,98"/>
-<area shape="rect" id="node4" href="$unstable_8cpp.html#a346eb2bc5711dd6bf30f4be5bf3ddf92" title=" " alt="" coords="367,64,413,91"/>
-</map>

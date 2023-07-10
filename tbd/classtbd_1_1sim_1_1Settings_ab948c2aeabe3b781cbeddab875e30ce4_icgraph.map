@@ -1,7 +1,0 @@
-<map id="tbd::sim::Settings::thresholdDailyWeight" name="tbd::sim::Settings::thresholdDailyWeight">
-<area shape="rect" id="node1" title="Weight to give to daily part of thresholds." alt="" coords="631,27,780,69"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1sim.html#aa8b7e3e2af7531687eb8629139f98a14" title=" " alt="" coords="417,35,583,61"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1sim.html#ac51157eaaed2419ae8657c14856caf13" title=" " alt="" coords="204,5,369,32"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="225,57,349,98"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="5,57,156,98"/>
-</map>

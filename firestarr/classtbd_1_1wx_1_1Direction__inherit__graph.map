@@ -1,0 +1,4 @@
+<map id="tbd::wx::Direction" name="tbd::wx::Direction">
+<area shape="rect" id="node1" title="Direction with access to degrees or radians." alt="" coords="37,80,155,107"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,187,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tbd::topo::BurnedMap" name="tbd::topo::BurnedMap">
+<area shape="rect" id="node1" title="A map of locations which have burned in a Scenario." alt="" coords="821,27,964,54"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="647,20,773,61"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="396,5,599,76"/>
+<area shape="rect" id="node4" href="$classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="184,20,348,61"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="5,27,136,54"/>
+</map>

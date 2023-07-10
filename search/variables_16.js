@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['x_3188',['x',['.././tbd/structtbd_1_1sim_1_1InnerPos.html#a2a9984b6fad05e4eba05de2280a7b56f',1,'tbd::sim::InnerPos::x()'],['.././tbd/structtbd_1_1Offset.html#ac21621708cb9ea7e7d8bebcdc947afa2',1,'tbd::Offset::x()']]],
-  ['xcenter_3189',['XCenter',['.././tbd/classgis_1_1Extent.html#a8c16b24fbd86050dfcd124941327c57c',1,'gis::Extent']]],
-  ['xleft_3190',['xLeft',['.././gis/namespacenhn.html#a0a78bce196109af90839bcbbe8e78899',1,'nhn']]],
-  ['xllcorner_5f_3191',['xllcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#a5f55b6487b91e4c93f237d946e101aa0',1,'tbd::data::GridBase']]],
-  ['xmax_3192',['XMax',['.././tbd/classgis_1_1Extent.html#a671fd7981f9b0a5e0bba6c8559432f24',1,'gis::Extent']]],
-  ['xmin_3193',['XMin',['.././tbd/classgis_1_1Extent.html#acc2235faedbe1fd4266eebc5e28182fa',1,'gis::Extent']]],
-  ['xright_3194',['xRight',['.././gis/namespacenhn.html#a094eccbef814619c065a50f2df50b3d6',1,'nhn']]],
-  ['xurcorner_5f_3195',['xurcorner_',['.././tbd/classtbd_1_1data_1_1GridBase.html#a7499453d26ad0a9a56bfa87b22ea92c3',1,'tbd::data::GridBase']]],
-  ['xybits_3196',['XYBits',['.././tbd/classtbd_1_1topo_1_1Location.html#a1d3952f8067204e6db4802ca5802205f',1,'tbd::topo::Location']]]
+  ['zero_1538',['Zero',['.././firestarr/classtbd_1_1wx_1_1Bui.html#ace09bc4e624004ed0979c4c4b349c211',1,'tbd::wx::Bui::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dc.html#aef5377bbec1617571e11550eb25fa8e7',1,'tbd::wx::Dc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Direction.html#a10a21a47d8d17924de93ee0d4fcbb638',1,'tbd::wx::Direction::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dmc.html#a4e2c7075d41b4b88cafe4b568c34f9fd',1,'tbd::wx::Dmc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Dsr.html#a73a697129a9e45df07da941c358ffe29',1,'tbd::wx::Dsr::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Ffmc.html#a59195e31dc173e384e6d45dc6dd7eb1b',1,'tbd::wx::Ffmc::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Fwi.html#ad5d0f25f2a4efdc519df11ef1e57f701',1,'tbd::wx::Fwi::Zero()'],['.././firestarr/classtbd_1_1wx_1_1FwiWeather.html#aa2daf17081a80d7a55a936f58b48cd47',1,'tbd::wx::FwiWeather::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Isi.html#ab6594ab7a4fe2b3dd604dd965424d2d8',1,'tbd::wx::Isi::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Precipitation.html#a65953772eec7b2a358a6870996397888',1,'tbd::wx::Precipitation::Zero()'],['.././firestarr/classtbd_1_1wx_1_1RelativeHumidity.html#a66a88b8006381eb7d27598a99bec2b79',1,'tbd::wx::RelativeHumidity::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Speed.html#ac53fa5285a6b098f11eb2802cb2b9e27',1,'tbd::wx::Speed::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Temperature.html#a3b03a0a3f4c199e0ff350a5d3d2b8d22',1,'tbd::wx::Temperature::Zero()'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#a341f6e50bd71697dd87d4d8759af7d9f',1,'tbd::wx::Wind::Zero()']]],
+  ['zone_1539',['zone',['.././gis/namespacemake__grids.html#a7f3b86af91b0812410a28a6994e12258',1,'make_grids']]],
+  ['zone_5fmax_1540',['ZONE_MAX',['.././gis/namespacemake__grids.html#a1a259550194543043bad91a2b2b92f2d',1,'make_grids']]],
+  ['zone_5fmin_1541',['ZONE_MIN',['.././gis/namespacemake__grids.html#ae0da6ae2f782922244e87771af58f3c8',1,'make_grids']]],
+  ['zones_1542',['zones',['.././gis/namespacemake__grids.html#a348cfd8f47b0c3b8a1558c31187eda6d',1,'make_grids']]]
 ];

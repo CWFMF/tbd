@@ -1,5 +1,0 @@
-<map id="tbd::data::GridMap::at" name="tbd::data::GridMap::at">
-<area shape="rect" id="node1" title="Retrieve value at Location." alt="" coords="204,42,347,69"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="17,5,144,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridMap.html#a7ef4a81b958891bd49809a94f09328a6" title="Set value at Location." alt="" coords="5,71,156,98"/>
-</map>

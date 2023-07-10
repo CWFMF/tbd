@@ -1,0 +1,4 @@
+<map id="tbd::sim::TestWeather" name="tbd::sim::TestWeather">
+<area shape="rect" id="node1" title="A FireWeather stream with the same value for every date and time." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="9,5,148,32"/>
+</map>

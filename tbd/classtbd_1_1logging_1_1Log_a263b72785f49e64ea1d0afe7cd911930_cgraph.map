@@ -1,4 +1,0 @@
-<map id="tbd::logging::Log::decreaseLogLevel" name="tbd::logging::Log::decreaseLogLevel">
-<area shape="rect" id="node1" title="Decrease amount of logging output by one level." alt="" coords="5,5,135,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="183,5,304,47"/>
-</map>

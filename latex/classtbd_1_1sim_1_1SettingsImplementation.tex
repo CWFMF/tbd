@@ -1,0 +1,534 @@
+\hypertarget{classtbd_1_1sim_1_1SettingsImplementation}{}\doxysection{tbd\+::sim\+::Settings\+Implementation Class Reference}
+\label{classtbd_1_1sim_1_1SettingsImplementation}\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+
+
+\mbox{\hyperlink{classtbd_1_1sim_1_1Settings}{Settings}} implementation class.  
+
+
+
+
+Collaboration diagram for tbd\+::sim\+::Settings\+Implementation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classtbd_1_1sim_1_1SettingsImplementation__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a496ece28746f828b7edd0985ccb5fbda}\label{classtbd_1_1sim_1_1SettingsImplementation_a496ece28746f828b7edd0985ccb5fbda}} 
+{\bfseries Settings\+Implementation} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a188ca5bcf81a68e6aa4a6448e31f2a46}\label{classtbd_1_1sim_1_1SettingsImplementation_a188ca5bcf81a68e6aa4a6448e31f2a46}} 
+{\bfseries Settings\+Implementation} (\mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \&\&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a16df67fe0b9396a3ebd610fa59fdc98a}\label{classtbd_1_1sim_1_1SettingsImplementation_a16df67fe0b9396a3ebd610fa59fdc98a}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \&rhs)=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a4fdc416a688ddd95c075f7de8f293c45}\label{classtbd_1_1sim_1_1SettingsImplementation_a4fdc416a688ddd95c075f7de8f293c45}} 
+\mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \&\&rhs)=delete
+\item 
+const char $\ast$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_aa81cf83f765493852ff1e810adf19d49}{output\+Directory}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Path to directory that outputs are saved to. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a888ba43531f3efd2c8e0066b2ebcced3}{set\+Output\+Directory}} (const string \&d)
+\begin{DoxyCompactList}\small\item\em Set path to directory that outputs are saved to. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_afad48edc7f4a45d10b50e322d9bb5c54}{raster\+Root}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Root directory that raster inputs are stored in. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{fuel\+::\+Fuel\+Lookup}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a7fead2074c51400b84e2f34ad5abd6f1}{fuel\+Lookup}} () noexcept
+\begin{DoxyCompactList}\small\item\em Fuel lookup table. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a683cc2e51e525b0df597f33fe99f8d59}{minimum\+Ros}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Minimum rate of spread before fire is considered to be spreading (m/min) \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a72c5a0f6eb42cccd4f3be23204e7f89d}{maximum\+Spread\+Distance}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Maximum distance that the fire is allowed to spread in one step (\# of cells) \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a436acdf2a59a40f311817a89ed3c9226}{minimum\+Ffmc}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Minimum Fine Fuel Moisture Code required for spread during the day. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_ac16b3109b3646f3f140bfdbfece779ec}{minimum\+Ffmc\+At\+Night}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Minimum Fine Fuel Moisture Code required for spread during the night. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_aae8602fc67c08971dcd2f19ebd7c635d}{offset\+Sunrise}} () const noexcept
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to start (hours) \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a59103e5b0cdf6e38ee0b958c6f673851}{offset\+Sunset}} () const noexcept
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to end (hours) \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a0aef8e8d63b56153bd70a732d1d8ff68}{default\+Percent\+Conifer}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Default Percent Conifer to use for M1/\+M2 fuels where none is specified (\%) \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a05c64d5bc93358d8721d3ca70d76cbc6}{default\+Percent\+Dead\+Fir}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Default Percent Dead Fir to use for M3/\+M4 fuels where none is specified (\%) \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a925d19c5a8ed46736feea4e67530cebc}{intensity\+Max\+Low}} () const noexcept
+\begin{DoxyCompactList}\small\item\em The maximum fire intensity for the \textquotesingle{}low\textquotesingle{} range of intensity (k\+W/m) \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_aad3429116d8e1981c7896d5bc49d6e5d}{intensity\+Max\+Moderate}} () const noexcept
+\begin{DoxyCompactList}\small\item\em The maximum fire intensity for the \textquotesingle{}moderate\textquotesingle{} range of intensity (k\+W/m) \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a4af3d6d939e8fd5ec1e7ea19304bfedc}{confidence\+Level}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Confidence required before simulation stops (\% / 100) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a9fd1d141e6720de5aaf50e9ff1ecdee9}{set\+Confidence\+Level}} (const double value) noexcept
+\begin{DoxyCompactList}\small\item\em Set confidence required before simulation stops (\% / 100) \end{DoxyCompactList}\item 
+constexpr size\+\_\+t \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a30d75db84372f4d6c6c3fdfdf0ab6a94}{maximum\+Time\+Seconds}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Maximum time simulation can run before it is ended and whatever results it has are used (s) \end{DoxyCompactList}\item 
+constexpr size\+\_\+t \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a1bfcd443fff006546ee81cc4087b021a}{maximum\+Count\+Simulations}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Maximum number of simulations that can run before it is ended and whatever results it has are used. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a3ede35b555fce23af12859bd7d9120ad}{threshold\+Scenario\+Weight}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Weight to give to \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} part of thresholds. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a390eafeb7ca855861639a841807281be}{threshold\+Daily\+Weight}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Weight to give to daily part of thresholds. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_aa9f8e19e000f7d4c29078eda7d4eda09}{threshold\+Hourly\+Weight}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Weight to give to hourly part of thresholds. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a9d7c84a23049ab0509f0b72f6c744964}{output\+Date\+Offsets}} () const
+\begin{DoxyCompactList}\small\item\em Days to output probability contours for (1 is start date, 2 is day after, etc.) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a91c628acaac3ca51b2807f3c43e5f9bd}{set\+Output\+Date\+Offsets}} (const char $\ast$value)
+\begin{DoxyCompactList}\small\item\em Set days to output probability contours for (1 is start date, 2 is day after, etc.) \end{DoxyCompactList}\item 
+constexpr int \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a281d49148bb25073432922b4de020c7a}{max\+Date\+Offset}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Whatever the maximum value in the date offsets is. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \& \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_ac597be613111bd777ae6eafeb5c48c08}{instance}} () noexcept
+\begin{DoxyCompactList}\small\item\em The singleton instance for this class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_afef434b71e6529a46f06e53073dd26e4}{run\+\_\+async}} = true
+\begin{DoxyCompactList}\small\item\em Whether or not to run things asynchronously where possible. \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_aeb11cbadab4e44b60d703c4c813fa9a1}{deterministic\+\_\+}} = false
+\begin{DoxyCompactList}\small\item\em Whether or not to run deterministically (100\% chance of spread \& survival) \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_ada83d75ba4571c37730f8d2c5033b149}{save\+\_\+as\+\_\+ascii}} = false
+\begin{DoxyCompactList}\small\item\em Whether or not to save grids as .asc. \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_ad5b305968a3118e591798b269f960cbd}{save\+\_\+points}} = false
+\begin{DoxyCompactList}\small\item\em Whether or not to save points used for spread. \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a23d83fffd78b00af57a9b826efdf4042}{save\+\_\+intensity}} = true
+\begin{DoxyCompactList}\small\item\em Whether or not to save intensity grids. \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a033ad45f4865e497e4113e3d0ae53df5}{save\+\_\+probability}} = true
+\begin{DoxyCompactList}\small\item\em Whether or not to save probability grids. \end{DoxyCompactList}\item 
+atomic$<$ bool $>$ \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation_a830a3f1f46b83705e3c85a05efc0e057}{save\+\_\+occurrence}} = false
+\begin{DoxyCompactList}\small\item\em Whether or not to save occurrence grids. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classtbd_1_1sim_1_1Settings}{Settings}} implementation class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a4af3d6d939e8fd5ec1e7ea19304bfedc}\label{classtbd_1_1sim_1_1SettingsImplementation_a4af3d6d939e8fd5ec1e7ea19304bfedc}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!confidenceLevel@{confidenceLevel}}
+\index{confidenceLevel@{confidenceLevel}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{confidenceLevel()}{confidenceLevel()}}
+{\footnotesize\ttfamily double tbd\+::sim\+::\+Settings\+Implementation\+::confidence\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Confidence required before simulation stops (\% / 100) 
+
+\begin{DoxyReturn}{Returns}
+Confidence required before simulation stops (\% / 100) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a0aef8e8d63b56153bd70a732d1d8ff68}\label{classtbd_1_1sim_1_1SettingsImplementation_a0aef8e8d63b56153bd70a732d1d8ff68}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!defaultPercentConifer@{defaultPercentConifer}}
+\index{defaultPercentConifer@{defaultPercentConifer}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{defaultPercentConifer()}{defaultPercentConifer()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Settings\+Implementation\+::default\+Percent\+Conifer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Default Percent Conifer to use for M1/\+M2 fuels where none is specified (\%) 
+
+\begin{DoxyReturn}{Returns}
+Percent of the stand that is composed of conifer (\%) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a05c64d5bc93358d8721d3ca70d76cbc6}\label{classtbd_1_1sim_1_1SettingsImplementation_a05c64d5bc93358d8721d3ca70d76cbc6}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!defaultPercentDeadFir@{defaultPercentDeadFir}}
+\index{defaultPercentDeadFir@{defaultPercentDeadFir}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{defaultPercentDeadFir()}{defaultPercentDeadFir()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Settings\+Implementation\+::default\+Percent\+Dead\+Fir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Default Percent Dead Fir to use for M3/\+M4 fuels where none is specified (\%) 
+
+\begin{DoxyReturn}{Returns}
+Percent of the stand that is composed of dead fir (N\+OT percent of the fir that is dead) (\%) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a7fead2074c51400b84e2f34ad5abd6f1}\label{classtbd_1_1sim_1_1SettingsImplementation_a7fead2074c51400b84e2f34ad5abd6f1}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!fuelLookup@{fuelLookup}}
+\index{fuelLookup@{fuelLookup}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{fuelLookup()}{fuelLookup()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelLookup}{fuel\+::\+Fuel\+Lookup}}\& tbd\+::sim\+::\+Settings\+Implementation\+::fuel\+Lookup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Fuel lookup table. 
+
+\begin{DoxyReturn}{Returns}
+Fuel lookup table 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_ac597be613111bd777ae6eafeb5c48c08}\label{classtbd_1_1sim_1_1SettingsImplementation_ac597be613111bd777ae6eafeb5c48c08}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!instance@{instance}}
+\index{instance@{instance}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1sim_1_1SettingsImplementation}{Settings\+Implementation}} \& tbd\+::sim\+::\+Settings\+Implementation\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [noexcept]}}
+
+
+
+The singleton instance for this class. 
+
+\begin{DoxyReturn}{Returns}
+The singleton instance for this class 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a925d19c5a8ed46736feea4e67530cebc}\label{classtbd_1_1sim_1_1SettingsImplementation_a925d19c5a8ed46736feea4e67530cebc}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!intensityMaxLow@{intensityMaxLow}}
+\index{intensityMaxLow@{intensityMaxLow}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{intensityMaxLow()}{intensityMaxLow()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Settings\+Implementation\+::intensity\+Max\+Low (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+The maximum fire intensity for the \textquotesingle{}low\textquotesingle{} range of intensity (k\+W/m) 
+
+\begin{DoxyReturn}{Returns}
+The maximum fire intensity for the \textquotesingle{}low\textquotesingle{} range of intensity (k\+W/m) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_aad3429116d8e1981c7896d5bc49d6e5d}\label{classtbd_1_1sim_1_1SettingsImplementation_aad3429116d8e1981c7896d5bc49d6e5d}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!intensityMaxModerate@{intensityMaxModerate}}
+\index{intensityMaxModerate@{intensityMaxModerate}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{intensityMaxModerate()}{intensityMaxModerate()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Settings\+Implementation\+::intensity\+Max\+Moderate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+The maximum fire intensity for the \textquotesingle{}moderate\textquotesingle{} range of intensity (k\+W/m) 
+
+\begin{DoxyReturn}{Returns}
+The maximum fire intensity for the \textquotesingle{}moderate\textquotesingle{} range of intensity (k\+W/m) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a281d49148bb25073432922b4de020c7a}\label{classtbd_1_1sim_1_1SettingsImplementation_a281d49148bb25073432922b4de020c7a}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!maxDateOffset@{maxDateOffset}}
+\index{maxDateOffset@{maxDateOffset}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{maxDateOffset()}{maxDateOffset()}}
+{\footnotesize\ttfamily constexpr int tbd\+::sim\+::\+Settings\+Implementation\+::max\+Date\+Offset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Whatever the maximum value in the date offsets is. 
+
+\begin{DoxyReturn}{Returns}
+Whatever the maximum value in the date offsets is 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a1bfcd443fff006546ee81cc4087b021a}\label{classtbd_1_1sim_1_1SettingsImplementation_a1bfcd443fff006546ee81cc4087b021a}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!maximumCountSimulations@{maximumCountSimulations}}
+\index{maximumCountSimulations@{maximumCountSimulations}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{maximumCountSimulations()}{maximumCountSimulations()}}
+{\footnotesize\ttfamily constexpr size\+\_\+t tbd\+::sim\+::\+Settings\+Implementation\+::maximum\+Count\+Simulations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Maximum number of simulations that can run before it is ended and whatever results it has are used. 
+
+\begin{DoxyReturn}{Returns}
+Maximum number of simulations that can run before it is ended and whatever results it has are used 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a72c5a0f6eb42cccd4f3be23204e7f89d}\label{classtbd_1_1sim_1_1SettingsImplementation_a72c5a0f6eb42cccd4f3be23204e7f89d}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!maximumSpreadDistance@{maximumSpreadDistance}}
+\index{maximumSpreadDistance@{maximumSpreadDistance}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{maximumSpreadDistance()}{maximumSpreadDistance()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::maximum\+Spread\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Maximum distance that the fire is allowed to spread in one step (\# of cells) 
+
+\begin{DoxyReturn}{Returns}
+Maximum distance that the fire is allowed to spread in one step (\# of cells) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a30d75db84372f4d6c6c3fdfdf0ab6a94}\label{classtbd_1_1sim_1_1SettingsImplementation_a30d75db84372f4d6c6c3fdfdf0ab6a94}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!maximumTimeSeconds@{maximumTimeSeconds}}
+\index{maximumTimeSeconds@{maximumTimeSeconds}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{maximumTimeSeconds()}{maximumTimeSeconds()}}
+{\footnotesize\ttfamily constexpr size\+\_\+t tbd\+::sim\+::\+Settings\+Implementation\+::maximum\+Time\+Seconds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Maximum time simulation can run before it is ended and whatever results it has are used (s) 
+
+\begin{DoxyReturn}{Returns}
+Maximum time simulation can run before it is ended and whatever results it has are used (s) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a436acdf2a59a40f311817a89ed3c9226}\label{classtbd_1_1sim_1_1SettingsImplementation_a436acdf2a59a40f311817a89ed3c9226}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!minimumFfmc@{minimumFfmc}}
+\index{minimumFfmc@{minimumFfmc}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{minimumFfmc()}{minimumFfmc()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::minimum\+Ffmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Minimum Fine Fuel Moisture Code required for spread during the day. 
+
+\begin{DoxyReturn}{Returns}
+Minimum Fine Fuel Moisture Code required for spread during the day 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_ac16b3109b3646f3f140bfdbfece779ec}\label{classtbd_1_1sim_1_1SettingsImplementation_ac16b3109b3646f3f140bfdbfece779ec}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!minimumFfmcAtNight@{minimumFfmcAtNight}}
+\index{minimumFfmcAtNight@{minimumFfmcAtNight}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{minimumFfmcAtNight()}{minimumFfmcAtNight()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::minimum\+Ffmc\+At\+Night (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Minimum Fine Fuel Moisture Code required for spread during the night. 
+
+\begin{DoxyReturn}{Returns}
+Minimum Fine Fuel Moisture Code required for spread during the night 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a683cc2e51e525b0df597f33fe99f8d59}\label{classtbd_1_1sim_1_1SettingsImplementation_a683cc2e51e525b0df597f33fe99f8d59}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!minimumRos@{minimumRos}}
+\index{minimumRos@{minimumRos}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{minimumRos()}{minimumRos()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::minimum\+Ros (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Minimum rate of spread before fire is considered to be spreading (m/min) 
+
+\begin{DoxyReturn}{Returns}
+Minimum rate of spread before fire is considered to be spreading (m/min) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_aae8602fc67c08971dcd2f19ebd7c635d}\label{classtbd_1_1sim_1_1SettingsImplementation_aae8602fc67c08971dcd2f19ebd7c635d}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!offsetSunrise@{offsetSunrise}}
+\index{offsetSunrise@{offsetSunrise}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{offsetSunrise()}{offsetSunrise()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::offset\+Sunrise (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+\mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to start (hours) 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to start (hours) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a59103e5b0cdf6e38ee0b958c6f673851}\label{classtbd_1_1sim_1_1SettingsImplementation_a59103e5b0cdf6e38ee0b958c6f673851}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!offsetSunset@{offsetSunset}}
+\index{offsetSunset@{offsetSunset}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{offsetSunset()}{offsetSunset()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::offset\+Sunset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+\mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to end (hours) 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{structtbd_1_1Offset}{Offset}} from sunrise at which the day is considered to end (hours) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a9d7c84a23049ab0509f0b72f6c744964}\label{classtbd_1_1sim_1_1SettingsImplementation_a9d7c84a23049ab0509f0b72f6c744964}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!outputDateOffsets@{outputDateOffsets}}
+\index{outputDateOffsets@{outputDateOffsets}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{outputDateOffsets()}{outputDateOffsets()}}
+{\footnotesize\ttfamily vector$<$int$>$ tbd\+::sim\+::\+Settings\+Implementation\+::output\+Date\+Offsets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Days to output probability contours for (1 is start date, 2 is day after, etc.) 
+
+\begin{DoxyReturn}{Returns}
+Days to output probability contours for (1 is start date, 2 is day after, etc.) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_aa81cf83f765493852ff1e810adf19d49}\label{classtbd_1_1sim_1_1SettingsImplementation_aa81cf83f765493852ff1e810adf19d49}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!outputDirectory@{outputDirectory}}
+\index{outputDirectory@{outputDirectory}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{outputDirectory()}{outputDirectory()}}
+{\footnotesize\ttfamily const char$\ast$ tbd\+::sim\+::\+Settings\+Implementation\+::output\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Path to directory that outputs are saved to. 
+
+\begin{DoxyReturn}{Returns}
+Path to directory that outputs are saved to 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_afad48edc7f4a45d10b50e322d9bb5c54}\label{classtbd_1_1sim_1_1SettingsImplementation_afad48edc7f4a45d10b50e322d9bb5c54}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!rasterRoot@{rasterRoot}}
+\index{rasterRoot@{rasterRoot}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{rasterRoot()}{rasterRoot()}}
+{\footnotesize\ttfamily const char$\ast$ tbd\+::sim\+::\+Settings\+Implementation\+::raster\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Root directory that raster inputs are stored in. 
+
+\begin{DoxyReturn}{Returns}
+Root directory that raster inputs are stored in 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a9fd1d141e6720de5aaf50e9ff1ecdee9}\label{classtbd_1_1sim_1_1SettingsImplementation_a9fd1d141e6720de5aaf50e9ff1ecdee9}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!setConfidenceLevel@{setConfidenceLevel}}
+\index{setConfidenceLevel@{setConfidenceLevel}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{setConfidenceLevel()}{setConfidenceLevel()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Settings\+Implementation\+::set\+Confidence\+Level (\begin{DoxyParamCaption}\item[{const double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Set confidence required before simulation stops (\% / 100) 
+
+\begin{DoxyReturn}{Returns}
+Set confidence required before simulation stops (\% / 100) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a91c628acaac3ca51b2807f3c43e5f9bd}\label{classtbd_1_1sim_1_1SettingsImplementation_a91c628acaac3ca51b2807f3c43e5f9bd}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!setOutputDateOffsets@{setOutputDateOffsets}}
+\index{setOutputDateOffsets@{setOutputDateOffsets}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{setOutputDateOffsets()}{setOutputDateOffsets()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Settings\+Implementation\+::set\+Output\+Date\+Offsets (\begin{DoxyParamCaption}\item[{const char $\ast$}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set days to output probability contours for (1 is start date, 2 is day after, etc.) 
+
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a888ba43531f3efd2c8e0066b2ebcced3}\label{classtbd_1_1sim_1_1SettingsImplementation_a888ba43531f3efd2c8e0066b2ebcced3}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!setOutputDirectory@{setOutputDirectory}}
+\index{setOutputDirectory@{setOutputDirectory}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{setOutputDirectory()}{setOutputDirectory()}}
+{\footnotesize\ttfamily void tbd\+::sim\+::\+Settings\+Implementation\+::set\+Output\+Directory (\begin{DoxyParamCaption}\item[{const string \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set path to directory that outputs are saved to. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Path to directory that outputs are saved to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a390eafeb7ca855861639a841807281be}\label{classtbd_1_1sim_1_1SettingsImplementation_a390eafeb7ca855861639a841807281be}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!thresholdDailyWeight@{thresholdDailyWeight}}
+\index{thresholdDailyWeight@{thresholdDailyWeight}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{thresholdDailyWeight()}{thresholdDailyWeight()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::threshold\+Daily\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Weight to give to daily part of thresholds. 
+
+\begin{DoxyReturn}{Returns}
+Weight to give to daily part of thresholds 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_aa9f8e19e000f7d4c29078eda7d4eda09}\label{classtbd_1_1sim_1_1SettingsImplementation_aa9f8e19e000f7d4c29078eda7d4eda09}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!thresholdHourlyWeight@{thresholdHourlyWeight}}
+\index{thresholdHourlyWeight@{thresholdHourlyWeight}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{thresholdHourlyWeight()}{thresholdHourlyWeight()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::threshold\+Hourly\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Weight to give to hourly part of thresholds. 
+
+\begin{DoxyReturn}{Returns}
+Weight to give to hourly part of thresholds 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a3ede35b555fce23af12859bd7d9120ad}\label{classtbd_1_1sim_1_1SettingsImplementation_a3ede35b555fce23af12859bd7d9120ad}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!thresholdScenarioWeight@{thresholdScenarioWeight}}
+\index{thresholdScenarioWeight@{thresholdScenarioWeight}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{thresholdScenarioWeight()}{thresholdScenarioWeight()}}
+{\footnotesize\ttfamily constexpr double tbd\+::sim\+::\+Settings\+Implementation\+::threshold\+Scenario\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Weight to give to \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} part of thresholds. 
+
+\begin{DoxyReturn}{Returns}
+Weight to give to \mbox{\hyperlink{classtbd_1_1sim_1_1Scenario}{Scenario}} part of thresholds 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_aeb11cbadab4e44b60d703c4c813fa9a1}\label{classtbd_1_1sim_1_1SettingsImplementation_aeb11cbadab4e44b60d703c4c813fa9a1}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!deterministic\_@{deterministic\_}}
+\index{deterministic\_@{deterministic\_}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{deterministic\_}{deterministic\_}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::deterministic\+\_\+ = false}
+
+
+
+Whether or not to run deterministically (100\% chance of spread \& survival) 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to run deterministically (100\% chance of spread \& survival) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_afef434b71e6529a46f06e53073dd26e4}\label{classtbd_1_1sim_1_1SettingsImplementation_afef434b71e6529a46f06e53073dd26e4}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!run\_async@{run\_async}}
+\index{run\_async@{run\_async}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{run\_async}{run\_async}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::run\+\_\+async = true}
+
+
+
+Whether or not to run things asynchronously where possible. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to run things asynchronously where possible 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_ada83d75ba4571c37730f8d2c5033b149}\label{classtbd_1_1sim_1_1SettingsImplementation_ada83d75ba4571c37730f8d2c5033b149}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!save\_as\_ascii@{save\_as\_ascii}}
+\index{save\_as\_ascii@{save\_as\_ascii}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{save\_as\_ascii}{save\_as\_ascii}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::save\+\_\+as\+\_\+ascii = false}
+
+
+
+Whether or not to save grids as .asc. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to save grids as .asc 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a23d83fffd78b00af57a9b826efdf4042}\label{classtbd_1_1sim_1_1SettingsImplementation_a23d83fffd78b00af57a9b826efdf4042}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!save\_intensity@{save\_intensity}}
+\index{save\_intensity@{save\_intensity}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{save\_intensity}{save\_intensity}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::save\+\_\+intensity = true}
+
+
+
+Whether or not to save intensity grids. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to save intensity grids 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a830a3f1f46b83705e3c85a05efc0e057}\label{classtbd_1_1sim_1_1SettingsImplementation_a830a3f1f46b83705e3c85a05efc0e057}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!save\_occurrence@{save\_occurrence}}
+\index{save\_occurrence@{save\_occurrence}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{save\_occurrence}{save\_occurrence}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::save\+\_\+occurrence = false}
+
+
+
+Whether or not to save occurrence grids. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to save occurrence grids 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_ad5b305968a3118e591798b269f960cbd}\label{classtbd_1_1sim_1_1SettingsImplementation_ad5b305968a3118e591798b269f960cbd}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!save\_points@{save\_points}}
+\index{save\_points@{save\_points}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{save\_points}{save\_points}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::save\+\_\+points = false}
+
+
+
+Whether or not to save points used for spread. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to save points used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1sim_1_1SettingsImplementation_a033ad45f4865e497e4113e3d0ae53df5}\label{classtbd_1_1sim_1_1SettingsImplementation_a033ad45f4865e497e4113e3d0ae53df5}} 
+\index{tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}!save\_probability@{save\_probability}}
+\index{save\_probability@{save\_probability}!tbd::sim::SettingsImplementation@{tbd::sim::SettingsImplementation}}
+\doxysubsubsection{\texorpdfstring{save\_probability}{save\_probability}}
+{\footnotesize\ttfamily atomic$<$bool$>$ tbd\+::sim\+::\+Settings\+Implementation\+::save\+\_\+probability = true}
+
+
+
+Whether or not to save probability grids. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not to save probability grids 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Settings.\+cpp\end{DoxyCompactItemize}

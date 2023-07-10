@@ -1,0 +1,261 @@
+\hypertarget{classtbd_1_1topo_1_1Cell}{}\doxysection{tbd\+::topo\+::Cell Class Reference}
+\label{classtbd_1_1topo_1_1Cell}\index{tbd::topo::Cell@{tbd::topo::Cell}}
+
+
+A \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with a Slope, Aspect, and Fuel.  
+
+
+
+
+{\ttfamily \#include $<$Cell.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::topo\+::Cell\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classtbd_1_1topo_1_1Cell__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::topo\+::Cell\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classtbd_1_1topo_1_1Cell__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_aed8bf07dacd0f5143e6b0e6af71f9ec4}\label{classtbd_1_1topo_1_1Cell_aed8bf07dacd0f5143e6b0e6af71f9ec4}} 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aed8bf07dacd0f5143e6b0e6af71f9ec4}{Cell}} () noexcept
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a886e5e53a08f7695d72b039caccb7344}{Cell}} (const Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}{hash}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct from hash value. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a42891dd764dea170d58233b79d69c6a3}{Cell}} (const Hash\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a32824ecfa9e260a89b3cfbe94f6b3fa3}{hash}}, const Slope\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}{slope}}, const Aspect\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}{aspect}}, const Fuel\+Code\+Size \&fuel) noexcept
+\begin{DoxyCompactList}\small\item\em Construct based on given attributes. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a79f16386c78920983103b7837d40d962}{Cell}} (const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a136da5174381ea2dbf8159ba6907c2ea}{row}}, const Idx \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a7edf3e2cfb07cee8c5bff5c3e19a9cac}{column}}, const Slope\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}{slope}}, const Aspect\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}{aspect}}, const Fuel\+Code\+Size \&fuel) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+constexpr Spread\+Key \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_abef87727242828b97757efcac5d178d8}{key}} () const noexcept
+\begin{DoxyCompactList}\small\item\em A key defining Slope, Aspect, and Fuel, used for determining Cells that spread the same. \end{DoxyCompactList}\item 
+constexpr Aspect\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}{aspect}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Aspect (degrees) \end{DoxyCompactList}\item 
+constexpr Fuel\+Code\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a487ad9732e6781fa41a3fbc163dde4c7}{fuel\+Code}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Fuel. \end{DoxyCompactList}\item 
+constexpr Slope\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}{slope}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Slope (degrees) \end{DoxyCompactList}\item 
+constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_ae1a9197376e331fc962ebf370e382cb0}{topo\+Hash}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Topo that contains \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a9eb36995b1284c53513c19a316bbbce7}{hash\+Cell}} (const Slope\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}{slope}}, const Aspect\+Size \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}{aspect}}, const Fuel\+Code\+Size \&fuel) noexcept
+\begin{DoxyCompactList}\small\item\em Hash attributes into a Topo value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a92d6af49bde83c96934928557cac64ee}\label{classtbd_1_1topo_1_1Cell_a92d6af49bde83c96934928557cac64ee}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a92d6af49bde83c96934928557cac64ee}{Fuel\+Shift}} = 32
+\begin{DoxyCompactList}\small\item\em Shift for fuel bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_adeed86d81162b88529cc1fabddcfd09b}\label{classtbd_1_1topo_1_1Cell_adeed86d81162b88529cc1fabddcfd09b}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_adeed86d81162b88529cc1fabddcfd09b}{Fuel\+Bits}} = std\+::bit\+\_\+width$<$uint32\+\_\+t$>$(N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+F\+U\+E\+LS)
+\begin{DoxyCompactList}\small\item\em Number of bits in fuel bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a9111d0cd1a1d49aff0342d88eaad8939}\label{classtbd_1_1topo_1_1Cell_a9111d0cd1a1d49aff0342d88eaad8939}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a9111d0cd1a1d49aff0342d88eaad8939}{Fuel\+Bit\+Mask}} = util\+::bit\+\_\+mask$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Cell_adeed86d81162b88529cc1fabddcfd09b}{Fuel\+Bits}}, Topo$>$()
+\begin{DoxyCompactList}\small\item\em Bitmask for fuel information in Topo before shift. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a07d3f26db350299b5aaf912018527ee9}\label{classtbd_1_1topo_1_1Cell_a07d3f26db350299b5aaf912018527ee9}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a07d3f26db350299b5aaf912018527ee9}{Fuel\+Mask}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a9111d0cd1a1d49aff0342d88eaad8939}{Fuel\+Bit\+Mask}} $<$$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a92d6af49bde83c96934928557cac64ee}{Fuel\+Shift}}
+\begin{DoxyCompactList}\small\item\em Bitmask for fuel information in Topo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_af023c86865e03cedef054ce7aed63023}\label{classtbd_1_1topo_1_1Cell_af023c86865e03cedef054ce7aed63023}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_af023c86865e03cedef054ce7aed63023}{Aspect\+Shift}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_adeed86d81162b88529cc1fabddcfd09b}{Fuel\+Bits}} + \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a92d6af49bde83c96934928557cac64ee}{Fuel\+Shift}}
+\begin{DoxyCompactList}\small\item\em Shift for aspect bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_aff5e0764fb3ca54ccefc8899a1e75658}\label{classtbd_1_1topo_1_1Cell_aff5e0764fb3ca54ccefc8899a1e75658}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aff5e0764fb3ca54ccefc8899a1e75658}{Aspect\+Bits}} = std\+::bit\+\_\+width$<$uint32\+\_\+t$>$(M\+A\+X\+\_\+\+A\+S\+P\+E\+CT)
+\begin{DoxyCompactList}\small\item\em Number of bits in aspect bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_add3738baa885b8ac861d01371aa054df}\label{classtbd_1_1topo_1_1Cell_add3738baa885b8ac861d01371aa054df}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_add3738baa885b8ac861d01371aa054df}{Aspect\+Bit\+Mask}} = util\+::bit\+\_\+mask$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aff5e0764fb3ca54ccefc8899a1e75658}{Aspect\+Bits}}, Topo$>$()
+\begin{DoxyCompactList}\small\item\em Bitmask for aspect in Topo before shift. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_aac3fef2abb100cfbc3fe6c3f1874eab9}\label{classtbd_1_1topo_1_1Cell_aac3fef2abb100cfbc3fe6c3f1874eab9}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aac3fef2abb100cfbc3fe6c3f1874eab9}{Aspect\+Mask}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_add3738baa885b8ac861d01371aa054df}{Aspect\+Bit\+Mask}} $<$$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_af023c86865e03cedef054ce7aed63023}{Aspect\+Shift}}
+\begin{DoxyCompactList}\small\item\em Bitmask for aspect in Topo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a0fba3733484dd68c41c1339733c66c84}\label{classtbd_1_1topo_1_1Cell_a0fba3733484dd68c41c1339733c66c84}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a0fba3733484dd68c41c1339733c66c84}{Slope\+Shift}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aff5e0764fb3ca54ccefc8899a1e75658}{Aspect\+Bits}} + \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_af023c86865e03cedef054ce7aed63023}{Aspect\+Shift}}
+\begin{DoxyCompactList}\small\item\em Shift for slope bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a3489d41cec2989c8e4323d88dbb12df5}\label{classtbd_1_1topo_1_1Cell_a3489d41cec2989c8e4323d88dbb12df5}} 
+static constexpr uint32\+\_\+t \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a3489d41cec2989c8e4323d88dbb12df5}{Slope\+Bits}} = std\+::bit\+\_\+width$<$uint32\+\_\+t$>$(M\+A\+X\+\_\+\+S\+L\+O\+P\+E\+\_\+\+F\+O\+R\+\_\+\+D\+I\+S\+T\+A\+N\+CE)
+\begin{DoxyCompactList}\small\item\em Number of bits in slope bitmask. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a87b64aa3a8f90a5fddd67355ec63db00}\label{classtbd_1_1topo_1_1Cell_a87b64aa3a8f90a5fddd67355ec63db00}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a87b64aa3a8f90a5fddd67355ec63db00}{Slope\+Bit\+Mask}} = util\+::bit\+\_\+mask$<$\mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a3489d41cec2989c8e4323d88dbb12df5}{Slope\+Bits}}, Topo$>$()
+\begin{DoxyCompactList}\small\item\em Bitmask for slope in Topo before shift. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a83ea6fef8177927e84a58a7d227277c8}\label{classtbd_1_1topo_1_1Cell_a83ea6fef8177927e84a58a7d227277c8}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a83ea6fef8177927e84a58a7d227277c8}{Slope\+Mask}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a87b64aa3a8f90a5fddd67355ec63db00}{Slope\+Bit\+Mask}} $<$$<$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a0fba3733484dd68c41c1339733c66c84}{Slope\+Shift}}
+\begin{DoxyCompactList}\small\item\em Bitmask for slope in Topo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_aedbeef5f13b33557c6c105d721ac376b}\label{classtbd_1_1topo_1_1Cell_aedbeef5f13b33557c6c105d721ac376b}} 
+static constexpr Topo \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aedbeef5f13b33557c6c105d721ac376b}{Cell\+Mask}} = \mbox{\hyperlink{classtbd_1_1topo_1_1Location_a3866ff63d4c9310fe12b95178d03399b}{Hash\+Mask}} $\vert$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a07d3f26db350299b5aaf912018527ee9}{Fuel\+Mask}} $\vert$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_aac3fef2abb100cfbc3fe6c3f1874eab9}{Aspect\+Mask}} $\vert$ \mbox{\hyperlink{classtbd_1_1topo_1_1Cell_a83ea6fef8177927e84a58a7d227277c8}{Slope\+Mask}}
+\begin{DoxyCompactList}\small\item\em Bitmask for \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} information in Topo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} with a Slope, Aspect, and Fuel. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a886e5e53a08f7695d72b039caccb7344}\label{classtbd_1_1topo_1_1Cell_a886e5e53a08f7695d72b039caccb7344}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!Cell@{Cell}}
+\index{Cell@{Cell}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{Cell()}{Cell()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Cell\+::\+Cell (\begin{DoxyParamCaption}\item[{const Topo}]{hash }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Construct from hash value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hash defining all attributes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a42891dd764dea170d58233b79d69c6a3}\label{classtbd_1_1topo_1_1Cell_a42891dd764dea170d58233b79d69c6a3}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!Cell@{Cell}}
+\index{Cell@{Cell}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{Cell()}{Cell()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Cell\+::\+Cell (\begin{DoxyParamCaption}\item[{const Hash\+Size}]{hash,  }\item[{const Slope\+Size}]{slope,  }\item[{const Aspect\+Size}]{aspect,  }\item[{const Fuel\+Code\+Size \&}]{fuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Construct based on given attributes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hash of row and column \\
+\hline
+{\em slope} & Slope \\
+\hline
+{\em aspect} & Aspect \\
+\hline
+{\em fuel} & Fuel \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a79f16386c78920983103b7837d40d962}\label{classtbd_1_1topo_1_1Cell_a79f16386c78920983103b7837d40d962}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!Cell@{Cell}}
+\index{Cell@{Cell}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{Cell()}{Cell()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily constexpr tbd\+::topo\+::\+Cell\+::\+Cell (\begin{DoxyParamCaption}\item[{const Idx}]{row,  }\item[{const Idx}]{column,  }\item[{const Slope\+Size}]{slope,  }\item[{const Aspect\+Size}]{aspect,  }\item[{const Fuel\+Code\+Size \&}]{fuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row \\
+\hline
+{\em column} & Column \\
+\hline
+{\em slope} & Slope \\
+\hline
+{\em aspect} & Aspect \\
+\hline
+{\em fuel} & Fuel \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}\label{classtbd_1_1topo_1_1Cell_abbe1919c790ee531970bb2d074b4a8b6}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!aspect@{aspect}}
+\index{aspect@{aspect}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{aspect()}{aspect()}}
+{\footnotesize\ttfamily constexpr Aspect\+Size tbd\+::topo\+::\+Cell\+::aspect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Aspect (degrees) 
+
+\begin{DoxyReturn}{Returns}
+Aspect (degrees) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a487ad9732e6781fa41a3fbc163dde4c7}\label{classtbd_1_1topo_1_1Cell_a487ad9732e6781fa41a3fbc163dde4c7}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!fuelCode@{fuelCode}}
+\index{fuelCode@{fuelCode}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{fuelCode()}{fuelCode()}}
+{\footnotesize\ttfamily constexpr Fuel\+Code\+Size tbd\+::topo\+::\+Cell\+::fuel\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Fuel. 
+
+\begin{DoxyReturn}{Returns}
+Fuel 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a9eb36995b1284c53513c19a316bbbce7}\label{classtbd_1_1topo_1_1Cell_a9eb36995b1284c53513c19a316bbbce7}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!hashCell@{hashCell}}
+\index{hashCell@{hashCell}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{hashCell()}{hashCell()}}
+{\footnotesize\ttfamily static constexpr Topo tbd\+::topo\+::\+Cell\+::hash\+Cell (\begin{DoxyParamCaption}\item[{const Slope\+Size}]{slope,  }\item[{const Aspect\+Size}]{aspect,  }\item[{const Fuel\+Code\+Size \&}]{fuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Hash attributes into a Topo value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em slope} & Slope \\
+\hline
+{\em aspect} & Aspect \\
+\hline
+{\em fuel} & Fuel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Hash 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_abef87727242828b97757efcac5d178d8}\label{classtbd_1_1topo_1_1Cell_abef87727242828b97757efcac5d178d8}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!key@{key}}
+\index{key@{key}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{key()}{key()}}
+{\footnotesize\ttfamily constexpr Spread\+Key tbd\+::topo\+::\+Cell\+::key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+A key defining Slope, Aspect, and Fuel, used for determining Cells that spread the same. 
+
+\begin{DoxyReturn}{Returns}
+A key defining Slope, Aspect, and Fuel 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}\label{classtbd_1_1topo_1_1Cell_a50921e14148e473999c8335beb72cf3b}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!slope@{slope}}
+\index{slope@{slope}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{slope()}{slope()}}
+{\footnotesize\ttfamily constexpr Slope\+Size tbd\+::topo\+::\+Cell\+::slope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Slope (degrees) 
+
+\begin{DoxyReturn}{Returns}
+Slope (degrees) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1topo_1_1Cell_ae1a9197376e331fc962ebf370e382cb0}\label{classtbd_1_1topo_1_1Cell_ae1a9197376e331fc962ebf370e382cb0}} 
+\index{tbd::topo::Cell@{tbd::topo::Cell}!topoHash@{topoHash}}
+\index{topoHash@{topoHash}!tbd::topo::Cell@{tbd::topo::Cell}}
+\doxysubsubsection{\texorpdfstring{topoHash()}{topoHash()}}
+{\footnotesize\ttfamily constexpr Topo tbd\+::topo\+::\+Cell\+::topo\+Hash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Topo that contains \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} data. 
+
+\begin{DoxyReturn}{Returns}
+Topo that contains \mbox{\hyperlink{classtbd_1_1topo_1_1Cell}{Cell}} data 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Cell.\+h\end{DoxyCompactItemize}

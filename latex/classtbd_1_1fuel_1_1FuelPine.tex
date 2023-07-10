@@ -1,0 +1,107 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelPine}{}\doxysection{tbd\+::fuel\+::Fuel\+Pine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$ Class Template Reference}
+\label{classtbd_1_1fuel_1_1FuelPine}\index{tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$@{tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$}}
+
+
+A fuel with pine as the base fuel type.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Pine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelPine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Pine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelPine__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelPine_afb52d20e337139d66c715b38218d36bc}\label{classtbd_1_1fuel_1_1FuelPine_afb52d20e337139d66c715b38218d36bc}} 
+{\bfseries Fuel\+Pine} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelPine_a271b2721d3b56c25179898f2bd2e7b50}\label{classtbd_1_1fuel_1_1FuelPine_a271b2721d3b56c25179898f2bd2e7b50}} 
+{\bfseries Fuel\+Pine} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelPine_aa701606656606dae326630a1191cfb11}\label{classtbd_1_1fuel_1_1FuelPine_aa701606656606dae326630a1191cfb11}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelPine_a3592932db38abead0ebcd9540a2b3a11}\label{classtbd_1_1fuel_1_1FuelPine_a3592932db38abead0ebcd9540a2b3a11}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{Fuel\+Pine}} \&\&rhs) noexcept=delete
+\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const noexcept override
+\begin{DoxyCompactList}\small\item\em Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 12\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int A, int B, int C, int Bui0, int Cbh, int Cfl, int Bulk\+Density, int Duff\+Depth$>$\newline
+class tbd\+::fuel\+::\+Fuel\+Pine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$}
+
+A fuel with pine as the base fuel type. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em A} & Rate of spread parameter a \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em B} & Rate of spread parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em C} & Rate of spread parameter c $\ast$ 100 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em Bui0} & Average Build-\/up Index for the fuel type \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+{\em Cbh} & Crown base height (m) \mbox{[}S\+T-\/\+X-\/3 table 8\mbox{]} \\
+\hline
+{\em Cfl} & Crown fuel load (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 table 8\mbox{]} \\
+\hline
+{\em Bulk\+Density} & Crown bulk density $\ast$ 1000 \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+{\em Duff\+Depth} & Depth of \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} layer (cm $\ast$ 10) \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}\label{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}} 
+\index{tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$@{tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$@{tbd::fuel::FuelPine$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth $>$}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int Cbh, int Cfl, int Bulk\+Density, int Duff\+Depth$>$ \\
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine}{tbd\+::fuel\+::\+Fuel\+Pine}}$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 12\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 12\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\end{DoxyCompactItemize}

@@ -1,9 +1,0 @@
-<map id="tbd::util::read_directory" name="tbd::util::read_directory">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,156,65"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#a332e1ba9f6621e7752c37884607a84e7" title=" " alt="" coords="204,39,355,65"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#aa86b52e487b0b6cfb785c2f63ab58883" title="Log with EXTENSIVE level." alt="" coords="403,13,551,40"/>
-<area shape="rect" id="node7" href="$namespacetbd_1_1logging.html#a57d9729ef46fd4e37f0233ef42668e60" title="Log with VERBOSE level." alt="" coords="407,64,546,91"/>
-<area shape="rect" id="node4" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="776,57,897,98"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="599,39,728,65"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="777,5,896,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="tbd::sim::Settings::maxDateOffset" name="tbd::sim::Settings::maxDateOffset">
-<area shape="rect" id="node1" title="Whatever the maximum value in the date offsets is." alt="" coords="5,39,127,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="175,5,385,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a281d49148bb25073432922b4de020c7a" title="Whatever the maximum value in the date offsets is." alt="" coords="175,71,385,112"/>
-</map>

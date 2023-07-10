@@ -1,6 +1,0 @@
-<map id="tbd::fuel::fbp::FuelD1D2" name="tbd::fuel::fbp::FuelD1D2">
-<area shape="rect" id="node1" title="FBP fuel type D&#45;1/D&#45;2." alt="" coords="26,1352,181,1517"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html" title=" " alt="" coords="11,932,196,1303"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="5,5,191,449"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html" title="A fuel type that changes based on the season." alt="" coords="119,499,306,869"/>
-</map>

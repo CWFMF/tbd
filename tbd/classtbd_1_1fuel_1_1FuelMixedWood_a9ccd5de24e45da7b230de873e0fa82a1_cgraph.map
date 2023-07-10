@@ -1,6 +1,0 @@
-<map id="tbd::fuel::FuelMixedWood::surfaceFuelConsumption" name="tbd::fuel::FuelMixedWood::surfaceFuelConsumption">
-<area shape="rect" id="node1" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 17]." alt="" coords="5,115,177,156"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixed.html#a0f25afb52abed76993e6c87121ca2944" title="Percent Conifer (% / 100)" alt="" coords="233,5,408,76"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelMixed.html#a556f61ab0d25a1925929992f4670606b" title="Percent Deciduous (% / 100)" alt="" coords="225,100,416,171"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelMixed.html#ac2aedec3763f1b7440e956ef7fd568e3" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 10]." alt="" coords="235,195,407,236"/>
-</map>

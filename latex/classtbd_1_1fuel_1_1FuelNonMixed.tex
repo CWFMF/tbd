@@ -1,0 +1,143 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelNonMixed}{}\doxysection{tbd\+::fuel\+::Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$ Class Template Reference}
+\label{classtbd_1_1fuel_1_1FuelNonMixed}\index{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$@{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$}}
+
+
+A \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel}{Standard\+Fuel}} that is not made of multiple fuels.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelNonMixed__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelNonMixed__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_af6f1a8d90b5913d97215592b1bbe9c71}\label{classtbd_1_1fuel_1_1FuelNonMixed_af6f1a8d90b5913d97215592b1bbe9c71}} 
+{\bfseries Fuel\+Non\+Mixed} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_ac699a015fd27bd4f25a767f9f739beea}\label{classtbd_1_1fuel_1_1FuelNonMixed_ac699a015fd27bd4f25a767f9f739beea}} 
+{\bfseries Fuel\+Non\+Mixed} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_a25f387da75ed3a1edc8a713aff5d0fee}\label{classtbd_1_1fuel_1_1FuelNonMixed_a25f387da75ed3a1edc8a713aff5d0fee}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_a814c82083456e4b87f02586d8279ea13}\label{classtbd_1_1fuel_1_1FuelNonMixed_a814c82083456e4b87f02586d8279ea13}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{Fuel\+Non\+Mixed}} \&\&rhs) noexcept=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}{calculate\+Isf}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread, const double isi) const noexcept override
+\begin{DoxyCompactList}\small\item\em I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}{calculate\+Ros}} (const int, const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&, const double isi) const noexcept override
+\begin{DoxyCompactList}\small\item\em Initial rate of spread (m/min) \mbox{[}S\+T-\/\+X-\/3 eq 26\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int A, int B, int C, int Bui0, int Cbh, int Cfl, int Bulk\+Density, int Inorganic\+Percent, int Duff\+Depth$>$\newline
+class tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}
+
+A \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel}{Standard\+Fuel}} that is not made of multiple fuels. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em A} & Rate of spread parameter a \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em B} & Rate of spread parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em C} & Rate of spread parameter c $\ast$ 100 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em Bui0} & Average Build-\/up Index for the fuel type \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+{\em Cbh} & Crown base height (m) \mbox{[}S\+T-\/\+X-\/3 table 8\mbox{]} \\
+\hline
+{\em Cfl} & Crown fuel load (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 table 8\mbox{]} \\
+\hline
+{\em Bulk\+Density} & Crown bulk density $\ast$ 1000 \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+{\em Inorganic\+Percent} & Inorganic percent of \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} layer (\%) \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+{\em Duff\+Depth} & Depth of \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} layer (cm $\ast$ 10) \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}\label{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}} 
+\index{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$@{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$}!calculateIsf@{calculateIsf}}
+\index{calculateIsf@{calculateIsf}!tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$@{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$}}
+\doxysubsubsection{\texorpdfstring{calculateIsf()}{calculateIsf()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int Cbh, int Cfl, int Bulk\+Density, int Inorganic\+Percent, int Duff\+Depth$>$ \\
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed}}$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$\+::calculate\+Isf (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread,  }\item[{const double}]{isi }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use in calculations \\
+\hline
+{\em isi} & Initial Spread Index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ae10d58c44983cb2174924ea82d3ff627}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}\label{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}} 
+\index{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$@{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$}!calculateRos@{calculateRos}}
+\index{calculateRos@{calculateRos}!tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$@{tbd::fuel::FuelNonMixed$<$ A, B, C, Bui0, Cbh, Cfl, BulkDensity, InorganicPercent, DuffDepth $>$}}
+\doxysubsubsection{\texorpdfstring{calculateRos()}{calculateRos()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int Cbh, int Cfl, int Bulk\+Density, int Inorganic\+Percent, int Duff\+Depth$>$ \\
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed}}$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$\+::calculate\+Ros (\begin{DoxyParamCaption}\item[{const int}]{,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&}]{,  }\item[{const double}]{isi }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Initial rate of spread (m/min) \mbox{[}S\+T-\/\+X-\/3 eq 26\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em isi} & Initial Spread Index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Initial rate of spread (m/min) \mbox{[}S\+T-\/\+X-\/3 eq 26\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a81f37c0e9aec26852d38bd6dd555dcd5}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD2_abc14190c3b800d1948f19893789272db}{tbd\+::fuel\+::fbp\+::\+Fuel\+D2}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\end{DoxyCompactItemize}

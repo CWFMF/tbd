@@ -1,0 +1,361 @@
+\hypertarget{classtbd_1_1data_1_1ConstantGrid}{}\doxysection{tbd\+::data\+::Constant\+Grid$<$ T, V $>$ Class Template Reference}
+\label{classtbd_1_1data_1_1ConstantGrid}\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+
+
+A \mbox{\hyperlink{classtbd_1_1data_1_1GridData}{Grid\+Data}}$<$T, V, const vector$<$\+T$>$$>$ that cannot change once initialized.  
+
+
+
+
+{\ttfamily \#include $<$Constant\+Grid.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::data\+::Constant\+Grid$<$ T, V $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{classtbd_1_1data_1_1ConstantGrid__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::data\+::Constant\+Grid$<$ T, V $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{classtbd_1_1data_1_1ConstantGrid__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr T \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a64c169a3460579fc2f0fe95db3e40e26}{at}} (const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&location) const noexcept override
+\begin{DoxyCompactList}\small\item\em Value for grid at given Location. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a23df2974cecad606fa30521e0f69d031}{$\sim$\+Constant\+Grid}} ()=default
+\begin{DoxyCompactList}\small\item\em Value for grid at given Location. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a48b43e8ae6774cd4527f2333f0871cdf}\label{classtbd_1_1data_1_1ConstantGrid_a48b43e8ae6774cd4527f2333f0871cdf}} 
+{\bfseries Constant\+Grid} (const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a0e8dfb37225a4a2dff2b8d64cc0d830c}\label{classtbd_1_1data_1_1ConstantGrid_a0e8dfb37225a4a2dff2b8d64cc0d830c}} 
+{\bfseries Constant\+Grid} (\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a38b54f34cc10a00dd738fb719ecdea2e}\label{classtbd_1_1data_1_1ConstantGrid_a38b54f34cc10a00dd738fb719ecdea2e}} 
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a155a888e3778522f9e7f9ae6f572b95c}\label{classtbd_1_1data_1_1ConstantGrid_a155a888e3778522f9e7f9ae6f572b95c}} 
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_adcc5135f2f9445a3b6b8974f1e90826f}{Constant\+Grid}} (const double cell\+\_\+size, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}{rows}}, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}{columns}}, const T no\+\_\+data, const V \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}{nodata}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a5efc5fd7a0062b7eb69868ccbf7e8892}{xllcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_aecf88fe6a1a3877d4ec9ddb18d5e5a8f}{yllcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a75e7fe0f8904134f2274057fa08b54c0}{xurcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_ac229b964c0e7b3d9998ca6335fd1e278}{yurcorner}}, string \&\&\mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a58a632fa0b6f9ccb123d3a83641cf52f}{proj4}}, vector$<$ T $>$ \&\&\mbox{\hyperlink{classtbd_1_1data_1_1GridData_a0fcac461e1c398ae04c97dc934b02dec}{data}})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a979cab9549611bb27194f39ab31e53c5}{Constant\+Grid}} (const double cell\+\_\+size, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_a8edef5e6e3c5a70f08b40200ce29f0c3}{rows}}, const Idx \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ac057c771e231143bfd2f2d281b2a26fc}{columns}}, const T \&no\+\_\+data, const V \mbox{\hyperlink{classtbd_1_1data_1_1Grid_ade382c8122896a63543797c72cf92e9b}{nodata}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a5efc5fd7a0062b7eb69868ccbf7e8892}{xllcorner}}, const double \mbox{\hyperlink{classtbd_1_1data_1_1GridBase_aecf88fe6a1a3877d4ec9ddb18d5e5a8f}{yllcorner}}, const string \&\mbox{\hyperlink{classtbd_1_1data_1_1GridBase_a58a632fa0b6f9ccb123d3a83641cf52f}{proj4}}, const T \&initialization\+\_\+value) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_aa0d3bc4652bb8f5d13e878b302a84dbb}{save\+To\+Ascii\+File}} (const string \&dir, const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save contents to .asc file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a21c0aa9f922cace5ad706d67b0d1176d}{save\+To\+Ascii\+File}} (const string \&dir, const string \&base\+\_\+name, std\+::function$<$ V(T)$>$ convert) const
+\begin{DoxyCompactList}\small\item\em Save contents to .asc file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_ad033e3d4e9908435f7bad2c7a39ce340}{save\+To\+Tiff\+File}} (const string \&dir, const string \&base\+\_\+name) const
+\begin{DoxyCompactList}\small\item\em Save contents to .tif file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_acbc669266f232a2a3ca462d16c48723c}{save\+To\+Tiff\+File}} (const string \&dir, const string \&base\+\_\+name, std\+::function$<$ V(T)$>$ convert) const
+\begin{DoxyCompactList}\small\item\em Save contents to .tif file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$ T, V $>$ $\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a083e8423217b156085192c1330ea9ad2}{read\+Tiff}} (const string \&filename, T\+I\+FF $\ast$tif, G\+T\+IF $\ast$gtif, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&point, std\+::function$<$ T(V, V)$>$ convert)
+\begin{DoxyCompactList}\small\item\em Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$ T, V $>$ $\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a77453a0b7a58153c7463f92deed2e353}{read\+Tiff}} (const string \&filename, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&point, std\+::function$<$ T(V, V)$>$ convert)
+\begin{DoxyCompactList}\small\item\em Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$ T, T $>$ $\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid_a1ec9e77408c95500ff5a31b286d495f7}{read\+Tiff}} (const string \&filename, const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&point)
+\begin{DoxyCompactList}\small\item\em Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T, class V = T$>$\newline
+class tbd\+::data\+::\+Constant\+Grid$<$ T, V $>$}
+
+A \mbox{\hyperlink{classtbd_1_1data_1_1GridData}{Grid\+Data}}$<$T, V, const vector$<$\+T$>$$>$ that cannot change once initialized. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The initialization value type. \\
+\hline
+{\em V} & The initialized value type. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a23df2974cecad606fa30521e0f69d031}\label{classtbd_1_1data_1_1ConstantGrid_a23df2974cecad606fa30521e0f69d031}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!````~ConstantGrid@{$\sim$ConstantGrid}}
+\index{````~ConstantGrid@{$\sim$ConstantGrid}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$ConstantGrid()}{~ConstantGrid()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::$\sim$\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Value for grid at given Location. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hash\+Size hash for Location to get value for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value at grid Location.
+\end{DoxyReturn}
+Throw an error because \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} can\textquotesingle{}t change values. \mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_adcc5135f2f9445a3b6b8974f1e90826f}\label{classtbd_1_1data_1_1ConstantGrid_adcc5135f2f9445a3b6b8974f1e90826f}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!ConstantGrid@{ConstantGrid}}
+\index{ConstantGrid@{ConstantGrid}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{ConstantGrid()}{ConstantGrid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} (\begin{DoxyParamCaption}\item[{const double}]{cell\+\_\+size,  }\item[{const Idx}]{rows,  }\item[{const Idx}]{columns,  }\item[{const T}]{no\+\_\+data,  }\item[{const V}]{nodata,  }\item[{const double}]{xllcorner,  }\item[{const double}]{yllcorner,  }\item[{const double}]{xurcorner,  }\item[{const double}]{yurcorner,  }\item[{string \&\&}]{proj4,  }\item[{vector$<$ T $>$ \&\&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cell\+\_\+size} & Cell width and height (m) \\
+\hline
+{\em rows} & Number of rows \\
+\hline
+{\em columns} & Number of columns \\
+\hline
+{\em no\+\_\+data} & Value to use for no data \\
+\hline
+{\em nodata} & Integer value that represents no data \\
+\hline
+{\em xllcorner} & Lower left corner X coordinate (m) \\
+\hline
+{\em yllcorner} & Lower left corner Y coordinate (m) \\
+\hline
+{\em xurcorner} & Upper right corner X coordinate (m) \\
+\hline
+{\em yurcorner} & Upper right corner Y coordinate (m) \\
+\hline
+{\em proj4} & Proj4 projection definition \\
+\hline
+{\em data} & Data to set as grid data \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a979cab9549611bb27194f39ab31e53c5}\label{classtbd_1_1data_1_1ConstantGrid_a979cab9549611bb27194f39ab31e53c5}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!ConstantGrid@{ConstantGrid}}
+\index{ConstantGrid@{ConstantGrid}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{ConstantGrid()}{ConstantGrid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} (\begin{DoxyParamCaption}\item[{const double}]{cell\+\_\+size,  }\item[{const Idx}]{rows,  }\item[{const Idx}]{columns,  }\item[{const T \&}]{no\+\_\+data,  }\item[{const V}]{nodata,  }\item[{const double}]{xllcorner,  }\item[{const double}]{yllcorner,  }\item[{const string \&}]{proj4,  }\item[{const T \&}]{initialization\+\_\+value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cell\+\_\+size} & Cell width and height (m) \\
+\hline
+{\em rows} & Number of rows \\
+\hline
+{\em columns} & Number of columns \\
+\hline
+{\em no\+\_\+data} & Value to use for no data \\
+\hline
+{\em nodata} & Integer value that represents no data \\
+\hline
+{\em xllcorner} & Lower left corner X coordinate (m) \\
+\hline
+{\em yllcorner} & Lower left corner Y coordinate (m) \\
+\hline
+{\em proj4} & Proj4 projection definition \\
+\hline
+{\em initialization\+\_\+value} & Value to initialize entire grid with \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a64c169a3460579fc2f0fe95db3e40e26}\label{classtbd_1_1data_1_1ConstantGrid_a64c169a3460579fc2f0fe95db3e40e26}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!at@{at}}
+\index{at@{at}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+constexpr T \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::at (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Location}{Location}} \&}]{location }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [override]}, {\ttfamily [noexcept]}}
+
+
+
+Value for grid at given Location. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & Location to get value for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value at grid Location. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a1ec9e77408c95500ff5a31b286d495f7}\label{classtbd_1_1data_1_1ConstantGrid_a1ec9e77408c95500ff5a31b286d495f7}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!readTiff@{readTiff}}
+\index{readTiff@{readTiff}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{readTiff()}{readTiff()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$T, T$>$$\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::read\+Tiff (\begin{DoxyParamCaption}\item[{const string \&}]{filename,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & File name to read from \\
+\hline
+{\em point} & Point to center \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} containing clipped data for T\+I\+FF 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a77453a0b7a58153c7463f92deed2e353}\label{classtbd_1_1data_1_1ConstantGrid_a77453a0b7a58153c7463f92deed2e353}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!readTiff@{readTiff}}
+\index{readTiff@{readTiff}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{readTiff()}{readTiff()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$T, V$>$$\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::read\+Tiff (\begin{DoxyParamCaption}\item[{const string \&}]{filename,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&}]{point,  }\item[{std\+::function$<$ T(V, V)$>$}]{convert }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & File name to read from \\
+\hline
+{\em point} & Point to center \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} on \\
+\hline
+{\em convert} & Function taking int and nodata int value that returns T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} containing clipped data for T\+I\+FF 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a083e8423217b156085192c1330ea9ad2}\label{classtbd_1_1data_1_1ConstantGrid_a083e8423217b156085192c1330ea9ad2}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!readTiff@{readTiff}}
+\index{readTiff@{readTiff}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{readTiff()}{readTiff()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+static \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}$<$T, V$>$$\ast$ \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::read\+Tiff (\begin{DoxyParamCaption}\item[{const string \&}]{filename,  }\item[{T\+I\+FF $\ast$}]{tif,  }\item[{G\+T\+IF $\ast$}]{gtif,  }\item[{const \mbox{\hyperlink{classtbd_1_1topo_1_1Point}{topo\+::\+Point}} \&}]{point,  }\item[{std\+::function$<$ T(V, V)$>$}]{convert }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Read a section of a T\+I\+FF into a \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & File name to read from \\
+\hline
+{\em tif} & Pointer to open T\+I\+FF denoted by filename \\
+\hline
+{\em gtif} & Pointer to open geotiff denoted by filename \\
+\hline
+{\em point} & Point to center \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} on \\
+\hline
+{\em convert} & Function taking int and nodata int value that returns T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{Constant\+Grid}} containing clipped data for T\+I\+FF 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_aa0d3bc4652bb8f5d13e878b302a84dbb}\label{classtbd_1_1data_1_1ConstantGrid_aa0d3bc4652bb8f5d13e878b302a84dbb}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!saveToAsciiFile@{saveToAsciiFile}}
+\index{saveToAsciiFile@{saveToAsciiFile}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{saveToAsciiFile()}{saveToAsciiFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::save\+To\+Ascii\+File (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save contents to .asc file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save into \\
+\hline
+{\em base\+\_\+name} & File base name to use \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_a21c0aa9f922cace5ad706d67b0d1176d}\label{classtbd_1_1data_1_1ConstantGrid_a21c0aa9f922cace5ad706d67b0d1176d}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!saveToAsciiFile@{saveToAsciiFile}}
+\index{saveToAsciiFile@{saveToAsciiFile}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{saveToAsciiFile()}{saveToAsciiFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::save\+To\+Ascii\+File (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name,  }\item[{std\+::function$<$ V(T)$>$}]{convert }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save contents to .asc file. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em R} & Type to be written to .asc file \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save into \\
+\hline
+{\em base\+\_\+name} & File base name to use \\
+\hline
+{\em convert} & Function to convert from V to R \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_ad033e3d4e9908435f7bad2c7a39ce340}\label{classtbd_1_1data_1_1ConstantGrid_ad033e3d4e9908435f7bad2c7a39ce340}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!saveToTiffFile@{saveToTiffFile}}
+\index{saveToTiffFile@{saveToTiffFile}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{saveToTiffFile()}{saveToTiffFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::save\+To\+Tiff\+File (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save contents to .tif file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save into \\
+\hline
+{\em base\+\_\+name} & File base name to use \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1ConstantGrid_acbc669266f232a2a3ca462d16c48723c}\label{classtbd_1_1data_1_1ConstantGrid_acbc669266f232a2a3ca462d16c48723c}} 
+\index{tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}!saveToTiffFile@{saveToTiffFile}}
+\index{saveToTiffFile@{saveToTiffFile}!tbd::data::ConstantGrid$<$ T, V $>$@{tbd::data::ConstantGrid$<$ T, V $>$}}
+\doxysubsubsection{\texorpdfstring{saveToTiffFile()}{saveToTiffFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , class V  = T$>$ \\
+void \mbox{\hyperlink{classtbd_1_1data_1_1ConstantGrid}{tbd\+::data\+::\+Constant\+Grid}}$<$ T, V $>$\+::save\+To\+Tiff\+File (\begin{DoxyParamCaption}\item[{const string \&}]{dir,  }\item[{const string \&}]{base\+\_\+name,  }\item[{std\+::function$<$ V(T)$>$}]{convert }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save contents to .tif file. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em R} & Type to be written to .tif file \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & Directory to save into \\
+\hline
+{\em base\+\_\+name} & File base name to use \\
+\hline
+{\em convert} & Function to convert from V to R \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Constant\+Grid.\+h\end{DoxyCompactItemize}

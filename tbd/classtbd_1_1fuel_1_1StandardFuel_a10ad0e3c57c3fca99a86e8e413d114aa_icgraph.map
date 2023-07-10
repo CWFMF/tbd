@@ -1,7 +1,0 @@
-<map id="tbd::fuel::StandardFuel::negB" name="tbd::fuel::StandardFuel::negB">
-<area shape="rect" id="node1" title="Negative of rate of spread parameter b [ST&#45;X&#45;3 table 6]." alt="" coords="612,39,763,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#a481f6de9e13d5b0c4fade1e89e1f7ee7" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="212,5,363,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1StandardFuel.html#aa7bb9a4a636e994093a832226ec9d186" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="413,68,564,109"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelNonMixed.html#a08f36446b0ab874030cf35318bf92117" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,39,161,80"/>
-<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelNonMixed.html#a73569e9f7b7e84edc94cfd19453b93a0" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="209,71,365,112"/>
-</map>

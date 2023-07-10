@@ -1,0 +1,481 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelType}{}\doxysection{tbd\+::fuel\+::Fuel\+Type Class Reference}
+\label{classtbd_1_1fuel_1_1FuelType}\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+
+
+An F\+BP fuel type.  
+
+
+
+
+{\ttfamily \#include $<$Fuel\+Type.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Type\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelType__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ad0ed4b386524998d1837cc18a0770673}{Fuel\+Type}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}, const char $\ast$\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}}, const bool can\+\_\+crown) noexcept
+\begin{DoxyCompactList}\small\item\em Fuel type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ad29421436a488d157f570b010dd4c312}\label{classtbd_1_1fuel_1_1FuelType_ad29421436a488d157f570b010dd4c312}} 
+{\bfseries Fuel\+Type} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a56da8179623d277c2189a22e977548ef}\label{classtbd_1_1fuel_1_1FuelType_a56da8179623d277c2189a22e977548ef}} 
+{\bfseries Fuel\+Type} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a50ae22736c524caf3552dfbb4d31c56c}\label{classtbd_1_1fuel_1_1FuelType_a50ae22736c524caf3552dfbb4d31c56c}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ab5237bd03fd668756eea9f551dc24542}\label{classtbd_1_1fuel_1_1FuelType_ab5237bd03fd668756eea9f551dc24542}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} \&rhs) noexcept=delete
+\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a3d76adedf61aa4e5a9b714cabce11b51}{can\+Crown}} () const
+\begin{DoxyCompactList}\small\item\em Whether or not this fuel can have a crown fire. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_af1630a584b0db7e6a6efabc428ab1e40}{crown\+Fraction\+Burned}} (double rss, double rso) const noexcept=0
+\begin{DoxyCompactList}\small\item\em Crown Fraction Burned (C\+FB) \mbox{[}S\+T-\/\+X-\/3 eq 58\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a2aee5d5dd2e05f94b45694cad4c21a5d}{probability\+Peat}} (double mc\+\_\+fraction) const noexcept=0
+\begin{DoxyCompactList}\small\item\em Calculate probability of burning \mbox{[}Anderson eq 1\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54360592457504e0aeb5f225345df38e}{survival\+Probability}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&wx) const noexcept=0
+\begin{DoxyCompactList}\small\item\em Survival probability calculated using probability of ony survival based on multiple formulae. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ad25cb3df97e1932f12b0f03e40e501c8}{bui\+Effect}} (double bui) const =0
+\begin{DoxyCompactList}\small\item\em B\+UI Effect on surface fire rate of spread \mbox{[}S\+T-\/\+X-\/3 eq 54\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_af87c58a57b3afae95e9282416c6f325d}{crown\+Consumption}} (double cfb) const =0
+\begin{DoxyCompactList}\small\item\em Crown Fuel Consumption (C\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 66\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a81f37c0e9aec26852d38bd6dd555dcd5}{calculate\+Ros}} (int nd, const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&wx, double isi) const =0
+\begin{DoxyCompactList}\small\item\em Calculate rate of spread (m/min) \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ae10d58c44983cb2174924ea82d3ff627}{calculate\+Isf}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread, double isi) const =0
+\begin{DoxyCompactList}\small\item\em Calculate I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41/42\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const =0
+\begin{DoxyCompactList}\small\item\em Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 9-\/25\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ad58fdaa07ccc7c9f48ac3e117a77f300}{length\+To\+Breadth}} (double ws) const =0
+\begin{DoxyCompactList}\small\item\em Length to Breadth ratio \mbox{[}S\+T-\/\+X-\/3 eq 79\mbox{]}. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a345934b9de822a9a70c7893fffedd6a4}{final\+Ros}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread, double isi, double cfb, double rss) const =0
+\begin{DoxyCompactList}\small\item\em Final rate of spread (m/min) \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_aba5e3b406a3b0846cacccd0b6dc36e2f}{critical\+Surface\+Intensity}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const =0
+\begin{DoxyCompactList}\small\item\em Critical Surface Fire Intensity (C\+SI) \mbox{[}S\+T-\/\+X-\/3 eq 56\mbox{]}. \end{DoxyCompactList}\item 
+constexpr const char $\ast$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}} () const
+\begin{DoxyCompactList}\small\item\em Name of the fuel. \end{DoxyCompactList}\item 
+constexpr Fuel\+Code\+Size \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}} () const
+\begin{DoxyCompactList}\small\item\em Code for this fuel type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr Fuel\+Code\+Size \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a3fdd54fe57f405ccc36f6702f62edeef}{safe\+Code}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$fuel)
+\begin{DoxyCompactList}\small\item\em Convert \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to its code, or 0 if nullptr. \end{DoxyCompactList}\item 
+static constexpr const char $\ast$ \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a342fe97a1cae08168ed7ab93632935ac}{safe\+Name}} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$fuel)
+\begin{DoxyCompactList}\small\item\em Convert \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to its name, or 0 if nullptr. \end{DoxyCompactList}\item 
+static constexpr double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9c3661beba173ec640cb3c95b628bcd0}{critical\+Ros}} (const double sfc, const double csi)
+\begin{DoxyCompactList}\small\item\em Critical rate of spread (m/min) \end{DoxyCompactList}\item 
+static constexpr bool \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a41bff384ae4cbad2364a786fc53ffb98}{is\+Crown}} (const double csi, const double sfi)
+\begin{DoxyCompactList}\small\item\em Whether or not this is a crown fire. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An F\+BP fuel type. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ad0ed4b386524998d1837cc18a0770673}\label{classtbd_1_1fuel_1_1FuelType_ad0ed4b386524998d1837cc18a0770673}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!FuelType@{FuelType}}
+\index{FuelType@{FuelType}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{FuelType()}{FuelType()}}
+{\footnotesize\ttfamily constexpr tbd\+::fuel\+::\+Fuel\+Type\+::\+Fuel\+Type (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code,  }\item[{const char $\ast$}]{name,  }\item[{const bool}]{can\+\_\+crown }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Fuel type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+{\em name} & Name of the fuel \\
+\hline
+{\em can\+\_\+crown} & Whether or not this fuel can have a crown fire \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ad25cb3df97e1932f12b0f03e40e501c8}\label{classtbd_1_1fuel_1_1FuelType_ad25cb3df97e1932f12b0f03e40e501c8}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!buiEffect@{buiEffect}}
+\index{buiEffect@{buiEffect}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{buiEffect()}{buiEffect()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::bui\+Effect (\begin{DoxyParamCaption}\item[{double}]{bui }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+B\+UI Effect on surface fire rate of spread \mbox{[}S\+T-\/\+X-\/3 eq 54\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bui} & Build-\/up Index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\+UI Effect on surface fire rate of spread \mbox{[}S\+T-\/\+X-\/3 eq 54\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a2b4be6812a1f35978444290265ba8b2d}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a96a1c9b075371936af4251180965b219}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a96a1c9b075371936af4251180965b219}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, 6, 80, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a96a1c9b075371936af4251180965b219}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, 1, 0, 0, 0, 0, static\+\_\+cast$<$ int $>$(\+D\+U\+F\+F\+\_\+\+F\+F\+M\+C\+\_\+\+D\+E\+P\+T\+H $\ast$10.\+0)$>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ae10d58c44983cb2174924ea82d3ff627}\label{classtbd_1_1fuel_1_1FuelType_ae10d58c44983cb2174924ea82d3ff627}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!calculateIsf@{calculateIsf}}
+\index{calculateIsf@{calculateIsf}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{calculateIsf()}{calculateIsf()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::calculate\+Isf (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread,  }\item[{double}]{isi }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Calculate I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41/42\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+{\em isi} & Initial Spread Index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+SI with slope influence and zero wind (I\+SF) \mbox{[}S\+T-\/\+X-\/3 eq 41/42\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a62247a0d4ce80ca7582d3227d1135d2d}{tbd\+::fuel\+::\+Fuel\+Grass$<$ A, B, C $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a62247a0d4ce80ca7582d3227d1135d2d}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 190, 310, 140 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a62247a0d4ce80ca7582d3227d1135d2d}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 250, 350, 170 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a6641a6caefa02fa8735f8dec8a271ff8}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Mixed, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a6641a6caefa02fa8735f8dec8a271ff8}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir, 61, 15, 75 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a6641a6caefa02fa8735f8dec8a271ff8}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ 110, 282, 150, 50, Ros\+Multiplier, Ratio\+Mixed, 108, 25, 50 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ 6, 232, 160, 32, 0, 0, 61, 59, 24 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a08f36446b0ab874030cf35318bf92117}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ 30, 232, 160, 32, 0, 0, 61, 59, 24 $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_ad8934d4a76b30f2a8499b8081cd35d8f}{tbd\+::fuel\+::\+Invalid\+Fuel}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a81f37c0e9aec26852d38bd6dd555dcd5}\label{classtbd_1_1fuel_1_1FuelType_a81f37c0e9aec26852d38bd6dd555dcd5}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!calculateRos@{calculateRos}}
+\index{calculateRos@{calculateRos}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{calculateRos()}{calculateRos()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::calculate\+Ros (\begin{DoxyParamCaption}\item[{int}]{nd,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&}]{wx,  }\item[{double}]{isi }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Calculate rate of spread (m/min) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nd} & Difference between date and the date of minimum foliar moisture content \\
+\hline
+{\em wx} & Fwi\+Weather to use for calculation \\
+\hline
+{\em isi} & Initial Spread Index (may differ from wx because of slope) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Rate of spread (m/min) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a8490fd2d9ebd3ea42c6ff415a79be979}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD2_abc14190c3b800d1948f19893789272db}{tbd\+::fuel\+::fbp\+::\+Fuel\+D2}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a89cf2606534ce594ea7959222c092e47}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Mixed, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a89cf2606534ce594ea7959222c092e47}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir, 61, 15, 75 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_a89cf2606534ce594ea7959222c092e47}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ 110, 282, 150, 50, Ros\+Multiplier, Ratio\+Mixed, 108, 25, 50 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ 6, 232, 160, 32, 0, 0, 61, 59, 24 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelNonMixed_a73569e9f7b7e84edc94cfd19453b93a0}{tbd\+::fuel\+::\+Fuel\+Non\+Mixed$<$ 30, 232, 160, 32, 0, 0, 61, 59, 24 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_abb5f877ac7c31ab0558e4d641d147d9b}{tbd\+::fuel\+::\+Fuel\+Grass$<$ A, B, C $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_abb5f877ac7c31ab0558e4d641d147d9b}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 190, 310, 140 $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_abb5f877ac7c31ab0558e4d641d147d9b}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 250, 350, 170 $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a3d76adedf61aa4e5a9b714cabce11b51}\label{classtbd_1_1fuel_1_1FuelType_a3d76adedf61aa4e5a9b714cabce11b51}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!canCrown@{canCrown}}
+\index{canCrown@{canCrown}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{canCrown()}{canCrown()}}
+{\footnotesize\ttfamily constexpr bool tbd\+::fuel\+::\+Fuel\+Type\+::can\+Crown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Whether or not this fuel can have a crown fire. 
+
+\begin{DoxyReturn}{Returns}
+Whether or not this fuel can have a crown fire 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}\label{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!code@{code}}
+\index{code@{code}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{code()}{code()}}
+{\footnotesize\ttfamily constexpr Fuel\+Code\+Size tbd\+::fuel\+::\+Fuel\+Type\+::code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Code for this fuel type. 
+
+\begin{DoxyReturn}{Returns}
+Code for this fuel type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a9c3661beba173ec640cb3c95b628bcd0}\label{classtbd_1_1fuel_1_1FuelType_a9c3661beba173ec640cb3c95b628bcd0}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!criticalRos@{criticalRos}}
+\index{criticalRos@{criticalRos}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{criticalRos()}{criticalRos()}}
+{\footnotesize\ttfamily static constexpr double tbd\+::fuel\+::\+Fuel\+Type\+::critical\+Ros (\begin{DoxyParamCaption}\item[{const double}]{sfc,  }\item[{const double}]{csi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+Critical rate of spread (m/min) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sfc} & Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 9-\/25\mbox{]} \\
+\hline
+{\em csi} & Critical Surface Fire Intensity (C\+SI) (k\+W/m) \mbox{[}S\+T-\/\+X-\/3 eq 56\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Critical rate of spread (m/min) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_aba5e3b406a3b0846cacccd0b6dc36e2f}\label{classtbd_1_1fuel_1_1FuelType_aba5e3b406a3b0846cacccd0b6dc36e2f}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!criticalSurfaceIntensity@{criticalSurfaceIntensity}}
+\index{criticalSurfaceIntensity@{criticalSurfaceIntensity}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{criticalSurfaceIntensity()}{criticalSurfaceIntensity()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::critical\+Surface\+Intensity (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Critical Surface Fire Intensity (C\+SI) \mbox{[}S\+T-\/\+X-\/3 eq 56\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use in calculation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Critical Surface Fire Intensity (C\+SI) \mbox{[}S\+T-\/\+X-\/3 eq 56\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ab07d73728405f9dde948d9029f64aced}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ab07d73728405f9dde948d9029f64aced}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, 6, 80, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ab07d73728405f9dde948d9029f64aced}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, 1, 0, 0, 0, 0, static\+\_\+cast$<$ int $>$(\+D\+U\+F\+F\+\_\+\+F\+F\+M\+C\+\_\+\+D\+E\+P\+T\+H $\ast$10.\+0)$>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_aaecde3ec3b04f257752797d255bc951f}{tbd\+::fuel\+::\+Invalid\+Fuel}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_af87c58a57b3afae95e9282416c6f325d}\label{classtbd_1_1fuel_1_1FuelType_af87c58a57b3afae95e9282416c6f325d}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!crownConsumption@{crownConsumption}}
+\index{crownConsumption@{crownConsumption}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{crownConsumption()}{crownConsumption()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::crown\+Consumption (\begin{DoxyParamCaption}\item[{double}]{cfb }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Crown Fuel Consumption (C\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 66\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfb} & Crown Fraction Burned (C\+FB) \mbox{[}S\+T-\/\+X-\/3 eq 58\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Crown Fuel Consumption (C\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 66\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a5c9f9f59a06c089f344f8c2c8f990b41}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac512a7e0c754cf899ce8aa6a83f08308}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Mixed, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac512a7e0c754cf899ce8aa6a83f08308}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir, 61, 15, 75 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac512a7e0c754cf899ce8aa6a83f08308}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ 110, 282, 150, 50, Ros\+Multiplier, Ratio\+Mixed, 108, 25, 50 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a743ee4473d7e79131a3e4a63fec8edef}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a743ee4473d7e79131a3e4a63fec8edef}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, 6, 80, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_a743ee4473d7e79131a3e4a63fec8edef}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, 1, 0, 0, 0, 0, static\+\_\+cast$<$ int $>$(\+D\+U\+F\+F\+\_\+\+F\+F\+M\+C\+\_\+\+D\+E\+P\+T\+H $\ast$10.\+0)$>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_af1630a584b0db7e6a6efabc428ab1e40}\label{classtbd_1_1fuel_1_1FuelType_af1630a584b0db7e6a6efabc428ab1e40}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!crownFractionBurned@{crownFractionBurned}}
+\index{crownFractionBurned@{crownFractionBurned}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{crownFractionBurned()}{crownFractionBurned()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::crown\+Fraction\+Burned (\begin{DoxyParamCaption}\item[{double}]{rss,  }\item[{double}]{rso }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Crown Fraction Burned (C\+FB) \mbox{[}S\+T-\/\+X-\/3 eq 58\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rss} & Surface Rate of spread (R\+OS) (m/min) \mbox{[}S\+T-\/\+X-\/3 eq 55\mbox{]} \\
+\hline
+{\em rso} & Critical surface fire spread rate (R\+SO) \mbox{[}S\+T-\/\+X-\/3 eq 57\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Crown Fraction Burned (C\+FB) \mbox{[}S\+T-\/\+X-\/3 eq 58\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a8c177c814dc9df67c90e5dbf6a8fa5c5}{tbd\+::fuel\+::\+Invalid\+Fuel}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelBase_a8502e15d1e8b3cd36c6839607e040905}{tbd\+::fuel\+::\+Fuel\+Base$<$ Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a345934b9de822a9a70c7893fffedd6a4}\label{classtbd_1_1fuel_1_1FuelType_a345934b9de822a9a70c7893fffedd6a4}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!finalRos@{finalRos}}
+\index{finalRos@{finalRos}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{finalRos()}{finalRos()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::final\+Ros (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread,  }\item[{double}]{isi,  }\item[{double}]{cfb,  }\item[{double}]{rss }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Final rate of spread (m/min) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+{\em isi} & Initial Spread Index (may differ from wx because of slope) \\
+\hline
+{\em cfb} & Crown Fraction Burned (C\+FB) \mbox{[}S\+T-\/\+X-\/3 eq 58\mbox{]} \\
+\hline
+{\em rss} & Surface Rate of spread (R\+OS) (m/min) \mbox{[}S\+T-\/\+X-\/3 eq 55\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Final rate of spread (m/min) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelC6_a6397a9062160de3705a45a0d3037fb40}{tbd\+::fuel\+::fbp\+::\+Fuel\+C6}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a14da60eeadc6c9e05e30b9f8c364a657}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad732362136ddf9b3ad1bd1d2fe6d3573}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad732362136ddf9b3ad1bd1d2fe6d3573}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, 6, 80, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad732362136ddf9b3ad1bd1d2fe6d3573}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, 1, 0, 0, 0, 0, static\+\_\+cast$<$ int $>$(\+D\+U\+F\+F\+\_\+\+F\+F\+M\+C\+\_\+\+D\+E\+P\+T\+H $\ast$10.\+0)$>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a41bff384ae4cbad2364a786fc53ffb98}\label{classtbd_1_1fuel_1_1FuelType_a41bff384ae4cbad2364a786fc53ffb98}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!isCrown@{isCrown}}
+\index{isCrown@{isCrown}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{isCrown()}{isCrown()}}
+{\footnotesize\ttfamily static constexpr bool tbd\+::fuel\+::\+Fuel\+Type\+::is\+Crown (\begin{DoxyParamCaption}\item[{const double}]{csi,  }\item[{const double}]{sfi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+Whether or not this is a crown fire. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em csi} & Critical Surface Fire Intensity (C\+SI) (k\+W/m) \mbox{[}S\+T-\/\+X-\/3 eq 56\mbox{]} \\
+\hline
+{\em sfi} & Surface Fire Intensity (k\+W/m) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not this is a crown fire 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_ad58fdaa07ccc7c9f48ac3e117a77f300}\label{classtbd_1_1fuel_1_1FuelType_ad58fdaa07ccc7c9f48ac3e117a77f300}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!lengthToBreadth@{lengthToBreadth}}
+\index{lengthToBreadth@{lengthToBreadth}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{lengthToBreadth()}{lengthToBreadth()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::length\+To\+Breadth (\begin{DoxyParamCaption}\item[{double}]{ws }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Length to Breadth ratio \mbox{[}S\+T-\/\+X-\/3 eq 79\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ws} & Wind Speed (km/h) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Length to Breadth ratio \mbox{[}S\+T-\/\+X-\/3 eq 79\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_ac5f633e293ec836d7f8887f465261659}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_aff8309904fcc00af134a8ae5ffff1c76}{tbd\+::fuel\+::\+Fuel\+Grass$<$ A, B, C $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_aff8309904fcc00af134a8ae5ffff1c76}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 190, 310, 140 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_aff8309904fcc00af134a8ae5ffff1c76}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 250, 350, 170 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad28ca782cf40f3e2167e815b3e87f8b0}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad28ca782cf40f3e2167e815b3e87f8b0}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, Bui0, 6, 80, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1StandardFuel_ad28ca782cf40f3e2167e815b3e87f8b0}{tbd\+::fuel\+::\+Standard\+Fuel$<$ A, B, C, 1, 0, 0, 0, 0, static\+\_\+cast$<$ int $>$(\+D\+U\+F\+F\+\_\+\+F\+F\+M\+C\+\_\+\+D\+E\+P\+T\+H $\ast$10.\+0)$>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}\label{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!name@{name}}
+\index{name@{name}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily constexpr const char$\ast$ tbd\+::fuel\+::\+Fuel\+Type\+::name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Name of the fuel. 
+
+\begin{DoxyReturn}{Returns}
+Name of the fuel 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a2aee5d5dd2e05f94b45694cad4c21a5d}\label{classtbd_1_1fuel_1_1FuelType_a2aee5d5dd2e05f94b45694cad4c21a5d}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!probabilityPeat@{probabilityPeat}}
+\index{probabilityPeat@{probabilityPeat}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{probabilityPeat()}{probabilityPeat()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::probability\+Peat (\begin{DoxyParamCaption}\item[{double}]{mc\+\_\+fraction }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Calculate probability of burning \mbox{[}Anderson eq 1\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mc\+\_\+fraction} & moisture content (\% / 100) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Calculate probability of burning \mbox{[}Anderson eq 1\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a5e097e5e9e304c6db43f71be4c240b66}{tbd\+::fuel\+::\+Invalid\+Fuel}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60}{tbd\+::fuel\+::\+Fuel\+Base$<$ Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a3fdd54fe57f405ccc36f6702f62edeef}\label{classtbd_1_1fuel_1_1FuelType_a3fdd54fe57f405ccc36f6702f62edeef}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!safeCode@{safeCode}}
+\index{safeCode@{safeCode}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{safeCode()}{safeCode()}}
+{\footnotesize\ttfamily static constexpr Fuel\+Code\+Size tbd\+::fuel\+::\+Fuel\+Type\+::safe\+Code (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$}]{fuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+Convert \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to its code, or 0 if nullptr. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fuel} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to convert \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Code for \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}}, or 0 if nullptr 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a342fe97a1cae08168ed7ab93632935ac}\label{classtbd_1_1fuel_1_1FuelType_a342fe97a1cae08168ed7ab93632935ac}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!safeName@{safeName}}
+\index{safeName@{safeName}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{safeName()}{safeName()}}
+{\footnotesize\ttfamily static constexpr const char$\ast$ tbd\+::fuel\+::\+Fuel\+Type\+::safe\+Name (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} $\ast$}]{fuel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+Convert \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to its name, or 0 if nullptr. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fuel} & \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}} to convert \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Name for \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{Fuel\+Type}}, or \char`\"{}\+N\+U\+L\+L\char`\"{} if nullptr 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}\label{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 9-\/25\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Surface fuel consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 9-\/25\mbox{]} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}{tbd\+::fuel\+::\+Fuel\+Slash$<$ A, B, C, Bui0, Ffc\+A, Ffc\+B, Wfc\+A, Wfc\+B, Bulk\+Density $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}{tbd\+::fuel\+::\+Fuel\+Slash$<$ 40, 438, 170, 63, 10, -\/130, 6, -\/600, 132 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}{tbd\+::fuel\+::\+Fuel\+Slash$<$ 55, 829, 320, 31, 12, -\/166, 20, -\/210, 100 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}{tbd\+::fuel\+::\+Fuel\+Slash$<$ 75, 297, 130, 38, 4, -\/250, 4, -\/340, 78 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD2_af7c7b67e388522af5119503f17e8c651}{tbd\+::fuel\+::fbp\+::\+Fuel\+D2}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelC7_a3e8b58373cdd5cf858f6163eb3d5b9f8}{tbd\+::fuel\+::fbp\+::\+Fuel\+C7}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelC2_ac5e047b3fff5c8c7d58a422dde8a394d}{tbd\+::fuel\+::fbp\+::\+Fuel\+C2}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelC1_a0c502d82fd207e478897b5db8a638f04}{tbd\+::fuel\+::fbp\+::\+Fuel\+C1}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}{tbd\+::fuel\+::\+Fuel\+Mixed\+Wood$<$ Ros\+Multiplier, Ratio\+Mixed $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}{tbd\+::fuel\+::\+Fuel\+Mixed\+Wood$<$ 10, Percent\+Conifer $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}{tbd\+::fuel\+::\+Fuel\+Mixed\+Wood$<$ 2, Percent\+Conifer $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac2aedec3763f1b7440e956ef7fd568e3}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Mixed, Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac2aedec3763f1b7440e956ef7fd568e3}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ A, B, C, Bui0, Ros\+Multiplier, Percent\+Dead\+Fir, 61, 15, 75 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixed_ac2aedec3763f1b7440e956ef7fd568e3}{tbd\+::fuel\+::\+Fuel\+Mixed$<$ 110, 282, 150, 50, Ros\+Multiplier, Ratio\+Mixed, 108, 25, 50 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a700980eca0f0ee7d13d54c5354ead461}{tbd\+::fuel\+::fbp\+::\+Fuel\+D1}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}{tbd\+::fuel\+::\+Fuel\+Pine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}{tbd\+::fuel\+::\+Fuel\+Pine$<$ 30, 800, 300, 62, 7, 180, 50, 50 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelPine_af17d1885d72adf4bb3f3a30f00daaf80}{tbd\+::fuel\+::\+Fuel\+Pine$<$ 30, 697, 400, 56, 18, 120, 93, 46 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelJackpine_ac59eff1514cff6d0700f02e925b4997b}{tbd\+::fuel\+::\+Fuel\+Jackpine$<$ A, B, C, Bui0, Cbh, Cfl, Bulk\+Density, Duff\+Depth $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelJackpine_ac59eff1514cff6d0700f02e925b4997b}{tbd\+::fuel\+::\+Fuel\+Jackpine$<$ 110, 293, 150, 66, 4, 120, 31, 62 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelJackpine_ac59eff1514cff6d0700f02e925b4997b}{tbd\+::fuel\+::\+Fuel\+Jackpine$<$ 110, 444, 300, 62, 8, 115, 20, 65 $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a2fc4a13329f5784d530152bd01360adf}{tbd\+::fuel\+::\+Invalid\+Fuel}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a5f49ade1d68436d678f831ce888f38db}{tbd\+::fuel\+::\+Fuel\+Grass$<$ A, B, C $>$}}, \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a5f49ade1d68436d678f831ce888f38db}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 190, 310, 140 $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelGrass_a5f49ade1d68436d678f831ce888f38db}{tbd\+::fuel\+::\+Fuel\+Grass$<$ 250, 350, 170 $>$}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelType_a54360592457504e0aeb5f225345df38e}\label{classtbd_1_1fuel_1_1FuelType_a54360592457504e0aeb5f225345df38e}} 
+\index{tbd::fuel::FuelType@{tbd::fuel::FuelType}!survivalProbability@{survivalProbability}}
+\index{survivalProbability@{survivalProbability}!tbd::fuel::FuelType@{tbd::fuel::FuelType}}
+\doxysubsubsection{\texorpdfstring{survivalProbability()}{survivalProbability()}}
+{\footnotesize\ttfamily virtual double tbd\+::fuel\+::\+Fuel\+Type\+::survival\+Probability (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&}]{wx }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Survival probability calculated using probability of ony survival based on multiple formulae. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wx} & Fwi\+Weather to calculate survival probability for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Chance of survival (\% / 100) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelBase_ac944e538f88d4b4f32007d8046835354}{tbd\+::fuel\+::\+Fuel\+Base$<$ Bulk\+Density, Inorganic\+Percent, Duff\+Depth $>$}}, and \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_aceec0cb57e9e188d324b9590e056af99}{tbd\+::fuel\+::\+Invalid\+Fuel}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Fuel\+Type.\+h\end{DoxyCompactItemize}

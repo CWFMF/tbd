@@ -1,0 +1,210 @@
+\hypertarget{classtbd_1_1wx_1_1FireWeather}{}\doxysection{tbd\+::wx\+::Fire\+Weather Class Reference}
+\label{classtbd_1_1wx_1_1FireWeather}\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+
+
+A stream of weather that gets used by a Scenario every Iteration.  
+
+
+
+
+{\ttfamily \#include $<$Fire\+Weather.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::wx\+::Fire\+Weather\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classtbd_1_1wx_1_1FireWeather__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_a342da4d11371a095c3386dcd5eb9484f}\label{classtbd_1_1wx_1_1FireWeather_a342da4d11371a095c3386dcd5eb9484f}} 
+virtual \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_a342da4d11371a095c3386dcd5eb9484f}{$\sim$\+Fire\+Weather}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_ade86c4ce9376014664c034737043c245}{Fire\+Weather}} (\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&\&rhs)=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_a80fcccb0db98723ff4e19130bd0da09d}\label{classtbd_1_1wx_1_1FireWeather_a80fcccb0db98723ff4e19130bd0da09d}} 
+{\bfseries Fire\+Weather} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&rhs)=delete
+\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_abedc732231eb133b17f8b638cc545cc0}{operator=}} (\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_af9081aa83df329568995e054bf1710a5}\label{classtbd_1_1wx_1_1FireWeather_af9081aa83df329568995e054bf1710a5}} 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&rhs)=delete
+\item 
+const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} $\ast$ \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_a08501e0c01cf5aa60274ed86d506b28d}{at}} (const double time) const
+\begin{DoxyCompactList}\small\item\em Get \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} for given time. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_aae3f479c472753d33d903def21ae0fb4}{survival\+Probability}} (const double time, const Fuel\+Code\+Size \&in\+\_\+fuel) const
+\begin{DoxyCompactList}\small\item\em Probability of survival in given fuel at given time. \end{DoxyCompactList}\item 
+constexpr Day \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_a4c37146aa8d008a7f3202e954dd0bac0}{min\+Date}} () const
+\begin{DoxyCompactList}\small\item\em Minimum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}}. \end{DoxyCompactList}\item 
+constexpr Day \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_a3f1af027f219fd85a27452fc3885cf3c}{max\+Date}} () const
+\begin{DoxyCompactList}\small\item\em Maximum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}}. \end{DoxyCompactList}\item 
+constexpr size\+\_\+t \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_af68a664569ce29bad119c99d39983e9d}{weighted\+Dsr}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Weighted Danger Severity Rating for the stream. \end{DoxyCompactList}\item 
+const vector$<$ const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_adada2ba126e93b641f36777c9ac3949e}{get\+Weather}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} by hour by day. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather_adcdd7dbe01589654cbd74cfb44d373d6}{Fire\+Weather}} (const set$<$ const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{fuel\+::\+Fuel\+Type}} $\ast$ $>$ \&used\+\_\+fuels, Day min\+\_\+date, Day max\+\_\+date, vector$<$ const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} $\ast$ $>$ $\ast$weather\+\_\+by\+\_\+hour\+\_\+by\+\_\+day)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A stream of weather that gets used by a Scenario every Iteration. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_ade86c4ce9376014664c034737043c245}\label{classtbd_1_1wx_1_1FireWeather_ade86c4ce9376014664c034737043c245}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!FireWeather@{FireWeather}}
+\index{FireWeather@{FireWeather}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{FireWeather()}{FireWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fire\+Weather\+::\+Fire\+Weather (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} to move from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_adcdd7dbe01589654cbd74cfb44d373d6}\label{classtbd_1_1wx_1_1FireWeather_adcdd7dbe01589654cbd74cfb44d373d6}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!FireWeather@{FireWeather}}
+\index{FireWeather@{FireWeather}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{FireWeather()}{FireWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fire\+Weather\+::\+Fire\+Weather (\begin{DoxyParamCaption}\item[{const set$<$ const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType}{fuel\+::\+Fuel\+Type}} $\ast$ $>$ \&}]{used\+\_\+fuels,  }\item[{Day}]{min\+\_\+date,  }\item[{Day}]{max\+\_\+date,  }\item[{vector$<$ const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} $\ast$ $>$ $\ast$}]{weather\+\_\+by\+\_\+hour\+\_\+by\+\_\+day }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em used\+\_\+fuels} & set of Fuel\+Types that are used in the simulation \\
+\hline
+{\em min\+\_\+date} & Minimum date present in stream \\
+\hline
+{\em max\+\_\+date} & Maximum date present in stream \\
+\hline
+{\em weather\+\_\+by\+\_\+hour\+\_\+by\+\_\+day} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} by hour by Day \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_a08501e0c01cf5aa60274ed86d506b28d}\label{classtbd_1_1wx_1_1FireWeather_a08501e0c01cf5aa60274ed86d506b28d}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!at@{at}}
+\index{at@{at}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}}$\ast$ tbd\+::wx\+::\+Fire\+Weather\+::at (\begin{DoxyParamCaption}\item[{const double}]{time }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} for given time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Time to get weather for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} for given time 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_adada2ba126e93b641f36777c9ac3949e}\label{classtbd_1_1wx_1_1FireWeather_adada2ba126e93b641f36777c9ac3949e}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!getWeather@{getWeather}}
+\index{getWeather@{getWeather}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{getWeather()}{getWeather()}}
+{\footnotesize\ttfamily const vector$<$const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}}$\ast$$>$$\ast$ tbd\+::wx\+::\+Fire\+Weather\+::get\+Weather (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} by hour by day. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} by hour by day 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_a3f1af027f219fd85a27452fc3885cf3c}\label{classtbd_1_1wx_1_1FireWeather_a3f1af027f219fd85a27452fc3885cf3c}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!maxDate@{maxDate}}
+\index{maxDate@{maxDate}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{maxDate()}{maxDate()}}
+{\footnotesize\ttfamily constexpr Day tbd\+::wx\+::\+Fire\+Weather\+::max\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Maximum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}}. 
+
+\begin{DoxyReturn}{Returns}
+Maximum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_a4c37146aa8d008a7f3202e954dd0bac0}\label{classtbd_1_1wx_1_1FireWeather_a4c37146aa8d008a7f3202e954dd0bac0}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!minDate@{minDate}}
+\index{minDate@{minDate}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{minDate()}{minDate()}}
+{\footnotesize\ttfamily constexpr Day tbd\+::wx\+::\+Fire\+Weather\+::min\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Minimum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}}. 
+
+\begin{DoxyReturn}{Returns}
+Minimum date present in \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_abedc732231eb133b17f8b638cc545cc0}\label{classtbd_1_1wx_1_1FireWeather_abedc732231eb133b17f8b638cc545cc0}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}}\& tbd\+::wx\+::\+Fire\+Weather\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FireWeather}{Fire\+Weather}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_aae3f479c472753d33d903def21ae0fb4}\label{classtbd_1_1wx_1_1FireWeather_aae3f479c472753d33d903def21ae0fb4}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!survivalProbability@{survivalProbability}}
+\index{survivalProbability@{survivalProbability}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{survivalProbability()}{survivalProbability()}}
+{\footnotesize\ttfamily double tbd\+::wx\+::\+Fire\+Weather\+::survival\+Probability (\begin{DoxyParamCaption}\item[{const double}]{time,  }\item[{const Fuel\+Code\+Size \&}]{in\+\_\+fuel }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Probability of survival in given fuel at given time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Time to get survival probability for \\
+\hline
+{\em in\+\_\+fuel} & Fuel\+Code\+Size of Fuel\+Type to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Probability of survival in given fuel at given time 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FireWeather_af68a664569ce29bad119c99d39983e9d}\label{classtbd_1_1wx_1_1FireWeather_af68a664569ce29bad119c99d39983e9d}} 
+\index{tbd::wx::FireWeather@{tbd::wx::FireWeather}!weightedDsr@{weightedDsr}}
+\index{weightedDsr@{weightedDsr}!tbd::wx::FireWeather@{tbd::wx::FireWeather}}
+\doxysubsubsection{\texorpdfstring{weightedDsr()}{weightedDsr()}}
+{\footnotesize\ttfamily constexpr size\+\_\+t tbd\+::wx\+::\+Fire\+Weather\+::weighted\+Dsr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Weighted Danger Severity Rating for the stream. 
+
+\begin{DoxyReturn}{Returns}
+Weighted Danger Severity Rating for the stream 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Fire\+Weather.\+h\item 
+src/Fire\+Weather.\+cpp\end{DoxyCompactItemize}

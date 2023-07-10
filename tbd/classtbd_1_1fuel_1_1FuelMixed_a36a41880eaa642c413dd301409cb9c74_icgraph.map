@@ -1,6 +1,0 @@
-<map id="tbd::fuel::FuelMixed::rosMultiplier" name="tbd::fuel::FuelMixed::rosMultiplier">
-<area shape="rect" id="node1" title="Rate of spread multiplier [ST&#45;X&#45;3 eq 27/28, GLC&#45;X&#45;10 eq 29/30]." alt="" coords="365,39,497,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelMixed.html#a89cf2606534ce594ea7959222c092e47" title="Calculate rate of spread (m/min) [ST&#45;X&#45;3 27/28, GLC&#45;X&#45;10 29/31]." alt="" coords="185,5,317,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelMixed.html#a29539a859ebc82a4602769aac738e2bf" title="Calculate ISI with slope influence and zero wind (ISF) for D&#45;1 [ST&#45;X&#45;3 eq 41]." alt="" coords="185,71,317,112"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelMixed.html#a6641a6caefa02fa8735f8dec8a271ff8" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 42]." alt="" coords="5,71,137,112"/>
-</map>

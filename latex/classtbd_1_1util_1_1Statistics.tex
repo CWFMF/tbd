@@ -1,0 +1,302 @@
+\hypertarget{classtbd_1_1util_1_1Statistics}{}\doxysection{tbd\+::util\+::Statistics Class Reference}
+\label{classtbd_1_1util_1_1Statistics}\index{tbd::util::Statistics@{tbd::util::Statistics}}
+
+
+Provides statistics calculation for vectors of values.  
+
+
+
+
+{\ttfamily \#include $<$Statistics.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a26f87b400cb3b450ac49da2276f2bef6}{min}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Minimum value. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_af33c8a7b8b40e8c1fb65d16e9413886b}{max}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Maximum value. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a5f9ba23c2f2b8ab7ad4576e77db16adb}{median}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Median value. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a13c306307103f526e6a57700cb2a97ed}{mean}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Mean (average) value. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a2930940fe9619e73ce0221bfdcfcc71c}{standard\+Deviation}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Standard Deviation. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a117255ac24a038c6566bd133baf2545c}{sample\+Variance}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Sample Variance. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a9153a28ce91d32818137cf7b5e788c1e}{n}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Number of data points in the set. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a57562623a0ad019c0e7fd9ccd0e39298}{percentile}} (const uint8\+\_\+t i) const noexcept
+\begin{DoxyCompactList}\small\item\em Value for given percentile. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_ab7dc881d919b3a1d5487c99354e66b46}{confidence\+Interval80}} () const
+\begin{DoxyCompactList}\small\item\em 80\% Confidence Interval \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_af9f33f0acd8dc1a66234c28302b1f978}{confidence\+Interval90}} () const
+\begin{DoxyCompactList}\small\item\em 90\% Confidence Interval \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a522cafa0fefc1f27ebfcaf92ddc86215}{confidence\+Interval95}} () const
+\begin{DoxyCompactList}\small\item\em 95\% Confidence Interval \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_ae5ae8f4f3d778efc21e82b8e0a2b837f}{confidence\+Interval98}} () const
+\begin{DoxyCompactList}\small\item\em 98\% Confidence Interval \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a701bdc0a443cec1249dd1c53fe51de18}{confidence\+Interval99}} () const
+\begin{DoxyCompactList}\small\item\em 99\% Confidence Interval \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1util_1_1Statistics_aaea792af8245d61f4a84c7b25b8d4ac6}{Statistics}} (vector$<$ double $>$ values)
+\begin{DoxyCompactList}\small\item\em Calculates statistics on a vector of values. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a84a2f6737edc384408d735529db29388}{studentsT}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Calculate Student\textquotesingle{}s T value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_a7e47e3fc2e9efb417a7a49ebe43d7a0b}{is\+Confident}} (const double relative\+\_\+error) const noexcept
+\begin{DoxyCompactList}\small\item\em Whether or not we have less than the relative error and can be confident in the results. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classtbd_1_1util_1_1Statistics_aa43939f093ffe591dfe3e7d6b3438748}{runs\+Required}} (const double relative\+\_\+error) const
+\begin{DoxyCompactList}\small\item\em Estimate how many more runs are required to achieve desired confidence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides statistics calculation for vectors of values. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_aaea792af8245d61f4a84c7b25b8d4ac6}\label{classtbd_1_1util_1_1Statistics_aaea792af8245d61f4a84c7b25b8d4ac6}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!Statistics@{Statistics}}
+\index{Statistics@{Statistics}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{Statistics()}{Statistics()}}
+{\footnotesize\ttfamily tbd\+::util\+::\+Statistics\+::\+Statistics (\begin{DoxyParamCaption}\item[{vector$<$ double $>$}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Calculates statistics on a vector of values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Values to use for calculation \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_ab7dc881d919b3a1d5487c99354e66b46}\label{classtbd_1_1util_1_1Statistics_ab7dc881d919b3a1d5487c99354e66b46}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!confidenceInterval80@{confidenceInterval80}}
+\index{confidenceInterval80@{confidenceInterval80}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{confidenceInterval80()}{confidenceInterval80()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::confidence\+Interval80 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+80\% Confidence Interval 
+
+\begin{DoxyReturn}{Returns}
+80\% Confidence Interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_af9f33f0acd8dc1a66234c28302b1f978}\label{classtbd_1_1util_1_1Statistics_af9f33f0acd8dc1a66234c28302b1f978}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!confidenceInterval90@{confidenceInterval90}}
+\index{confidenceInterval90@{confidenceInterval90}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{confidenceInterval90()}{confidenceInterval90()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::confidence\+Interval90 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+90\% Confidence Interval 
+
+\begin{DoxyReturn}{Returns}
+90\% Confidence Interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a522cafa0fefc1f27ebfcaf92ddc86215}\label{classtbd_1_1util_1_1Statistics_a522cafa0fefc1f27ebfcaf92ddc86215}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!confidenceInterval95@{confidenceInterval95}}
+\index{confidenceInterval95@{confidenceInterval95}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{confidenceInterval95()}{confidenceInterval95()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::confidence\+Interval95 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+95\% Confidence Interval 
+
+\begin{DoxyReturn}{Returns}
+95\% Confidence Interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_ae5ae8f4f3d778efc21e82b8e0a2b837f}\label{classtbd_1_1util_1_1Statistics_ae5ae8f4f3d778efc21e82b8e0a2b837f}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!confidenceInterval98@{confidenceInterval98}}
+\index{confidenceInterval98@{confidenceInterval98}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{confidenceInterval98()}{confidenceInterval98()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::confidence\+Interval98 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+98\% Confidence Interval 
+
+\begin{DoxyReturn}{Returns}
+98\% Confidence Interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a701bdc0a443cec1249dd1c53fe51de18}\label{classtbd_1_1util_1_1Statistics_a701bdc0a443cec1249dd1c53fe51de18}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!confidenceInterval99@{confidenceInterval99}}
+\index{confidenceInterval99@{confidenceInterval99}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{confidenceInterval99()}{confidenceInterval99()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::confidence\+Interval99 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+99\% Confidence Interval 
+
+\begin{DoxyReturn}{Returns}
+99\% Confidence Interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a7e47e3fc2e9efb417a7a49ebe43d7a0b}\label{classtbd_1_1util_1_1Statistics_a7e47e3fc2e9efb417a7a49ebe43d7a0b}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!isConfident@{isConfident}}
+\index{isConfident@{isConfident}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{isConfident()}{isConfident()}}
+{\footnotesize\ttfamily bool tbd\+::util\+::\+Statistics\+::is\+Confident (\begin{DoxyParamCaption}\item[{const double}]{relative\+\_\+error }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Whether or not we have less than the relative error and can be confident in the results. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em relative\+\_\+error} & Relative Error that is required \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If Student\textquotesingle{}s T value is less than the relative error 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_af33c8a7b8b40e8c1fb65d16e9413886b}\label{classtbd_1_1util_1_1Statistics_af33c8a7b8b40e8c1fb65d16e9413886b}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!max@{max}}
+\index{max@{max}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{max()}{max()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Maximum value. 
+
+\begin{DoxyReturn}{Returns}
+Maximum value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a13c306307103f526e6a57700cb2a97ed}\label{classtbd_1_1util_1_1Statistics_a13c306307103f526e6a57700cb2a97ed}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!mean@{mean}}
+\index{mean@{mean}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{mean()}{mean()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::mean (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Mean (average) value. 
+
+\begin{DoxyReturn}{Returns}
+Mean (average) value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a5f9ba23c2f2b8ab7ad4576e77db16adb}\label{classtbd_1_1util_1_1Statistics_a5f9ba23c2f2b8ab7ad4576e77db16adb}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!median@{median}}
+\index{median@{median}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{median()}{median()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::median (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Median value. 
+
+\begin{DoxyReturn}{Returns}
+Median value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a26f87b400cb3b450ac49da2276f2bef6}\label{classtbd_1_1util_1_1Statistics_a26f87b400cb3b450ac49da2276f2bef6}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!min@{min}}
+\index{min@{min}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{min()}{min()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Minimum value. 
+
+\begin{DoxyReturn}{Returns}
+Minimum value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a9153a28ce91d32818137cf7b5e788c1e}\label{classtbd_1_1util_1_1Statistics_a9153a28ce91d32818137cf7b5e788c1e}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!n@{n}}
+\index{n@{n}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{n()}{n()}}
+{\footnotesize\ttfamily size\+\_\+t tbd\+::util\+::\+Statistics\+::n (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Number of data points in the set. 
+
+\begin{DoxyReturn}{Returns}
+Number of data points in the set 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a57562623a0ad019c0e7fd9ccd0e39298}\label{classtbd_1_1util_1_1Statistics_a57562623a0ad019c0e7fd9ccd0e39298}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!percentile@{percentile}}
+\index{percentile@{percentile}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{percentile()}{percentile()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::percentile (\begin{DoxyParamCaption}\item[{const uint8\+\_\+t}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Value for given percentile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Percentile to retrieve value for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value for given percentile 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_aa43939f093ffe591dfe3e7d6b3438748}\label{classtbd_1_1util_1_1Statistics_aa43939f093ffe591dfe3e7d6b3438748}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!runsRequired@{runsRequired}}
+\index{runsRequired@{runsRequired}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{runsRequired()}{runsRequired()}}
+{\footnotesize\ttfamily size\+\_\+t tbd\+::util\+::\+Statistics\+::runs\+Required (\begin{DoxyParamCaption}\item[{const double}]{relative\+\_\+error }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Estimate how many more runs are required to achieve desired confidence. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cur\+\_\+runs} & Current number of runs completed \\
+\hline
+{\em relative\+\_\+error} & Relative Error to achieve to be confident \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of runs still required 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a117255ac24a038c6566bd133baf2545c}\label{classtbd_1_1util_1_1Statistics_a117255ac24a038c6566bd133baf2545c}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!sampleVariance@{sampleVariance}}
+\index{sampleVariance@{sampleVariance}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{sampleVariance()}{sampleVariance()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::sample\+Variance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Sample Variance. 
+
+\begin{DoxyReturn}{Returns}
+Sample Variance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a2930940fe9619e73ce0221bfdcfcc71c}\label{classtbd_1_1util_1_1Statistics_a2930940fe9619e73ce0221bfdcfcc71c}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!standardDeviation@{standardDeviation}}
+\index{standardDeviation@{standardDeviation}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{standardDeviation()}{standardDeviation()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::standard\+Deviation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Standard Deviation. 
+
+\begin{DoxyReturn}{Returns}
+Standard Deviation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1util_1_1Statistics_a84a2f6737edc384408d735529db29388}\label{classtbd_1_1util_1_1Statistics_a84a2f6737edc384408d735529db29388}} 
+\index{tbd::util::Statistics@{tbd::util::Statistics}!studentsT@{studentsT}}
+\index{studentsT@{studentsT}!tbd::util::Statistics@{tbd::util::Statistics}}
+\doxysubsubsection{\texorpdfstring{studentsT()}{studentsT()}}
+{\footnotesize\ttfamily double tbd\+::util\+::\+Statistics\+::studentsT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Calculate Student\textquotesingle{}s T value. 
+
+\begin{DoxyReturn}{Returns}
+Student\textquotesingle{}s T value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Statistics.\+h\end{DoxyCompactItemize}

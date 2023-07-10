@@ -1,9 +1,0 @@
-<map id="tbd::wx::operator==" name="tbd::wx::operator==">
-<area shape="rect" id="node1" title="Equality operator." alt="" coords="5,101,136,127"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="184,42,339,69"/>
-<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1FireWeather.html#a3f1af027f219fd85a27452fc3885cf3c" title="Maximum date present in FireWeather." alt="" coords="192,93,331,135"/>
-<area shape="rect" id="node7" href="$classtbd_1_1wx_1_1FireWeather.html#a4c37146aa8d008a7f3202e954dd0bac0" title="Minimum date present in FireWeather." alt="" coords="192,159,331,200"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="388,5,516,47"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1util.html#a32e19b7f98c0d98f5dd5770ec62d18dc" title="Convert day and hour into time index." alt="" coords="387,71,517,98"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="565,13,684,39"/>
-</map>

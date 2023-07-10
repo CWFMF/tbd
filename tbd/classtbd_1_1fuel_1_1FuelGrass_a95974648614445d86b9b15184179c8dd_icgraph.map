@@ -1,5 +1,0 @@
-<map id="tbd::fuel::FuelGrass::baseMultiplier" name="tbd::fuel::FuelGrass::baseMultiplier">
-<area shape="rect" id="node1" title="Calculate base rate of spread multiplier." alt="" coords="368,5,501,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelGrass.html#a62247a0d4ce80ca7582d3227d1135d2d" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,139,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelGrass.html#abb5f877ac7c31ab0558e4d641d147d9b" title="Calculate rate of spread (m/min)" alt="" coords="187,35,320,76"/>
-</map>

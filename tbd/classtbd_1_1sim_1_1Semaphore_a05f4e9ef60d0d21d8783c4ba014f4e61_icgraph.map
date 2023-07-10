@@ -1,4 +1,0 @@
-<map id="tbd::sim::Semaphore::notify" name="tbd::sim::Semaphore::notify">
-<area shape="rect" id="node1" title="Notify something that&#39;s waiting so it can run." alt="" coords="211,5,349,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1CriticalSection.html#afb5e2b968b7c0420bcf49fb50e26b2ee" title=" " alt="" coords="5,5,163,47"/>
-</map>

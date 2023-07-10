@@ -1,5 +1,0 @@
-<map id="tbd::sim::Settings::intensityMaxModerate" name="tbd::sim::Settings::intensityMaxModerate">
-<area shape="rect" id="node1" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="5,39,160,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="208,5,419,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aad3429116d8e1981c7896d5bc49d6e5d" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="208,71,419,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="tbd::wx::Isi::Isi" name="tbd::wx::Isi::Isi">
-<area shape="rect" id="node1" title="Calculate Initial Spread Index and verify previous value is within tolerance of calculated value." alt="" coords="5,13,108,39"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="156,5,284,47"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="332,13,451,39"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="main.group_fires" name="main.group_fires">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,121,83"/>
-<area shape="rect" id="node2" href="$namespacegis.html#a8bee27d798d3006190e7092c01618023" title="Find the meridians of input rasters for the given year." alt="" coords="169,5,335,32"/>
-<area shape="rect" id="node3" href="$namespacegis.html#ad5aebd38aeb7e3cec0cb7629bec7216e" title="Determine spatial reference from a source file." alt="" coords="171,56,333,83"/>
-<area shape="rect" id="node4" href="$namespacemain.html#abf51ff86956ce65cbe9d3dbbf41f4bf8" title=" " alt="" coords="179,107,325,133"/>
-</map>

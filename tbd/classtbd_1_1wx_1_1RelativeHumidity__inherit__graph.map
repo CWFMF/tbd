@@ -1,4 +1,0 @@
-<map id="tbd::wx::RelativeHumidity" name="tbd::wx::RelativeHumidity">
-<area shape="rect" id="node1" title="Relative humidity as a percentage." alt="" coords="5,380,172,457"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,5,158,332"/>
-</map>

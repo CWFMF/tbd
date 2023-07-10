@@ -1,0 +1,77 @@
+\hypertarget{classtbd_1_1wx_1_1Dc}{}\doxysection{tbd\+::wx\+::Dc Class Reference}
+\label{classtbd_1_1wx_1_1Dc}\index{tbd::wx::Dc@{tbd::wx::Dc}}
+
+
+Drought Code value.  
+
+
+
+
+{\ttfamily \#include $<$F\+W\+I.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::wx\+::Dc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classtbd_1_1wx_1_1Dc__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::wx\+::Dc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classtbd_1_1wx_1_1Dc__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1Dc_ab503ee1c4f9915e6b03383f57a142e33}{Dc}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&temperature, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&prec, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&dc\+\_\+previous, int month, double latitude) noexcept
+\begin{DoxyCompactList}\small\item\em Calculate Drought Code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Dc_aef5377bbec1617571e11550eb25fa8e7}\label{classtbd_1_1wx_1_1Dc_aef5377bbec1617571e11550eb25fa8e7}} 
+static const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \mbox{\hyperlink{classtbd_1_1wx_1_1Dc_aef5377bbec1617571e11550eb25fa8e7}{Zero}} = \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}}(0)
+\begin{DoxyCompactList}\small\item\em Drought Code of 0. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Drought Code value. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1Dc_ab503ee1c4f9915e6b03383f57a142e33}\label{classtbd_1_1wx_1_1Dc_ab503ee1c4f9915e6b03383f57a142e33}} 
+\index{tbd::wx::Dc@{tbd::wx::Dc}!Dc@{Dc}}
+\index{Dc@{Dc}!tbd::wx::Dc@{tbd::wx::Dc}}
+\doxysubsubsection{\texorpdfstring{Dc()}{Dc()}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Dc\+::\+Dc (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&}]{temperature,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{prec,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&}]{dc\+\_\+previous,  }\item[{int}]{month,  }\item[{double}]{latitude }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Calculate Drought Code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temperature} & \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} (Celsius) \\
+\hline
+{\em prec} & \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} (24hr accumulated, noon-\/to-\/noon) (mm) \\
+\hline
+{\em dc\+\_\+previous} & Drought Code from the previous day \\
+\hline
+{\em month} & Month to calculate for \\
+\hline
+{\em latitude} & Latitude to calculate for \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+W\+I.\+h\item 
+src/F\+W\+I.\+cpp\end{DoxyCompactItemize}

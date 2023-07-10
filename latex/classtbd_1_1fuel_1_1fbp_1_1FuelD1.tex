@@ -1,0 +1,127 @@
+\hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{}\doxysection{tbd\+::fuel\+::fbp\+::Fuel\+D1 Class Reference}
+\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1}\index{tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}}
+
+
+F\+BP fuel type D-\/1.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::fbp\+::Fuel\+D1\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1fbp_1_1FuelD1__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::fbp\+::Fuel\+D1\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1fbp_1_1FuelD1__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a553ac24ed6a9f3da10137087ed6e9e2f}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a553ac24ed6a9f3da10137087ed6e9e2f}} 
+{\bfseries Fuel\+D1} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a0f51b4f81f1fa6595207cf917b450fc9}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a0f51b4f81f1fa6595207cf917b450fc9}} 
+{\bfseries Fuel\+D1} (\mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_afd51e59ddf9f27d352f3bcc1a638966c}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_afd51e59ddf9f27d352f3bcc1a638966c}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a4fa5c95d3c622733b87a6917596d9ba1}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a4fa5c95d3c622733b87a6917596d9ba1}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1}{Fuel\+D1}} \&\&rhs) noexcept=delete
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a34a3de067ea8dfe6415ea4976942930d}{Fuel\+D1}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}) noexcept
+\begin{DoxyCompactList}\small\item\em F\+BP fuel type D-\/1. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a700980eca0f0ee7d13d54c5354ead461}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const noexcept override
+\begin{DoxyCompactList}\small\item\em Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a37fac8ad4eb060c53a884a04d4790c4c}{isf\+D1}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread, double ros\+\_\+multiplier, double isi) const noexcept
+\begin{DoxyCompactList}\small\item\em Calculate I\+SI with slope influence and zero wind (I\+SF) for D-\/1 \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+F\+BP fuel type D-\/1. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a34a3de067ea8dfe6415ea4976942930d}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a34a3de067ea8dfe6415ea4976942930d}} 
+\index{tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}!FuelD1@{FuelD1}}
+\index{FuelD1@{FuelD1}!tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}}
+\doxysubsubsection{\texorpdfstring{FuelD1()}{FuelD1()}}
+{\footnotesize\ttfamily constexpr tbd\+::fuel\+::fbp\+::\+Fuel\+D1\+::\+Fuel\+D1 (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+F\+BP fuel type D-\/1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a37fac8ad4eb060c53a884a04d4790c4c}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a37fac8ad4eb060c53a884a04d4790c4c}} 
+\index{tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}!isfD1@{isfD1}}
+\index{isfD1@{isfD1}!tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}}
+\doxysubsubsection{\texorpdfstring{isfD1()}{isfD1()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::fbp\+::\+Fuel\+D1\+::isf\+D1 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread,  }\item[{double}]{ros\+\_\+multiplier,  }\item[{double}]{isi }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Calculate I\+SI with slope influence and zero wind (I\+SF) for D-\/1 \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+{\em ros\+\_\+multiplier} & Rate of spread multiplier \mbox{[}S\+T-\/\+X-\/3 eq 27/28, G\+L\+C-\/\+X-\/10 eq 29/30\mbox{]} \\
+\hline
+{\em isi} & Initial Spread Index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+SI with slope influence and zero wind (I\+SF) for D-\/1 \mbox{[}S\+T-\/\+X-\/3 eq 41\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a700980eca0f0ee7d13d54c5354ead461}\label{classtbd_1_1fuel_1_1fbp_1_1FuelD1_a700980eca0f0ee7d13d54c5354ead461}} 
+\index{tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::fbp::FuelD1@{tbd::fuel::fbp::FuelD1}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::fbp\+::\+Fuel\+D1\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\item 
+src/F\+B\+P45.\+cpp\end{DoxyCompactItemize}

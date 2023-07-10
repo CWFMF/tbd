@@ -1,5 +1,0 @@
-<map id="tbd::fuel::fire_intensity" name="tbd::fuel::fire_intensity">
-<area shape="rect" id="node1" title="Fire Intensity (kW/m) [ST&#45;X&#45;3 eq 69]." alt="" coords="373,42,519,69"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,35,141,76"/>
-</map>

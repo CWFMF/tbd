@@ -1,0 +1,290 @@
+\hypertarget{classtbd_1_1fuel_1_1InvalidFuel}{}\doxysection{tbd\+::fuel\+::Invalid\+Fuel Class Reference}
+\label{classtbd_1_1fuel_1_1InvalidFuel}\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+
+
+Placeholder fuel that throws exceptions if it ever gets used.  
+
+
+
+
+{\ttfamily \#include $<$Fuel\+Type.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Invalid\+Fuel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classtbd_1_1fuel_1_1InvalidFuel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Invalid\+Fuel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classtbd_1_1fuel_1_1InvalidFuel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_ad69ce5841c27fff4b5eff477906ed15d}{Invalid\+Fuel}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}, const char $\ast$\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}}) noexcept
+\begin{DoxyCompactList}\small\item\em Placeholder fuel that throws exceptions if it ever gets used. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a0a963b7a9e46d204f2dae5a0d1f8e715}\label{classtbd_1_1fuel_1_1InvalidFuel_a0a963b7a9e46d204f2dae5a0d1f8e715}} 
+{\bfseries Invalid\+Fuel} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a91acfb3069960b039fd3bfc4c0450386}\label{classtbd_1_1fuel_1_1InvalidFuel_a91acfb3069960b039fd3bfc4c0450386}} 
+{\bfseries Invalid\+Fuel} (\mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a63a9df349a42a178b91676a64a609165}\label{classtbd_1_1fuel_1_1InvalidFuel_a63a9df349a42a178b91676a64a609165}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_afef486a0b15c0a4a24947afcce805a74}\label{classtbd_1_1fuel_1_1InvalidFuel_afef486a0b15c0a4a24947afcce805a74}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel}{Invalid\+Fuel}} \&\&rhs) noexcept=delete
+\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a2b4be6812a1f35978444290265ba8b2d}{bui\+Effect}} (double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a5c9f9f59a06c089f344f8c2c8f990b41}{crown\+Consumption}} (double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a8490fd2d9ebd3ea42c6ff415a79be979}{calculate\+Ros}} (int, const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&, double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_ad8934d4a76b30f2a8499b8081cd35d8f}{calculate\+Isf}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&, double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a2fc4a13329f5784d530152bd01360adf}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_ac5f633e293ec836d7f8887f465261659}{length\+To\+Breadth}} (double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a14da60eeadc6c9e05e30b9f8c364a657}{final\+Ros}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&, double, double, double) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_aaecde3ec3b04f257752797d255bc951f}{critical\+Surface\+Intensity}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&) const override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a8c177c814dc9df67c90e5dbf6a8fa5c5}{crown\+Fraction\+Burned}} (double, double) const noexcept override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_a5e097e5e9e304c6db43f71be4c240b66}{probability\+Peat}} (double) const noexcept override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1InvalidFuel_aceec0cb57e9e188d324b9590e056af99}{survival\+Probability}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&) const noexcept override
+\begin{DoxyCompactList}\small\item\em Throw a runtime\+\_\+error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Placeholder fuel that throws exceptions if it ever gets used. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_ad69ce5841c27fff4b5eff477906ed15d}\label{classtbd_1_1fuel_1_1InvalidFuel_ad69ce5841c27fff4b5eff477906ed15d}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!InvalidFuel@{InvalidFuel}}
+\index{InvalidFuel@{InvalidFuel}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{InvalidFuel()}{InvalidFuel()}}
+{\footnotesize\ttfamily constexpr tbd\+::fuel\+::\+Invalid\+Fuel\+::\+Invalid\+Fuel (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code,  }\item[{const char $\ast$}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Placeholder fuel that throws exceptions if it ever gets used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+{\em name} & Name of the fuel \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a2b4be6812a1f35978444290265ba8b2d}\label{classtbd_1_1fuel_1_1InvalidFuel_a2b4be6812a1f35978444290265ba8b2d}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!buiEffect@{buiEffect}}
+\index{buiEffect@{buiEffect}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{buiEffect()}{buiEffect()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::bui\+Effect (\begin{DoxyParamCaption}\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ad25cb3df97e1932f12b0f03e40e501c8}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_ad8934d4a76b30f2a8499b8081cd35d8f}\label{classtbd_1_1fuel_1_1InvalidFuel_ad8934d4a76b30f2a8499b8081cd35d8f}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!calculateIsf@{calculateIsf}}
+\index{calculateIsf@{calculateIsf}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{calculateIsf()}{calculateIsf()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::calculate\+Isf (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{,  }\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ae10d58c44983cb2174924ea82d3ff627}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a8490fd2d9ebd3ea42c6ff415a79be979}\label{classtbd_1_1fuel_1_1InvalidFuel_a8490fd2d9ebd3ea42c6ff415a79be979}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!calculateRos@{calculateRos}}
+\index{calculateRos@{calculateRos}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{calculateRos()}{calculateRos()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::calculate\+Ros (\begin{DoxyParamCaption}\item[{int}]{,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&}]{,  }\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a81f37c0e9aec26852d38bd6dd555dcd5}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_aaecde3ec3b04f257752797d255bc951f}\label{classtbd_1_1fuel_1_1InvalidFuel_aaecde3ec3b04f257752797d255bc951f}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!criticalSurfaceIntensity@{criticalSurfaceIntensity}}
+\index{criticalSurfaceIntensity@{criticalSurfaceIntensity}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{criticalSurfaceIntensity()}{criticalSurfaceIntensity()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::critical\+Surface\+Intensity (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_aba5e3b406a3b0846cacccd0b6dc36e2f}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a5c9f9f59a06c089f344f8c2c8f990b41}\label{classtbd_1_1fuel_1_1InvalidFuel_a5c9f9f59a06c089f344f8c2c8f990b41}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!crownConsumption@{crownConsumption}}
+\index{crownConsumption@{crownConsumption}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{crownConsumption()}{crownConsumption()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::crown\+Consumption (\begin{DoxyParamCaption}\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_af87c58a57b3afae95e9282416c6f325d}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a8c177c814dc9df67c90e5dbf6a8fa5c5}\label{classtbd_1_1fuel_1_1InvalidFuel_a8c177c814dc9df67c90e5dbf6a8fa5c5}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!crownFractionBurned@{crownFractionBurned}}
+\index{crownFractionBurned@{crownFractionBurned}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{crownFractionBurned()}{crownFractionBurned()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::crown\+Fraction\+Burned (\begin{DoxyParamCaption}\item[{double}]{,  }\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_af1630a584b0db7e6a6efabc428ab1e40}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a14da60eeadc6c9e05e30b9f8c364a657}\label{classtbd_1_1fuel_1_1InvalidFuel_a14da60eeadc6c9e05e30b9f8c364a657}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!finalRos@{finalRos}}
+\index{finalRos@{finalRos}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{finalRos()}{finalRos()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::final\+Ros (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{,  }\item[{double}]{,  }\item[{double}]{,  }\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a345934b9de822a9a70c7893fffedd6a4}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_ac5f633e293ec836d7f8887f465261659}\label{classtbd_1_1fuel_1_1InvalidFuel_ac5f633e293ec836d7f8887f465261659}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!lengthToBreadth@{lengthToBreadth}}
+\index{lengthToBreadth@{lengthToBreadth}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{lengthToBreadth()}{lengthToBreadth()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::length\+To\+Breadth (\begin{DoxyParamCaption}\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_ad58fdaa07ccc7c9f48ac3e117a77f300}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a5e097e5e9e304c6db43f71be4c240b66}\label{classtbd_1_1fuel_1_1InvalidFuel_a5e097e5e9e304c6db43f71be4c240b66}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!probabilityPeat@{probabilityPeat}}
+\index{probabilityPeat@{probabilityPeat}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{probabilityPeat()}{probabilityPeat()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::probability\+Peat (\begin{DoxyParamCaption}\item[{double}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a2aee5d5dd2e05f94b45694cad4c21a5d}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_a2fc4a13329f5784d530152bd01360adf}\label{classtbd_1_1fuel_1_1InvalidFuel_a2fc4a13329f5784d530152bd01360adf}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1InvalidFuel_aceec0cb57e9e188d324b9590e056af99}\label{classtbd_1_1fuel_1_1InvalidFuel_aceec0cb57e9e188d324b9590e056af99}} 
+\index{tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}!survivalProbability@{survivalProbability}}
+\index{survivalProbability@{survivalProbability}!tbd::fuel::InvalidFuel@{tbd::fuel::InvalidFuel}}
+\doxysubsubsection{\texorpdfstring{survivalProbability()}{survivalProbability()}}
+{\footnotesize\ttfamily double tbd\+::fuel\+::\+Invalid\+Fuel\+::survival\+Probability (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{wx\+::\+Fwi\+Weather}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Throw a runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Throw a runtime\+\_\+error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54360592457504e0aeb5f225345df38e}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Fuel\+Type.\+h\item 
+src/Fuel\+Type.\+cpp\end{DoxyCompactItemize}

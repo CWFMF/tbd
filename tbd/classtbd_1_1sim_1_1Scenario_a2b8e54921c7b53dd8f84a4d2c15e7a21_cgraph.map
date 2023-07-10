@@ -1,5 +1,0 @@
-<map id="tbd::sim::Scenario::cellSize" name="tbd::sim::Scenario::cellSize">
-<area shape="rect" id="node1" title="Cell width and height (m)" alt="" coords="5,5,129,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a4542452f4263d40e86fd69ce960c3207" title="Cell width and height (m)" alt="" coords="177,13,336,39"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="384,5,533,47"/>
-</map>

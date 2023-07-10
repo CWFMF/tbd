@@ -1,0 +1,138 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelSlash}{}\doxysection{tbd\+::fuel\+::Fuel\+Slash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, Bulk\+Density $>$ Class Template Reference}
+\label{classtbd_1_1fuel_1_1FuelSlash}\index{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$@{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$}}
+
+
+A slash fuel type.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Slash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, Bulk\+Density $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelSlash__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Slash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, Bulk\+Density $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelSlash__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_ad45e17c7ec5df3bdf3afc4522ec13534}\label{classtbd_1_1fuel_1_1FuelSlash_ad45e17c7ec5df3bdf3afc4522ec13534}} 
+{\bfseries Fuel\+Slash} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_aeec6cba66949819577228cc1d4942a4d}\label{classtbd_1_1fuel_1_1FuelSlash_aeec6cba66949819577228cc1d4942a4d}} 
+{\bfseries Fuel\+Slash} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_a497c4e527f51f05be87cb6c3f0b86ae6}\label{classtbd_1_1fuel_1_1FuelSlash_a497c4e527f51f05be87cb6c3f0b86ae6}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_a2a1bbe83aaa9b9839be269f316c36910}\label{classtbd_1_1fuel_1_1FuelSlash_a2a1bbe83aaa9b9839be269f316c36910}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} \&\&rhs) noexcept=delete
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ab595b86436f7ba23d3098a22b256eb32}{Fuel\+Slash}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}, const char $\ast$\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}}, const \mbox{\hyperlink{classtbd_1_1data_1_1LogValue}{Log\+Value}} log\+\_\+q, const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} $\ast$duff\+\_\+ffmc, const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} $\ast$duff\+\_\+dmc)
+\begin{DoxyCompactList}\small\item\em A slash fuel type. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const noexcept override
+\begin{DoxyCompactList}\small\item\em Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int A, int B, int C, int Bui0, int FfcA, int FfcB, int WfcA, int WfcB, int Bulk\+Density$>$\newline
+class tbd\+::fuel\+::\+Fuel\+Slash$<$ A, B, C, Bui0, Ffc\+A, Ffc\+B, Wfc\+A, Wfc\+B, Bulk\+Density $>$}
+
+A slash fuel type. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em A} & Rate of spread parameter a \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em B} & Rate of spread parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em C} & Rate of spread parameter c $\ast$ 100 \mbox{[}S\+T-\/\+X-\/3 table 6\mbox{]} \\
+\hline
+{\em Bui0} & Average Build-\/up Index for the fuel type \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+{\em FfcA} & Forest Floor Consumption parameter a \mbox{[}S\+T-\/\+X-\/3 eq 19/21/23\mbox{]} \\
+\hline
+{\em FfcB} & Forest Floor Consumption parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 eq 19/21/23\mbox{]} \\
+\hline
+{\em WfcA} & Woody Fuel Consumption parameter a \mbox{[}S\+T-\/\+X-\/3 eq 20/22/24\mbox{]} \\
+\hline
+{\em WfcB} & Woody Fuel Consumption parameter b $\ast$ 10000 \mbox{[}S\+T-\/\+X-\/3 eq 20/22/24\mbox{]} \\
+\hline
+{\em Bulk\+Density} & Crown bulk density $\ast$ 1000 \mbox{[}Anderson table 1\mbox{]} \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_ab595b86436f7ba23d3098a22b256eb32}\label{classtbd_1_1fuel_1_1FuelSlash_ab595b86436f7ba23d3098a22b256eb32}} 
+\index{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$@{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$}!FuelSlash@{FuelSlash}}
+\index{FuelSlash@{FuelSlash}!tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$@{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$}}
+\doxysubsubsection{\texorpdfstring{FuelSlash()}{FuelSlash()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int FfcA, int FfcB, int WfcA, int WfcB, int Bulk\+Density$>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{tbd\+::fuel\+::\+Fuel\+Slash}}$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, Bulk\+Density $>$\+::\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{Fuel\+Slash}} (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code,  }\item[{const char $\ast$}]{name,  }\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1LogValue}{Log\+Value}}}]{log\+\_\+q,  }\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} $\ast$}]{duff\+\_\+ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1fuel_1_1Duff}{Duff}} $\ast$}]{duff\+\_\+dmc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+A slash fuel type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+{\em name} & Name of the fuel \\
+\hline
+{\em log\+\_\+q} & Log value of q \mbox{[}S\+T-\/\+X-\/3 table 7\mbox{]} \\
+\hline
+{\em duff\+\_\+ffmc} & Type of duff near the surface \\
+\hline
+{\em duff\+\_\+dmc} & Type of duff deeper underground \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}\label{classtbd_1_1fuel_1_1FuelSlash_ad65fbcb75ccf227eaa22cec20edf9111}} 
+\index{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$@{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$@{tbd::fuel::FuelSlash$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, BulkDensity $>$}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily template$<$int A, int B, int C, int Bui0, int FfcA, int FfcB, int WfcA, int WfcB, int Bulk\+Density$>$ \\
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelSlash}{tbd\+::fuel\+::\+Fuel\+Slash}}$<$ A, B, C, Bui0, FfcA, FfcB, WfcA, WfcB, Bulk\+Density $>$\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 25\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\end{DoxyCompactItemize}

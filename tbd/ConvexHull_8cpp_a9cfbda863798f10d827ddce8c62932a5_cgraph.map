@@ -1,8 +1,0 @@
-<map id="hull" name="hull">
-<area shape="rect" id="node1" title=" " alt="" coords="5,46,48,73"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="263,5,391,47"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#aee0a141c6fa2eff46503634b3ee7d51b" title="Log with NOTE level." alt="" coords="96,71,215,98"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="441,26,560,53"/>
-<area shape="rect" id="node5" href="$classtbd_1_1logging_1_1Log.html#ad0257a479532713ba0c577d474c6238c" title="Get current logging level." alt="" coords="440,89,561,131"/>
-<area shape="rect" id="node6" href="$namespacetbd_1_1logging.html#a9df7e74fc635271e4d4aa7c03ac24201" title="Output a message to the log." alt="" coords="263,71,392,98"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="tbd::wx::Precipitation" name="tbd::wx::Precipitation">
-<area shape="rect" id="node1" title="Precipitation (1hr accumulation) (mm)" alt="" coords="5,380,145,457"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="6,5,145,332"/>
-</map>

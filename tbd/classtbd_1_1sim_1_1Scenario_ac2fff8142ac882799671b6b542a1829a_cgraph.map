@@ -1,7 +1,0 @@
-<map id="tbd::sim::Scenario::~Scenario" name="tbd::sim::Scenario::~Scenario">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,129,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="177,39,301,80"/>
-<area shape="rect" id="node3" href="$classtbd_1_1logging_1_1SelfLogger.html#a362638a38792d5eacdcc0d1d886c61b3" title=" " alt="" coords="349,5,505,47"/>
-<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="349,71,505,112"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="553,46,672,73"/>
-</map>

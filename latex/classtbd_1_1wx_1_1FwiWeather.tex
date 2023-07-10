@@ -1,0 +1,493 @@
+\hypertarget{classtbd_1_1wx_1_1FwiWeather}{}\doxysection{tbd\+::wx\+::Fwi\+Weather Class Reference}
+\label{classtbd_1_1wx_1_1FwiWeather}\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+
+
+A \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} value with calculated F\+WI indices.  
+
+
+
+
+{\ttfamily \#include $<$F\+W\+I.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::wx\+::Fwi\+Weather\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{classtbd_1_1wx_1_1FwiWeather__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::wx\+::Fwi\+Weather\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{classtbd_1_1wx_1_1FwiWeather__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a90144e1be68313c00a413bbe0840814b}\label{classtbd_1_1wx_1_1FwiWeather_a90144e1be68313c00a413bbe0840814b}} 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a90144e1be68313c00a413bbe0840814b}{Fwi\+Weather}} () noexcept
+\begin{DoxyCompactList}\small\item\em Construct with 0 for all values. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a71463b83faae7a93ee10717dce9cdde3}{Fwi\+Weather}} (istringstream $\ast$iss, string $\ast$str)
+\begin{DoxyCompactList}\small\item\em Construct by reading from istringstream. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a20323da67b0b6250f082716a092b6a3f}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&yesterday, const int month, const double latitude, const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8}{temp}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad}{rh}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953}{wind}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50}{prec}})
+\begin{DoxyCompactList}\small\item\em construct by applying noon weather to yesterday\textquotesingle{}s indices \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8f840c9c3874752affdf040c50c32d34}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8}{temp}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad}{rh}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953}{wind}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50}{prec}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}{ffmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}{dmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}{dc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_aa7ce178a5eb8b76a668961fe4d364052}{isi}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a82e87495d69bdcf7ba510a94b8e61506}{bui}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Fwi}{Fwi}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a4b50336f39d9b353f97d476d2e58988c}{fwi}}) noexcept
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a605ca162d8199d86a206995f8d96b9b1}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8}{temp}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad}{rh}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953}{wind}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50}{prec}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}{ffmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}{dmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}{dc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_aa7ce178a5eb8b76a668961fe4d364052}{isi}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a82e87495d69bdcf7ba510a94b8e61506}{bui}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct by calculating F\+WI. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_af85ad398f607ce6220fcbe357df2afaf}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad0368ce1a45d0063153c09084f6168a8}{temp}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a3afc52e94916d211b3299c49c9fa88ad}{rh}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_ad97433581f03249f43140ad738d3d953}{wind}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1Weather_a584ac248ca052812480f70584fe30b50}{prec}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}{ffmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}{dmc}}, const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}{dc}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct by calculating I\+SI, B\+UI, \& F\+WI. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a3575eabccc6ddefe79e36b196c224274}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&wx, const \mbox{\hyperlink{classtbd_1_1wx_1_1Speed}{Speed}} \&ws, const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}{ffmc}}) noexcept
+\begin{DoxyCompactList}\small\item\em Construct by recalculating with different wind \mbox{\hyperlink{classtbd_1_1wx_1_1Speed}{Speed}} and \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a1740af411f625fbaff7890706cecab8e}\label{classtbd_1_1wx_1_1FwiWeather_a1740af411f625fbaff7890706cecab8e}} 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a1740af411f625fbaff7890706cecab8e}{$\sim$\+Fwi\+Weather}} () override=default
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a10cd0955e24e08f7a229f1cd36862513}{Fwi\+Weather}} (\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a39fd1b4f0da948fca6d4c1cfbc77126c}{Fwi\+Weather}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8fe3fc46409a9ce8947a77b4d28c866a}{operator=}} (\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a3eafc58d3a835c9db7280f038c138b66}{operator=}} (const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&rhs)=default
+\begin{DoxyCompactList}\small\item\em Copy assignment. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}{ffmc}} () const
+\begin{DoxyCompactList}\small\item\em Fine Fuel Moisture Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}{dmc}} () const
+\begin{DoxyCompactList}\small\item\em Duff Moisture Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}{dc}} () const
+\begin{DoxyCompactList}\small\item\em Drought Code. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_aa7ce178a5eb8b76a668961fe4d364052}{isi}} () const
+\begin{DoxyCompactList}\small\item\em Initial Spread Index. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a82e87495d69bdcf7ba510a94b8e61506}{bui}} () const
+\begin{DoxyCompactList}\small\item\em Build-\/up Index. \end{DoxyCompactList}\item 
+constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Fwi}{Fwi}} \& \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a4b50336f39d9b353f97d476d2e58988c}{fwi}} () const
+\begin{DoxyCompactList}\small\item\em Fire \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} Index. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a2421dd4c4b0a748ffddf801a99da5b08}{mc\+Ffmc\+Pct}} () const
+\begin{DoxyCompactList}\small\item\em Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a441355c34be9b80273541b1f5a9c14bb}{mc\+Dmc\+Pct}} () const
+\begin{DoxyCompactList}\small\item\em Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_aadfd84e98f8edc9f015a24f03647f2ac}{mc\+Ffmc}} () const
+\begin{DoxyCompactList}\small\item\em Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a65562e13b73b6937ab814aea21c36681}{mc\+Dmc}} () const
+\begin{DoxyCompactList}\small\item\em Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_a629da6a9e31fa74c85c275afc626351c}{ffmc\+Effect}} () const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} effect used for spread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather_aa2daf17081a80d7a55a936f58b48cd47}{Zero}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} with 0 for all Indices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} value with calculated F\+WI indices. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a71463b83faae7a93ee10717dce9cdde3}\label{classtbd_1_1wx_1_1FwiWeather_a71463b83faae7a93ee10717dce9cdde3}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{istringstream $\ast$}]{iss,  }\item[{string $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Construct by reading from istringstream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iss} & Stream to parse \\
+\hline
+{\em str} & string to read into \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a20323da67b0b6250f082716a092b6a3f}\label{classtbd_1_1wx_1_1FwiWeather_a20323da67b0b6250f082716a092b6a3f}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&}]{yesterday,  }\item[{const int}]{month,  }\item[{const double}]{latitude,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&}]{temp,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&}]{rh,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&}]{wind,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{prec }\end{DoxyParamCaption})}
+
+
+
+construct by applying noon weather to yesterday\textquotesingle{}s indices 
+
+
+\begin{DoxyParams}{Parameters}
+{\em yesterday} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} yesterday used for startup indices \\
+\hline
+{\em month} & Month to calculate for \\
+\hline
+{\em latitude} & Latitude to calculate for \\
+\hline
+{\em temp} & \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} (Celsius) \\
+\hline
+{\em rh} & Relative Humidity (\%) \\
+\hline
+{\em wind} & \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} (km/h) \\
+\hline
+{\em prec} & \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} (24hr accumulated, noon-\/to-\/noon) (mm) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a8f840c9c3874752affdf040c50c32d34}\label{classtbd_1_1wx_1_1FwiWeather_a8f840c9c3874752affdf040c50c32d34}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&}]{temp,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&}]{rh,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&}]{wind,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{prec,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&}]{ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&}]{dmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&}]{dc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}} \&}]{isi,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}} \&}]{bui,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Fwi}{Fwi}} \&}]{fwi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp} & \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} (Celsius) \\
+\hline
+{\em rh} & Relative Humidity (\%) \\
+\hline
+{\em wind} & \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} (km/h) \\
+\hline
+{\em prec} & \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} (1hr accumulation) (mm) \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code \\
+\hline
+{\em dmc} & Duff Moisture Code \\
+\hline
+{\em dc} & Drought Code \\
+\hline
+{\em isi} & Initial Spread Index \\
+\hline
+{\em bui} & Build-\/up Index \\
+\hline
+{\em fwi} & Fire \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} Index \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a605ca162d8199d86a206995f8d96b9b1}\label{classtbd_1_1wx_1_1FwiWeather_a605ca162d8199d86a206995f8d96b9b1}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&}]{temp,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&}]{rh,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&}]{wind,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{prec,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&}]{ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&}]{dmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&}]{dc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}} \&}]{isi,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}} \&}]{bui }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Construct by calculating F\+WI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp} & \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} (Celsius) \\
+\hline
+{\em rh} & Relative Humidity (\%) \\
+\hline
+{\em wind} & \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} (km/h) \\
+\hline
+{\em prec} & \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} (1hr accumulation) (mm) \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code \\
+\hline
+{\em dmc} & Duff Moisture Code \\
+\hline
+{\em dc} & Drought Code \\
+\hline
+{\em isi} & Initial Spread Index \\
+\hline
+{\em bui} & Build-\/up Index \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_af85ad398f607ce6220fcbe357df2afaf}\label{classtbd_1_1wx_1_1FwiWeather_af85ad398f607ce6220fcbe357df2afaf}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} \&}]{temp,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1RelativeHumidity}{Relative\+Humidity}} \&}]{rh,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \&}]{wind,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} \&}]{prec,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&}]{ffmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} \&}]{dmc,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}} \&}]{dc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Construct by calculating I\+SI, B\+UI, \& F\+WI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp} & \mbox{\hyperlink{classtbd_1_1wx_1_1Temperature}{Temperature}} (Celsius) \\
+\hline
+{\em rh} & Relative Humidity (\%) \\
+\hline
+{\em wind} & \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} (km/h) \\
+\hline
+{\em prec} & \mbox{\hyperlink{classtbd_1_1wx_1_1Precipitation}{Precipitation}} (1hr accumulation) (mm) \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code \\
+\hline
+{\em dmc} & Duff Moisture Code \\
+\hline
+{\em dc} & Drought Code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a3575eabccc6ddefe79e36b196c224274}\label{classtbd_1_1wx_1_1FwiWeather_a3575eabccc6ddefe79e36b196c224274}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&}]{wx,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Speed}{Speed}} \&}]{ws,  }\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} \&}]{ffmc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Construct by recalculating with different wind \mbox{\hyperlink{classtbd_1_1wx_1_1Speed}{Speed}} and \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wx} & Original weather values \\
+\hline
+{\em ws} & \mbox{\hyperlink{classtbd_1_1wx_1_1Wind}{Wind}} \mbox{\hyperlink{classtbd_1_1wx_1_1Speed}{Speed}} to use \\
+\hline
+{\em ffmc} & Fine Fuel Moisture Code to use \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a10cd0955e24e08f7a229f1cd36862513}\label{classtbd_1_1wx_1_1FwiWeather_a10cd0955e24e08f7a229f1cd36862513}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily constexpr tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} to move from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a39fd1b4f0da948fca6d4c1cfbc77126c}\label{classtbd_1_1wx_1_1FwiWeather_a39fd1b4f0da948fca6d4c1cfbc77126c}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!FwiWeather@{FwiWeather}}
+\index{FwiWeather@{FwiWeather}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{FwiWeather()}{FwiWeather()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily constexpr tbd\+::wx\+::\+Fwi\+Weather\+::\+Fwi\+Weather (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} to copy from \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a82e87495d69bdcf7ba510a94b8e61506}\label{classtbd_1_1wx_1_1FwiWeather_a82e87495d69bdcf7ba510a94b8e61506}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!bui@{bui}}
+\index{bui@{bui}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{bui()}{bui()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Bui}{Bui}}\& tbd\+::wx\+::\+Fwi\+Weather\+::bui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Build-\/up Index. 
+
+\begin{DoxyReturn}{Returns}
+Build-\/up Index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}\label{classtbd_1_1wx_1_1FwiWeather_a8e238d56c8e4640c4647e842cab74d80}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!dc@{dc}}
+\index{dc@{dc}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{dc()}{dc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dc}{Dc}}\& tbd\+::wx\+::\+Fwi\+Weather\+::dc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Drought Code. 
+
+\begin{DoxyReturn}{Returns}
+Drought Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}\label{classtbd_1_1wx_1_1FwiWeather_ac5618fc4d897d9f620355ee02a31e1ac}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!dmc@{dmc}}
+\index{dmc@{dmc}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{dmc()}{dmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}\& tbd\+::wx\+::\+Fwi\+Weather\+::dmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Duff Moisture Code. 
+
+\begin{DoxyReturn}{Returns}
+Duff Moisture Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}\label{classtbd_1_1wx_1_1FwiWeather_ad06210654348daff788713a71284acbb}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!ffmc@{ffmc}}
+\index{ffmc@{ffmc}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{ffmc()}{ffmc()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}\& tbd\+::wx\+::\+Fwi\+Weather\+::ffmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Fine Fuel Moisture Code. 
+
+\begin{DoxyReturn}{Returns}
+Fine Fuel Moisture Code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a629da6a9e31fa74c85c275afc626351c}\label{classtbd_1_1wx_1_1FwiWeather_a629da6a9e31fa74c85c275afc626351c}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!ffmcEffect@{ffmcEffect}}
+\index{ffmcEffect@{ffmcEffect}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{ffmcEffect()}{ffmcEffect()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Fwi\+Weather\+::ffmc\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+\mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} effect used for spread. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} effect used for spread 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a4b50336f39d9b353f97d476d2e58988c}\label{classtbd_1_1wx_1_1FwiWeather_a4b50336f39d9b353f97d476d2e58988c}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!fwi@{fwi}}
+\index{fwi@{fwi}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{fwi()}{fwi()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Fwi}{Fwi}}\& tbd\+::wx\+::\+Fwi\+Weather\+::fwi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Fire \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} Index. 
+
+\begin{DoxyReturn}{Returns}
+Fire \mbox{\hyperlink{classtbd_1_1wx_1_1Weather}{Weather}} Index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_aa7ce178a5eb8b76a668961fe4d364052}\label{classtbd_1_1wx_1_1FwiWeather_aa7ce178a5eb8b76a668961fe4d364052}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!isi@{isi}}
+\index{isi@{isi}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{isi()}{isi()}}
+{\footnotesize\ttfamily constexpr const \mbox{\hyperlink{classtbd_1_1wx_1_1Isi}{Isi}}\& tbd\+::wx\+::\+Fwi\+Weather\+::isi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Initial Spread Index. 
+
+\begin{DoxyReturn}{Returns}
+Initial Spread Index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a65562e13b73b6937ab814aea21c36681}\label{classtbd_1_1wx_1_1FwiWeather_a65562e13b73b6937ab814aea21c36681}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!mcDmc@{mcDmc}}
+\index{mcDmc@{mcDmc}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{mcDmc()}{mcDmc()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Fwi\+Weather\+::mc\+Dmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}. 
+
+\begin{DoxyReturn}{Returns}
+Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a441355c34be9b80273541b1f5a9c14bb}\label{classtbd_1_1wx_1_1FwiWeather_a441355c34be9b80273541b1f5a9c14bb}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!mcDmcPct@{mcDmcPct}}
+\index{mcDmcPct@{mcDmcPct}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{mcDmcPct()}{mcDmcPct()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Fwi\+Weather\+::mc\+Dmc\+Pct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}}. 
+
+\begin{DoxyReturn}{Returns}
+Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc}{Dmc}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_aadfd84e98f8edc9f015a24f03647f2ac}\label{classtbd_1_1wx_1_1FwiWeather_aadfd84e98f8edc9f015a24f03647f2ac}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!mcFfmc@{mcFfmc}}
+\index{mcFfmc@{mcFfmc}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{mcFfmc()}{mcFfmc()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Fwi\+Weather\+::mc\+Ffmc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. 
+
+\begin{DoxyReturn}{Returns}
+Moisture content (ratio) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a2421dd4c4b0a748ffddf801a99da5b08}\label{classtbd_1_1wx_1_1FwiWeather_a2421dd4c4b0a748ffddf801a99da5b08}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!mcFfmcPct@{mcFfmcPct}}
+\index{mcFfmcPct@{mcFfmcPct}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{mcFfmcPct()}{mcFfmcPct()}}
+{\footnotesize\ttfamily constexpr double tbd\+::wx\+::\+Fwi\+Weather\+::mc\+Ffmc\+Pct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}}. 
+
+\begin{DoxyReturn}{Returns}
+Moisture content (\%) based on \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc}{Ffmc}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a3eafc58d3a835c9db7280f038c138b66}\label{classtbd_1_1wx_1_1FwiWeather_a3eafc58d3a835c9db7280f038c138b66}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}}\& tbd\+::wx\+::\+Fwi\+Weather\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Copy assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_a8fe3fc46409a9ce8947a77b4d28c866a}\label{classtbd_1_1wx_1_1FwiWeather_a8fe3fc46409a9ce8947a77b4d28c866a}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}}\& tbd\+::wx\+::\+Fwi\+Weather\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classtbd_1_1wx_1_1FwiWeather_aa2daf17081a80d7a55a936f58b48cd47}\label{classtbd_1_1wx_1_1FwiWeather_aa2daf17081a80d7a55a936f58b48cd47}} 
+\index{tbd::wx::FwiWeather@{tbd::wx::FwiWeather}!Zero@{Zero}}
+\index{Zero@{Zero}!tbd::wx::FwiWeather@{tbd::wx::FwiWeather}}
+\doxysubsubsection{\texorpdfstring{Zero}{Zero}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} tbd\+::wx\+::\+Fwi\+Weather\+::\+Zero\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{  Temperature(0),}
+\DoxyCodeLine{  RelativeHumidity(0),}
+\DoxyCodeLine{  Wind(Direction(0, \textcolor{keyword}{false}), Speed(0)),}
+\DoxyCodeLine{  Precipitation(0),}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Ffmc_a59195e31dc173e384e6d45dc6dd7eb1b}{Ffmc::Zero}},}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Dmc_a4e2c7075d41b4b88cafe4b568c34f9fd}{Dmc::Zero}},}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Dc_aef5377bbec1617571e11550eb25fa8e7}{Dc::Zero}},}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Isi_ab6594ab7a4fe2b3dd604dd965424d2d8}{Isi::Zero}},}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Bui_ace09bc4e624004ed0979c4c4b349c211}{Bui::Zero}},}
+\DoxyCodeLine{  \mbox{\hyperlink{classtbd_1_1wx_1_1Fwi_ad5d0f25f2a4efdc519df11ef1e57f701}{Fwi::Zero}}\}}
+
+\end{DoxyCode}
+
+
+\mbox{\hyperlink{classtbd_1_1wx_1_1FwiWeather}{Fwi\+Weather}} with 0 for all Indices. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+W\+I.\+h\item 
+src/F\+W\+I.\+cpp\end{DoxyCompactItemize}

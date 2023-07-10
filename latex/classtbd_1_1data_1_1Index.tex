@@ -1,0 +1,376 @@
+\hypertarget{classtbd_1_1data_1_1Index}{}\doxysection{tbd\+::data\+::Index$<$ T $>$ Class Template Reference}
+\label{classtbd_1_1data_1_1Index}\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+
+
+A wrapper around a double to ensure correct types are used.  
+
+
+
+
+{\ttfamily \#include $<$Index.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::data\+::Index$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classtbd_1_1data_1_1Index__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ad5caf349865f703cc849cadf659f9085}\label{classtbd_1_1data_1_1Index_ad5caf349865f703cc849cadf659f9085}} 
+\mbox{\hyperlink{classtbd_1_1data_1_1Index_ad5caf349865f703cc849cadf659f9085}{$\sim$\+Index}} ()=default
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a16966fd38fdc94540dfdf38b07b83691}\label{classtbd_1_1data_1_1Index_a16966fd38fdc94540dfdf38b07b83691}} 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index_a16966fd38fdc94540dfdf38b07b83691}{Index}} () noexcept
+\begin{DoxyCompactList}\small\item\em Construct with a value of 0. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index_a8cee2d3454bebbacf653b97a99a6cef8}{Index}} (const double value) noexcept
+\begin{DoxyCompactList}\small\item\em Construct with given value. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index_ad91b14246a0a8f80df30cb719ca2d6bb}{Index}} (\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index_a3e88dd7202fa6158f7c4fc729501cfbd}{Index}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \& \mbox{\hyperlink{classtbd_1_1data_1_1Index_ab6aec14f0e91e0088b96ae41c9cd5ab1}{operator=}} (\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&\&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Move assignment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \& \mbox{\hyperlink{classtbd_1_1data_1_1Index_ab109e7029a646decd12cd71a780ffdac}{operator=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&rhs) noexcept=default
+\begin{DoxyCompactList}\small\item\em Copy assignment. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_a3d8fcdcc8a332deba84596c3e45cc798}{operator==}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Equality operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_a06a2421ebba25d14568945808ce14a3c}{operator!=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Not equals operator. \end{DoxyCompactList}\item 
+constexpr double \mbox{\hyperlink{classtbd_1_1data_1_1Index_aa53ec05ea5e4e63989062659ad6fa9bd}{as\+Double}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Returns value as a double. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_ab96d416fb8fa16a678fbf2c78ea1352c}{operator$<$}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Less than operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_aecf1bf9fd0ba858461c8bcda8d5eb079}{operator$>$}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Greater than operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_af2354054787ae92002c761024195e22e}{operator$<$=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Less than or equal to operator. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index_a9d616224f02aa586ccb40743dc342bbd}{operator$>$=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Greater than or equal to operator. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \mbox{\hyperlink{classtbd_1_1data_1_1Index_a2c3a82e0716f64fe6254133208520f41}{operator+}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Addition operator. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \mbox{\hyperlink{classtbd_1_1data_1_1Index_ac66e2a362b7123a9f5d4720c44ac1b02}{operator-\/}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) const noexcept
+\begin{DoxyCompactList}\small\item\em Subtraction operator. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \& \mbox{\hyperlink{classtbd_1_1data_1_1Index_a53c58650bef76bef9fe88d1db546b14a}{operator+=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) noexcept
+\begin{DoxyCompactList}\small\item\em Addition assignment operator. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \& \mbox{\hyperlink{classtbd_1_1data_1_1Index_a7b82f1c509adb622fffe3ef0654fc588}{operator-\/=}} (const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ rhs) noexcept
+\begin{DoxyCompactList}\small\item\em Subtraction assignment operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class tbd\+::data\+::\+Index$<$ T $>$}
+
+A wrapper around a double to ensure correct types are used. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The derived class that this \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} represents. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a8cee2d3454bebbacf653b97a99a6cef8}\label{classtbd_1_1data_1_1Index_a8cee2d3454bebbacf653b97a99a6cef8}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!Index@{Index}}
+\index{Index@{Index}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Index()}{Index()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} (\begin{DoxyParamCaption}\item[{const double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Construct with given value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to assign \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ad91b14246a0a8f80df30cb719ca2d6bb}\label{classtbd_1_1data_1_1Index_ad91b14246a0a8f80df30cb719ca2d6bb}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!Index@{Index}}
+\index{Index@{Index}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Index()}{Index()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to move from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a3e88dd7202fa6158f7c4fc729501cfbd}\label{classtbd_1_1data_1_1Index_a3e88dd7202fa6158f7c4fc729501cfbd}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!Index@{Index}}
+\index{Index@{Index}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Index()}{Index()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to copy from \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_aa53ec05ea5e4e63989062659ad6fa9bd}\label{classtbd_1_1data_1_1Index_aa53ec05ea5e4e63989062659ad6fa9bd}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!asDouble@{asDouble}}
+\index{asDouble@{asDouble}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{asDouble()}{asDouble()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr double \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::as\+Double (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Returns value as a double. 
+
+\begin{DoxyReturn}{Returns}
+double value for \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a06a2421ebba25d14568945808ce14a3c}\label{classtbd_1_1data_1_1Index_a06a2421ebba25d14568945808ce14a3c}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Not equals operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are not equivalent 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a2c3a82e0716f64fe6254133208520f41}\label{classtbd_1_1data_1_1Index_a2c3a82e0716f64fe6254133208520f41}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator+@{operator+}}
+\index{operator+@{operator+}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$ \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Addition operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to add value from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value of this plus the value of the provided index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a53c58650bef76bef9fe88d1db546b14a}\label{classtbd_1_1data_1_1Index_a53c58650bef76bef9fe88d1db546b14a}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$\& \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Addition assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to add value from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, plus the value of the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ac66e2a362b7123a9f5d4720c44ac1b02}\label{classtbd_1_1data_1_1Index_ac66e2a362b7123a9f5d4720c44ac1b02}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$ \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Subtraction operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to add value from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value of this minus the value of the provided index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a7b82f1c509adb622fffe3ef0654fc588}\label{classtbd_1_1data_1_1Index_a7b82f1c509adb622fffe3ef0654fc588}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$\& \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Subtraction assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to add value from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, minus the value of the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ab96d416fb8fa16a678fbf2c78ea1352c}\label{classtbd_1_1data_1_1Index_ab96d416fb8fa16a678fbf2c78ea1352c}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Less than operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not this is less than the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_af2354054787ae92002c761024195e22e}\label{classtbd_1_1data_1_1Index_af2354054787ae92002c761024195e22e}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Less than or equal to operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not this is less than or equal to the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ab109e7029a646decd12cd71a780ffdac}\label{classtbd_1_1data_1_1Index_ab109e7029a646decd12cd71a780ffdac}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$\& \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Copy assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to copy from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_ab6aec14f0e91e0088b96ae41c9cd5ab1}\label{classtbd_1_1data_1_1Index_ab6aec14f0e91e0088b96ae41c9cd5ab1}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$T$>$\& \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&\&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}, {\ttfamily [noexcept]}}
+
+
+
+Move assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to move from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This, after assignment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a3d8fcdcc8a332deba84596c3e45cc798}\label{classtbd_1_1data_1_1Index_a3d8fcdcc8a332deba84596c3e45cc798}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Equality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not these are equivalent 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_aecf1bf9fd0ba858461c8bcda8d5eb079}\label{classtbd_1_1data_1_1Index_aecf1bf9fd0ba858461c8bcda8d5eb079}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Greater than operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not this is greater than the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtbd_1_1data_1_1Index_a9d616224f02aa586ccb40743dc342bbd}\label{classtbd_1_1data_1_1Index_a9d616224f02aa586ccb40743dc342bbd}} 
+\index{tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!tbd::data::Index$<$ T $>$@{tbd::data::Index$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{classtbd_1_1data_1_1Index}{tbd\+::data\+::\+Index}}$<$ T $>$\+::operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}}$<$ T $>$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+Greater than or equal to operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} to compare to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Whether or not this is greater than or equal to the provided \mbox{\hyperlink{classtbd_1_1data_1_1Index}{Index}} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/Index.\+h\end{DoxyCompactItemize}

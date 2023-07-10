@@ -1,7 +1,0 @@
-<map id="tbd::util::Statistics::isConfident" name="tbd::util::Statistics::isConfident">
-<area shape="rect" id="node1" title="Whether or not we have less than the relative error and can be confident in the results." alt="" coords="5,64,129,105"/>
-<area shape="rect" id="node2" href="$classtbd_1_1util_1_1Statistics.html#a84a2f6737edc384408d735529db29388" title="Calculate Student&#39;s T value." alt="" coords="177,64,301,105"/>
-<area shape="rect" id="node3" href="$classtbd_1_1util_1_1Statistics.html#a13c306307103f526e6a57700cb2a97ed" title="Mean (average) value." alt="" coords="356,5,480,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1util_1_1Statistics.html#a9153a28ce91d32818137cf7b5e788c1e" title="Number of data points in the set." alt="" coords="349,71,487,98"/>
-<area shape="rect" id="node5" href="$classtbd_1_1util_1_1Statistics.html#a117255ac24a038c6566bd133baf2545c" title="Sample Variance." alt="" coords="356,123,480,164"/>
-</map>

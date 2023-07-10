@@ -1,4 +1,0 @@
-<map id="tbd::util::to_radians" name="tbd::util::to_radians">
-<area shape="rect" id="node1" title="Convert degrees to radians." alt="" coords="5,5,135,32"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1util.html#a17655e7a400e8955146ef7ae23461408" title="Ensure that value lies between 0 and 2 * PI." alt="" coords="183,5,313,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="tbd::fuel::FuelVariable::probabilityPeat" name="tbd::fuel::FuelVariable::probabilityPeat">
-<area shape="rect" id="node1" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,39,151,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a2aee5d5dd2e05f94b45694cad4c21a5d" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="208,5,335,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#ab1c7c21271619c729cbcb26b1329fd26" title="Fuel to use before green&#45;up." alt="" coords="199,71,344,112"/>
-</map>

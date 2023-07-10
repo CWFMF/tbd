@@ -1,0 +1,118 @@
+\hypertarget{classtbd_1_1fuel_1_1FuelMixedWood}{}\doxysection{tbd\+::fuel\+::Fuel\+Mixed\+Wood$<$ Ros\+Multiplier, Ratio\+Mixed $>$ Class Template Reference}
+\label{classtbd_1_1fuel_1_1FuelMixedWood}\index{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$@{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$}}
+
+
+A fuel composed of C2 and D1 mixed.  
+
+
+
+
+{\ttfamily \#include $<$F\+B\+P45.\+h$>$}
+
+
+
+Inheritance diagram for tbd\+::fuel\+::Fuel\+Mixed\+Wood$<$ Ros\+Multiplier, Ratio\+Mixed $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelMixedWood__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tbd\+::fuel\+::Fuel\+Mixed\+Wood$<$ Ros\+Multiplier, Ratio\+Mixed $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtbd_1_1fuel_1_1FuelMixedWood__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_aebf27c3c1a5203089d7f498a99d8dc93}\label{classtbd_1_1fuel_1_1FuelMixedWood_aebf27c3c1a5203089d7f498a99d8dc93}} 
+{\bfseries Fuel\+Mixed\+Wood} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_a76f03de78e93ab43d8dc061ec0a484ff}\label{classtbd_1_1fuel_1_1FuelMixedWood_a76f03de78e93ab43d8dc061ec0a484ff}} 
+{\bfseries Fuel\+Mixed\+Wood} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \&\&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_a8a3b0996bed07b646e83b84b4094fd28}\label{classtbd_1_1fuel_1_1FuelMixedWood_a8a3b0996bed07b646e83b84b4094fd28}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \& {\bfseries operator=} (const \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \&rhs) noexcept=delete
+\item 
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_a5d14c93b314c5fb5e31bcfc348b21f4b}\label{classtbd_1_1fuel_1_1FuelMixedWood_a5d14c93b314c5fb5e31bcfc348b21f4b}} 
+\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \& {\bfseries operator=} (\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} \&\&rhs) noexcept=delete
+\item 
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood_a4d6d9e5e7a56b7b7d69f5074d5ed24db}{Fuel\+Mixed\+Wood}} (const Fuel\+Code\+Size \&\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a9158601435e5f99612885308d68648da}{code}}, const char $\ast$\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a0e9014ba4690124add74fd7cdb6df722}{name}})
+\begin{DoxyCompactList}\small\item\em A mixedwood F\+BP fuel type. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}{surface\+Fuel\+Consumption}} (const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&spread) const noexcept override
+\begin{DoxyCompactList}\small\item\em Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 17\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int Ros\+Multiplier, int Ratio\+Mixed$>$\newline
+class tbd\+::fuel\+::\+Fuel\+Mixed\+Wood$<$ Ros\+Multiplier, Ratio\+Mixed $>$}
+
+A fuel composed of C2 and D1 mixed. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Ros\+Multiplier} & Rate of spread multiplier $\ast$ 10 \mbox{[}S\+T-\/\+X-\/3 eq 27/28, G\+L\+C-\/\+X-\/10 eq 29/30\mbox{]} \\
+\hline
+{\em Ratio\+Mixed} & Percent conifer \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_a4d6d9e5e7a56b7b7d69f5074d5ed24db}\label{classtbd_1_1fuel_1_1FuelMixedWood_a4d6d9e5e7a56b7b7d69f5074d5ed24db}} 
+\index{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$@{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$}!FuelMixedWood@{FuelMixedWood}}
+\index{FuelMixedWood@{FuelMixedWood}!tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$@{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$}}
+\doxysubsubsection{\texorpdfstring{FuelMixedWood()}{FuelMixedWood()}}
+{\footnotesize\ttfamily template$<$int Ros\+Multiplier, int Ratio\+Mixed$>$ \\
+constexpr \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{tbd\+::fuel\+::\+Fuel\+Mixed\+Wood}}$<$ Ros\+Multiplier, Ratio\+Mixed $>$\+::\mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{Fuel\+Mixed\+Wood}} (\begin{DoxyParamCaption}\item[{const Fuel\+Code\+Size \&}]{code,  }\item[{const char $\ast$}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+A mixedwood F\+BP fuel type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & Code to identify fuel with \\
+\hline
+{\em name} & Name of the fuel \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}\label{classtbd_1_1fuel_1_1FuelMixedWood_a9ccd5de24e45da7b230de873e0fa82a1}} 
+\index{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$@{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$}!surfaceFuelConsumption@{surfaceFuelConsumption}}
+\index{surfaceFuelConsumption@{surfaceFuelConsumption}!tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$@{tbd::fuel::FuelMixedWood$<$ RosMultiplier, RatioMixed $>$}}
+\doxysubsubsection{\texorpdfstring{surfaceFuelConsumption()}{surfaceFuelConsumption()}}
+{\footnotesize\ttfamily template$<$int Ros\+Multiplier, int Ratio\+Mixed$>$ \\
+double \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelMixedWood}{tbd\+::fuel\+::\+Fuel\+Mixed\+Wood}}$<$ Ros\+Multiplier, Ratio\+Mixed $>$\+::surface\+Fuel\+Consumption (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtbd_1_1sim_1_1SpreadInfo}{Spread\+Info}} \&}]{spread }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 17\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spread} & Spread\+Info to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Surface Fuel Consumption (S\+FC) (kg/m$^\wedge$2) \mbox{[}S\+T-\/\+X-\/3 eq 17\mbox{]} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classtbd_1_1fuel_1_1FuelType_a54f789deb288682fef4b69723706e55a}{tbd\+::fuel\+::\+Fuel\+Type}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/F\+B\+P45.\+h\end{DoxyCompactItemize}

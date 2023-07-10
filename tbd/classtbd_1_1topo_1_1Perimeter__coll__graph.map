@@ -1,9 +1,0 @@
-<map id="tbd::topo::Perimeter" name="tbd::topo::Perimeter">
-<area shape="rect" id="node1" title="Perimeter for an existing fire to initialize a simulation with." alt="" coords="174,660,307,781"/>
-<area shape="rect" id="node2" title=" " alt="" coords="179,491,302,583"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="111,175,237,428"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,73,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="98,5,261,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="262,263,355,340"/>
-<area shape="rect" id="node7" title=" " alt="" coords="289,5,328,83"/>
-</map>

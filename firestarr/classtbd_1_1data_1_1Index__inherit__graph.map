@@ -1,0 +1,15 @@
+<map id="tbd::data::Index&lt; T &gt;" name="tbd::data::Index&lt; T &gt;">
+<area shape="rect" id="node1" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,300,144,327"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Bui.html" title="Build&#45;up Index value." alt="" coords="211,5,339,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Dc.html" title="Drought Code value." alt="" coords="214,56,337,83"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="216,107,335,149"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1Dmc.html" title="Duff Moisture Code value." alt="" coords="203,173,347,200"/>
+<area shape="rect" id="node6" href="$classtbd_1_1wx_1_1Dsr.html" title="Danger Severity Rating value." alt="" coords="210,224,341,251"/>
+<area shape="rect" id="node7" href="$classtbd_1_1wx_1_1Ffmc.html" title="Fine Fuel Moisture Code value." alt="" coords="200,275,351,301"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1Fwi.html" title="Fire Weather Index value." alt="" coords="209,325,341,352"/>
+<area shape="rect" id="node9" href="$classtbd_1_1wx_1_1Isi.html" title="Initial Spread Index value." alt="" coords="216,376,335,403"/>
+<area shape="rect" id="node10" href="$classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)" alt="" coords="205,427,345,469"/>
+<area shape="rect" id="node11" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="192,493,359,534"/>
+<area shape="rect" id="node12" href="$classtbd_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="193,559,357,585"/>
+<area shape="rect" id="node13" href="$classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="205,610,346,651"/>
+</map>

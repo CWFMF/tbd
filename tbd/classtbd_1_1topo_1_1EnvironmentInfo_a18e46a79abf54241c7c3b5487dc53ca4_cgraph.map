@@ -1,4 +1,0 @@
-<map id="tbd::topo::EnvironmentInfo::zone" name="tbd::topo::EnvironmentInfo::zone">
-<area shape="rect" id="node1" title="UTM zone for projection this uses." alt="" coords="5,5,176,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd" title="UTM zone represented by proj4 string for this grid." alt="" coords="224,5,355,47"/>
-</map>

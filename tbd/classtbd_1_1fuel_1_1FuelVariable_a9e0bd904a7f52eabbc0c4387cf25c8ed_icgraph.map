@@ -1,7 +1,0 @@
-<map id="tbd::fuel::FuelVariable::summer" name="tbd::fuel::FuelVariable::summer">
-<area shape="rect" id="node1" title="Fuel to use after green&#45;up." alt="" coords="369,71,515,112"/>
-<area shape="rect" id="node2" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="199,71,321,112"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#ac7afe1ddbfe28d0456d48e19c9e0176a" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,5,151,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a5629f0d1df026a853b581ca65a57e87c" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,71,151,112"/>
-<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelVariable.html#a164ba89c86c0d88b18451e030e681bbb" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="5,136,151,177"/>
-</map>

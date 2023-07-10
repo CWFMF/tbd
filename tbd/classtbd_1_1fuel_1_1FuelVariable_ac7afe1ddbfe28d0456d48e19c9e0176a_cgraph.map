@@ -1,9 +1,0 @@
-<map id="tbd::fuel::FuelVariable::buiEffect" name="tbd::fuel::FuelVariable::buiEffect">
-<area shape="rect" id="node1" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,39,151,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#ad25cb3df97e1932f12b0f03e40e501c8" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="199,5,325,47"/>
-<area shape="rect" id="node3" href="$namespacetbd_1_1fuel.html#af192ac2bfa9621e094251c7fb545924a" title=" " alt="" coords="201,71,323,112"/>
-<area shape="rect" id="node4" href="$namespacetbd_1_1logging.html#aec5ba4a5f75f6dac781ae21c4b682f4e" title=" " alt="" coords="382,5,510,47"/>
-<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelVariable.html#ab1c7c21271619c729cbcb26b1329fd26" title="Fuel to use before green&#45;up." alt="" coords="373,71,519,112"/>
-<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1FuelVariable.html#a9e0bd904a7f52eabbc0c4387cf25c8ed" title="Fuel to use after green&#45;up." alt="" coords="373,136,519,177"/>
-<area shape="rect" id="node5" href="$namespacetbd_1_1logging.html#a47a4e817ddd883a04b6a9c33433d290c" title="Log a fatal error and quit." alt="" coords="567,13,685,39"/>
-</map>
