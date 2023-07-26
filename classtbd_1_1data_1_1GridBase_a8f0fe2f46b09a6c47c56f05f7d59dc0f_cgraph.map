@@ -1,0 +1,13 @@
+<map id="tbd::data::GridBase::findFullCoordinates" name="tbd::data::GridBase::findFullCoordinates">
+<area shape="rect" id="node1" title="Find FullCoordinates for Point." alt="" coords="5,228,144,269"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="209,104,340,145"/>
+<area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106" title="Number of rows in the GridBase." alt="" coords="209,169,340,211"/>
+<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="197,235,352,262"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="192,286,357,313"/>
+<area shape="rect" id="node11" href="$classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd" title="UTM zone represented by proj4 string for this grid." alt="" coords="209,337,340,379"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf" title="Cell size used for GridBase." alt="" coords="405,136,536,177"/>
+<area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892" title="Lower left corner X coordinate in meters." alt="" coords="405,5,536,47"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0" title="Upper right corner X coordinate in meters." alt="" coords="405,71,536,112"/>
+<area shape="rect" id="node7" href="$classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f" title="Lower left corner Y coordinate in meters." alt="" coords="405,201,536,243"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278" title="Upper right corner Y coordinate in meters." alt="" coords="405,267,536,308"/>
+</map>

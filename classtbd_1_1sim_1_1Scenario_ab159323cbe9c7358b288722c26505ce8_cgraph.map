@@ -1,0 +1,7 @@
+<map id="tbd::sim::Scenario::reset" name="tbd::sim::Scenario::reset">
+<area shape="rect" id="node1" title="Reset thresholds and set SafeVector to output results to." alt="" coords="5,100,129,141"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a6d91ab7290f8c82c8423c3903a9bd168" title="Determine rate of spread from probability of spread threshold." alt="" coords="177,5,368,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="211,71,335,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="416,100,572,141"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="211,188,335,229"/>
+</map>

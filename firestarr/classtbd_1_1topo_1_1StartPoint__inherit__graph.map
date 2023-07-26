@@ -1,4 +1,0 @@
-<map id="tbd::topo::StartPoint" name="tbd::topo::StartPoint">
-<area shape="rect" id="node1" title="A Point that has sunrise and sunset times for each day." alt="" coords="5,80,140,107"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="19,5,126,32"/>
-</map>

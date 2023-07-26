@@ -1,0 +1,5 @@
+<map id="tbd::sim::Model::year" name="tbd::sim::Model::year">
+<area shape="rect" id="node1" title="What year the weather is for." alt="" coords="244,35,383,61"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a1a008d38ffc13cd76bf59189815dd05d" title="Constructor." alt="" coords="39,57,163,98"/>
+</map>

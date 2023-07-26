@@ -1,0 +1,5 @@
+<map id="tbd::sim::Model::findStarts" name="tbd::sim::Model::findStarts">
+<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="473,5,643,32"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#aeca84cc603a0d9f0aefa705205248b57" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="244,5,425,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,196,32"/>
+</map>

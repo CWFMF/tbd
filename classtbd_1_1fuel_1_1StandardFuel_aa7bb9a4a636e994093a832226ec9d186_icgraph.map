@@ -1,0 +1,4 @@
+<map id="tbd::fuel::StandardFuel::rosBasic" name="tbd::fuel::StandardFuel::rosBasic">
+<area shape="rect" id="node1" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="240,13,391,54"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelNonMixed.html#a73569e9f7b7e84edc94cfd19453b93a0" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,5,192,61"/>
+</map>

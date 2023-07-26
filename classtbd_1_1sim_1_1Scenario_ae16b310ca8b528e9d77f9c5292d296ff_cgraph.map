@@ -1,0 +1,5 @@
+<map id="tbd::sim::Scenario::burn" name="tbd::sim::Scenario::burn">
+<area shape="rect" id="node1" title="Burn cell that Event takes place in." alt="" coords="5,27,129,69"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Event.html#a0d751a061b4613d3f2deba80cf9ec801" title="Cell Event takes place in." alt="" coords="177,5,309,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#af7b7af843131495631f8993093744a9d" title="Notify IObservers that a Cell has burned." alt="" coords="181,57,305,98"/>
+</map>

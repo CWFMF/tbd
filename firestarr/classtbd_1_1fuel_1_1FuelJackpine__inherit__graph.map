@@ -1,8 +1,0 @@
-<map id="tbd::fuel::FuelJackpine&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth &gt;" name="tbd::fuel::FuelJackpine&lt; A, B, C, Bui0, Cbh, Cfl, BulkDensity, DuffDepth &gt;">
-<area shape="rect" id="node1" title="A fuel with jackpine as base fuel type." alt="" coords="1175,13,1365,69"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelConifer.html" title=" " alt="" coords="985,5,1127,76"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelNonMixed.html" title="A StandardFuel that is not made of multiple fuels." alt="" coords="712,5,937,76"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1StandardFuel.html" title="A FuelBase made of a standard fuel type." alt="" coords="439,5,664,76"/>
-<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="180,13,391,69"/>
-<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="5,27,132,54"/>
-</map>

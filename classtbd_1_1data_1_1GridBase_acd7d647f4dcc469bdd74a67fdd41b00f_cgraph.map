@@ -1,0 +1,14 @@
+<map id="tbd::data::GridBase::findCoordinates" name="tbd::data::GridBase::findCoordinates">
+<area shape="rect" id="node1" title="Find Coordinates for Point." alt="" coords="5,228,136,269"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="184,228,323,269"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="388,104,519,145"/>
+<area shape="rect" id="node7" href="$classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106" title="Number of rows in the GridBase." alt="" coords="388,169,519,211"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="376,235,531,262"/>
+<area shape="rect" id="node11" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="371,286,536,313"/>
+<area shape="rect" id="node12" href="$classtbd_1_1data_1_1GridBase.html#ab968c34357a7266fc01208a350635dbd" title="UTM zone represented by proj4 string for this grid." alt="" coords="388,337,519,379"/>
+<area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#aca30cba1c1b6f0415a3987e9612bffaf" title="Cell size used for GridBase." alt="" coords="584,136,715,177"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a5efc5fd7a0062b7eb69868ccbf7e8892" title="Lower left corner X coordinate in meters." alt="" coords="584,5,715,47"/>
+<area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridBase.html#a75e7fe0f8904134f2274057fa08b54c0" title="Upper right corner X coordinate in meters." alt="" coords="584,71,715,112"/>
+<area shape="rect" id="node8" href="$classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f" title="Lower left corner Y coordinate in meters." alt="" coords="584,201,715,243"/>
+<area shape="rect" id="node9" href="$classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278" title="Upper right corner Y coordinate in meters." alt="" coords="584,267,715,308"/>
+</map>

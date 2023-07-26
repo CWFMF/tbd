@@ -1,0 +1,6 @@
+<map id="tbd::topo::Perimeter::Perimeter" name="tbd::topo::Perimeter::Perimeter">
+<area shape="rect" id="node1" title="Initialize perimeter from a file." alt="" coords="5,71,139,112"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Perimeter.html#a36e9cc311e057e7470c0e3c65a82567a" title="List of all burned Locations." alt="" coords="197,5,330,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="189,71,338,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1data_1_1ConstantGrid.html#a083e8423217b156085192c1330ea9ad2" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="187,136,340,177"/>
+</map>

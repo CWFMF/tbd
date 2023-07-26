@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelType::surfaceFuelConsumption" name="tbd::fuel::FuelType::surfaceFuelConsumption">
+<area shape="rect" id="node1" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="444,41,616,83"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="225,5,361,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a2c47748dfee79f55a29d2331b31fdc18" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="189,70,396,126"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+</map>

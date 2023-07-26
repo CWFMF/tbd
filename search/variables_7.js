@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['generated_5fdir_1429',['GENERATED_DIR',['.././gis/namespacemake__grids.html#a93db7a5d07ffb5700363be27ac2d30fb',1,'make_grids']]],
-  ['gis_1430',['GIS',['.././gis/namespaceearthenv.html#a338d28734da46e3c33a4995ce40a3c1a',1,'earthenv::GIS()'],['.././gis/namespacefbp__mosaic.html#a32caa2b8673943d89d0494f4d52bf592',1,'fbp_mosaic::GIS()']]],
-  ['gis_5felevation_1431',['GIS_ELEVATION',['.././gis/namespaceearthenv.html#a93bd8d17a0a9d2fec623bc7fcf0cda30',1,'earthenv']]],
-  ['gis_5ffbp_1432',['GIS_FBP',['.././gis/namespacefbp__mosaic.html#ac8921d9371d03d312b71ee79746f75a5',1,'fbp_mosaic']]]
+  ['generated_5f_1480',['generated_',['../classtbd_1_1wx_1_1Startup.html#a0d370f0dce882f9f2f3538c4e5c213ae',1,'tbd::wx::Startup']]]
 ];

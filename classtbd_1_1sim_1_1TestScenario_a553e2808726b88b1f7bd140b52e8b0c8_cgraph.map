@@ -1,0 +1,12 @@
+<map id="tbd::sim::TestScenario::TestScenario" name="tbd::sim::TestScenario::TestScenario">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,93,156,135"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="225,5,349,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Event.html#a494c54e055285f319f96839aa9a82dbc" title="Make simulation end event." alt="" coords="204,71,371,98"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#a368992d2886667b0b6e814b6fc3519cb" title="Register an IObserver that will be notified when Cells burn." alt="" coords="225,123,349,164"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="225,188,349,229"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Event.html#a9bf378fda8b20714085b5aec70499610" title="Time of Event (decimal days)" alt="" coords="445,71,583,98"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SpreadInfo.html#a6d91ab7290f8c82c8423c3903a9bd168" title="Determine rate of spread from probability of spread threshold." alt="" coords="419,123,609,164"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="452,188,576,229"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Model.html#a3005096f2f8f31bfc01e7358b1daad12" title="Return a BurnedData so it can be used in the future." alt="" coords="657,217,813,259"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="452,305,576,347"/>
+</map>

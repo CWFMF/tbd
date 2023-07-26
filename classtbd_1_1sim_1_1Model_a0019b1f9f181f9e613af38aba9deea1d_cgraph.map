@@ -1,0 +1,5 @@
+<map id="tbd::sim::Model::shouldStop" name="tbd::sim::Model::shouldStop">
+<area shape="rect" id="node1" title="Whether or not simulation has exceeded any limits that mean it should stop." alt="" coords="5,35,184,61"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="245,5,433,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a1961024348e0f9170c74acf6eb54c1c1" title="Whether or not simulation is over max simulation count." alt="" coords="232,57,445,98"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="tbd::sim::Scenario::survives" name="tbd::sim::Scenario::survives">
+<area shape="rect" id="node1" title="Whether or not the fire survives the conditions." alt="" coords="5,122,129,163"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="178,5,333,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#a87b5c11f81fe6bdf775dbb3343e373cf" title="Get Cell for given row and column." alt="" coords="193,57,317,98"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Scenario.html#a35894860a74081ad729610e65253a8a8" title="Get extinction threshold for given time." alt="" coords="185,122,325,163"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Cell.html#a487ad9732e6781fa41a3fbc163dde4c7" title="Fuel." alt="" coords="177,188,333,215"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1FwiWeather.html#a441355c34be9b80273541b1f5a9c14bb" title="Moisture content (%) based on Dmc." alt="" coords="187,239,324,281"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="381,64,516,91"/>
+<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="564,57,713,98"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="tbd::topo::Cell::fuelCode" name="tbd::topo::Cell::fuelCode">
+<area shape="rect" id="node1" title="Fuel." alt="" coords="1420,46,1576,73"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="1223,5,1372,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="1235,71,1359,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="860,71,984,112"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1032,100,1175,141"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="675,71,812,112"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="479,78,627,105"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="244,78,431,105"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,78,196,105"/>
+</map>

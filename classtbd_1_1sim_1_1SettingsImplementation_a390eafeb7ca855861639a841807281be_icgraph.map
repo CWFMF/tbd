@@ -1,0 +1,4 @@
+<map id="tbd::sim::SettingsImplementation::thresholdDailyWeight" name="tbd::sim::SettingsImplementation::thresholdDailyWeight">
+<area shape="rect" id="node1" title="Weight to give to daily part of thresholds." alt="" coords="203,5,413,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#ab948c2aeabe3b781cbeddab875e30ce4" title="Weight to give to daily part of thresholds." alt="" coords="5,5,155,47"/>
+</map>

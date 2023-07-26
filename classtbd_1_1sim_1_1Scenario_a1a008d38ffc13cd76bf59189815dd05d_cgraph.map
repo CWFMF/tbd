@@ -1,0 +1,14 @@
+<map id="tbd::sim::Scenario::Scenario" name="tbd::sim::Scenario::Scenario">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,221,129,262"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="177,5,332,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1FireWeather.html#a3f1af027f219fd85a27452fc3885cf3c" title="Maximum date present in FireWeather." alt="" coords="185,57,324,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1FireWeather.html#a4c37146aa8d008a7f3202e954dd0bac0" title="Minimum date present in FireWeather." alt="" coords="185,122,324,163"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="193,187,317,229"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="188,253,321,294"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="194,383,315,425"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Settings.html#a4292e5a60a3894e2b3c4481a033987cd" title="Whether or not to save points used for spread." alt="" coords="194,318,315,359"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Model.html#a6d43407d110301ab0619c42adcd410ee" title="What year the weather is for." alt="" coords="185,449,324,476"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="380,318,591,359"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a9d7c84a23049ab0509f0b72f6c744964" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="380,253,591,294"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="380,383,591,425"/>
+</map>

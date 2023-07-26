@@ -1,0 +1,7 @@
+<map id="tbd::wx::Wind" name="tbd::wx::Wind">
+<area shape="rect" id="node1" title="Wind with a Speed and Direction." alt="" coords="136,171,233,197"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="39,81,144,108"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="225,81,344,108"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="197,5,378,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbd::fuel::StandardFuel::c" name="tbd::fuel::StandardFuel::c">
+<area shape="rect" id="node1" title="Rate of spread parameter c [ST&#45;X&#45;3 table 6]." alt="" coords="252,89,415,116"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1StandardFuel.html#a481f6de9e13d5b0c4fade1e89e1f7ee7" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,204,91"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1StandardFuel.html#aa7bb9a4a636e994093a832226ec9d186" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,115,204,200"/>
+</map>

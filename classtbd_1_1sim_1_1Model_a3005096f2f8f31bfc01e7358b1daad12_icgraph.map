@@ -1,0 +1,9 @@
+<map id="tbd::sim::Model::releaseBurnedVector" name="tbd::sim::Model::releaseBurnedVector">
+<area shape="rect" id="node1" title="Return a BurnedData so it can be used in the future." alt="" coords="675,64,831,105"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#a456f0b5f2bd80d96ceff01eda26f2381" title="Clear the Event list and all other data." alt="" coords="491,5,615,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Scenario.html#ab159323cbe9c7358b288722c26505ce8" title="Reset thresholds and set SafeVector to output results to." alt="" coords="275,31,399,72"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="479,122,627,149"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="25,31,176,72"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="244,122,431,149"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,122,196,149"/>
+</map>

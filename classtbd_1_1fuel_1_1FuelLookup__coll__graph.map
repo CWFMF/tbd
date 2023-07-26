@@ -1,0 +1,5 @@
+<map id="tbd::fuel::FuelLookup" name="tbd::fuel::FuelLookup">
+<area shape="rect" id="node1" title="Provides ability to look up a fuel type based on name or code." alt="" coords="268,49,409,75"/>
+<area shape="rect" id="node2" title=" " alt="" coords="25,5,164,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,70,184,126"/>
+</map>

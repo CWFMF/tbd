@@ -1,0 +1,9 @@
+<map id="tbd::sim::SettingsImplementation::fuelLookup" name="tbd::sim::SettingsImplementation::fuelLookup">
+<area shape="rect" id="node1" title="Fuel lookup table." alt="" coords="648,71,859,112"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="479,71,600,112"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="263,5,412,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="263,71,412,112"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="244,137,431,163"/>
+<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="15,71,186,112"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,137,196,163"/>
+</map>

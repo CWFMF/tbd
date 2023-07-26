@@ -1,0 +1,52 @@
+<map id="tbd::sim::Model::runScenarios" name="tbd::sim::Model::runScenarios">
+<area shape="rect" id="node1" title="Run Scenarios initialized from given inputs." alt="" coords="5,899,196,925"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#ae39e63c5ac795bae2aa799d7dbe9fbfa" title="Number of Scenarios that have completed running." alt="" coords="281,182,405,223"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="519,713,673,740"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Environment.html#a7447813b70ff8309e5adc935008bbe9e" title="Load from rasters in folder that have same projection as Perimeter." alt="" coords="269,706,418,747"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Model.html#aeca84cc603a0d9f0aefa705205248b57" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="253,248,434,275"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#a413def75a681b7dea372dd0df527c5fc" title="Whatever the maximum value in the date offsets is." alt="" coords="283,862,404,903"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1Settings.html#a2744ff4fbe0b592454d768666b6b6a75" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="761,1526,925,1567"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1Model.html#ade3d4d0a6c44237ca48629ac5ced3390" title="Write weather that was loaded to an output file." alt="" coords="244,928,443,955"/>
+<area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="503,459,689,485"/>
+<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="250,1195,437,1221"/>
+<area shape="rect" id="node45" href="$classtbd_1_1sim_1_1Model.html#aafb39656bedad600f794fe4d480dc670" title="Duration that model has run for." alt="" coords="515,1653,677,1680"/>
+<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Scenario.html#a83222bc28a7527d747d81813b556eccb" title="Total number of spread events for all Scenarios." alt="" coords="281,1705,405,1746"/>
+<area shape="rect" id="node50" href="$classtbd_1_1sim_1_1Model.html#a6d43407d110301ab0619c42adcd410ee" title="What year the weather is for." alt="" coords="274,1771,413,1797"/>
+<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="521,582,671,623"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#acb6ba4c7ce81bed04a6d4cb99cf67e88" title="Load EnvironmentInfo from given rasters." alt="" coords="511,647,681,689"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="513,764,679,791"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a748d73299d1574ae6cbef2abc2b58068" title="Construct from given rasters." alt="" coords="758,797,929,838"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Settings.html#a18bcbf516e300f035e3e0eee7adf46c6" title="Whether or not to run things asynchronously where possible." alt="" coords="783,979,904,1021"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="985,1038,1196,1079"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="776,5,911,32"/>
+<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="521,241,671,282"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="511,113,681,140"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a281d49148bb25073432922b4de020c7a" title="Whatever the maximum value in the date offsets is." alt="" coords="491,815,701,857"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a30d75db84372f4d6c6c3fdfdf0ab6a94" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="985,1526,1196,1567"/>
+<area shape="rect" id="node21" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="759,107,927,133"/>
+<area shape="rect" id="node22" href="$classtbd_1_1wx_1_1FwiWeather.html#a82e87495d69bdcf7ba510a94b8e61506" title="Build&#45;up Index." alt="" coords="763,157,923,184"/>
+<area shape="rect" id="node23" href="$classtbd_1_1wx_1_1FwiWeather.html#a8e238d56c8e4640c4647e842cab74d80" title="Drought Code." alt="" coords="765,208,922,235"/>
+<area shape="rect" id="node24" href="$classtbd_1_1wx_1_1Wind.html#add6c055c632bb25275b8a97f0b16a1e1" title="Direction wind is coming from." alt="" coords="767,259,919,285"/>
+<area shape="rect" id="node25" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="759,309,927,336"/>
+<area shape="rect" id="node26" href="$classtbd_1_1wx_1_1FwiWeather.html#ad06210654348daff788713a71284acbb" title="Fine Fuel Moisture Code." alt="" coords="775,361,912,402"/>
+<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="783,731,904,773"/>
+<area shape="rect" id="node28" href="$classtbd_1_1wx_1_1FwiWeather.html#a4b50336f39d9b353f97d476d2e58988c" title="Fire Weather Index." alt="" coords="763,427,923,453"/>
+<area shape="rect" id="node29" href="$classtbd_1_1wx_1_1FwiWeather.html#aa7ce178a5eb8b76a668961fe4d364052" title="Initial Spread Index." alt="" coords="765,477,921,504"/>
+<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="783,862,904,903"/>
+<area shape="rect" id="node31" href="$classtbd_1_1wx_1_1Weather.html#a584ac248ca052812480f70584fe30b50" title="Precipitation (1hr accumulation) (mm)" alt="" coords="770,528,917,555"/>
+<area shape="rect" id="node32" href="$classtbd_1_1wx_1_1Weather.html#a3afc52e94916d211b3299c49c9fa88ad" title="Relative Humidity (%)" alt="" coords="777,579,910,605"/>
+<area shape="rect" id="node33" href="$classtbd_1_1wx_1_1Wind.html#a14cafdfe0d149b119f59262d5203981f" title="Speed of wind (km/h)" alt="" coords="774,629,913,656"/>
+<area shape="rect" id="node34" href="$classtbd_1_1wx_1_1Weather.html#ad0368ce1a45d0063153c09084f6168a8" title="Temperature (Celsius)" alt="" coords="768,680,919,707"/>
+<area shape="rect" id="node35" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="769,56,918,83"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1Model.html#aa66eb77944ce0665979c39ff0b041391" title="Add statistics for completed iterations." alt="" coords="529,1385,663,1426"/>
+<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="749,1333,937,1360"/>
+<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1Settings.html#a68de294504937b858e765a18ad923373" title="Whether or not to run deterministically (100% chance of spread &amp; survival)" alt="" coords="535,1034,657,1075"/>
+<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Settings.html#afac0ae1581388bb75121ca9ab0fedfa2" title="The maximum fire intensity for the &#39;low&#39; range of intensity (kW/m)" alt="" coords="533,1099,659,1141"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Settings.html#ac7bf36ea21478f6d5f18765739d1905a" title="The maximum fire intensity for the &#39;moderate&#39; range of intensity (kW/m)" alt="" coords="519,1217,673,1258"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Settings.html#af5ee4873c17a237810dcb1422db2b381" title="Days to output probability contours for (1 is start date, 2 is day after, etc.)" alt="" coords="777,1443,910,1485"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1Model.html#a6a25878c52de5de54718c0bb2f012d27" title="Create an Iteration by initializing Scenarios." alt="" coords="497,1501,695,1528"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="522,932,670,959"/>
+<area shape="rect" id="node47" href="$classtbd_1_1sim_1_1Model.html#a0019b1f9f181f9e613af38aba9deea1d" title="Whether or not simulation has exceeded any limits that mean it should stop." alt="" coords="507,1333,685,1360"/>
+<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Model.html#a23a8b6bf668601c779b20ff9081fb976" title="Maximum amount of time simulation can run for before being stopped." alt="" coords="512,1165,680,1192"/>
+<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Model.html#a31ef49308d5a269d64a3b42a5005e79b" title="Time to use for simulation start." alt="" coords="759,1653,928,1680"/>
+</map>

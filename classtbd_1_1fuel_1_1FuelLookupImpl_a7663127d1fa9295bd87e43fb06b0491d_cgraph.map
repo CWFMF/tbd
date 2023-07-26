@@ -1,0 +1,5 @@
+<map id="tbd::fuel::FuelLookupImpl::fuelToCode" name="tbd::fuel::FuelLookupImpl::fuelToCode">
+<area shape="rect" id="node1" title="Look up the original grid code for a FuelType." alt="" coords="5,39,172,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html#a9158601435e5f99612885308d68648da" title="Code for this fuel type." alt="" coords="220,5,347,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a0e9014ba4690124add74fd7cdb6df722" title="Name of the fuel." alt="" coords="220,71,347,112"/>
+</map>

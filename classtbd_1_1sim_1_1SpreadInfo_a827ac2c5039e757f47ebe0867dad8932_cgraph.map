@@ -1,0 +1,24 @@
+<map id="tbd::sim::SpreadInfo::initial" name="tbd::sim::SpreadInfo::initial">
+<area shape="rect" id="node1" title=" " alt="" coords="5,466,141,507"/>
+<area shape="rect" id="node2" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="940,40,1108,66"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="212,116,339,158"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5" title="Calculate rate of spread (m/min)" alt="" coords="212,182,339,223"/>
+<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html#a9c3661beba173ec640cb3c95b628bcd0" title="Critical rate of spread (m/min)" alt="" coords="212,247,339,288"/>
+<area shape="rect" id="node6" href="$classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="200,312,351,354"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SpreadInfo.html#a2ddf49bda8a02b0e9d5e5aa1b4a9abc4" title="FFMC effect used for spread." alt="" coords="207,378,343,419"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="416,436,552,478"/>
+<area shape="rect" id="node10" href="$classtbd_1_1fuel_1_1FuelType.html#a345934b9de822a9a70c7893fffedd6a4" title="Final rate of spread (m/min)" alt="" coords="212,560,339,602"/>
+<area shape="rect" id="node11" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="201,65,349,92"/>
+<area shape="rect" id="node15" href="$classtbd_1_1fuel_1_1FuelType.html#a41bff384ae4cbad2364a786fc53ffb98" title="Whether or not this is a crown fire." alt="" coords="212,626,339,667"/>
+<area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="197,692,353,718"/>
+<area shape="rect" id="node17" href="$classtbd_1_1wx_1_1Wind.html#a14cafdfe0d149b119f59262d5203981f" title="Speed of wind (km/h)" alt="" coords="206,742,345,769"/>
+<area shape="rect" id="node18" href="$classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="189,794,361,835"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281" title="Wind used for spread." alt="" coords="207,495,343,536"/>
+<area shape="rect" id="node21" href="$classtbd_1_1wx_1_1Wind.html#aef1d4f27ba7c4a49daedc7257ca96031" title="X component of wind vector (km/h)" alt="" coords="207,860,343,886"/>
+<area shape="rect" id="node22" href="$classtbd_1_1wx_1_1Wind.html#a092fe112a86a460c7a9d2a778fd2c391" title="Y component of wind vector (km/h)" alt="" coords="207,910,343,937"/>
+<area shape="rect" id="node8" href="$classtbd_1_1wx_1_1FwiWeather.html#a629da6a9e31fa74c85c275afc626351c" title="Ffmc effect used for spread." alt="" coords="415,371,553,412"/>
+<area shape="rect" id="node12" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="425,62,543,103"/>
+<area shape="rect" id="node13" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="607,62,725,103"/>
+<area shape="rect" id="node14" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="773,62,892,103"/>
+<area shape="rect" id="node20" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="409,502,559,529"/>
+</map>

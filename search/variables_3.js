@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['canada_1386',['canada',['.././gis/namespacecollect.html#a2740adee09451dbf5519d1a77a4510f8',1,'collect']]],
-  ['cancelled_5f_1387',['cancelled_',['.././firestarr/classtbd_1_1sim_1_1Scenario.html#a6f29c934c013d007360dc8452f368c25',1,'tbd::sim::Scenario']]],
-  ['cell_5fsize_1388',['CELL_SIZE',['.././gis/namespacemake__grids.html#a177c452e486c3793d25b9f9ff3c6536a',1,'make_grids']]],
-  ['cellmask_1389',['CellMask',['.././firestarr/classtbd_1_1topo_1_1Cell.html#aedbeef5f13b33557c6c105d721ac376b',1,'tbd::topo::Cell']]],
-  ['columnmask_1390',['ColumnMask',['.././firestarr/classtbd_1_1topo_1_1Location.html#a192528643e92b471cd1fe0af2af7af97',1,'tbd::topo::Location']]],
-  ['compress_1391',['compress',['.././gis/namespaceearthenv.html#ab2b3a9109f0d57d3d3ecd5774d4332da',1,'earthenv']]],
-  ['config_1392',['CONFIG',['.././gis/namespaceconfig.html#a0de0c35da4713cd90ef2afc30be57902',1,'config']]],
-  ['config_5ffile_1393',['CONFIG_FILE',['.././gis/namespaceconfig.html#a65de0061f32f27f0d385fabb9db36319',1,'config']]],
-  ['coordtrans_1394',['coordTrans',['.././gis/namespacenhn.html#a8c749dd998d4b0f759a0d36847b13a15',1,'nhn']]],
-  ['creation_5foptions_1395',['CREATION_OPTIONS',['.././gis/namespacemake__grids.html#a6db591cdbafdc7bebd7d6987258f8746',1,'make_grids']]],
-  ['creation_5foptions_5fdem_1396',['CREATION_OPTIONS_DEM',['.././gis/namespacemake__grids.html#acee129eefa93309dc7483e9192b639f1',1,'make_grids']]],
-  ['creation_5foptions_5ffuel_1397',['CREATION_OPTIONS_FUEL',['.././gis/namespacemake__grids.html#ab296be68d63f36dfafcabbf0bbbd7daa',1,'make_grids']]],
-  ['current_5ftime_5f_1398',['current_time_',['.././firestarr/classtbd_1_1sim_1_1Scenario.html#a39fd9d40e683c8e26d3b3f03249f221e',1,'tbd::sim::Scenario']]],
-  ['current_5ftime_5findex_5f_1399',['current_time_index_',['.././firestarr/classtbd_1_1sim_1_1Scenario.html#a36e803adffd0ffb456ce704abf864813',1,'tbd::sim::Scenario']]]
+  ['can_5fcrown_5f_1430',['can_crown_',['../classtbd_1_1fuel_1_1FuelType.html#a2446ee199e62486ad2d35d443277e4c8',1,'tbd::fuel::FuelType']]],
+  ['cancelled_5f_1431',['cancelled_',['../classtbd_1_1sim_1_1Iteration.html#a8131408af962847f64b6d9d1a71067b1',1,'tbd::sim::Iteration::cancelled_()'],['../classtbd_1_1sim_1_1Scenario.html#a6f29c934c013d007360dc8452f368c25',1,'tbd::sim::Scenario::cancelled_()']]],
+  ['cell_5f_1432',['cell_',['../classtbd_1_1sim_1_1Event.html#a9d443280c03144121eae89c84f1e5125',1,'tbd::sim::Event::cell_()'],['../classtbd_1_1sim_1_1SpreadInfo.html#a445025b895ac3aef0bbd6abc435009fa',1,'tbd::sim::SpreadInfo::cell_()']]],
+  ['cell_5fsize_5f_1433',['cell_size_',['../classtbd_1_1data_1_1GridBase.html#a171fd98f7a15f9c6dc12ab0b99c5f329',1,'tbd::data::GridBase']]],
+  ['cellmask_1434',['CellMask',['../classtbd_1_1topo_1_1Cell.html#aedbeef5f13b33557c6c105d721ac376b',1,'tbd::topo::Cell']]],
+  ['cells_5f_1435',['cells_',['../classtbd_1_1topo_1_1Environment.html#afb229238a95c7286358bae6ef738ae06',1,'tbd::topo::Environment']]],
+  ['code_5f_1436',['code_',['../classtbd_1_1fuel_1_1FuelType.html#a14dd4992bdcfeb915832267a32175070',1,'tbd::fuel::FuelType']]],
+  ['columnmask_1437',['ColumnMask',['../classtbd_1_1topo_1_1Location.html#a192528643e92b471cd1fe0af2af7af97',1,'tbd::topo::Location']]],
+  ['columns_5f_1438',['columns_',['../classtbd_1_1data_1_1Grid.html#ad18875fcb5e8806cbfc3b6b27a0948ba',1,'tbd::data::Grid']]],
+  ['confidence_5flevel_5f_1439',['confidence_level_',['../classtbd_1_1sim_1_1SettingsImplementation.html#ac72dcfd322d6248dd4b40dc865b68dd8',1,'tbd::sim::SettingsImplementation']]],
+  ['constantpart_1440',['ConstantPart',['../classtbd_1_1fuel_1_1DuffType.html#a76ac38534333b5c553add1aa866d6aee',1,'tbd::fuel::DuffType']]],
+  ['count_5f_1441',['count_',['../classtbd_1_1sim_1_1Semaphore.html#a743357f618e4f0af0cb79e0f40213b71',1,'tbd::sim::Semaphore::count_()'],['../classtbd_1_1util_1_1UsageCount.html#a6b3496c40b70d950cdfe0448ce5993da',1,'tbd::util::UsageCount::count_()']]],
+  ['current_5ftime_5f_1442',['current_time_',['../classtbd_1_1sim_1_1Scenario.html#a39fd9d40e683c8e26d3b3f03249f221e',1,'tbd::sim::Scenario']]],
+  ['current_5ftime_5findex_5f_1443',['current_time_index_',['../classtbd_1_1sim_1_1Scenario.html#a36e803adffd0ffb456ce704abf864813',1,'tbd::sim::Scenario']]],
+  ['cv_5f_1444',['cv_',['../classtbd_1_1sim_1_1Semaphore.html#a22d7a1aa30bf67f2cea41f2f4d0b8123',1,'tbd::sim::Semaphore']]]
 ];

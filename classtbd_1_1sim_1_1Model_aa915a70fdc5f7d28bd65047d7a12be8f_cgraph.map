@@ -1,0 +1,10 @@
+<map id="tbd::sim::Model::findStarts" name="tbd::sim::Model::findStarts">
+<area shape="rect" id="node1" title="Find Cell(s) that can burn closest to Location." alt="" coords="5,85,175,112"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="233,5,367,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="425,18,575,59"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="237,107,363,149"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="223,176,377,203"/>
+<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="437,169,563,210"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1Location.html#ac6d9e698ba125501dc5621ed2babaf9f" title="Column." alt="" coords="437,103,563,145"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Location.html#ac4411045a82382aa26397f4c7d23676a" title="Row from hash." alt="" coords="437,234,563,275"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="tbd::data::GridBase::cellSize" name="tbd::data::GridBase::cellSize">
+<area shape="rect" id="node1" title="Cell size used for GridBase." alt="" coords="932,319,1063,360"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="701,5,844,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="707,71,838,112"/>
+<area shape="rect" id="node10" href="$classtbd_1_1data_1_1ConstantGrid.html#a083e8423217b156085192c1330ea9ad2" title="Read a section of a TIFF into a ConstantGrid." alt="" coords="224,140,395,181"/>
+<area shape="rect" id="node11" href="$classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106" title="Number of rows in the GridBase." alt="" coords="707,188,838,229"/>
+<area shape="rect" id="node13" href="$classtbd_1_1data_1_1GridMap.html#a104578e9d458de8c8dad01693e23bb7d" title="Calculate area for cells that have a value (ha)" alt="" coords="687,253,859,295"/>
+<area shape="rect" id="node14" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="698,319,847,360"/>
+<area shape="rect" id="node15" href="$classtbd_1_1data_1_1GridMap.html#a038b4e28baa6d133601d012e6b5d7a16" title="Make a list of all Locations that are on the edge of cells with a value." alt="" coords="677,384,868,425"/>
+<area shape="rect" id="node16" href="$classtbd_1_1data_1_1GridMap.html#aab8585e94a28cb6426918bc419d18ba9" title="Save GridMap contents to .asc file." alt="" coords="661,449,884,491"/>
+<area shape="rect" id="node17" href="$classtbd_1_1data_1_1ConstantGrid.html#a21c0aa9f922cace5ad706d67b0d1176d" title="Save contents to .asc file." alt="" coords="663,515,883,556"/>
+<area shape="rect" id="node18" href="$classtbd_1_1data_1_1GridMap.html#a784e199da7815850e6c22ea3da8df060" title="Save GridMap contents to .tif file." alt="" coords="667,580,879,621"/>
+<area shape="rect" id="node19" href="$classtbd_1_1data_1_1ConstantGrid.html#acbc669266f232a2a3ca462d16c48723c" title="Save contents to .tif file." alt="" coords="668,645,877,687"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a70c96f4b96e6ee5849b116700c03062a" title="Number of columns in grid." alt="" coords="443,20,613,61"/>
+<area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="459,239,597,280"/>
+<area shape="rect" id="node6" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="244,227,375,268"/>
+<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#aa9ce084f3a335c8f0df361cf8ebfa47a" title="Determine FullCoordinates in the grid for the Point." alt="" coords="224,292,395,333"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="16,195,165,236"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a12255c1ea93603ca64c9fd8d7ec688a2" title="Determine Coordinates in the grid for the Point." alt="" coords="5,260,176,301"/>
+<area shape="rect" id="node12" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2c176d4305ad85eda1cb236ff8254668" title="Number of rows in grid." alt="" coords="443,304,613,345"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="tbd::fuel::FuelBase&lt; BulkDensity, InorganicPercent, DuffDepth &gt;" name="tbd::fuel::FuelBase&lt; BulkDensity, InorganicPercent, DuffDepth &gt;">
+<area shape="rect" id="node1" title="Base class for all FuelTypes." alt="" coords="1039,269,1249,325"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="800,259,927,285"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1Duff.html" title="Base class for DuffType." alt="" coords="815,309,911,336"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="501,5,633,61"/>
+<area shape="rect" id="node5" href="$classtbd_1_1util_1_1LookupTable.html" title=" " alt="" coords="153,302,297,343"/>
+<area shape="rect" id="node7" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="496,85,639,141"/>
+<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="498,165,637,221"/>
+<area shape="rect" id="node9" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="484,245,651,301"/>
+<area shape="rect" id="node10" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="501,325,633,381"/>
+<area shape="rect" id="node11" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="502,405,633,461"/>
+<area shape="rect" id="node12" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="496,485,639,541"/>
+<area shape="rect" id="node13" href="$classtbd_1_1fuel_1_1DuffType.html" title=" " alt="" coords="494,565,641,621"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,309,56,336"/>
+</map>

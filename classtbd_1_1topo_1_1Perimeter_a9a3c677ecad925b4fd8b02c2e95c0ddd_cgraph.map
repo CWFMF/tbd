@@ -1,0 +1,11 @@
+<map id="tbd::topo::Perimeter::Perimeter" name="tbd::topo::Perimeter::Perimeter">
+<area shape="rect" id="node1" title="Create a Perimeter of the given size at the given Location." alt="" coords="5,136,139,177"/>
+<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Perimeter.html#a36e9cc311e057e7470c0e3c65a82567a" title="List of all burned Locations." alt="" coords="197,5,331,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="189,71,339,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Location.html#a7edf3e2cfb07cee8c5bff5c3e19a9cac" title="Column." alt="" coords="201,136,327,177"/>
+<area shape="rect" id="node7" href="$classtbd_1_1topo_1_1Environment.html#a12d38b1c3e4e5da2f58119a33f43ebdc" title="Create a GridMap&lt;Other&gt; covering this Environment." alt="" coords="189,201,339,243"/>
+<area shape="rect" id="node8" href="$classtbd_1_1topo_1_1Location.html#a136da5174381ea2dbf8159ba6907c2ea" title="Row." alt="" coords="187,267,341,294"/>
+<area shape="rect" id="node5" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="389,201,516,243"/>
+<area shape="rect" id="node6" href="$classtbd_1_1topo_1_1Location.html#ac6d9e698ba125501dc5621ed2babaf9f" title="Column." alt="" coords="389,136,516,177"/>
+<area shape="rect" id="node9" href="$classtbd_1_1topo_1_1Location.html#ac4411045a82382aa26397f4c7d23676a" title="Row from hash." alt="" coords="389,267,516,308"/>
+</map>

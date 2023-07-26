@@ -1,0 +1,5 @@
+<map id="tbd::wx::FwiWeather::fwi" name="tbd::wx::FwiWeather::fwi">
+<area shape="rect" id="node1" title="Fire Weather Index." alt="" coords="479,5,639,32"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="244,5,431,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,5,196,32"/>
+</map>

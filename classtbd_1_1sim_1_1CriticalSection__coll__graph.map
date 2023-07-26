@@ -1,0 +1,5 @@
+<map id="tbd::sim::CriticalSection" name="tbd::sim::CriticalSection">
+<area shape="rect" id="node1" title="Indicates a section of code that is limited to a certain number of threads running at once." alt="" coords="5,184,163,211"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Semaphore.html" title="Provides the ability to limit number of threads running at once." alt="" coords="15,95,153,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="55,5,113,32"/>
+</map>

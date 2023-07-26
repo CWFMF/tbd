@@ -1,0 +1,11 @@
+<map id="tbd::sim::Model::add_statistics" name="tbd::sim::Model::add_statistics">
+<area shape="rect" id="node1" title="Add statistics for completed iterations." alt="" coords="5,123,140,164"/>
+<area shape="rect" id="node2" href="$classtbd_1_1util_1_1SafeVector.html#a6501630d26bf2a92915e2f51a2161095" title="Get a vector with the stored values." alt="" coords="227,5,362,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1" title="Whether or not simulation has been running longer than maximum duration." alt="" coords="201,71,389,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a1961024348e0f9170c74acf6eb54c1c1" title="Whether or not simulation is over max simulation count." alt="" coords="188,123,401,164"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Settings.html#a121008174a94a1f03060125fc7ea78fb" title="Maximum number of simulations that can run before it is ended and whatever results it has are used." alt="" coords="201,188,388,229"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Settings.html#a2744ff4fbe0b592454d768666b6b6a75" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="213,253,377,295"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="449,220,660,261"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a1bfcd443fff006546ee81cc4087b021a" title="Maximum number of simulations that can run before it is ended and whatever results it has are used." alt="" coords="449,155,660,196"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a30d75db84372f4d6c6c3fdfdf0ab6a94" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="449,285,660,327"/>
+</map>

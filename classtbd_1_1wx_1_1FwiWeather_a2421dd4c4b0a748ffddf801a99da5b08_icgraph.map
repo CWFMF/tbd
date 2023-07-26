@@ -1,0 +1,4 @@
+<map id="tbd::wx::FwiWeather::mcFfmcPct" name="tbd::wx::FwiWeather::mcFfmcPct">
+<area shape="rect" id="node1" title="Moisture content (%) based on Ffmc." alt="" coords="191,5,328,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FwiWeather.html#aadfd84e98f8edc9f015a24f03647f2ac" title="Moisture content (ratio) based on Ffmc." alt="" coords="5,5,143,47"/>
+</map>

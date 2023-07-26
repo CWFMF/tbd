@@ -1,0 +1,7 @@
+<map id="tbd::sim::SourceObserver" name="tbd::sim::SourceObserver">
+<area shape="rect" id="node1" title="Tracks source Cell that fire arrived in Cell from." alt="" coords="158,200,325,227"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1MapObserver.html" title=" " alt="" coords="166,109,317,151"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="160,5,323,47"/>
+<area shape="rect" id="node5" title=" " alt="" coords="347,13,402,39"/>
+</map>

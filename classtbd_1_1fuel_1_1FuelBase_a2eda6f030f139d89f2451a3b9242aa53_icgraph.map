@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelBase::duffDepth" name="tbd::fuel::FuelBase::duffDepth">
+<area shape="rect" id="node1" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="539,35,667,76"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelBase.html#ac50f0426120b7ef8e41557b0c731f8c7" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="363,35,491,76"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelBase.html#a8bd1fd5da2d93d949467497abf36b303" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="187,5,315,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,139,76"/>
+</map>

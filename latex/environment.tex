@@ -1,9 +1,0 @@
-The fuel, slope, aspect, and elevation used in simulations is consistent through all simulations. These attributes are loaded from rasters at the start of the process. These rasters must be in a U\+TM projection, and all rasters for a zone must be named consistently across the different attributes. The G\+IS scripts provided in the T\+BD project can generate these rasters for you.
-
-Elevation is only read at the ignition point and it is assumed that elevation is the same wherever it is used in a calculation. Despite this, slope and aspect are used for calculations in each cell, and it is only where elevation is specifically used in a formula that this value is referenced.
-
-Fuel requires a .lut lookup table file, in the same format that Prometheus expects.
-
-Grass curing and leaf-\/on/off are determined based on time of year, as described elsewhere.
-
-Weather and ignition point(s) are the only things that vary between simulations at this point. 

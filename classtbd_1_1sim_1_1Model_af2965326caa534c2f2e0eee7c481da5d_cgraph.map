@@ -1,0 +1,6 @@
+<map id="tbd::sim::Model::outputWeather" name="tbd::sim::Model::outputWeather">
+<area shape="rect" id="node1" title="Write weather that was loaded to an output file." alt="" coords="5,46,204,73"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="252,39,373,80"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="421,5,632,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="421,71,632,112"/>
+</map>

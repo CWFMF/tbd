@@ -1,0 +1,4 @@
+<map id="gis.find_raster_meridians" name="gis.find_raster_meridians">
+<area shape="rect" id="node1" title="Find the meridians of input rasters for the given year." alt="" coords="188,5,353,32"/>
+<area shape="rect" id="node2" href="$namespacegis.html#a89c0bfbca7b3ff5e56f82e4ea5e9db34" title="Find the raster with the closest meridian." alt="" coords="5,5,140,32"/>
+</map>

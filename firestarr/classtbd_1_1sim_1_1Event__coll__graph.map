@@ -1,5 +1,0 @@
-<map id="tbd::sim::Event" name="tbd::sim::Event">
-<area shape="rect" id="node1" title="A specific Event scheduled in a specific Scenario." alt="" coords="15,171,122,197"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Cell.html" title="A Location with a Slope, Aspect, and Fuel." alt="" coords="19,81,118,108"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Location.html" title="A location with a row and column." alt="" coords="5,5,132,32"/>
-</map>

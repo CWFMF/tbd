@@ -1,0 +1,5 @@
+<map id="tbd::wx::Direction::asRadians" name="tbd::wx::Direction::asRadians">
+<area shape="rect" id="node1" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="5,5,124,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="172,5,291,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="339,13,507,39"/>
+</map>

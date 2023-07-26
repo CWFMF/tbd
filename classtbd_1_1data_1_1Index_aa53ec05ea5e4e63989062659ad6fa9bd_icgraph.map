@@ -1,0 +1,17 @@
+<map id="tbd::data::Index::asDouble" name="tbd::data::Index::asDouble">
+<area shape="rect" id="node1" title="Returns value as a double." alt="" coords="1341,151,1509,178"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="1135,5,1253,47"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="269,39,405,80"/>
+<area shape="rect" id="node8" href="$classtbd_1_1fuel_1_1StandardFuel.html#a96a1c9b075371936af4251180965b219" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="1095,122,1293,207"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="860,231,1047,258"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="1123,283,1265,324"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="894,5,1013,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="684,5,803,47"/>
+<area shape="rect" id="node5" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="479,17,627,43"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="33,39,169,80"/>
+<area shape="rect" id="node10" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,257,196,283"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="891,283,1015,324"/>
+<area shape="rect" id="node13" href="$classtbd_1_1sim_1_1Scenario.html#aed0d11cfd464577312e6e675360a648c" title="Evaluate next Event in the queue." alt="" coords="675,283,812,324"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="479,286,627,313"/>
+<area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="244,282,431,309"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="tbd::sim::Scenario::scheduleFireSpread" name="tbd::sim::Scenario::scheduleFireSpread">
+<area shape="rect" id="node1" title="Schedule a fire spread Event." alt="" coords="5,665,148,707"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Scenario.html#af17a12e05150dd95ea53d33e33982789" title="Whether or not Location with given hash has burned already." alt="" coords="222,5,346,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="200,71,368,98"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Scenario.html#ae16b310ca8b528e9d77f9c5292d296ff" title="Burn cell that Event takes place in." alt="" coords="222,123,346,164"/>
+<area shape="rect" id="node7" href="$classtbd_1_1sim_1_1Scenario.html#a2181d9e7d0197255c426ab15af8910f5" title="Whether or not a Cell can burn." alt="" coords="222,188,346,229"/>
+<area shape="rect" id="node8" href="$classtbd_1_1sim_1_1Scenario.html#a87b5c11f81fe6bdf775dbb3343e373cf" title="Get Cell for given row and column." alt="" coords="463,247,587,288"/>
+<area shape="rect" id="node11" href="$classtbd_1_1sim_1_1Scenario.html#a2b8e54921c7b53dd8f84a4d2c15e7a21" title="Cell width and height (m)" alt="" coords="222,436,346,477"/>
+<area shape="rect" id="node14" href="$classtbd_1_1sim_1_1Scenario.html#afeeb5542f9e8088222914465ffe5b413" title="Number of Scenarios that have been initialized." alt="" coords="222,501,346,543"/>
+<area shape="rect" id="node15" href="$classtbd_1_1wx_1_1FwiWeather.html#ad06210654348daff788713a71284acbb" title="Fine Fuel Moisture Code." alt="" coords="215,567,353,608"/>
+<area shape="rect" id="node16" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="221,632,347,673"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1SpreadInfo.html#ab25f0d5e5a8f93ee61d229468c3822e6" title="Head fire rate of spread (m/min)" alt="" coords="216,697,352,739"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1SpreadInfo.html#abce1e8525bf40a1f280ed20d82a52adc" title="Whether or not there is no spread." alt="" coords="216,763,352,804"/>
+<area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Scenario.html#a3eec0b0969607a6390e5315c074b2fa4" title="Whether or not the given Location is surrounded by cells that are burnt." alt="" coords="222,828,346,869"/>
+<area shape="rect" id="node21" href="$classtbd_1_1topo_1_1Cell.html#abef87727242828b97757efcac5d178d8" title="A key defining Slope, Aspect, and Fuel, used for determining Cells that spread the same." alt="" coords="221,894,347,921"/>
+<area shape="rect" id="node22" href="$classtbd_1_1sim_1_1Event.html#a99198cd864b48d15c88a3ab078faf8a8" title="Make fire spread event." alt="" coords="201,945,367,987"/>
+<area shape="rect" id="node24" href="$classtbd_1_1sim_1_1Settings.html#a9c479a20f7fdd6e55553d4f9b60c607d" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="196,1164,372,1205"/>
+<area shape="rect" id="node27" href="$classtbd_1_1sim_1_1SpreadInfo.html#a432122f374207d09fd557d61efb4508e" title="Maximum intensity in any direction for spread (kW/m)" alt="" coords="216,1229,352,1271"/>
+<area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Scenario.html#a6fe19d5a35f42caee2055f2acbacf813" title="Minimum Fine Fuel Moisture Code for spread to be possible." alt="" coords="199,1011,369,1052"/>
+<area shape="rect" id="node38" href="$classtbd_1_1sim_1_1Settings.html#a537a72ac309924204ef0325e1eb56730" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="223,1076,345,1117"/>
+<area shape="rect" id="node40" href="$classtbd_1_1sim_1_1Scenario.html#a47c6b1cefc4197300c31754fd2b2a99e" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="212,1317,356,1343"/>
+<area shape="rect" id="node43" href="$classtbd_1_1sim_1_1SpreadInfo.html#a532c8079b41c08d2304cc287613b3e5d" title="Offsets from origin point that represent spread under these conditions." alt="" coords="216,1368,352,1409"/>
+<area shape="rect" id="node44" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="222,371,346,412"/>
+<area shape="rect" id="node49" href="$classtbd_1_1sim_1_1Scenario.html#ac70293a36ff91a623694e6a5665e3525" title="FwiWeather for given time." alt="" coords="222,305,346,347"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1Event.html#a0d751a061b4613d3f2deba80cf9ec801" title="Cell Event takes place in." alt="" coords="459,101,591,127"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1Scenario.html#af7b7af843131495631f8993093744a9d" title="Notify IObservers that a Cell has burned." alt="" coords="463,152,587,193"/>
+<area shape="rect" id="node9" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="717,254,851,281"/>
+<area shape="rect" id="node10" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="937,247,1087,288"/>
+<area shape="rect" id="node12" href="$classtbd_1_1sim_1_1Model.html#a4542452f4263d40e86fd69ce960c3207" title="Cell width and height (m)" alt="" coords="446,546,605,573"/>
+<area shape="rect" id="node13" href="$classtbd_1_1topo_1_1Environment.html#a7a801b0b28f12eeba669ab334c1d8412" title="Cell width and height (m)" alt="" coords="709,539,859,580"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1SpreadInfo.html#a987c655dccedd3b1a8535ee38e1b7ae3" title="Whether or not there is no spread for given conditions." alt="" coords="457,763,593,804"/>
+<area shape="rect" id="node23" href="$classtbd_1_1sim_1_1Event.html#a9bf378fda8b20714085b5aec70499610" title="Time of Event (decimal days)" alt="" coords="457,829,594,855"/>
+<area shape="rect" id="node25" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="679,1105,889,1147"/>
+<area shape="rect" id="node26" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a72c5a0f6eb42cccd4f3be23204e7f89d" title="Maximum distance that the fire is allowed to spread in one step (# of cells)" alt="" coords="420,1244,631,1285"/>
+<area shape="rect" id="node29" href="$classtbd_1_1sim_1_1Scenario.html#afe144fa89a03dd99888417120a835b31" title="Whether or not time is after sunrise and before sunset." alt="" coords="463,880,587,921"/>
+<area shape="rect" id="node34" href="$classtbd_1_1sim_1_1Settings.html#a60dbd3f6f1c70f6f6c97221483061e39" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="465,1011,586,1052"/>
+<area shape="rect" id="node36" href="$classtbd_1_1sim_1_1Settings.html#acefe321276ae3bc46cb14e91f95933b5" title="Minimum Fine Fuel Moisture Code required for spread during the night." alt="" coords="448,945,603,987"/>
+<area shape="rect" id="node30" href="$classtbd_1_1sim_1_1Scenario.html#a3dc75165950c51dc513ec7025f982809" title="Sunset time for given day." alt="" coords="722,815,846,856"/>
+<area shape="rect" id="node32" href="$classtbd_1_1sim_1_1Scenario.html#a2283b130b5b0645a6ec0f89d15d1d7e1" title="Sunrise time for given day." alt="" coords="722,880,846,921"/>
+<area shape="rect" id="node31" href="$classtbd_1_1topo_1_1StartPoint.html#aaf24528ff9688c822384e097d4b7937a" title="Sunset time." alt="" coords="945,815,1079,856"/>
+<area shape="rect" id="node33" href="$classtbd_1_1topo_1_1StartPoint.html#ac6d2a5ef70386f0a785635f3bbc43539" title="Sunrise time." alt="" coords="945,880,1079,921"/>
+<area shape="rect" id="node35" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a436acdf2a59a40f311817a89ed3c9226" title="Minimum Fine Fuel Moisture Code required for spread during the day." alt="" coords="679,1011,889,1052"/>
+<area shape="rect" id="node37" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac16b3109b3646f3f140bfdbfece779ec" title="Minimum Fine Fuel Moisture Code required for spread during the night." alt="" coords="679,945,889,987"/>
+<area shape="rect" id="node39" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a683cc2e51e525b0df597f33fe99f8d59" title="Minimum rate of spread before fire is considered to be spreading (m/min)" alt="" coords="420,1076,631,1117"/>
+<area shape="rect" id="node41" href="$classtbd_1_1sim_1_1Scenario.html#ab80604c5a5f96832a1f6c5fe74480c8b" title="Model this Scenario is running in." alt="" coords="463,1309,587,1351"/>
+<area shape="rect" id="node42" href="$classtbd_1_1sim_1_1Model.html#af9cac50f871805ac056c2f5d4bcb5126" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="461,1375,589,1402"/>
+<area shape="rect" id="node45" href="$classtbd_1_1wx_1_1FireWeather.html#a08501e0c01cf5aa60274ed86d506b28d" title="Get FwiWeather for given time." alt="" coords="448,313,603,339"/>
+<area shape="rect" id="node46" href="$classtbd_1_1sim_1_1Scenario.html#a35894860a74081ad729610e65253a8a8" title="Get extinction threshold for given time." alt="" coords="455,429,595,471"/>
+<area shape="rect" id="node47" href="$classtbd_1_1topo_1_1Cell.html#a487ad9732e6781fa41a3fbc163dde4c7" title="Fuel." alt="" coords="447,495,603,522"/>
+<area shape="rect" id="node48" href="$classtbd_1_1wx_1_1FwiWeather.html#a441355c34be9b80273541b1f5a9c14bb" title="Moisture content (%) based on Dmc." alt="" coords="457,364,594,405"/>
+</map>

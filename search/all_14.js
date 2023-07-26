@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['wait_686',['wait',['.././firestarr/classtbd_1_1sim_1_1Semaphore.html#abb3ede7f055c8fc98800a1b4fc22ee09',1,'tbd::sim::Semaphore']]],
-  ['weather_687',['Weather',['.././firestarr/classtbd_1_1wx_1_1Weather.html',1,'tbd::wx::Weather'],['.././firestarr/classtbd_1_1sim_1_1Scenario.html#ac70293a36ff91a623694e6a5665e3525',1,'tbd::sim::Scenario::weather()'],['.././firestarr/classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058',1,'tbd::sim::SpreadInfo::weather()'],['.././firestarr/classtbd_1_1wx_1_1Weather.html#af32831c88dc0983151de22e0a0d68c6e',1,'tbd::wx::Weather::Weather() noexcept=default'],['.././firestarr/classtbd_1_1wx_1_1Weather.html#a0e706ea7c5a4675c1ee2e52d84f33298',1,'tbd::wx::Weather::Weather(const Temperature &amp;temp, const RelativeHumidity &amp;rh, const Wind &amp;wind, const Precipitation &amp;prec) noexcept'],['.././firestarr/classtbd_1_1wx_1_1Weather.html#a6a012bb08f3eb3f3ceca579e98428e19',1,'tbd::wx::Weather::Weather(Weather &amp;&amp;rhs) noexcept=default'],['.././firestarr/classtbd_1_1wx_1_1Weather.html#a39c5cb7d1f598b04ff36e52e926ea5a1',1,'tbd::wx::Weather::Weather(const Weather &amp;rhs) noexcept=default']]],
-  ['weather_5f_688',['weather_',['.././firestarr/classtbd_1_1sim_1_1Scenario.html#ac17b9dbee6598b74b5ea94b14950b618',1,'tbd::sim::Scenario']]],
-  ['weather_5fdaily_5f_689',['weather_daily_',['.././firestarr/classtbd_1_1sim_1_1Scenario.html#a42e2a659355c9c6bedffb3ad7dae3963',1,'tbd::sim::Scenario']]],
-  ['weatherfile_690',['weatherFile',['.././firestarr/classtbd_1_1sim_1_1Settings.html#a7272c0e0f155dcd04ecb7697c1a09937',1,'tbd::sim::Settings']]],
-  ['weighteddsr_691',['weightedDsr',['.././firestarr/classtbd_1_1wx_1_1FireWeather.html#af68a664569ce29bad119c99d39983e9d',1,'tbd::wx::FireWeather::weightedDsr()'],['.././firestarr/classtbd_1_1sim_1_1Scenario.html#abdc479406b8c2fe764aa3fba6aa54f81',1,'tbd::sim::Scenario::weightedDsr()']]],
-  ['whitespruce_692',['WhiteSpruce',['.././firestarr/classtbd_1_1fuel_1_1Duff.html#a71ab7a7d2c3232282dc434f9be4a8502',1,'tbd::fuel::Duff']]],
-  ['wind_693',['Wind',['.././firestarr/classtbd_1_1wx_1_1Wind.html',1,'tbd::wx::Wind'],['.././firestarr/classtbd_1_1sim_1_1SpreadInfo.html#a562701c7fe4064b248d9fef7d3d00281',1,'tbd::sim::SpreadInfo::wind()'],['.././firestarr/classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953',1,'tbd::wx::Weather::wind()'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#af92f5c4365ab8b8f2508fd1fae0129af',1,'tbd::wx::Wind::Wind() noexcept'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#a16458ed86f14a9a7effa1657d60a1aee',1,'tbd::wx::Wind::Wind(const Direction &amp;direction, const Speed speed) noexcept'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#a0c3c6a605070598332683cecfeac55c9',1,'tbd::wx::Wind::Wind(const Wind &amp;rhs) noexcept=default'],['.././firestarr/classtbd_1_1wx_1_1Wind.html#ad1d9264d511aa020b607efef64e637bc',1,'tbd::wx::Wind::Wind(Wind &amp;&amp;rhs) noexcept=default']]],
-  ['wkt_5ffrom_5fzone_694',['wkt_from_zone',['.././gis/namespacemake__grids.html#abe60a8233d33ff4b6f83ed0422bf2ef9',1,'make_grids']]],
-  ['wsvx_695',['wsvX',['.././firestarr/classtbd_1_1wx_1_1Wind.html#aef1d4f27ba7c4a49daedc7257ca96031',1,'tbd::wx::Wind']]],
-  ['wsvy_696',['wsvY',['.././firestarr/classtbd_1_1wx_1_1Wind.html#a092fe112a86a460c7a9d2a778fd2c391',1,'tbd::wx::Wind']]]
+  ['unburnable_5f_719',['unburnable_',['../classtbd_1_1sim_1_1Scenario.html#ad2fbc4013bfb95cbf01e09175900c8f1',1,'tbd::sim::Scenario']]],
+  ['unhashcolumn_720',['unhashColumn',['../classtbd_1_1topo_1_1Location.html#ac6d9e698ba125501dc5621ed2babaf9f',1,'tbd::topo::Location']]],
+  ['unhashrow_721',['unhashRow',['../classtbd_1_1topo_1_1Location.html#ac4411045a82382aa26397f4c7d23676a',1,'tbd::topo::Location']]],
+  ['unpack_722',['unpack',['../namespaceunpack.html',1,'']]],
+  ['usagecount_723',['UsageCount',['../classtbd_1_1util_1_1UsageCount.html',1,'tbd::util::UsageCount'],['../classtbd_1_1util_1_1UsageCount.html#af2c80ff2a85c17df637e8c5ede64f52a',1,'tbd::util::UsageCount::UsageCount()']]],
+  ['used_5fby_5fname_5f_724',['used_by_name_',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#a97a9325582624e898a695cd4cd9c2ef8',1,'tbd::fuel::FuelLookupImpl']]],
+  ['usedfuels_725',['usedFuels',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#ae1b9965697e2e67b53ad2d2ed6d4d5be',1,'tbd::fuel::FuelLookupImpl::usedFuels()'],['../classtbd_1_1fuel_1_1FuelLookup.html#af1f7592f0c2afbfdf92999c08c840298',1,'tbd::fuel::FuelLookup::usedFuels()']]],
+  ['util_726',['util',['../namespaceutil.html',1,'']]]
 ];

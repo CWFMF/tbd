@@ -1,0 +1,8 @@
+<map id="tbd::wx::Direction::asDegrees" name="tbd::wx::Direction::asDegrees">
+<area shape="rect" id="node1" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="903,5,1021,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624" title="Direction as radians, where 0 is North and values increase clockwise." alt="" coords="736,5,855,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6" title="Heading (opposite of this direction)" alt="" coords="569,5,688,47"/>
+<area shape="rect" id="node4" href="$classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415" title="Direction wind is going towards." alt="" coords="373,13,521,39"/>
+<area shape="rect" id="node5" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
+<area shape="rect" id="node6" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+</map>

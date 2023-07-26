@@ -1,0 +1,4 @@
+<map id="tbd::fuel::StandardFuel::limitIsf" name="tbd::fuel::StandardFuel::limitIsf">
+<area shape="rect" id="node1" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="232,13,383,54"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelNonMixed.html#a08f36446b0ab874030cf35318bf92117" title="ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,5,184,61"/>
+</map>

@@ -1,7 +1,0 @@
-<map id="tbd::fuel::fbp::FuelO1A" name="tbd::fuel::fbp::FuelO1A">
-<area shape="rect" id="node1" title="FBP fuel type O&#45;1a." alt="" coords="867,27,1015,54"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelGrass.html" title=" " alt="" coords="685,20,819,61"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1StandardFuel.html" title=" " alt="" coords="439,5,637,76"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelBase.html" title="Base class for all FuelTypes." alt="" coords="180,13,391,69"/>
-<area shape="rect" id="node5" href="$classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type." alt="" coords="5,27,132,54"/>
-</map>

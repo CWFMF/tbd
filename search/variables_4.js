@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['data_1400',['data',['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'tbd::data::GridData::data()'],['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'GridData&lt; size_t, size_t, map&lt; Location, size_t &gt; &gt;::data()'],['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'GridData&lt; T, T, const vector&lt; T &gt; &gt;::data()'],['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'GridData&lt; T, T, map&lt; Location, T &gt; &gt;::data()'],['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'GridData&lt; tbd::topo::Cell, tbd::topo::Cell, const vector&lt; tbd::topo::Cell &gt; &gt;::data()'],['.././firestarr/classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'GridData&lt; unsigned char, unsigned char, map&lt; Location, unsigned char &gt; &gt;::data()']]],
-  ['data_5fdir_1401',['DATA_DIR',['.././gis/namespacecollect.html#ac6cb4616bc65f0a8e0d53db65585a910',1,'collect::DATA_DIR()'],['.././gis/namespaceearthenv.html#ae99792eb21c1f37cb8677380520a0cb2',1,'earthenv::DATA_DIR()'],['.././gis/namespacefbp__mosaic.html#a71db7a39b4d9ec72f1f339a30c19db2b',1,'fbp_mosaic::DATA_DIR()'],['.././gis/namespacemake__grids.html#a62645cca28cbb376b51b7cb51d63dbf6',1,'make_grids::DATA_DIR()'],['.././gis/namespacenhn.html#aca63f2cf06f373892db92751335a0b3c',1,'nhn::DATA_DIR()']]],
-  ['datatype_5fdem_1402',['DATATYPE_DEM',['.././gis/namespacemake__grids.html#a7a8522874b2f646da281c8cc5cecd478',1,'make_grids']]],
-  ['datatype_5ffuel_1403',['DATATYPE_FUEL',['.././gis/namespacemake__grids.html#add16f290f0a780e89ece4f673ee12146',1,'make_grids']]],
-  ['dem_5ffps_1404',['dem_fps',['.././gis/namespaceearthenv.html#afee8c5368827d0d4ec6cbbde2578100a',1,'earthenv']]],
-  ['deterministic_5f_1405',['deterministic_',['.././firestarr/classtbd_1_1sim_1_1SettingsImplementation.html#aeb11cbadab4e44b60d703c4c813fa9a1',1,'tbd::sim::SettingsImplementation']]],
-  ['dir_1406',['DIR',['.././gis/namespacemake__grids.html#acdd9d2e878665fd28f1be4900b2bfec2',1,'make_grids']]],
-  ['download_5fdir_1407',['DOWNLOAD_DIR',['.././gis/namespacecollect.html#a3e8cf94f875fbc80532a93fa7f7b3ca3',1,'collect::DOWNLOAD_DIR()'],['.././gis/namespaceearthenv.html#a6381be79ffb6acdb55be1b77f4dc5b72',1,'earthenv::DOWNLOAD_DIR()'],['.././gis/namespacemake__grids.html#aaadabfef7cb4e92b03f0929c6a508595',1,'make_grids::DOWNLOAD_DIR()'],['.././gis/namespacenhn.html#aab16cecb6f0a1eb12fe7aace4bbf12a5',1,'nhn::DOWNLOAD_DIR()']]],
-  ['driver_5fgdb_1408',['DRIVER_GDB',['.././gis/namespacemake__grids.html#aef1f68bdb888c6d2aa1d2b92a282f5d2',1,'make_grids']]],
-  ['driver_5fshp_1409',['DRIVER_SHP',['.././gis/namespacemake__grids.html#a6e02e6e561e0f1ff1f7d1241a09f46f0',1,'make_grids::DRIVER_SHP()'],['.././gis/namespacenhn.html#a227471337ae7ea151a46af0133478bb5',1,'nhn::DRIVER_SHP()']]],
-  ['driver_5ftif_1410',['DRIVER_TIF',['.././gis/namespacemake__grids.html#a929fa7bd13710c49d6e289f7ef4a2f1b',1,'make_grids']]]
+  ['data_1445',['data',['../classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec',1,'tbd::data::GridData']]],
+  ['days_5f_1446',['days_',['../classtbd_1_1topo_1_1StartPoint.html#ad188faf61d47cb3bfae66d90b3f8e436',1,'tbd::topo::StartPoint']]],
+  ['dc_5f_1447',['dc_',['../classtbd_1_1wx_1_1FwiWeather.html#aa4aa8e07fe7872d1eba32bdf93cd998c',1,'tbd::wx::FwiWeather::dc_()'],['../classtbd_1_1wx_1_1Startup.html#a9a3c74b2cc62e5d5608d68187b3031c4',1,'tbd::wx::Startup::dc_()']]],
+  ['default_5fpercent_5fconifer_5f_1448',['default_percent_conifer_',['../classtbd_1_1sim_1_1SettingsImplementation.html#a401882824ada91cbde17a54ce7bd51d6',1,'tbd::sim::SettingsImplementation']]],
+  ['default_5fpercent_5fdead_5ffir_5f_1449',['default_percent_dead_fir_',['../classtbd_1_1sim_1_1SettingsImplementation.html#acdbb455cb965115313060269063820a9',1,'tbd::sim::SettingsImplementation']]],
+  ['deterministic_5f_1450',['deterministic_',['../classtbd_1_1sim_1_1SettingsImplementation.html#aeb11cbadab4e44b60d703c4c813fa9a1',1,'tbd::sim::SettingsImplementation']]],
+  ['direction_5f_1451',['direction_',['../classtbd_1_1wx_1_1Wind.html#a92890db3423c2edec33339d20f6e2264',1,'tbd::wx::Wind']]],
+  ['distance_5ffrom_5f_1452',['distance_from_',['../classtbd_1_1wx_1_1Startup.html#a217e3dd90c87ec18c1ab120ca1fe2e2b',1,'tbd::wx::Startup']]],
+  ['dmc_5f_1453',['dmc_',['../classtbd_1_1wx_1_1FwiWeather.html#aa18f9d699dcbe3bf7a7871607ff9483f',1,'tbd::wx::FwiWeather::dmc_()'],['../classtbd_1_1wx_1_1Startup.html#add56d251410f987cb56ae9d884a9867f',1,'tbd::wx::Startup::dmc_()']]],
+  ['duff_5fdmc_5f_1454',['duff_dmc_',['../classtbd_1_1fuel_1_1FuelBase.html#a0e5a207b739045b8130eb92b7a5cb826',1,'tbd::fuel::FuelBase']]],
+  ['duff_5fffmc_5f_1455',['duff_ffmc_',['../classtbd_1_1fuel_1_1FuelBase.html#ac2f49a9f400a724f99fe8bf7c122c338',1,'tbd::fuel::FuelBase']]]
 ];

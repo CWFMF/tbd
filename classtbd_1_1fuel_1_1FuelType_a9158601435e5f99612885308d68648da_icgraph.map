@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelType::code" name="tbd::fuel::FuelType::code">
+<area shape="rect" id="node1" title="Code for this fuel type." alt="" coords="417,39,544,80"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelLookupImpl.html#a7663127d1fa9295bd87e43fb06b0491d" title="Look up the original grid code for a FuelType." alt="" coords="203,5,369,47"/>
+<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelType.html#a3fdd54fe57f405ccc36f6702f62edeef" title="Convert FuelType to its code, or 0 if nullptr." alt="" coords="223,71,349,112"/>
+<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="5,71,155,112"/>
+</map>

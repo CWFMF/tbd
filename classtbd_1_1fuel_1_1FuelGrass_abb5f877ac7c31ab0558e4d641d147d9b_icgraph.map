@@ -1,0 +1,4 @@
+<map id="tbd::fuel::FuelGrass::calculateRos" name="tbd::fuel::FuelGrass::calculateRos">
+<area shape="rect" id="node1" title="Calculate rate of spread (m/min)" alt="" coords="248,29,381,71"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelGrass.html#a62247a0d4ce80ca7582d3227d1135d2d" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,29,200,71"/>
+</map>

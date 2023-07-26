@@ -1,0 +1,5 @@
+<map id="tbd::sim::SpreadInfo::dmc" name="tbd::sim::SpreadInfo::dmc">
+<area shape="rect" id="node1" title="Duff Moisture Code used for spread." alt="" coords="5,35,172,61"/>
+<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FwiWeather.html#ac5618fc4d897d9f620355ee02a31e1ac" title="Duff Moisture Code." alt="" coords="220,5,388,32"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="236,57,372,98"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbd::sim::MapObserver&lt; T &gt;" name="tbd::sim::MapObserver&lt; T &gt;">
+<area shape="rect" id="node1" title="An IObserver that tracks notification data using a GridMap." alt="" coords="140,109,321,136"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1IObserver.html" title="Interface for observers that get notified when cells burn so they can track things." alt="" coords="5,13,136,39"/>
+<area shape="rect" id="node3" title=" " alt="" coords="159,5,302,47"/>
+<area shape="rect" id="node4" title=" " alt="" coords="326,13,381,39"/>
+</map>

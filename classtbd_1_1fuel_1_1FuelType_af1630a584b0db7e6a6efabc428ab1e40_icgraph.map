@@ -1,0 +1,6 @@
+<map id="tbd::fuel::FuelType::crownFractionBurned" name="tbd::fuel::FuelType::crownFractionBurned">
+<area shape="rect" id="node1" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="459,49,609,90"/>
+<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="189,5,411,61"/>
+<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="232,85,368,126"/>
+<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,85,141,126"/>
+</map>
