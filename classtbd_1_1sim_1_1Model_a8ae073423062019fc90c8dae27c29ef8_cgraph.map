@@ -48,5 +48,5 @@
 <area shape="rect" id="node25" href="$classtbd_1_1sim_1_1Scenario.html#af7b7af843131495631f8993093744a9d" title="Notify IObservers that a Cell has burned." alt="" coords="790,1094,914,1136"/>
 <area shape="rect" id="node28" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="785,1232,919,1259"/>
 <area shape="rect" id="node30" href="$classtbd_1_1topo_1_1Location.html#a32824ecfa9e260a89b3cfbe94f6b3fa3" title="Hash derived from row and column." alt="" coords="789,914,915,956"/>
-<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Model.html#a31ef49308d5a269d64a3b42a5005e79b" title="Time to use for simulation start." alt="" coords="507,1955,677,1982"/>
+<area shape="rect" id="node48" href="$classtbd_1_1sim_1_1Model.html#a9c8a88be0a576aa7193d83ff549b77a9" title="Time that execution started." alt="" coords="514,1954,670,1996"/>
 </map>

@@ -73,6 +73,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommon_1_1LockTracker.html">LockTracker</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcommon_1_1Origin.html">Origin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -102,9 +104,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>to_utc</b> (d)</td></t
 <tr class="memitem:a33529de48d9430c7664b45c7e7f4d7ec"><td class="memItemLeft" align="right" valign="top"><a id="a33529de48d9430c7664b45c7e7f4d7ec"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>filterXY</b> (data)</td></tr>
 <tr class="separator:a33529de48d9430c7664b45c7e7f4d7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb36ab77826f8e2463efda45ad52b1a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a7fb36ab77826f8e2463efda45ad52b1a">try_remove</a> (path)</td></tr>
-<tr class="memdesc:a7fb36ab77826f8e2463efda45ad52b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete path but ignore errors if can't while raising old error.  <a href="namespacecommon.html#a7fb36ab77826f8e2463efda45ad52b1a">More...</a><br /></td></tr>
-<tr class="separator:a7fb36ab77826f8e2463efda45ad52b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9699c0815be177e85114ff959152de3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#af9699c0815be177e85114ff959152de3">try_remove</a> (paths, verbose=True)</td></tr>
+<tr class="memdesc:af9699c0815be177e85114ff959152de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete path but ignore errors if can't while raising old error.  <a href="namespacecommon.html#af9699c0815be177e85114ff959152de3">More...</a><br /></td></tr>
+<tr class="separator:af9699c0815be177e85114ff959152de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabca391d7fd7ba05658f88cd8bb21665"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#aabca391d7fd7ba05658f88cd8bb21665">split_line</a> (line)</td></tr>
 <tr class="memdesc:aabca391d7fd7ba05658f88cd8bb21665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split given line on whitespace sections.  <a href="namespacecommon.html#aabca391d7fd7ba05658f88cd8bb21665">More...</a><br /></td></tr>
 <tr class="separator:aabca391d7fd7ba05658f88cd8bb21665"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +119,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>unzip</b> (path, to_di
 <tr class="memitem:a72b3787c8e649c5b229dc5dcb21503c6"><td class="memItemLeft" align="right" valign="top"><a id="a72b3787c8e649c5b229dc5dcb21503c6"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>finish_process</b> (process)</td></tr>
 <tr class="separator:a72b3787c8e649c5b229dc5dcb21503c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cd66544f8c9d14dbf8f6c684bebaa4"><td class="memItemLeft" align="right" valign="top"><a id="a15cd66544f8c9d14dbf8f6c684bebaa4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>run_process</b> (*args, **kwargs)</td></tr>
+<tr class="separator:a15cd66544f8c9d14dbf8f6c684bebaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bf243b2bb4390e09ac02a5e47f52ef0"><td class="memItemLeft" align="right" valign="top"><a id="a9bf243b2bb4390e09ac02a5e47f52ef0"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>zip_folder</b> (zip_name, path)</td></tr>
 <tr class="separator:a9bf243b2bb4390e09ac02a5e47f52ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,18 +140,59 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>do_nothing</b> (x)</td
 <tr class="memitem:a1d377ac91688a587d6879edde00443e2"><td class="memItemLeft" align="right" valign="top"><a id="a1d377ac91688a587d6879edde00443e2"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>calc_offset</b> (d, i)</td></tr>
 <tr class="separator:a1d377ac91688a587d6879edde00443e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f2627ade4e9ab3243ff275c1aaa731f"><td class="memItemLeft" align="right" valign="top"><a id="a3f2627ade4e9ab3243ff275c1aaa731f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>remove_on_exception</b> (paths, msg=None, logger=logging)</td></tr>
-<tr class="separator:a3f2627ade4e9ab3243ff275c1aaa731f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b46f08c71206df749f9311fb10f9b31"><td class="memItemLeft" align="right" valign="top"><a id="a9b46f08c71206df749f9311fb10f9b31"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>message_on_exception</b> (msg, logger=None)</td></tr>
+<tr class="separator:a9b46f08c71206df749f9311fb10f9b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c9c1c385e03f51fa486e04b90de6d7"><td class="memItemLeft" align="right" valign="top"><a id="a51c9c1c385e03f51fa486e04b90de6d7"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>log_on_entry_exit</b> (msg, logger=logging)</td></tr>
 <tr class="separator:a51c9c1c385e03f51fa486e04b90de6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049eb10eed9be9471dad132e6ad0910e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a049eb10eed9be9471dad132e6ad0910e">ensure_string_list</a> (paths)</td></tr>
+<tr class="separator:a049eb10eed9be9471dad132e6ad0910e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72945ff4795262f4347432c3effa78dd"><td class="memItemLeft" align="right" valign="top"><a id="a72945ff4795262f4347432c3effa78dd"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>locks_for</b> (paths)</td></tr>
+<tr class="separator:a72945ff4795262f4347432c3effa78dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25cfc42b79504f7661c0cebe8c0ca82f"><td class="memItemLeft" align="right" valign="top"><a id="a25cfc42b79504f7661c0cebe8c0ca82f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>paths_exist</b> (paths)</td></tr>
+<tr class="separator:a25cfc42b79504f7661c0cebe8c0ca82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040c8cfab19de7d7b9efca51e43db864"><td class="memItemLeft" align="right" valign="top"><a id="a040c8cfab19de7d7b9efca51e43db864"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>always_false</b> (*args, **kwargs)</td></tr>
+<tr class="separator:a040c8cfab19de7d7b9efca51e43db864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf20cc51f6d8de3648a945bb23b3fcf1"><td class="memItemLeft" align="right" valign="top"><a id="adf20cc51f6d8de3648a945bb23b3fcf1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>always_true</b> (*args, **kwargs)</td></tr>
+<tr class="separator:adf20cc51f6d8de3648a945bb23b3fcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb8fb97c5477c12eab2709ecb01892a"><td class="memItemLeft" align="right" valign="top"><a id="a0cb8fb97c5477c12eab2709ecb01892a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>ensure</b> (paths, fct_create, remove_on_exception, replace=None, msg_error=None, mkdirs=DEFAULT_MKDIRS, logger=None, retries=0, can_fail=False)</td></tr>
+<tr class="separator:a0cb8fb97c5477c12eab2709ecb01892a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3f59abd4a61671e9c577a120ae9fbf"><td class="memItemLeft" align="right" valign="top"><a id="a3d3f59abd4a61671e9c577a120ae9fbf"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>ensures</b> (paths, remove_on_exception, fct_process=None, replace=None, msg_error=None, mkdirs=DEFAULT_MKDIRS, logger=None, retries=0, can_fail=False)</td></tr>
+<tr class="separator:a3d3f59abd4a61671e9c577a120ae9fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc825e55299e5f98d19ed32f20befda5"><td class="memItemLeft" align="right" valign="top"><a id="abc825e55299e5f98d19ed32f20befda5"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>make_show_args</b> (fct, show_args, ignore_args=[&quot;self&quot;])</td></tr>
 <tr class="separator:abc825e55299e5f98d19ed32f20befda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b1cffa7e9342d0a5e7f61ecc8c38a1"><td class="memItemLeft" align="right" valign="top"><a id="af2b1cffa7e9342d0a5e7f61ecc8c38a1"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>log_entry_exit</b> (logger=logging, show_args=True)</td></tr>
 <tr class="separator:af2b1cffa7e9342d0a5e7f61ecc8c38a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd73ae3f4f6b24190f4c82965d296c4"><td class="memItemLeft" align="right" valign="top"><a id="adcd73ae3f4f6b24190f4c82965d296c4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>parse_str_list</b> (s)</td></tr>
+<tr class="separator:adcd73ae3f4f6b24190f4c82965d296c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99088ede21b723a45e1442a16637b12a"><td class="memItemLeft" align="right" valign="top"><a id="a99088ede21b723a45e1442a16637b12a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>import_cffdrs</b> ()</td></tr>
+<tr class="separator:a99088ede21b723a45e1442a16637b12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd7f3656d37a01f37b183bd301814597"><td class="memItemLeft" align="right" valign="top"><a id="afd7f3656d37a01f37b183bd301814597"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>find_ranges_missing</b> (datetime_start, datetime_end, times, freq=&quot;H&quot;)</td></tr>
+<tr class="separator:afd7f3656d37a01f37b183bd301814597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc8fed725c4421058e28e6872c5fdd5"><td class="memItemLeft" align="right" valign="top"><a id="a6dc8fed725c4421058e28e6872c5fdd5"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>find_missing</b> (df_wx, datetime_start, datetime_end)</td></tr>
+<tr class="separator:a6dc8fed725c4421058e28e6872c5fdd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb37ca2897c2c771199a4a065f01ecf"><td class="memItemLeft" align="right" valign="top"><a id="aecb37ca2897c2c771199a4a065f01ecf"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>remove_timezone_utc</b> (d)</td></tr>
+<tr class="separator:aecb37ca2897c2c771199a4a065f01ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5929c9f74f6366b9c7a753369b5422bc"><td class="memItemLeft" align="right" valign="top"><a id="a5929c9f74f6366b9c7a753369b5422bc"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>tz_from_offset</b> (offset)</td></tr>
+<tr class="separator:a5929c9f74f6366b9c7a753369b5422bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa562ee89f935f1dd5848edfea6ecd6e"><td class="memItemLeft" align="right" valign="top"><a id="aaa562ee89f935f1dd5848edfea6ecd6e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>is_empty</b> (df)</td></tr>
+<tr class="separator:aaa562ee89f935f1dd5848edfea6ecd6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -162,6 +208,9 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>FMT_DATE_YMD</b> = 
 <tr class="memitem:a1823d32a0450884897c701b1632a0c4b"><td class="memItemLeft" align="right" valign="top"><a id="a1823d32a0450884897c701b1632a0c4b"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>FMT_TIME</b> = &quot;%H%M&quot;</td></tr>
 <tr class="separator:a1823d32a0450884897c701b1632a0c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22a209c32f86fb52761ce296ad5d3ba"><td class="memItemLeft" align="right" valign="top"><a id="ad22a209c32f86fb52761ce296ad5d3ba"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>FMT_FILE_MINUTE</b> = &quot;%Y%m%d_%H%M&quot;</td></tr>
+<tr class="separator:ad22a209c32f86fb52761ce296ad5d3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a1b4a14e7b139a4ea569f441d987e76"><td class="memItemLeft" align="right" valign="top"><a id="a1a1b4a14e7b139a4ea569f441d987e76"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_GROUP_DISTANCE_KM</b> = 20</td></tr>
 <tr class="separator:a1a1b4a14e7b139a4ea569f441d987e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +223,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_NUM_DAYS</b> = 14<
 <tr class="memitem:ac7b3cbb2e186807fe454ce21f45c4b27"><td class="memItemLeft" align="right" valign="top"><a id="ac7b3cbb2e186807fe454ce21f45c4b27"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_M3_UNMATCHED_LAST_ACTIVE_IN_DAYS</b> = 1</td></tr>
 <tr class="separator:ac7b3cbb2e186807fe454ce21f45c4b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32058b5fb29dc2952d4c8fd97763d1e"><td class="memItemLeft" align="right" valign="top"><a id="ae32058b5fb29dc2952d4c8fd97763d1e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_LAST_ACTIVE_SINCE_OFFSET</b> = None</td></tr>
+<tr class="separator:ae32058b5fb29dc2952d4c8fd97763d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3206c3da2feccf03ddefb90fc55c27a2"><td class="memItemLeft" align="right" valign="top"><a id="a3206c3da2feccf03ddefb90fc55c27a2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>PUBLISH_AZURE_WAIT_TIME_SECONDS</b> = 10</td></tr>
 <tr class="separator:a3206c3da2feccf03ddefb90fc55c27a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,6 +261,9 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>SETTINGS_FILE</b> =
 <tr class="memitem:ae766ca762fefba041d7062beaa322a5c"><td class="memItemLeft" align="right" valign="top"><a id="ae766ca762fefba041d7062beaa322a5c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_FILE_LOG_LEVEL</b> = logging.DEBUG</td></tr>
 <tr class="separator:ae766ca762fefba041d7062beaa322a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bcadc38ae8fcb8b333e79b9e29857c7"><td class="memItemLeft" align="right" valign="top"><a id="a5bcadc38ae8fcb8b333e79b9e29857c7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>CELL_SIZE</b> = 100</td></tr>
+<tr class="separator:a5bcadc38ae8fcb8b333e79b9e29857c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa900d8e670c931a0a3b8b8d99511a1c1"><td class="memItemLeft" align="right" valign="top"><a id="aa900d8e670c931a0a3b8b8d99511a1c1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SRC_PY_FIRSTARR</b> = os.path.dirname(__file__)</td></tr>
 <tr class="separator:aa900d8e670c931a0a3b8b8d99511a1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,18 +285,42 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_DOWNLOAD</b> = <a 
 <tr class="memitem:a26f438bf256b522e001c782ff668ab20"><td class="memItemLeft" align="right" valign="top"><a id="a26f438bf256b522e001c782ff668ab20"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_EXTRACTED</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;extracted&quot;))</td></tr>
 <tr class="separator:a26f438bf256b522e001c782ff668ab20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c43ef2b1e73a58f0a07bfbb6592c00"><td class="memItemLeft" align="right" valign="top"><a id="a63c43ef2b1e73a58f0a07bfbb6592c00"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_GENERATED</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;generated&quot;))</td></tr>
+<tr class="separator:a63c43ef2b1e73a58f0a07bfbb6592c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538d80685c375fc643d298f87fd20189"><td class="memItemLeft" align="right" valign="top"><a id="a538d80685c375fc643d298f87fd20189"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_INTERMEDIATE</b> = os.path.join(DIR_DATA, &quot;intermediate&quot;)</td></tr>
+<tr class="separator:a538d80685c375fc643d298f87fd20189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37d2e9a8256f9a039edd83e5506604ae"><td class="memItemLeft" align="right" valign="top"><a id="a37d2e9a8256f9a039edd83e5506604ae"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_LOG</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;logs&quot;))</td></tr>
 <tr class="separator:a37d2e9a8256f9a039edd83e5506604ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f95d0f9fb219feac97dbbe7261349fd"><td class="memItemLeft" align="right" valign="top"><a id="a8f95d0f9fb219feac97dbbe7261349fd"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SIMS</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;sims&quot;))</td></tr>
-<tr class="separator:a8f95d0f9fb219feac97dbbe7261349fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588cf6796e3abbca31d9779e56c4fe1e"><td class="memItemLeft" align="right" valign="top"><a id="a588cf6796e3abbca31d9779e56c4fe1e"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_OUTPUT</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;output&quot;))</td></tr>
 <tr class="separator:a588cf6796e3abbca31d9779e56c4fe1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae618815db8534b7ded22ce168c5f381a"><td class="memItemLeft" align="right" valign="top"><a id="ae618815db8534b7ded22ce168c5f381a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_RASTER</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_GENERATED, &quot;grid&quot;, f&quot;{CELL_SIZE}m&quot;))</td></tr>
+<tr class="separator:ae618815db8534b7ded22ce168c5f381a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f95d0f9fb219feac97dbbe7261349fd"><td class="memItemLeft" align="right" valign="top"><a id="a8f95d0f9fb219feac97dbbe7261349fd"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SIMS</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;sims&quot;))</td></tr>
+<tr class="separator:a8f95d0f9fb219feac97dbbe7261349fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8791595362479367948b75e447924b"><td class="memItemLeft" align="right" valign="top"><a id="a0d8791595362479367948b75e447924b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_TMP</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;tmp&quot;))</td></tr>
+<tr class="separator:a0d8791595362479367948b75e447924b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09eaea347189c10dc4c9538c7a509159"><td class="memItemLeft" align="right" valign="top"><a id="a09eaea347189c10dc4c9538c7a509159"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;zip&quot;))</td></tr>
 <tr class="separator:a09eaea347189c10dc4c9538c7a509159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1203cdbd27393ba7abeb40cbae17ee30"><td class="memItemLeft" align="right" valign="top"><a id="a1203cdbd27393ba7abeb40cbae17ee30"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_MKDIRS</b> = False</td></tr>
+<tr class="separator:a1203cdbd27393ba7abeb40cbae17ee30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0644cc9238937b0bebe814fb1efcde98"><td class="memItemLeft" align="right" valign="top"><a id="a0644cc9238937b0bebe814fb1efcde98"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_LOCK_TIMEOUT</b> = -1</td></tr>
+<tr class="separator:a0644cc9238937b0bebe814fb1efcde98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f767ae9239de0dd83396ca57e3909d"><td class="memItemLeft" align="right" valign="top"><a id="af9f767ae9239de0dd83396ca57e3909d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>LOCK_TRACKER</b> = <a class="el" href="classcommon_1_1LockTracker.html">LockTracker</a>()</td></tr>
+<tr class="separator:af9f767ae9239de0dd83396ca57e3909d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab25ab8bbf751c9ee07f1e43df76b562a"><td class="memItemLeft" align="right" valign="top"><a id="ab25ab8bbf751c9ee07f1e43df76b562a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>cffdrs</b> = import_cffdrs()</td></tr>
+<tr class="separator:ab25ab8bbf751c9ee07f1e43df76b562a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Shared code</pre> </div><h2 class="groupheader">Function Documentation</h2>
@@ -307,6 +386,33 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
+<a id="a049eb10eed9be9471dad132e6ad0910e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a049eb10eed9be9471dad132e6ad0910e">&#9670;&nbsp;</a></span>ensure_string_list()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def common.ensure_string_list </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>paths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Make sure that we have a list of strings and convert single string to list</pre> <div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacecommon_a049eb10eed9be9471dad132e6ad0910e_icgraph.png" border="0" usemap="#namespacecommon_a049eb10eed9be9471dad132e6ad0910e_icgraph" alt=""/></div>
+<map name="namespacecommon_a049eb10eed9be9471dad132e6ad0910e_icgraph" id="namespacecommon_a049eb10eed9be9471dad132e6ad0910e_icgraph">
+<area shape="rect" title=" " alt="" coords="192,5,369,32"/>
+<area shape="rect" href="namespacecommon.html#af9699c0815be177e85114ff959152de3" title="Delete path but ignore errors if can&#39;t while raising old error." alt="" coords="5,5,144,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -430,8 +536,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class
 
 </div>
 </div>
-<a id="a7fb36ab77826f8e2463efda45ad52b1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fb36ab77826f8e2463efda45ad52b1a">&#9670;&nbsp;</a></span>try_remove()</h2>
+<a id="af9699c0815be177e85114ff959152de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9699c0815be177e85114ff959152de3">&#9670;&nbsp;</a></span>try_remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,8 +546,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class
           <td class="memname">def common.try_remove </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"><em>paths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>verbose</em> = <code>True</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -454,6 +570,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacecommon_af9699c0815be177e85114ff959152de3_cgraph.png" border="0" usemap="#namespacecommon_af9699c0815be177e85114ff959152de3_cgraph" alt=""/></div>
+<map name="namespacecommon_af9699c0815be177e85114ff959152de3_cgraph" id="namespacecommon_af9699c0815be177e85114ff959152de3_cgraph">
+<area shape="rect" title="Delete path but ignore errors if can&#39;t while raising old error." alt="" coords="5,5,144,32"/>
+<area shape="rect" href="namespacecommon.html#a049eb10eed9be9471dad132e6ad0910e" title=" " alt="" coords="192,5,369,32"/>
+</map>
+</div>
 
 </div>
 </div>

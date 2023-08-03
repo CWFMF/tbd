@@ -80,6 +80,9 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a76243559a5f2e92786ea0efa5d268d5a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegis.html#a76243559a5f2e92786ea0efa5d268d5a">ensure_geometry_file</a> (path)</td></tr>
 <tr class="separator:a76243559a5f2e92786ea0efa5d268d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66efa69762a84dd68c5231b0b4551ed"><td class="memItemLeft" align="right" valign="top"><a id="ab66efa69762a84dd68c5231b0b4551ed"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>load_geometry_file</b> (path)</td></tr>
+<tr class="separator:ab66efa69762a84dd68c5231b0b4551ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acee348f643c2d87ee126093ee4623176"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegis.html#acee348f643c2d87ee126093ee4623176">GetFeatureCount</a> (shp)</td></tr>
 <tr class="memdesc:acee348f643c2d87ee126093ee4623176"><td class="mdescLeft">&#160;</td><td class="mdescRight">` Count number of features in a shapefile  <a href="namespacegis.html#acee348f643c2d87ee126093ee4623176">More...</a><br /></td></tr>
 <tr class="separator:acee348f643c2d87ee126093ee4623176"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,12 +143,11 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>area_ha_to_radius_m</b
 <tr class="memitem:a108abb613c99432ef1b2baf4c6982f22"><td class="memItemLeft" align="right" valign="top"><a id="a108abb613c99432ef1b2baf4c6982f22"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>make_empty_gdf</b> (columns)</td></tr>
 <tr class="separator:a108abb613c99432ef1b2baf4c6982f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9461728e60d80aa6af949728a1955ebc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegis.html#a9461728e60d80aa6af949728a1955ebc">make_gdf_from_series</a> (<a class="el" href="structrow.html">row</a>, crs)</td></tr>
+<tr class="separator:a9461728e60d80aa6af949728a1955ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8d3d4e40a00b60c1b388dcd56d40198d"><td class="memItemLeft" align="right" valign="top"><a id="a8d3d4e40a00b60c1b388dcd56d40198d"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>RASTER_DIR</b> = &quot;/appl/data/generated/grid/100m&quot;</td></tr>
-<tr class="separator:a8d3d4e40a00b60c1b388dcd56d40198d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1380889ba6b158b24b77859114035864"><td class="memItemLeft" align="right" valign="top"><a id="a1380889ba6b158b24b77859114035864"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>KM_TO_M</b> = 1000</td></tr>
 <tr class="separator:a1380889ba6b158b24b77859114035864"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,6 +422,34 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Spatial reference of source file </dd></dl>
 
+</div>
+</div>
+<a id="a9461728e60d80aa6af949728a1955ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9461728e60d80aa6af949728a1955ebc">&#9670;&nbsp;</a></span>make_gdf_from_series()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def gis.make_gdf_from_series </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>crs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Convert Series into GeoDataFrame</pre> 
 </div>
 </div>
 <a id="a91a77c89ad6cc599b5fe858f12c60497"></a>

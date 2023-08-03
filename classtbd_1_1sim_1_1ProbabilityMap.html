@@ -84,15 +84,17 @@ Collaboration diagram for tbd::sim::ProbabilityMap:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtbd_1_1sim_1_1ProbabilityMap__coll__graph.png" border="0" usemap="#tbd_1_1sim_1_1ProbabilityMap_coll__map" alt="Collaboration graph"/></div>
 <map name="tbd_1_1sim_1_1ProbabilityMap_coll__map" id="tbd_1_1sim_1_1ProbabilityMap_coll__map">
-<area shape="rect" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="79,528,237,555"/>
-<area shape="rect" title=" " alt="" coords="13,387,71,414"/>
-<area shape="rect" href="classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="95,380,221,421"/>
-<area shape="rect" href="classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="85,275,231,331"/>
-<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="5,171,140,212"/>
-<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="7,95,138,121"/>
-<area shape="rect" title=" " alt="" coords="45,5,100,32"/>
-<area shape="rect" title=" " alt="" coords="165,178,325,205"/>
-<area shape="rect" title=" " alt="" coords="245,387,364,414"/>
+<area shape="rect" title="Map of the percentage of simulations in which a Cell burned in each intensity category." alt="" coords="1072,117,1231,144"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Perimeter.html" title="Perimeter for an existing fire to initialize a simulation with." alt="" coords="825,21,959,48"/>
+<area shape="rect" title=" " alt="" coords="564,21,731,48"/>
+<area shape="rect" title=" " alt="" coords="863,72,921,99"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridMap.html" title=" " alt="" coords="829,147,955,189"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridData.html" title=" " alt="" coords="574,140,721,196"/>
+<area shape="rect" href="classtbd_1_1data_1_1Grid.html" title=" " alt="" coords="339,106,474,147"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridBase.html" title="The base class with information for a grid of data with geographic coordinates." alt="" coords="147,113,277,140"/>
+<area shape="rect" title=" " alt="" coords="5,113,60,140"/>
+<area shape="rect" title=" " alt="" coords="327,172,487,199"/>
+<area shape="rect" title=" " alt="" coords="833,213,951,240"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3bb903424a84b6f6df6c2332e6c61eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html">ProbabilityMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#a3bb903424a84b6f6df6c2332e6c61eff">copyEmpty</a> () const</td></tr>
 <tr class="memdesc:a3bb903424a84b6f6df6c2332e6c61eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of this that is empty.  <a href="classtbd_1_1sim_1_1ProbabilityMap.html#a3bb903424a84b6f6df6c2332e6c61eff">More...</a><br /></td></tr>
 <tr class="separator:a3bb903424a84b6f6df6c2332e6c61eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9430d1c9fbeebbf86dfa52603d82f918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#a9430d1c9fbeebbf86dfa52603d82f918">setPerimeter</a> (const <a class="el" href="classtbd_1_1topo_1_1Perimeter.html">topo::Perimeter</a> *const perimeter)</td></tr>
+<tr class="memdesc:a9430d1c9fbeebbf86dfa52603d82f918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign perimeter to use for marking cells as initial perimeter.  <a href="classtbd_1_1sim_1_1ProbabilityMap.html#a9430d1c9fbeebbf86dfa52603d82f918">More...</a><br /></td></tr>
+<tr class="separator:a9430d1c9fbeebbf86dfa52603d82f918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1de25a4b8d6ad3832c06c1a47cc4e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#ab1de25a4b8d6ad3832c06c1a47cc4e65">addProbabilities</a> (const <a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html">ProbabilityMap</a> &amp;rhs)</td></tr>
 <tr class="memdesc:ab1de25a4b8d6ad3832c06c1a47cc4e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combine results from another <a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html" title="Map of the percentage of simulations in which a Cell burned in each intensity category.">ProbabilityMap</a> into this one.  <a href="classtbd_1_1sim_1_1ProbabilityMap.html#ab1de25a4b8d6ad3832c06c1a47cc4e65">More...</a><br /></td></tr>
 <tr class="separator:ab1de25a4b8d6ad3832c06c1a47cc4e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +216,10 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#a09cd4163fc32bd2943f203a10e235f26">med_max_</a></td></tr>
 <tr class="memdesc:a09cd4163fc32bd2943f203a10e235f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper bound of 'moderate' intensity range. <br /></td></tr>
 <tr class="separator:a09cd4163fc32bd2943f203a10e235f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa720b14837ff6d645ad594d54b4da0bf"><td class="memItemLeft" align="right" valign="top"><a id="aa720b14837ff6d645ad594d54b4da0bf"></a>
+const <a class="el" href="classtbd_1_1topo_1_1Perimeter.html">topo::Perimeter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#aa720b14837ff6d645ad594d54b4da0bf">perimeter_</a></td></tr>
+<tr class="memdesc:aa720b14837ff6d645ad594d54b4da0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial ignition grid to apply to outputs. <br /></td></tr>
+<tr class="separator:aa720b14837ff6d645ad594d54b4da0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Map of the percentage of simulations in which a Cell burned in each intensity category. </p>
@@ -660,6 +669,32 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">base_name</td><td>Base file name to save to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9430d1c9fbeebbf86dfa52603d82f918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9430d1c9fbeebbf86dfa52603d82f918">&#9670;&nbsp;</a></span>setPerimeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::ProbabilityMap::setPerimeter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtbd_1_1topo_1_1Perimeter.html">topo::Perimeter</a> *const&#160;</td>
+          <td class="paramname"><em>perimeter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assign perimeter to use for marking cells as initial perimeter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">perimeter</td><td>Ignition grid to store for marking in outputs </td></tr>
   </table>
   </dd>
 </dl>
