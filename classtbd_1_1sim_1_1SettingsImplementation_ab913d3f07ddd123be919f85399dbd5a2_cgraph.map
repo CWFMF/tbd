@@ -1,0 +1,4 @@
+<map id="tbd::sim::SettingsImplementation::setRoot" name="tbd::sim::SettingsImplementation::setRoot">
+<area shape="rect" id="node1" title="Set root directory and read settings from file." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a91c628acaac3ca51b2807f3c43e5f9bd" title="Set days to output probability contours for (1 is start date, 2 is day after, etc...." alt="" coords="264,5,475,47"/>
+</map>

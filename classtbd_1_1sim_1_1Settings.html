@@ -81,9 +81,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7272c0e0f155dcd04ecb7697c1a09937"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#a7272c0e0f155dcd04ecb7697c1a09937">weatherFile</a> () noexcept</td></tr>
-<tr class="memdesc:a7272c0e0f155dcd04ecb7697c1a09937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of file to save weather to.  <a href="classtbd_1_1sim_1_1Settings.html#a7272c0e0f155dcd04ecb7697c1a09937">More...</a><br /></td></tr>
-<tr class="separator:a7272c0e0f155dcd04ecb7697c1a09937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f76745bf9ef3a746036b52d32e8935e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#a9f76745bf9ef3a746036b52d32e8935e">setRoot</a> (const char *dirname) noexcept</td></tr>
+<tr class="memdesc:a9f76745bf9ef3a746036b52d32e8935e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set root directory and read settings from file.  <a href="classtbd_1_1sim_1_1Settings.html#a9f76745bf9ef3a746036b52d32e8935e">More...</a><br /></td></tr>
+<tr class="separator:a9f76745bf9ef3a746036b52d32e8935e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6ee3e21a6dadcc22414cd50c0010c7b"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b">outputDirectory</a> () noexcept</td></tr>
 <tr class="memdesc:aa6ee3e21a6dadcc22414cd50c0010c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to directory that outputs are saved to.  <a href="classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b">More...</a><br /></td></tr>
 <tr class="separator:aa6ee3e21a6dadcc22414cd50c0010c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +138,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afc925128f4cc06511d8b0e647387ef34"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#afc925128f4cc06511d8b0e647387ef34">setSaveOccurrence</a> (bool value) noexcept</td></tr>
 <tr class="memdesc:afc925128f4cc06511d8b0e647387ef34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not to save occurrence grids.  <a href="classtbd_1_1sim_1_1Settings.html#afc925128f4cc06511d8b0e647387ef34">More...</a><br /></td></tr>
 <tr class="separator:afc925128f4cc06511d8b0e647387ef34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f095738312dcfcaea1cbaf49c207e3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#a93f095738312dcfcaea1cbaf49c207e3">saveSimulationArea</a> () noexcept</td></tr>
+<tr class="memdesc:a93f095738312dcfcaea1cbaf49c207e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not to save simulation area grids.  <a href="classtbd_1_1sim_1_1Settings.html#a93f095738312dcfcaea1cbaf49c207e3">More...</a><br /></td></tr>
+<tr class="separator:a93f095738312dcfcaea1cbaf49c207e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14afaa066dc1cc686a7181333e1ab74a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#a14afaa066dc1cc686a7181333e1ab74a">setSaveSimulationArea</a> (bool value) noexcept</td></tr>
+<tr class="memdesc:a14afaa066dc1cc686a7181333e1ab74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not to save simulation area grids.  <a href="classtbd_1_1sim_1_1Settings.html#a14afaa066dc1cc686a7181333e1ab74a">More...</a><br /></td></tr>
+<tr class="separator:a14afaa066dc1cc686a7181333e1ab74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537a72ac309924204ef0325e1eb56730"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1Settings.html#a537a72ac309924204ef0325e1eb56730">minimumRos</a> () noexcept</td></tr>
 <tr class="memdesc:a537a72ac309924204ef0325e1eb56730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum rate of spread before fire is considered to be spreading (m/min)  <a href="classtbd_1_1sim_1_1Settings.html#a537a72ac309924204ef0325e1eb56730">More...</a><br /></td></tr>
 <tr class="separator:a537a72ac309924204ef0325e1eb56730"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1355,6 +1361,52 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a93f095738312dcfcaea1cbaf49c207e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f095738312dcfcaea1cbaf49c207e3">&#9670;&nbsp;</a></span>saveSimulationArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tbd::sim::Settings::saveSimulationArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether or not to save simulation area grids. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not to save simulation area grids </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_cgraph.png" border="0" usemap="#classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_cgraph" alt=""/></div>
+<map name="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_cgraph" id="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_cgraph">
+<area shape="rect" title="Whether or not to save simulation area grids." alt="" coords="5,5,149,47"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="197,5,408,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_icgraph.png" border="0" usemap="#classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_icgraph" alt=""/></div>
+<map name="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_icgraph" id="classtbd_1_1sim_1_1Settings_a93f095738312dcfcaea1cbaf49c207e3_icgraph">
+<area shape="rect" title="Whether or not to save simulation area grids." alt="" coords="203,5,347,47"/>
+<area shape="rect" href="classtbd_1_1topo_1_1Environment.html#a04091932de566cb55c71f9e523a459f5" title="Load from rasters." alt="" coords="5,5,155,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a78b9b4082f624a49e230573df21e9b70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78b9b4082f624a49e230573df21e9b70">&#9670;&nbsp;</a></span>setConfidenceLevel()</h2>
 
@@ -1517,6 +1569,51 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Set path to directory that outputs are saved to." alt="" coords="5,39,141,80"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="189,5,400,47"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#a888ba43531f3efd2c8e0066b2ebcced3" title="Set path to directory that outputs are saved to." alt="" coords="189,71,400,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9f76745bf9ef3a746036b52d32e8935e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f76745bf9ef3a746036b52d32e8935e">&#9670;&nbsp;</a></span>setRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::Settings::setRoot </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>dirname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set root directory and read settings from file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dirname</td><td>Directory to use for settings and relative paths </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1Settings_a9f76745bf9ef3a746036b52d32e8935e_cgraph.png" border="0" usemap="#classtbd_1_1sim_1_1Settings_a9f76745bf9ef3a746036b52d32e8935e_cgraph" alt=""/></div>
+<map name="classtbd_1_1sim_1_1Settings_a9f76745bf9ef3a746036b52d32e8935e_cgraph" id="classtbd_1_1sim_1_1Settings_a9f76745bf9ef3a746036b52d32e8935e_cgraph">
+<area shape="rect" title="Set root directory and read settings from file." alt="" coords="5,39,127,80"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="175,5,385,47"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ab913d3f07ddd123be919f85399dbd5a2" title="Set root directory and read settings from file." alt="" coords="175,71,385,112"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#a91c628acaac3ca51b2807f3c43e5f9bd" title="Set days to output probability contours for (1 is start date, 2 is day after, etc...." alt="" coords="433,71,644,112"/>
 </map>
 </div>
 
@@ -1786,6 +1883,50 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a14afaa066dc1cc686a7181333e1ab74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14afaa066dc1cc686a7181333e1ab74a">&#9670;&nbsp;</a></span>setSaveSimulationArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::Settings::setSaveSimulationArea </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set whether or not to save simulation area grids. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Whether or not to save simulation area grids </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1Settings_a14afaa066dc1cc686a7181333e1ab74a_cgraph.png" border="0" usemap="#classtbd_1_1sim_1_1Settings_a14afaa066dc1cc686a7181333e1ab74a_cgraph" alt=""/></div>
+<map name="classtbd_1_1sim_1_1Settings_a14afaa066dc1cc686a7181333e1ab74a_cgraph" id="classtbd_1_1sim_1_1Settings_a14afaa066dc1cc686a7181333e1ab74a_cgraph">
+<area shape="rect" title="Set whether or not to save simulation area grids." alt="" coords="5,5,169,47"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="217,5,428,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ab948c2aeabe3b781cbeddab875e30ce4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab948c2aeabe3b781cbeddab875e30ce4">&#9670;&nbsp;</a></span>thresholdDailyWeight()</h2>
 
@@ -1897,34 +2038,6 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#a3ede35b555fce23af12859bd7d9120ad" title="Weight to give to Scenario part of thresholds." alt="" coords="225,71,436,112"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a7272c0e0f155dcd04ecb7697c1a09937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7272c0e0f155dcd04ecb7697c1a09937">&#9670;&nbsp;</a></span>weatherFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static const char* tbd::sim::Settings::weatherFile </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Name of file to save weather to. </p>
-<dl class="section return"><dt>Returns</dt><dd>Name of file to save weather to </dd></dl>
 
 </div>
 </div>

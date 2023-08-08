@@ -1,12 +1,13 @@
 <map id="tbd::topo::Environment::Environment" name="tbd::topo::Environment::Environment">
-<area shape="rect" id="node1" title="Load from rasters." alt="" coords="5,373,155,415"/>
+<area shape="rect" id="node1" title="Load from rasters." alt="" coords="5,407,155,448"/>
 <area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="205,177,354,219"/>
 <area shape="rect" id="node3" href="$classtbd_1_1data_1_1GridBase.html#acd7d647f4dcc469bdd74a67fdd41b00f" title="Find Coordinates for Point." alt="" coords="214,243,345,284"/>
 <area shape="rect" id="node15" href="$classtbd_1_1sim_1_1Settings.html#a105d2051eec4bd8ed37d3a8b53fca3a8" title="Fuel lookup table." alt="" coords="219,308,340,349"/>
-<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="219,439,340,480"/>
+<area shape="rect" id="node18" href="$classtbd_1_1sim_1_1Settings.html#aa6ee3e21a6dadcc22414cd50c0010c7b" title="Path to directory that outputs are saved to." alt="" coords="219,504,340,545"/>
 <area shape="rect" id="node20" href="$classtbd_1_1sim_1_1Settings.html#a16c6ceeec1aef779f424f79b95eb263e" title="Whether or not to save grids as .asc." alt="" coords="219,373,340,415"/>
-<area shape="rect" id="node21" href="$classtbd_1_1data_1_1ConstantGrid.html#aa0d3bc4652bb8f5d13e878b302a84dbb" title="Save contents to .asc file." alt="" coords="203,504,356,545"/>
-<area shape="rect" id="node22" href="$classtbd_1_1data_1_1ConstantGrid.html#ad033e3d4e9908435f7bad2c7a39ce340" title="Save contents to .tif file." alt="" coords="203,569,356,611"/>
+<area shape="rect" id="node21" href="$classtbd_1_1sim_1_1Settings.html#a93f095738312dcfcaea1cbaf49c207e3" title="Whether or not to save simulation area grids." alt="" coords="207,439,351,480"/>
+<area shape="rect" id="node22" href="$classtbd_1_1data_1_1ConstantGrid.html#aa0d3bc4652bb8f5d13e878b302a84dbb" title="Save contents to .asc file." alt="" coords="203,569,356,611"/>
+<area shape="rect" id="node23" href="$classtbd_1_1data_1_1ConstantGrid.html#ad033e3d4e9908435f7bad2c7a39ce340" title="Save contents to .tif file." alt="" coords="203,635,356,676"/>
 <area shape="rect" id="node4" href="$classtbd_1_1data_1_1GridBase.html#a8f0fe2f46b09a6c47c56f05f7d59dc0f" title="Find FullCoordinates for Point." alt="" coords="440,243,579,284"/>
 <area shape="rect" id="node5" href="$classtbd_1_1data_1_1GridBase.html#a7645747824452ce1b828885e82492944" title="Number of columns in the GridBase." alt="" coords="680,87,811,128"/>
 <area shape="rect" id="node9" href="$classtbd_1_1data_1_1GridBase.html#a59bd243eeb65573a81561258fbedf106" title="Number of rows in the GridBase." alt="" coords="680,184,811,225"/>
@@ -19,6 +20,6 @@
 <area shape="rect" id="node10" href="$classtbd_1_1data_1_1GridBase.html#aecf88fe6a1a3877d4ec9ddb18d5e5a8f" title="Lower left corner Y coordinate in meters." alt="" coords="876,201,1007,243"/>
 <area shape="rect" id="node11" href="$classtbd_1_1data_1_1GridBase.html#ac229b964c0e7b3d9998ca6335fd1e278" title="Upper right corner Y coordinate in meters." alt="" coords="876,267,1007,308"/>
 <area shape="rect" id="node16" href="$classtbd_1_1sim_1_1SettingsImplementation.html#a7fead2074c51400b84e2f34ad5abd6f1" title="Fuel lookup table." alt="" coords="404,308,615,349"/>
-<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="404,373,615,415"/>
-<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="404,439,615,480"/>
+<area shape="rect" id="node17" href="$classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="404,405,615,447"/>
+<area shape="rect" id="node19" href="$classtbd_1_1sim_1_1SettingsImplementation.html#aa81cf83f765493852ff1e810adf19d49" title="Path to directory that outputs are saved to." alt="" coords="404,504,615,545"/>
 </map>

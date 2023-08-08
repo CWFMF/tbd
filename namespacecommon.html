@@ -273,9 +273,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>CELL_SIZE</b> = 100</t
 <tr class="memitem:a411e489e9d064eaa3b5d75e978f033c1"><td class="memItemLeft" align="right" valign="top"><a id="a411e489e9d064eaa3b5d75e978f033c1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SRC_PY_CFFDRSNG</b> = os.path.join(DIR_SRC_PY, &quot;cffdrs-ng&quot;)</td></tr>
 <tr class="separator:a411e489e9d064eaa3b5d75e978f033c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38a32d65d9722ecac00de5575aa400fe"><td class="memItemLeft" align="right" valign="top"><a id="a38a32d65d9722ecac00de5575aa400fe"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SCRIPTS</b> = &quot;/appl/tbd/scripts&quot;</td></tr>
-<tr class="separator:a38a32d65d9722ecac00de5575aa400fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1736ca8fd8b793b523286a748f7ea400"><td class="memItemLeft" align="right" valign="top"><a id="a1736ca8fd8b793b523286a748f7ea400"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_TBD</b> = &quot;/appl/tbd&quot;</td></tr>
+<tr class="separator:a1736ca8fd8b793b523286a748f7ea400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b3cb83116a9b86af8096aed7760f06"><td class="memItemLeft" align="right" valign="top"><a id="a09b3cb83116a9b86af8096aed7760f06"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_SCRIPTS</b> = os.path.join(DIR_TBD, &quot;scripts&quot;)</td></tr>
+<tr class="separator:a09b3cb83116a9b86af8096aed7760f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afffb45fcf94148cb90aff91bb7118410"><td class="memItemLeft" align="right" valign="top"><a id="afffb45fcf94148cb90aff91bb7118410"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_DATA</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.abspath(&quot;/appl/data&quot;))</td></tr>
 <tr class="separator:afffb45fcf94148cb90aff91bb7118410"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,6 +312,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_TMP</b> = <a class
 <tr class="memitem:a09eaea347189c10dc4c9538c7a509159"><td class="memItemLeft" align="right" valign="top"><a id="a09eaea347189c10dc4c9538c7a509159"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>DIR_ZIP</b> = <a class="el" href="namespacecommon.html#a50c966c5c889eb84a06815b788c28ffa">ensure_dir</a>(os.path.join(DIR_DATA, &quot;zip&quot;))</td></tr>
 <tr class="separator:a09eaea347189c10dc4c9538c7a509159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea26abcd6a687aa977c329ce6b8df7a0"><td class="memItemLeft" align="right" valign="top"><a id="aea26abcd6a687aa977c329ce6b8df7a0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>MINUTES_PER_HOUR</b> = 60</td></tr>
+<tr class="separator:aea26abcd6a687aa977c329ce6b8df7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9eeefda1d9b4aac6a78f0eb34c8075"><td class="memItemLeft" align="right" valign="top"><a id="aee9eeefda1d9b4aac6a78f0eb34c8075"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SECONDS_PER_MINUTE</b> = 60</td></tr>
+<tr class="separator:aee9eeefda1d9b4aac6a78f0eb34c8075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc99d2631830e2d0f592ae7f2ad94cd6"><td class="memItemLeft" align="right" valign="top"><a id="abc99d2631830e2d0f592ae7f2ad94cd6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SECONDS_PER_HOUR</b> = MINUTES_PER_HOUR * SECONDS_PER_MINUTE</td></tr>
+<tr class="separator:abc99d2631830e2d0f592ae7f2ad94cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1203cdbd27393ba7abeb40cbae17ee30"><td class="memItemLeft" align="right" valign="top"><a id="a1203cdbd27393ba7abeb40cbae17ee30"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_MKDIRS</b> = False</td></tr>
 <tr class="separator:a1203cdbd27393ba7abeb40cbae17ee30"><td class="memSeparator" colspan="2">&#160;</td></tr>
