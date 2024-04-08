@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "datetime": "2023-08-03T05:50:00Z",
+                "area": "4.46",
+                "status": null,
+                "lat": "60.38716700000001",
+                "lon": "-116.272017",
+                "ID": "NT",
+                "PRIORITY": "6",
+                "DURATION": "3",
+                "date_startup": "2023-08-02T12:00:00",
+                "ffmc_old": 86.0,
+                "dmc_old": 118.4,
+                "dc_old": 826.1,
+                "apcp_prev": 0,
+                "max_days": 3,
+                "utcoffset_hours": -7.0,
+                "start_time": "2023-08-03T01:00:00-07:00",
+                "wx": "wx.csv",
+                "sim_time": 299.41447202698328,
+                "dates_out": [
+                    "20230803",
+                    "20230804",
+                    "20230805"
+                ],
+                "postprocessed": true
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -116.269385335248174,
+                            60.387619581646476
+                        ],
+                        [
+                            -116.271102584404233,
+                            60.385864474477557
+                        ],
+                        [
+                            -116.274648589083,
+                            60.386714364659063
+                        ],
+                        [
+                            -116.272931491264558,
+                            60.3884695206375
+                        ],
+                        [
+                            -116.269385335248174,
+                            60.387619581646476
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
