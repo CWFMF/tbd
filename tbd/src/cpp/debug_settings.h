@@ -1,3 +1,7 @@
+/* Copyright (c) 2020,  Queen's Printer for Ontario */
+
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
 #pragma once
 
 // if in debug mode then set everything, otherwise uncomment turning things off if trying to debug specific things

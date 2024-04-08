@@ -1,17 +1,6 @@
-// Copyright (c) 2020-2021, Queen's Printer for Ontario.
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Affero General Public License as
-// published by the Free Software Foundation, either version 3 of the
-// License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
-//
-// You should have received a copy of the GNU Affero General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+/* Copyright (c) 2020,  Queen's Printer for Ontario */
+
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 #include "stdafx.h"
 #include <chrono>
@@ -25,6 +14,9 @@
 #include "FireWeatherDaily.h"
 namespace tbd::sim
 {
+#ifdef DEBUG_WEATHER
+constexpr auto FMT_OUT = "%ld,%d-%02d-%02d %02d:%02d:%02d,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f,%1.6f%s";
+#endif
 // constexpr double PCT_CPU = 0.8;
 // HACK: assume using half the CPUs probably means that faster cores are being used?
 constexpr double PCT_CPU = 0.5;
@@ -116,7 +108,7 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
     const auto file_out = string(Settings::outputDirectory()) + "/wx_hourly_out_read.csv";
     FILE* out = fopen(file_out.c_str(), "w");
     logging::check_fatal(nullptr == out, "Cannot open file %s for output", file_out.c_str());
-    fprintf(out, "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\n");
+    fprintf(out, "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\r\n");
 #endif
     string str;
     logging::info("Reading scenarios from '%s'", filename.c_str());
@@ -240,14 +232,16 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
           apcp_24h = 0;
           prev = &s_daily.at(static_cast<Day>(t.tm_yday));
         }
-#ifndef NDEBUG
+#ifdef DEBUG_WEATHER
         const auto month = t.tm_mon + 1;
-        logging::debug("%ld,%d-%02d-%02d %02d:00,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g",
+        logging::debug(FMT_OUT,
                        cur,
                        year_,
                        month,
                        t.tm_mday,
                        t.tm_hour,
+                       t.tm_min,
+                       t.tm_sec,
                        w->prec().asDouble(),
                        w->temp().asDouble(),
                        w->rh().asDouble(),
@@ -258,14 +252,17 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
                        w->dc().asDouble(),
                        w->isi().asDouble(),
                        w->bui().asDouble(),
-                       w->fwi().asDouble());
+                       w->fwi().asDouble(),
+                       "");
         fprintf(out,
-                "%ld,%d-%02d-%02d %02d:00,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n",
+                FMT_OUT,
                 cur,
                 year_,
                 month,
                 t.tm_mday,
                 t.tm_hour,
+                t.tm_min,
+                t.tm_sec,
                 w->prec().asDouble(),
                 w->temp().asDouble(),
                 w->rh().asDouble(),
@@ -276,7 +273,8 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
                 w->dc().asDouble(),
                 w->isi().asDouble(),
                 w->bui().asDouble(),
-                w->fwi().asDouble());
+                w->fwi().asDouble(),
+                "\r\n");
 #endif
       }
     }
@@ -292,7 +290,7 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
   //  const auto file_out = string(Settings::outputDirectory()) + "/wx_out.csv";
   //  FILE* out = fopen(file_out.c_str(), "w");
   //  logging::check_fatal(nullptr == out, "Cannot open file %s for output", file_out.c_str());
-  //  fprintf(out, "Scenario,Day,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\n");
+  //  fprintf(out, "Scenario,Day,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\r\n");
   //  size_t i = 1;
   //  for (auto& kv : wx)
   //  {
@@ -302,7 +300,7 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
   //      auto& day = kv2.first;
   //      auto& w = kv2.second;
   //      fprintf(out,
-  //              "%ld,%d,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n",
+  //              "%ld,%d,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\r\n,
   //              i,
   //              day,
   //              w.prec().asDouble(),
@@ -1092,8 +1090,8 @@ void Model::outputWeather(
   const auto file_out = string(Settings::outputDirectory()) + file_name;
   FILE* out = fopen(file_out.c_str(), "w");
   logging::check_fatal(nullptr == out, "Cannot open file %s for output", file_out.c_str());
-  fprintf(out, "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\n");
-  size_t i = 1;
+  fprintf(out, "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\r\n");
+  size_t i = 0;
   for (auto& kv : weather)
   {
     auto& s = kv.second;
@@ -1113,12 +1111,14 @@ void Model::outputWeather(
       if (nullptr != w)
       {
         fprintf(out,
-                "%ld,%d-%02ld-%02ld %02ld:00,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g\n",
+                FMT_OUT,
                 i,
                 year_,
-                month,
-                day_of_month,
-                hour - day * DAY_HOURS,
+                static_cast<uint8_t>(month),
+                static_cast<uint8_t>(day_of_month),
+                static_cast<uint8_t>(hour - day * DAY_HOURS),
+                0,
+                0,
                 w->prec().asDouble(),
                 w->temp().asDouble(),
                 w->rh().asDouble(),
@@ -1129,17 +1129,8 @@ void Model::outputWeather(
                 w->dc().asDouble(),
                 w->isi().asDouble(),
                 w->bui().asDouble(),
-                w->fwi().asDouble());
-      }
-      else
-      {
-        fprintf(out,
-                "%ld,%d-%02ld-%02ld %02ld:00,,,,,,,,,,,\n",
-                i,
-                year_,
-                month,
-                day_of_month,
-                hour - day * DAY_HOURS);
+                w->fwi().asDouble(),
+                "\r\n");
       }
       ++hour;
     }
