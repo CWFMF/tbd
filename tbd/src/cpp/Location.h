@@ -37,7 +37,7 @@ public:
 #endif
     : topo_data_(hash & HashMask)
   {
-#ifndef NDEBUG
+#ifdef DEBUG_GRIDS
     logging::check_fatal((row != unhashRow(topo_data_))
                            || column != unhashColumn(topo_data_),
                          "Hash is incorrect (%d, %d)",
@@ -56,7 +56,7 @@ public:
     Location(const Idx row, const Idx column) noexcept
     : Location(row, column, doHash(row, column) & HashMask)
   {
-#ifndef NDEBUG
+#ifdef DEBUG_GRIDS
     logging::check_fatal(row >= MAX_ROWS || column >= MAX_COLUMNS, "Location out of bounds (%d, %d)", row, column);
 #endif
   }

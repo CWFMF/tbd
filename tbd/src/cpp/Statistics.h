@@ -197,7 +197,7 @@ public:
    */
   [[nodiscard]] double percentile(const uint8_t i) const noexcept
   {
-#ifndef NDEBUG
+#ifdef DEBUG_STATISTICS
     logging::check_fatal(static_cast<size_t>(i) >= percentiles_.size(),
                          "Invalid percentile %d requested",
                          i);
@@ -275,7 +275,7 @@ public:
                                        [this](const double t, const double x) { return t + pow_int<2>(x - mean_); });
     standard_deviation_ = sqrt(total / n_);
     sample_variance_ = total / (n_ - 1);
-#ifndef NDEBUG
+#ifdef DEBUG_STATISTICS
     logging::check_fatal(min_ != percentiles_[0],
                          "Expected min to be %f not %f",
                          min_,

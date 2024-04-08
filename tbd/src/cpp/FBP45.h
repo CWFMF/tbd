@@ -18,7 +18,7 @@
 #include "FireSpread.h"
 #include "LookupTable.h"
 #include "StandardFuel.h"
-#ifndef NDEBUG
+#ifdef DEBUG_FUEL_VARIABLE
 #include "Log.h"
 #endif
 namespace tbd::fuel
@@ -1236,7 +1236,7 @@ template <class FuelSpring, class FuelSummer>
   // HACK: no way to tell which is which, so let's assume they have to be the same??
   // HACK: use a function so that DEBUG section doesn't get out of sync
   const auto for_spring = fct(fuel.spring());
-#ifndef NDEBUG
+#ifdef DEBUG_FUEL_VARIABLE
   const auto for_summer = fct(fuel.summer());
   logging::check_fatal(for_spring != for_summer, "Expected spring and summer cfb to be identical");
 #endif

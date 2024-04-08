@@ -46,7 +46,7 @@ void Scenario::clear() noexcept
   extinction_thresholds_.clear();
   spread_thresholds_by_ros_.clear();
   max_ros_ = 0;
-#ifndef NDEBUG
+#ifdef DEBUG_SIMULATION
   log_check_fatal(!scheduler_.empty(), "Scheduler isn't empty after clear()");
 #endif
   model_->releaseBurnedVector(unburnable_);
@@ -247,7 +247,7 @@ Scenario* Scenario::reset(mt19937* mt_extinction,
 }
 void Scenario::evaluate(const Event& event)
 {
-#ifndef NDEBUG
+#ifdef DEBUG_SIMULATION
   log_check_fatal(event.time() < current_time_,
                   "Expected time to be > %f but got %f",
                   current_time_,
@@ -453,7 +453,7 @@ Scenario& Scenario::operator=(Scenario&& rhs) noexcept
 }
 void Scenario::burn(const Event& event, const IntensitySize burn_intensity)
 {
-#ifndef NDEBUG
+#ifdef DEBUG_SIMULATION
   log_check_fatal(intensity_->hasBurned(event.cell()), "Re-burning cell");
 #endif
   // Observers only care about cells burning so do it here
@@ -481,7 +481,7 @@ string Scenario::add_log(const char* format) const noexcept
   iss << buffer << format;
   return iss.str();
 }
-#ifndef NDEBUG
+#ifdef DEBUG_PROBABILITIES
 void saveProbabilities(const string& dir,
                        const string& base_name,
                        vector<double>& thresholds)
@@ -497,7 +497,7 @@ void saveProbabilities(const string& dir,
 #endif
 Scenario* Scenario::run(map<double, ProbabilityMap*>* probabilities)
 {
-#ifndef NDEBUG
+#ifdef DEBUG_SIMULATION
   log_check_fatal(ran(), "Scenario has already run");
 #endif
   log_verbose("Starting");
@@ -525,7 +525,7 @@ Scenario* Scenario::run(map<double, ProbabilityMap*>* probabilities)
     {
       //      const auto cell = env.cell(location.hash());
       const auto cell = env.cell(location);
-#ifndef NDEBUG
+#ifdef DEBUG_SIMULATION
       log_check_fatal(fuel::is_null_fuel(cell), "Null fuel in perimeter");
 #endif
       // log_verbose("Adding point (%d, %d)",
@@ -584,7 +584,7 @@ Scenario* Scenario::run(map<double, ProbabilityMap*>* probabilities)
            currentFireSize());
 #endif
   ran_ = true;
-#ifndef NDEBUG
+#ifdef DEBUG_PROBABILITY
   // nice to have this get output when debugging, but only need it in extreme cases
   if (logging::Log::getLogLevel() <= logging::LOG_EXTENSIVE)
   {

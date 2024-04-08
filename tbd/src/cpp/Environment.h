@@ -347,7 +347,7 @@ protected:
           }
           const auto cell = Cell{h, s, a, f};
           values.at(h) = cell;
-#ifndef NDEBUG
+#ifdef DEBUG_GRIDS
 #ifndef VLD_RPTHOOK_INSTALL
           logging::check_fatal(cell.row() != r, "Cell row %d not %d", cell.row(), r);
           logging::check_fatal(cell.column() != c, "Cell column %d not %d", cell.column(), c);

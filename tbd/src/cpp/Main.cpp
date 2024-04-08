@@ -161,13 +161,9 @@ void register_index(T& index, string v, string help, bool required)
 }
 int main(const int argc, const char* const argv[])
 {
+  tbd::debug::show_debug_settings();
   ARGC = argc;
   ARGV = argv;
-#ifndef NDEBUG
-  printf("**************************************************\n");
-  printf("******************* DEBUG MODE *******************\n");
-  printf("**************************************************\n");
-#endif
   auto bin = string(ARGV[CUR_ARG++]);
   replace(bin.begin(), bin.end(), '\\', '/');
   const auto end = max(static_cast<size_t>(0), bin.rfind('/') + 1);

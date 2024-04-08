@@ -424,7 +424,7 @@ private:
    * \brief Environment to use for Model
    */
   topo::Environment* env_;
-#ifndef NDEBUG
+#ifdef DEBUG_WEATHER
   /**
    * \brief Write weather that was loaded to an output file
    */

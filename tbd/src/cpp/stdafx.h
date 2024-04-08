@@ -14,6 +14,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #pragma once
+#include "debug_settings.h"
+
 // #define VLD_FORCE_ENABLE
 // #include "vld.h"
 #define _USE_MATH_DEFINES

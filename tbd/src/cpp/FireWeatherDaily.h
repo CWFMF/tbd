@@ -20,9 +20,6 @@
 #include "FuelLookup.h"
 #include "FWI.h"
 #include "FireWeather.h"
-#ifndef NDEBUG
-#include "Log.h"
-#endif
 namespace tbd::wx
 {
 /**
