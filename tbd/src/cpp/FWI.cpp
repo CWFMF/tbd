@@ -9,6 +9,7 @@
 #ifndef DEBUG_FWI_WEATHER
 #undef CHECK_CALCULATION
 #endif
+#define USE_GIVEN
 #define CHECK_EPSILON 0.1
 // adapted from http://www.columbia.edu/~rf2426/index_files/FWI.vba
 //******************************************************************************************
@@ -416,10 +417,17 @@ Isi::Isi(double
          ,
          const Speed& wind,
          const Ffmc& ffmc) noexcept
+#ifdef USE_GIVEN
+  : Isi(value)
+{
+  const auto cmp = Isi(wind, ffmc).asDouble();
+#else
   : Isi(wind, ffmc)
 {
+  const auto cmp = value;
+#endif
 #ifdef CHECK_CALCULATION
-  logging::check_fatal(abs((*this - Isi(value)).asDouble()) >= CHECK_EPSILON,
+  logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
                        "ISI is incorrect %f, %f => %f not %f",
                        wind.asDouble(),
                        ffmc.asDouble(),
@@ -458,10 +466,17 @@ Bui::Bui(double
          ,
          const Dmc& dmc,
          const Dc& dc) noexcept
+#ifdef USE_GIVEN
+  : Bui(value)
+{
+  const auto cmp = Bui(dmc, dc).asDouble();
+#else
   : Bui(dmc, dc)
 {
+  const auto cmp = value;
+#endif
 #ifdef CHECK_CALCULATION
-  logging::check_fatal(abs((*this - Bui(value)).asDouble()) >= CHECK_EPSILON,
+  logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
                        "BUI is incorrect %f, %f => %f not %f",
                        dmc.asDouble(),
                        dc.asDouble(),
@@ -504,10 +519,17 @@ Fwi::Fwi(double
          ,
          const Isi& isi,
          const Bui& bui) noexcept
+#ifdef USE_GIVEN
+  : Fwi(value)
+{
+  const auto cmp = Fwi(isi, bui).asDouble();
+#else
   : Fwi(isi, bui)
 {
+  const auto cmp = value;
+#endif
 #ifdef CHECK_CALCULATION
-  logging::check_fatal(abs((*this - Fwi(value)).asDouble()) >= CHECK_EPSILON,
+  logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
                        "FWI is incorrect %f, %f => %f not %f",
                        isi.asDouble(),
                        bui.asDouble(),
