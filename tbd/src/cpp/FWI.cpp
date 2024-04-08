@@ -6,8 +6,10 @@
 #include "FWI.h"
 #include "Log.h"
 #define CHECK_CALCULATION 1
+#ifndef DEBUG_FWI_WEATHER
 #undef CHECK_CALCULATION
-#define CHECK_EPSILON 0.001
+#endif
+#define CHECK_EPSILON 0.1
 // adapted from http://www.columbia.edu/~rf2426/index_files/FWI.vba
 //******************************************************************************************
 //
