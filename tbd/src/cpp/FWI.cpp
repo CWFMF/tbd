@@ -411,7 +411,7 @@ Isi::Isi(const Speed& wind, const Ffmc& ffmc) noexcept
 {
 }
 Isi::Isi(double
-#ifdef CHECK_CALCULATION
+#if defined(CHECK_CALCULATION) | defined(USE_GIVEN)
            value
 #endif
          ,
@@ -420,11 +420,15 @@ Isi::Isi(double
 #ifdef USE_GIVEN
   : Isi(value)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = Isi(wind, ffmc).asDouble();
+#endif
 #else
   : Isi(wind, ffmc)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = value;
+#endif
 #endif
 #ifdef CHECK_CALCULATION
   logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
@@ -432,7 +436,7 @@ Isi::Isi(double
                        wind.asDouble(),
                        ffmc.asDouble(),
                        asDouble(),
-                       Isi(value).asDouble());
+                       cmp);
 #endif
 }
 //******************************************************************************************
@@ -460,7 +464,7 @@ static double calculate_bui(const Dmc& dmc, const Dc& dc) noexcept
              dmc.asDouble() - (1.0 - 0.8 * dc.asDouble() / (dmc.asDouble() + 0.4 * dc.asDouble())) * (0.92 + pow(0.0114 * dmc.asDouble(), 1.7)));
 }
 Bui::Bui(double
-#ifdef CHECK_CALCULATION
+#if defined(CHECK_CALCULATION) | defined(USE_GIVEN)
            value
 #endif
          ,
@@ -469,11 +473,15 @@ Bui::Bui(double
 #ifdef USE_GIVEN
   : Bui(value)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = Bui(dmc, dc).asDouble();
+#endif
 #else
   : Bui(dmc, dc)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = value;
+#endif
 #endif
 #ifdef CHECK_CALCULATION
   logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
@@ -481,7 +489,7 @@ Bui::Bui(double
                        dmc.asDouble(),
                        dc.asDouble(),
                        asDouble(),
-                       Bui(value).asDouble());
+                       cmp);
 #endif
 }
 Bui::Bui(const Dmc& dmc, const Dc& dc) noexcept
@@ -513,7 +521,7 @@ static double calculate_fwi(const Isi& isi, const Bui& bui) noexcept
   return b;
 }
 Fwi::Fwi(double
-#ifdef CHECK_CALCULATION
+#if defined(CHECK_CALCULATION) | defined(USE_GIVEN)
            value
 #endif
          ,
@@ -522,11 +530,15 @@ Fwi::Fwi(double
 #ifdef USE_GIVEN
   : Fwi(value)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = Fwi(isi, bui).asDouble();
+#endif
 #else
   : Fwi(isi, bui)
 {
+#ifdef CHECK_CALCULATION
   const auto cmp = value;
+#endif
 #endif
 #ifdef CHECK_CALCULATION
   logging::check_fatal(abs(asDouble() - cmp) >= CHECK_EPSILON,
@@ -534,7 +546,7 @@ Fwi::Fwi(double
                        isi.asDouble(),
                        bui.asDouble(),
                        asDouble(),
-                       Fwi(value).asDouble());
+                       cmp);
 #endif
 }
 Fwi::Fwi(const Isi& isi, const Bui& bui) noexcept
