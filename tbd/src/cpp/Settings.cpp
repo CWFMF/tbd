@@ -86,9 +86,13 @@ public:
    * \brief Minimum rate of spread before fire is considered to be spreading (m/min)
    * \return Minimum rate of spread before fire is considered to be spreading (m/min)
    */
-  [[nodiscard]] constexpr double minimumRos() const noexcept
+  [[nodiscard]] double minimumRos() const noexcept
   {
     return minimum_ros_;
+  }
+  void setMinimumRos(const double value) noexcept
+  {
+    minimum_ros_ = value;
   }
   /**
    * \brief Maximum distance that the fire is allowed to spread in one step (# of cells)
@@ -275,7 +279,7 @@ private:
   /**
    * \brief Minimum rate of spread before fire is considered to be spreading (m/min)
    */
-  double minimum_ros_;
+  atomic<double> minimum_ros_;
   /**
    * \brief Maximum distance that the fire is allowed to spread in one step (# of cells)
    */
@@ -552,6 +556,14 @@ void Settings::setSaveAsAscii(const bool value) noexcept
 {
   SettingsImplementation::instance().save_as_ascii = value;
 }
+bool Settings::savePoints() noexcept
+{
+  return SettingsImplementation::instance().save_points;
+}
+void Settings::setSavePoints(const bool value) noexcept
+{
+  SettingsImplementation::instance().save_points = value;
+}
 bool Settings::saveIntensity() noexcept
 {
   return SettingsImplementation::instance().save_intensity;
@@ -587,6 +599,10 @@ void Settings::setSaveSimulationArea(const bool value) noexcept
 double Settings::minimumRos() noexcept
 {
   return SettingsImplementation::instance().minimumRos();
+}
+void Settings::setMinimumRos(const double value) noexcept
+{
+  SettingsImplementation::instance().setMinimumRos(value);
 }
 double Settings::maximumSpreadDistance() noexcept
 {

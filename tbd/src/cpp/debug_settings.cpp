@@ -32,6 +32,9 @@ void show_debug_settings()
 #ifdef NDEBUG
   printf_centered("NDEBUG");
 #endif
+#ifdef DEBUG_FBP
+  printf_centered("DEBUG_FBP");
+#endif
 #ifdef DEBUG_FUEL_VARIABLE
   printf_centered("DEBUG_FUEL_VARIABLE");
 #endif
@@ -41,8 +44,11 @@ void show_debug_settings()
 #ifdef DEBUG_GRIDS
   printf_centered("DEBUG_GRIDS");
 #endif
-#ifdef DEBUG_PROBAILITY
-  printf_centered("DEBUG_PROBAILITY");
+#ifdef DEBUG_POINTS
+  printf_centered("DEBUG_POINTS");
+#endif
+#ifdef DEBUG_PROBABILITY
+  printf_centered("DEBUG_PROBABILITY");
 #endif
 #ifdef DEBUG_SIMULATION
   printf_centered("DEBUG_SIMULATION");

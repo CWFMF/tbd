@@ -444,6 +444,8 @@ private:
   //  *
   //  */
   std::chrono::steady_clock::time_point last_checked_;
+  double latitude_;
+  double longitude_;
 };
 }
 }

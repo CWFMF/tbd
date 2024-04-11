@@ -110,6 +110,35 @@ void make_directory_recursive(const char* dir) noexcept
     }
   make_directory(tmp);
 }
+tm to_tm(const int year,
+         const int month,
+         const int day,
+         const int hour,
+         const int minute)
+{
+  // do this to calculate yday
+  tm t{};
+  t.tm_year = year - 1900;
+  t.tm_mon = month - 1;
+  t.tm_mday = day;
+  t.tm_hour = hour;
+  t.tm_min = minute;
+  mktime(&t);
+  return t;
+}
+double to_time(const tm& t)
+{
+  return t.tm_yday
+       + ((t.tm_hour + (static_cast<double>(t.tm_min) / HOUR_MINUTES)) / DAY_HOURS);
+}
+double to_time(const int year,
+               const int month,
+               const int day,
+               const int hour,
+               const int minute)
+{
+  return to_time(to_tm(year, month, day, hour, minute));
+}
 void read_date(istringstream* iss, string* str, tm* t)
 {
   *t = {};

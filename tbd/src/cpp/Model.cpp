@@ -70,14 +70,16 @@ Model::Model(const topo::StartPoint& start_point,
   : start_time_(tm()),
     running_since_(Clock::now()),
     time_limit_(Settings::maximumTimeSeconds()),
-    env_(env)
+    env_(env),
+    latitude_(start_point.latitude()),
+    longitude_(start_point.longitude())
 {
   logging::debug("Calculating for (%f, %f)", start_point.latitude(), start_point.longitude());
   const auto nd_for_point =
-    calculate_nd_for_point(env->elevation(), start_point);
+    calculate_nd_ref_for_point(env->elevation(), start_point);
   for (auto day = 0; day < MAX_DAYS; ++day)
   {
-    nd_.at(static_cast<size_t>(day)) = static_cast<int>(day - nd_for_point);
+    nd_.at(static_cast<size_t>(day)) = static_cast<int>(abs(day - nd_for_point));
     logging::verbose("Day %d has nd %d, is%s green, %d%% curing",
                      day,
                      nd_.at(static_cast<size_t>(day)),
@@ -1088,9 +1090,15 @@ void Model::outputWeather(
   const char* file_name)
 {
   const auto file_out = string(Settings::outputDirectory()) + file_name;
+  const auto file_out_fbp = string(Settings::outputDirectory()) + string("fbp_") + file_name;
   FILE* out = fopen(file_out.c_str(), "w");
+  FILE* out_fbp = fopen(file_out_fbp.c_str(), "w");
   logging::check_fatal(nullptr == out, "Cannot open file %s for output", file_out.c_str());
-  fprintf(out, "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI\r\n");
+  constexpr auto HEADER_FWI = "Scenario,Date,PREC,TEMP,RH,WS,WD,FFMC,DMC,DC,ISI,BUI,FWI";
+  constexpr auto HEADER_FBP_PRIMARY = "CFB,CFC,FD,HFI,RAZ,ROS,SFC,TFC";
+  // constexpr auto HEADER_FBP_SECONDARY = "BE,SF,ISI,FFMC,FMC,D0,RSO,CSI,FROS,BROS,HROSt,FROSt,BROSt,FCFB,BCFB,FFI,BFI,FTFC,BTFC,TI,FTI,BTI,LB,LBt,WSV,DH,DB,DF,TROS,TROSt,TCFB,TFI,TTFC,TTI";
+  fprintf(out, "%s\r\n", HEADER_FWI);
+  fprintf(out_fbp, "%s,%s\r\n", HEADER_FWI, HEADER_FBP_PRIMARY);
   size_t i = 0;
   for (auto& kv : weather)
   {
@@ -1131,12 +1139,127 @@ void Model::outputWeather(
                 w->bui().asDouble(),
                 w->fwi().asDouble(),
                 "\r\n");
+        // printf(FMT_OUT,
+        //        i,
+        //        year_,
+        //        static_cast<uint8_t>(month),
+        //        static_cast<uint8_t>(day_of_month),
+        //        static_cast<uint8_t>(hour - day * DAY_HOURS),
+        //        0,
+        //        0,
+        //        w->prec().asDouble(),
+        //        w->temp().asDouble(),
+        //        w->rh().asDouble(),
+        //        w->wind().speed().asDouble(),
+        //        w->wind().direction().asDouble(),
+        //        w->ffmc().asDouble(),
+        //        w->dmc().asDouble(),
+        //        w->dc().asDouble(),
+        //        w->isi().asDouble(),
+        //        w->bui().asDouble(),
+        //        w->fwi().asDouble(),
+        //        "\r\n");
+        // SlopeSize SLOPE_MAX = 300;
+        SlopeSize SLOPE_MAX = MAX_SLOPE_FOR_DISTANCE;
+        SlopeSize SLOPE_INCREMENT = 200;
+        AspectSize ASPECT_MAX = 360;
+        AspectSize ASPECT_INCREMENT = 450;
+        const auto lookup = tbd::sim::Settings::fuelLookup();
+        const auto fuel = lookup.byName("C-2");
+        for (SlopeSize slope = 0; slope < SLOPE_MAX; slope += SLOPE_INCREMENT)
+        {
+          for (AspectSize aspect = 0; aspect < ASPECT_MAX; aspect += ASPECT_INCREMENT)
+          {
+            // for (auto f : lookup.usedFuels())
+            // const auto FUELS = {"C-1", "C-2", "C-3", "C-4", "C-5", "C-6", "C-7"};
+            // for (auto fuel_name : FUELS)
+            {
+              const auto fuel_name = fuel->name();
+
+              // calculate and output fbp
+              // const auto spread = tbd::sim::SpreadInfo(year_,
+              const tbd::sim::SpreadInfo spread(year_,
+                                                month,
+                                                day_of_month,
+                                                hour,
+                                                0,
+                                                latitude_,
+                                                longitude_,
+                                                env_->elevation(),
+                                                slope,
+                                                aspect,
+                                                fuel_name,
+                                                w);
+              // constexpr auto HEADER_FBP_PRIMARY = "CFB,CFC,FD,HFI,RAZ,ROS,SFC,TFC";
+              constexpr auto FMT_FBP_OUT = "%ld,%d-%02d-%02d %02d:%02d:%02d,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g,%c,%1.6g,%1.6g,%1.6g,%1.6g,%1.6g%s";
+              printf(FMT_FBP_OUT,
+                     i,
+                     year_,
+                     static_cast<uint8_t>(month),
+                     static_cast<uint8_t>(day_of_month),
+                     static_cast<uint8_t>(hour - day * DAY_HOURS),
+                     0,
+                     0,
+                     w->prec().asDouble(),
+                     w->temp().asDouble(),
+                     w->rh().asDouble(),
+                     w->wind().speed().asDouble(),
+                     w->wind().direction().asDouble(),
+                     w->ffmc().asDouble(),
+                     w->dmc().asDouble(),
+                     w->dc().asDouble(),
+                     w->isi().asDouble(),
+                     w->bui().asDouble(),
+                     w->fwi().asDouble(),
+                     spread.crownFractionBurned(),
+                     spread.crownFuelConsumption(),
+                     spread.fireDescription(),
+                     spread.maxIntensity(),
+                     spread.headDirection().asDegrees(),
+                     spread.headRos(),
+                     spread.surfaceFuelConsumption(),
+                     spread.totalFuelConsumption(),
+                     "\r\n");
+              fprintf(out_fbp,
+                      FMT_FBP_OUT,
+                      i,
+                      year_,
+                      static_cast<uint8_t>(month),
+                      static_cast<uint8_t>(day_of_month),
+                      static_cast<uint8_t>(hour - day * DAY_HOURS),
+                      0,
+                      0,
+                      w->prec().asDouble(),
+                      w->temp().asDouble(),
+                      w->rh().asDouble(),
+                      w->wind().speed().asDouble(),
+                      w->wind().direction().asDouble(),
+                      w->ffmc().asDouble(),
+                      w->dmc().asDouble(),
+                      w->dc().asDouble(),
+                      w->isi().asDouble(),
+                      w->bui().asDouble(),
+                      w->fwi().asDouble(),
+                      spread.crownFractionBurned(),
+                      spread.crownFuelConsumption(),
+                      spread.fireDescription(),
+                      spread.maxIntensity(),
+                      spread.headDirection().asDegrees(),
+                      spread.headRos(),
+                      spread.surfaceFuelConsumption(),
+                      spread.totalFuelConsumption(),
+                      "\r\n");
+            }
+          }
+        }
       }
       ++hour;
     }
     ++i;
   }
   logging::check_fatal(0 != fclose(out), "Could not close file %s", file_out.c_str());
+  logging::check_fatal(0 != fclose(out_fbp), "Could not close file %s", file_out_fbp.c_str());
+  exit(-1);
 }
 #endif
 }

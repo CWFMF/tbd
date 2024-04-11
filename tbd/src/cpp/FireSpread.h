@@ -15,7 +15,8 @@ class Scenario;
 /**
  * \brief Possible results of an attempt to spread.
  */
-int calculate_nd_for_point(int elevation, const topo::Point& point) noexcept;
+int calculate_nd_ref_for_point(const int elevation, const topo::Point& point) noexcept;
+int calculate_nd_for_point(const Day day, const int elevation, const topo::Point& point);
 /**
  * \brief Information regarding spread within a Cell for a specific Scenario and time.
  */
@@ -50,7 +51,7 @@ public:
    * \param threshold Probability of spread threshold
    * \return Rate of spread at given threshold (m/min)
    */
-  [[nodiscard]] static constexpr double calculateRosFromThreshold(const double threshold)
+  [[nodiscard]] static constexpr double calculateRosFromThreshold(double threshold)
   {
     // for some reason it returns -nan instead of nan if it's 1, so return this instead
     if (1.0 == threshold)
@@ -201,9 +202,10 @@ public:
    */
   [[nodiscard]] constexpr double foliarMoisture() const
   {
+    // don't need to check  `&& nd_ < 50` in second part because of reordering
     return nd_ >= 50
            ? 120.0
-         : nd_ >= 30 && nd_ < 50
+         : nd_ >= 30
            ? 32.9 + 3.17 * nd_ - 0.0288 * nd_ * nd_
            : 85.0 + 0.0189 * nd_ * nd_;
   }
@@ -226,6 +228,48 @@ public:
     head_ros_ = -1;
     nd_ = -1;
   };
+  SpreadInfo(
+    const int year,
+    const int month,
+    const int day,
+    const int hour,
+    const int minute,
+    const double latitude,
+    const double longitude,
+    const ElevationSize elevation,
+    const SlopeSize slope,
+    const AspectSize aspect,
+    const char* fuel_name,
+    const wx::FwiWeather* weather);
+  SpreadInfo(
+    const tm& start_date,
+    const double latitude,
+    const double longitude,
+    const ElevationSize elevation,
+    const SlopeSize slope,
+    const AspectSize aspect,
+    const char* fuel_name,
+    const wx::FwiWeather* weather);
+  double crownFractionBurned() const
+  {
+    return cfb_;
+  }
+  double crownFuelConsumption() const
+  {
+    return cfc_;
+  }
+  char fireDescription() const
+  {
+    return cfb_ >= 0.9 ? 'C' : (cfb_ < 0.1 ? 'S' : 'I');
+  }
+  double surfaceFuelConsumption() const
+  {
+    return sfc_;
+  }
+  double totalFuelConsumption() const
+  {
+    return tfc_;
+  }
 private:
   // HACK: have private constructor so is_spreading() can short-circuit the calculation,
   // but nothing else can get a partially constructed SpreadInfo object
@@ -245,6 +289,30 @@ private:
              const wx::FwiWeather* weather,
              const wx::FwiWeather* weather_daily);
   /**
+   * Actual fire spread calculation without needing to worry about settings or scenarios
+   */
+  SpreadInfo(double time,
+             double min_ros,
+             double cell_size,
+             const SlopeSize slope,
+             const AspectSize aspect,
+             const char* fuel_name,
+             int nd,
+             const wx::FwiWeather* weather);
+  SpreadInfo(double time,
+             double min_ros,
+             double cell_size,
+             const topo::SpreadKey& key,
+             int nd,
+             const wx::FwiWeather* weather);
+  SpreadInfo(double time,
+             double min_ros,
+             double cell_size,
+             const topo::SpreadKey& key,
+             int nd,
+             const wx::FwiWeather* weather,
+             const wx::FwiWeather* weather_daily);
+  /**
    * Do initial spread calculations
    * \return Initial head ros calculation (-1 for none)
    */
@@ -252,8 +320,6 @@ private:
                         const wx::FwiWeather& weather,
                         double& ffmc_effect,
                         double& wsv,
-                        bool& is_crown,
-                        double& sfc,
                         double& rso,
                         double& raz,
                         const fuel::FuelType* const fuel,
@@ -287,6 +353,11 @@ private:
    * \brief Head fire rate of spread (m/min)
    */
   double head_ros_;
+  double cfb_;
+  double cfc_;
+  double tfc_;
+  double sfc_;
+  bool is_crown_;
   /**
    * \brief Head fire spread direction
    */

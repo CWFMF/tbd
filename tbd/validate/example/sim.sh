@@ -32,4 +32,13 @@ rm -rf ${DIR_OUT}
     --output_date_offsets "[1]" \
     --wx "wx.csv"
 
+
+DIR_ORIG="${DIR_OUT}.orig"
+if [ -d ${DIR_ORIG} ]; then
+diff -rq ${DIR_OUT} ${DIR_ORIG}
+else
+echo "Storing outputs as original outputs since those don't exist yet"
+cp -r ${DIR_OUT}/ ${DIR_ORIG}
+fi
+
 popd

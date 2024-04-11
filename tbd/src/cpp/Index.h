@@ -170,10 +170,17 @@ public:
   using Index::Index;
   //! @endcond
 };
-static constexpr LogValue LOG_0_7{-0.15490195998574316928778374140736};
-static constexpr LogValue LOG_0_75{-0.12493873660829995313244988619387};
-static constexpr LogValue LOG_0_8{-0.09691001300805641435878331582652};
-static constexpr LogValue LOG_0_85{-0.07058107428570726667356900039616};
-static constexpr LogValue LOG_0_9{-0.04575749056067512540994419348977};
-static constexpr LogValue LOG_1_0{0};
+// FIX: why is this log10 and not just log?????
+// static constexpr LogValue LOG_0_7{-0.15490195998574316928778374140736};
+// static constexpr LogValue LOG_0_75{-0.12493873660829995313244988619387};
+// static constexpr LogValue LOG_0_8{-0.09691001300805641435878331582652};
+// static constexpr LogValue LOG_0_85{-0.07058107428570726667356900039616};
+// static constexpr LogValue LOG_0_9{-0.04575749056067512540994419348977};
+// static constexpr LogValue LOG_1_0{0};
+static constexpr LogValue LOG_0_7{log(0.7)};
+static constexpr LogValue LOG_0_75{log(0.75)};
+static constexpr LogValue LOG_0_8{log(0.8)};
+static constexpr LogValue LOG_0_85{log(0.85)};
+static constexpr LogValue LOG_0_9{log(0.9)};
+static constexpr LogValue LOG_1_0{log(1.0)};
 }

@@ -521,4 +521,21 @@ private:
 {
   return !(lhs != rhs);
 }
+constexpr auto FFMC_MOISTURE_CONSTANT = 147.27723;
+constexpr double ffmc_to_moisture(const double ffmc) noexcept
+{
+  return FFMC_MOISTURE_CONSTANT * (101.0 - ffmc) / (59.5 + ffmc);
+}
+constexpr double ffmc_to_moisture(const Ffmc& ffmc) noexcept
+{
+  return ffmc_to_moisture(ffmc.asDouble());
+}
+constexpr double moisture_to_ffmc(const double m) noexcept
+{
+  return (59.5 * (250.0 - m) / (FFMC_MOISTURE_CONSTANT + m));
+}
+constexpr Ffmc ffmc_from_moisture(const double m) noexcept
+{
+  return Ffmc(moisture_to_ffmc(m));
+}
 }

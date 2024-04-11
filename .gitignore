@@ -15,4 +15,4 @@ pyfire/venv
 **/logs
 **/build
 **/private
-
+**/output*

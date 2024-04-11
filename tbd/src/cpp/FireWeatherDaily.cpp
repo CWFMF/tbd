@@ -49,10 +49,6 @@ inline double wind_speed_adjustment(const int hour) noexcept
 {
   return BY_HOUR.at(static_cast<size_t>(hour));
 }
-constexpr Ffmc ffmc_from_moisture(const double x) noexcept
-{
-  return Ffmc(59.5 * (250 - x) / (147.2 + x));
-}
 inline Ffmc ffmc_1200(const double x,
                       const double x_sq,
                       const double x_cu,

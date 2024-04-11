@@ -252,7 +252,7 @@ static double calculate_ffmc(const Temperature& temperature,
                              const Ffmc& ffmc_previous) noexcept
 {
   //'''/* 1  '*/
-  auto mo = 147.2 * (101.0 - ffmc_previous.asDouble()) / (59.5 + ffmc_previous.asDouble());
+  auto mo = ffmc_to_moisture(ffmc_previous);
   if (rain.asDouble() > 0.5)
   {
     //'''/* 2  '*/
@@ -272,7 +272,7 @@ static double calculate_ffmc(const Temperature& temperature,
   }
   const auto m = find_m(temperature, rh, wind, mo);
   //'''/* 10 '*/
-  return (59.5 * (250.0 - m) / (147.2 + m));
+  return moisture_to_ffmc(m);
 }
 Ffmc::Ffmc(const Temperature& temperature,
            const RelativeHumidity& rh,
@@ -400,7 +400,7 @@ static double calculate_isi(const Speed& wind, const Ffmc& ffmc) noexcept
   //'''/* 24  '*/
   const auto f_wind = exp(0.05039 * wind.asDouble());
   //'''/* 1   '*/
-  const auto m = 147.2 * (101 - ffmc.asDouble()) / (59.5 + ffmc.asDouble());
+  const auto m = ffmc_to_moisture(ffmc);
   //'''/* 25  '*/
   const auto f_f = 91.9 * exp(-0.1386 * m) * (1.0 + pow(m, 5.31) / 49300000.0);
   //'''/* 26  '*/
@@ -415,8 +415,16 @@ Isi::Isi(double
            value
 #endif
          ,
-         const Speed& wind,
-         const Ffmc& ffmc) noexcept
+         const Speed&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           wind
+#endif
+         ,
+         const Ffmc&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           ffmc
+#endif
+         ) noexcept
 #ifdef USE_GIVEN
   : Isi(value)
 {
@@ -468,8 +476,16 @@ Bui::Bui(double
            value
 #endif
          ,
-         const Dmc& dmc,
-         const Dc& dc) noexcept
+         const Dmc&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           dmc
+#endif
+         ,
+         const Dc&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           dc
+#endif
+         ) noexcept
 #ifdef USE_GIVEN
   : Bui(value)
 {
@@ -525,8 +541,16 @@ Fwi::Fwi(double
            value
 #endif
          ,
-         const Isi& isi,
-         const Bui& bui) noexcept
+         const Isi&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           isi
+#endif
+         ,
+         const Bui&
+#if defined(CHECK_CALCULATION) | !defined(USE_GIVEN)
+           bui
+#endif
+         ) noexcept
 #ifdef USE_GIVEN
   : Fwi(value)
 {
@@ -624,9 +648,7 @@ FwiWeather::FwiWeather(istringstream* iss,
 }
 double ffmc_effect(const Ffmc& ffmc) noexcept
 {
-  const auto v = ffmc.asDouble();
-  // FIX: use higher precision constant
-  const auto mc = 147.2 * (101.0 - v) / (59.5 + v);
+  const auto mc = ffmc_to_moisture(ffmc);
   return 91.9 * exp(-0.1386 * mc) * (1 + pow(mc, 5.31) / 49300000.0);
 }
 FwiWeather::FwiWeather(const Temperature& temp,
@@ -648,7 +670,7 @@ FwiWeather::FwiWeather(const Temperature& temp,
     bui_(Bui(bui.asDouble(), dmc, dc)),
     fwi_(Fwi(fwi.asDouble(), isi, bui)),
     // FIX: this is duplicated in ffmc_effect
-    mc_ffmc_pct_(147.2 * (101 - ffmc.asDouble()) / (59.5 + ffmc.asDouble())),
+    mc_ffmc_pct_(ffmc_to_moisture(ffmc)),
     mc_dmc_pct_(exp((dmc.asDouble() - 244.72) / -43.43) + 20),
     ffmc_effect_(ffmc_effect(ffmc))
 {

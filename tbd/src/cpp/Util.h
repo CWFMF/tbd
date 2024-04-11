@@ -135,9 +135,17 @@ template <class T>
  */
 static constexpr double RAD_360 = to_radians(360);
 /**
+ * \brief 270 degrees in radians
+ */
+static constexpr double RAD_270 = to_radians(270);
+/**
  * \brief 180 degrees in radians
  */
 static constexpr double RAD_180 = to_radians(180);
+/**
+ * \brief 90 degrees in radians
+ */
+static constexpr double RAD_090 = to_radians(90);
 /**
  * \brief Convert radians to degrees
  * \param radians Value in radians
@@ -258,6 +266,25 @@ template <unsigned int N>
   static const auto b = pow_int<N, int64_t>(10);
   return round(value * b) / b;
 }
+/**
+ * \brief Convert date and time into internal represenation
+ * \param year year
+ * \param month month
+ * \param day day of month
+ * \param hour hour
+ * \param minute minute
+ */
+tm to_tm(const int year,
+         const int month,
+         const int day,
+         const int hour,
+         const int minute);
+double to_time(const tm& t);
+double to_time(const int year,
+               const int month,
+               const int day,
+               const int hour,
+               const int minute);
 /**
  * \brief Read a date from the given stream
  * \param iss Stream to read from
@@ -400,4 +427,17 @@ void month_and_day(const int year, const size_t day_of_year, size_t* month, size
  * @return YYYY-mm-dd HH:00 time string for given time
  */
 [[nodiscard]] string make_timestamp(const int year, const double time);
+/**
+ * Convert circle angle to the angle that would be on an ellipse with
+ * given length-to-breadth ratio
+ * @param length_to_breadth length-to-breadth ratio
+ * @param theta direction to convert to ellipse direction (radians)
+ */
+[[nodiscard]] inline double ellipse_angle(const double length_to_breadth,
+                                          const double theta)
+{
+  return (util::fix_radians(
+    atan2(sin(theta) / length_to_breadth,
+          cos(theta))));
+}
 }

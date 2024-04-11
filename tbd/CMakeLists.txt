@@ -11,6 +11,7 @@ message("CMAKE_BUILD_TYPE = ${CMAKE_BUILD_TYPE}")
 
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++23")
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+# set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wfatal-errors")
 add_compile_options(
         "$<$<CONFIG:RELEASE>:-O3;>"
         "$<$<CONFIG:DEBUG>:-O0;-fno-omit-frame-pointer;-g;>"

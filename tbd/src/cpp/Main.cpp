@@ -209,6 +209,7 @@ int main(const int argc, const char* const argv[])
     register_flag(&Settings::setRunAsync, false, "-s", "Run in synchronous mode");
     register_flag(&Settings::setDeterministic, true, "--deterministic", "Run deterministically (100% chance of spread & survival)");
     register_flag(&Settings::setSaveAsAscii, true, "--ascii", "Save grids as .asc");
+    register_flag(&Settings::setSavePoints, true, "--points", "Save simulation points to file");
     register_flag(&Settings::setSaveIntensity, false, "--no-intensity", "Do not output intensity grids");
     register_flag(&Settings::setSaveProbability, false, "--no-probability", "Do not output probability grids");
     register_flag(&Settings::setSaveOccurrence, true, "--occurrence", "Output occurrence grids");

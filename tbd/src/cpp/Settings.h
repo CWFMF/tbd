@@ -80,6 +80,17 @@ public:
    */
   static void setSaveAsAscii(bool value) noexcept;
   /**
+   * \brief Whether or not to save points used for spread
+   * \return Whether or not to save points used for spread
+   */
+  [[nodiscard]] static bool savePoints() noexcept;
+  /**
+   * \brief Set whether or not to save points used for spread
+   * \param value Whether or not to save points used for spread
+   * \return None
+   */
+  static void setSavePoints(bool value) noexcept;
+  /**
    * \brief Whether or not to save intensity grids
    * \return Whether or not to save intensity grids
    */
@@ -128,6 +139,7 @@ public:
    * \return Minimum rate of spread before fire is considered to be spreading (m/min)
    */
   [[nodiscard]] static double minimumRos() noexcept;
+  static void setMinimumRos(double value) noexcept;
   /**
    * \brief Maximum distance that the fire is allowed to spread in one step (# of cells)
    * \return Maximum distance that the fire is allowed to spread in one step (# of cells)

@@ -3,12 +3,7 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 #pragma once
-#include <list>
-#include <map>
-#include <memory>
-#include <set>
-#include <string>
-#include <vector>
+#include "stdafx.h"
 #include "EventCompare.h"
 #include "FireWeather.h"
 #include "IntensityMap.h"
@@ -19,6 +14,7 @@
 #include "FireSpread.h"
 namespace tbd::sim
 {
+class LogPoints;
 class IObserver;
 class Event;
 using PointSet = vector<InnerPos>;
@@ -633,6 +629,7 @@ protected:
    * \brief Whether this has been cancelled.
    */
   bool cancelled_ = false;
+  shared_ptr<LogPoints> log_points_;
   /**
    * \brief How many times point spread event has happened
    */
