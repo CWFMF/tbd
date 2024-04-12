@@ -420,7 +420,7 @@ SpreadInfo::SpreadInfo(const double time,
     [&add_offsets, &calculate_ros](const double angle_radians) { return add_offsets(angle_radians, calculate_ros(angle_radians)); };
   // bool added = add_offset(raz, head_ros_);
   bool added = true;
-#define STEP_X 0.1
+#define STEP_X 0.2
 #define STEP_MAX_DEGREES 10.0
 #define STEP_MAX util::to_radians(STEP_MAX_DEGREES)
   double step_x = STEP_X;
@@ -433,10 +433,11 @@ SpreadInfo::SpreadInfo(const double time,
   // double step = 1;
   // double last_step = 0;
   size_t num_angles = 0;
-  while (added && cur_x > 0)
+  double step_max = STEP_MAX / pow(l_b, 0.5);
+  while (added && cur_x > (STEP_MAX / 2.0))
   {
     ++num_angles;
-    theta = min(acos(cur_x), last_theta + STEP_MAX);
+    theta = min(acos(cur_x), last_theta + step_max);
     angle = ellipse_angle(l_b, theta);
     added = add_offsets_calc_ros(angle);
     cur_x = cos(theta);
@@ -448,6 +449,10 @@ SpreadInfo::SpreadInfo(const double time,
            util::to_degrees(last_angle));
     last_theta = theta;
     last_angle = angle;
+    if (theta > (STEP_MAX / 2.0))
+    {
+      step_max = STEP_MAX;
+    }
     cur_x -= step_x;
   }
   if (added)
@@ -469,10 +474,11 @@ SpreadInfo::SpreadInfo(const double time,
   cur_x -= (step_x / 2.0);
   // trying to pick less rear points
   step_x *= l_b;
-  double max_angle = util::RAD_180 - STEP_MAX;
-  double min_x = min(-1.0 + step_x,
-                     cos(max_angle));
-  while (added && cur_x > min_x)
+  // just trying random things now
+  // double max_angle = util::RAD_180 - (pow(l_b, 1.5) * STEP_MAX);
+  double max_angle = util::RAD_180 - (l_b * STEP_MAX);
+  double min_x = cos(max_angle);
+  while (added && cur_x >= min_x)
   {
     ++num_angles;
     theta = max(acos(cur_x), last_theta + STEP_MAX);

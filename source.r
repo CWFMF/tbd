@@ -4,6 +4,9 @@ library(data.table)
 library(terra)
 library(lattice)
 library(rasterVis)
+
+DIR <- "../data/test_constant"
+
 # colours <- list(
 # "1"=list(r=255, g=0, b=0),
 # "2"=list(r=255, g=255, b=255),
@@ -97,7 +100,6 @@ names(hex) <- 0:255
 results <- as.data.table(results)
 write.table(results, file = "source.clr", col.names = FALSE, row.names = FALSE, sep = " ")
 
-DIR <- "../data/test_output"
 imgs <- list.files(DIR, pattern = "^source.tif$", full.names = TRUE, recursive = TRUE)
 imgs <- imgs[grep("C2", imgs)]
 rasters <- lapply(imgs, function(img) {
