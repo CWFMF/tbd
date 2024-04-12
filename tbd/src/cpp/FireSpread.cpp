@@ -430,9 +430,18 @@ SpreadInfo::SpreadInfo(const double time,
   double last_theta = 0;
   double cur_x = 1.0;
   double last_angle = 0;
+  // widest point should be at origin, which is 'c' away from origin
+  double widest = atan2(flank_ros, c);
+  printf("head_ros_ = %f, back_ros = %f, flank_ros = %f, c = %f, widest = %f\n",
+         head_ros_,
+         back_ros,
+         flank_ros,
+         c,
+         util::to_degrees(widest));
   // double step = 1;
   // double last_step = 0;
   size_t num_angles = 0;
+  double widest_x = cos(widest);
   double step_max = STEP_MAX / pow(l_b, 0.5);
   while (added && cur_x > (STEP_MAX / 4.0))
   {
@@ -454,6 +463,10 @@ SpreadInfo::SpreadInfo(const double time,
       step_max = STEP_MAX;
     }
     cur_x -= step_x;
+    if (cur_x > widest_x && abs(cur_x - widest_x) < step_x)
+    {
+      cur_x = widest_x;
+    }
   }
   if (added)
   {
