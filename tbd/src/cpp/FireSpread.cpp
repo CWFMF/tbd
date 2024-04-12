@@ -434,7 +434,7 @@ SpreadInfo::SpreadInfo(const double time,
   // double last_step = 0;
   size_t num_angles = 0;
   double step_max = STEP_MAX / pow(l_b, 0.5);
-  while (added && cur_x > (STEP_MAX / 2.0))
+  while (added && cur_x > (STEP_MAX / 4.0))
   {
     ++num_angles;
     theta = min(acos(cur_x), last_theta + step_max);
@@ -457,6 +457,9 @@ SpreadInfo::SpreadInfo(const double time,
   }
   if (added)
   {
+    angle = real_angle(l_b, (util::RAD_090 + theta) / 2.0);
+    added = add_offsets_calc_ros(angle);
+    // always just do one between the last angle and 90
     theta = util::RAD_090;
     ++num_angles;
     angle = ellipse_angle(l_b, theta);
@@ -473,6 +476,7 @@ SpreadInfo::SpreadInfo(const double time,
   }
   cur_x -= (step_x / 2.0);
   // trying to pick less rear points
+  // step_x *= l_b;
   step_x *= l_b;
   // just trying random things now
   // double max_angle = util::RAD_180 - (pow(l_b, 1.5) * STEP_MAX);
