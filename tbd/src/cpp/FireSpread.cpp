@@ -421,7 +421,7 @@ SpreadInfo::SpreadInfo(const double time,
   // bool added = add_offset(raz, head_ros_);
   bool added = true;
 #define STEP_X 0.2
-#define STEP_MAX_DEGREES 10.0
+#define STEP_MAX_DEGREES 5.0
 #define STEP_MAX util::to_radians(STEP_MAX_DEGREES)
   double step_x = STEP_X;
   // double step_x = STEP_X / l_b;
@@ -457,7 +457,7 @@ SpreadInfo::SpreadInfo(const double time,
   }
   if (added)
   {
-    angle = real_angle(l_b, (util::RAD_090 + theta) / 2.0);
+    angle = ellipse_angle(l_b, (util::RAD_090 + theta) / 2.0);
     added = add_offsets_calc_ros(angle);
     // always just do one between the last angle and 90
     theta = util::RAD_090;
@@ -474,18 +474,20 @@ SpreadInfo::SpreadInfo(const double time,
     last_theta = theta;
     last_angle = angle;
   }
+  // just because 5 seems good for the front and 10 for the back
+  step_max = 2.0 * STEP_MAX;
   cur_x -= (step_x / 2.0);
   // trying to pick less rear points
   // step_x *= l_b;
   step_x *= l_b;
   // just trying random things now
   // double max_angle = util::RAD_180 - (pow(l_b, 1.5) * STEP_MAX);
-  double max_angle = util::RAD_180 - (l_b * STEP_MAX);
+  double max_angle = util::RAD_180 - (l_b * step_max);
   double min_x = cos(max_angle);
   while (added && cur_x >= min_x)
   {
     ++num_angles;
-    theta = max(acos(cur_x), last_theta + STEP_MAX);
+    theta = max(acos(cur_x), last_theta + step_max);
     angle = ellipse_angle(l_b, theta);
     if (angle > max_angle)
     {
