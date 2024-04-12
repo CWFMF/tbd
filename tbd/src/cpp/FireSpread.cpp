@@ -420,220 +420,6 @@ SpreadInfo::SpreadInfo(const double time,
     [&add_offsets, &calculate_ros](const double angle_radians) { return add_offsets(angle_radians, calculate_ros(angle_radians)); };
   // bool added = add_offset(raz, head_ros_);
   bool added = true;
-  // #ifdef STEP
-  //   constexpr auto step = STEP;
-  // #else
-  //   // double step = 0;
-  //   // constexpr double step_size = 1;
-  //   // step according to eccentricity of ellipse
-  //   // double step_size = 10.0 / pow(l_b, 6);
-  //   // double step_mult = pow(l_b, 0.25);
-  //   // #define STEP_ANGLE 1
-  //   // #define STEP_MULT 10
-  //   // double step = STEP_ANGLE;
-  //   // #define STEP_POWER 4
-  //   // #define STEP_MULT_POWER 0.25
-  //   //   double step = 10.0 / pow(l_b, STEP_POWER);
-  //   //   double step_mult = pow(l_b, STEP_MULT_POWER);
-  //   double step_x = 0.1;
-  // #endif
-  //   double theta = 0;
-  //   double cur_x = 0;
-  //   // double step = 1;
-  //   // double last_step = 0;
-  //   while (added && theta < 90)
-  //   {
-  //     theta = acos(cur_x) - util::to_radians(90);
-  //     // added = add_offsets_calc_ros(util::to_radians(theta));
-  //     added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-  //     // #ifndef STEP
-  //     //     // step += step_size;
-  //     //     // step_size *= step_mult;
-  //     //     step *= step_mult;
-  //     // #endif
-  //     cur_x += step_x;
-  //     // theta += step;
-  //     // double tmp = last_step;
-  //     // last_step = step;
-  //     // step = last_step + tmp;
-  //   }
-  //   if (added)
-  //   {
-  //     // CHECK: is this using flank ros wrong?
-  //     // this is fine but trying to use epsilon with WS of 40 somehow makes points to sides
-  //     // regardless of ratio, 90 is always the same direction
-  //     added = add_offsets(util::to_radians(90), flank_ros * sqrt(a_sq_sub_c_sq) / a);
-  //     // constexpr auto epsilon = numeric_limits<double>::epsilon();
-  //     // added = add_offsets_calc_ros(util::to_radians(90) + epsilon);
-  //     // don't worry so much about the back of the fire
-  //     // step *= STEP_MULT;
-  //     // step /= step_mult;
-  //     // theta = 90 + step;
-  //     // step = 10;
-  //     while (added && theta < 180)
-  //     {
-  //       theta = acos(1.0 - cur_x);
-  //       cur_x -= step_x;
-
-  //       added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-  // // added = add_offsets_calc_ros(util::to_radians(theta));
-  // #ifndef STEP
-  //       // step += step_size;
-  //       // step_size *= step_mult;
-  //       // step *= step_mult;
-  //       // // actually want to return to the same angles we used on the head for the rear
-  //       // step /= step_mult;
-  // #endif
-  //       // double tmp = last_step;
-  //       // last_step = step;
-  //       // step = last_step + tmp;
-  //       // theta += step;
-  //     }
-  //     if (added)
-  //     {
-  //       // only use back ros if every other angle is spreading since this should be lowest
-  //       //  180
-  //       if (back_ros < min_ros)
-  //       {
-  //         return;
-  //       }
-  //       const auto direction = util::fix_radians(util::RAD_180 + raz);
-  //       static_cast<void>(!add_offset(direction, back_ros * correction_factor(direction)));
-  //     }
-  //   }
-  //   // static bool showed = false;
-  //   // if (!showed)
-  //   // {
-  //   //   logging::note("Generated %ld points for offsets", offsets_.size());
-  //   //   exit(-1);
-  //   //   showed = true;
-  //   // }
-  ////////////////////////////////////////
-  // #define STEP_X 0.1
-  //   double step_x = STEP_X;
-  //   // double step_x = STEP_X / l_b;
-  //   double theta = 0;
-  //   double last_theta = 0;
-  //   double cur_x = 0;
-  //   double last_angle = 0;
-  //   // double step = 1;
-  //   // double last_step = 0;
-  //   size_t num_angles = 0;
-  //   while (added && cur_x <= 1.0)
-  //   {
-  //     ++num_angles;
-  //     // theta = abs(acos(cur_x) - util::RAD_090);
-  //     theta = asin(cur_x);
-  //     last_theta = theta;
-  //     last_angle = ellipse_angle(l_b, theta);
-  //     added = add_offsets_calc_ros(last_angle);
-  //     // added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-  //     // added = add_offsets_calc_ros(theta);
-  //     cur_x += step_x;
-  //   }
-  //   // at the widest point, but not at the 90 degrees, so need to taper in again
-  //   //  we know we're going between last_angle and 90 now
-  //   double angle_step = (util::RAD_090 - last_angle) / num_angles;
-  //   // probably overkill since not worrying about ratio?
-  //   last_angle += angle_step;
-  //   while (added && last_angle < util::RAD_090)
-  //   {
-  //     // last_angle = ellipse_angle(l_b, last_theta);
-  //     added = add_offsets_calc_ros(last_angle);
-  //     // last_theta += angle_step;
-  //     last_angle += angle_step;
-  //   }
-  //   if (added)
-  //   {
-  //     // HACK: pick mid between 90 and last angle because there's a weird gap
-  //     // last_angle = (last_angle + util::RAD_090) / 2.0;
-  //     // added = add_offsets_calc_ros(last_angle);
-  //     // move back half a step
-  //     cur_x -= (step_x / 2.0);
-  //     theta = abs(acos(cur_x) - util::RAD_090);
-  //     added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-  //   }
-  //   if (added)
-  //   {
-  //     added = add_offsets(util::RAD_090, flank_ros * sqrt(a_sq_sub_c_sq) / a);
-  //   }
-  //   if (added)
-  //   {
-  //     // // HACK: pick mid after 90 based on last angle because there's a weird gap
-  //     // added = add_offsets_calc_ros((util::RAD_090 + (util::RAD_090 - last_angle)) / 2.0);
-  //     // step_x = STEP_X * pow(l_b, 4);
-  //     // step_x = STEP_X * pow(l_b, 2);
-  //     // step_x = STEP_X * pow(l_b, 1);
-  //     // cur_x = 1.0 - step_x;
-  //     // const auto a = (head_ros_ + back_ros) / 2.0;
-  //     // const auto c = a - back_ros;
-  //     // const auto l_b = fuel->lengthToBreadth(wsv);
-  //     // const auto flank_ros = a / l_b;
-  //     // const auto l_bb = ((head_ros_ + back_ros) / 2.0) / flank_ros;
-  //     const auto l_bb = back_ros / flank_ros;
-  //     // // this is a bit much
-  //     // step_x = STEP_X * l_b;
-  //     // // seems okay
-  //     // step_x = STEP_X / l_bb;
-  //     // also seems pretty good (but probably basically same as STEP_X * l_b)
-  //     step_x = STEP_X * (head_ros_ / flank_ros);
-  //     // step_x = STEP_X * (1.0 / pow(l_bb, 1.5));
-  //     // step_x = STEP_X * (1.0 / pow(l_bb, 2));
-  //     // cur_x -= step_x;
-  //     cur_x -= (step_x / 2.0);
-  //     while (added && cur_x >= STEP_X)
-  //     {
-  //       theta = util::RAD_090 + acos(cur_x);
-  //       // added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-  //       added = add_offsets_calc_ros(ellipse_angle(l_bb, theta));
-  //       cur_x -= step_x;
-  //       // added = add_offsets_calc_ros(ellipse_angle(l_b * l_b, theta));
-  //       // added = add_offsets_calc_ros(theta);
-  //     }
-  //     if (added)
-  //     {
-  //       // only use back ros if every other angle is spreading since this should be lowest
-  //       //  180
-  //       if (back_ros < min_ros)
-  //       {
-  //         return;
-  //       }
-  //       const auto direction = util::fix_radians(util::RAD_180 + raz);
-  //       static_cast<void>(!add_offset(direction, back_ros * correction_factor(direction)));
-  //     }
-  //   }
-  /////////////////////////
-  // double theta = 0;
-  // double step = 10;
-  // double last_angle = 0;
-  // while (added && theta < 90)
-  // {
-  //   last_angle = ellipse_angle(l_b, util::to_radians(theta));
-  //   added = add_offsets_calc_ros(last_angle);
-  //   theta += step;
-  // }
-  // if (added)
-  // {
-  //   added = add_offsets(util::RAD_090, flank_ros * sqrt(a_sq_sub_c_sq) / a);
-  // }
-  // while (added && theta < 180)
-  // {
-  //   last_angle = ellipse_angle(l_b, util::to_radians(theta));
-  //   added = add_offsets_calc_ros(last_angle);
-  //   theta += step;
-  // }
-  // if (added)
-  // {
-  //   // only use back ros if every other angle is spreading since this should be lowest
-  //   //  180
-  //   if (back_ros < min_ros)
-  //   {
-  //     return;
-  //   }
-  //   const auto direction = util::fix_radians(util::RAD_180 + raz);
-  //   static_cast<void>(!add_offset(direction, back_ros * correction_factor(direction)));
-  // }
-//////////////////////////////////////////////
 #define STEP_X 0.1
 #define STEP_MAX_DEGREES 10.0
 #define STEP_MAX util::to_radians(STEP_MAX_DEGREES)
@@ -642,24 +428,18 @@ SpreadInfo::SpreadInfo(const double time,
   double theta = 0;
   double angle = 0;
   double last_theta = 0;
-  double cur_x = 0;
+  double cur_x = 1.0;
   double last_angle = 0;
   // double step = 1;
   // double last_step = 0;
   size_t num_angles = 0;
-  while (added && cur_x < 1.0)
+  while (added && cur_x > 0)
   {
     ++num_angles;
-    // theta = abs(acos(cur_x) - util::RAD_090);
-    theta = asin(cur_x);
-    if ((theta - last_theta) > STEP_MAX)
-    {
-      break;
-    }
+    theta = min(acos(cur_x), last_theta + STEP_MAX);
     angle = ellipse_angle(l_b, theta);
     added = add_offsets_calc_ros(angle);
-    // added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-    // added = add_offsets_calc_ros(theta);
+    cur_x = cos(theta);
     printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
            cur_x,
            util::to_degrees(theta),
@@ -668,27 +448,7 @@ SpreadInfo::SpreadInfo(const double time,
            util::to_degrees(last_angle));
     last_theta = theta;
     last_angle = angle;
-    cur_x += step_x;
-  }
-  // HACK: want to keep things further from 90 degrees so round down to last multiple of max step
-  last_theta = util::to_radians(static_cast<int>(util::to_degrees(last_theta) / STEP_MAX_DEGREES) * STEP_MAX_DEGREES);
-  while (added && theta < (util::RAD_090 - STEP_MAX))
-  {
-    theta = last_theta + STEP_MAX;
-    ++num_angles;
-    angle = ellipse_angle(l_b, theta);
-    added = add_offsets_calc_ros(angle);
-    // added = add_offsets_calc_ros(ellipse_angle(l_b, theta));
-    // added = add_offsets_calc_ros(theta);
-    cur_x = sin(theta);
-    printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-           cur_x,
-           util::to_degrees(theta),
-           util::to_degrees(angle),
-           util::to_degrees(last_theta),
-           util::to_degrees(last_angle));
-    last_theta = theta;
-    last_angle = angle;
+    cur_x -= step_x;
   }
   if (added)
   {
@@ -696,7 +456,7 @@ SpreadInfo::SpreadInfo(const double time,
     ++num_angles;
     angle = ellipse_angle(l_b, theta);
     added = add_offsets(util::RAD_090, flank_ros * sqrt(a_sq_sub_c_sq) / a);
-    cur_x = sin(theta);
+    cur_x = cos(theta);
     printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
            cur_x,
            util::to_degrees(theta),
@@ -705,180 +465,47 @@ SpreadInfo::SpreadInfo(const double time,
            util::to_degrees(last_angle));
     last_theta = theta;
     last_angle = angle;
-    cur_x = 1.0;
+  }
+  cur_x -= (step_x / 2.0);
+  // trying to pick less rear points
+  step_x *= l_b;
+  double max_angle = util::RAD_180 - STEP_MAX;
+  double min_x = min(-1.0 + step_x,
+                     cos(max_angle));
+  while (added && cur_x > min_x)
+  {
+    ++num_angles;
+    theta = max(acos(cur_x), last_theta + STEP_MAX);
+    angle = ellipse_angle(l_b, theta);
+    if (angle > max_angle)
+    {
+      break;
+      // // compromise and put a point in the middle
+      // theta = (theta + last_theta) / 2.0;
+      // angle = ellipse_angle(l_b, theta);
+    }
+    added = add_offsets_calc_ros(angle);
+    cur_x = cos(theta);
+    printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
+           cur_x,
+           util::to_degrees(theta),
+           util::to_degrees(angle),
+           util::to_degrees(last_theta),
+           util::to_degrees(last_angle));
+    last_theta = theta;
+    last_angle = angle;
+    cur_x -= step_x;
   }
   if (added)
   {
-    cur_x -= (step_x / 2.0);
-    // this doesn't work?
-    // while (added && theta < 180)
-    // {
-    //   theta = last_theta + STEP_MAX;
-    //   double next_x = sin(theta);
-    //   // if (abs(next_x - cur_x) > step_x)
-    //   // {
-    //   //   break;
-    //   // }
-    //   angle = ellipse_angle(l_b, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   last_theta = theta;
-    //   last_angle = angle;
-    //   // added = add_offsets_calc_ros(ellipse_angle(l_b * l_b, theta));
-    //   // added = add_offsets_calc_ros(theta);
-    // }
-    // double step_min = l_b * STEP_MAX;
-    // while (added && cur_x > 0 && (theta + step_min) < util::RAD_180)
-    // {
-    //   theta = max(util::RAD_180 - asin(cur_x),
-    //               last_theta + step_min);
-    //   angle = ellipse_angle(l_b, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   cur_x -= step_x;
-    //   last_theta = theta;
-    //   last_angle = angle;
-    // }
-    double step_min = STEP_MAX;
-    while (added && cur_x > 0 && (theta + step_min) < util::RAD_180)
+    // only use back ros if every other angle is spreading since this should be lowest
+    //  180
+    if (back_ros < min_ros)
     {
-      theta = max(util::RAD_180 - asin(cur_x),
-                  last_theta + step_min);
-      angle = ellipse_angle(l_b, theta);
-      if (abs(angle - last_angle) > step_min)
-      {
-        added = add_offsets_calc_ros(angle);
-        cur_x = sin(theta);
-        printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-               cur_x,
-               util::to_degrees(theta),
-               util::to_degrees(angle),
-               util::to_degrees(last_theta),
-               util::to_degrees(last_angle));
-        last_theta = theta;
-        last_angle = angle;
-      }
-      cur_x -= step_x;
+      return;
     }
-    // double step_min = pow(l_b, 0.5) * STEP_MAX;
-    // // double x_min = sin(util::RAD_180 - step_min);
-    // step_x *= pow(l_b, 0.5);
-    // double x_min = step_x;
-    // while (added && cur_x > x_min)
-    // {
-    //   theta = max(util::RAD_180 - asin(cur_x),
-    //               last_theta + step_min);
-    //   angle = ellipse_angle(l_b, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   cur_x -= step_x;
-    //   last_theta = theta;
-    //   last_angle = angle;
-    // }
-    // while (added && theta < 180)
-    // {
-    //   theta = last_theta + STEP_MAX;
-    //   double next_x = sin(theta);
-    //   if (abs(next_x - cur_x) > step_x)
-    //   {
-    //     break;
-    //   }
-    //   angle = ellipse_angle(l_b, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   last_theta = theta;
-    //   last_angle = angle;
-    //   // added = add_offsets_calc_ros(ellipse_angle(l_b * l_b, theta));
-    //   // added = add_offsets_calc_ros(theta);
-    // }
-    // const auto l_bb = back_ros / flank_ros;
-    // // // this is a bit much
-    // // step_x = STEP_X * l_b;
-    // // // seems okay
-    // // step_x = STEP_X / l_bb;
-    // // double step_min = pow(l_b, 0.5) * STEP_MAX;
-    // // double x_min = sin(util::RAD_180 - step_min);
-    // // step_x *= pow(l_b, 0.5);
-    // // double x_min = step_x;
-    // // projecting backwards is the same as projecting forward with inverse l_b?
-    // while (added && cur_x > 0)
-    // {
-    //   theta = max(util::RAD_180 - asin(cur_x),
-    //               last_theta + step_min);
-    //   angle = ellipse_angle(l_bb, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   cur_x -= step_x;
-    //   last_theta = theta;
-    //   last_angle = angle;
-    // }
-    // double step_min = STEP_MAX;
-    // double x_min = step_x;
-    // while (added && cur_x > x_min)
-    // {
-    //   theta = util::RAD_180 - asin(cur_x);
-    //   angle = ellipse_angle(l_b, theta);
-    //   added = add_offsets_calc_ros(angle);
-    //   cur_x = sin(theta);
-    //   printf("cur_x = %f, theta = %f, angle = %f, last_theta = %f, last_angle = %f\n",
-    //          cur_x,
-    //          util::to_degrees(theta),
-    //          util::to_degrees(angle),
-    //          util::to_degrees(last_theta),
-    //          util::to_degrees(last_angle));
-    //   // if (abs(angle - last_angle) < STEP_MAX)
-    //   // {
-    //   //   break;
-    //   // }
-    //   if (abs(theta - last_theta) < STEP_MAX)
-    //   {
-    //     break;
-    //   }
-    //   cur_x -= step_x;
-    //   last_theta = theta;
-    //   last_angle = angle;
-    // }
-    if (added)
-    {
-      // only use back ros if every other angle is spreading since this should be lowest
-      //  180
-      if (back_ros < min_ros)
-      {
-        return;
-      }
-      const auto direction = util::fix_radians(util::RAD_180 + raz);
-      static_cast<void>(!add_offset(direction, back_ros * correction_factor(direction)));
-    }
+    const auto direction = util::fix_radians(util::RAD_180 + raz);
+    static_cast<void>(!add_offset(direction, back_ros * correction_factor(direction)));
   }
 }
 // double SpreadInfo::calculateSpreadProbability(const double ros)
