@@ -16,3 +16,5 @@ pyfire/venv
 **/build
 **/private
 **/output*
+tbd/validate
+tbd/dir_test
