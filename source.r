@@ -5,8 +5,10 @@ library(terra)
 library(lattice)
 library(rasterVis)
 
-DIR <- "../data/test_constant"
-
+DIR <- "../data/test_condense16"
+# DIR_OUT <- "."
+DIR_OUT <- Sys.getenv("HOME")
+FILE_OUT <- file.path(DIR_OUT, paste0(basename(DIR), ".pdf"))
 # colours <- list(
 # "1"=list(r=255, g=0, b=0),
 # "2"=list(r=255, g=255, b=255),
@@ -109,7 +111,7 @@ e <- ext(rasters[[1]])
 for (r in rasters) {
   e <- ext(extend(r, e))
 }
-pdf(paste0(basename(DIR), ".pdf"), width = 11, height = 8.5)
+pdf(FILE_OUT, width = 11, height = 8.5)
 par(mfrow = c(3, 4), mar = c(2, 2, 2, 2))
 for (i in 1:length(rasters)) {
   img <- imgs[[i]]
