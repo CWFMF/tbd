@@ -1,5 +1,7 @@
 <map id="tbd::sim::SpreadInfo::ffmcEffect" name="tbd::sim::SpreadInfo::ffmcEffect">
-<area shape="rect" id="node1" title="FFMC effect used for spread." alt="" coords="5,39,141,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1wx_1_1FwiWeather.html#a629da6a9e31fa74c85c275afc626351c" title="Ffmc effect used for spread." alt="" coords="189,5,327,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="190,71,326,112"/>
+<area shape="rect" id="Node000001" title="FFMC effect used for spread." alt="" coords="5,39,141,79"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1wx_1_1FwiWeather.html#a629da6a9e31fa74c85c275afc626351c" title="Ffmc effect used for spread." alt="" coords="189,5,325,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,44,173,38,174,43,142,49"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1sim_1_1SpreadInfo.html#a0138fb6c4e3ad59eacb096d5864bc608" title="FwiWeather used for spread." alt="" coords="189,71,325,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,68,175,74,174,79,141,73"/>
 </map>

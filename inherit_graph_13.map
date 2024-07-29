@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtbd_1_1data_1_1Index.html" title=" " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="Node000000" href="$classtbd_1_1BoundedPoint.html" title=" " alt="" coords="5,5,165,61"/>
+<area shape="rect" id="Node000001" href="$classtbd_1_1sim_1_1InnerPos.html" title="The position within a Cell that a spreading point has." alt="" coords="213,20,337,46"/>
+<area shape="poly" id="edge31_Node000000_Node000001" title=" " alt="" coords="180,31,212,31,212,36,180,36"/>
 </map>

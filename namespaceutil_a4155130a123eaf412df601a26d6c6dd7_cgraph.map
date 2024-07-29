@@ -1,0 +1,5 @@
+<map id="util.sun" name="util.sun">
+<area shape="rect" id="Node000001" title="Find solar radiation at a give time and place." alt="" coords="5,5,68,31"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a42f135157e844bf84e1c014201df2394" title="Find day of year." alt="" coords="116,5,187,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,16,100,16,100,21,68,21"/>
+</map>

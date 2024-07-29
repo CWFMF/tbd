@@ -1,6 +1,0 @@
-<map id="tbd::sim::Model::Model" name="tbd::sim::Model::Model">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,155,98"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#accc84ee9d2bea57acc03f144cb3a8019" title="Elevation of the origin Point." alt="" coords="211,5,360,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Point.html#a8cc106530777f2cdb27c58ecda6e9313" title="Latitude (decimal degrees)" alt="" coords="208,71,363,98"/>
-<area shape="rect" id="node4" href="$classtbd_1_1topo_1_1Point.html#ae7828b12034d8620c1a835f5ff5d28f1" title="Longitude (decimal degrees)" alt="" coords="203,122,368,149"/>
-</map>

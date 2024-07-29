@@ -1,5 +1,5 @@
 <map id="cwfis.SourceFireCiffcService" name="cwfis.SourceFireCiffcService">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,193,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="10,5,95,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="120,5,175,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,193,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,141,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,46,102,79,96,79,96,46"/>
 </map>

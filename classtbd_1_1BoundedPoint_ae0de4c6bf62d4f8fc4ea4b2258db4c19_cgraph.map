@@ -1,0 +1,7 @@
+<map id="tbd::BoundedPoint::after" name="tbd::BoundedPoint::after">
+<area shape="rect" id="Node000001" title="Multiply by duration to get total offset over time." alt="" coords="5,23,138,64"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1BoundedPoint.html#af47ce5243f9cb363636d3721302b525b" title="X direction (column)" alt="" coords="186,5,324,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,32,170,27,171,32,138,37"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1BoundedPoint.html#a64e5776ade0aa2a840ad673fc81b94f0" title="Y direction (row)" alt="" coords="186,55,324,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,50,171,54,170,59,138,55"/>
+</map>

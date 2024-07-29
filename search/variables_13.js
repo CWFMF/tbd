@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['value_5f_1642',['value_',['../classtbd_1_1data_1_1Index.html#a94ddcb72250626cc7e8ed375aee63357',1,'tbd::data::Index']]],
-  ['values_5f_1643',['values_',['../classtbd_1_1util_1_1LookupTable.html#ae033341d6852ec64f30a6194c9f06da4',1,'tbd::util::LookupTable::values_()'],['../classtbd_1_1util_1_1SafeVector.html#a8c041d976540b549a7c90a1532aa1061',1,'tbd::util::SafeVector::values_()']]],
-  ['vector_5fmutex_5f_1644',['vector_mutex_',['../classtbd_1_1sim_1_1Model.html#af741f45273360b4ea6466725ba3d0d69',1,'tbd::sim::Model']]],
-  ['vectors_5f_1645',['vectors_',['../classtbd_1_1sim_1_1Model.html#a414fbfbcbdbd1d70e07e8a0b958b7df6',1,'tbd::sim::Model']]]
+  ['unburnable_5f_0',['unburnable_',['../classtbd_1_1sim_1_1Scenario.html#ad2fbc4013bfb95cbf01e09175900c8f1',1,'tbd::sim::Scenario']]],
+  ['used_5fby_5fname_5f_1',['used_by_name_',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#a97a9325582624e898a695cd4cd9c2ef8',1,'tbd::fuel::FuelLookupImpl']]]
 ];

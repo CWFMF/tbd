@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hourly_20fire_20and_20weather_20indices_1671',['Hourly fire and weather indices',['../weather.html',1,'']]]
+  ['environment_0',['Fire environment',['../environment.html',1,'']]],
+  ['events_1',['Probability of events',['../probability.html',1,'']]]
 ];

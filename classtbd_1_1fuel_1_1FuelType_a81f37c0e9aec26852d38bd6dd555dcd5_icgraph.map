@@ -1,6 +1,7 @@
 <map id="tbd::fuel::FuelType::calculateRos" name="tbd::fuel::FuelType::calculateRos">
-<area shape="rect" id="node1" title="Calculate rate of spread (m/min)" alt="" coords="452,39,579,80"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#a0b2f69c261b0322f5a4cedd247d80dd4" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="189,5,404,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="229,71,365,112"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,71,141,112"/>
+<area shape="rect" id="Node000001" title="Calculate rate of spread (m/min)" alt="" coords="198,39,323,79"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1fuel_1_1FuelVariable.html#a0b2f69c261b0322f5a4cedd247d80dd4" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,5,150,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,47,149,41,150,36,183,42"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1sim_1_1SpreadInfo.html#af665f7627cadbbd6bf51faefe48ee1ad" title=" " alt="" coords="10,71,145,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,75,146,82,145,77,182,70"/>
 </map>

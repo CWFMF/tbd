@@ -1,10 +1,17 @@
 <map id="datatypes.Source" name="datatypes.Source">
-<area shape="rect" id="node1" title=" " alt="" coords="103,132,225,159"/>
-<area shape="rect" id="node3" href="$classdatatypes_1_1SourceFeature.html" title=" " alt="" coords="286,5,453,32"/>
-<area shape="rect" id="node4" href="$classdatatypes_1_1SourceFire.html" title=" " alt="" coords="297,56,441,83"/>
-<area shape="rect" id="node5" href="$classdatatypes_1_1SourceFireWeather.html" title=" " alt="" coords="273,107,465,133"/>
-<area shape="rect" id="node6" href="$classdatatypes_1_1SourceFwi.html" title=" " alt="" coords="298,157,441,184"/>
-<area shape="rect" id="node7" href="$classdatatypes_1_1SourceHourly.html" title=" " alt="" coords="290,208,449,235"/>
-<area shape="rect" id="node8" href="$classdatatypes_1_1SourceModel.html" title=" " alt="" coords="291,259,448,285"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,132,55,159"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,129,223,155"/>
+<area shape="rect" id="Node000003" href="$classdatatypes_1_1SourceFeature.html" title=" " alt="" coords="284,5,449,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,116,220,76,270,40,295,29,297,34,272,44,223,80,186,119"/>
+<area shape="rect" id="Node000004" href="$classdatatypes_1_1SourceFire.html" title=" " alt="" coords="295,55,438,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,119,270,89,305,78,306,83,272,94,203,124"/>
+<area shape="rect" id="Node000005" href="$classdatatypes_1_1SourceFireWeather.html" title=" " alt="" coords="271,104,462,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="238,130,270,126,271,131,239,135"/>
+<area shape="rect" id="Node000006" href="$classdatatypes_1_1SourceFwi.html" title=" " alt="" coords="296,153,438,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="239,148,295,155,295,160,238,154"/>
+<area shape="rect" id="Node000007" href="$classdatatypes_1_1SourceHourly.html" title=" " alt="" coords="288,203,446,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="204,160,272,189,306,199,305,205,270,194,202,165"/>
+<area shape="rect" id="Node000008" href="$classdatatypes_1_1SourceModel.html" title=" " alt="" coords="289,252,445,278"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="186,165,224,203,272,239,297,249,295,254,270,243,220,207,182,169"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,129,54,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,140,101,140,101,145,69,145"/>
 </map>

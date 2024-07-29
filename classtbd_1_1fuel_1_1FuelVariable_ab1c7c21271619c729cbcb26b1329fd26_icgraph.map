@@ -1,6 +1,0 @@
-<map id="tbd::fuel::FuelVariable::spring" name="tbd::fuel::FuelVariable::spring">
-<area shape="rect" id="node1" title="Fuel to use before green&#45;up." alt="" coords="277,85,423,126"/>
-<area shape="rect" id="node2" href="$classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="7,5,228,61"/>
-<area shape="rect" id="node3" href="$classtbd_1_1fuel_1_1FuelVariable.html#af7bba19fe09ceee84f63261fa8cf49b3" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,85,229,126"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a20512104990f47b4380746589e9f1aac" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="25,149,209,205"/>
-</map>

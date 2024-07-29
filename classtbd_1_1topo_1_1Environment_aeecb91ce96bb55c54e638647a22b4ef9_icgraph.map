@@ -1,5 +1,0 @@
-<map id="tbd::topo::Environment::Environment" name="tbd::topo::Environment::Environment">
-<area shape="rect" id="node1" title="Move constructor." alt="" coords="421,5,571,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a7c1a7c2c902a8162a6b9d5ed56a8e5c9" title="Load from rasters." alt="" coords="224,5,373,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1EnvironmentInfo.html#a2684d79b254ecfb95be60770fe9e70ba" title="Load the full Environment using the given FuelLookup to determine fuels." alt="" coords="5,5,176,47"/>
-</map>

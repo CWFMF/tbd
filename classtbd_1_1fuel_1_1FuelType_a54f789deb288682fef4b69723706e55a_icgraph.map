@@ -1,6 +1,7 @@
 <map id="tbd::fuel::FuelType::surfaceFuelConsumption" name="tbd::fuel::FuelType::surfaceFuelConsumption">
-<area shape="rect" id="node1" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="444,41,616,83"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="225,5,361,47"/>
-<area shape="rect" id="node4" href="$classtbd_1_1fuel_1_1FuelVariable.html#a2c47748dfee79f55a29d2331b31fdc18" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="189,70,396,126"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+<area shape="rect" id="Node000001" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="225,39,396,79"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1sim_1_1SpreadInfo.html#af665f7627cadbbd6bf51faefe48ee1ad" title=" " alt="" coords="23,5,159,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,46,159,39,159,33,210,41"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1fuel_1_1FuelVariable.html#a2c47748dfee79f55a29d2331b31fdc18" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,71,177,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,76,178,81,177,76,209,71"/>
 </map>

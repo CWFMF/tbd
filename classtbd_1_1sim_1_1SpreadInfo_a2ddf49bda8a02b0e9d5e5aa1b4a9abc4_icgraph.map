@@ -1,5 +1,5 @@
 <map id="tbd::sim::SpreadInfo::ffmcEffect" name="tbd::sim::SpreadInfo::ffmcEffect">
-<area shape="rect" id="node1" title="FFMC effect used for spread." alt="" coords="373,5,509,47"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#a827ac2c5039e757f47ebe0867dad8932" title=" " alt="" coords="189,5,325,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1SpreadInfo.html#a050147629a5b7891b8bd0f7d331b28d1" title="Calculate fire spread for time and place." alt="" coords="5,5,141,47"/>
+<area shape="rect" id="Node000001" title="FFMC effect used for spread." alt="" coords="189,5,324,46"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1sim_1_1SpreadInfo.html#af665f7627cadbbd6bf51faefe48ee1ad" title=" " alt="" coords="5,5,141,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,28,141,28,141,23,173,23"/>
 </map>

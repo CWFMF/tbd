@@ -1,5 +1,0 @@
-<map id="tbd::sim::SpreadInfo::wind" name="tbd::sim::SpreadInfo::wind">
-<area shape="rect" id="node1" title="Wind used for spread." alt="" coords="5,35,141,76"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1SpreadInfo.html#adeb1b2cb5925d7b23df42a14392ba058" title="FwiWeather used for spread." alt="" coords="196,5,332,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1wx_1_1Weather.html#ad97433581f03249f43140ad738d3d953" title="Wind (km/h)" alt="" coords="189,71,339,98"/>
-</map>

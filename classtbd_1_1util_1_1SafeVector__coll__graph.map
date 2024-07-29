@@ -1,4 +1,5 @@
 <map id="tbd::util::SafeVector" name="tbd::util::SafeVector">
-<area shape="rect" id="node1" title="A vector with added thread safety." alt="" coords="5,95,140,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="44,5,101,32"/>
+<area shape="rect" id="Node000001" title="A vector with added thread safety." alt="" coords="5,94,139,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="44,5,100,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,47,75,94,69,94,69,47"/>
 </map>

@@ -1,6 +1,11 @@
 <map id="tbd::sim::Settings::maximumTimeSeconds" name="tbd::sim::Settings::maximumTimeSeconds">
-<area shape="rect" id="node1" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="661,64,825,105"/>
-<area shape="rect" id="node2" href="$classtbd_1_1sim_1_1Model.html#aa66eb77944ce0665979c39ff0b041391" title="Add statistics for completed iterations." alt="" coords="479,5,613,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1sim_1_1Model.html#a8ae073423062019fc90c8dae27c29ef8" title="Run Iterations until confidence is reached." alt="" coords="244,71,431,98"/>
-<area shape="rect" id="node4" href="$classtbd_1_1sim_1_1Model.html#a73dd4ea26bcf5372199e157b053b71ba" title="Run Scenarios initialized from given inputs." alt="" coords="5,97,196,123"/>
+<area shape="rect" id="Node000001" title="Maximum time simulation can run before it is ended and whatever results it has are used (s)" alt="" coords="658,63,822,103"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1sim_1_1Model.html#aa66eb77944ce0665979c39ff0b041391" title="Add statistics for completed iterations." alt="" coords="476,5,610,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="653,60,610,48,612,43,654,55"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1sim_1_1Model.html#a2132e91732294dbf7882637f77e2d919" title="Run Iterations until confidence is reached." alt="" coords="243,70,428,96"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="643,86,429,86,429,80,643,80"/>
+<area shape="rect" id="Node000004" href="$classtbd_1_1sim_1_1Model.html#a62b5ea759a1a5bdd71ebf3c42d34a9e9" title="Run Scenarios initialized from given inputs." alt="" coords="5,96,195,121"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="643,95,428,111,195,113,195,108,428,106,643,90"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="462,51,385,72,384,67,460,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,97,196,101,195,95,227,92"/>
 </map>

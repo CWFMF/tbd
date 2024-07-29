@@ -1,0 +1,11 @@
+<map id="tbd::sim::IntensityMap::ignite" name="tbd::sim::IntensityMap::ignite">
+<area shape="rect" id="Node000001" title="Mark given location as burned." alt="" coords="5,39,152,79"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1sim_1_1IntensityMap.html#a7168dd3368d64a0737b968a211c6f18b" title="Update Location with specified values." alt="" coords="200,39,346,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,56,185,56,185,62,152,62"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2" title="Direction as degrees, where 0 is North and values increase clockwise." alt="" coords="397,5,515,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,43,381,37,382,42,347,48"/>
+<area shape="rect" id="Node000005" href="$classtbd_1_1topo_1_1Position.html#afd633a3f45012ab24cd0b719671bee03" title="Hash derived from row and column." alt="" coords="394,71,517,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="347,69,379,75,378,80,346,74"/>
+<area shape="rect" id="Node000004" href="$classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd" title="Returns value as a double." alt="" coords="565,13,733,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="515,23,550,23,550,28,515,28"/>
+</map>

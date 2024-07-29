@@ -1,0 +1,5 @@
+<map id="util.julian" name="util.julian">
+<area shape="rect" id="Node000001" title="Find day of year." alt="" coords="116,5,187,31"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a4155130a123eaf412df601a26d6c6dd7" title="Find solar radiation at a give time and place." alt="" coords="5,5,68,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,21,68,21,68,16,100,16"/>
+</map>

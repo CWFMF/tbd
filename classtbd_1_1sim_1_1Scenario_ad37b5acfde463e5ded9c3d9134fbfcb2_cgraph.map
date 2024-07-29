@@ -1,0 +1,5 @@
+<map id="tbd::sim::Scenario::weather" name="tbd::sim::Scenario::weather">
+<area shape="rect" id="Node000001" title="FwiWeather for given time." alt="" coords="5,5,129,46"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1wx_1_1FireWeather.html#a432c4ea81cf32a0606464ea1522bdb29" title="Get FwiWeather for given time." alt="" coords="177,13,331,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,23,161,23,161,28,129,28"/>
+</map>

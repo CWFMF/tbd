@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['_7econstantgrid_783',['~ConstantGrid',['../classtbd_1_1data_1_1ConstantGrid.html#a23df2974cecad606fa30521e0f69d031',1,'tbd::data::ConstantGrid']]],
-  ['_7edirection_784',['~Direction',['../classtbd_1_1wx_1_1Direction.html#aa80bb1a710bab711af0fd6b0897ea2b1',1,'tbd::wx::Direction']]],
-  ['_7efireweather_785',['~FireWeather',['../classtbd_1_1wx_1_1FireWeather.html#a342da4d11371a095c3386dcd5eb9484f',1,'tbd::wx::FireWeather']]],
-  ['_7efireweatherdaily_786',['~FireWeatherDaily',['../classtbd_1_1wx_1_1FireWeatherDaily.html#a5a5cf7271fb52b05216669ecc42b0515',1,'tbd::wx::FireWeatherDaily']]],
-  ['_7efwiweather_787',['~FwiWeather',['../classtbd_1_1wx_1_1FwiWeather.html#a1740af411f625fbaff7890706cecab8e',1,'tbd::wx::FwiWeather']]],
-  ['_7eindex_788',['~Index',['../classtbd_1_1data_1_1Index.html#ad5caf349865f703cc849cadf659f9085',1,'tbd::data::Index']]],
-  ['_7esafevector_789',['~SafeVector',['../classtbd_1_1util_1_1SafeVector.html#ad27cb491bdddd45672ddf21c0961b9e2',1,'tbd::util::SafeVector']]],
-  ['_7estartup_790',['~Startup',['../classtbd_1_1wx_1_1Startup.html#a37d98c16d6316e991e061407fd0b59ef',1,'tbd::wx::Startup']]],
-  ['_7eweather_791',['~Weather',['../classtbd_1_1wx_1_1Weather.html#a8a78fa1dc82287fd323ca01d67ac6777',1,'tbd::wx::Weather']]],
-  ['_7ewind_792',['~Wind',['../classtbd_1_1wx_1_1Wind.html#ad7fd3e5586f7228a919bb22328435901',1,'tbd::wx::Wind']]]
+  ['unburnable_5f_0',['unburnable_',['../classtbd_1_1sim_1_1Scenario.html#ad2fbc4013bfb95cbf01e09175900c8f1',1,'tbd::sim::Scenario']]],
+  ['unhashcolumn_1',['unhashColumn',['../classtbd_1_1topo_1_1Position.html#a8d4e3e10cd34068a55511852b92994b7',1,'tbd::topo::Position']]],
+  ['unhashrow_2',['unhashRow',['../classtbd_1_1topo_1_1Position.html#a77df0358e84f989731da0d9a2ab53868',1,'tbd::topo::Position']]],
+  ['unpack_3',['unpack',['../namespaceunpack.html',1,'']]],
+  ['usagecount_4',['usagecount',['../classtbd_1_1util_1_1UsageCount.html',1,'tbd::util::UsageCount'],['../classtbd_1_1util_1_1UsageCount.html#af2c80ff2a85c17df637e8c5ede64f52a',1,'tbd::util::UsageCount::UsageCount()']]],
+  ['used_5fby_5fname_5f_5',['used_by_name_',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#a97a9325582624e898a695cd4cd9c2ef8',1,'tbd::fuel::FuelLookupImpl']]],
+  ['usedfuels_6',['usedfuels',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#abdabf8e6af919c2180931f0ee3fa52ef',1,'tbd::fuel::FuelLookupImpl::usedFuels()'],['../classtbd_1_1fuel_1_1FuelLookup.html#af1f7592f0c2afbfdf92999c08c840298',1,'tbd::fuel::FuelLookup::usedFuels()']]],
+  ['util_7',['util',['../namespaceutil.html',1,'']]]
 ];

@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['_5f_5finit_5f_5f_0',['__init__',['../classgis_1_1Extent.html#a1f540d386300331d842e3c8817e555ed',1,'gis::Extent']]],
-  ['_5fcreate_5fdefault_5fhttps_5fcontext_1',['_create_default_https_context',['../namespaceutil.html#aa9dbb04537b0bf69c23a17eecc352629',1,'util']]]
+  ['10_2019_0',['Version 2020-10-19',['../md_ORIGIN.html#autotoc_md9',1,'']]],
+  ['100m_20default_1',['Step 6: Place the grids in ../100m/default',['../md_gis_2README.html#autotoc_md7',1,'']]],
+  ['19_2',['Version 2020-10-19',['../md_ORIGIN.html#autotoc_md9',1,'']]],
+  ['1_3a_20run_20the_20setup_3',['Step 1: Run the setup',['../md_gis_2README.html#autotoc_md2',1,'']]]
 ];

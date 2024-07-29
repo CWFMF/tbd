@@ -1,6 +1,49 @@
 <map id="tbd::data::ConstantGrid::at" name="tbd::data::ConstantGrid::at">
-<area shape="rect" id="node1" title="Value for grid at given Location." alt="" coords="273,78,444,105"/>
-<area shape="rect" id="node2" href="$classtbd_1_1topo_1_1Environment.html#a2cad6cce4fa2903074c7ddc1b9e6694f" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="41,5,190,47"/>
-<area shape="rect" id="node3" href="$classtbd_1_1topo_1_1Environment.html#a63df05ef138b648d92704d769f571357" title="Combine rasters into ConstantGrid&lt;Cell&gt;" alt="" coords="41,71,190,112"/>
-<area shape="rect" id="node4" href="$classtbd_1_1data_1_1ConstantGrid.html#a21c0aa9f922cace5ad706d67b0d1176d" title="Save contents to .asc file." alt="" coords="5,136,225,177"/>
+<area shape="rect" id="Node000001" title="Value for grid at given Location." alt="" coords="1080,454,1249,480"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1topo_1_1Environment.html#a0126416f22ba35a8aaa09c5beeac3070" title="Cell at given row and column." alt="" coords="884,284,1032,325"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1133,446,984,327,987,323,1137,442"/>
+<area shape="rect" id="Node000016" href="$classtbd_1_1topo_1_1Environment.html#acd1b7abcc900a54ac0f86d3e2909dfb6" title="Combine rasters into ConstantGrid&lt;Cell, Topo&gt;" alt="" coords="687,468,836,509"/>
+<area shape="poly" id="edge26_Node000001_Node000016" title=" " alt="" coords="1065,463,977,461,884,466,836,473,836,468,883,460,977,456,1065,457"/>
+<area shape="rect" id="Node000020" href="$classtbd_1_1topo_1_1Environment.html#ac7908d38369d44157e86364f06236a90" title="Cell at given Location." alt="" coords="884,475,1032,515"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="1065,483,1033,488,1032,482,1064,478"/>
+<area shape="rect" id="Node000021" href="$classtbd_1_1topo_1_1Environment.html#a4a8d58a760cdfbaed971ddbc85dd85c9" title="Creates a map of areas that are not burnable either because of fuel or the initial perimeter." alt="" coords="884,540,1032,581"/>
+<area shape="poly" id="edge25_Node000001_Node000021" title=" " alt="" coords="1122,489,1006,542,1004,537,1119,484"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1topo_1_1BurnedMap.html#ab20ae1e32f6d7b34cc5ac702dcd9fe17" title="Constructor." alt="" coords="690,201,833,242"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="893,280,811,245,813,240,895,275"/>
+<area shape="rect" id="Node000004" href="$classtbd_1_1sim_1_1Model.html#add7d9a4fea4de29dddefe15f0fcf87b9" title="Cell at the given row and column." alt="" coords="695,266,828,292"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="868,295,828,290,829,285,869,290"/>
+<area shape="rect" id="Node000011" href="$classtbd_1_1sim_1_1Model.html#af0e12222378c146a8839be12ed03135e" title="Find all Cell(s) that can burn in entire Environment." alt="" coords="481,309,629,350"/>
+<area shape="poly" id="edge18_Node000002_Node000011" title=" " alt="" coords="868,313,630,328,630,322,868,307"/>
+<area shape="rect" id="Node000014" href="$classtbd_1_1sim_1_1Model.html#aa915a70fdc5f7d28bd65047d7a12be8f" title="Find Cell(s) that can burn closest to Location." alt="" coords="471,374,639,400"/>
+<area shape="poly" id="edge19_Node000002_Node000014" title=" " alt="" coords="869,325,622,376,621,371,868,320"/>
+<area shape="rect" id="Node000015" href="$classtbd_1_1sim_1_1Model.html#a515c17a6a4f316efb3a3899565c322bd" title="Cell at the given Location." alt="" coords="695,418,828,444"/>
+<area shape="poly" id="edge17_Node000002_Node000015" title=" " alt="" coords="924,337,884,370,837,401,799,420,797,415,834,397,880,365,921,333"/>
+<area shape="poly" id="edge20_Node000002_Node000016" title=" " alt="" coords="939,340,896,399,868,431,837,458,820,470,817,465,834,454,865,427,892,396,934,336"/>
+<area shape="rect" id="Node000017" href="$classtbd_1_1topo_1_1Environment.html#ac1b5167d14976560fdb8c09c734bc740" title="Cell at Location with given hash." alt="" coords="687,5,836,46"/>
+<area shape="poly" id="edge21_Node000002_Node000017" title=" " alt="" coords="945,270,930,223,906,168,875,111,834,61,817,49,821,44,838,57,879,108,911,166,935,221,950,268"/>
+<area shape="rect" id="Node000018" href="$classtbd_1_1topo_1_1Perimeter.html#a9a3c677ecad925b4fd8b02c2e95c0ddd" title="Create a Perimeter of the given size at the given Location." alt="" coords="695,71,828,111"/>
+<area shape="poly" id="edge22_Node000002_Node000018" title=" " alt="" coords="939,272,897,200,868,161,834,126,816,114,819,110,837,122,872,157,901,197,943,269"/>
+<area shape="rect" id="Node000019" href="$classtbd_1_1topo_1_1Perimeter.html#a541669edf82f5bc50c1d8ecf98c7093c" title="Initialize perimeter from a file." alt="" coords="695,136,828,177"/>
+<area shape="poly" id="edge23_Node000002_Node000019" title=" " alt="" coords="927,274,885,233,834,192,813,180,815,175,837,187,888,229,930,271"/>
+<area shape="rect" id="Node000005" href="$classtbd_1_1sim_1_1Scenario.html#a87b5c11f81fe6bdf775dbb3343e373cf" title="Get Cell for given row and column." alt="" coords="494,129,617,170"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="693,261,686,256,669,238,661,220,653,202,638,185,616,171,619,167,641,181,657,199,666,217,673,235,689,252,696,257"/>
+<area shape="rect" id="Node000010" href="$classtbd_1_1sim_1_1Scenario.html#afc8ec043613050fea64c8810bd6c6ad4" title="Get Cell for given Location." alt="" coords="494,195,617,235"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="702,264,616,237,618,232,704,258"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="692,299,631,314,629,309,691,294"/>
+<area shape="rect" id="Node000012" href="$classtbd_1_1sim_1_1Model.html#aeca84cc603a0d9f0aefa705205248b57" title="Make starts based on desired point and where nearest combustible cells are." alt="" coords="243,317,423,343"/>
+<area shape="poly" id="edge16_Node000004_Node000012" title=" " alt="" coords="679,283,580,289,471,300,383,319,382,314,471,295,579,283,679,278"/>
+<area shape="poly" id="edge14_Node000004_Node000014" title=" " alt="" coords="734,304,691,335,640,364,610,376,608,371,638,359,688,330,731,300"/>
+<area shape="rect" id="Node000006" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="259,80,407,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="478,133,385,108,386,103,479,127"/>
+<area shape="rect" id="Node000007" href="$classtbd_1_1sim_1_1Scenario.html#af3a02c3ea6bb9208465b6c95cb76ac2c" title="Schedule a fire spread Event." alt="" coords="262,129,404,170"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="478,152,404,152,404,147,478,147"/>
+<area shape="rect" id="Node000009" href="$classtbd_1_1sim_1_1Scenario.html#ab5bbaa3c2ef90e732edc4e5320ca6fe3" title="Whether or not the fire survives the conditions." alt="" coords="271,195,395,235"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="480,175,396,199,394,194,478,169"/>
+<area shape="rect" id="Node000008" href="$classtbd_1_1sim_1_1Scenario.html#a6e8393dcbcbae5059de734a2e2ac59e5" title="Take whatever steps are necessary to process the given Event." alt="" coords="38,163,162,203"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="246,165,163,177,162,172,246,159"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="256,207,162,194,163,189,256,202"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="465,332,423,332,423,327,465,327"/>
+<area shape="rect" id="Node000013" href="$classtbd_1_1sim_1_1Model.html#a62b5ea759a1a5bdd71ebf3c42d34a9e9" title="Run Scenarios initialized from given inputs." alt="" coords="5,317,195,343"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="227,332,195,332,195,327,227,327"/>
+<area shape="poly" id="edge15_Node000014_Node000012" title=" " alt="" coords="487,372,385,346,386,341,488,367"/>
 </map>
