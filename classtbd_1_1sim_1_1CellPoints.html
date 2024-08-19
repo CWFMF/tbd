@@ -87,15 +87,31 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="CellPoints_8h_source.html">CellPoints.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for tbd::sim::CellPoints:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1CellPoints__coll__graph.png" border="0" usemap="#atbd_1_1sim_1_1CellPoints_coll__map" alt="Collaboration graph"/></div>
+<map name="atbd_1_1sim_1_1CellPoints_coll__map" id="atbd_1_1sim_1_1CellPoints_coll__map">
+<area shape="rect" title=" " alt="" coords="22,94,153,120"/>
+<area shape="rect" title=" " alt="" coords="5,5,170,31"/>
+<area shape="poly" title=" " alt="" coords="90,47,90,94,85,94,85,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aa0563d477668d639bf40ae413d8cf526" id="r_aa0563d477668d639bf40ae413d8cf526"><td class="memItemLeft" align="right" valign="top"><a id="aa0563d477668d639bf40ae413d8cf526" name="aa0563d477668d639bf40ae413d8cf526"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>spreading_points</b> = map&lt; SpreadKey, vector&lt; pair&lt; <a class="el" href="classtbd_1_1topo_1_1Location.html">Location</a>, <a class="el" href="classtbd_1_1sim_1_1CellPoints.html">CellPoints</a> &gt; &gt; &gt;</td></tr>
 <tr class="separator:aa0563d477668d639bf40ae413d8cf526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3fed2effc58b10b1dbd6b9b1b92719" id="r_a7f3fed2effc58b10b1dbd6b9b1b92719"><td class="memItemLeft" align="right" valign="top"><a id="a7f3fed2effc58b10b1dbd6b9b1b92719" name="a7f3fed2effc58b10b1dbd6b9b1b92719"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>array_dists</b> = std::array&lt; pair&lt; double, <a class="el" href="classtbd_1_1sim_1_1InnerPos.html">InnerPos</a> &gt;, NUM_DIRECTIONS &gt;</td></tr>
-<tr class="separator:a7f3fed2effc58b10b1dbd6b9b1b92719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad846cc5338dfbbbf19eaa93fafe31bc8" id="r_ad846cc5338dfbbbf19eaa93fafe31bc8"><td class="memItemLeft" align="right" valign="top"><a id="ad846cc5338dfbbbf19eaa93fafe31bc8" name="ad846cc5338dfbbbf19eaa93fafe31bc8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>dist_pt</b> = pair&lt; double, <a class="el" href="classtbd_1_1sim_1_1InnerPos.html">InnerPos</a> &gt;</td></tr>
+<tr class="separator:ad846cc5338dfbbbf19eaa93fafe31bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939ff0a46953b8bc22468dea2f341da9" id="r_a939ff0a46953b8bc22468dea2f341da9"><td class="memItemLeft" align="right" valign="top"><a id="a939ff0a46953b8bc22468dea2f341da9" name="a939ff0a46953b8bc22468dea2f341da9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>array_dist_pts</b> = std::array&lt; dist_pt, NUM_DIRECTIONS &gt;</td></tr>
+<tr class="separator:a939ff0a46953b8bc22468dea2f341da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3131db8fb2f062e3befacf86e4e6a979" id="r_a3131db8fb2f062e3befacf86e4e6a979"><td class="memItemLeft" align="right" valign="top"><a id="a3131db8fb2f062e3befacf86e4e6a979" name="a3131db8fb2f062e3befacf86e4e6a979"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>array_dists</b> = std::array&lt; double, NUM_DIRECTIONS &gt;</td></tr>
+<tr class="separator:a3131db8fb2f062e3befacf86e4e6a979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -177,9 +193,15 @@ array_dists&#160;</td><td class="memItemRight" valign="bottom"><b>find_distances
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a6c21c284f99a69c4f3d1f892ea7d6f84" id="r_a6c21c284f99a69c4f3d1f892ea7d6f84"><td class="memItemLeft" align="right" valign="top"><a id="a6c21c284f99a69c4f3d1f892ea7d6f84" name="a6c21c284f99a69c4f3d1f892ea7d6f84"></a>
-array_dists&#160;</td><td class="memItemRight" valign="bottom"><b>pts_</b></td></tr>
-<tr class="separator:a6c21c284f99a69c4f3d1f892ea7d6f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71783cd6e1112ccb805935a559e2b5a4" id="r_a71783cd6e1112ccb805935a559e2b5a4"><td class="memItemLeft" align="right" valign="top"><a id="a71783cd6e1112ccb805935a559e2b5a4" name="a71783cd6e1112ccb805935a559e2b5a4"></a>
+array_dist_pts&#160;</td><td class="memItemRight" valign="bottom"><b>pts_</b></td></tr>
+<tr class="separator:a71783cd6e1112ccb805935a559e2b5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b77912455d5b10b1b11e83a92cdfe07" id="r_a4b77912455d5b10b1b11e83a92cdfe07"><td class="memItemLeft" align="right" valign="top"><a id="a4b77912455d5b10b1b11e83a92cdfe07" name="a4b77912455d5b10b1b11e83a92cdfe07"></a>
+set&lt; <a class="el" href="classtbd_1_1sim_1_1InnerPos.html">InnerPos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pts_unique_</b></td></tr>
+<tr class="separator:a4b77912455d5b10b1b11e83a92cdfe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c436e9821144304dc35b520d97b8bbc" id="r_a9c436e9821144304dc35b520d97b8bbc"><td class="memItemLeft" align="right" valign="top"><a id="a9c436e9821144304dc35b520d97b8bbc" name="a9c436e9821144304dc35b520d97b8bbc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>pts_dirty_</b></td></tr>
+<tr class="separator:a9c436e9821144304dc35b520d97b8bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfb0f0b730c235f011e1aeea21185b4f" id="r_adfb0f0b730c235f011e1aeea21185b4f"><td class="memItemLeft" align="right" valign="top"><a id="adfb0f0b730c235f011e1aeea21185b4f" name="adfb0f0b730c235f011e1aeea21185b4f"></a>
 Idx&#160;</td><td class="memItemRight" valign="bottom"><b>cell_x_</b></td></tr>
 <tr class="separator:adfb0f0b730c235f011e1aeea21185b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>

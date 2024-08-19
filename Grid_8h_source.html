@@ -440,9 +440,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>  <span class="keyword">virtual</span> tuple&lt;Idx, Idx, Idx, Idx&gt; dataBounds() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00538" data-start="{" data-end="}">
-<div class="line"><a id="l00538" name="l00538"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#a3ec87b59641746c4712696ba7f4bda3c">  538</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#a3ec87b59641746c4712696ba7f4bda3c">saveToAsciiFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00538" name="l00538"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#a25a68e7035aacfbc1492aa76faf6311b">  538</a></span>  <span class="keywordtype">string</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#a25a68e7035aacfbc1492aa76faf6311b">saveToAsciiFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
 <div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span>    saveToAsciiFile&lt;T&gt;(</div>
+<div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span>    <span class="keywordflow">return</span> saveToAsciiFile&lt;T&gt;(</div>
 <div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span>      dir,</div>
 <div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>      base_name,</div>
 <div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>      [](V value) {</div>
@@ -452,9 +452,9 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 <div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
 <div class="foldopen" id="foldopen00555" data-start="{" data-end="}">
-<div class="line"><a id="l00555" name="l00555"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#abb624ad273ac9463bb6c0abe7f7464e8">  555</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#abb624ad273ac9463bb6c0abe7f7464e8">saveToAsciiFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
-<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>                       <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name,</div>
-<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>                       std::function&lt;R(T value)&gt; convert)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00555" name="l00555"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#a6016335c6145c9ef96f891979a4fd5db">  555</a></span>  <span class="keywordtype">string</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#a6016335c6145c9ef96f891979a4fd5db">saveToAsciiFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
+<div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>                         <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name,</div>
+<div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>                         std::function&lt;R(T value)&gt; convert)<span class="keyword"> const</span></div>
 <div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span><span class="keyword">  </span>{</div>
 <div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
 <div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>    <span class="comment">// enforce converting to an int and back produces same V</span></div>
@@ -497,246 +497,268 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_rows = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(max_row) - min_row + 1;</div>
 <div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_columns = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(max_column) - min_column + 1;</div>
 <div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    ofstream out;</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>    out.open(dir + base_name + <span class="stringliteral">&quot;.asc&quot;</span>);</div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    write_ascii_header(</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>      out,</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>      num_columns,</div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>      num_rows,</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>      xll,</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>      yll,</div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>      this-&gt;cellSize(),</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>      <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(this-&gt;nodataInput()));</div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="keywordflow">for</span> (Idx ro = 0; ro &lt; num_rows; ++ro)</div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    {</div>
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>      <span class="comment">// HACK: do this so that we always get at least one pixel in output</span></div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>      <span class="comment">// need to output in reverse order since (0,0) is bottom left</span></div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>      <span class="keyword">const</span> Idx r = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(max_row) - ro;</div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>      <span class="keywordflow">for</span> (Idx co = 0; co &lt; num_columns; ++co)</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>      {</div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>        <span class="keyword">const</span> <a class="code hl_class" href="classtbd_1_1topo_1_1Location.html">Location</a> idx(<span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(r), <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(min_column + co));</div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>        <span class="comment">// HACK: use + here so that it gets promoted to a printable number</span></div>
-<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>        <span class="comment">//       prevents char type being output as characters</span></div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>        out &lt;&lt; +(convert(this-&gt;at(idx)))</div>
-<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>            &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>      }</div>
-<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>      out &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>    }</div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    out.close();</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    this-&gt;createPrj(dir, base_name);</div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>  }</div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>    <span class="keywordtype">string</span> filename = dir + base_name + <span class="stringliteral">&quot;.asc&quot;</span>;</div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    out.open(filename.c_str());</div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>    write_ascii_header(</div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>      out,</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>      num_columns,</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>      num_rows,</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>      xll,</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>      yll,</div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>      this-&gt;cellSize(),</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>      <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(this-&gt;nodataInput()));</div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    <span class="keywordflow">for</span> (Idx ro = 0; ro &lt; num_rows; ++ro)</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>    {</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>      <span class="comment">// HACK: do this so that we always get at least one pixel in output</span></div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>      <span class="comment">// need to output in reverse order since (0,0) is bottom left</span></div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>      <span class="keyword">const</span> Idx r = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(max_row) - ro;</div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>      <span class="keywordflow">for</span> (Idx co = 0; co &lt; num_columns; ++co)</div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>      {</div>
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>        <span class="keyword">const</span> <a class="code hl_class" href="classtbd_1_1topo_1_1Location.html">Location</a> idx(<span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(r), <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(min_column + co));</div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>        <span class="comment">// HACK: use + here so that it gets promoted to a printable number</span></div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>        <span class="comment">//       prevents char type being output as characters</span></div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>        out &lt;&lt; +(convert(this-&gt;at(idx)))</div>
+<div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>            &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>      }</div>
+<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span>      out &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    }</div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    out.close();</div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>    this-&gt;createPrj(dir, base_name);</div>
+<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>    <span class="keywordflow">return</span> filename;</div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>  }</div>
 </div>
-<div class="foldopen" id="foldopen00632" data-start="{" data-end="}">
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#ad7a6b6c6ea0344ccc44acb38010ed4b2">  632</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#ad7a6b6c6ea0344ccc44acb38010ed4b2">saveToTiffFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>                      <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    saveToTiffFile&lt;T&gt;(</div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>      dir,</div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>      base_name,</div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>      [](V value) {</div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>V<span class="keyword">&gt;</span>(value);</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>      });</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>  }</div>
+<div class="foldopen" id="foldopen00634" data-start="{" data-end="}">
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#af66ddaeff070b008432eb4663e75a225">  634</a></span>  <span class="keywordtype">string</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#af66ddaeff070b008432eb4663e75a225">saveToTiffFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
+<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>                        <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    <span class="keywordflow">return</span> saveToTiffFile&lt;T&gt;(</div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>      dir,</div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>      base_name,</div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>      [](V value) {</div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>V<span class="keyword">&gt;</span>(value);</div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>      });</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>  }</div>
 </div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
-<div class="foldopen" id="foldopen00650" data-start="{" data-end="}">
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#af43381880c9570977a2eab3774ccb197">  650</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#af43381880c9570977a2eab3774ccb197">saveToTiffFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>                      <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name,</div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>                      std::function&lt;R(T value)&gt; convert)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    <span class="comment">// enforce converting to an int and back produces same V</span></div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n0 = this-&gt;nodataInput();</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n1 = <span class="keyword">static_cast&lt;</span>NodataIntType<span class="keyword">&gt;</span>(n0);</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n2 = <span class="keyword">static_cast&lt;</span>V<span class="keyword">&gt;</span>(n1);</div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n3 = <span class="keyword">static_cast&lt;</span>NodataIntType<span class="keyword">&gt;</span>(n2);</div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <span class="keyword">const</span> <span class="keyword">auto</span> v0 = this-&gt;nodataValue();</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    logging::check_equal(</div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>      n1,</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>      n3,</div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>      <span class="stringliteral">&quot;nodata_input_ as int&quot;</span>);</div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    logging::check_equal(</div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>      n0,</div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>      n2,</div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>      <span class="stringliteral">&quot;nodata_input_ from int&quot;</span>);</div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    logging::check_equal(</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>      convert(v0),</div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>      n0,</div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>      <span class="stringliteral">&quot;convert nodata&quot;</span>);</div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>    uint32_t tileWidth = min((<span class="keywordtype">int</span>)(this-&gt;columns()), 256);</div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>    uint32_t tileHeight = min((<span class="keywordtype">int</span>)(this-&gt;rows()), 256);</div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    tuple&lt;Idx, Idx, Idx, Idx&gt; bounds = dataBounds();</div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    <span class="keyword">auto</span> min_column = std::get&lt;0&gt;(bounds);</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    <span class="keyword">auto</span> min_row = std::get&lt;1&gt;(bounds);</div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>    <span class="keyword">auto</span> max_column = std::get&lt;2&gt;(bounds);</div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    <span class="keyword">auto</span> max_row = std::get&lt;3&gt;(bounds);</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    logging::check_fatal(</div>
-<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>      min_column &gt; max_column,</div>
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>      <span class="stringliteral">&quot;Invalid bounds for columns with %d =&gt; %d&quot;</span>,</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      min_column,</div>
-<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>      max_column);</div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>    logging::check_fatal(</div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>      min_row &gt; max_row,</div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>      <span class="stringliteral">&quot;Invalid bounds for rows with %d =&gt; %d&quot;</span>,</div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>      min_row,</div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>      max_row);</div>
-<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>    logging::note(</div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>      <span class="stringliteral">&quot;Bounds are (%d, %d), (%d, %d) initially&quot;</span>,</div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>      min_column,</div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>      min_row,</div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>      max_column,</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>      max_row);</div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>    Idx c_min = 0;</div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>    <span class="keywordflow">while</span> (c_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth) &lt;= min_column)</div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>    {</div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>      c_min += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
-<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>    }</div>
-<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>    Idx c_max = c_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
-<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>    <span class="keywordflow">while</span> (c_max &lt; max_column)</div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>    {</div>
-<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>      c_max += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
-<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>    }</div>
-<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>    min_column = c_min;</div>
-<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>    max_column = c_max;</div>
-<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span>    Idx r_min = 0;</div>
-<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>    <span class="keywordflow">while</span> (r_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight) &lt;= min_row)</div>
-<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>    {</div>
-<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>      r_min += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
-<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>    }</div>
-<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>    Idx r_max = r_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
-<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span>    <span class="keywordflow">while</span> (r_max &lt; max_row)</div>
-<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>    {</div>
-<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>      r_max += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
-<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>    }</div>
-<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>    min_row = r_min;</div>
-<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    max_row = r_max;</div>
-<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>    logging::check_fatal(</div>
-<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>      min_column &gt;= max_column,</div>
-<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>      <span class="stringliteral">&quot;Invalid bounds for columns with %d =&gt; %d&quot;</span>,</div>
-<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>      min_column,</div>
-<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>      max_column);</div>
-<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>    logging::check_fatal(</div>
-<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>      min_row &gt;= max_row,</div>
-<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>      <span class="stringliteral">&quot;Invalid bounds for rows with %d =&gt; %d&quot;</span>,</div>
-<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>      min_row,</div>
-<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>      max_row);</div>
-<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
-<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>    logging::note(</div>
-<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span>      <span class="stringliteral">&quot;Bounds are (%d, %d), (%d, %d) after correction&quot;</span>,</div>
-<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>      min_column,</div>
-<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>      min_row,</div>
-<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span>      max_column,</div>
-<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>      max_row);</div>
-<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>    logging::extensive(<span class="stringliteral">&quot;(%d, %d) =&gt; (%d, %d)&quot;</span>, min_column, min_row, max_column, max_row);</div>
-<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>    logging::check_fatal((max_row - min_row) % tileHeight != 0, <span class="stringliteral">&quot;Invalid start and end rows&quot;</span>);</div>
-<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>    logging::check_fatal((max_column - min_column) % tileHeight != 0, <span class="stringliteral">&quot;Invalid start and end columns&quot;</span>);</div>
-<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>    logging::extensive(<span class="stringliteral">&quot;Lower left corner is (%d, %d)&quot;</span>, min_column, min_row);</div>
-<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>    logging::extensive(<span class="stringliteral">&quot;Upper right corner is (%d, %d)&quot;</span>, max_column, max_row);</div>
-<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> xll = this-&gt;xllcorner() + min_column * this-&gt;cellSize();</div>
-<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    <span class="comment">// offset is different for y since it&#39;s flipped</span></div>
-<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> yll = this-&gt;yllcorner() + (min_row) * this-&gt;cellSize();</div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    logging::extensive(<span class="stringliteral">&quot;Lower left corner is (%f, %f)&quot;</span>, xll, yll);</div>
-<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_rows = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(max_row - min_row);</div>
-<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_columns = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(max_column - min_column);</div>
-<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>    <span class="comment">// ensure this is always divisible by tile size</span></div>
-<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>    logging::check_fatal(0 != (num_rows % tileWidth), <span class="stringliteral">&quot;%d rows not divisible by tiles&quot;</span>, num_rows);</div>
-<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    logging::check_fatal(0 != (num_columns % tileHeight), <span class="stringliteral">&quot;%d columns not divisible by tiles&quot;</span>, num_columns);</div>
-<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    <span class="keywordtype">string</span> filename = dir + base_name + <span class="stringliteral">&quot;.tif&quot;</span>;</div>
-<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>    TIFF* tif = GeoTiffOpen(filename.c_str(), <span class="stringliteral">&quot;w&quot;</span>);</div>
-<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>    <span class="keyword">auto</span> gtif = GTIFNew(tif);</div>
-<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>    logging::check_fatal(!gtif, <span class="stringliteral">&quot;Cannot open file %s as a GEOTIFF&quot;</span>, filename.c_str());</div>
-<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> xul = xll;</div>
-<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> yul = this-&gt;yllcorner() + (this-&gt;cellSize() * max_row);</div>
-<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>    <span class="keywordtype">double</span> tiePoints[6] = {</div>
-<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>      0.0,</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>      0.0,</div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
+<div class="foldopen" id="foldopen00652" data-start="{" data-end="}">
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno"><a class="line" href="classtbd_1_1data_1_1GridData.html#a5eabf44a115271e1924e7ad640f94283">  652</a></span>  <span class="keywordtype">string</span> <a class="code hl_function" href="classtbd_1_1data_1_1GridData.html#a5eabf44a115271e1924e7ad640f94283">_saveToTiffFile</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>                         <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name,</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>                         std::function&lt;R(T value)&gt; convert)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    <span class="comment">// enforce converting to an int and back produces same V</span></div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n0 = this-&gt;nodataInput();</div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n1 = <span class="keyword">static_cast&lt;</span>NodataIntType<span class="keyword">&gt;</span>(n0);</div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n2 = <span class="keyword">static_cast&lt;</span>V<span class="keyword">&gt;</span>(n1);</div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    <span class="keyword">const</span> <span class="keyword">auto</span> n3 = <span class="keyword">static_cast&lt;</span>NodataIntType<span class="keyword">&gt;</span>(n2);</div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    <span class="keyword">const</span> <span class="keyword">auto</span> v0 = this-&gt;nodataValue();</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    logging::check_equal(</div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>      n1,</div>
+<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>      n3,</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>      <span class="stringliteral">&quot;nodata_input_ as int&quot;</span>);</div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    logging::check_equal(</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>      n0,</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>      n2,</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>      <span class="stringliteral">&quot;nodata_input_ from int&quot;</span>);</div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    logging::check_equal(</div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>      convert(v0),</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>      n0,</div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>      <span class="stringliteral">&quot;convert nodata&quot;</span>);</div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>    uint32_t tileWidth = min((<span class="keywordtype">int</span>)(this-&gt;columns()), 256);</div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    uint32_t tileHeight = min((<span class="keywordtype">int</span>)(this-&gt;rows()), 256);</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    tuple&lt;Idx, Idx, Idx, Idx&gt; bounds = dataBounds();</div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>    <span class="keyword">auto</span> min_column = std::get&lt;0&gt;(bounds);</div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    <span class="keyword">auto</span> min_row = std::get&lt;1&gt;(bounds);</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    <span class="keyword">auto</span> max_column = std::get&lt;2&gt;(bounds);</div>
+<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>    <span class="keyword">auto</span> max_row = std::get&lt;3&gt;(bounds);</div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    logging::check_fatal(</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      min_column &gt; max_column,</div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>      <span class="stringliteral">&quot;Invalid bounds for columns with %d =&gt; %d&quot;</span>,</div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>      min_column,</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>      max_column);</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>    logging::check_fatal(</div>
+<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>      min_row &gt; max_row,</div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>      <span class="stringliteral">&quot;Invalid bounds for rows with %d =&gt; %d&quot;</span>,</div>
+<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>      min_row,</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>      max_row);</div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>    logging::note(</div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>      <span class="stringliteral">&quot;Bounds are (%d, %d), (%d, %d) initially&quot;</span>,</div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>      min_column,</div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>      min_row,</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>      max_column,</div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>      max_row);</div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>    Idx c_min = 0;</div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>    <span class="keywordflow">while</span> (c_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth) &lt;= min_column)</div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>    {</div>
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>      c_min += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
+<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>    }</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>    Idx c_max = c_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
+<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>    <span class="keywordflow">while</span> (c_max &lt; max_column)</div>
+<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>    {</div>
+<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>      c_max += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileWidth);</div>
+<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>    }</div>
+<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span>    min_column = c_min;</div>
+<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>    max_column = c_max;</div>
+<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>    Idx r_min = 0;</div>
+<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>    <span class="keywordflow">while</span> (r_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight) &lt;= min_row)</div>
+<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>    {</div>
+<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>      r_min += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
+<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span>    }</div>
+<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>    Idx r_max = r_min + <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
+<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    <span class="keywordflow">while</span> (r_max &lt; max_row)</div>
+<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>    {</div>
+<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>      r_max += <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(tileHeight);</div>
+<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    }</div>
+<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>    min_row = r_min;</div>
+<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>    max_row = r_max;</div>
+<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>    logging::check_fatal(</div>
+<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>      min_column &gt;= max_column,</div>
+<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>      <span class="stringliteral">&quot;Invalid bounds for columns with %d =&gt; %d&quot;</span>,</div>
+<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>      min_column,</div>
+<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>      max_column);</div>
+<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>    logging::check_fatal(</div>
+<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>      min_row &gt;= max_row,</div>
+<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>      <span class="stringliteral">&quot;Invalid bounds for rows with %d =&gt; %d&quot;</span>,</div>
+<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>      min_row,</div>
+<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>      max_row);</div>
+<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span><span class="preprocessor">#ifdef DEBUG_GRIDS</span></div>
+<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>    logging::note(</div>
+<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>      <span class="stringliteral">&quot;Bounds are (%d, %d), (%d, %d) after correction&quot;</span>,</div>
+<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span>      min_column,</div>
+<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>      min_row,</div>
+<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>      max_column,</div>
+<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>      max_row);</div>
+<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>    logging::extensive(<span class="stringliteral">&quot;(%d, %d) =&gt; (%d, %d)&quot;</span>, min_column, min_row, max_column, max_row);</div>
+<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>    logging::check_fatal((max_row - min_row) % tileHeight != 0, <span class="stringliteral">&quot;Invalid start and end rows&quot;</span>);</div>
+<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>    logging::check_fatal((max_column - min_column) % tileHeight != 0, <span class="stringliteral">&quot;Invalid start and end columns&quot;</span>);</div>
+<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>    logging::extensive(<span class="stringliteral">&quot;Lower left corner is (%d, %d)&quot;</span>, min_column, min_row);</div>
+<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    logging::extensive(<span class="stringliteral">&quot;Upper right corner is (%d, %d)&quot;</span>, max_column, max_row);</div>
+<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> xll = this-&gt;xllcorner() + min_column * this-&gt;cellSize();</div>
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    <span class="comment">// offset is different for y since it&#39;s flipped</span></div>
+<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> yll = this-&gt;yllcorner() + (min_row) * this-&gt;cellSize();</div>
+<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>    logging::extensive(<span class="stringliteral">&quot;Lower left corner is (%f, %f)&quot;</span>, xll, yll);</div>
+<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_rows = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(max_row - min_row);</div>
+<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>    <span class="keyword">const</span> <span class="keyword">auto</span> num_columns = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(max_column - min_column);</div>
+<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    <span class="comment">// ensure this is always divisible by tile size</span></div>
+<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    logging::check_fatal(0 != (num_rows % tileWidth), <span class="stringliteral">&quot;%d rows not divisible by tiles&quot;</span>, num_rows);</div>
+<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>    logging::check_fatal(0 != (num_columns % tileHeight), <span class="stringliteral">&quot;%d columns not divisible by tiles&quot;</span>, num_columns);</div>
+<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>    <span class="keywordtype">string</span> filename = dir + base_name + <span class="stringliteral">&quot;.tif&quot;</span>;</div>
+<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>    TIFF* tif = GeoTiffOpen(filename.c_str(), <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>    <span class="keyword">auto</span> gtif = GTIFNew(tif);</div>
+<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>    logging::check_fatal(!gtif, <span class="stringliteral">&quot;Cannot open file %s as a GEOTIFF&quot;</span>, filename.c_str());</div>
+<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> xul = xll;</div>
+<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> yul = this-&gt;yllcorner() + (this-&gt;cellSize() * max_row);</div>
+<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>    <span class="keywordtype">double</span> tiePoints[6] = {</div>
 <div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span>      0.0,</div>
-<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>      xul,</div>
-<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span>      yul,</div>
-<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>      0.0};</div>
-<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>    <span class="keywordtype">double</span> pixelScale[3] = {</div>
-<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>      this-&gt;cellSize(),</div>
-<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>      this-&gt;cellSize(),</div>
-<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>      0.0};</div>
-<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>    uint32_t bps = <span class="keyword">sizeof</span>(R) * 8;</div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>    <span class="comment">// make sure to use floating point if values are</span></div>
-<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>    <span class="keywordflow">if</span> (std::is_floating_point&lt;R&gt;::value)</div>
-<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>    {</div>
-<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>      TIFFSetField(tif, TIFFTAG_SAMPLEFORMAT, SAMPLEFORMAT_IEEEFP);</div>
-<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>    }</div>
-<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>    <span class="comment">// FIX: was using double, and that usually doesn&#39;t make sense, but sometime it might?</span></div>
-<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>    <span class="comment">// use buffer big enought to fit any (V  + &#39;.000\0&#39;) + 1</span></div>
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> n = std::numeric_limits&lt;V&gt;::digits10;</div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>    <span class="keyword">static_assert</span>(n &gt; 0);</div>
-<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>    <span class="keywordtype">char</span> str[n + 6]{0};</div>
-<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>    <span class="keyword">const</span> <span class="keyword">auto</span> nodata_as_int = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(this-&gt;nodataInput());</div>
-<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    sxprintf(str, <span class="stringliteral">&quot;%d.000&quot;</span>, nodata_as_int);</div>
-<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>    logging::extensive(</div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>      <span class="stringliteral">&quot;%s using nodata string &#39;%s&#39; for nodata value of (%d, %f)&quot;</span>,</div>
-<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>      <span class="keyword">typeid</span>(<span class="keyword">this</span>).name(),</div>
-<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>      str,</div>
-<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>      nodata_as_int,</div>
-<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>      <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(this-&gt;nodataInput()));</div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    TIFFSetField(tif, TIFFTAG_GDAL_NODATA, str);</div>
-<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>    logging::extensive(<span class="stringliteral">&quot;%s takes %d bits&quot;</span>, base_name.c_str(), bps);</div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>    TIFFSetField(tif, TIFFTAG_IMAGEWIDTH, num_columns);</div>
-<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    TIFFSetField(tif, TIFFTAG_IMAGELENGTH, num_rows);</div>
-<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>    TIFFSetField(tif, TIFFTAG_SAMPLESPERPIXEL, 1);</div>
-<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>    TIFFSetField(tif, TIFFTAG_BITSPERSAMPLE, bps);</div>
-<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    TIFFSetField(tif, TIFFTAG_TILEWIDTH, tileWidth);</div>
-<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>    TIFFSetField(tif, TIFFTAG_TILELENGTH, tileHeight);</div>
-<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    TIFFSetField(tif, TIFFTAG_PLANARCONFIG, PLANARCONFIG_CONTIG);</div>
-<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    TIFFSetField(tif, TIFFTAG_ORIENTATION, ORIENTATION_TOPLEFT);</div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    TIFFSetField(tif, TIFFTAG_COMPRESSION, COMPRESSION_LZW);</div>
-<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>    GTIFSetFromProj4(gtif, this-&gt;proj4().c_str());</div>
-<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    TIFFSetField(tif, TIFFTAG_GEOTIEPOINTS, 6, tiePoints);</div>
-<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    TIFFSetField(tif, TIFFTAG_GEOPIXELSCALE, 3, pixelScale);</div>
-<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>    <span class="keywordtype">size_t</span> tileSize = tileWidth * tileHeight;</div>
-<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>    <span class="keyword">const</span> <span class="keyword">auto</span> buf_size = tileSize * <span class="keyword">sizeof</span>(R);</div>
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>    logging::extensive(<span class="stringliteral">&quot;%s has buffer size %d&quot;</span>, base_name.c_str(), buf_size);</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    R* buf = (R*)_TIFFmalloc(buf_size);</div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> co = 0; co &lt; num_columns; co += tileWidth)</div>
-<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>    {</div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> ro = 0; ro &lt; num_rows; ro += tileHeight)</div>
-<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>      {</div>
-<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>        <span class="comment">// NOTE: shouldn&#39;t need to check if writing outside of tile because we made bounds on tile edges above</span></div>
-<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>        <span class="comment">// need to put data from grid into buffer, but flipped vertically</span></div>
-<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> x = 0; x &lt; tileWidth; ++x)</div>
-<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>        {</div>
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>          <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> y = 0; y &lt; tileHeight; ++y)</div>
-<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>          {</div>
-<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>            <span class="keyword">const</span> Idx r = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(max_row) - (ro + y + 1);</div>
-<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>            <span class="keyword">const</span> Idx c = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(min_column) + co + x;</div>
-<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>            <span class="keyword">const</span> <a class="code hl_class" href="classtbd_1_1topo_1_1Location.html">Location</a> idx(r, c);</div>
-<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>            <span class="comment">// might be out of bounds if not divisible by number of tiles</span></div>
-<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>            <span class="keyword">const</span> R value =</div>
-<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>              (this-&gt;rows() &lt;= r</div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>               || 0 &gt; r</div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>               || this-&gt;columns() &lt;= c</div>
-<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>               || 0 &gt; c)</div>
-<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>                ? this-&gt;nodataInput()</div>
-<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>                : convert(this-&gt;at(idx));</div>
-<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>            buf[x + y * tileWidth] = value;</div>
-<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>          }</div>
-<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>        }</div>
-<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>        logging::check_fatal(TIFFWriteTile(tif, buf, co, ro, 0, 0) &lt; 0, <span class="stringliteral">&quot;Cannot write tile to %s&quot;</span>, filename.c_str());</div>
-<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span>      }</div>
-<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>    }</div>
-<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span>    GTIFWriteKeys(gtif);</div>
-<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>    <span class="keywordflow">if</span> (gtif)</div>
-<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>    {</div>
-<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>      GTIFFree(gtif);</div>
-<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>    }</div>
-<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span>    _TIFFfree(buf);</div>
-<div class="line"><a id="l00842" name="l00842"></a><span class="lineno">  842</span>    TIFFClose(tif);</div>
-<div class="line"><a id="l00843" name="l00843"></a><span class="lineno">  843</span>  }</div>
+<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>      0.0,</div>
+<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span>      0.0,</div>
+<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>      xul,</div>
+<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>      yul,</div>
+<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>      0.0};</div>
+<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>    <span class="keywordtype">double</span> pixelScale[3] = {</div>
+<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>      this-&gt;cellSize(),</div>
+<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>      this-&gt;cellSize(),</div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>      0.0};</div>
+<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>    uint32_t bps = <span class="keyword">sizeof</span>(R) * 8;</div>
+<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>    <span class="comment">// make sure to use floating point if values are</span></div>
+<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>    <span class="keywordflow">if</span> (std::is_floating_point&lt;R&gt;::value)</div>
+<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>    {</div>
+<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>      TIFFSetField(tif, TIFFTAG_SAMPLEFORMAT, SAMPLEFORMAT_IEEEFP);</div>
+<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>    }</div>
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>    <span class="comment">// FIX: was using double, and that usually doesn&#39;t make sense, but sometime it might?</span></div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>    <span class="comment">// use buffer big enought to fit any (V  + &#39;.000\0&#39;) + 1</span></div>
+<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>    <span class="keyword">constexpr</span> <span class="keyword">auto</span> n = std::numeric_limits&lt;V&gt;::digits10;</div>
+<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>    <span class="keyword">static_assert</span>(n &gt; 0);</div>
+<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    <span class="keywordtype">char</span> str[n + 6]{0};</div>
+<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>    <span class="keyword">const</span> <span class="keyword">auto</span> nodata_as_int = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(this-&gt;nodataInput());</div>
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>    sxprintf(str, <span class="stringliteral">&quot;%d.000&quot;</span>, nodata_as_int);</div>
+<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>    logging::extensive(</div>
+<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>      <span class="stringliteral">&quot;%s using nodata string &#39;%s&#39; for nodata value of (%d, %f)&quot;</span>,</div>
+<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>      <span class="keyword">typeid</span>(<span class="keyword">this</span>).name(),</div>
+<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>      str,</div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>      nodata_as_int,</div>
+<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>      <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(this-&gt;nodataInput()));</div>
+<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>    TIFFSetField(tif, TIFFTAG_GDAL_NODATA, str);</div>
+<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    logging::extensive(<span class="stringliteral">&quot;%s takes %d bits&quot;</span>, base_name.c_str(), bps);</div>
+<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>    TIFFSetField(tif, TIFFTAG_IMAGEWIDTH, num_columns);</div>
+<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>    TIFFSetField(tif, TIFFTAG_IMAGELENGTH, num_rows);</div>
+<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    TIFFSetField(tif, TIFFTAG_SAMPLESPERPIXEL, 1);</div>
+<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>    TIFFSetField(tif, TIFFTAG_BITSPERSAMPLE, bps);</div>
+<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    TIFFSetField(tif, TIFFTAG_TILEWIDTH, tileWidth);</div>
+<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    TIFFSetField(tif, TIFFTAG_TILELENGTH, tileHeight);</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    TIFFSetField(tif, TIFFTAG_PLANARCONFIG, PLANARCONFIG_CONTIG);</div>
+<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>    TIFFSetField(tif, TIFFTAG_ORIENTATION, ORIENTATION_TOPLEFT);</div>
+<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    TIFFSetField(tif, TIFFTAG_COMPRESSION, COMPRESSION_LZW);</div>
+<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    GTIFSetFromProj4(gtif, this-&gt;proj4().c_str());</div>
+<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>    TIFFSetField(tif, TIFFTAG_GEOTIEPOINTS, 6, tiePoints);</div>
+<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>    TIFFSetField(tif, TIFFTAG_GEOPIXELSCALE, 3, pixelScale);</div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>    <span class="keywordtype">size_t</span> tileSize = tileWidth * tileHeight;</div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    <span class="keyword">const</span> <span class="keyword">auto</span> buf_size = tileSize * <span class="keyword">sizeof</span>(R);</div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>    logging::extensive(<span class="stringliteral">&quot;%s has buffer size %d&quot;</span>, base_name.c_str(), buf_size);</div>
+<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>    R* buf = (R*)_TIFFmalloc(buf_size);</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> co = 0; co &lt; num_columns; co += tileWidth)</div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>    {</div>
+<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> ro = 0; ro &lt; num_rows; ro += tileHeight)</div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>      {</div>
+<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>        <span class="comment">// NOTE: shouldn&#39;t need to check if writing outside of tile because we made bounds on tile edges above</span></div>
+<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>        <span class="comment">// need to put data from grid into buffer, but flipped vertically</span></div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> x = 0; x &lt; tileWidth; ++x)</div>
+<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>        {</div>
+<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>          <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> y = 0; y &lt; tileHeight; ++y)</div>
+<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>          {</div>
+<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>            <span class="keyword">const</span> Idx r = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(max_row) - (ro + y + 1);</div>
+<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>            <span class="keyword">const</span> Idx c = <span class="keyword">static_cast&lt;</span>Idx<span class="keyword">&gt;</span>(min_column) + co + x;</div>
+<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>            <span class="keyword">const</span> <a class="code hl_class" href="classtbd_1_1topo_1_1Location.html">Location</a> idx(r, c);</div>
+<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>            <span class="comment">// might be out of bounds if not divisible by number of tiles</span></div>
+<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>            <span class="keyword">const</span> R value =</div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>              (this-&gt;rows() &lt;= r</div>
+<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>               || 0 &gt; r</div>
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>               || this-&gt;columns() &lt;= c</div>
+<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>               || 0 &gt; c)</div>
+<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>                ? this-&gt;nodataInput()</div>
+<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>                : convert(this-&gt;at(idx));</div>
+<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>            buf[x + y * tileWidth] = value;</div>
+<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>          }</div>
+<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span>        }</div>
+<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>        logging::check_fatal(TIFFWriteTile(tif, buf, co, ro, 0, 0) &lt; 0, <span class="stringliteral">&quot;Cannot write tile to %s&quot;</span>, filename.c_str());</div>
+<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span>      }</div>
+<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>    }</div>
+<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>    GTIFWriteKeys(gtif);</div>
+<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>    <span class="keywordflow">if</span> (gtif)</div>
+<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>    {</div>
+<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span>      GTIFFree(gtif);</div>
+<div class="line"><a id="l00842" name="l00842"></a><span class="lineno">  842</span>    }</div>
+<div class="line"><a id="l00843" name="l00843"></a><span class="lineno">  843</span>    _TIFFfree(buf);</div>
+<div class="line"><a id="l00844" name="l00844"></a><span class="lineno">  844</span>    TIFFClose(tif);</div>
+<div class="line"><a id="l00845" name="l00845"></a><span class="lineno">  845</span>    <span class="keywordflow">return</span> filename;</div>
+<div class="line"><a id="l00846" name="l00846"></a><span class="lineno">  846</span>  }</div>
 </div>
-<div class="line"><a id="l00844" name="l00844"></a><span class="lineno">  844</span>};</div>
+<div class="line"><a id="l00847" name="l00847"></a><span class="lineno">  847</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> R&gt;</div>
+<div class="line"><a id="l00848" name="l00848"></a><span class="lineno">  848</span>  <span class="keywordtype">string</span> saveToTiffFile(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; dir,</div>
+<div class="line"><a id="l00849" name="l00849"></a><span class="lineno">  849</span>                        <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; base_name,</div>
+<div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>                        std::function&lt;R(T value)&gt; convert)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>    <span class="comment">// HACK: (hopefully) ensure that write works</span></div>
+<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>    <span class="keywordflow">try</span></div>
+<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>    {</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>      <span class="keywordflow">return</span> _saveToTiffFile&lt;R&gt;(dir, base_name, convert);</div>
+<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>    }</div>
+<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>    <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; err)</div>
+<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>    {</div>
+<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>      logging::error(<span class="stringliteral">&quot;Error trying to write %s to %s so retrying&quot;</span>,</div>
+<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>                     base_name.c_str(),</div>
+<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>                     dir.c_str());</div>
+<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>      logging::error(err.what());</div>
+<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>      <span class="keywordflow">return</span> _saveToTiffFile&lt;R&gt;(dir, base_name, convert);</div>
+<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>    }</div>
+<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>  }</div>
+<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>};</div>
 </div>
-<div class="line"><a id="l00845" name="l00845"></a><span class="lineno">  845</span>}</div>
+<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>}</div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridBase_html"><div class="ttname"><a href="classtbd_1_1data_1_1GridBase.html">tbd::data::GridBase</a></div><div class="ttdoc">The base class with information for a grid of data with geographic coordinates.</div><div class="ttdef"><b>Definition</b> Grid.h:42</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridBase_html_a171fd98f7a15f9c6dc12ab0b99c5f329"><div class="ttname"><a href="classtbd_1_1data_1_1GridBase.html#a171fd98f7a15f9c6dc12ab0b99c5f329">tbd::data::GridBase::cell_size_</a></div><div class="ttdeci">double cell_size_</div><div class="ttdoc">Cell height and width in meters.</div><div class="ttdef"><b>Definition</b> Grid.h:202</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridBase_html_a273973162a502f7c2fb1dc1fa2e57b31"><div class="ttname"><a href="classtbd_1_1data_1_1GridBase.html#a273973162a502f7c2fb1dc1fa2e57b31">tbd::data::GridBase::meridian_</a></div><div class="ttdeci">double meridian_</div><div class="ttdoc">Central meridian of projection in degrees.</div><div class="ttdef"><b>Definition</b> Grid.h:222</div></div>
@@ -767,15 +789,15 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html">tbd::data::GridData</a></div><div class="ttdoc">A Grid that defines the data structure used for storing values.</div><div class="ttdef"><b>Definition</b> Grid.h:431</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a0fcac461e1c398ae04c97dc934b02dec"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a0fcac461e1c398ae04c97dc934b02dec">tbd::data::GridData::data</a></div><div class="ttdeci">D data</div><div class="ttdoc">Structure that holds data represented by this GridData.</div><div class="ttdef"><b>Definition</b> Grid.h:529</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a1735050cc6da1f306eef21d2d56d6cde"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a1735050cc6da1f306eef21d2d56d6cde">tbd::data::GridData::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdoc">Size of data structure storing values.</div><div class="ttdef"><b>Definition</b> Grid.h:521</div></div>
+<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a25a68e7035aacfbc1492aa76faf6311b"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a25a68e7035aacfbc1492aa76faf6311b">tbd::data::GridData::saveToAsciiFile</a></div><div class="ttdeci">string saveToAsciiFile(const string &amp;dir, const string &amp;base_name) const</div><div class="ttdoc">Save GridMap contents to .asc file.</div><div class="ttdef"><b>Definition</b> Grid.h:538</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a2f032b9644fe17caae7575f358d68078"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a2f032b9644fe17caae7575f358d68078">tbd::data::GridData::GridData</a></div><div class="ttdeci">GridData(GridData &amp;&amp;rhs) noexcept</div><div class="ttdoc">Move constructor.</div><div class="ttdef"><b>Definition</b> Grid.h:485</div></div>
-<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a3ec87b59641746c4712696ba7f4bda3c"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a3ec87b59641746c4712696ba7f4bda3c">tbd::data::GridData::saveToAsciiFile</a></div><div class="ttdeci">void saveToAsciiFile(const string &amp;dir, const string &amp;base_name) const</div><div class="ttdoc">Save GridMap contents to .asc file.</div><div class="ttdef"><b>Definition</b> Grid.h:538</div></div>
+<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a5eabf44a115271e1924e7ad640f94283"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a5eabf44a115271e1924e7ad640f94283">tbd::data::GridData::_saveToTiffFile</a></div><div class="ttdeci">string _saveToTiffFile(const string &amp;dir, const string &amp;base_name, std::function&lt; R(T value)&gt; convert) const</div><div class="ttdoc">Save GridMap contents to .tif file.</div><div class="ttdef"><b>Definition</b> Grid.h:652</div></div>
+<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a6016335c6145c9ef96f891979a4fd5db"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a6016335c6145c9ef96f891979a4fd5db">tbd::data::GridData::saveToAsciiFile</a></div><div class="ttdeci">string saveToAsciiFile(const string &amp;dir, const string &amp;base_name, std::function&lt; R(T value)&gt; convert) const</div><div class="ttdoc">Save GridMap contents to .asc file.</div><div class="ttdef"><b>Definition</b> Grid.h:555</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a615efad85fca6857fcc238ec701f3e88"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a615efad85fca6857fcc238ec701f3e88">tbd::data::GridData::GridData</a></div><div class="ttdeci">GridData(const double cell_size, const Idx rows, const Idx columns, const V nodata_input, const T nodata_value, const double xllcorner, const double yllcorner, const double xurcorner, const double yurcorner, string &amp;&amp;proj4, D &amp;&amp;data)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition</b> Grid.h:448</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_a857a4e6a3b38d3f835b4eb9d86841d1d"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#a857a4e6a3b38d3f835b4eb9d86841d1d">tbd::data::GridData::operator=</a></div><div class="ttdeci">GridData &amp; operator=(GridData &amp;&amp;rhs) noexcept</div><div class="ttdoc">Move assignment.</div><div class="ttdef"><b>Definition</b> Grid.h:508</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_aafd1bbdb78ad95e11be4542a23cfe32a"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#aafd1bbdb78ad95e11be4542a23cfe32a">tbd::data::GridData::operator=</a></div><div class="ttdeci">GridData &amp; operator=(const GridData &amp;rhs) noexcept</div><div class="ttdoc">Copy assignment.</div><div class="ttdef"><b>Definition</b> Grid.h:494</div></div>
-<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_abb624ad273ac9463bb6c0abe7f7464e8"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#abb624ad273ac9463bb6c0abe7f7464e8">tbd::data::GridData::saveToAsciiFile</a></div><div class="ttdeci">void saveToAsciiFile(const string &amp;dir, const string &amp;base_name, std::function&lt; R(T value)&gt; convert) const</div><div class="ttdoc">Save GridMap contents to .asc file.</div><div class="ttdef"><b>Definition</b> Grid.h:555</div></div>
-<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_ad7a6b6c6ea0344ccc44acb38010ed4b2"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#ad7a6b6c6ea0344ccc44acb38010ed4b2">tbd::data::GridData::saveToTiffFile</a></div><div class="ttdeci">void saveToTiffFile(const string &amp;dir, const string &amp;base_name) const</div><div class="ttdoc">Save contents to .tif file.</div><div class="ttdef"><b>Definition</b> Grid.h:632</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_aeeb0400213d8a3cae977d52d3f8db1ed"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#aeeb0400213d8a3cae977d52d3f8db1ed">tbd::data::GridData::GridData</a></div><div class="ttdeci">GridData(const GridData &amp;rhs)</div><div class="ttdoc">Copy constructor.</div><div class="ttdef"><b>Definition</b> Grid.h:477</div></div>
-<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_af43381880c9570977a2eab3774ccb197"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#af43381880c9570977a2eab3774ccb197">tbd::data::GridData::saveToTiffFile</a></div><div class="ttdeci">void saveToTiffFile(const string &amp;dir, const string &amp;base_name, std::function&lt; R(T value)&gt; convert) const</div><div class="ttdoc">Save GridMap contents to .tif file.</div><div class="ttdef"><b>Definition</b> Grid.h:650</div></div>
+<div class="ttc" id="aclasstbd_1_1data_1_1GridData_html_af66ddaeff070b008432eb4663e75a225"><div class="ttname"><a href="classtbd_1_1data_1_1GridData.html#af66ddaeff070b008432eb4663e75a225">tbd::data::GridData::saveToTiffFile</a></div><div class="ttdeci">string saveToTiffFile(const string &amp;dir, const string &amp;base_name) const</div><div class="ttdoc">Save contents to .tif file.</div><div class="ttdef"><b>Definition</b> Grid.h:634</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1Grid_html"><div class="ttname"><a href="classtbd_1_1data_1_1Grid.html">tbd::data::Grid</a></div><div class="ttdoc">A GridBase with an associated type of data.</div><div class="ttdef"><b>Definition</b> Grid.h:274</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1Grid_html_a01993ecfe26d753a215285e24f3de1e8"><div class="ttname"><a href="classtbd_1_1data_1_1Grid.html#a01993ecfe26d753a215285e24f3de1e8">tbd::data::Grid::nodataValue</a></div><div class="ttdeci">constexpr T nodataValue() const noexcept</div><div class="ttdoc">Value representing no data.</div><div class="ttdef"><b>Definition</b> Grid.h:304</div></div>
 <div class="ttc" id="aclasstbd_1_1data_1_1Grid_html_a3ab6d8c21eefbcc1b096fbe5edda2436"><div class="ttname"><a href="classtbd_1_1data_1_1Grid.html#a3ab6d8c21eefbcc1b096fbe5edda2436">tbd::data::Grid::nodata_value_</a></div><div class="ttdeci">T nodata_value_</div><div class="ttdoc">Value to use for representing no data at a Location.</div><div class="ttdef"><b>Definition</b> Grid.h:412</div></div>

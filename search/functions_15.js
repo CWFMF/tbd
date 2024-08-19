@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['wait_0',['wait',['../classtbd_1_1sim_1_1Semaphore.html#abb3ede7f055c8fc98800a1b4fc22ee09',1,'tbd::sim::Semaphore']]],
-  ['weather_1',['weather',['../classtbd_1_1sim_1_1SpreadInfo.html#a0138fb6c4e3ad59eacb096d5864bc608',1,'tbd::sim::SpreadInfo::weather()'],['../classtbd_1_1sim_1_1Scenario.html#ad37b5acfde463e5ded9c3d9134fbfcb2',1,'tbd::sim::Scenario::weather()'],['../classtbd_1_1wx_1_1Weather.html#af32831c88dc0983151de22e0a0d68c6e',1,'tbd::wx::Weather::Weather() noexcept=default'],['../classtbd_1_1wx_1_1Weather.html#a0e706ea7c5a4675c1ee2e52d84f33298',1,'tbd::wx::Weather::Weather(const Temperature &amp;temp, const RelativeHumidity &amp;rh, const Wind &amp;wind, const Precipitation &amp;prec) noexcept'],['../classtbd_1_1wx_1_1Weather.html#a6a012bb08f3eb3f3ceca579e98428e19',1,'tbd::wx::Weather::Weather(Weather &amp;&amp;rhs) noexcept=default'],['../classtbd_1_1wx_1_1Weather.html#a39c5cb7d1f598b04ff36e52e926ea5a1',1,'tbd::wx::Weather::Weather(const Weather &amp;rhs) noexcept=default']]],
-  ['weighteddsr_2',['weighteddsr',['../classtbd_1_1wx_1_1FireWeather.html#af68a664569ce29bad119c99d39983e9d',1,'tbd::wx::FireWeather::weightedDsr()'],['../classtbd_1_1sim_1_1Scenario.html#abdc479406b8c2fe764aa3fba6aa54f81',1,'tbd::sim::Scenario::weightedDsr()']]],
-  ['wfca_3',['wfcA',['../classtbd_1_1fuel_1_1FuelSlash.html#a49a04ff6be191bc41433baadbf9395dc',1,'tbd::fuel::FuelSlash']]],
-  ['wfcb_4',['wfcB',['../classtbd_1_1fuel_1_1FuelSlash.html#aa34cd9fcb4b339e5fcf175cec49d81f9',1,'tbd::fuel::FuelSlash']]],
-  ['wind_5',['wind',['../classtbd_1_1sim_1_1SpreadInfo.html#a109e29b9c45273a77e62e28470e1eebd',1,'tbd::sim::SpreadInfo::wind()'],['../classtbd_1_1wx_1_1Weather.html#aa54817af8bf73572d66ba1a87962a8b8',1,'tbd::wx::Weather::wind()'],['../classtbd_1_1wx_1_1Wind.html#af92f5c4365ab8b8f2508fd1fae0129af',1,'tbd::wx::Wind::Wind() noexcept'],['../classtbd_1_1wx_1_1Wind.html#a16458ed86f14a9a7effa1657d60a1aee',1,'tbd::wx::Wind::Wind(const Direction &amp;direction, const Speed speed) noexcept'],['../classtbd_1_1wx_1_1Wind.html#a0c3c6a605070598332683cecfeac55c9',1,'tbd::wx::Wind::Wind(const Wind &amp;rhs) noexcept=default'],['../classtbd_1_1wx_1_1Wind.html#ad1d9264d511aa020b607efef64e637bc',1,'tbd::wx::Wind::Wind(Wind &amp;&amp;rhs) noexcept=default']]],
-  ['wsvx_6',['wsvX',['../classtbd_1_1wx_1_1Wind.html#aef1d4f27ba7c4a49daedc7257ca96031',1,'tbd::wx::Wind']]],
-  ['wsvy_7',['wsvY',['../classtbd_1_1wx_1_1Wind.html#a092fe112a86a460c7a9d2a778fd2c391',1,'tbd::wx::Wind']]]
+  ['unhashcolumn_0',['unhashColumn',['../classtbd_1_1topo_1_1Position.html#a8d4e3e10cd34068a55511852b92994b7',1,'tbd::topo::Position']]],
+  ['unhashrow_1',['unhashRow',['../classtbd_1_1topo_1_1Position.html#a77df0358e84f989731da0d9a2ab53868',1,'tbd::topo::Position']]],
+  ['upload_5fblob_5fand_5fcreate_5fsas_2',['upload_blob_and_create_sas',['../namespaceazurebatch__helpers.html#a84d7feb5cd1285ce99373070b146cade',1,'azurebatch_helpers']]],
+  ['upload_5ffile_5fto_5fcontainer_3',['upload_file_to_container',['../namespaceazurebatch__helpers.html#ae478071e907f50eaab9c3afea0032db3',1,'azurebatch_helpers']]],
+  ['usagecount_4',['UsageCount',['../classtbd_1_1util_1_1UsageCount.html#af2c80ff2a85c17df637e8c5ede64f52a',1,'tbd::util::UsageCount']]],
+  ['usedfuels_5',['usedfuels',['../classtbd_1_1fuel_1_1FuelLookupImpl.html#abdabf8e6af919c2180931f0ee3fa52ef',1,'tbd::fuel::FuelLookupImpl::usedFuels()'],['../classtbd_1_1fuel_1_1FuelLookup.html#af1f7592f0c2afbfdf92999c08c840298',1,'tbd::fuel::FuelLookup::usedFuels()']]]
 ];

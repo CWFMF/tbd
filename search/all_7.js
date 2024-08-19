@@ -29,7 +29,7 @@ var searchData=
   ['asdegrees_26',['asDegrees',['../classtbd_1_1wx_1_1Direction.html#a03d75fb96a9935df2cd9f99b73f8fcb2',1,'tbd::wx::Direction']]],
   ['asdouble_27',['asDouble',['../classtbd_1_1data_1_1Index.html#aa53ec05ea5e4e63989062659ad6fa9bd',1,'tbd::data::Index']]],
   ['ash_28',['ash',['../classtbd_1_1fuel_1_1DuffType.html#a47d8e09bc5d28fe790eda8fcb76cc338',1,'tbd::fuel::DuffType']]],
-  ['aspect_29',['aspect',['../classtbd_1_1topo_1_1Cell.html#abbe1919c790ee531970bb2d074b4a8b6',1,'tbd::topo::Cell::aspect() const noexcept'],['../classtbd_1_1topo_1_1Cell.html#a5ebc5eb3c2c3d76555f9319672d50a7b',1,'tbd::topo::Cell::aspect(const SpreadKey value) noexcept'],['../classtbd_1_1topo_1_1Cell.html#ae03e7845bf4defb91acbe91e6967e1d2',1,'tbd::topo::Cell::aspect(const Topo value) noexcept']]],
+  ['aspect_29',['aspect',['../classtbd_1_1topo_1_1Cell.html#a5ebc5eb3c2c3d76555f9319672d50a7b',1,'tbd::topo::Cell::aspect(const SpreadKey value) noexcept'],['../classtbd_1_1topo_1_1Cell.html#ae03e7845bf4defb91acbe91e6967e1d2',1,'tbd::topo::Cell::aspect(const Topo value) noexcept'],['../classtbd_1_1topo_1_1Cell.html#abbe1919c790ee531970bb2d074b4a8b6',1,'tbd::topo::Cell::aspect() const noexcept']]],
   ['aspectbitmask_30',['AspectBitMask',['../classtbd_1_1topo_1_1Cell.html#add3738baa885b8ac861d01371aa054df',1,'tbd::topo::Cell']]],
   ['aspectbits_31',['AspectBits',['../classtbd_1_1topo_1_1Cell.html#aff5e0764fb3ca54ccefc8899a1e75658',1,'tbd::topo::Cell']]],
   ['aspectmask_32',['AspectMask',['../classtbd_1_1topo_1_1Cell.html#aac3fef2abb100cfbc3fe6c3f1874eab9',1,'tbd::topo::Cell']]],
@@ -37,5 +37,6 @@ var searchData=
   ['asradians_34',['asRadians',['../classtbd_1_1wx_1_1Direction.html#a59a3aa16f5f23edda1822130bd05e624',1,'tbd::wx::Direction']]],
   ['at_35',['at',['../classtbd_1_1data_1_1GridMap.html#ad92598c8f71146a2d5155de8b45420a4',1,'tbd::data::GridMap::at()'],['../classtbd_1_1data_1_1Grid.html#a7bf2ab7753f9b9f0590895d5196b9b12',1,'tbd::data::Grid::at()'],['../classtbd_1_1wx_1_1FireWeather.html#a432c4ea81cf32a0606464ea1522bdb29',1,'tbd::wx::FireWeather::at()'],['../classtbd_1_1data_1_1ConstantGrid.html#a64c169a3460579fc2f0fe95db3e40e26',1,'tbd::data::ConstantGrid::at()']]],
   ['attributions_36',['Acknowledgements and Author Attributions',['../md_ORIGIN.html#autotoc_md10',1,'']]],
-  ['author_20attributions_37',['Acknowledgements and Author Attributions',['../md_ORIGIN.html#autotoc_md10',1,'']]]
+  ['author_20attributions_37',['Acknowledgements and Author Attributions',['../md_ORIGIN.html#autotoc_md10',1,'']]],
+  ['azurebatch_5fhelpers_38',['azurebatch_helpers',['../namespaceazurebatch__helpers.html',1,'']]]
 ];

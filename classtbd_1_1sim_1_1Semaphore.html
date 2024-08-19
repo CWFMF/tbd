@@ -114,6 +114,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa21babf3d8c54a37bdf69e43d88b4eea" id="r_aa21babf3d8c54a37bdf69e43d88b4eea"><td class="memItemLeft" align="right" valign="top"><a id="aa21babf3d8c54a37bdf69e43d88b4eea" name="aa21babf3d8c54a37bdf69e43d88b4eea"></a>
 <a class="el" href="classtbd_1_1sim_1_1Semaphore.html">Semaphore</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classtbd_1_1sim_1_1Semaphore.html">Semaphore</a> &amp;&amp;rhs)=delete</td></tr>
 <tr class="separator:aa21babf3d8c54a37bdf69e43d88b4eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142220d81ed2ddff2202973aebbb02c5" id="r_a142220d81ed2ddff2202973aebbb02c5"><td class="memItemLeft" align="right" valign="top"><a id="a142220d81ed2ddff2202973aebbb02c5" name="a142220d81ed2ddff2202973aebbb02c5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_limit</b> (size_t limit)</td></tr>
+<tr class="separator:a142220d81ed2ddff2202973aebbb02c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136fd74b424860372741e8acf6e4f1ff" id="r_a136fd74b424860372741e8acf6e4f1ff"><td class="memItemLeft" align="right" valign="top"><a id="a136fd74b424860372741e8acf6e4f1ff" name="a136fd74b424860372741e8acf6e4f1ff"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>limit</b> ()</td></tr>
+<tr class="separator:a136fd74b424860372741e8acf6e4f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05f4e9ef60d0d21d8783c4ba014f4e61" id="r_a05f4e9ef60d0d21d8783c4ba014f4e61"><td class="memItemLeft" align="right" valign="top"><a id="a05f4e9ef60d0d21d8783c4ba014f4e61" name="a05f4e9ef60d0d21d8783c4ba014f4e61"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>notify</b> ()</td></tr>
 <tr class="memdesc:a05f4e9ef60d0d21d8783c4ba014f4e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify something that's waiting so it can run. <br /></td></tr>
@@ -133,10 +139,14 @@ std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>mutex_</b></td>
 std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><b>cv_</b></td></tr>
 <tr class="memdesc:a22d7a1aa30bf67f2cea41f2f4d0b8123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable to use for checking count. <br /></td></tr>
 <tr class="separator:a22d7a1aa30bf67f2cea41f2f4d0b8123"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743357f618e4f0af0cb79e0f40213b71" id="r_a743357f618e4f0af0cb79e0f40213b71"><td class="memItemLeft" align="right" valign="top"><a id="a743357f618e4f0af0cb79e0f40213b71" name="a743357f618e4f0af0cb79e0f40213b71"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>count_</b></td></tr>
-<tr class="memdesc:a743357f618e4f0af0cb79e0f40213b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable to keep count of threads in use. <br /></td></tr>
-<tr class="separator:a743357f618e4f0af0cb79e0f40213b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833c092b1d7d50535e2e4476eda580af" id="r_a833c092b1d7d50535e2e4476eda580af"><td class="memItemLeft" align="right" valign="top"><a id="a833c092b1d7d50535e2e4476eda580af" name="a833c092b1d7d50535e2e4476eda580af"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>used_</b></td></tr>
+<tr class="memdesc:a833c092b1d7d50535e2e4476eda580af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable to keep count of threads in use. <br /></td></tr>
+<tr class="separator:a833c092b1d7d50535e2e4476eda580af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3574b4718af80ab4c7b73f0dcfa6bb62" id="r_a3574b4718af80ab4c7b73f0dcfa6bb62"><td class="memItemLeft" align="right" valign="top"><a id="a3574b4718af80ab4c7b73f0dcfa6bb62" name="a3574b4718af80ab4c7b73f0dcfa6bb62"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>limit_</b></td></tr>
+<tr class="memdesc:a3574b4718af80ab4c7b73f0dcfa6bb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit for number of threads. <br /></td></tr>
+<tr class="separator:a3574b4718af80ab4c7b73f0dcfa6bb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides the ability to limit number of threads running at once. </p>

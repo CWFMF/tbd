@@ -11,7 +11,7 @@ var searchData=
   ['columns_5f_8',['columns_',['../classtbd_1_1data_1_1Grid.html#ad18875fcb5e8806cbfc3b6b27a0948ba',1,'tbd::data::Grid']]],
   ['confidence_5flevel_5f_9',['confidence_level_',['../classtbd_1_1sim_1_1SettingsImplementation.html#ac72dcfd322d6248dd4b40dc865b68dd8',1,'tbd::sim::SettingsImplementation']]],
   ['constantpart_10',['ConstantPart',['../classtbd_1_1fuel_1_1DuffType.html#a76ac38534333b5c553add1aa866d6aee',1,'tbd::fuel::DuffType']]],
-  ['count_5f_11',['count_',['../classtbd_1_1sim_1_1Semaphore.html#a743357f618e4f0af0cb79e0f40213b71',1,'tbd::sim::Semaphore::count_'],['../classtbd_1_1util_1_1UsageCount.html#a6b3496c40b70d950cdfe0448ce5993da',1,'tbd::util::UsageCount::count_']]],
+  ['count_5f_11',['count_',['../classtbd_1_1util_1_1UsageCount.html#a6b3496c40b70d950cdfe0448ce5993da',1,'tbd::util::UsageCount']]],
   ['current_5ftime_5f_12',['current_time_',['../classtbd_1_1sim_1_1Scenario.html#a39fd9d40e683c8e26d3b3f03249f221e',1,'tbd::sim::Scenario']]],
   ['current_5ftime_5findex_5f_13',['current_time_index_',['../classtbd_1_1sim_1_1Scenario.html#a36e803adffd0ffb456ce704abf864813',1,'tbd::sim::Scenario']]],
   ['cv_5f_14',['cv_',['../classtbd_1_1sim_1_1Semaphore.html#a22d7a1aa30bf67f2cea41f2f4d0b8123',1,'tbd::sim::Semaphore']]]

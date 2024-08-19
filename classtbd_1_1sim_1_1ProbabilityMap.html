@@ -76,6 +76,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classtbd_1_1sim_1_1ProbabilityMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">tbd::sim::ProbabilityMap Class Reference</div></div>
@@ -181,6 +183,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> () const</td
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
 <tr class="memdesc:a31786342ba5df3277baba1230ef4744c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear maps and return to initial state. <br /></td></tr>
 <tr class="separator:a31786342ba5df3277baba1230ef4744c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a31dc14df9a27bb166d1fde4bd64a46e7" id="r_a31dc14df9a27bb166d1fde4bd64a46e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#a31dc14df9a27bb166d1fde4bd64a46e7">deleteInterim</a> ()</td></tr>
+<tr class="separator:a31dc14df9a27bb166d1fde4bd64a46e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae7865bfdeed097b2a19b49e33f553ac4" id="r_ae7865bfdeed097b2a19b49e33f553ac4"><td class="memItemLeft" align="right" valign="top"><a id="ae7865bfdeed097b2a19b49e33f553ac4" name="ae7865bfdeed097b2a19b49e33f553ac4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>record_if_interim</b> (const char *filename) const</td></tr>
+<tr class="memdesc:ae7865bfdeed097b2a19b49e33f553ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make note of any interim files for later deletion. <br /></td></tr>
+<tr class="separator:ae7865bfdeed097b2a19b49e33f553ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea7bfa85b5553ff0800ad58b2b5f26b" id="r_a4ea7bfa85b5553ff0800ad58b2b5f26b"><td class="memTemplParams" colspan="2">template&lt;class R &gt; </td></tr>
+<tr class="memitem:a4ea7bfa85b5553ff0800ad58b2b5f26b"><td class="memTemplItemLeft" align="right" valign="top">string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtbd_1_1sim_1_1ProbabilityMap.html#a4ea7bfa85b5553ff0800ad58b2b5f26b">saveToProbabilityFile</a> (const <a class="el" href="classtbd_1_1data_1_1GridMap.html">data::GridMap</a>&lt; size_t &gt; &amp;grid, const string &amp;dir, const string &amp;base_name, const R divisor) const</td></tr>
+<tr class="memdesc:a4ea7bfa85b5553ff0800ad58b2b5f26b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save probability file and record filename if interim.  <br /></td></tr>
+<tr class="separator:a4ea7bfa85b5553ff0800ad58b2b5f26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -421,6 +439,42 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a31dc14df9a27bb166d1fde4bd64a46e7" name="a31dc14df9a27bb166d1fde4bd64a46e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31dc14df9a27bb166d1fde4bd64a46e7">&#9670;&#160;</a></span>deleteInterim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tbd::sim::ProbabilityMap::deleteInterim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delete interim output files </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1ProbabilityMap_a31dc14df9a27bb166d1fde4bd64a46e7_icgraph.png" border="0" usemap="#aclasstbd_1_1sim_1_1ProbabilityMap_a31dc14df9a27bb166d1fde4bd64a46e7_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1sim_1_1ProbabilityMap_a31dc14df9a27bb166d1fde4bd64a46e7_icgraph" id="aclasstbd_1_1sim_1_1ProbabilityMap_a31dc14df9a27bb166d1fde4bd64a46e7_icgraph">
+<area shape="rect" title=" " alt="" coords="243,5,400,46"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Model.html#a62b5ea759a1a5bdd71ebf3c42d34a9e9" title="Run Scenarios initialized from given inputs." alt="" coords="5,13,195,39"/>
+<area shape="poly" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a9ec5d9cca3d9b9ceb05770f2223c8c51" name="a9ec5d9cca3d9b9ceb05770f2223c8c51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ec5d9cca3d9b9ceb05770f2223c8c51">&#9670;&#160;</a></span>getSizes()</h2>
 
@@ -646,6 +700,76 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4ea7bfa85b5553ff0800ad58b2b5f26b" name="a4ea7bfa85b5553ff0800ad58b2b5f26b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea7bfa85b5553ff0800ad58b2b5f26b">&#9670;&#160;</a></span>saveToProbabilityFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string tbd::sim::ProbabilityMap::saveToProbabilityFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtbd_1_1data_1_1GridMap.html">data::GridMap</a>&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>base_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const R&#160;</td>
+          <td class="paramname"><em>divisor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save probability file and record filename if interim. </p>
+<dl class="section return"><dt>Returns</dt><dd>Path for file that was written </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classtbd_1_1sim_1_1ProbabilityMap_a4ea7bfa85b5553ff0800ad58b2b5f26b_cgraph.png" border="0" usemap="#aclasstbd_1_1sim_1_1ProbabilityMap_a4ea7bfa85b5553ff0800ad58b2b5f26b_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1sim_1_1ProbabilityMap_a4ea7bfa85b5553ff0800ad58b2b5f26b_cgraph" id="aclasstbd_1_1sim_1_1ProbabilityMap_a4ea7bfa85b5553ff0800ad58b2b5f26b_cgraph">
+<area shape="rect" title="Save probability file and record filename if interim." alt="" coords="5,39,163,79"/>
+<area shape="rect" href="classtbd_1_1sim_1_1ProbabilityMap.html#ae7865bfdeed097b2a19b49e33f553ac4" title="Make note of any interim files for later deletion." alt="" coords="211,5,368,46"/>
+<area shape="poly" title=" " alt="" coords="163,44,195,38,196,44,164,49"/>
+<area shape="rect" href="classtbd_1_1data_1_1GridMap.html#a59fed325c315a5431fa5c261b0cf11b6" title="Save GridMap contents to .asc file as probability." alt="" coords="214,71,365,111"/>
+<area shape="poly" title=" " alt="" coords="164,69,199,74,198,80,163,74"/>
+<area shape="rect" href="classtbd_1_1sim_1_1Settings.html#a16c6ceeec1aef779f424f79b95eb263e" title="Whether or not to save grids as .asc." alt="" coords="416,71,536,111"/>
+<area shape="poly" title=" " alt="" coords="366,88,401,88,401,94,366,94"/>
+<area shape="rect" href="classtbd_1_1sim_1_1SettingsImplementation.html#ac597be613111bd777ae6eafeb5c48c08" title="The singleton instance for this class." alt="" coords="584,71,794,111"/>
+<area shape="poly" title=" " alt="" coords="537,88,569,88,569,94,537,94"/>
+<area shape="poly" title=" " alt="" coords="649,71,647,61,653,52,668,46,689,44,712,46,726,53,724,57,711,52,689,49,669,51,657,56,652,62,654,69"/>
+</map>
+</div>
 
 </div>
 </div>
