@@ -6,7 +6,7 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="473,130,415,114,417,109,474,125"/>
 <area shape="rect" id="Node000005" href="$classtbd_1_1sim_1_1Model.html#a5870903a0de157eecbf2a9785930231a" title="Write weather that was loaded to an output file." alt="" coords="243,136,440,161"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="473,151,440,151,440,146,473,146"/>
-<area shape="rect" id="Node000006" href="$classtbd_1_1sim_1_1Model.html#a92bc59b10979d8f27687c24e873ff27e" title="Read weather used for Scenarios." alt="" coords="248,185,435,211"/>
+<area shape="rect" id="Node000006" href="$classtbd_1_1sim_1_1Model.html#a200d489a088a9ee24967f57d0c505e1d" title="Read weather used for Scenarios." alt="" coords="248,185,435,211"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="474,169,399,187,398,182,473,164"/>
 <area shape="rect" id="Node000008" href="$classtbd_1_1sim_1_1Model.html#af0169d839c6af2b969fcf5f03c1dc875" title="Set constant weather." alt="" coords="252,234,431,260"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="513,181,479,204,441,225,412,236,410,231,439,221,476,200,509,176"/>

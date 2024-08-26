@@ -1,5 +1,5 @@
 <map id="tbd::data::Index&lt; T &gt;" name="tbd::data::Index&lt; T &gt;">
-<area shape="rect" id="Node000001" title="A wrapper around a double to ensure correct types are used." alt="" coords="5,293,143,319"/>
+<area shape="rect" id="Node000001" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="5,293,143,319"/>
 <area shape="rect" id="Node000002" href="$classtbd_1_1wx_1_1Bui.html" title="Build&#45;up Index value." alt="" coords="210,5,337,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,277,88,226,109,163,142,97,163,67,189,40,208,28,211,33,192,44,168,70,146,100,114,165,94,228,82,278"/>
 <area shape="rect" id="Node000003" href="$classtbd_1_1wx_1_1Dc.html" title="Drought Code value." alt="" coords="213,55,334,80"/>

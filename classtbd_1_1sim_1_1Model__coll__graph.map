@@ -39,12 +39,12 @@
 <area shape="rect" id="Node000018" href="$classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="597,354,738,380"/>
 <area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="739,384,751,390,800,425,844,464,904,531,900,534,840,468,797,429,749,395,737,389"/>
 <area shape="poly" id="edge22_Node000018_Node000018" title=" " alt="" coords="643,337,652,330,667,328,682,330,691,336,694,345,690,355,685,353,688,345,687,339,680,335,667,333,654,335,647,341"/>
-<area shape="rect" id="Node000019" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="336,354,473,380"/>
+<area shape="rect" id="Node000019" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="336,354,473,380"/>
 <area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="489,364,597,364,597,370,489,370"/>
 <area shape="rect" id="Node000020" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="585,444,750,469"/>
 <area shape="poly" id="edge23_Node000017_Node000020" title=" " alt="" coords="729,472,751,479,881,530,879,535,749,484,727,477"/>
 <area shape="poly" id="edge25_Node000020_Node000020" title=" " alt="" coords="643,426,652,420,667,417,682,419,691,425,694,435,690,444,685,442,688,434,687,429,680,424,667,422,654,424,647,430"/>
-<area shape="rect" id="Node000021" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="336,414,473,440"/>
+<area shape="rect" id="Node000021" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="336,414,473,440"/>
 <area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="489,434,585,444,584,450,488,439"/>
 <area shape="rect" id="Node000022" href="$classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction." alt="" coords="619,533,716,559"/>
 <area shape="poly" id="edge26_Node000017_Node000022" title=" " alt="" coords="731,543,855,543,855,548,731,548"/>
@@ -52,46 +52,46 @@
 <area shape="rect" id="Node000023" href="$classtbd_1_1wx_1_1Direction.html" title="Direction with access to degrees or radians." alt="" coords="345,504,464,529"/>
 <area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="479,522,619,538,618,543,479,527"/>
 <area shape="poly" id="edge30_Node000023_Node000023" title=" " alt="" coords="385,486,392,480,404,477,416,479,424,486,425,495,422,504,417,502,420,494,419,488,414,484,405,482,394,484,389,490"/>
-<area shape="rect" id="Node000024" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="145,504,282,529"/>
+<area shape="rect" id="Node000024" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="145,504,282,529"/>
 <area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="297,514,345,514,345,519,297,519"/>
 <area shape="rect" id="Node000025" href="$classtbd_1_1wx_1_1Speed.html" title="Speed in kilometers per hour." alt="" coords="352,593,457,619"/>
 <area shape="poly" id="edge31_Node000022_Node000025" title=" " alt="" coords="472,588,618,554,619,559,473,593"/>
 <area shape="poly" id="edge33_Node000025_Node000025" title=" " alt="" coords="385,576,392,569,404,566,416,569,424,575,425,584,422,593,417,592,420,584,419,578,414,573,405,571,394,574,389,579"/>
-<area shape="rect" id="Node000026" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="145,593,282,619"/>
+<area shape="rect" id="Node000026" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="145,593,282,619"/>
 <area shape="poly" id="edge32_Node000025_Node000026" title=" " alt="" coords="297,603,352,603,352,608,297,608"/>
 <area shape="rect" id="Node000027" href="$classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)" alt="" coords="598,622,737,648"/>
 <area shape="poly" id="edge34_Node000017_Node000027" title=" " alt="" coords="718,614,874,557,876,562,720,619"/>
 <area shape="poly" id="edge36_Node000027_Node000027" title=" " alt="" coords="643,605,652,598,667,596,682,598,691,604,694,613,690,623,685,621,688,613,687,607,680,603,667,601,654,603,647,609"/>
-<area shape="rect" id="Node000028" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="336,642,473,668"/>
+<area shape="rect" id="Node000028" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="336,642,473,668"/>
 <area shape="poly" id="edge35_Node000027_Node000028" title=" " alt="" coords="488,646,597,638,598,643,489,651"/>
 <area shape="rect" id="Node000029" href="$classtbd_1_1wx_1_1Ffmc.html" title="Fine Fuel Moisture Code value." alt="" coords="865,626,962,652"/>
 <area shape="poly" id="edge38_Node000016_Node000029" title=" " alt="" coords="973,655,990,662,1107,718,1195,767,1192,772,1104,723,988,667,971,660"/>
 <area shape="poly" id="edge40_Node000029_Node000029" title=" " alt="" coords="890,609,898,602,913,600,927,602,936,608,938,617,934,627,929,625,933,617,931,611,925,607,913,605,900,607,894,613"/>
-<area shape="rect" id="Node000030" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,672,736,697"/>
+<area shape="rect" id="Node000030" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,672,736,697"/>
 <area shape="poly" id="edge39_Node000029_Node000030" title=" " alt="" coords="751,666,864,645,865,651,752,672"/>
 <area shape="rect" id="Node000031" href="$classtbd_1_1wx_1_1Dmc.html" title="Duff Moisture Code value." alt="" coords="866,716,960,741"/>
 <area shape="poly" id="edge41_Node000016_Node000031" title=" " alt="" coords="976,737,1149,768,1148,773,975,742"/>
 <area shape="poly" id="edge43_Node000031_Node000031" title=" " alt="" coords="890,698,898,692,913,689,927,691,936,698,938,707,934,716,929,714,933,706,931,700,925,696,913,694,900,696,894,702"/>
-<area shape="rect" id="Node000032" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,721,736,747"/>
+<area shape="rect" id="Node000032" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,721,736,747"/>
 <area shape="poly" id="edge42_Node000031_Node000032" title=" " alt="" coords="751,729,866,727,866,732,751,735"/>
 <area shape="rect" id="Node000033" href="$classtbd_1_1wx_1_1Dc.html" title="Drought Code value." alt="" coords="872,805,955,831"/>
 <area shape="poly" id="edge44_Node000016_Node000033" title=" " alt="" coords="970,809,1149,788,1149,793,970,814"/>
 <area shape="poly" id="edge46_Node000033_Node000033" title=" " alt="" coords="890,788,898,781,913,778,927,780,936,787,938,796,934,805,929,803,933,796,931,790,925,785,913,783,900,786,894,792"/>
-<area shape="rect" id="Node000034" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,805,736,831"/>
+<area shape="rect" id="Node000034" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,805,736,831"/>
 <area shape="poly" id="edge45_Node000033_Node000034" title=" " alt="" coords="752,815,871,815,871,820,752,820"/>
 <area shape="rect" id="Node000035" href="$classtbd_1_1wx_1_1Isi.html" title="Initial Spread Index value." alt="" coords="873,894,954,920"/>
 <area shape="poly" id="edge47_Node000016_Node000035" title=" " alt="" coords="960,886,1183,794,1185,799,962,890"/>
 <area shape="poly" id="edge49_Node000035_Node000035" title=" " alt="" coords="890,877,898,870,913,868,927,870,936,876,938,885,934,895,929,893,933,885,931,879,925,875,913,873,900,875,894,881"/>
-<area shape="rect" id="Node000036" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,894,736,920"/>
+<area shape="rect" id="Node000036" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,894,736,920"/>
 <area shape="poly" id="edge48_Node000035_Node000036" title=" " alt="" coords="752,904,872,904,872,910,752,910"/>
 <area shape="rect" id="Node000037" href="$classtbd_1_1wx_1_1Bui.html" title="Build&#45;up Index value." alt="" coords="870,984,956,1009"/>
 <area shape="poly" id="edge50_Node000016_Node000037" title=" " alt="" coords="951,973,1020,933,1096,883,1155,835,1200,794,1204,798,1158,839,1099,887,1022,938,954,978"/>
 <area shape="poly" id="edge52_Node000037_Node000037" title=" " alt="" coords="890,966,898,960,913,957,927,959,936,966,938,975,934,984,929,982,933,974,931,968,925,964,913,962,900,964,894,970"/>
-<area shape="rect" id="Node000038" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,984,736,1009"/>
+<area shape="rect" id="Node000038" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,984,736,1009"/>
 <area shape="poly" id="edge51_Node000037_Node000038" title=" " alt="" coords="751,994,870,994,870,999,751,999"/>
 <area shape="rect" id="Node000039" href="$classtbd_1_1wx_1_1Fwi.html" title="Fire Weather Index value." alt="" coords="869,1073,957,1099"/>
 <area shape="poly" id="edge53_Node000016_Node000039" title=" " alt="" coords="951,1063,1022,1019,1060,991,1095,959,1133,915,1165,869,1207,795,1212,798,1169,872,1137,919,1099,963,1063,995,1025,1023,954,1068"/>
 <area shape="poly" id="edge55_Node000039_Node000039" title=" " alt="" coords="890,1056,898,1049,913,1046,927,1048,936,1055,938,1064,934,1073,929,1071,933,1064,931,1058,925,1053,913,1051,900,1054,894,1060"/>
-<area shape="rect" id="Node000040" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="599,1073,736,1099"/>
+<area shape="rect" id="Node000040" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="599,1073,736,1099"/>
 <area shape="poly" id="edge54_Node000039_Node000040" title=" " alt="" coords="752,1083,869,1083,869,1088,752,1088"/>
 </map>

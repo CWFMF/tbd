@@ -5,6 +5,6 @@ var searchData=
   ['hash_2',['hash',['../classtbd_1_1topo_1_1Position.html#afd633a3f45012ab24cd0b719671bee03',1,'tbd::topo::Position']]],
   ['hashcell_3',['hashCell',['../classtbd_1_1topo_1_1Cell.html#a9eb36995b1284c53513c19a316bbbce7',1,'tbd::topo::Cell']]],
   ['headdirection_4',['headDirection',['../classtbd_1_1sim_1_1SpreadInfo.html#a08a2e58aa984b304a3e79a112dfdc6ab',1,'tbd::sim::SpreadInfo']]],
-  ['heading_5',['heading',['../classtbd_1_1wx_1_1Direction.html#a5952764cf5460dc9099f7bcf89cf9dd6',1,'tbd::wx::Direction::heading()'],['../classtbd_1_1wx_1_1Wind.html#a0856ed0f8f7f1d0dd9413d097a8b0415',1,'tbd::wx::Wind::heading()']]],
-  ['headros_6',['headRos',['../classtbd_1_1sim_1_1SpreadInfo.html#ab25f0d5e5a8f93ee61d229468c3822e6',1,'tbd::sim::SpreadInfo']]]
+  ['heading_5',['heading',['../classtbd_1_1wx_1_1Direction.html#a2cb9bdc27d66045c3e43f356e7e91623',1,'tbd::wx::Direction::heading()'],['../classtbd_1_1wx_1_1Wind.html#a19247e2afb9aea572e3dfbbbdf3dacbe',1,'tbd::wx::Wind::heading()']]],
+  ['headros_6',['headRos',['../classtbd_1_1sim_1_1SpreadInfo.html#aabc31f4145719c979f13e74807f8c2c5',1,'tbd::sim::SpreadInfo']]]
 ];

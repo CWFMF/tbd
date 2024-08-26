@@ -124,39 +124,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f17541b0a399c27a8869062bc4cead1" id="r_a2f17541b0a399c27a8869062bc4cead1"><td class="memItemLeft" align="right" valign="top"><a id="a2f17541b0a399c27a8869062bc4cead1" name="a2f17541b0a399c27a8869062bc4cead1"></a>
 <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">FuelVariable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">FuelVariable</a> &amp;rhs)=delete</td></tr>
 <tr class="separator:a2f17541b0a399c27a8869062bc4cead1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7afe1ddbfe28d0456d48e19c9e0176a" id="r_ac7afe1ddbfe28d0456d48e19c9e0176a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ac7afe1ddbfe28d0456d48e19c9e0176a">buiEffect</a> (double bui) const override</td></tr>
-<tr class="memdesc:ac7afe1ddbfe28d0456d48e19c9e0176a"><td class="mdescLeft">&#160;</td><td class="mdescRight">BUI Effect on surface fire rate of spread [ST-X-3 eq 54].  <br /></td></tr>
-<tr class="separator:ac7afe1ddbfe28d0456d48e19c9e0176a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5629f0d1df026a853b581ca65a57e87c" id="r_a5629f0d1df026a853b581ca65a57e87c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a5629f0d1df026a853b581ca65a57e87c">crownConsumption</a> (const double cfb) const override</td></tr>
-<tr class="memdesc:a5629f0d1df026a853b581ca65a57e87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fuel Consumption (CFC) (kg/m^2) [ST-X-3 eq 66].  <br /></td></tr>
-<tr class="separator:a5629f0d1df026a853b581ca65a57e87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2f69c261b0322f5a4cedd247d80dd4" id="r_a0b2f69c261b0322f5a4cedd247d80dd4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a0b2f69c261b0322f5a4cedd247d80dd4">calculateRos</a> (const int nd, const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx, const double isi) const override</td></tr>
-<tr class="memdesc:a0b2f69c261b0322f5a4cedd247d80dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial rate of spread (m/min) [ST-X-3 eq 26].  <br /></td></tr>
-<tr class="separator:a0b2f69c261b0322f5a4cedd247d80dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b2e53d8e683b17e2e3af752ffab320b" id="r_a4b2e53d8e683b17e2e3af752ffab320b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a4b2e53d8e683b17e2e3af752ffab320b">calculateIsf</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, const double isi) const override</td></tr>
-<tr class="memdesc:a4b2e53d8e683b17e2e3af752ffab320b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate ISI with slope influence and zero wind (ISF) [ST-X-3 eq 41].  <br /></td></tr>
-<tr class="separator:a4b2e53d8e683b17e2e3af752ffab320b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c47748dfee79f55a29d2331b31fdc18" id="r_a2c47748dfee79f55a29d2331b31fdc18"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a2c47748dfee79f55a29d2331b31fdc18">surfaceFuelConsumption</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const override</td></tr>
-<tr class="memdesc:a2c47748dfee79f55a29d2331b31fdc18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface Fuel Consumption (SFC) (kg/m^2) [ST-X-3 eq 9-25].  <br /></td></tr>
-<tr class="separator:a2c47748dfee79f55a29d2331b31fdc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a164ba89c86c0d88b18451e030e681bbb" id="r_a164ba89c86c0d88b18451e030e681bbb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a164ba89c86c0d88b18451e030e681bbb">lengthToBreadth</a> (const double ws) const override</td></tr>
-<tr class="memdesc:a164ba89c86c0d88b18451e030e681bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length to Breadth ratio [ST-X-3 eq 79].  <br /></td></tr>
-<tr class="separator:a164ba89c86c0d88b18451e030e681bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2a027a9fb971cf2e17051c0d0f9452" id="r_ada2a027a9fb971cf2e17051c0d0f9452"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ada2a027a9fb971cf2e17051c0d0f9452">finalRos</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, const double isi, const double cfb, const double rss) const override</td></tr>
-<tr class="memdesc:ada2a027a9fb971cf2e17051c0d0f9452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final rate of spread (m/min)  <br /></td></tr>
-<tr class="separator:ada2a027a9fb971cf2e17051c0d0f9452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a385c57f4cc200a5522528760fbb01f0b" id="r_a385c57f4cc200a5522528760fbb01f0b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a385c57f4cc200a5522528760fbb01f0b">criticalSurfaceIntensity</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const override</td></tr>
-<tr class="memdesc:a385c57f4cc200a5522528760fbb01f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical Surface Fire Intensity (CSI) [ST-X-3 eq 56].  <br /></td></tr>
-<tr class="separator:a385c57f4cc200a5522528760fbb01f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99b67e9b6d3bb1ab336c613f7f2e0fc" id="r_ad99b67e9b6d3bb1ab336c613f7f2e0fc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc">crownFractionBurned</a> (const double rss, const double rso) const noexcept override</td></tr>
-<tr class="memdesc:ad99b67e9b6d3bb1ab336c613f7f2e0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fraction Burned (CFB) [ST-X-3 eq 58].  <br /></td></tr>
-<tr class="separator:ad99b67e9b6d3bb1ab336c613f7f2e0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7bba19fe09ceee84f63261fa8cf49b3" id="r_af7bba19fe09ceee84f63261fa8cf49b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#af7bba19fe09ceee84f63261fa8cf49b3">probabilityPeat</a> (const double mc_fraction) const noexcept override</td></tr>
-<tr class="memdesc:af7bba19fe09ceee84f63261fa8cf49b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate probability of burning [Anderson eq 1].  <br /></td></tr>
-<tr class="separator:af7bba19fe09ceee84f63261fa8cf49b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20512104990f47b4380746589e9f1aac" id="r_a20512104990f47b4380746589e9f1aac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a20512104990f47b4380746589e9f1aac">survivalProbability</a> (const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx) const noexcept override</td></tr>
-<tr class="memdesc:a20512104990f47b4380746589e9f1aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Survival probability calculated using probability of ony survival based on multiple formulae.  <br /></td></tr>
-<tr class="separator:a20512104990f47b4380746589e9f1aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1e1ac0771afcc709823c41ffacfbebd" id="r_ab1e1ac0771afcc709823c41ffacfbebd"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ab1e1ac0771afcc709823c41ffacfbebd">buiEffect</a> (MathSize bui) const override</td></tr>
+<tr class="memdesc:ab1e1ac0771afcc709823c41ffacfbebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">BUI Effect on surface fire rate of spread [ST-X-3 eq 54].  <br /></td></tr>
+<tr class="separator:ab1e1ac0771afcc709823c41ffacfbebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59220679981bc0111607428b653059b" id="r_ac59220679981bc0111607428b653059b"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ac59220679981bc0111607428b653059b">crownConsumption</a> (const MathSize cfb) const override</td></tr>
+<tr class="memdesc:ac59220679981bc0111607428b653059b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fuel Consumption (CFC) (kg/m^2) [ST-X-3 eq 66].  <br /></td></tr>
+<tr class="separator:ac59220679981bc0111607428b653059b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af63534475414c32981cd203a4bf29a99" id="r_af63534475414c32981cd203a4bf29a99"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#af63534475414c32981cd203a4bf29a99">calculateRos</a> (const int nd, const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx, const MathSize isi) const override</td></tr>
+<tr class="memdesc:af63534475414c32981cd203a4bf29a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial rate of spread (m/min) [ST-X-3 eq 26].  <br /></td></tr>
+<tr class="separator:af63534475414c32981cd203a4bf29a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b51d31650e2b7da603f56a1770efa5a" id="r_a6b51d31650e2b7da603f56a1770efa5a"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a6b51d31650e2b7da603f56a1770efa5a">calculateIsf</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, const MathSize isi) const override</td></tr>
+<tr class="memdesc:a6b51d31650e2b7da603f56a1770efa5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate ISI with slope influence and zero wind (ISF) [ST-X-3 eq 41].  <br /></td></tr>
+<tr class="separator:a6b51d31650e2b7da603f56a1770efa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1bda82b0e49ce3b3288bcdb4f624cd" id="r_a6c1bda82b0e49ce3b3288bcdb4f624cd"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a6c1bda82b0e49ce3b3288bcdb4f624cd">surfaceFuelConsumption</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const override</td></tr>
+<tr class="memdesc:a6c1bda82b0e49ce3b3288bcdb4f624cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface Fuel Consumption (SFC) (kg/m^2) [ST-X-3 eq 9-25].  <br /></td></tr>
+<tr class="separator:a6c1bda82b0e49ce3b3288bcdb4f624cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce5d02df6dbb6f01271c237605a32e7" id="r_abce5d02df6dbb6f01271c237605a32e7"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#abce5d02df6dbb6f01271c237605a32e7">lengthToBreadth</a> (const MathSize ws) const override</td></tr>
+<tr class="memdesc:abce5d02df6dbb6f01271c237605a32e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length to Breadth ratio [ST-X-3 eq 79].  <br /></td></tr>
+<tr class="separator:abce5d02df6dbb6f01271c237605a32e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395d013da18e1ce94f55ede2c62a2fbb" id="r_a395d013da18e1ce94f55ede2c62a2fbb"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a395d013da18e1ce94f55ede2c62a2fbb">finalRos</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, const MathSize isi, const MathSize cfb, const MathSize rss) const override</td></tr>
+<tr class="memdesc:a395d013da18e1ce94f55ede2c62a2fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final rate of spread (m/min)  <br /></td></tr>
+<tr class="separator:a395d013da18e1ce94f55ede2c62a2fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1258cea8ddb880bbd66e5a004f1850cd" id="r_a1258cea8ddb880bbd66e5a004f1850cd"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a1258cea8ddb880bbd66e5a004f1850cd">criticalSurfaceIntensity</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const override</td></tr>
+<tr class="memdesc:a1258cea8ddb880bbd66e5a004f1850cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical Surface Fire Intensity (CSI) [ST-X-3 eq 56].  <br /></td></tr>
+<tr class="separator:a1258cea8ddb880bbd66e5a004f1850cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f182843250a38f460e93051feb864a" id="r_ac6f182843250a38f460e93051feb864a"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#ac6f182843250a38f460e93051feb864a">crownFractionBurned</a> (const MathSize rss, const MathSize rso) const noexcept override</td></tr>
+<tr class="memdesc:ac6f182843250a38f460e93051feb864a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fraction Burned (CFB) [ST-X-3 eq 58].  <br /></td></tr>
+<tr class="separator:ac6f182843250a38f460e93051feb864a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf604307d2c131b582384d0b3fc58e9" id="r_acdf604307d2c131b582384d0b3fc58e9"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#acdf604307d2c131b582384d0b3fc58e9">probabilityPeat</a> (const MathSize mc_fraction) const noexcept override</td></tr>
+<tr class="memdesc:acdf604307d2c131b582384d0b3fc58e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate probability of burning [Anderson eq 1].  <br /></td></tr>
+<tr class="separator:acdf604307d2c131b582384d0b3fc58e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a723f9bac64c565be300e3b12a8ae04de" id="r_a723f9bac64c565be300e3b12a8ae04de"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a723f9bac64c565be300e3b12a8ae04de">survivalProbability</a> (const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx) const noexcept override</td></tr>
+<tr class="memdesc:a723f9bac64c565be300e3b12a8ae04de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Survival probability calculated using probability of ony survival based on multiple formulae.  <br /></td></tr>
+<tr class="separator:a723f9bac64c565be300e3b12a8ae04de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dda1c5e64e9834fc6e86573faca578a" id="r_a3dda1c5e64e9834fc6e86573faca578a"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1fuel_1_1FuelType.html">FuelType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html#a3dda1c5e64e9834fc6e86573faca578a">spring</a> () const</td></tr>
 <tr class="memdesc:a3dda1c5e64e9834fc6e86573faca578a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel to use before green-up.  <br /></td></tr>
 <tr class="separator:a3dda1c5e64e9834fc6e86573faca578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,12 +209,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a83ff2b32387bc1aae2bbd4330084c4e8"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a83ff2b32387bc1aae2bbd4330084c4e8">safeName</a> (const <a class="el" href="classtbd_1_1fuel_1_1FuelType.html">FuelType</a> *fuel)</td></tr>
 <tr class="memdesc:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <a class="el" href="classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type.">FuelType</a> to its name, or 0 if nullptr.  <br /></td></tr>
 <tr class="separator:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a9c3661beba173ec640cb3c95b628bcd0"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9c3661beba173ec640cb3c95b628bcd0">criticalRos</a> (const double sfc, const double csi)</td></tr>
-<tr class="memdesc:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical rate of spread (m/min)  <br /></td></tr>
-<tr class="separator:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a41bff384ae4cbad2364a786fc53ffb98"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a41bff384ae4cbad2364a786fc53ffb98">isCrown</a> (const double csi, const double sfi)</td></tr>
-<tr class="memdesc:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this is a crown fire.  <br /></td></tr>
-<tr class="separator:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_aa4279b72c9b83bf40804155c343c84a6"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aa4279b72c9b83bf40804155c343c84a6">criticalRos</a> (const MathSize sfc, const MathSize csi)</td></tr>
+<tr class="memdesc:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical rate of spread (m/min)  <br /></td></tr>
+<tr class="separator:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_ae0e43098d41db0aaeadfefdde2fafbbf"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ae0e43098d41db0aaeadfefdde2fafbbf">isCrown</a> (const MathSize csi, const MathSize sfi)</td></tr>
+<tr class="memdesc:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this is a crown fire.  <br /></td></tr>
+<tr class="separator:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class FuelSpring, class FuelSummer&gt;<br />
@@ -296,8 +296,8 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac7afe1ddbfe28d0456d48e19c9e0176a" name="ac7afe1ddbfe28d0456d48e19c9e0176a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7afe1ddbfe28d0456d48e19c9e0176a">&#9670;&#160;</a></span>buiEffect()</h2>
+<a id="ab1e1ac0771afcc709823c41ffacfbebd" name="ab1e1ac0771afcc709823c41ffacfbebd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e1ac0771afcc709823c41ffacfbebd">&#9670;&#160;</a></span>buiEffect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,9 +308,9 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::buiEffect </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::buiEffect </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">MathSize&#160;</td>
           <td class="paramname"><em>bui</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -331,22 +331,22 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>BUI Effect on surface fire rate of spread [ST-X-3 eq 54] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ad25cb3df97e1932f12b0f03e40e501c8">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9cfbb90fe65c0a7292f7886a0b5d938d">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ac7afe1ddbfe28d0456d48e19c9e0176a_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ac7afe1ddbfe28d0456d48e19c9e0176a_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_ac7afe1ddbfe28d0456d48e19c9e0176a_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ac7afe1ddbfe28d0456d48e19c9e0176a_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ab1e1ac0771afcc709823c41ffacfbebd_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ab1e1ac0771afcc709823c41ffacfbebd_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_ab1e1ac0771afcc709823c41ffacfbebd_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ab1e1ac0771afcc709823c41ffacfbebd_cgraph">
 <area shape="rect" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="5,5,150,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#ad25cb3df97e1932f12b0f03e40e501c8" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="198,5,323,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a9cfbb90fe65c0a7292f7886a0b5d938d" title="BUI Effect on surface fire rate of spread [ST&#45;X&#45;3 eq 54]." alt="" coords="198,5,323,46"/>
 <area shape="poly" title=" " alt="" coords="150,23,182,23,182,28,150,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a4b2e53d8e683b17e2e3af752ffab320b" name="a4b2e53d8e683b17e2e3af752ffab320b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b2e53d8e683b17e2e3af752ffab320b">&#9670;&#160;</a></span>calculateIsf()</h2>
+<a id="a6b51d31650e2b7da603f56a1770efa5a" name="a6b51d31650e2b7da603f56a1770efa5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b51d31650e2b7da603f56a1770efa5a">&#9670;&#160;</a></span>calculateIsf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +357,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::calculateIsf </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::calculateIsf </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>spread</em>, </td>
@@ -365,7 +365,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>isi</em>&#160;</td>
         </tr>
         <tr>
@@ -391,14 +391,14 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ISI with slope influence and zero wind (ISF) [ST-X-3 eq 41] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a10bf8e33552a66df0b45c730469e07d2">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a4b2e53d8e683b17e2e3af752ffab320b_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a4b2e53d8e683b17e2e3af752ffab320b_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a4b2e53d8e683b17e2e3af752ffab320b_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a4b2e53d8e683b17e2e3af752ffab320b_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a6b51d31650e2b7da603f56a1770efa5a_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a6b51d31650e2b7da603f56a1770efa5a_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_a6b51d31650e2b7da603f56a1770efa5a_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a6b51d31650e2b7da603f56a1770efa5a_cgraph">
 <area shape="rect" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41]." alt="" coords="5,35,150,75"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="213,5,338,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a10bf8e33552a66df0b45c730469e07d2" title="Calculate ISI with slope influence and zero wind (ISF) [ST&#45;X&#45;3 eq 41/42]." alt="" coords="213,5,338,46"/>
 <area shape="poly" title=" " alt="" coords="149,42,197,35,198,40,150,47"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="198,70,353,96"/>
 <area shape="poly" title=" " alt="" coords="150,63,183,67,182,73,149,68"/>
@@ -407,8 +407,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a0b2f69c261b0322f5a4cedd247d80dd4" name="a0b2f69c261b0322f5a4cedd247d80dd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2f69c261b0322f5a4cedd247d80dd4">&#9670;&#160;</a></span>calculateRos()</h2>
+<a id="af63534475414c32981cd203a4bf29a99" name="af63534475414c32981cd203a4bf29a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af63534475414c32981cd203a4bf29a99">&#9670;&#160;</a></span>calculateRos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +419,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::calculateRos </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::calculateRos </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>nd</em>, </td>
@@ -433,7 +433,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>isi</em>&#160;</td>
         </tr>
         <tr>
@@ -460,22 +460,22 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Initial rate of spread (m/min) [ST-X-3 eq 26] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a2559cef336a3c1d5971add9d16cf2b60">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a0b2f69c261b0322f5a4cedd247d80dd4_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a0b2f69c261b0322f5a4cedd247d80dd4_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a0b2f69c261b0322f5a4cedd247d80dd4_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a0b2f69c261b0322f5a4cedd247d80dd4_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_af63534475414c32981cd203a4bf29a99_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_af63534475414c32981cd203a4bf29a99_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_af63534475414c32981cd203a4bf29a99_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_af63534475414c32981cd203a4bf29a99_cgraph">
 <area shape="rect" title="Initial rate of spread (m/min) [ST&#45;X&#45;3 eq 26]." alt="" coords="5,5,150,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5" title="Calculate rate of spread (m/min)" alt="" coords="198,5,323,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a2559cef336a3c1d5971add9d16cf2b60" title="Calculate rate of spread (m/min)" alt="" coords="198,5,323,46"/>
 <area shape="poly" title=" " alt="" coords="150,23,182,23,182,28,150,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a385c57f4cc200a5522528760fbb01f0b" name="a385c57f4cc200a5522528760fbb01f0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a385c57f4cc200a5522528760fbb01f0b">&#9670;&#160;</a></span>criticalSurfaceIntensity()</h2>
+<a id="a1258cea8ddb880bbd66e5a004f1850cd" name="a1258cea8ddb880bbd66e5a004f1850cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1258cea8ddb880bbd66e5a004f1850cd">&#9670;&#160;</a></span>criticalSurfaceIntensity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +486,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::criticalSurfaceIntensity </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::criticalSurfaceIntensity </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>spread</em></td><td>)</td>
@@ -509,14 +509,14 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Critical Surface Fire Intensity (CSI) [ST-X-3 eq 56] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aba5e3b406a3b0846cacccd0b6dc36e2f">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a0e3f3aab98f4a8edf81d435c1f474c3f">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a385c57f4cc200a5522528760fbb01f0b_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a385c57f4cc200a5522528760fbb01f0b_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a385c57f4cc200a5522528760fbb01f0b_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a385c57f4cc200a5522528760fbb01f0b_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a1258cea8ddb880bbd66e5a004f1850cd_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a1258cea8ddb880bbd66e5a004f1850cd_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_a1258cea8ddb880bbd66e5a004f1850cd_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a1258cea8ddb880bbd66e5a004f1850cd_cgraph">
 <area shape="rect" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="5,35,165,75"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#aba5e3b406a3b0846cacccd0b6dc36e2f" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="213,5,372,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a0e3f3aab98f4a8edf81d435c1f474c3f" title="Critical Surface Fire Intensity (CSI) [ST&#45;X&#45;3 eq 56]." alt="" coords="213,5,372,46"/>
 <area shape="poly" title=" " alt="" coords="164,41,197,36,198,42,165,46"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="215,70,370,96"/>
 <area shape="poly" title=" " alt="" coords="165,63,199,68,199,73,165,68"/>
@@ -525,8 +525,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a5629f0d1df026a853b581ca65a57e87c" name="a5629f0d1df026a853b581ca65a57e87c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5629f0d1df026a853b581ca65a57e87c">&#9670;&#160;</a></span>crownConsumption()</h2>
+<a id="ac59220679981bc0111607428b653059b" name="ac59220679981bc0111607428b653059b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59220679981bc0111607428b653059b">&#9670;&#160;</a></span>crownConsumption()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,9 +537,9 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::crownConsumption </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::crownConsumption </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>cfb</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -560,22 +560,22 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Crown Fuel Consumption (CFC) (kg/m^2) [ST-X-3 eq 66] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af87c58a57b3afae95e9282416c6f325d">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af6677e4cb7483a4d6cf9b1a78a2cf727">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a5629f0d1df026a853b581ca65a57e87c_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a5629f0d1df026a853b581ca65a57e87c_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a5629f0d1df026a853b581ca65a57e87c_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a5629f0d1df026a853b581ca65a57e87c_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ac59220679981bc0111607428b653059b_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ac59220679981bc0111607428b653059b_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_ac59220679981bc0111607428b653059b_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ac59220679981bc0111607428b653059b_cgraph">
 <area shape="rect" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="5,5,150,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#af87c58a57b3afae95e9282416c6f325d" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="198,5,336,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#af6677e4cb7483a4d6cf9b1a78a2cf727" title="Crown Fuel Consumption (CFC) (kg/m^2) [ST&#45;X&#45;3 eq 66]." alt="" coords="198,5,336,46"/>
 <area shape="poly" title=" " alt="" coords="150,23,182,23,182,28,150,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ad99b67e9b6d3bb1ab336c613f7f2e0fc" name="ad99b67e9b6d3bb1ab336c613f7f2e0fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad99b67e9b6d3bb1ab336c613f7f2e0fc">&#9670;&#160;</a></span>crownFractionBurned()</h2>
+<a id="ac6f182843250a38f460e93051feb864a" name="ac6f182843250a38f460e93051feb864a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f182843250a38f460e93051feb864a">&#9670;&#160;</a></span>crownFractionBurned()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -586,15 +586,15 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::crownFractionBurned </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::crownFractionBurned </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>rss</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>rso</em>&#160;</td>
         </tr>
         <tr>
@@ -620,14 +620,14 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Crown Fraction Burned (CFB) [ST-X-3 eq 58] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a85c2a9bedd48a62d48807f0fd0fc8f66">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ad99b67e9b6d3bb1ab336c613f7f2e0fc_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ad99b67e9b6d3bb1ab336c613f7f2e0fc_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_ad99b67e9b6d3bb1ab336c613f7f2e0fc_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ad99b67e9b6d3bb1ab336c613f7f2e0fc_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ac6f182843250a38f460e93051feb864a_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ac6f182843250a38f460e93051feb864a_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_ac6f182843250a38f460e93051feb864a_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ac6f182843250a38f460e93051feb864a_cgraph">
 <area shape="rect" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,39,156,79"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="204,5,354,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a85c2a9bedd48a62d48807f0fd0fc8f66" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="204,5,354,46"/>
 <area shape="poly" title=" " alt="" coords="155,44,188,38,189,43,156,49"/>
 <area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#a3dda1c5e64e9834fc6e86573faca578a" title="Fuel to use before green&#45;up." alt="" coords="207,71,351,111"/>
 <area shape="poly" title=" " alt="" coords="156,68,192,74,191,80,155,74"/>
@@ -636,8 +636,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ada2a027a9fb971cf2e17051c0d0f9452" name="ada2a027a9fb971cf2e17051c0d0f9452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2a027a9fb971cf2e17051c0d0f9452">&#9670;&#160;</a></span>finalRos()</h2>
+<a id="a395d013da18e1ce94f55ede2c62a2fbb" name="a395d013da18e1ce94f55ede2c62a2fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a395d013da18e1ce94f55ede2c62a2fbb">&#9670;&#160;</a></span>finalRos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +648,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::finalRos </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::finalRos </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>spread</em>, </td>
@@ -656,19 +656,19 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>isi</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>cfb</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>rss</em>&#160;</td>
         </tr>
         <tr>
@@ -696,14 +696,14 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Final rate of spread (m/min) </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a345934b9de822a9a70c7893fffedd6a4">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a334162cd7f08fde2328190c543c3e013">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_ada2a027a9fb971cf2e17051c0d0f9452_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_ada2a027a9fb971cf2e17051c0d0f9452_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_ada2a027a9fb971cf2e17051c0d0f9452_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_ada2a027a9fb971cf2e17051c0d0f9452_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a395d013da18e1ce94f55ede2c62a2fbb_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a395d013da18e1ce94f55ede2c62a2fbb_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_a395d013da18e1ce94f55ede2c62a2fbb_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a395d013da18e1ce94f55ede2c62a2fbb_cgraph">
 <area shape="rect" title="Final rate of spread (m/min)" alt="" coords="5,35,150,75"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a345934b9de822a9a70c7893fffedd6a4" title="Final rate of spread (m/min)" alt="" coords="213,5,338,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a334162cd7f08fde2328190c543c3e013" title="Final rate of spread (m/min)" alt="" coords="213,5,338,46"/>
 <area shape="poly" title=" " alt="" coords="149,42,197,35,198,40,150,47"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="198,70,353,96"/>
 <area shape="poly" title=" " alt="" coords="150,63,183,67,182,73,149,68"/>
@@ -712,8 +712,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a164ba89c86c0d88b18451e030e681bbb" name="a164ba89c86c0d88b18451e030e681bbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a164ba89c86c0d88b18451e030e681bbb">&#9670;&#160;</a></span>lengthToBreadth()</h2>
+<a id="abce5d02df6dbb6f01271c237605a32e7" name="abce5d02df6dbb6f01271c237605a32e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce5d02df6dbb6f01271c237605a32e7">&#9670;&#160;</a></span>lengthToBreadth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -724,9 +724,9 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::lengthToBreadth </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::lengthToBreadth </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>ws</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -747,22 +747,22 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Length to Breadth ratio [ST-X-3 eq 79] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ad58fdaa07ccc7c9f48ac3e117a77f300">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a38773fcfe214e19e7575d2b33aab77c9">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a164ba89c86c0d88b18451e030e681bbb_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a164ba89c86c0d88b18451e030e681bbb_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a164ba89c86c0d88b18451e030e681bbb_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a164ba89c86c0d88b18451e030e681bbb_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_abce5d02df6dbb6f01271c237605a32e7_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_abce5d02df6dbb6f01271c237605a32e7_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_abce5d02df6dbb6f01271c237605a32e7_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_abce5d02df6dbb6f01271c237605a32e7_cgraph">
 <area shape="rect" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="5,5,150,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#ad58fdaa07ccc7c9f48ac3e117a77f300" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="198,5,323,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a38773fcfe214e19e7575d2b33aab77c9" title="Length to Breadth ratio [ST&#45;X&#45;3 eq 79]." alt="" coords="198,5,323,46"/>
 <area shape="poly" title=" " alt="" coords="150,23,182,23,182,28,150,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="af7bba19fe09ceee84f63261fa8cf49b3" name="af7bba19fe09ceee84f63261fa8cf49b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7bba19fe09ceee84f63261fa8cf49b3">&#9670;&#160;</a></span>probabilityPeat()</h2>
+<a id="acdf604307d2c131b582384d0b3fc58e9" name="acdf604307d2c131b582384d0b3fc58e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf604307d2c131b582384d0b3fc58e9">&#9670;&#160;</a></span>probabilityPeat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,9 +773,9 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::probabilityPeat </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::probabilityPeat </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>mc_fraction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -796,14 +796,14 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Calculate probability of burning [Anderson eq 1] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a2aee5d5dd2e05f94b45694cad4c21a5d">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9d2c7ea1d782a3c463c05981e0964f50">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_af7bba19fe09ceee84f63261fa8cf49b3_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_af7bba19fe09ceee84f63261fa8cf49b3_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_af7bba19fe09ceee84f63261fa8cf49b3_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_af7bba19fe09ceee84f63261fa8cf49b3_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_acdf604307d2c131b582384d0b3fc58e9_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_acdf604307d2c131b582384d0b3fc58e9_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_acdf604307d2c131b582384d0b3fc58e9_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_acdf604307d2c131b582384d0b3fc58e9_cgraph">
 <area shape="rect" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,39,150,79"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a2aee5d5dd2e05f94b45694cad4c21a5d" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="207,5,333,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a9d2c7ea1d782a3c463c05981e0964f50" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="207,5,333,46"/>
 <area shape="poly" title=" " alt="" coords="150,44,192,36,193,42,150,49"/>
 <area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#a3dda1c5e64e9834fc6e86573faca578a" title="Fuel to use before green&#45;up." alt="" coords="198,71,342,111"/>
 <area shape="poly" title=" " alt="" coords="150,68,183,74,182,79,150,74"/>
@@ -845,11 +845,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a3dda1c5e64e9834fc6e86573faca578a_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a3dda1c5e64e9834fc6e86573faca578a_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1fuel_1_1FuelVariable_a3dda1c5e64e9834fc6e86573faca578a_icgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a3dda1c5e64e9834fc6e86573faca578a_icgraph">
 <area shape="rect" title="Fuel to use before green&#45;up." alt="" coords="204,71,348,111"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#ad99b67e9b6d3bb1ab336c613f7f2e0fc" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,5,156,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#ac6f182843250a38f460e93051feb864a" title="Crown Fraction Burned (CFB) [ST&#45;X&#45;3 eq 58]." alt="" coords="5,5,156,46"/>
 <area shape="poly" title=" " alt="" coords="198,68,143,49,144,44,199,63"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#af7bba19fe09ceee84f63261fa8cf49b3" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="8,71,153,111"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#acdf604307d2c131b582384d0b3fc58e9" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="8,71,153,111"/>
 <area shape="poly" title=" " alt="" coords="188,94,153,94,153,88,188,88"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#a20512104990f47b4380746589e9f1aac" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="8,136,153,177"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#a723f9bac64c565be300e3b12a8ae04de" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="8,136,153,177"/>
 <area shape="poly" title=" " alt="" coords="199,119,144,138,143,133,198,114"/>
 </map>
 </div>
@@ -886,8 +886,8 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 
 </div>
 </div>
-<a id="a2c47748dfee79f55a29d2331b31fdc18" name="a2c47748dfee79f55a29d2331b31fdc18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c47748dfee79f55a29d2331b31fdc18">&#9670;&#160;</a></span>surfaceFuelConsumption()</h2>
+<a id="a6c1bda82b0e49ce3b3288bcdb4f624cd" name="a6c1bda82b0e49ce3b3288bcdb4f624cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c1bda82b0e49ce3b3288bcdb4f624cd">&#9670;&#160;</a></span>surfaceFuelConsumption()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -898,7 +898,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::surfaceFuelConsumption </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::surfaceFuelConsumption </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>spread</em></td><td>)</td>
@@ -921,24 +921,24 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Surface Fuel Consumption (SFC) (kg/m^2) [ST-X-3 eq 9-25] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a1ae7e23662ca8a01629afd9c9500cf46">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a2c47748dfee79f55a29d2331b31fdc18_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a2c47748dfee79f55a29d2331b31fdc18_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a2c47748dfee79f55a29d2331b31fdc18_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a2c47748dfee79f55a29d2331b31fdc18_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a6c1bda82b0e49ce3b3288bcdb4f624cd_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a6c1bda82b0e49ce3b3288bcdb4f624cd_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_a6c1bda82b0e49ce3b3288bcdb4f624cd_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a6c1bda82b0e49ce3b3288bcdb4f624cd_cgraph">
 <area shape="rect" title="Surface Fuel Consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="5,27,177,68"/>
 <area shape="rect" href="classtbd_1_1sim_1_1SpreadInfo.html#a531f07cd41d8492a60692b0ab696a6e2" title="Difference between date and the date of minimum foliar moisture content." alt="" coords="233,5,388,31"/>
 <area shape="poly" title=" " alt="" coords="176,33,217,28,218,33,177,39"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="225,55,396,96"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a1ae7e23662ca8a01629afd9c9500cf46" title="Surface fuel consumption (SFC) (kg/m^2) [ST&#45;X&#45;3 eq 9&#45;25]." alt="" coords="225,55,396,96"/>
 <area shape="poly" title=" " alt="" coords="177,56,209,60,209,65,176,61"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a20512104990f47b4380746589e9f1aac" name="a20512104990f47b4380746589e9f1aac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20512104990f47b4380746589e9f1aac">&#9670;&#160;</a></span>survivalProbability()</h2>
+<a id="a723f9bac64c565be300e3b12a8ae04de" name="a723f9bac64c565be300e3b12a8ae04de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a723f9bac64c565be300e3b12a8ae04de">&#9670;&#160;</a></span>survivalProbability()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -949,7 +949,7 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::survivalProbability </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelVariable.html">tbd::fuel::FuelVariable</a>&lt; FuelSpring, FuelSummer &gt;::survivalProbability </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;&#160;</td>
           <td class="paramname"><em>wx</em></td><td>)</td>
@@ -972,16 +972,16 @@ template&lt;class FuelSpring , class FuelSummer &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Chance of survival (% / 100) </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a54360592457504e0aeb5f225345df38e">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aa7c47478c96d2bb1a25b3597c0bcafd3">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a20512104990f47b4380746589e9f1aac_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a20512104990f47b4380746589e9f1aac_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelVariable_a20512104990f47b4380746589e9f1aac_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a20512104990f47b4380746589e9f1aac_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelVariable_a723f9bac64c565be300e3b12a8ae04de_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelVariable_a723f9bac64c565be300e3b12a8ae04de_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelVariable_a723f9bac64c565be300e3b12a8ae04de_cgraph" id="aclasstbd_1_1fuel_1_1FuelVariable_a723f9bac64c565be300e3b12a8ae04de_cgraph">
 <area shape="rect" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,39,150,79"/>
 <area shape="rect" href="classtbd_1_1fuel_1_1FuelVariable.html#a3dda1c5e64e9834fc6e86573faca578a" title="Fuel to use before green&#45;up." alt="" coords="198,5,342,46"/>
 <area shape="poly" title=" " alt="" coords="150,44,182,38,183,43,150,49"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#a54360592457504e0aeb5f225345df38e" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="204,71,336,111"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelType.html#aa7c47478c96d2bb1a25b3597c0bcafd3" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="204,71,336,111"/>
 <area shape="poly" title=" " alt="" coords="150,68,189,75,188,80,150,74"/>
 </map>
 </div>

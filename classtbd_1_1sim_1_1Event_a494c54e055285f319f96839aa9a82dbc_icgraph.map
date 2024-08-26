@@ -1,7 +1,0 @@
-<map id="tbd::sim::Event::makeEnd" name="tbd::sim::Event::makeEnd">
-<area shape="rect" id="Node000001" title="Make simulation end event." alt="" coords="203,35,368,60"/>
-<area shape="rect" id="Node000002" href="$classtbd_1_1sim_1_1Scenario.html#a194cf00f71f2903876722a26a4c390a4" title="Run the Scenario." alt="" coords="6,5,154,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,36,153,31,154,26,187,31"/>
-<area shape="rect" id="Node000003" href="$classtbd_1_1sim_1_1TestScenario.html#a553e2808726b88b1f7bd140b52e8b0c8" title="Constructor." alt="" coords="5,55,155,96"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,64,155,68,155,63,187,58"/>
-</map>

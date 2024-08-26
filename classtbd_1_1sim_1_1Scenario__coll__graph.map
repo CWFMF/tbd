@@ -1,116 +1,116 @@
 <map id="tbd::sim::Scenario" name="tbd::sim::Scenario">
-<area shape="rect" id="Node000001" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1290,469,1413,495"/>
-<area shape="rect" id="Node000002" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="949,5,1105,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1120,5,1158,6,1198,13,1235,27,1268,50,1289,83,1307,132,1321,192,1332,257,1346,384,1352,469,1347,469,1341,384,1327,258,1316,193,1302,133,1285,85,1264,53,1232,32,1196,18,1158,12,1120,10"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="937,56,1117,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1132,69,1167,71,1203,77,1237,90,1268,111,1287,139,1304,180,1329,286,1344,395,1352,469,1346,469,1339,395,1323,287,1299,182,1282,141,1264,115,1235,95,1202,83,1167,76,1131,74"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="968,149,1086,175"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1101,176,1267,216,1293,246,1313,280,1328,316,1339,353,1350,421,1353,469,1347,469,1345,422,1333,354,1323,318,1308,282,1289,249,1264,220,1100,181"/>
-<area shape="rect" id="Node000005" href="$classtbd_1_1sim_1_1CellPointsMap.html" title=" " alt="" coords="949,199,1105,224"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1112,225,1212,246,1267,261,1290,285,1308,312,1333,372,1346,428,1352,469,1346,469,1341,429,1328,374,1303,315,1286,288,1264,266,1210,251,1111,230"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="555,191,721,232"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="737,209,949,209,949,214,737,214"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="941,249,1113,289"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1128,278,1210,293,1244,303,1267,315,1286,332,1302,351,1326,395,1341,437,1350,468,1345,470,1336,438,1321,397,1297,354,1282,335,1264,319,1242,308,1208,298,1127,283"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="958,314,1096,355"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1112,331,1190,342,1230,354,1267,372,1294,394,1317,420,1346,468,1342,470,1313,423,1291,397,1264,376,1228,359,1189,347,1111,336"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="567,443,709,484"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="724,444,772,441,823,444,872,458,895,470,915,486,928,503,932,521,927,558,923,594,927,609,939,625,961,640,981,648,1000,650,1020,649,1116,624,1160,614,1194,604,1226,588,1264,564,1307,528,1338,493,1342,497,1311,532,1267,568,1228,593,1196,608,1162,619,1117,629,1021,654,1000,656,979,653,958,644,936,628,922,612,917,594,922,557,927,522,923,505,911,489,892,475,870,463,822,450,772,446,725,449"/>
-<area shape="rect" id="Node000016" href="$classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="973,688,1081,714"/>
-<area shape="poly" id="edge24_Node000016_Node000009" title=" " alt="" coords="713,486,759,500,804,505,843,503,879,507,897,516,915,531,927,548,932,566,929,600,926,634,929,650,939,667,955,680,974,689,972,694,952,685,935,671,924,652,920,634,924,599,927,566,923,550,911,535,894,520,877,512,843,508,804,510,758,505,712,492"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="949,429,1105,469"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1120,456,1290,473,1289,479,1120,461"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="958,494,1096,535"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1111,505,1265,491,1289,488,1290,493,1266,496,1112,510"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="956,559,1098,600"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1113,563,1188,547,1265,524,1327,493,1330,498,1267,529,1189,552,1114,569"/>
-<area shape="rect" id="Node000013" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="958,379,1096,404"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1111,401,1187,416,1267,438,1328,466,1326,471,1265,443,1186,421,1110,406"/>
-<area shape="rect" id="Node000014" title=" " alt="" coords="573,375,704,416"/>
-<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="719,392,958,390,958,395,719,397"/>
-<area shape="rect" id="Node000015" title=" " alt="" coords="614,325,663,351"/>
-<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="679,340,914,370,958,377,958,382,913,375,678,345"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1096,707,1137,708,1182,703,1225,692,1264,671,1284,652,1301,630,1326,580,1340,532,1346,495,1351,496,1345,533,1331,582,1306,633,1288,656,1267,675,1227,697,1183,709,1138,713,1096,713"/>
-<area shape="rect" id="Node000017" href="$classtbd_1_1sim_1_1Semaphore.html" title="Provides the ability to limit number of threads running at once." alt="" coords="569,813,707,839"/>
-<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="723,829,770,827,820,819,868,803,912,778,921,766,923,753,926,739,935,724,953,713,972,706,974,711,955,718,939,728,931,741,928,754,925,768,915,782,870,808,821,824,770,832,723,834"/>
-<area shape="rect" id="Node000018" title=" " alt="" coords="306,813,362,839"/>
-<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="371,803,448,767,494,749,541,734,661,712,781,700,889,696,973,696,973,702,889,701,781,706,662,717,543,739,496,754,450,772,373,808"/>
-<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="377,824,568,824,568,829,377,829"/>
-<area shape="rect" id="Node000056" href="$classtbd_1_1util_1_1SafeVector.html" title="A vector with added thread safety." alt="" coords="769,1005,903,1031"/>
-<area shape="poly" id="edge60_Node000056_Node000018" title=" " alt="" coords="378,836,411,851,451,880,477,909,503,937,543,962,600,984,660,999,718,1008,769,1013,769,1019,717,1014,659,1004,599,989,541,967,500,941,473,913,447,884,409,855,376,841"/>
-<area shape="rect" id="Node000019" title=" " alt="" coords="307,609,361,635"/>
-<area shape="poly" id="edge18_Node000016_Node000019" title=" " alt="" coords="376,623,605,644,914,680,974,689,973,694,913,685,605,649,376,628"/>
-<area shape="rect" id="Node000024" href="$classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="564,573,712,599"/>
-<area shape="poly" id="edge26_Node000024_Node000019" title=" " alt="" coords="376,615,563,592,564,598,376,620"/>
-<area shape="rect" id="Node000020" title=" " alt="" coords="574,749,702,789"/>
-<area shape="poly" id="edge20_Node000016_Node000020" title=" " alt="" coords="717,761,811,750,913,732,937,724,976,712,978,717,938,729,914,737,812,755,718,766"/>
-<area shape="rect" id="Node000021" title=" " alt="" coords="556,863,720,888"/>
-<area shape="poly" id="edge21_Node000016_Node000021" title=" " alt="" coords="716,888,765,892,817,889,868,876,891,864,911,849,922,835,927,821,924,790,921,758,925,741,935,724,952,711,972,704,974,709,955,716,939,728,930,743,926,758,929,789,932,821,927,837,915,852,894,869,870,881,818,894,765,897,715,894"/>
-<area shape="rect" id="Node000022" title=" " alt="" coords="542,913,734,953"/>
-<area shape="poly" id="edge22_Node000016_Node000022" title=" " alt="" coords="750,944,847,946,886,940,912,929,920,914,925,891,924,830,923,768,927,743,935,725,952,711,972,703,974,708,955,716,939,728,932,744,929,769,930,830,930,891,925,916,915,933,888,946,847,951,750,949"/>
-<area shape="rect" id="Node000023" title=" " alt="" coords="573,509,704,549"/>
-<area shape="poly" id="edge23_Node000016_Node000023" title=" " alt="" coords="720,540,915,576,924,588,929,599,929,623,929,645,932,656,939,667,955,680,974,689,972,693,952,684,935,671,927,658,923,646,924,623,923,600,920,590,912,580,719,545"/>
-<area shape="poly" id="edge25_Node000016_Node000024" title=" " alt="" coords="728,592,843,605,889,613,915,621,925,633,928,645,931,656,939,667,955,678,974,686,972,691,953,683,935,671,927,658,923,646,920,635,912,626,888,618,842,610,728,597"/>
-<area shape="rect" id="Node000025" href="$classtbd_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="258,539,410,580"/>
-<area shape="poly" id="edge27_Node000024_Node000025" title=" " alt="" coords="426,565,564,577,563,582,425,570"/>
-<area shape="rect" id="Node000026" href="$classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="24,539,152,580"/>
-<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="167,557,257,557,257,562,167,562"/>
-<area shape="rect" id="Node000029" title=" " alt="" coords="259,474,409,515"/>
-<area shape="poly" id="edge29_Node000024_Node000029" title=" " alt="" coords="424,516,519,548,543,558,582,570,580,575,541,563,517,553,422,521"/>
-<area shape="rect" id="Node000030" href="$classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="570,1080,706,1106"/>
-<area shape="poly" id="edge30_Node000016_Node000030" title=" " alt="" coords="662,1067,705,1033,757,1001,781,993,803,991,842,993,878,991,894,984,911,969,921,949,925,921,923,849,921,776,925,746,935,725,952,711,972,703,974,708,955,715,939,728,930,748,927,776,929,849,930,921,926,951,915,972,897,988,879,996,842,998,803,996,782,998,759,1006,708,1037,666,1071"/>
-<area shape="poly" id="edge40_Node000030_Node000030" title=" " alt="" coords="608,1063,618,1056,638,1053,657,1056,668,1062,671,1071,666,1081,661,1078,666,1071,664,1065,655,1061,638,1059,620,1061,611,1067"/>
-<area shape="rect" id="Node000031" href="$classtbd_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="276,865,392,891"/>
-<area shape="poly" id="edge31_Node000030_Node000031" title=" " alt="" coords="394,897,412,912,420,926,424,939,424,964,424,988,428,999,436,1011,499,1038,601,1077,600,1082,497,1043,432,1015,423,1001,419,988,419,964,419,940,416,928,408,916,391,901"/>
-<area shape="rect" id="Node000032" href="$classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="18,865,158,891"/>
-<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="174,876,276,876,276,881,174,881"/>
-<area shape="poly" id="edge33_Node000032_Node000032" title=" " alt="" coords="64,848,72,841,88,839,103,841,112,847,114,857,110,866,105,864,109,856,107,850,101,846,88,844,74,846,67,852"/>
-<area shape="rect" id="Node000034" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="5,955,171,980"/>
-<area shape="poly" id="edge34_Node000031_Node000034" title=" " alt="" coords="139,946,295,889,297,894,141,951"/>
-<area shape="poly" id="edge35_Node000034_Node000034" title=" " alt="" coords="64,937,72,931,88,928,103,930,112,937,114,946,110,955,105,953,109,946,107,940,101,935,88,933,74,936,67,942"/>
-<area shape="rect" id="Node000036" href="$classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction." alt="" coords="40,687,136,712"/>
-<area shape="poly" id="edge36_Node000031_Node000036" title=" " alt="" coords="152,712,172,723,195,741,209,759,236,804,246,829,251,839,259,849,280,863,278,867,256,854,246,842,241,831,231,806,205,762,191,745,169,727,150,717"/>
-<area shape="poly" id="edge37_Node000036_Node000036" title=" " alt="" coords="64,669,72,663,88,660,103,662,112,669,114,678,110,687,105,685,109,678,107,672,101,667,88,665,74,668,67,674"/>
-<area shape="rect" id="Node000041" href="$classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)" alt="" coords="18,776,158,802"/>
-<area shape="poly" id="edge38_Node000031_Node000041" title=" " alt="" coords="151,804,172,812,259,849,294,862,293,867,257,854,170,817,149,809"/>
-<area shape="poly" id="edge39_Node000041_Node000041" title=" " alt="" coords="64,759,72,752,88,749,103,752,112,758,114,767,110,777,105,775,109,767,107,761,101,757,88,755,74,757,67,763"/>
-<area shape="rect" id="Node000043" href="$classtbd_1_1wx_1_1Ffmc.html" title="Fine Fuel Moisture Code value." alt="" coords="285,965,383,991"/>
-<area shape="poly" id="edge41_Node000030_Node000043" title=" " alt="" coords="398,992,412,1002,422,1018,424,1035,426,1050,436,1063,458,1073,491,1080,570,1088,569,1094,490,1086,456,1078,432,1067,421,1052,419,1035,417,1020,408,1005,395,996"/>
-<area shape="poly" id="edge43_Node000043_Node000043" title=" " alt="" coords="311,948,319,941,334,939,348,941,357,947,359,957,355,966,350,964,354,956,352,950,346,946,334,944,321,946,314,952"/>
-<area shape="rect" id="Node000044" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,1004,157,1030"/>
-<area shape="poly" id="edge42_Node000043_Node000044" title=" " alt="" coords="172,1001,284,983,285,988,173,1006"/>
-<area shape="rect" id="Node000045" href="$classtbd_1_1wx_1_1Dmc.html" title="Duff Moisture Code value." alt="" coords="287,1055,381,1080"/>
-<area shape="poly" id="edge44_Node000030_Node000045" title=" " alt="" coords="397,1084,411,1091,423,1100,435,1108,476,1116,518,1116,558,1111,593,1104,594,1109,559,1117,518,1122,475,1121,433,1113,420,1105,409,1095,395,1089"/>
-<area shape="poly" id="edge46_Node000045_Node000045" title=" " alt="" coords="311,1037,319,1031,334,1028,348,1030,357,1037,359,1046,355,1055,350,1053,354,1046,352,1040,346,1035,334,1033,321,1036,314,1041"/>
-<area shape="rect" id="Node000046" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,1055,157,1080"/>
-<area shape="poly" id="edge45_Node000045_Node000046" title=" " alt="" coords="172,1065,286,1065,286,1070,172,1070"/>
-<area shape="rect" id="Node000047" href="$classtbd_1_1wx_1_1Dc.html" title="Drought Code value." alt="" coords="292,1144,376,1170"/>
-<area shape="poly" id="edge47_Node000030_Node000047" title=" " alt="" coords="391,1158,453,1154,486,1148,517,1138,528,1127,541,1116,569,1104,572,1109,543,1120,532,1131,519,1142,487,1153,454,1160,391,1163"/>
-<area shape="poly" id="edge49_Node000047_Node000047" title=" " alt="" coords="311,1127,319,1120,334,1117,348,1120,357,1126,359,1135,355,1145,350,1143,354,1135,352,1129,346,1125,334,1123,321,1125,314,1131"/>
-<area shape="rect" id="Node000048" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,1144,157,1170"/>
-<area shape="poly" id="edge48_Node000047_Node000048" title=" " alt="" coords="172,1154,292,1154,292,1160,172,1160"/>
-<area shape="rect" id="Node000049" href="$classtbd_1_1wx_1_1Isi.html" title="Initial Spread Index value." alt="" coords="293,1233,375,1259"/>
-<area shape="poly" id="edge50_Node000030_Node000049" title=" " alt="" coords="389,1236,455,1215,488,1199,516,1177,525,1162,527,1148,530,1132,540,1116,568,1100,571,1105,544,1120,535,1134,532,1148,530,1164,520,1180,490,1203,457,1220,391,1241"/>
-<area shape="poly" id="edge52_Node000049_Node000049" title=" " alt="" coords="311,1216,319,1209,334,1207,348,1209,357,1215,359,1225,355,1234,350,1232,354,1224,352,1218,346,1214,334,1212,321,1214,314,1220"/>
-<area shape="rect" id="Node000050" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,1233,157,1259"/>
-<area shape="poly" id="edge51_Node000049_Node000050" title=" " alt="" coords="172,1244,293,1244,293,1249,172,1249"/>
-<area shape="rect" id="Node000051" href="$classtbd_1_1wx_1_1Bui.html" title="Build&#45;up Index value." alt="" coords="291,1323,377,1348"/>
-<area shape="poly" id="edge53_Node000030_Node000051" title=" " alt="" coords="391,1320,424,1308,458,1292,489,1270,516,1244,525,1227,528,1212,526,1180,524,1149,529,1133,540,1116,553,1106,568,1098,571,1103,556,1110,544,1120,534,1135,529,1150,531,1180,534,1212,530,1229,520,1247,493,1275,460,1296,426,1313,393,1325"/>
-<area shape="poly" id="edge55_Node000051_Node000051" title=" " alt="" coords="311,1305,319,1299,334,1296,348,1298,357,1305,359,1314,355,1323,350,1321,354,1314,352,1308,346,1303,334,1301,321,1304,314,1309"/>
-<area shape="rect" id="Node000052" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a double to ensure correct types are used." alt="" coords="19,1323,157,1348"/>
-<area shape="poly" id="edge54_Node000051_Node000052" title=" " alt="" coords="172,1333,290,1333,290,1338,172,1338"/>
-<area shape="rect" id="Node000053" href="$classtbd_1_1wx_1_1Fwi.html" title="Fire Weather Index value." alt="" coords="290,1412,378,1438"/>
-<area shape="poly" id="edge56_Node000030_Node000053" title=" " alt="" coords="392,1407,425,1393,459,1376,490,1352,516,1324,529,1296,532,1270,530,1245,524,1220,519,1195,517,1169,523,1143,540,1116,553,1105,569,1098,571,1102,556,1110,544,1120,528,1145,523,1169,524,1194,529,1219,535,1244,538,1270,534,1298,520,1327,494,1356,462,1380,427,1398,394,1412"/>
-<area shape="poly" id="edge57_Node000053_Node000053" title=" " alt="" coords="311,1395,319,1388,334,1385,348,1388,357,1394,359,1403,355,1413,350,1411,354,1403,352,1397,346,1393,334,1391,321,1393,314,1399"/>
-<area shape="rect" id="Node000055" title=" " alt="" coords="953,738,1101,779"/>
-<area shape="poly" id="edge58_Node000001_Node000055" title=" " alt="" coords="1116,767,1154,766,1193,760,1231,748,1264,728,1289,703,1308,672,1323,639,1333,605,1345,541,1347,495,1353,495,1350,541,1339,606,1328,641,1313,675,1293,706,1267,733,1233,753,1194,766,1154,771,1116,772"/>
-<area shape="poly" id="edge59_Node000001_Node000056" title=" " alt="" coords="912,996,1026,951,1113,912,1151,889,1188,859,1225,822,1264,774,1286,738,1305,698,1330,617,1342,545,1347,495,1352,496,1348,545,1335,618,1310,700,1291,740,1268,777,1229,825,1191,863,1154,893,1115,917,1028,956,914,1001"/>
-<area shape="rect" id="Node000057" href="$classtbd_1_1topo_1_1StartPoint.html" title="A Point that has sunrise and sunset times for each day." alt="" coords="960,1059,1094,1084"/>
-<area shape="poly" id="edge61_Node000001_Node000057" title=" " alt="" coords="1078,1050,1124,1028,1174,999,1223,961,1263,914,1280,879,1296,828,1321,702,1337,578,1346,495,1351,496,1343,578,1326,703,1301,829,1285,881,1268,917,1227,964,1177,1003,1126,1033,1080,1055"/>
-<area shape="rect" id="Node000058" href="$classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="585,1195,691,1220"/>
-<area shape="poly" id="edge62_Node000057_Node000058" title=" " alt="" coords="705,1188,734,1180,786,1168,828,1162,867,1152,912,1127,919,1119,923,1112,927,1103,936,1095,959,1083,961,1087,939,1099,932,1106,928,1114,923,1123,915,1131,869,1156,829,1167,787,1174,735,1185,706,1193"/>
-<area shape="rect" id="Node000059" title=" " alt="" coords="557,1130,720,1171"/>
-<area shape="poly" id="edge63_Node000057_Node000059" title=" " alt="" coords="735,1128,959,1082,960,1088,736,1133"/>
-<area shape="rect" id="Node000060" title=" " alt="" coords="958,1109,1096,1149"/>
-<area shape="poly" id="edge64_Node000001_Node000060" title=" " alt="" coords="1111,1117,1152,1107,1193,1091,1232,1069,1264,1039,1276,1020,1287,995,1306,929,1320,850,1331,764,1343,601,1347,495,1352,496,1349,601,1336,764,1326,851,1311,930,1292,997,1281,1023,1268,1043,1235,1074,1195,1096,1153,1112,1112,1122"/>
+<area shape="rect" id="Node000001" title="A single Scenario in an Iteration using a specific FireWeather stream." alt="" coords="1296,475,1419,500"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1logging_1_1SelfLogger.html" title=" " alt="" coords="955,5,1111,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1126,6,1165,8,1204,15,1241,29,1274,52,1296,86,1313,135,1328,196,1339,262,1352,389,1358,474,1353,475,1347,390,1333,263,1322,197,1308,137,1291,88,1270,56,1239,34,1202,20,1164,13,1126,11"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="943,56,1123,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1138,71,1174,73,1210,81,1244,94,1274,115,1293,143,1310,185,1335,291,1350,400,1358,474,1352,475,1345,400,1329,292,1304,186,1288,145,1270,119,1241,99,1208,86,1173,79,1138,76"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="957,136,1109,162"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1125,134,1163,135,1202,141,1240,154,1273,175,1291,198,1306,232,1331,320,1348,410,1357,474,1352,475,1342,411,1325,321,1301,234,1286,200,1270,179,1238,158,1201,146,1162,140,1125,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="952,188,1114,214"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1106,216,1124,222,1148,234,1183,242,1213,243,1242,247,1273,265,1296,289,1314,317,1339,377,1352,433,1358,474,1352,475,1347,434,1334,379,1309,320,1292,293,1270,270,1241,252,1213,248,1183,247,1146,239,1122,227,1104,221"/>
+<area shape="rect" id="Node000006" href="$classtbd_1_1sim_1_1CellPointsMap.html" title=" " alt="" coords="955,237,1111,263"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1096,265,1123,273,1147,280,1184,286,1214,287,1242,293,1273,311,1292,329,1308,350,1333,396,1348,440,1356,474,1351,475,1343,442,1328,398,1304,353,1288,333,1270,315,1240,298,1213,292,1183,291,1146,285,1122,278,1095,270"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="558,230,724,271"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="740,248,954,248,954,253,740,253"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="947,287,1119,328"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1135,323,1221,341,1273,357,1303,384,1326,417,1354,473,1349,475,1321,419,1299,388,1270,362,1220,346,1134,328"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="964,353,1102,393"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1117,372,1194,383,1235,394,1273,409,1296,423,1317,440,1348,472,1344,476,1313,444,1293,427,1270,414,1233,399,1193,389,1116,377"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="570,482,712,523"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="728,482,776,479,828,483,878,497,901,508,921,524,934,542,938,560,933,597,929,632,933,648,945,663,967,678,987,686,1006,689,1026,688,1070,676,1122,663,1167,653,1201,643,1233,627,1270,600,1296,576,1318,548,1347,499,1352,502,1322,551,1300,579,1273,604,1236,631,1203,647,1168,658,1123,668,1071,682,1027,693,1006,695,985,692,964,683,942,667,928,651,923,633,928,596,933,560,929,544,917,528,898,513,876,502,827,488,776,484,728,487"/>
+<area shape="rect" id="Node000017" href="$classtbd_1_1sim_1_1Model.html" title="Contains all the immutable information regarding a simulation that is common between Scenarios." alt="" coords="979,727,1087,752"/>
+<area shape="poly" id="edge25_Node000017_Node000010" title=" " alt="" coords="718,525,765,539,810,544,849,541,885,546,903,554,921,570,933,587,938,604,935,639,932,672,935,689,945,706,961,719,980,728,978,733,958,723,941,709,930,691,926,673,930,638,933,605,929,589,917,573,900,559,883,551,849,547,810,549,764,544,717,530"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="955,467,1111,508"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1126,485,1296,485,1296,490,1126,490"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="964,533,1102,573"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1117,535,1271,505,1302,498,1303,504,1272,510,1118,541"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="962,598,1104,639"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1119,601,1194,581,1270,551,1310,525,1341,498,1345,503,1313,529,1273,556,1196,586,1120,606"/>
+<area shape="rect" id="Node000014" href="$classtbd_1_1wx_1_1FireWeather.html" title="A stream of weather that gets used by a Scenario every Iteration." alt="" coords="964,417,1102,443"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1118,439,1272,465,1303,471,1302,477,1271,470,1117,444"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="576,414,707,455"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="722,431,964,428,964,434,722,436"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="617,364,666,390"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="682,379,920,409,964,416,964,421,919,414,681,384"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1102,747,1143,748,1188,743,1231,731,1270,710,1293,687,1311,660,1326,631,1336,600,1349,542,1353,501,1358,501,1354,543,1341,602,1330,633,1316,663,1297,691,1273,714,1233,736,1189,749,1143,753,1102,752"/>
+<area shape="rect" id="Node000018" href="$classtbd_1_1sim_1_1Semaphore.html" title="Provides the ability to limit number of threads running at once." alt="" coords="572,852,710,878"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="725,868,773,866,824,858,873,842,918,816,927,805,929,792,932,777,941,763,959,752,978,744,980,749,961,756,945,767,937,779,934,793,931,807,921,821,875,847,825,863,774,871,726,873"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="306,852,362,878"/>
+<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="371,842,448,805,494,787,541,773,663,750,785,739,894,735,979,735,979,740,894,740,785,744,663,756,543,778,496,792,450,810,373,847"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="377,862,572,862,572,868,377,868"/>
+<area shape="rect" id="Node000057" href="$classtbd_1_1util_1_1SafeVector.html" title="A vector with added thread safety." alt="" coords="775,1044,909,1070"/>
+<area shape="poly" id="edge60_Node000057_Node000019" title=" " alt="" coords="378,874,411,889,451,919,477,948,503,976,543,1001,602,1023,663,1038,723,1047,775,1052,774,1058,722,1053,662,1043,600,1028,541,1006,500,980,473,951,447,923,409,894,376,879"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="307,648,361,674"/>
+<area shape="poly" id="edge19_Node000017_Node000020" title=" " alt="" coords="376,661,607,683,920,718,980,727,979,733,919,723,607,688,376,667"/>
+<area shape="rect" id="Node000025" href="$classtbd_1_1topo_1_1Environment.html" title="The area that a Model is run for, with Fuel, Slope, and Aspect grids." alt="" coords="567,612,715,638"/>
+<area shape="poly" id="edge27_Node000025_Node000020" title=" " alt="" coords="376,653,566,631,567,636,377,659"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="577,787,705,828"/>
+<area shape="poly" id="edge21_Node000017_Node000021" title=" " alt="" coords="721,800,816,789,919,771,943,762,982,750,984,756,944,767,920,776,817,794,721,805"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="559,901,723,927"/>
+<area shape="poly" id="edge22_Node000017_Node000022" title=" " alt="" coords="716,927,766,932,820,929,872,916,896,904,917,889,929,875,933,860,930,829,927,797,931,780,941,763,958,750,978,742,980,747,961,755,945,767,935,782,932,797,935,829,938,861,933,877,921,892,899,909,874,921,821,935,766,937,715,933"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="545,951,737,992"/>
+<area shape="poly" id="edge23_Node000017_Node000023" title=" " alt="" coords="753,983,852,986,892,981,918,969,927,954,931,930,930,870,929,807,933,782,941,763,958,750,978,742,980,747,961,754,945,766,938,783,935,808,936,869,936,931,932,956,921,973,893,986,852,991,753,988"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="576,547,707,588"/>
+<area shape="poly" id="edge24_Node000017_Node000024" title=" " alt="" coords="723,577,848,599,921,616,930,627,935,639,935,662,935,684,938,695,945,706,961,718,980,727,978,732,958,723,941,709,933,697,929,685,930,662,929,640,926,630,918,620,847,604,722,583"/>
+<area shape="poly" id="edge26_Node000017_Node000025" title=" " alt="" coords="731,630,848,644,895,651,921,660,931,671,934,683,937,695,945,706,961,717,980,725,978,730,959,721,941,709,933,697,929,685,926,674,918,664,893,657,847,649,731,635"/>
+<area shape="rect" id="Node000026" href="$classtbd_1_1data_1_1ConstantGrid.html" title="A GridData&lt;T, V, const vector&lt;T&gt;&gt; that cannot change once initialized." alt="" coords="258,578,410,619"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="426,603,567,616,566,621,425,609"/>
+<area shape="rect" id="Node000027" href="$classtbd_1_1data_1_1GridData.html" title="A Grid that defines the data structure used for storing values." alt="" coords="24,578,152,619"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="167,596,257,596,257,601,167,601"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="259,513,409,553"/>
+<area shape="poly" id="edge30_Node000025_Node000030" title=" " alt="" coords="424,555,519,586,543,597,582,609,581,614,541,602,517,591,422,560"/>
+<area shape="rect" id="Node000031" href="$classtbd_1_1wx_1_1FwiWeather.html" title="A Weather value with calculated FWI indices." alt="" coords="573,1119,709,1144"/>
+<area shape="poly" id="edge31_Node000017_Node000031" title=" " alt="" coords="665,1106,709,1072,763,1040,787,1032,809,1030,848,1033,884,1031,900,1023,917,1009,927,989,931,961,929,888,927,815,931,785,941,763,958,749,978,741,980,746,961,754,945,766,936,787,933,815,935,888,936,961,932,991,921,1012,903,1028,885,1036,848,1038,809,1035,788,1037,765,1045,712,1076,669,1111"/>
+<area shape="poly" id="edge41_Node000031_Node000031" title=" " alt="" coords="610,1101,621,1095,641,1092,660,1094,671,1100,675,1110,669,1120,665,1117,669,1109,667,1104,658,1099,641,1097,623,1100,613,1106"/>
+<area shape="rect" id="Node000032" href="$classtbd_1_1wx_1_1Weather.html" title="Collection of weather indices used for calculating FwiWeather." alt="" coords="276,904,392,930"/>
+<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="394,935,412,951,420,965,424,978,424,1003,424,1026,428,1038,436,1049,500,1077,604,1116,602,1121,498,1082,432,1054,423,1040,419,1027,419,1003,419,979,416,967,408,955,391,940"/>
+<area shape="rect" id="Node000033" href="$classtbd_1_1wx_1_1Temperature.html" title="Temperature in degrees Celsius." alt="" coords="18,993,158,1019"/>
+<area shape="poly" id="edge33_Node000032_Node000033" title=" " alt="" coords="139,985,295,928,297,933,141,990"/>
+<area shape="poly" id="edge34_Node000033_Node000033" title=" " alt="" coords="64,976,72,969,88,967,103,969,112,975,114,985,110,994,105,992,109,984,107,978,101,974,88,972,74,974,67,980"/>
+<area shape="rect" id="Node000035" href="$classtbd_1_1wx_1_1RelativeHumidity.html" title="Relative humidity as a percentage." alt="" coords="5,725,171,751"/>
+<area shape="poly" id="edge35_Node000032_Node000035" title=" " alt="" coords="163,756,172,761,195,780,209,797,236,842,246,867,251,878,259,888,280,901,278,906,256,892,246,881,241,869,231,845,205,800,191,783,169,766,160,760"/>
+<area shape="poly" id="edge36_Node000035_Node000035" title=" " alt="" coords="64,708,72,701,88,699,103,701,112,707,114,717,110,726,105,724,109,716,107,710,101,706,88,704,74,706,67,712"/>
+<area shape="rect" id="Node000037" href="$classtbd_1_1wx_1_1Wind.html" title="Wind with a Speed and Direction." alt="" coords="40,815,136,840"/>
+<area shape="poly" id="edge37_Node000032_Node000037" title=" " alt="" coords="151,843,172,850,259,888,294,901,293,906,257,893,170,855,149,848"/>
+<area shape="poly" id="edge38_Node000037_Node000037" title=" " alt="" coords="64,797,72,791,88,788,103,790,112,797,114,806,110,815,105,813,109,806,107,800,101,795,88,793,74,796,67,802"/>
+<area shape="rect" id="Node000042" href="$classtbd_1_1wx_1_1Precipitation.html" title="Precipitation (1hr accumulation) (mm)" alt="" coords="18,904,158,930"/>
+<area shape="poly" id="edge39_Node000032_Node000042" title=" " alt="" coords="173,914,276,914,276,920,173,920"/>
+<area shape="poly" id="edge40_Node000042_Node000042" title=" " alt="" coords="64,887,72,880,88,877,103,880,112,886,114,895,110,905,105,903,109,895,107,889,101,885,88,883,74,885,67,891"/>
+<area shape="rect" id="Node000044" href="$classtbd_1_1wx_1_1Ffmc.html" title="Fine Fuel Moisture Code value." alt="" coords="285,1004,383,1030"/>
+<area shape="poly" id="edge42_Node000031_Node000044" title=" " alt="" coords="398,1030,412,1040,422,1057,424,1073,426,1088,436,1102,458,1112,492,1119,573,1127,572,1132,491,1125,456,1117,432,1106,421,1090,419,1074,417,1059,408,1044,395,1034"/>
+<area shape="poly" id="edge44_Node000044_Node000044" title=" " alt="" coords="311,987,319,980,334,977,348,980,357,986,359,995,355,1005,350,1003,354,995,352,989,346,985,334,983,321,985,314,991"/>
+<area shape="rect" id="Node000045" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="19,1043,157,1068"/>
+<area shape="poly" id="edge43_Node000044_Node000045" title=" " alt="" coords="172,1040,284,1022,285,1027,173,1045"/>
+<area shape="rect" id="Node000046" href="$classtbd_1_1wx_1_1Dmc.html" title="Duff Moisture Code value." alt="" coords="287,1093,381,1119"/>
+<area shape="poly" id="edge45_Node000031_Node000046" title=" " alt="" coords="397,1122,411,1129,423,1139,435,1147,476,1155,519,1155,560,1150,596,1142,597,1148,561,1155,520,1160,476,1160,433,1152,420,1143,409,1134,395,1127"/>
+<area shape="poly" id="edge47_Node000046_Node000046" title=" " alt="" coords="311,1076,319,1069,334,1067,348,1069,357,1075,359,1085,355,1094,350,1092,354,1084,352,1078,346,1074,334,1072,321,1074,314,1080"/>
+<area shape="rect" id="Node000047" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="19,1093,157,1119"/>
+<area shape="poly" id="edge46_Node000046_Node000047" title=" " alt="" coords="172,1104,286,1104,286,1109,172,1109"/>
+<area shape="rect" id="Node000048" href="$classtbd_1_1wx_1_1Dc.html" title="Drought Code value." alt="" coords="292,1183,376,1208"/>
+<area shape="poly" id="edge48_Node000031_Node000048" title=" " alt="" coords="391,1197,453,1193,486,1187,517,1176,528,1166,541,1155,571,1142,573,1147,543,1159,532,1170,519,1181,487,1192,454,1198,391,1202"/>
+<area shape="poly" id="edge50_Node000048_Node000048" title=" " alt="" coords="311,1165,319,1159,334,1156,348,1158,357,1165,359,1174,355,1183,350,1181,354,1174,352,1168,346,1163,334,1161,321,1164,314,1169"/>
+<area shape="rect" id="Node000049" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="19,1183,157,1208"/>
+<area shape="poly" id="edge49_Node000048_Node000049" title=" " alt="" coords="172,1193,292,1193,292,1198,172,1198"/>
+<area shape="rect" id="Node000050" href="$classtbd_1_1wx_1_1Isi.html" title="Initial Spread Index value." alt="" coords="293,1272,375,1298"/>
+<area shape="poly" id="edge51_Node000031_Node000050" title=" " alt="" coords="389,1274,455,1254,488,1237,516,1215,525,1201,527,1186,530,1170,540,1155,571,1138,574,1142,544,1159,535,1172,532,1187,530,1203,520,1219,490,1242,457,1259,391,1279"/>
+<area shape="poly" id="edge53_Node000050_Node000050" title=" " alt="" coords="311,1255,319,1248,334,1245,348,1248,357,1254,359,1263,355,1273,350,1271,354,1263,352,1257,346,1253,334,1251,321,1253,314,1259"/>
+<area shape="rect" id="Node000051" href="$classtbd_1_1data_1_1Index.html" title="A wrapper around a MathSize to ensure correct types are used." alt="" coords="19,1272,157,1298"/>
+<area shape="poly" id="edge52_Node000050_Node000051" title=" " alt="" coords="172,1282,293,1282,293,1288,172,1288"/>
+<area shape="rect" id="Node000052" href="$classtbd_1_1wx_1_1Bui.html" title="Build&#45;up Index value." alt="" coords="291,1361,377,1387"/>
+<area shape="poly" id="edge54_Node000031_Node000052" title=" " alt="" coords="391,1358,424,1347,458,1330,489,1309,516,1282,525,1266,528,1250,526,1219,524,1188,529,1171,540,1155,555,1143,572,1136,574,1141,558,1148,544,1159,534,1174,529,1188,531,1219,534,1251,530,1268,520,1285,493,1313,460,1335,426,1351,393,1363"/>
+<area shape="poly" id="edge55_Node000052_Node000052" title=" " alt="" coords="311,1344,319,1337,334,1335,348,1337,357,1343,359,1353,355,1362,350,1360,354,1352,352,1346,346,1342,334,1340,321,1342,314,1348"/>
+<area shape="rect" id="Node000054" href="$classtbd_1_1wx_1_1Fwi.html" title="Fire Weather Index value." alt="" coords="290,1451,378,1476"/>
+<area shape="poly" id="edge56_Node000031_Node000054" title=" " alt="" coords="392,1445,425,1432,459,1414,490,1391,516,1362,529,1335,532,1309,530,1283,524,1258,519,1233,517,1208,523,1182,540,1155,555,1143,572,1135,574,1140,557,1147,544,1159,528,1184,523,1208,524,1232,529,1257,535,1283,538,1309,534,1337,520,1365,494,1395,462,1419,427,1437,394,1450"/>
+<area shape="poly" id="edge57_Node000054_Node000054" title=" " alt="" coords="311,1433,319,1427,334,1424,348,1426,357,1433,359,1442,355,1451,350,1449,354,1442,352,1436,346,1431,334,1429,321,1432,314,1437"/>
+<area shape="rect" id="Node000056" title=" " alt="" coords="943,777,1123,817"/>
+<area shape="poly" id="edge58_Node000001_Node000056" title=" " alt="" coords="1138,807,1173,805,1208,799,1241,787,1270,768,1298,739,1319,704,1334,665,1344,626,1353,552,1354,501,1359,501,1359,553,1349,627,1339,667,1323,706,1302,742,1273,773,1243,792,1209,804,1174,810,1138,812"/>
+<area shape="poly" id="edge59_Node000001_Node000057" title=" " alt="" coords="918,1035,1010,991,1114,934,1208,872,1244,842,1270,814,1294,773,1314,729,1329,682,1339,637,1350,555,1353,501,1359,501,1356,556,1344,638,1334,684,1319,730,1299,776,1274,817,1248,846,1211,876,1116,939,1012,996,920,1040"/>
+<area shape="rect" id="Node000058" href="$classtbd_1_1topo_1_1StartPoint.html" title="A Point that has sunrise and sunset times for each day." alt="" coords="966,1097,1100,1123"/>
+<area shape="poly" id="edge61_Node000001_Node000058" title=" " alt="" coords="1085,1089,1131,1067,1181,1037,1230,999,1269,953,1287,914,1303,860,1328,723,1344,589,1352,500,1358,501,1350,589,1333,724,1308,861,1292,916,1274,956,1233,1003,1184,1042,1133,1072,1087,1093"/>
+<area shape="rect" id="Node000059" href="$classtbd_1_1topo_1_1Point.html" title="A geographic location in lat/long coordinates." alt="" coords="588,1233,694,1259"/>
+<area shape="poly" id="edge62_Node000058_Node000059" title=" " alt="" coords="709,1227,740,1218,792,1207,834,1201,873,1190,918,1165,925,1158,929,1150,933,1142,942,1133,965,1121,967,1126,945,1138,938,1145,934,1153,929,1161,921,1170,875,1195,835,1206,793,1212,741,1223,710,1232"/>
+<area shape="rect" id="Node000060" title=" " alt="" coords="542,1169,740,1209"/>
+<area shape="poly" id="edge63_Node000058_Node000060" title=" " alt="" coords="755,1163,965,1121,966,1126,756,1169"/>
+<area shape="rect" id="Node000061" title=" " alt="" coords="964,1147,1102,1188"/>
+<area shape="poly" id="edge64_Node000001_Node000061" title=" " alt="" coords="1117,1156,1158,1146,1199,1130,1238,1108,1270,1078,1283,1058,1294,1030,1314,960,1328,876,1339,784,1350,611,1353,501,1359,501,1356,611,1344,785,1334,877,1319,962,1299,1032,1287,1060,1274,1082,1241,1112,1201,1135,1159,1151,1118,1161"/>
 </map>

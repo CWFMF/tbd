@@ -1,0 +1,5 @@
+<map id="tbd::sim::XYPos" name="tbd::sim::XYPos">
+<area shape="rect" id="Node000001" title="The position within the Environment that a spreading point has." alt="" coords="46,109,160,135"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1BoundedPoint.html" title=" " alt="" coords="5,5,201,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,76,106,108,100,108,100,76"/>
+</map>

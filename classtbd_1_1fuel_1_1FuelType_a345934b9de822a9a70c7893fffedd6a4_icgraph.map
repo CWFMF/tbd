@@ -1,7 +1,0 @@
-<map id="tbd::fuel::FuelType::finalRos" name="tbd::fuel::FuelType::finalRos">
-<area shape="rect" id="Node000001" title="Final rate of spread (m/min)" alt="" coords="198,39,323,79"/>
-<area shape="rect" id="Node000002" href="$classtbd_1_1fuel_1_1FuelVariable.html#ada2a027a9fb971cf2e17051c0d0f9452" title="Final rate of spread (m/min)" alt="" coords="5,5,150,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,47,149,41,150,36,183,42"/>
-<area shape="rect" id="Node000003" href="$classtbd_1_1sim_1_1SpreadInfo.html#af665f7627cadbbd6bf51faefe48ee1ad" title=" " alt="" coords="10,71,145,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,75,146,82,145,77,182,70"/>
-</map>

@@ -256,15 +256,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af50b1f67a0faceeadc93155dece85cdb" id="r_af50b1f67a0faceeadc93155dece85cdb"><td class="memItemLeft" align="right" valign="top"><a id="af50b1f67a0faceeadc93155dece85cdb" name="af50b1f67a0faceeadc93155dece85cdb"></a>
 <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">FuelBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">FuelBase</a> &amp;rhs)=delete</td></tr>
 <tr class="separator:af50b1f67a0faceeadc93155dece85cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8502e15d1e8b3cd36c6839607e040905" id="r_a8502e15d1e8b3cd36c6839607e040905"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a8502e15d1e8b3cd36c6839607e040905">crownFractionBurned</a> (const double rss, const double rso) const noexcept override</td></tr>
-<tr class="memdesc:a8502e15d1e8b3cd36c6839607e040905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fraction Burned (CFB) [ST-X-3 eq 58].  <br /></td></tr>
-<tr class="separator:a8502e15d1e8b3cd36c6839607e040905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a88fb8ea5dfcde18d743dfb77084e60" id="r_a2a88fb8ea5dfcde18d743dfb77084e60"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a2a88fb8ea5dfcde18d743dfb77084e60">probabilityPeat</a> (const double mc_fraction) const noexcept override</td></tr>
-<tr class="memdesc:a2a88fb8ea5dfcde18d743dfb77084e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate probability of burning [Anderson eq 1].  <br /></td></tr>
-<tr class="separator:a2a88fb8ea5dfcde18d743dfb77084e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac944e538f88d4b4f32007d8046835354" id="r_ac944e538f88d4b4f32007d8046835354"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354">survivalProbability</a> (const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx) const noexcept override</td></tr>
-<tr class="memdesc:ac944e538f88d4b4f32007d8046835354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Survival probability calculated using probability of ony survival based on multiple formulae.  <br /></td></tr>
-<tr class="separator:ac944e538f88d4b4f32007d8046835354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b21ccd26c19995e2fa32374f821304" id="r_a55b21ccd26c19995e2fa32374f821304"><td class="memItemLeft" align="right" valign="top">MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a55b21ccd26c19995e2fa32374f821304">crownFractionBurned</a> (const MathSize rss, const MathSize rso) const noexcept override</td></tr>
+<tr class="memdesc:a55b21ccd26c19995e2fa32374f821304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fraction Burned (CFB) [ST-X-3 eq 58].  <br /></td></tr>
+<tr class="separator:a55b21ccd26c19995e2fa32374f821304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911a1b7688f30e731de3494ed9da551d" id="r_a911a1b7688f30e731de3494ed9da551d"><td class="memItemLeft" align="right" valign="top">ThresholdSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a911a1b7688f30e731de3494ed9da551d">probabilityPeat</a> (const MathSize mc_fraction) const noexcept override</td></tr>
+<tr class="memdesc:a911a1b7688f30e731de3494ed9da551d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate probability of burning [Anderson eq 1].  <br /></td></tr>
+<tr class="separator:a911a1b7688f30e731de3494ed9da551d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4662bd37e08ba112c301e0f0e2217c61" id="r_a4662bd37e08ba112c301e0f0e2217c61"><td class="memItemLeft" align="right" valign="top">ThresholdSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61">survivalProbability</a> (const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx) const noexcept override</td></tr>
+<tr class="memdesc:a4662bd37e08ba112c301e0f0e2217c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Survival probability calculated using probability of ony survival based on multiple formulae.  <br /></td></tr>
+<tr class="separator:a4662bd37e08ba112c301e0f0e2217c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ee00f726a48e66c616130e0d715f9c" id="r_a60ee00f726a48e66c616130e0d715f9c"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classtbd_1_1fuel_1_1Duff.html">Duff</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a60ee00f726a48e66c616130e0d715f9c">duffDmcType</a> () const</td></tr>
 <tr class="memdesc:a60ee00f726a48e66c616130e0d715f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of duff deeper underground.  <br /></td></tr>
 <tr class="separator:a60ee00f726a48e66c616130e0d715f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,30 +290,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d76adedf61aa4e5a9b714cabce11b51 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a3d76adedf61aa4e5a9b714cabce11b51"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a3d76adedf61aa4e5a9b714cabce11b51">canCrown</a> () const</td></tr>
 <tr class="memdesc:a3d76adedf61aa4e5a9b714cabce11b51 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this fuel can have a crown fire.  <br /></td></tr>
 <tr class="separator:a3d76adedf61aa4e5a9b714cabce11b51 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad25cb3df97e1932f12b0f03e40e501c8 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_ad25cb3df97e1932f12b0f03e40e501c8"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ad25cb3df97e1932f12b0f03e40e501c8">buiEffect</a> (double bui) const =0</td></tr>
-<tr class="memdesc:ad25cb3df97e1932f12b0f03e40e501c8 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">BUI Effect on surface fire rate of spread [ST-X-3 eq 54].  <br /></td></tr>
-<tr class="separator:ad25cb3df97e1932f12b0f03e40e501c8 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87c58a57b3afae95e9282416c6f325d inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_af87c58a57b3afae95e9282416c6f325d"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af87c58a57b3afae95e9282416c6f325d">crownConsumption</a> (double cfb) const =0</td></tr>
-<tr class="memdesc:af87c58a57b3afae95e9282416c6f325d inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fuel Consumption (CFC) (kg/m^2) [ST-X-3 eq 66].  <br /></td></tr>
-<tr class="separator:af87c58a57b3afae95e9282416c6f325d inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81f37c0e9aec26852d38bd6dd555dcd5 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a81f37c0e9aec26852d38bd6dd555dcd5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a81f37c0e9aec26852d38bd6dd555dcd5">calculateRos</a> (int nd, const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx, double isi) const =0</td></tr>
-<tr class="memdesc:a81f37c0e9aec26852d38bd6dd555dcd5 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate rate of spread (m/min)  <br /></td></tr>
-<tr class="separator:a81f37c0e9aec26852d38bd6dd555dcd5 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10d58c44983cb2174924ea82d3ff627 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_ae10d58c44983cb2174924ea82d3ff627"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ae10d58c44983cb2174924ea82d3ff627">calculateIsf</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, double isi) const =0</td></tr>
-<tr class="memdesc:ae10d58c44983cb2174924ea82d3ff627 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate ISI with slope influence and zero wind (ISF) [ST-X-3 eq 41/42].  <br /></td></tr>
-<tr class="separator:ae10d58c44983cb2174924ea82d3ff627 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f789deb288682fef4b69723706e55a inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a54f789deb288682fef4b69723706e55a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a54f789deb288682fef4b69723706e55a">surfaceFuelConsumption</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const =0</td></tr>
-<tr class="memdesc:a54f789deb288682fef4b69723706e55a inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface fuel consumption (SFC) (kg/m^2) [ST-X-3 eq 9-25].  <br /></td></tr>
-<tr class="separator:a54f789deb288682fef4b69723706e55a inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad58fdaa07ccc7c9f48ac3e117a77f300 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_ad58fdaa07ccc7c9f48ac3e117a77f300"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ad58fdaa07ccc7c9f48ac3e117a77f300">lengthToBreadth</a> (double ws) const =0</td></tr>
-<tr class="memdesc:ad58fdaa07ccc7c9f48ac3e117a77f300 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length to Breadth ratio [ST-X-3 eq 79].  <br /></td></tr>
-<tr class="separator:ad58fdaa07ccc7c9f48ac3e117a77f300 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345934b9de822a9a70c7893fffedd6a4 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a345934b9de822a9a70c7893fffedd6a4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a345934b9de822a9a70c7893fffedd6a4">finalRos</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, double isi, double cfb, double rss) const =0</td></tr>
-<tr class="memdesc:a345934b9de822a9a70c7893fffedd6a4 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final rate of spread (m/min)  <br /></td></tr>
-<tr class="separator:a345934b9de822a9a70c7893fffedd6a4 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5e3b406a3b0846cacccd0b6dc36e2f inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_aba5e3b406a3b0846cacccd0b6dc36e2f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aba5e3b406a3b0846cacccd0b6dc36e2f">criticalSurfaceIntensity</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const =0</td></tr>
-<tr class="memdesc:aba5e3b406a3b0846cacccd0b6dc36e2f inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical Surface Fire Intensity (CSI) [ST-X-3 eq 56].  <br /></td></tr>
-<tr class="separator:aba5e3b406a3b0846cacccd0b6dc36e2f inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfbb90fe65c0a7292f7886a0b5d938d inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a9cfbb90fe65c0a7292f7886a0b5d938d"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9cfbb90fe65c0a7292f7886a0b5d938d">buiEffect</a> (MathSize bui) const =0</td></tr>
+<tr class="memdesc:a9cfbb90fe65c0a7292f7886a0b5d938d inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">BUI Effect on surface fire rate of spread [ST-X-3 eq 54].  <br /></td></tr>
+<tr class="separator:a9cfbb90fe65c0a7292f7886a0b5d938d inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6677e4cb7483a4d6cf9b1a78a2cf727 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_af6677e4cb7483a4d6cf9b1a78a2cf727"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af6677e4cb7483a4d6cf9b1a78a2cf727">crownConsumption</a> (MathSize cfb) const =0</td></tr>
+<tr class="memdesc:af6677e4cb7483a4d6cf9b1a78a2cf727 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crown Fuel Consumption (CFC) (kg/m^2) [ST-X-3 eq 66].  <br /></td></tr>
+<tr class="separator:af6677e4cb7483a4d6cf9b1a78a2cf727 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2559cef336a3c1d5971add9d16cf2b60 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a2559cef336a3c1d5971add9d16cf2b60"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a2559cef336a3c1d5971add9d16cf2b60">calculateRos</a> (int nd, const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;wx, MathSize isi) const =0</td></tr>
+<tr class="memdesc:a2559cef336a3c1d5971add9d16cf2b60 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate rate of spread (m/min)  <br /></td></tr>
+<tr class="separator:a2559cef336a3c1d5971add9d16cf2b60 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bf8e33552a66df0b45c730469e07d2 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a10bf8e33552a66df0b45c730469e07d2"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a10bf8e33552a66df0b45c730469e07d2">calculateIsf</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, MathSize isi) const =0</td></tr>
+<tr class="memdesc:a10bf8e33552a66df0b45c730469e07d2 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate ISI with slope influence and zero wind (ISF) [ST-X-3 eq 41/42].  <br /></td></tr>
+<tr class="separator:a10bf8e33552a66df0b45c730469e07d2 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7e23662ca8a01629afd9c9500cf46 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a1ae7e23662ca8a01629afd9c9500cf46"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a1ae7e23662ca8a01629afd9c9500cf46">surfaceFuelConsumption</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const =0</td></tr>
+<tr class="memdesc:a1ae7e23662ca8a01629afd9c9500cf46 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface fuel consumption (SFC) (kg/m^2) [ST-X-3 eq 9-25].  <br /></td></tr>
+<tr class="separator:a1ae7e23662ca8a01629afd9c9500cf46 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38773fcfe214e19e7575d2b33aab77c9 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a38773fcfe214e19e7575d2b33aab77c9"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a38773fcfe214e19e7575d2b33aab77c9">lengthToBreadth</a> (MathSize ws) const =0</td></tr>
+<tr class="memdesc:a38773fcfe214e19e7575d2b33aab77c9 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length to Breadth ratio [ST-X-3 eq 79].  <br /></td></tr>
+<tr class="separator:a38773fcfe214e19e7575d2b33aab77c9 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334162cd7f08fde2328190c543c3e013 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a334162cd7f08fde2328190c543c3e013"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a334162cd7f08fde2328190c543c3e013">finalRos</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread, MathSize isi, MathSize cfb, MathSize rss) const =0</td></tr>
+<tr class="memdesc:a334162cd7f08fde2328190c543c3e013 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final rate of spread (m/min)  <br /></td></tr>
+<tr class="separator:a334162cd7f08fde2328190c543c3e013 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3f3aab98f4a8edf81d435c1f474c3f inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_a0e3f3aab98f4a8edf81d435c1f474c3f"><td class="memItemLeft" align="right" valign="top">virtual MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a0e3f3aab98f4a8edf81d435c1f474c3f">criticalSurfaceIntensity</a> (const <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &amp;spread) const =0</td></tr>
+<tr class="memdesc:a0e3f3aab98f4a8edf81d435c1f474c3f inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical Surface Fire Intensity (CSI) [ST-X-3 eq 56].  <br /></td></tr>
+<tr class="separator:a0e3f3aab98f4a8edf81d435c1f474c3f inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa01c2d0bcc6c96597cba586eaccf6b43 inherit pub_methods_classtbd_1_1fuel_1_1FuelType" id="r_aa01c2d0bcc6c96597cba586eaccf6b43"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aa01c2d0bcc6c96597cba586eaccf6b43">name</a> () const</td></tr>
 <tr class="memdesc:aa01c2d0bcc6c96597cba586eaccf6b43 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the fuel.  <br /></td></tr>
 <tr class="separator:aa01c2d0bcc6c96597cba586eaccf6b43 inherit pub_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,21 +323,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad559a196e9911bcd34869e0a76b52507" id="r_ad559a196e9911bcd34869e0a76b52507"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#ad559a196e9911bcd34869e0a76b52507">bulkDensity</a> ()</td></tr>
-<tr class="memdesc:ad559a196e9911bcd34869e0a76b52507"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1fuel_1_1Duff.html" title="Base class for DuffType.">Duff</a> Bulk Density (g/cm^3) [Anderson table 1].  <br /></td></tr>
-<tr class="separator:ad559a196e9911bcd34869e0a76b52507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50fabe0ea676b82e9cad31bdfbba2ba8" id="r_a50fabe0ea676b82e9cad31bdfbba2ba8"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a50fabe0ea676b82e9cad31bdfbba2ba8">inorganicPercent</a> ()</td></tr>
-<tr class="memdesc:a50fabe0ea676b82e9cad31bdfbba2ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inorganic Percent (% / 100) [Anderson table 1].  <br /></td></tr>
-<tr class="separator:a50fabe0ea676b82e9cad31bdfbba2ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eda6f030f139d89f2451a3b9242aa53" id="r_a2eda6f030f139d89f2451a3b9242aa53"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a2eda6f030f139d89f2451a3b9242aa53">duffDepth</a> ()</td></tr>
-<tr class="memdesc:a2eda6f030f139d89f2451a3b9242aa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">DuffDepth Depth of <a class="el" href="classtbd_1_1fuel_1_1Duff.html" title="Base class for DuffType.">Duff</a> layer (cm) [Anderson table 1].  <br /></td></tr>
-<tr class="separator:a2eda6f030f139d89f2451a3b9242aa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bd1fd5da2d93d949467497abf36b303" id="r_a8bd1fd5da2d93d949467497abf36b303"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a8bd1fd5da2d93d949467497abf36b303">ffmcRatio</a> ()</td></tr>
-<tr class="memdesc:a8bd1fd5da2d93d949467497abf36b303"><td class="mdescLeft">&#160;</td><td class="mdescRight">What fraction of the duff layer should use FFMC to determine moisture.  <br /></td></tr>
-<tr class="separator:a8bd1fd5da2d93d949467497abf36b303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50f0426120b7ef8e41557b0c731f8c7" id="r_ac50f0426120b7ef8e41557b0c731f8c7"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#ac50f0426120b7ef8e41557b0c731f8c7">dmcRatio</a> ()</td></tr>
-<tr class="memdesc:ac50f0426120b7ef8e41557b0c731f8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">What fraction of the duff layer should use DMC to determine moisture.  <br /></td></tr>
-<tr class="separator:ac50f0426120b7ef8e41557b0c731f8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e03e7c443c6cb4307fd3466bdb1da83" id="r_a9e03e7c443c6cb4307fd3466bdb1da83"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a9e03e7c443c6cb4307fd3466bdb1da83">bulkDensity</a> ()</td></tr>
+<tr class="memdesc:a9e03e7c443c6cb4307fd3466bdb1da83"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtbd_1_1fuel_1_1Duff.html" title="Base class for DuffType.">Duff</a> Bulk Density (g/cm^3) [Anderson table 1].  <br /></td></tr>
+<tr class="separator:a9e03e7c443c6cb4307fd3466bdb1da83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81a38996f852420d03baedd495079e2" id="r_ab81a38996f852420d03baedd495079e2"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#ab81a38996f852420d03baedd495079e2">inorganicPercent</a> ()</td></tr>
+<tr class="memdesc:ab81a38996f852420d03baedd495079e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inorganic Percent (% / 100) [Anderson table 1].  <br /></td></tr>
+<tr class="separator:ab81a38996f852420d03baedd495079e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9854b3943ad20c17915735f130c709" id="r_afb9854b3943ad20c17915735f130c709"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#afb9854b3943ad20c17915735f130c709">duffDepth</a> ()</td></tr>
+<tr class="memdesc:afb9854b3943ad20c17915735f130c709"><td class="mdescLeft">&#160;</td><td class="mdescRight">DuffDepth Depth of <a class="el" href="classtbd_1_1fuel_1_1Duff.html" title="Base class for DuffType.">Duff</a> layer (cm) [Anderson table 1].  <br /></td></tr>
+<tr class="separator:afb9854b3943ad20c17915735f130c709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd06a534b37ac9486af92c5955846f73" id="r_abd06a534b37ac9486af92c5955846f73"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#abd06a534b37ac9486af92c5955846f73">ffmcRatio</a> ()</td></tr>
+<tr class="memdesc:abd06a534b37ac9486af92c5955846f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">What fraction of the duff layer should use FFMC to determine moisture.  <br /></td></tr>
+<tr class="separator:abd06a534b37ac9486af92c5955846f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac51a94de6fb3899b58af6bfaedf7ed" id="r_a8ac51a94de6fb3899b58af6bfaedf7ed"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelBase.html#a8ac51a94de6fb3899b58af6bfaedf7ed">dmcRatio</a> ()</td></tr>
+<tr class="memdesc:a8ac51a94de6fb3899b58af6bfaedf7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">What fraction of the duff layer should use DMC to determine moisture.  <br /></td></tr>
+<tr class="separator:a8ac51a94de6fb3899b58af6bfaedf7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classtbd_1_1fuel_1_1FuelType')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classtbd_1_1fuel_1_1FuelType.html">tbd::fuel::FuelType</a></td></tr>
 <tr class="memitem:a3fdd54fe57f405ccc36f6702f62edeef inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a3fdd54fe57f405ccc36f6702f62edeef"><td class="memItemLeft" align="right" valign="top">static constexpr FuelCodeSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a3fdd54fe57f405ccc36f6702f62edeef">safeCode</a> (const <a class="el" href="classtbd_1_1fuel_1_1FuelType.html">FuelType</a> *fuel)</td></tr>
 <tr class="memdesc:a3fdd54fe57f405ccc36f6702f62edeef inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <a class="el" href="classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type.">FuelType</a> to its code, or 0 if nullptr.  <br /></td></tr>
@@ -345,12 +345,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a83ff2b32387bc1aae2bbd4330084c4e8"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a83ff2b32387bc1aae2bbd4330084c4e8">safeName</a> (const <a class="el" href="classtbd_1_1fuel_1_1FuelType.html">FuelType</a> *fuel)</td></tr>
 <tr class="memdesc:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <a class="el" href="classtbd_1_1fuel_1_1FuelType.html" title="An FBP fuel type.">FuelType</a> to its name, or 0 if nullptr.  <br /></td></tr>
 <tr class="separator:a83ff2b32387bc1aae2bbd4330084c4e8 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a9c3661beba173ec640cb3c95b628bcd0"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9c3661beba173ec640cb3c95b628bcd0">criticalRos</a> (const double sfc, const double csi)</td></tr>
-<tr class="memdesc:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical rate of spread (m/min)  <br /></td></tr>
-<tr class="separator:a9c3661beba173ec640cb3c95b628bcd0 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_a41bff384ae4cbad2364a786fc53ffb98"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a41bff384ae4cbad2364a786fc53ffb98">isCrown</a> (const double csi, const double sfi)</td></tr>
-<tr class="memdesc:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this is a crown fire.  <br /></td></tr>
-<tr class="separator:a41bff384ae4cbad2364a786fc53ffb98 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_aa4279b72c9b83bf40804155c343c84a6"><td class="memItemLeft" align="right" valign="top">static constexpr MathSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aa4279b72c9b83bf40804155c343c84a6">criticalRos</a> (const MathSize sfc, const MathSize csi)</td></tr>
+<tr class="memdesc:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical rate of spread (m/min)  <br /></td></tr>
+<tr class="separator:aa4279b72c9b83bf40804155c343c84a6 inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType" id="r_ae0e43098d41db0aaeadfefdde2fafbbf"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtbd_1_1fuel_1_1FuelType.html#ae0e43098d41db0aaeadfefdde2fafbbf">isCrown</a> (const MathSize csi, const MathSize sfi)</td></tr>
+<tr class="memdesc:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this is a crown fire.  <br /></td></tr>
+<tr class="separator:ae0e43098d41db0aaeadfefdde2fafbbf inherit pub_static_methods_classtbd_1_1fuel_1_1FuelType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -444,8 +444,8 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad559a196e9911bcd34869e0a76b52507" name="ad559a196e9911bcd34869e0a76b52507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad559a196e9911bcd34869e0a76b52507">&#9670;&#160;</a></span>bulkDensity()</h2>
+<a id="a9e03e7c443c6cb4307fd3466bdb1da83" name="a9e03e7c443c6cb4307fd3466bdb1da83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e03e7c443c6cb4307fd3466bdb1da83">&#9670;&#160;</a></span>bulkDensity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,7 +456,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::bulkDensity </td>
+          <td class="memname">static constexpr MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::bulkDensity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -474,20 +474,20 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_ad559a196e9911bcd34869e0a76b52507_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_ad559a196e9911bcd34869e0a76b52507_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_ad559a196e9911bcd34869e0a76b52507_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_ad559a196e9911bcd34869e0a76b52507_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a9e03e7c443c6cb4307fd3466bdb1da83_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a9e03e7c443c6cb4307fd3466bdb1da83_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a9e03e7c443c6cb4307fd3466bdb1da83_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a9e03e7c443c6cb4307fd3466bdb1da83_icgraph">
 <area shape="rect" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="361,5,488,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2a88fb8ea5dfcde18d743dfb77084e60" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="186,5,313,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a911a1b7688f30e731de3494ed9da551d" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="186,5,313,46"/>
 <area shape="poly" title=" " alt="" coords="345,28,313,28,313,23,345,23"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a8502e15d1e8b3cd36c6839607e040905" name="a8502e15d1e8b3cd36c6839607e040905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8502e15d1e8b3cd36c6839607e040905">&#9670;&#160;</a></span>crownFractionBurned()</h2>
+<a id="a55b21ccd26c19995e2fa32374f821304" name="a55b21ccd26c19995e2fa32374f821304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b21ccd26c19995e2fa32374f821304">&#9670;&#160;</a></span>crownFractionBurned()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,15 +498,15 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::crownFractionBurned </td>
+          <td class="memname">MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::crownFractionBurned </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>rss</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>rso</em>&#160;</td>
         </tr>
         <tr>
@@ -532,12 +532,12 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Crown Fraction Burned (CFB) [ST-X-3 eq 58] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#af1630a584b0db7e6a6efabc428ab1e40">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a85c2a9bedd48a62d48807f0fd0fc8f66">tbd::fuel::FuelType</a>.</p>
 
 </div>
 </div>
-<a id="ac50f0426120b7ef8e41557b0c731f8c7" name="ac50f0426120b7ef8e41557b0c731f8c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50f0426120b7ef8e41557b0c731f8c7">&#9670;&#160;</a></span>dmcRatio()</h2>
+<a id="a8ac51a94de6fb3899b58af6bfaedf7ed" name="a8ac51a94de6fb3899b58af6bfaedf7ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac51a94de6fb3899b58af6bfaedf7ed">&#9670;&#160;</a></span>dmcRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -548,7 +548,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::dmcRatio </td>
+          <td class="memname">static constexpr MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::dmcRatio </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -566,22 +566,22 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_cgraph">
 <area shape="rect" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="5,5,133,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2eda6f030f139d89f2451a3b9242aa53" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="181,5,308,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#afb9854b3943ad20c17915735f130c709" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="181,5,308,46"/>
 <area shape="poly" title=" " alt="" coords="133,23,165,23,165,28,133,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_ac50f0426120b7ef8e41557b0c731f8c7_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a8ac51a94de6fb3899b58af6bfaedf7ed_icgraph">
 <area shape="rect" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="361,35,488,75"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8bd1fd5da2d93d949467497abf36b303" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="186,5,313,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#abd06a534b37ac9486af92c5955846f73" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="186,5,313,46"/>
 <area shape="poly" title=" " alt="" coords="345,44,313,39,314,34,346,39"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,138,75"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,138,75"/>
 <area shape="poly" title=" " alt="" coords="346,60,313,60,186,60,138,59,138,54,186,55,313,55,346,54"/>
 <area shape="poly" title=" " alt="" coords="171,41,139,47,138,41,170,36"/>
 </map>
@@ -589,8 +589,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2eda6f030f139d89f2451a3b9242aa53" name="a2eda6f030f139d89f2451a3b9242aa53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eda6f030f139d89f2451a3b9242aa53">&#9670;&#160;</a></span>duffDepth()</h2>
+<a id="afb9854b3943ad20c17915735f130c709" name="afb9854b3943ad20c17915735f130c709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9854b3943ad20c17915735f130c709">&#9670;&#160;</a></span>duffDepth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +601,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::duffDepth </td>
+          <td class="memname">static constexpr MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::duffDepth </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -619,14 +619,14 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a2eda6f030f139d89f2451a3b9242aa53_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a2eda6f030f139d89f2451a3b9242aa53_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a2eda6f030f139d89f2451a3b9242aa53_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a2eda6f030f139d89f2451a3b9242aa53_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_afb9854b3943ad20c17915735f130c709_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_afb9854b3943ad20c17915735f130c709_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_afb9854b3943ad20c17915735f130c709_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_afb9854b3943ad20c17915735f130c709_icgraph">
 <area shape="rect" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="536,35,664,75"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac50f0426120b7ef8e41557b0c731f8c7" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="361,35,488,75"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8ac51a94de6fb3899b58af6bfaedf7ed" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="361,35,488,75"/>
 <area shape="poly" title=" " alt="" coords="521,58,488,58,488,52,521,52"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8bd1fd5da2d93d949467497abf36b303" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="186,5,313,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#abd06a534b37ac9486af92c5955846f73" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="186,5,313,46"/>
 <area shape="poly" title=" " alt="" coords="345,44,313,39,314,34,346,39"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,138,75"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,35,138,75"/>
 <area shape="poly" title=" " alt="" coords="346,60,313,60,186,60,138,59,138,54,186,55,313,55,346,54"/>
 <area shape="poly" title=" " alt="" coords="171,41,139,47,138,41,170,36"/>
 </map>
@@ -667,7 +667,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a60ee00f726a48e66c616130e0d715f9c_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a60ee00f726a48e66c616130e0d715f9c_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1fuel_1_1FuelBase_a60ee00f726a48e66c616130e0d715f9c_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a60ee00f726a48e66c616130e0d715f9c_icgraph">
 <area shape="rect" title="Type of duff deeper underground." alt="" coords="186,5,313,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
@@ -707,15 +707,15 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a52aa735e9d8f73f85d8d080c0b430a1c_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a52aa735e9d8f73f85d8d080c0b430a1c_icgraph" alt=""/></div>
 <map name="aclasstbd_1_1fuel_1_1FuelBase_a52aa735e9d8f73f85d8d080c0b430a1c_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a52aa735e9d8f73f85d8d080c0b430a1c_icgraph">
 <area shape="rect" title="Type of duff near the surface." alt="" coords="186,5,313,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a8bd1fd5da2d93d949467497abf36b303" name="a8bd1fd5da2d93d949467497abf36b303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bd1fd5da2d93d949467497abf36b303">&#9670;&#160;</a></span>ffmcRatio()</h2>
+<a id="abd06a534b37ac9486af92c5955846f73" name="abd06a534b37ac9486af92c5955846f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd06a534b37ac9486af92c5955846f73">&#9670;&#160;</a></span>ffmcRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -726,7 +726,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::ffmcRatio </td>
+          <td class="memname">static constexpr MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::ffmcRatio </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -744,30 +744,30 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_cgraph">
 <area shape="rect" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="5,5,133,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac50f0426120b7ef8e41557b0c731f8c7" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="181,5,308,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8ac51a94de6fb3899b58af6bfaedf7ed" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="181,5,308,46"/>
 <area shape="poly" title=" " alt="" coords="133,23,165,23,165,28,133,28"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2eda6f030f139d89f2451a3b9242aa53" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="356,5,483,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#afb9854b3943ad20c17915735f130c709" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="356,5,483,46"/>
 <area shape="poly" title=" " alt="" coords="308,23,341,23,341,28,308,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a8bd1fd5da2d93d949467497abf36b303_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_abd06a534b37ac9486af92c5955846f73_icgraph">
 <area shape="rect" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="186,5,313,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a50fabe0ea676b82e9cad31bdfbba2ba8" name="a50fabe0ea676b82e9cad31bdfbba2ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50fabe0ea676b82e9cad31bdfbba2ba8">&#9670;&#160;</a></span>inorganicPercent()</h2>
+<a id="ab81a38996f852420d03baedd495079e2" name="ab81a38996f852420d03baedd495079e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81a38996f852420d03baedd495079e2">&#9670;&#160;</a></span>inorganicPercent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -778,7 +778,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::inorganicPercent </td>
+          <td class="memname">static constexpr MathSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::inorganicPercent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -796,20 +796,20 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a50fabe0ea676b82e9cad31bdfbba2ba8_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a50fabe0ea676b82e9cad31bdfbba2ba8_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a50fabe0ea676b82e9cad31bdfbba2ba8_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a50fabe0ea676b82e9cad31bdfbba2ba8_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_ab81a38996f852420d03baedd495079e2_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_ab81a38996f852420d03baedd495079e2_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_ab81a38996f852420d03baedd495079e2_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_ab81a38996f852420d03baedd495079e2_icgraph">
 <area shape="rect" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="361,5,488,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2a88fb8ea5dfcde18d743dfb77084e60" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="186,5,313,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a911a1b7688f30e731de3494ed9da551d" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="186,5,313,46"/>
 <area shape="poly" title=" " alt="" coords="345,28,313,28,313,23,345,23"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a2a88fb8ea5dfcde18d743dfb77084e60" name="a2a88fb8ea5dfcde18d743dfb77084e60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a88fb8ea5dfcde18d743dfb77084e60">&#9670;&#160;</a></span>probabilityPeat()</h2>
+<a id="a911a1b7688f30e731de3494ed9da551d" name="a911a1b7688f30e731de3494ed9da551d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911a1b7688f30e731de3494ed9da551d">&#9670;&#160;</a></span>probabilityPeat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -820,9 +820,9 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::probabilityPeat </td>
+          <td class="memname">ThresholdSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::probabilityPeat </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">const MathSize&#160;</td>
           <td class="paramname"><em>mc_fraction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -843,34 +843,34 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Calculate probability of burning [Anderson eq 1] </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a2aee5d5dd2e05f94b45694cad4c21a5d">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a9d2c7ea1d782a3c463c05981e0964f50">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_cgraph">
 <area shape="rect" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="5,39,133,79"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ad559a196e9911bcd34869e0a76b52507" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="181,5,308,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a9e03e7c443c6cb4307fd3466bdb1da83" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="181,5,308,46"/>
 <area shape="poly" title=" " alt="" coords="133,44,165,38,166,43,134,49"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a50fabe0ea676b82e9cad31bdfbba2ba8" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="181,71,308,111"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ab81a38996f852420d03baedd495079e2" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="181,71,308,111"/>
 <area shape="poly" title=" " alt="" coords="134,68,166,74,165,79,133,73"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_icgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a2a88fb8ea5dfcde18d743dfb77084e60_icgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_icgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_icgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_icgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a911a1b7688f30e731de3494ed9da551d_icgraph">
 <area shape="rect" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="186,5,313,46"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac944e538f88d4b4f32007d8046835354" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a4662bd37e08ba112c301e0f0e2217c61" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,5,138,46"/>
 <area shape="poly" title=" " alt="" coords="170,28,138,28,138,23,170,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ac944e538f88d4b4f32007d8046835354" name="ac944e538f88d4b4f32007d8046835354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac944e538f88d4b4f32007d8046835354">&#9670;&#160;</a></span>survivalProbability()</h2>
+<a id="a4662bd37e08ba112c301e0f0e2217c61" name="a4662bd37e08ba112c301e0f0e2217c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4662bd37e08ba112c301e0f0e2217c61">&#9670;&#160;</a></span>survivalProbability()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -881,7 +881,7 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::survivalProbability </td>
+          <td class="memname">ThresholdSize <a class="el" href="classtbd_1_1fuel_1_1FuelBase.html">tbd::fuel::FuelBase</a>&lt; BulkDensity, InorganicPercent, DuffDepth &gt;::survivalProbability </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtbd_1_1wx_1_1FwiWeather.html">wx::FwiWeather</a> &amp;&#160;</td>
           <td class="paramname"><em>wx</em></td><td>)</td>
@@ -904,31 +904,31 @@ template&lt;int BulkDensity, int InorganicPercent, int DuffDepth&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Chance of survival (% / 100) </dd></dl>
 
-<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#a54360592457504e0aeb5f225345df38e">tbd::fuel::FuelType</a>.</p>
+<p>Implements <a class="el" href="classtbd_1_1fuel_1_1FuelType.html#aa7c47478c96d2bb1a25b3597c0bcafd3">tbd::fuel::FuelType</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_ac944e538f88d4b4f32007d8046835354_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_ac944e538f88d4b4f32007d8046835354_cgraph" alt=""/></div>
-<map name="aclasstbd_1_1fuel_1_1FuelBase_ac944e538f88d4b4f32007d8046835354_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_ac944e538f88d4b4f32007d8046835354_cgraph">
+<div class="center"><img src="classtbd_1_1fuel_1_1FuelBase_a4662bd37e08ba112c301e0f0e2217c61_cgraph.png" border="0" usemap="#aclasstbd_1_1fuel_1_1FuelBase_a4662bd37e08ba112c301e0f0e2217c61_cgraph" alt=""/></div>
+<map name="aclasstbd_1_1fuel_1_1FuelBase_a4662bd37e08ba112c301e0f0e2217c61_cgraph" id="aclasstbd_1_1fuel_1_1FuelBase_a4662bd37e08ba112c301e0f0e2217c61_cgraph">
 <area shape="rect" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="5,135,138,175"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ac50f0426120b7ef8e41557b0c731f8c7" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="393,73,520,114"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8ac51a94de6fb3899b58af6bfaedf7ed" title="What fraction of the duff layer should use DMC to determine moisture." alt="" coords="393,73,520,114"/>
 <area shape="poly" title=" " alt="" coords="81,133,97,106,120,75,149,45,184,22,228,7,264,3,301,9,346,22,386,39,421,61,418,66,383,44,344,27,300,15,264,9,229,12,187,27,153,49,124,78,102,109,86,136"/>
 <area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a60ee00f726a48e66c616130e0d715f9c" title="Type of duff deeper underground." alt="" coords="202,36,329,77"/>
 <area shape="poly" title=" " alt="" coords="105,132,184,87,197,81,199,86,187,92,108,137"/>
 <area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a52aa735e9d8f73f85d8d080c0b430a1c" title="Type of duff near the surface." alt="" coords="202,101,329,142"/>
 <area shape="poly" title=" " alt="" coords="138,141,187,132,187,138,139,146"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a8bd1fd5da2d93d949467497abf36b303" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="202,167,329,207"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#abd06a534b37ac9486af92c5955846f73" title="What fraction of the duff layer should use FFMC to determine moisture." alt="" coords="202,167,329,207"/>
 <area shape="poly" title=" " alt="" coords="139,163,187,171,186,177,138,169"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1Duff.html#a5fad768f009fb0ae7ee05023920aee83" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="186,232,345,273"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1Duff.html#afe6a00f52056c9047dc60855008df6df" title="Survival probability calculated using probability of ony survival based on multiple formulae." alt="" coords="186,232,345,273"/>
 <area shape="poly" title=" " alt="" coords="109,174,187,217,200,223,198,228,184,221,106,178"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2a88fb8ea5dfcde18d743dfb77084e60" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="202,297,329,338"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a911a1b7688f30e731de3494ed9da551d" title="Calculate probability of burning [Anderson eq 1]." alt="" coords="202,297,329,338"/>
 <area shape="poly" title=" " alt="" coords="89,174,129,227,157,256,187,282,195,287,192,292,184,286,153,260,125,231,84,178"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a2eda6f030f139d89f2451a3b9242aa53" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="568,73,696,114"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#afb9854b3943ad20c17915735f130c709" title="DuffDepth Depth of Duff layer (cm) [Anderson table 1]." alt="" coords="568,73,696,114"/>
 <area shape="poly" title=" " alt="" coords="521,91,553,91,553,96,521,96"/>
 <area shape="poly" title=" " alt="" coords="317,164,344,151,405,120,407,124,346,156,319,168"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ad559a196e9911bcd34869e0a76b52507" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="393,232,520,273"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a9e03e7c443c6cb4307fd3466bdb1da83" title="Duff Bulk Density (g/cm^3) [Anderson table 1]." alt="" coords="393,232,520,273"/>
 <area shape="poly" title=" " alt="" coords="326,294,380,276,382,281,328,299"/>
-<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#a50fabe0ea676b82e9cad31bdfbba2ba8" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="393,297,520,338"/>
+<area shape="rect" href="classtbd_1_1fuel_1_1FuelBase.html#ab81a38996f852420d03baedd495079e2" title="Inorganic Percent (% / 100) [Anderson table 1]." alt="" coords="393,297,520,338"/>
 <area shape="poly" title=" " alt="" coords="329,315,378,315,378,320,329,320"/>
 </map>
 </div>
