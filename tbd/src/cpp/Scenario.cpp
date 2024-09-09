@@ -737,47 +737,6 @@ Scenario* Scenario::run(map<DurationSize, ProbabilityMap*>* probabilities)
   }
   return this;
 }
-CellPointsMap apply_offsets_spreadkey(
-  const DurationSize duration,
-  const OffsetSet& offsets,
-  spreading_points::mapped_type& cell_pts)
-{
-  // NOTE: really tried to do this in parallel, but not enough points
-  // in a cell for it to work well
-  CellPointsMap r1{};
-  for (auto& pts_for_cell : cell_pts)
-  {
-    const Location& src = std::get<0>(pts_for_cell);
-    CellPoints& cell_pts = std::get<1>(pts_for_cell);
-    if (cell_pts.empty())
-    {
-      continue;
-    }
-    auto& pts = cell_pts.pts_.second;
-    // never need input again so sorting doesn't hurt anythin
-    std::sort(pts.begin(), pts.end());
-    const auto it_pts_last = std::unique(pts.begin(), pts.end());
-    auto it_pts = pts.cbegin();
-    while (it_pts != it_pts_last)
-    {
-      const auto& p = *it_pts;
-      const auto& cell_x = cell_pts.cell_x_y_.first;
-      const auto& cell_y = cell_pts.cell_x_y_.second;
-      // apply offsets to point
-      for (const auto& out : offsets)
-      {
-        const auto& x_o = out.first;
-        const auto& y_o = out.second;
-        r1.insert(
-          src,
-          x_o + p.first + cell_x,
-          y_o + p.second + cell_y);
-      }
-      ++it_pts;
-    }
-  }
-  return r1;
-}
 void Scenario::scheduleFireSpread(const Event& event)
 {
   const auto time = event.time();
@@ -895,7 +854,40 @@ void Scenario::scheduleFireSpread(const Event& event)
         duration);
       const auto& offsets = try_offsets.first->second;
       spreading_points::mapped_type& cell_pts = kv0.second;
-      auto r = apply_offsets_spreadkey(duration, offsets, cell_pts);
+      // NOTE: really tried to do this in parallel, but not enough points
+      // in a cell for it to work well
+      CellPointsMap r{};
+      for (auto& pts_for_cell : cell_pts)
+      {
+        const Location& src = std::get<0>(pts_for_cell);
+        CellPoints& cell_pts = std::get<1>(pts_for_cell);
+        if (cell_pts.empty())
+        {
+          continue;
+        }
+        auto& pts = cell_pts.pts_.second;
+        // never need input again so sorting doesn't hurt anythin
+        std::sort(pts.begin(), pts.end());
+        const auto it_pts_last = std::unique(pts.begin(), pts.end());
+        auto it_pts = pts.cbegin();
+        while (it_pts != it_pts_last)
+        {
+          const auto& p = *it_pts;
+          const auto& cell_x = cell_pts.cell_x_y_.first;
+          const auto& cell_y = cell_pts.cell_x_y_.second;
+          // apply offsets to point
+          for (const auto& out : offsets)
+          {
+            const auto& x_o = out.first;
+            const auto& y_o = out.second;
+            r.insert(
+              src,
+              x_o + p.first + cell_x,
+              y_o + p.second + cell_y);
+          }
+          ++it_pts;
+        }
+      }
       return r;
     });
   auto it = spread.begin();
