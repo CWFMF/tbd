@@ -573,6 +573,8 @@ protected:
    * \brief Calculated SpreadInfo for SpreadKey for current time
    */
   map<topo::SpreadKey, SpreadInfo> spread_info_{};
+  map<topo::SpreadKey, OffsetSet> spread_for_duration_{};
+  DurationSize duration_prev_;
   /**
    * \brief Map of when Cell had first Point arrive in it
    */

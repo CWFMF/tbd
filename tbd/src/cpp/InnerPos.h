@@ -42,10 +42,8 @@ public:
   /**
    * \brief Collection of Offsets
    */
-  using OffsetSet = vector<Offset>;
   using BoundedPoint<DistanceSize, -1, 1, -1, 1>::BoundedPoint;
 };
-using OffsetSet = Offset::OffsetSet;
 }
 namespace tbd::sim
 {

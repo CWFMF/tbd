@@ -18,6 +18,23 @@ class Scenario;
  */
 int calculate_nd_ref_for_point(const int elevation, const topo::Point& point) noexcept;
 int calculate_nd_for_point(const Day day, const int elevation, const topo::Point& point);
+class OffsetSet
+  : public vector<Offset>
+{
+public:
+  using vector::vector;
+  OffsetSet(const OffsetSet& offsets, const DurationSize duration)
+    : vector<Offset>(offsets.size())
+  {
+    std::transform(
+      offsets.begin(),
+      offsets.end(),
+      begin(),
+      [&duration](const auto& o) {
+        return Offset{o.first * duration, o.second * duration};
+      });
+  }
+};
 /**
  * \brief Information regarding spread within a Cell for a specific Scenario and time.
  */

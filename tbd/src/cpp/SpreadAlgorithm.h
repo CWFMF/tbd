@@ -5,11 +5,13 @@
 
 #include "stdafx.h"
 #include "InnerPos.h"
+#include "FireSpread.h"
 
 namespace tbd
 {
-using HorizontalAdjustment = std::function<MathSize(MathSize)>;
+using sim::OffsetSet;
 
+using HorizontalAdjustment = std::function<MathSize(MathSize)>;
 HorizontalAdjustment horizontal_adjustment(
   const AspectSize slope_azimuth,
   const SlopeSize slope);

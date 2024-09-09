@@ -304,6 +304,8 @@ Scenario* Scenario::reset(mt19937* mt_extinction,
   //   : make_unique<IntensityMap>(*initial_intensity_);
   intensity_ = make_unique<IntensityMap>(model());
   spread_info_ = {};
+  spread_for_duration_ = {};
+  duration_prev_ = -1;
   arrival_ = {};
   max_ros_ = 0;
   // surrounded_ = POOL_BURNED_DATA.acquire();
@@ -394,6 +396,8 @@ Scenario::Scenario(Model* model,
     intensity_(nullptr),
     // initial_intensity_(initial_intensity),
     perimeter_(perimeter),
+    spread_for_duration_({}),
+    duration_prev_(-1),
     // surrounded_(nullptr),
     max_ros_(0),
     start_cell_(start_cell),
@@ -484,6 +488,8 @@ Scenario::Scenario(Scenario&& rhs) noexcept
     // initial_intensity_(std::move(rhs.initial_intensity_)),
     perimeter_(std::move(rhs.perimeter_)),
     spread_info_(std::move(rhs.spread_info_)),
+    spread_for_duration_(std::move(rhs.spread_for_duration_)),
+    duration_prev_(rhs.duration_prev_),
     arrival_(std::move(rhs.arrival_)),
     max_ros_(rhs.max_ros_),
     start_cell_(std::move(rhs.start_cell_)),
@@ -760,8 +766,8 @@ CellPointsMap apply_offsets_spreadkey(
       // apply offsets to point
       for (const auto& out : offsets)
       {
-        const auto x_o = out.first * duration;
-        const auto y_o = out.second * duration;
+        const auto& x_o = out.first;
+        const auto& y_o = out.second;
         r1.insert(
           src,
           x_o + p.first + cell_x,
@@ -871,13 +877,23 @@ void Scenario::scheduleFireSpread(const Event& event)
                            : max_duration);
   // note("Spreading for %f minutes", duration);
   const auto new_time = time + duration / DAY_MINUTES;
+  if (duration_prev_ != duration)
+  {
+    // need to recalculate offsets for duration
+    spread_for_duration_ = {};
+    duration_prev_ = duration;
+  }
   CellPointsMap cell_pts{};
   auto spread = std::views::transform(
     to_spread,
     [this, &duration](
       spreading_points::value_type& kv0) -> CellPointsMap {
       auto& key = kv0.first;
-      const auto& offsets = spread_info_[key].offsets();
+      const auto& try_offsets = spread_for_duration_.try_emplace(
+        key,
+        spread_info_[key].offsets(),
+        duration);
+      const auto& offsets = try_offsets.first->second;
       spreading_points::mapped_type& cell_pts = kv0.second;
       auto r = apply_offsets_spreadkey(duration, offsets, cell_pts);
       return r;
