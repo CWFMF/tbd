@@ -739,15 +739,6 @@ CellPointsMap apply_offsets_spreadkey(
   // NOTE: really tried to do this in parallel, but not enough points
   // in a cell for it to work well
   CellPointsMap r1{};
-  vector<Offset> offsets_after_duration{};
-  offsets_after_duration.resize(offsets.size());
-  std::transform(
-    offsets.cbegin(),
-    offsets.cend(),
-    offsets_after_duration.begin(),
-    [&duration](const Offset& p) {
-      return Offset(p.first * duration, p.second * duration);
-    });
   for (auto& pts_for_cell : cell_pts)
   {
     const Location& src = std::get<0>(pts_for_cell);
@@ -767,11 +758,10 @@ CellPointsMap apply_offsets_spreadkey(
       const auto& cell_x = cell_pts.cell_x_y_.first;
       const auto& cell_y = cell_pts.cell_x_y_.second;
       // apply offsets to point
-      // should be quicker to loop over offsets in inner loop
-      for (const auto& out : offsets_after_duration)
+      for (const auto& out : offsets)
       {
-        const auto& x_o = out.first;
-        const auto& y_o = out.second;
+        const auto x_o = out.first * duration;
+        const auto y_o = out.second * duration;
         r1.insert(
           src,
           x_o + p.first + cell_x,
