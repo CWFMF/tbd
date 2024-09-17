@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['rain_5fintercept_0',['rain_intercept',['../structrain__intercept.html',1,'']]],
-  ['relativehumidity_1',['RelativeHumidity',['../classtbd_1_1wx_1_1RelativeHumidity.html',1,'tbd::wx']]],
-  ['row_2',['row',['../structrow.html',1,'']]],
-  ['row_5fdaily_3',['row_daily',['../structrow__daily.html',1,'']]],
-  ['row_5fminmax_4',['row_minmax',['../structrow__minmax.html',1,'']]],
-  ['run_5',['Run',['../classrun_1_1Run.html',1,'run']]]
+  ['relativehumidity_0',['RelativeHumidity',['../classtbd_1_1wx_1_1RelativeHumidity.html',1,'tbd::wx']]],
+  ['row_1',['row',['../structrow.html',1,'']]],
+  ['row_5fminmax_2',['row_minmax',['../structrow__minmax.html',1,'']]],
+  ['run_3',['Run',['../classrun_1_1Run.html',1,'run']]]
 ];

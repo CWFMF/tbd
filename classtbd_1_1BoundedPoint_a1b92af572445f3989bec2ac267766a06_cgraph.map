@@ -1,0 +1,7 @@
+<map id="tbd::BoundedPoint::operator&lt;" name="tbd::BoundedPoint::operator&lt;">
+<area shape="rect" id="Node000001" title="Less than operator." alt="" coords="5,23,138,64"/>
+<area shape="rect" id="Node000002" href="$classtbd_1_1BoundedPoint.html#a021580c500c6f243fc9690e8076b7265" title="X direction (column)" alt="" coords="186,5,324,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,32,170,27,171,32,138,37"/>
+<area shape="rect" id="Node000003" href="$classtbd_1_1BoundedPoint.html#a93cff9f1975d295c8aea51358d32f998" title="Y direction (row)" alt="" coords="186,55,324,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,50,171,54,170,59,138,55"/>
+</map>

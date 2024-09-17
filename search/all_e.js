@@ -12,6 +12,5 @@ var searchData=
   ['heading_9',['heading',['../classtbd_1_1wx_1_1Direction.html#a2cb9bdc27d66045c3e43f356e7e91623',1,'tbd::wx::Direction::heading()'],['../classtbd_1_1wx_1_1Wind.html#a19247e2afb9aea572e3dfbbbdf3dacbe',1,'tbd::wx::Wind::heading()']]],
   ['headros_10',['headRos',['../classtbd_1_1sim_1_1SpreadInfo.html#aabc31f4145719c979f13e74807f8c2c5',1,'tbd::sim::SpreadInfo']]],
   ['high_5f_11',['high_',['../classtbd_1_1sim_1_1ProbabilityMap.html#afd1019eeafa83510a004522e86f013e8',1,'tbd::sim::ProbabilityMap']]],
-  ['hourly_20fire_20and_20weather_20indices_12',['Hourly fire and weather indices',['../weather.html',1,'']]],
-  ['hourly_20fire_20weather_20backbone_13',['Hourly Fire Weather backbone',['../md_tbd_2src_2py_2cffdrs-ng_2README.html#autotoc_md27',1,'']]]
+  ['hourly_20fire_20and_20weather_20indices_12',['Hourly fire and weather indices',['../weather.html',1,'']]]
 ];
