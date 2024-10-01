@@ -1,13 +1,12 @@
 # docker-compose build
 version: '2.1'
 
-build:
-    context: ../../
-
 services:
   python:
+    build:
+      context: ../../
+      dockerfile: ./docker/python/Dockerfile
     container_name: fireguard-python
-    build: .
     image: python
 
 networks:

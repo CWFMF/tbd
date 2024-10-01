@@ -20,7 +20,10 @@ services:
       # Add extensions you need to be enabled by default in the DB. Default are the five specified below
       - POSTGRES_MULTIPLE_EXTENSIONS=postgis,hstore,postgis_topology,postgis_raster,pgrouting
     ports:
-      - 25432:5432
+      - 5432:5432
+    networks:
+      fireguard-network:
+        ipv4_address: 172.18.0.2
     restart: on-failure
     healthcheck:
       test: "exit 0"
@@ -38,12 +41,19 @@ services:
       - POSTGRES_PORT=5432
       - POSTGRES_HOST=db
       - POSTGRES_DBNAME=gis
+    networks:
+      fireguard-network:
+        ipv4_address: 172.18.0.3
     restart: on-failure
     depends_on:
       db:
         condition: service_healthy
 
 networks:
-  default:
-    external: true
+  fireguard-network:
     name: fireguard-network
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.18.0.0/24
+         gateway: 172.18.0.1

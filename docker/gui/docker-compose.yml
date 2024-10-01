@@ -1,15 +1,21 @@
 # docker-compose build
 version: '2.1'
 
-build:
-    context: ../../
 
 services:
   wxshield:
+    build:
+      context: ../../
+      dockerfile: ./docker/gui/Dockerfile
     container_name: wxshield-container
     image: "php:7.2-apache"
+    ports:
+      - 8080:80
+    networks:
+      fireguard-network:
+        ipv4_address: 172.18.0.5
 
 networks:
-  default:
+  fireguard-network:
     external: true
     name: fireguard-network

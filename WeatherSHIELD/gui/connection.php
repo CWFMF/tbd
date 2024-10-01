@@ -5,7 +5,7 @@ $DFOSS_DATABASE = 'FireGUARD';
 // exit();
 function connect($db)
 {
-    return pg_pconnect( "host=172.18.0.2 port=5432 dbname=FireGUARD user =wx_readonly password=wx_r34d0nly!");
+    return pg_pconnect( "host=172.18.0.2 port=5432 dbname=FireGUARD user=wx_readonly password=wx_r34d0nly!");
 }
 
 function try_query($conn, $sql)

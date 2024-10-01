@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $cur_date = new DateTime('13:00');
     $cur_date->modify($offset.' days');
     $startDate = $cur_date->format('Y-m-d');
-    //Because we are counting today as a day we need to minus one to 
+    //Because we are counting today as a day we need to minus one to
     //make the total range correct
     $tempNum = $numDays - 1;
     $cur_date->modify($tempNum. " days");
@@ -229,10 +229,10 @@ return '['.implode(', ', array_map(create_function('$v', 'return "\'".$v."\'";')
         <script src="js/calc_fbp.js"></script>
         <script src="js/Chart.js/Chart.js"></script>
         <script src="js/WindRose.js"></script>
-        <script src="js/Chart.js/samples/utils.js"></script>
+        <!-- <script src="js/Chart.js/samples/utils.js"></script> -->
         <script src="js/chartjs-plugin-annotation/chartjs-plugin-annotation.js"></script>
         <script src="js/weatherSHIELD_1.js"> </script>
-        
+
         <script type='text/javascript' src='js/utmconv.js'></script>
         <script type='text/javascript'>
         var ACTIVE_OFFER = "<?php echo($config['FireGUARD']['active_offer']) ?> <?php echo($config['FireGUARD']['email']) ?>";
@@ -244,7 +244,7 @@ return '['.implode(', ', array_map(create_function('$v', 'return "\'".$v."\'";')
         var numDays = "<?php echo $numDays ?>";
         var strReportDate = "<?php echo $reportDate ?>";
         var theLat = <?php echo $strLat ?>;
-        var theLong = <?php echo $strLong ?>;  
+        var theLong = <?php echo $strLong ?>;
         var mapDatum = 1;
         var theFire = <?php echo ($fire) ? ("'" . $fire . "'") : "null" ?>;
         utmconv.setDatum(mapDatum);
@@ -277,7 +277,7 @@ return '['.implode(', ', array_map(create_function('$v', 'return "\'".$v."\'";')
     </style>
     </head>
     <body>
-    
+
     <div align='center'>
         <h1 id='title' style='color:black'>WeatherSHIELD Report</h1>
         <table>
