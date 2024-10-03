@@ -7,11 +7,7 @@
 #include <algorithm>
 #include <string>
 #include <tiffio.h>
-#ifdef _WIN32
 #include <geotiffio.h>
-#else
-#include <geotiff/geotiffio.h>
-#endif
 #include <utility>
 #include <vector>
 #include "Grid.h"
