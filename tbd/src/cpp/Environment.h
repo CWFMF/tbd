@@ -242,7 +242,8 @@ public:
    */
   void resetBurnedData(sim::BurnedData* data) const noexcept
   {
-    *data = {};
+    // setting to {} probably makes a bitset of the same size on the stack?
+    // *data = {};
     *data = *not_burnable_;
   }
 protected:
