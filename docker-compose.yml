@@ -152,6 +152,38 @@ services:
     env_file:
       - .env
 
+  firestarr_dev_alpine:
+    image: firestarr_dev_alpine
+    build:
+      context: .
+      target: firestarr_dev_alpine
+      dockerfile: .docker/Dockerfile_tbd
+      args:
+        VERSION: ${VERSION}
+        GCC_VERSION: ${GCC_VERSION}
+        PERF_VERSION: ${PERF_VERSION}
+        USERNAME: ${USERNAME}
+        USER_ID: ${USER_ID}
+      tags:
+        - firestarr_dev_alpine:${VERSION}
+    security_opt:
+      - seccomp:unconfined
+    volumes:
+      - /etc/ssl/certs:/etc/ssl/certs
+      - type: bind
+        source: ./config
+        target: /appl/config
+      - data:/appl/data
+      - sims:/appl/data/sims
+      - type: bind
+        source: ./tbd
+        target: /appl/tbd
+    restart: on-failure
+    cap_add:
+      - SYS_PTRACE
+    env_file:
+      - .env
+
 volumes:
   data:
     # symlink to your actual directory if you don't want it in the project folder

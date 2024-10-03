@@ -79,6 +79,68 @@ RUN echo export VERSION=${VERSION} >> /home/${USERNAME}/.bashrc \
   && cmake -S . -B /appl/tbd/build -D CMAKE_BUILD_TYPE=Release \
   && cmake --build /appl/tbd/build --config Release --target all -j $(nproc)
 
+
+FROM alpine AS alpine_gcc
+ARG USERNAME
+ARG USER_ID
+RUN apk add --no-check-certificate cmake gcc build-base libgeotiff-dev libtbb-dev
+RUN addgroup --gid "${USER_ID}" "${USERNAME}" \
+  && adduser \
+    --disabled-password \
+    --gecos "" \
+    --home "/home/${USERNAME}" \
+    --ingroup "${USERNAME}" \
+    --uid ${USER_ID} \
+    ${USERNAME}
+
+FROM alpine_gcc AS tbd_build_alpine
+ARG VERSION
+WORKDIR /appl/tbd
+COPY ./tbd/src/cpp src/cpp/
+COPY ./tbd/CMakeLists.txt .
+RUN echo export VERSION=${VERSION} >> /home/${USERNAME}/.bashrc \
+  && cmake -S . -B /appl/tbd/build -D CMAKE_BUILD_TYPE=Release \
+  && cmake --build /appl/tbd/build --config Release --target all -j $(nproc)
+
+FROM alpine_gcc AS firestarr_dev_alpine
+ARG VERSION
+ARG USERNAME
+ARG USER_ID
+WORKDIR /appl/tbd
+RUN apk add gdb
+RUN echo export VERSION=${VERSION} >> /home/${USERNAME}/.bashrc
+# USER ${USERNAME}
+
+FROM alpine AS firestarr
+ARG USERNAME
+ARG USER_ID
+WORKDIR /appl/tbd
+RUN apk add --no-check-certificate libgeotiff libtbb
+COPY --from=tbd_build_alpine /appl/tbd/tbd /appl/tbd/
+COPY ./tbd/fuel.lut /appl/tbd/
+COPY ./tbd/settings.ini /appl/tbd/
+RUN chown -R ${USERNAME}:${USERNAME} /appl
+USER ${USERNAME}
+
+# FROM minimal-with-user AS firestarr_base
+# ARG USERNAME
+# ARG VERSION
+# RUN apt-get clean \
+#   && rm -rf \
+#   /var/lib/apt/lists/* \
+#   /usr/share/man/*
+# WORKDIR /appl/tbd
+# RUN echo export VERSION=${VERSION} >> /home/${USERNAME}/.bashrc \
+#   && echo cd /appl/tbd >> /home/${USERNAME}/.bashrc
+# COPY --from=tbd_build /appl/tbd/tbd /appl/tbd/
+# COPY ./tbd/fuel.lut /appl/tbd/
+# COPY ./tbd/settings.ini /appl/tbd/
+# COPY ./tbd/scripts/remove_packages.sh /appl/tbd/scripts/
+# RUN chown -R ${USERNAME}:${USERNAME} /appl
+# RUN /appl/tbd/scripts/remove_packages.sh
+# USER ${USERNAME}
+
+
 FROM debian:trixie-slim AS minimal-with-user
 ARG USERNAME
 ARG USER_ID
@@ -90,7 +152,7 @@ RUN groupadd --gid ${USER_ID} ${USERNAME} \
   && echo ${USERNAME} ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/${USERNAME} \
   && chmod 0440 /etc/sudoers.d/${USERNAME}
 
-FROM minimal-with-user AS firestarr
+FROM minimal-with-user AS firestarr_base
 ARG USERNAME
 ARG VERSION
 RUN apt-get clean \
@@ -103,9 +165,17 @@ RUN echo export VERSION=${VERSION} >> /home/${USERNAME}/.bashrc \
 COPY --from=tbd_build /appl/tbd/tbd /appl/tbd/
 COPY ./tbd/fuel.lut /appl/tbd/
 COPY ./tbd/settings.ini /appl/tbd/
+COPY ./tbd/scripts/remove_packages.sh /appl/tbd/scripts/
 RUN chown -R ${USERNAME}:${USERNAME} /appl
+RUN /appl/tbd/scripts/remove_packages.sh
 USER ${USERNAME}
 
+# FROM scratch AS firestarr
+# COPY --from=firestarr_base / /
+# ARG USERNAME
+# ARG VERSION
+# WORKDIR /appl/tbd
+# USER ${USERNAME}
 
 FROM minimal-with-user AS py_gdal
 RUN apt-get install -y --no-install-recommends \
