@@ -79,7 +79,11 @@ using std::async;
 using std::atomic;
 using std::endl;
 using std::fixed;
+#ifdef _WIN32
+#define float16_t _Float16
+#else
 using std::float16_t;
+#endif
 using std::function;
 using std::future;
 using std::get;

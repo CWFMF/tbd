@@ -5,6 +5,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # HACK: architecture that works on azure batch and local machine
 set(ARCH_PREFERRED "skylake-avx512")
 
+# CMAKE_HOST_SYSTEM_PROCESSOR
+
 if(WIN32)
 set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake"
   CACHE STRING "Vcpkg toolchain file")
@@ -17,10 +19,16 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 message("CMAKE_BUILD_TYPE = ${CMAKE_BUILD_TYPE}")
 
+if(MSVC)
+    add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+endif()
+
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++23")
 if (WIN32)
     # don't set -Wextra
-    set(CMAKE_CXX_FLAGS "-Wall")
+    # set(CMAKE_CXX_FLAGS "-Wall")
+    # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mno-avx512f")
+    # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopt-info-vec-all -Wfatal-errors")
 else()
     # HACK: if gcc supports ARCH_PREFERRED on this then use that else native
     execute_process(COMMAND bash -c "(gcc -march=native -Q --help=target | grep ${ARCH_PREFERRED} > /dev/null && echo -n ${ARCH_PREFERRED}) || (echo -n 'native')"
