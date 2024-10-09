@@ -64,10 +64,7 @@ if ("${VERSION}" STREQUAL "")
     exit()
 endif()
 message("VERSION = ${VERSION}")
-execute_process(COMMAND date -u --rfc-3339=seconds
-                OUTPUT_VARIABLE COMPILE_DATE
-                ERROR_QUIET)
-string(REGEX REPLACE "(.*) (.*)\\+00:00\n$" "\\1T\\2Z" COMPILE_DATE "${COMPILE_DATE}")
+string(TIMESTAMP COMPILE_DATE "%Y-%m-%dT%H:%MZ" UTC)
 message("COMPILE_DATE = ${COMPILE_DATE}")
 set(VERSION_CODE "const char* VERSION = \"${VERSION}\";\nconst char* COMPILE_DATE = \"${COMPILE_DATE}\";\n")
 if(EXISTS src/cpp/version.cpp)
