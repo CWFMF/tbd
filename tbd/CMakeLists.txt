@@ -73,25 +73,30 @@ if (NOT "${VERSION_CODE}" STREQUAL "${VERSION_CODE_OLD}")
 endif()
 
 file(GLOB SOURCES src/cpp/*.cpp)
-set_source_files_properties(src/cpp/unstable.cpp PROPERTIES COMPILE_FLAGS "${CMAKE_CXX_FLAGS_RELEASE}")
-
-
-add_executable(${PROJECT_NAME} ${SOURCES})
-# ./usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake
-
-# list(APPEND CMAKE_MODULE_PATH "deps/tbb/cmake/")
-list(APPEND CMAKE_MODULE_PATH "/usr/lib/x86_64-linux-gnu/cmake")
-
-# find_package(Threads REQUIRED)
-# target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff Threads::Threads)
-
-find_package(TBB REQUIRED)
-# HACK: ubuntu hides headers in /usr/include/geotiff but other distros don't
-if(EXISTS "/usr/include/geotiff")
-    include_directories("/usr/include/geotiff")
+if(NOT WIN32)
+    set_source_files_properties(src/cpp/unstable.cpp PROPERTIES COMPILE_FLAGS "${CMAKE_CXX_FLAGS_RELEASE}")
 endif()
 
-target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff TBB::tbb)
+add_executable(${PROJECT_NAME} ${SOURCES})
+if (WIN32)
+    find_package(GeoTIFF CONFIG REQUIRED)
+    target_include_directories(${PROJECT_NAME} PRIVATE ${GEOTIFF_INCLUDE_DIR})
+    target_link_libraries(${PROJECT_NAME} PRIVATE ${GEOTIFF_LIBRARIES})
+else()
+    # ./usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake
+
+    # list(APPEND CMAKE_MODULE_PATH "deps/tbb/cmake/")
+    list(APPEND CMAKE_MODULE_PATH "/usr/lib/x86_64-linux-gnu/cmake")
+
+    find_package(TBB REQUIRED)
+    # not seeing GeoTIFF.cmake on linux for some reason
+    # HACK: ubuntu hides headers in /usr/include/geotiff but other distros don't
+    if(EXISTS "/usr/include/geotiff")
+        include_directories("/usr/include/geotiff")
+    endif()
+
+    target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff TBB::tbb)
+endif()
 
 
 # find_package(TBB REQUIRED)
