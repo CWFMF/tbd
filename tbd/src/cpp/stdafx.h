@@ -163,7 +163,7 @@ using ElevationSize = int16_t;
 /**
  * \brief Type used for slope values (uses [0 - MAX_SLOPE_FOR_DISTANCE])
  */
-using SlopeSize = uint8_t;
+using SlopeSize = uint16_t;
 /**
  * \brief Type used for storing intensities
  */
@@ -215,13 +215,9 @@ static constexpr Idx TILE_WIDTH = min(MAX_COLUMNS, static_cast<Idx>(PREFERRED_TI
  */
 static constexpr auto MAX_ASPECT = 359;
 /**
- * \brief Maximum slope that affects ISI - everything after this is the same factor
- */
-static constexpr auto MAX_SLOPE_FOR_FACTOR = 60;
-/**
  * \brief Maximum slope that can be stored - this is used in the horizontal distance calculation
  */
-static constexpr auto MAX_SLOPE_FOR_DISTANCE = 127;
+static constexpr auto MAX_SLOPE_FOR_DISTANCE = 511;
 /**
  * \brief Number of all possible fuels in simulation
  */

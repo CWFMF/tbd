@@ -216,8 +216,8 @@ protected:
    * PADDING                                                    10
    * Fuel                     0 - 56            0 - 56          6       0 - 63
    * Aspect                   0 - 359           0 - 359         9       0 - 511
-   * Slope                    0 - infinity      0 - 127         7       0 - 127
-   * Extra                                                      10
+   * Slope                    0 - infinity      0 - 511         9       0 - 511
+   * Extra                                                      8
    *
    * Rows and Columns are restricted to 4096 since that's what gets clipped out of
    * the GIS outputs.
@@ -228,9 +228,9 @@ protected:
    *
    * Aspect is calculated to be in degrees, so 0 - 359.
    *
-   * Slope is truncated to 0 - 60 because that's the range that affects effective wind
-   * speed for slopes, but there's an issue with this when it tries to calculate the
-   * horizontal rate of spread since then the slope has been truncated and the distance
+   * Slope is truncated to 0 - 70 for slope effect calculations speed for slopes,
+   * but keep higher range because there's an issue with this when it tries to calculate the
+   * horizontal rate of spread since if the slope has been truncated and the distance
    * calculated will be wrong.
    */
   /**
@@ -278,13 +278,13 @@ protected:
    * \brief Number of bits in slope bitmask
    */
   static constexpr uint32_t SlopeBits = std::bit_width<uint32_t>(MAX_SLOPE_FOR_DISTANCE);
-  static_assert(SlopeBits == 7);
+  static_assert(SlopeBits == 9);
   /**
    * \brief Bitmask for slope in Topo before shift
    */
   static constexpr Topo SlopeBitMask = util::bit_mask<SlopeBits, Topo>();
-  static_assert(SlopeBitMask == 0x7F);
-  static_assert(SlopeBitMask >= MAX_SLOPE_FOR_FACTOR);
+  static_assert(SlopeBitMask == 0x1FF);
+  static_assert(SlopeBitMask >= MAX_SLOPE_FOR_DISTANCE);
   /**
    * \brief Bitmask for slope in Topo
    */

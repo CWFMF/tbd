@@ -21,19 +21,28 @@ namespace tbd::sim
 static constexpr MathSize INVALID_ROS = -1.0;
 static constexpr MathSize INVALID_INTENSITY = -1.0;
 
+/**
+ * \brief Maximum slope that affects ISI - everything after this is the same factor
+ */
+static constexpr auto MAX_SLOPE_FOR_FACTOR = 69;
+
 SlopeTableArray make_slope_table() noexcept
 {
   // HACK: slope can be infinite, but anything > max is the same as max
+  // ST-X-3 Eq. 39 - Calculate Spread Factor
+  // GLC-X-10 39a/b increase to 70% limit
   SlopeTableArray result{};
   for (size_t i = 0; i <= MAX_SLOPE_FOR_FACTOR; ++i)
   {
     result.at(i) = exp(3.533 * pow(i / 100.0, 1.2));
   }
+  constexpr auto MAX_SLOPE = MAX_SLOPE_FOR_FACTOR + 1;
+  // anything >=70 is just 10
+  std::fill(
+    &(result[MAX_SLOPE]),
+    &(result[MAX_SLOPE_FOR_DISTANCE]),
+    10.0);
   static_assert(result.size() == MAX_SLOPE_FOR_DISTANCE + 1);
-  for (size_t i = MAX_SLOPE_FOR_FACTOR + 1; i < result.size(); ++i)
-  {
-    result.at(i) = result.at(MAX_SLOPE_FOR_FACTOR);
-  }
   return result;
 }
 const SlopeTableArray SpreadInfo::SlopeTable = make_slope_table();
