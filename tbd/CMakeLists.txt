@@ -40,7 +40,7 @@ else()
     endif()
     add_compile_options(
         "$<$<CONFIG:RELEASE>:-O3;>"
-        "$<$<CONFIG:DEBUG>:-O3;-fno-omit-frame-pointer;-g;>"
+        "$<$<CONFIG:DEBUG>:-O0;-fno-omit-frame-pointer;-g;>"
     )
 endif()
 message("CMAKE_CXX_FLAGS = ${CMAKE_CXX_FLAGS}")
