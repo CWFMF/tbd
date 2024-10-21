@@ -296,13 +296,7 @@ static fbp::FuelM3M4<85> M3_M4_85{52, "M-3/M-4 (85 PDF)", &M3_85, &M4_85};
 static fbp::FuelM3M4<90> M3_M4_90{53, "M-3/M-4 (90 PDF)", &M3_90, &M4_90};
 static fbp::FuelM3M4<95> M3_M4_95{54, "M-3/M-4 (95 PDF)", &M3_95, &M4_95};
 static fbp::FuelM3M4<100> M3_M4_100{55, "M-3/M-4 (100 PDF)", &M3_100, &M4_100};
-static fbp::FuelM1<0> M1_00{56, "M-1 (00 PC)"};
-static fbp::FuelM2<0> M2_00{56, "M-2 (00 PC)"};
-static fbp::FuelM1M2<0> M1_M2_00{56, "M-1/M-2 (00 PC)", &M1_00, &M2_00};
-static fbp::FuelM3<0> M3_00{57, "M-3 (00 PDF)"};
-static fbp::FuelM4<0> M4_00{57, "M-4 (00 PDF)"};
-static fbp::FuelM3M4<0> M3_M4_00{57, "M-3/M-4 (00 PDF)", &M3_00, &M4_00};
-static fbp::FuelO1 O1{58, "O-1", &O1_A, &O1_B};
+static fbp::FuelO1 O1{56, "O-1", &O1_A, &O1_B};
 /**
  * \brief Implementation class for FuelLookup
  */
@@ -331,10 +325,13 @@ public:
     emplaceFuel("M-2", FuelLookup::Fuels.at(pc_offset + FuelType::safeCode(&M1_M2_05)));
     emplaceFuel("M-1/M-2",
                 FuelLookup::Fuels.at(pc_offset + FuelType::safeCode(&M1_M2_05)));
-    // // 0% dead fir makes these effectively D1 because of how the equations work
-    // emplaceFuel("M-1 (00 PC)", &D1);
-    // emplaceFuel("M-2 (00 PC)", &D1);
-    // emplaceFuel("M-1/M-2 (00 PC)", &D1);
+    // 0 PC/PDF makes these effectively D1/D2 because of how the equations work
+    emplaceFuel("M-1 (00 PC)", &D1_D2);
+    emplaceFuel("M-2 (00 PC)", &D1_D2);
+    emplaceFuel("M-1/M-2 (00 PC)", &D1_D2);
+    emplaceFuel("M-3 (00 PDF)", &D1_D2);
+    emplaceFuel("M-4 (00 PDF)", &D1_D2);
+    emplaceFuel("M-3/M-4 (00 PDF)", &D1_D2);
     const auto pdf = sim::Settings::defaultPercentDeadFir();
     logging::check_fatal(0 > pdf || 100 < pdf || (pdf % 5) != 0,
                          "Invalid default percent dead fir (%d)",
@@ -344,10 +341,6 @@ public:
     emplaceFuel("M-4", FuelLookup::Fuels.at(pdf_offset + FuelType::safeCode(&M3_M4_05)));
     emplaceFuel("M-3/M-4",
                 FuelLookup::Fuels.at(pdf_offset + FuelType::safeCode(&M3_M4_05)));
-    // // 0% dead fir makes these effectively D1 because of how the equations work
-    // emplaceFuel("M-3 (00 PDF)", &D1);
-    // emplaceFuel("M-4 (00 PDF)", &D1);
-    // emplaceFuel("M-3/M-4 (00 PDF)", &D1);
     emplaceFuel("M-1 (05 PC)", &M1_M2_05);
     emplaceFuel("M-2 (05 PC)", &M1_M2_05);
     emplaceFuel("M-1 (10 PC)", &M1_M2_10);
@@ -738,8 +731,6 @@ const array<const FuelType*, NUMBER_OF_FUELS> FuelLookup::Fuels{
   &M3_M4_90,
   &M3_M4_95,
   &M3_M4_100,
-  &M1_M2_00,
-  &M3_M4_00,
   &O1,
 };
 }
