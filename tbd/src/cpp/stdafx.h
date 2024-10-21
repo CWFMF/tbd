@@ -255,6 +255,10 @@ static constexpr int HOUR_MINUTES = 60;
  */
 static constexpr int MINUTE_SECONDS = 60;
 /**
+ * \brief Number of seconds in an hour
+ */
+static constexpr int HOUR_SECONDS = HOUR_MINUTES * MINUTE_SECONDS;
+/**
  * \brief Number of minutes in a day
  */
 static constexpr int DAY_MINUTES = DAY_HOURS * HOUR_MINUTES;

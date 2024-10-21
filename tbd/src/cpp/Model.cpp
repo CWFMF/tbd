@@ -199,8 +199,11 @@ void Model::readWeather(const wx::FwiWeather& yesterday,
         time_t cur_time = mktime(&t);
         if (prev_time != std::numeric_limits<time_t>::min())
         {
-          logging::check_fatal((cur_time - prev_time) != (60 * 60),
-                               "Expected sequential hours in weather input");
+          auto seconds_diff = (cur_time - prev_time);
+          logging::check_fatal(
+            seconds_diff != HOUR_SECONDS,
+            "Expected sequential hours in weather input but rows are %f hours away from each other",
+            seconds_diff / static_cast<MathSize>(HOUR_SECONDS));
         }
         prev_time = cur_time;
         const auto for_time = (t.tm_yday - min_date) * DAY_HOURS + t.tm_hour;
