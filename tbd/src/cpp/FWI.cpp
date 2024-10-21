@@ -6,7 +6,7 @@
 #include "stdafx.h"
 #include "FWI.h"
 #include "Log.h"
-#define CHECK_CALCULATION 1
+// #define CHECK_CALCULATION 1
 #ifndef DEBUG_FWI_WEATHER
 #undef CHECK_CALCULATION
 #endif
