@@ -454,7 +454,10 @@ public:
           {
             const auto fuel_obj = (*by_name).second;
             fuel_types_->at(value) = fuel_obj;
-            if (DEFAULT_TYPES.at(name) != fuel
+            // const auto find_default = DEFAULT_TYPES.find(name);
+            // HACK: can't figure out how to compare to fuel from .find() result so keep using .at() for now
+            if (!DEFAULT_TYPES.contains(name)
+                || DEFAULT_TYPES.at(name) != fuel
                 || "Not Available" == name
                 || "Non-fuel" == name
                 || "Unclassified" == name
