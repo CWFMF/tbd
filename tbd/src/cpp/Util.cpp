@@ -99,10 +99,15 @@ void read_directory(const string& name, vector<string>* v)
 }
 vector<string> find_rasters(const string& dir, const int year)
 {
-  const auto by_year = dir + "/" + to_string(year) + "/";
-  const auto raster_root = directory_exists(by_year.c_str())
-                           ? by_year
-                           : dir + "/default/";
+  const auto for_year = dir + "/" + to_string(year) + "/";
+  const auto for_default = dir + "/default/";
+  // use first existing folder of dir/year, dir/default, or dir in that order
+  const auto raster_root = directory_exists(for_year.c_str())
+                           ? for_year
+                           : (
+                               directory_exists(for_default.c_str())
+                                 ? for_default
+                                 : dir);
   vector<string> results{};
   try
   {
