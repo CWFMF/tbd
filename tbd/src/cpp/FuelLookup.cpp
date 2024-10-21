@@ -736,5 +736,7 @@ const array<const FuelType*, NUMBER_OF_FUELS> FuelLookup::Fuels{
   &M3_M4_90,
   &M3_M4_95,
   &M3_M4_100,
+  &M1_M2_00,
+  &M3_M4_00,
 };
 }
