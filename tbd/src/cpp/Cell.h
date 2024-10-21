@@ -5,10 +5,12 @@
 #pragma once
 #include <limits>
 #include "Location.h"
+#include "FuelType.h"
 #include "Util.h"
 namespace tbd::topo
 {
 using SpreadKey = uint32_t;
+using fuel::INVALID_FUEL_CODE;
 /**
  * \brief A Position with a Slope, Aspect, and Fuel.
  */
@@ -46,10 +48,22 @@ public:
                                                const AspectSize aspect,
                                                const FuelCodeSize& fuel) noexcept
   {
+    // HACK: so we can call and set it all invalid if anything is
+    // if any are invalid then they all should be
+    const auto do_hash_cell = [](const SlopeSize s, const AspectSize a, const FuelCodeSize f) {
+      return static_cast<Topo>(f) << FuelShift
+           | static_cast<Topo>(s) << SlopeShift
+           | static_cast<Topo>(a) << AspectShift;
+    };
+    if (
+      INVALID_SLOPE == slope
+      || INVALID_ASPECT == aspect
+      || INVALID_FUEL_CODE == fuel)
+    {
+      return do_hash_cell(INVALID_SLOPE, INVALID_ASPECT, INVALID_FUEL_CODE);
+    }
     // if slope is 0 make aspect north so less unique keys
-    return static_cast<Topo>(fuel) << FuelShift
-         | static_cast<Topo>(slope) << SlopeShift
-         | static_cast<Topo>(0 == slope ? 0 : aspect) << AspectShift;
+    return do_hash_cell(slope, 0 == slope ? 0 : aspect, fuel);
   }
   /**
    * \brief Construct from hash value

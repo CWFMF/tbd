@@ -353,24 +353,37 @@ protected:
           values.at(h) = cell;
 #ifdef DEBUG_GRIDS
 #ifndef VLD_RPTHOOK_INSTALL
-          logging::check_fatal(cell.row() != r, "Cell row %d not %d", cell.row(), r);
-          logging::check_fatal(cell.column() != c, "Cell column %d not %d", cell.column(), c);
-          logging::check_fatal(cell.slope() != s, "Cell slope %d not %d", cell.slope(), s);
-          logging::check_fatal(cell.aspect() != a, "Cell aspect %d not %d", cell.aspect(), a);
-          logging::check_fatal(cell.fuelCode() != f, "Cell fuel %d not %d", cell.fuelCode(), f);
+          logging::check_equal(cell.row(), r, "Cell row");
+          logging::check_equal(cell.column(), c, "Cell column");
           const auto v = values.at(h);
-          logging::check_fatal(v.row() != r, "Row %d not %d", v.row(), r);
-          logging::check_fatal(v.column() != c, "Column %d not %d", v.column(), c);
-          logging::check_fatal(v.slope() != s, "Slope %d not %d", v.slope(), s);
-          if (0 != s)
+          logging::check_equal(v.row(), r, "Row");
+          logging::check_equal(v.column(), c, "Column");
+          if (!(INVALID_SLOPE == cell.slope() || INVALID_ASPECT == cell.aspect() || INVALID_FUEL_CODE == cell.fuelCode()))
           {
-            logging::check_fatal(v.aspect() != a, "Aspect %d not %d", v.aspect(), a);
+            logging::check_equal(cell.slope(), s, "Cell slope");
+            logging::check_equal(v.slope(), s, "Slope");
+            if (0 != s)
+            {
+              logging::check_equal(cell.aspect(), a, "Cell aspect");
+              logging::check_equal(v.aspect(), a, "Aspect");
+            }
+            else
+            {
+              logging::check_equal(cell.aspect(), a, "Cell aspect when slope is 0");
+              logging::check_equal(v.aspect(), 0, "Aspect when slope is 0");
+            }
+            logging::check_equal(v.fuelCode(), f, "Fuel");
+            logging::check_equal(cell.fuelCode(), f, "Cell fuel");
           }
           else
           {
-            logging::check_fatal(v.aspect() != 0, "Aspect %d not %d", v.aspect(), 0);
+            logging::check_equal(cell.slope(), INVALID_SLOPE, "Invalid Cell slope");
+            logging::check_equal(cell.aspect(), INVALID_ASPECT, "Invalid Cell aspect");
+            logging::check_equal(cell.fuelCode(), INVALID_FUEL_CODE, "Invalid Cell fuel");
+            logging::check_equal(v.slope(), INVALID_SLOPE, "Invalid slope");
+            logging::check_equal(v.aspect(), INVALID_ASPECT, "Invalid aspect");
+            logging::check_equal(v.fuelCode(), INVALID_FUEL_CODE, "Invalid fuel");
           }
-          logging::check_fatal(v.fuelCode() != f, "Fuel %d not %d", v.fuelCode(), f);
 #endif
 #endif
         }
