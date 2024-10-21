@@ -26,6 +26,7 @@ static const map<const string_view, const string_view> DEFAULT_TYPES{
   {"Coastal Cedar - Hemlock - Douglas-Fir Slash", "S-3"},
   {"Matted Grass", "O-1a"},
   {"Standing Grass", "O-1b"},
+  {"Grass", "O-1"},
   {"Boreal Mixedwood - Leafless", "M-1"},
   {"Boreal Mixedwood - Green", "M-2"},
   {"Boreal Mixedwood", "M-1/M-2"},
@@ -301,6 +302,7 @@ static fbp::FuelM1M2<0> M1_M2_00{56, "M-1/M-2 (00 PC)", &M1_00, &M2_00};
 static fbp::FuelM3<0> M3_00{57, "M-3 (00 PDF)"};
 static fbp::FuelM4<0> M4_00{57, "M-4 (00 PDF)"};
 static fbp::FuelM3M4<0> M3_M4_00{57, "M-3/M-4 (00 PDF)", &M3_00, &M4_00};
+static fbp::FuelO1 O1{58, "O-1", &O1_A, &O1_B};
 /**
  * \brief Implementation class for FuelLookup
  */
@@ -738,5 +740,6 @@ const array<const FuelType*, NUMBER_OF_FUELS> FuelLookup::Fuels{
   &M3_M4_100,
   &M1_M2_00,
   &M3_M4_00,
+  &O1,
 };
 }

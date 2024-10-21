@@ -14,6 +14,7 @@ grid_value, export_value, descriptive_name, fuel_type, r, g, b, h, s, l
 23,23,Coastal Cedar - Hemlock - Douglas-Fir Slash,S-3,174,1,126,-285,252,88
 31,31,Matted Grass,O-1a,255,255,190,42,255,223
 32,32,Standing Grass,O-1b,230,230,0,42,255,115
+33,33,Grass,O-1,230,230,0,42,255,115
 40,40,Boreal Mixedwood - Leafless,M-1,255,211,127,28,255,191
 50,50,Boreal Mixedwood - Green,M-2,255,170,0,28,255,128
 60,60,Boreal Mixedwood,M-1/M-2,255,211,127,28,255,191

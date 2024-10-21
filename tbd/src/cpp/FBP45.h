@@ -1493,5 +1493,32 @@ public:
   {
   }
 };
+/**
+ * \brief FBP fuel type O-1.
+ */
+class FuelO1 : public FuelVariable<FuelO1A, FuelO1B>
+{
+public:
+  FuelO1() = delete;
+  ~FuelO1() = default;
+  FuelO1(const FuelO1& rhs) noexcept = delete;
+  FuelO1(FuelO1&& rhs) noexcept = delete;
+  FuelO1& operator=(const FuelO1& rhs) noexcept = delete;
+  FuelO1& operator=(FuelO1&& rhs) noexcept = delete;
+  /**
+   * \brief A fuel that changes between O-1a/O-1b depending on green-up
+   * \param code Code to identify fuel with
+   * \param name Name of the fuel
+   * \param o1a O1-a fuel to use before green-up
+   * \param o1b O1-b fuel to use after green-up
+   */
+  constexpr FuelO1(const FuelCodeSize& code,
+                   const char* name,
+                   const FuelO1A* o1a,
+                   const FuelO1B* o1b)
+    : FuelVariable<FuelO1A, FuelO1B>(code, name, true, o1a, o1b)
+  {
+  }
+};
 }
 }
