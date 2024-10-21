@@ -28,7 +28,9 @@ static unique_ptr<SurvivalMap> make_survival(
   const bool deterministic = tbd::sim::Settings::deterministic();
   for (const auto& in_fuel : used_fuels)
   {
-    if (nullptr != in_fuel && 0 != strcmp("Invalid", fuel::FuelType::safeName(in_fuel)))
+    if (nullptr != in_fuel
+        && 0 != strcmp("Invalid", fuel::FuelType::safeName(in_fuel))
+        && 0 != strcmp("Non-fuel", fuel::FuelType::safeName(in_fuel)))
     {
       // initialize with proper size
       const auto code = fuel::FuelType::safeCode(in_fuel);
