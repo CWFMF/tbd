@@ -95,9 +95,9 @@ else()
         include_directories("/usr/include/geotiff")
     endif()
 
-    target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff TBB::tbb)
+    find_package(PROJ REQUIRED CONFIG)
+    target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff TBB::tbb PROJ::proj)
 endif()
-
 
 # find_package(TBB REQUIRED)
 # # target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff Threads::Threads TBB:tbb)

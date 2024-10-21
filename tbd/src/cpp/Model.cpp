@@ -1150,13 +1150,13 @@ int Model::runScenarios(const string dir_out,
   Model model(dir_out, start_point, &env);
   // HACK: set after constructor so Test doesn't need to set
   model.start_time_ = start_time;
-  auto x = static_cast<MathSize>(0.0);
-  auto y = static_cast<MathSize>(0.0);
-  const auto zone = lat_lon_to_utm(start_point, &x, &y);
-  logging::note("UTM coordinates are: %d %d %d",
-                zone,
-                static_cast<int>(x),
-                static_cast<int>(y));
+  // auto x = static_cast<MathSize>(0.0);
+  // auto y = static_cast<MathSize>(0.0);
+  // const auto zone = lat_lon_to_utm(start_point, &x, &y);
+  // logging::note("UTM coordinates are: %d %d %d",
+  //               zone,
+  //               static_cast<int>(x),
+  //               static_cast<int>(y));
   logging::note("Grid has size (%d, %d)", env.rows(), env.columns());
   logging::note("Fire start position is cell (%d, %d)",
                 location.row(),

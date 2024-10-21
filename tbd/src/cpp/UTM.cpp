@@ -5,6 +5,7 @@
 #include "stdafx.h"
 #include "UTM.h"
 #include "Point.h"
+#include "Log.h"
 #include "Util.h"
 #include "unstable.h"
 namespace tbd::topo
@@ -190,6 +191,7 @@ void lat_lon_to_utm(const Point& point, const MathSize zone, MathSize* x, MathSi
                     utm_central_meridian(zone),
                     x,
                     y);
+  tbd::logging::note("Converted lat/lon to utm %f,%f", *x, *y);
   /* Adjust easting and northing for UTM system. */
   *x = (*x) * UTM_SCALE_FACTOR + 500000.0;
   *y = (*y) * UTM_SCALE_FACTOR;

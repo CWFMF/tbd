@@ -27,6 +27,11 @@ public:
    */
   static void setRoot(const char* dirname) noexcept;
   /**
+   * \brief Set raster root directory
+   * \param dirname Directory to use for rasters
+   */
+  static void setRasterRoot(const char* dirname) noexcept;
+  /**
    * \brief Root directory that raster inputs are stored in
    * \return Root directory that raster inputs are stored in
    */

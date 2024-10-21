@@ -103,11 +103,12 @@ Environment Environment::loadEnvironment(const string dir_out,
     MathSize zone;
     MathSize meridian;
     unique_ptr<const EnvironmentInfo> cur_info;
-    if (sscanf(zone_guess.c_str(), "%lf", &zone))
-    {
-      meridian = (zone - 15.0) * 6.0 - 93.0;
-    }
-    else
+    // FIX: don't assume based on name
+    // if (sscanf(zone_guess.c_str(), "%lf", &zone))
+    // {
+    //   meridian = (zone - 15.0) * 6.0 - 93.0;
+    // }
+    // else
     {
       cur_info = EnvironmentInfo::loadInfo(
         fuel,
@@ -115,12 +116,12 @@ Environment Environment::loadEnvironment(const string dir_out,
       zone = cur_info->zone();
       meridian = cur_info->meridian();
     }
-    if (sim::Settings::forceFuel())
-    {
-      logging::verbose("FORCING ENV");
-      env_info = std::move(cur_info);
-      break;
-    }
+    // if (sim::Settings::forceFuel())
+    // {
+    //   logging::verbose("FORCING ENV");
+    //   env_info = std::move(cur_info);
+    //   break;
+    // }
     const auto cur_x = abs(point.longitude() - meridian);
     logging::verbose("Zone %0.1f meridian is %0.2f degrees from point",
                      zone,
@@ -170,10 +171,13 @@ Environment Environment::loadEnvironment(const string dir_out,
                        "Could not find an environment to use for (%f, %f)",
                        point.latitude(),
                        point.longitude());
-  logging::check_fatal(best_meridian != env_info->meridian(),
-                       "Thought file with best match was for meridian %ld but is actually %ld",
-                       best_meridian,
-                       env_info->meridian());
+  if (best_meridian != env_info->meridian())
+  {
+    logging::error("Thought file %s with best match was for meridian %f but is actually %f",
+                   best_fuel.c_str(),
+                   best_meridian,
+                   env_info->meridian());
+  }
   logging::debug("Best match for (%f, %f) is zone %0.2f with a meridian of %0.2f",
                  point.latitude(),
                  point.longitude(),

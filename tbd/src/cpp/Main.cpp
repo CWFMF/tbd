@@ -234,7 +234,7 @@ int main(const int argc, const char* const argv[])
     register_flag(&Settings::setSaveProbability, false, "--no-probability", "Do not output probability grids");
     register_flag(&Settings::setSaveOccurrence, true, "--occurrence", "Output occurrence grids");
     register_flag(&Settings::setSaveSimulationArea, true, "--sim-area", "Output simulation area grids");
-    register_flag(&Settings::setForceFuel, true, "--force-fuel", "Use first default fuel raster without checking coordinates");
+    register_setter<const char*>(&Settings::setRasterRoot, "--raster-root", "Use specified directory as raster root", false, &parse_raw);
     register_setter<const char*>(&Settings::setFuelLookupTable, "--fuel-lut", "Use specified fuel lookup table", false, &parse_raw);
     // FIX: this is parsed too late to be used right now
     register_setter<string>(log_file_name, "--log", "Output log file", false, &parse_string);

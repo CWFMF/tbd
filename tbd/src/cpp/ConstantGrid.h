@@ -201,6 +201,11 @@ public:
     auto actual_rows = grid_info.calculateRows();
     auto actual_columns = grid_info.calculateColumns();
     const auto coordinates = grid_info.findFullCoordinates(point, true);
+    logging::note("Coordinates before reading are (%d, %d => %f, %f)",
+                  std::get<0>(*coordinates),
+                  std::get<1>(*coordinates),
+                  std::get<0>(*coordinates) + std::get<2>(*coordinates) / 1000.0,
+                  std::get<1>(*coordinates) + std::get<3>(*coordinates) / 1000.0);
     auto min_column = max(static_cast<FullIdx>(0),
                           static_cast<FullIdx>(std::get<1>(*coordinates) - static_cast<FullIdx>(MAX_COLUMNS) / static_cast<FullIdx>(2)));
     if (min_column + MAX_COLUMNS >= actual_columns)

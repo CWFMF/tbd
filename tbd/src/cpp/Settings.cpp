@@ -167,6 +167,11 @@ public:
   {
     confidence_level_ = value;
   }
+  void setRasterRoot(const char* dirname) noexcept
+  {
+    raster_root_ = dirname;
+    force_fuel = true;
+  }
   void setFuelLookupTable(const char* filename) noexcept
   {
     fuel_lookup_table_file_ = filename;
@@ -576,6 +581,10 @@ void SettingsImplementation::setRoot(const char* dirname) noexcept
 void Settings::setRoot(const char* dirname) noexcept
 {
   return SettingsImplementation::instance(false).setRoot(dirname);
+}
+void Settings::setRasterRoot(const char* dirname) noexcept
+{
+  return SettingsImplementation::instance().setRasterRoot(dirname);
 }
 const char* Settings::rasterRoot() noexcept
 {
