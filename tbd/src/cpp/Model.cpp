@@ -1190,7 +1190,7 @@ int Model::runScenarios(const string dir_out,
       logging::fatal("Not enough weather to proceed - have %d days but looking for %d", numDays, needDays);
     }
     // want to output internal representation of weather to file
-#ifndef NDEBUG
+#ifdef DEBUG_WEATHER
     if (!Settings::surface())
     {
       model.outputWeather();
@@ -1226,7 +1226,7 @@ int Model::runScenarios(const string dir_out,
   }
   return 0;
 }
-#ifndef NDEBUG
+#ifdef DEBUG_WEATHER
 void Model::outputWeather()
 {
   outputWeather(wx_, "wx_hourly_out.csv");
