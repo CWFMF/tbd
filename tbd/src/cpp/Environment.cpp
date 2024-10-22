@@ -138,15 +138,20 @@ Environment Environment::loadEnvironment(const string dir_out,
       if (nullptr != cur_info)
       {
         logging::verbose("CHECK Y");
-        const auto coordinates = cur_info->findFullCoordinates(point, false);
-        const auto cur_y = static_cast<FullIdx>(abs(
-          std::get<0>(*coordinates) - cur_info->calculateRows() / static_cast<FullIdx>(2)));
-        logging::verbose(("Current y value is " + std::to_string(cur_y)).c_str());
-        if (cur_y < best_y)
+        // flipped here because it's looking at a file
+        const auto coordinates = cur_info->findFullCoordinates(point, true);
+        if (nullptr != coordinates)
         {
-          logging::verbose("SWITCH Y");
-          env_info = std::move(cur_info);
-          best_y = cur_y;
+          printf("%f, %f: %d, %d", std::get<0>(*coordinates), std::get<1>(*coordinates), std::get<2>(*coordinates), std::get<3>(*coordinates));
+          const auto cur_y = static_cast<FullIdx>(abs(
+            std::get<0>(*coordinates) - cur_info->calculateRows() / static_cast<FullIdx>(2)));
+          logging::verbose(("Current y value is " + std::to_string(cur_y)).c_str());
+          if (cur_y < best_y)
+          {
+            logging::verbose("SWITCH Y");
+            env_info = std::move(cur_info);
+            best_y = cur_y;
+          }
         }
       }
       else

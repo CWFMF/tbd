@@ -1136,7 +1136,8 @@ int Model::runScenarios(const string dir_out,
                                                 perimeter,
                                                 start_time.tm_year);
   logging::debug("Environment loaded");
-  const auto position = env.findCoordinates(start_point, true);
+  // don't flip for Environment because that already happened
+  const auto position = env.findCoordinates(start_point, false);
 #ifndef NDEBUG
   logging::check_fatal(
     std::get<0>(*position) > MAX_ROWS || std::get<1>(*position) > MAX_COLUMNS,
