@@ -167,6 +167,10 @@ public:
   {
     confidence_level_ = value;
   }
+  void setFuelLookupTable(const char* filename) noexcept
+  {
+    fuel_lookup_table_file_ = filename;
+  }
   /**
    * \brief Ignition position row
    * \return Ignition position row
@@ -576,6 +580,10 @@ void Settings::setRoot(const char* dirname) noexcept
 const char* Settings::rasterRoot() noexcept
 {
   return SettingsImplementation::instance().rasterRoot();
+}
+void Settings::setFuelLookupTable(const char* filename) noexcept
+{
+  return SettingsImplementation::instance().setFuelLookupTable(filename);
 }
 const fuel::FuelLookup& Settings::fuelLookup() noexcept
 {

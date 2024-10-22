@@ -32,6 +32,11 @@ public:
    */
   [[nodiscard]] static const char* rasterRoot() noexcept;
   /**
+   * \brief Set fuel lookup table file
+   * \param dirname Directory to use for rasters
+   */
+  static void setFuelLookupTable(const char* filename) noexcept;
+  /**
    * \brief Fuel lookup table
    * \return Fuel lookup table
    */

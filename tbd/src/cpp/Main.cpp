@@ -235,6 +235,8 @@ int main(const int argc, const char* const argv[])
     register_flag(&Settings::setSaveOccurrence, true, "--occurrence", "Output occurrence grids");
     register_flag(&Settings::setSaveSimulationArea, true, "--sim-area", "Output simulation area grids");
     register_flag(&Settings::setForceFuel, true, "--force-fuel", "Use first default fuel raster without checking coordinates");
+    register_setter<const char*>(&Settings::setFuelLookupTable, "--fuel-lut", "Use specified fuel lookup table", false, &parse_raw);
+    // FIX: this is parsed too late to be used right now
     register_setter<string>(log_file_name, "--log", "Output log file", false, &parse_string);
     size_t SKIPPED_ARGS = 0;
     if (ARGC > 1 && 0 == strcmp(ARGV[1], "surface"))
