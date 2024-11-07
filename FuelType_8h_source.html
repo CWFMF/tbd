@@ -117,8 +117,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">// Incorporating Smoldering Into Fire Growth Modelling</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">// https://www.cfs.nrcan.gc.ca/pubwarehouse/pdfs/19950.pdf</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">//</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// default grass fuel load (t/ha)</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">static</span> <span class="keyword">constexpr</span> MathSize DEFAULT_GRASS_FUEL_LOAD = 3.5;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// default grass fuel load (kg/m^2)</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">static</span> <span class="keyword">constexpr</span> MathSize DEFAULT_GRASS_FUEL_LOAD = 0.35;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">// amount of duff to apply ffmc moisture to (cm) (1.2 cm is from Kerry&#39;s paper)</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">static</span> <span class="keyword">constexpr</span> MathSize DUFF_FFMC_DEPTH = 1.2;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>[[nodiscard]] <span class="keyword">constexpr</span> MathSize fire_intensity(<span class="keyword">const</span> MathSize fc, <span class="keyword">const</span> MathSize ros)</div>
