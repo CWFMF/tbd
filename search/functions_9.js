@@ -25,7 +25,7 @@ var searchData=
   ['isconfident_22',['isConfident',['../classtbd_1_1util_1_1Statistics.html#ad798bb67190fa432c6b8135fd2d81719',1,'tbd::util::Statistics']]],
   ['iscrown_23',['isCrown',['../classtbd_1_1fuel_1_1FuelType.html#ae0e43098d41db0aaeadfefdde2fafbbf',1,'tbd::fuel::FuelType']]],
   ['isfd1_24',['isfd1',['../classtbd_1_1fuel_1_1fbp_1_1FuelD1.html#aedfd39f90e9216280c8b272332a92111',1,'tbd::fuel::fbp::FuelD1::isfD1()'],['../classtbd_1_1fuel_1_1FuelMixed.html#ad69fba9112fe80feab260c077c1b3a1c',1,'tbd::fuel::FuelMixed::isfD1()']]],
-  ['isi_25',['isi',['../classtbd_1_1wx_1_1Isi.html#a864870efd478f7518fd481d5a31a0025',1,'tbd::wx::Isi::Isi()'],['../classtbd_1_1wx_1_1FwiWeather.html#abf14f7899bfa660718286ff043e668fb',1,'tbd::wx::FwiWeather::isi()'],['../classtbd_1_1wx_1_1Isi.html#ae0a2b4229d55ea9f6a06b8ce123f85e2',1,'tbd::wx::Isi::Isi()']]],
+  ['isi_25',['isi',['../classtbd_1_1wx_1_1Isi.html#ae0a2b4229d55ea9f6a06b8ce123f85e2',1,'tbd::wx::Isi::Isi(MathSize value, const Speed &amp;ws, const Ffmc &amp;ffmc) noexcept'],['../classtbd_1_1wx_1_1Isi.html#a864870efd478f7518fd481d5a31a0025',1,'tbd::wx::Isi::Isi(const Speed &amp;ws, const Ffmc &amp;ffmc) noexcept'],['../classtbd_1_1wx_1_1FwiWeather.html#abf14f7899bfa660718286ff043e668fb',1,'tbd::wx::FwiWeather::isi()']]],
   ['isinvalid_26',['isInvalid',['../classtbd_1_1sim_1_1SpreadInfo.html#a987c655dccedd3b1a8535ee38e1b7ae3',1,'tbd::sim::SpreadInfo']]],
   ['isnotspreading_27',['isNotSpreading',['../classtbd_1_1sim_1_1SpreadInfo.html#abce1e8525bf40a1f280ed20d82a52adc',1,'tbd::sim::SpreadInfo']]],
   ['isoutoftime_28',['isOutOfTime',['../classtbd_1_1sim_1_1Model.html#aa1bb1d89bdd1bb905601a09b13e41de1',1,'tbd::sim::Model']]],

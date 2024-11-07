@@ -94,12 +94,12 @@ Collaboration diagram for tbd::sim::CellPointsMap:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0aced300ee0cef0888f43de60b303129" id="r_a0aced300ee0cef0888f43de60b303129"><td class="memItemLeft" align="right" valign="top"><a id="a0aced300ee0cef0888f43de60b303129" name="a0aced300ee0cef0888f43de60b303129"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>emplace</b> (const <a class="el" href="classtbd_1_1sim_1_1CellPoints.html">CellPoints</a> &amp;pts)</td></tr>
-<tr class="separator:a0aced300ee0cef0888f43de60b303129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab199ca58f4ce44f9f469d9c6fe191c9b" id="r_ab199ca58f4ce44f9f469d9c6fe191c9b"><td class="memItemLeft" align="right" valign="top"><a id="ab199ca58f4ce44f9f469d9c6fe191c9b" name="ab199ca58f4ce44f9f469d9c6fe191c9b"></a>
 <a class="el" href="classtbd_1_1sim_1_1CellPoints.html">CellPoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (const XYSize x, const XYSize y) noexcept</td></tr>
 <tr class="separator:ab199ca58f4ce44f9f469d9c6fe191c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6509a2c9d8f606171373abeb6a0c86b" id="r_af6509a2c9d8f606171373abeb6a0c86b"><td class="memItemLeft" align="right" valign="top"><a id="af6509a2c9d8f606171373abeb6a0c86b" name="af6509a2c9d8f606171373abeb6a0c86b"></a>
+<a class="el" href="classtbd_1_1sim_1_1CellPoints.html">CellPoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (const <a class="el" href="classtbd_1_1topo_1_1Location.html">Location</a> &amp;src, const XYSize x, const XYSize y) noexcept</td></tr>
+<tr class="separator:af6509a2c9d8f606171373abeb6a0c86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe396f05740f758d679a38dccbe1e016" id="r_afe396f05740f758d679a38dccbe1e016"><td class="memItemLeft" align="right" valign="top"><a id="afe396f05740f758d679a38dccbe1e016" name="afe396f05740f758d679a38dccbe1e016"></a>
 <a class="el" href="classtbd_1_1sim_1_1CellPointsMap.html">CellPointsMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>merge</b> (const BurnedData &amp;unburnable, const <a class="el" href="classtbd_1_1sim_1_1CellPointsMap.html">CellPointsMap</a> &amp;rhs) noexcept</td></tr>
 <tr class="separator:afe396f05740f758d679a38dccbe1e016"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,9 +109,6 @@ set&lt; <a class="el" href="classtbd_1_1sim_1_1XYPos.html">XYPos</a> &gt;&#160;<
 <tr class="memitem:a0720b91f64ed76d5e490a323e6fa302e" id="r_a0720b91f64ed76d5e490a323e6fa302e"><td class="memItemLeft" align="right" valign="top"><a id="a0720b91f64ed76d5e490a323e6fa302e" name="a0720b91f64ed76d5e490a323e6fa302e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>remove_if</b> (std::function&lt; bool(const pair&lt; <a class="el" href="classtbd_1_1topo_1_1Location.html">Location</a>, <a class="el" href="classtbd_1_1sim_1_1CellPoints.html">CellPoints</a> &gt; &amp;)&gt; F) noexcept</td></tr>
 <tr class="separator:a0720b91f64ed76d5e490a323e6fa302e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac569e6ed8b3cbda0223055d4e9ee29bb" id="r_ac569e6ed8b3cbda0223055d4e9ee29bb"><td class="memItemLeft" align="right" valign="top"><a id="ac569e6ed8b3cbda0223055d4e9ee29bb" name="ac569e6ed8b3cbda0223055d4e9ee29bb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_spread</b> (<a class="el" href="classtbd_1_1sim_1_1Scenario.html">Scenario</a> &amp;scenario, map&lt; SpreadKey, <a class="el" href="classtbd_1_1sim_1_1SpreadInfo.html">SpreadInfo</a> &gt; &amp;spread_info, const DurationSize duration, const spreading_points &amp;to_spread, const BurnedData &amp;unburnable)</td></tr>
-<tr class="separator:ac569e6ed8b3cbda0223055d4e9ee29bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
