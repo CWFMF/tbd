@@ -33,8 +33,8 @@ constexpr FuelCodeSize INVALID_FUEL_CODE = 0;
 // Incorporating Smoldering Into Fire Growth Modelling
 // https://www.cfs.nrcan.gc.ca/pubwarehouse/pdfs/19950.pdf
 //
-// default grass fuel load (t/ha)
-static constexpr MathSize DEFAULT_GRASS_FUEL_LOAD = 3.5;
+// default grass fuel load (kg/m^2)
+static constexpr MathSize DEFAULT_GRASS_FUEL_LOAD = 0.35;
 // amount of duff to apply ffmc moisture to (cm) (1.2 cm is from Kerry's paper)
 static constexpr MathSize DUFF_FFMC_DEPTH = 1.2;
 /**
