@@ -611,7 +611,9 @@ public:
                                       const MathSize isi) const noexcept override
   {
     const auto mu = baseMultiplier(spread.nd(), *spread.weather());
-    return this->limitIsf(min(0.001, mu), calculateRos(mu, isi) * spread.slopeFactor());
+    // prevent divide by 0
+    const auto mu_not_zero = max(0.001, mu);
+    return this->limitIsf(mu_not_zero, calculateRos(mu, isi) * spread.slopeFactor());
   }
   /**
    * \brief Calculate rate of spread (m/min)
