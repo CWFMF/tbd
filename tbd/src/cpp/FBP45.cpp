@@ -68,7 +68,7 @@ static LookupTable<&calculate_surface_fuel_consumption_c7_ffmc>
  * \brief Woody Fuel Consumption (WFC) (kg/m^2) [ST-X-3 eq 14]
  * \return Woody Fuel Consumption (WFC) (kg/m^2) [ST-X-3 eq 14]
  */
-[[nodiscard]] static constexpr MathSize
+[[nodiscard]] static MathSize
   calculate_surface_fuel_consumption_c7_bui(const MathSize bui) noexcept
 {
   return 1.5 * (1.0 - exp(-0.0201 * bui));

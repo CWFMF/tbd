@@ -37,7 +37,7 @@ static const util::LookupTable<&calculate_standard_foliar_moisture_fmc>
  * \param isi Initial Spread Index
  * \return RSC / (FME / FME_avg) [ST-X-3 eq 64]
  */
-[[nodiscard]] static constexpr MathSize
+[[nodiscard]] static MathSize
   calculate_standard_foliar_moisture_isi(
     const MathSize isi) noexcept
 {
@@ -54,7 +54,7 @@ static const util::LookupTable<&calculate_standard_foliar_moisture_isi>
  * \param ws Wind Speed (km/h)
  * \return Length to Breadth ratio [ST-X-3 eq 79]
  */
-[[nodiscard]] static constexpr MathSize
+[[nodiscard]] static MathSize
   calculate_standard_length_to_breadth(const MathSize ws) noexcept
 {
   return 1.0 + 8.729 * pow(1.0 - exp(-0.030 * ws), 2.155);
