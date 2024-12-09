@@ -43,7 +43,11 @@ def get_spotwx_limit():
 
 
 # NOTE: does not work with multiprocess unless bucket_class is set properly
-limiter = Limiter(RequestRate(get_spotwx_limit(), Duration.MINUTE), bucket_class=FileLockSQLiteBucket)
+limiter = Limiter(
+    RequestRate(get_spotwx_limit(), Duration.MINUTE),
+    bucket_class=FileLockSQLiteBucket,
+    bucket_kwargs={"path": "../data/tmp/pyrate_limiter.sqlite"},
+)
 
 
 def limit_api(x):
