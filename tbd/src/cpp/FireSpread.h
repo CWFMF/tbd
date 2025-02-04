@@ -17,6 +17,12 @@ static constexpr int MAX_SPREAD_ANGLE = 5.0;
 static constexpr MathSize INVALID_ROS = -1.0;
 static constexpr MathSize INVALID_INTENSITY = -1.0;
 
+//   // static constexpr MathSize BROS_FACTOR = 0.208;
+//   // guess that .208 is a bad rounding of somethin with pi
+// static constexpr MathSize BROS_FACTOR = M_PI * 2.0 / 30.0;
+
+static constexpr MathSize ISI_FACTOR = 0.208;
+
 class Scenario;
 /**
  * \brief Possible results of an attempt to spread.
@@ -207,6 +213,22 @@ public:
     return head_ros_;
   }
   /**
+   * \brief Back fire rate of spread (m/min)
+   * \return Back fire rate of spread (m/min)
+   */
+  [[nodiscard]] constexpr MathSize backRos() const
+  {
+    return back_ros_;
+  }
+  /**
+   * \brief Flank fire rate of spread (m/min)
+   * \return Flank fire rate of spread (m/min)
+   */
+  [[nodiscard]] constexpr MathSize flankRos() const
+  {
+    return flank_ros_;
+  }
+  /**
    * \brief Head fire spread direction
    * \return Head fire spread direction
    */
@@ -370,6 +392,8 @@ private:
    * \brief Head fire rate of spread (m/min)
    */
   MathSize head_ros_;
+  MathSize back_ros_;
+  MathSize flank_ros_;
   MathSize cfb_;
   MathSize cfc_;
   MathSize tfc_;

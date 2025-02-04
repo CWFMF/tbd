@@ -9,6 +9,7 @@
 #include "CellPoints.h"
 namespace tbd
 {
+using util::to_degrees;
 HorizontalAdjustment horizontal_adjustment(
   const AspectSize slope_azimuth,
   const SlopeSize slope)
@@ -48,14 +49,56 @@ HorizontalAdjustment horizontal_adjustment(
   MathSize length_to_breadth) const noexcept
 {
   OffsetSet offsets{};
+  auto prev_min = std::numeric_limits<MathSize>::max();
+  auto prev_angle = std::numeric_limits<MathSize>::max();
+  auto have_prev = false;
+  auto odd = true;
   const auto add_offset =
-    [this, &offsets, tfc](
+    [this, &offsets, tfc, &prev_min, &prev_angle, &have_prev, &odd](
       const MathSize direction,
       const MathSize ros) {
-      if (ros < min_ros_)
+      if (odd)
       {
-        return false;
+        if (have_prev)
+        {
+          // can't use exact > because math and rounding may break things
+          // logging::check_fatal(
+          //   ((abs(ros - prev_min) > __FLT_EPSILON__) && ros > prev_min),
+          //   "Fire gets faster towards rear at %f with ros of %f",
+          //   to_degrees(direction),
+          //   ros);
+          if (
+            ((abs(ros - prev_min) > __FLT_EPSILON__) && ros > prev_min))
+          {
+            logging::error(
+              "Fire speed increase from %f to %f between angle %f and %f",
+              prev_min,
+              ros,
+              to_degrees(prev_angle),
+              to_degrees(direction));
+          }
+          else
+          {
+            logging::note(
+              "ROS decrease from %f to %f between angle %f and %f",
+              ((ros < prev_min) ? "decrease" : "consistent"),
+              prev_min,
+              ros,
+              to_degrees(prev_angle),
+              to_degrees(direction));
+          }
+        }
+        have_prev = true;
+        prev_min = ros;
+        prev_angle = direction;
       }
+      odd = !odd;
+      // if (ros < min_ros_)
+      // {
+      //   // return false;
+      //   // NOTE: always return true so we can ensure we go around ellipse entirely for testing
+      //   return true;
+      // }
       const auto ros_cell = ros / cell_size_;
       const auto intensity = fuel::fire_intensity(tfc, ros);
       // spreading, so figure out offset from current point
@@ -81,6 +124,12 @@ HorizontalAdjustment horizontal_adjustment(
   const auto flank_ros_sq = flank_ros * flank_ros;
   const auto a_sq_sub_c_sq = a_sq - (c * c);
   const auto ac = a * c;
+  logging::note(
+    "Calculating offsets for HROS %f, BROS %f, L:B %f, FROS %f",
+    head_ros,
+    back_ros,
+    length_to_breadth,
+    flank_ros);
   const auto calculate_ros =
     [a, c, ac, flank_ros, a_sq, flank_ros_sq, a_sq_sub_c_sq](const MathSize theta) noexcept {
       const auto cos_t = _cos(theta);
@@ -120,7 +169,10 @@ HorizontalAdjustment horizontal_adjustment(
   }
   if (added)
   {
+    added = add_offsets_calc_ros(util::to_radians(90 - __DBL_EPSILON__));
+    // NOTE: this must be simplified from the original formula
     added = add_offsets(util::to_radians(90), flank_ros * sqrt(a_sq_sub_c_sq) / a);
+    added = add_offsets_calc_ros(util::to_radians(90 + __DBL_EPSILON__));
     i = 90 + max_angle_;
     while (added && i < 180)
     {
@@ -140,13 +192,14 @@ HorizontalAdjustment horizontal_adjustment(
   }
   return offsets;
 }
-[[nodiscard]] OffsetSet WidestEllipseAlgorithm::calculate_offsets(
-  const HorizontalAdjustment correction_factor,
-  const MathSize tfc,
-  const MathSize head_raz,
-  const MathSize head_ros,
-  const MathSize back_ros,
-  const MathSize length_to_breadth) const noexcept
+[[nodiscard]] OffsetSet
+  WidestEllipseAlgorithm::calculate_offsets(
+    const HorizontalAdjustment correction_factor,
+    const MathSize tfc,
+    const MathSize head_raz,
+    const MathSize head_ros,
+    const MathSize back_ros,
+    const MathSize length_to_breadth) const noexcept
 {
   OffsetSet offsets{};
   const auto add_offset =
@@ -244,8 +297,8 @@ HorizontalAdjustment horizontal_adjustment(
   bool added = true;
 #define STEP_X 0.2
 #define STEP_MAX util::to_radians(max_angle_)
-  //MathSize step_x = STEP_X;
-  //MathSize step_x = STEP_X / length_to_breadth;
+  // MathSize step_x = STEP_X;
+  // MathSize step_x = STEP_X / length_to_breadth;
   MathSize step_x = STEP_X / pow(length_to_breadth, 0.5);
   MathSize theta = 0;
   MathSize angle = 0;
@@ -310,7 +363,7 @@ HorizontalAdjustment horizontal_adjustment(
     // last_angle = angle;
   }
   // just because 5 seems good for the front and 10 for the back
-  //step_max = 2.0 * STEP_MAX;
+  // step_max = 2.0 * STEP_MAX;
   cur_x -= (step_x / 2.0);
   // trying to pick less rear points
   // step_x *= length_to_breadth;

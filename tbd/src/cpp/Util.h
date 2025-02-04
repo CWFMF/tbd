@@ -519,4 +519,44 @@ void month_and_day(const int year, const size_t day_of_year, size_t* month, size
     atan2(sin(theta) / length_to_breadth,
           cos(theta))));
 }
+/**
+ * Determine difference between the angles.
+ * @param a First angle (degrees)
+ * @param b Second angle (degrees)
+ * @return Difference between the angles a & b (degrees)
+ */
+[[nodiscard]] inline MathSize diff_degrees(const MathSize a, const MathSize b)
+{
+  return 180 - abs(abs(a - b) - 180);
+  // // need to account for 360 == 0
+  // MathSize c = max(a, b) - min(a, b);
+  // while (c < 0)
+  // {
+  //   c += 360;
+  // }
+  // while (c > 360)
+  // {
+  //   c -= 360;
+  // }
+  // const auto d = 180 - abs(abs(a - b) - 180);
+  // // if (c > 180)
+  // // {
+  // //   printf(
+  // //     "Calculating angle between %f and %f: %f\n",
+  // //     a,
+  // //     b,
+  // //     c);
+  // // }
+  // if ((c < 0 || c > 360) || (c != d))
+  // {
+  //   printf(
+  //     "Error calculating angle between %f and %f: %f vs %f\n",
+  //     a,
+  //     b,
+  //     c,
+  //     d);
+  //   exit(-2);
+  // }
+  // return c;
+}
 }

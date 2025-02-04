@@ -82,7 +82,7 @@ public:
 void showSpread(const SpreadInfo& spread, const wx::FwiWeather* w, const fuel::FuelType* fuel)
 {
   // column, (width, format)
-  static const map<const char* const, std::pair<int, const char* const>> FMT{
+  static const map<const string, std::pair<int, const string>> FMT{
     {"PREC", {5, "%*.2f"}},
     {"TEMP", {5, "%*.1f"}},
     {"RH", {3, "%*g"}},
@@ -108,22 +108,53 @@ void showSpread(const SpreadInfo& spread, const wx::FwiWeather* w, const fuel::F
     {"ROS", {6, "%*.4g"}},
     {"SFC", {6, "%*.4g"}},
     {"TFC", {6, "%*.4g"}},
+    {"BROS", {6, "%*.4g"}},
+    {"FROS", {6, "%*.4g"}},
+  };
+  // FIX: this is really error prone and seems bad
+  static const vector<string> FMT_ORDER{
+    "PREC",
+    "TEMP",
+    "RH",
+    "WS",
+    "WD",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "BUI",
+    "FWI",
+    "GS",
+    "SAZ",
+    "FUEL",
+    "GC",
+    "L:B",
+    "CBH",
+    "CFB",
+    "CFC",
+    "FD",
+    "HFI",
+    "RAZ",
+    "ROS",
+    "SFC",
+    "TFC",
+    "BROS",
+    "FROS",
   };
   printf("Calculated spread is:\n");
   // print header row
-  for (const auto& h_f : FMT)
+  for (const auto& col : FMT_ORDER)
   {
     // HACK: need to format string of the same length
-    const auto col = h_f.first;
-    const auto width = h_f.second.first;
+    const auto width = FMT.at(col).first;
     // column width + 1 space
-    printf("%*s", width + 1, col);
+    printf("%*s", width + 1, col.c_str());
   }
   printf("\n");
-  auto print_col = [](const char* col, auto value) {
+  auto print_col = [](const string& col, auto value) {
     const auto width_fmt = FMT.at(col);
     const auto width = width_fmt.first + 1;
-    const auto fmt = width_fmt.second;
+    const auto fmt = width_fmt.second.c_str();
     printf(fmt, width, value);
   };
   // HACK: just do individual calls for now
@@ -154,6 +185,8 @@ void showSpread(const SpreadInfo& spread, const wx::FwiWeather* w, const fuel::F
   print_col("ROS", spread.headRos());
   print_col("SFC", spread.surfaceFuelConsumption());
   print_col("TFC", spread.totalFuelConsumption());
+  print_col("BROS", spread.backRos());
+  print_col("FROS", spread.flankRos());
   printf("\r\n");
 }
 static Semaphore num_concurrent{static_cast<int>(std::thread::hardware_concurrency())};

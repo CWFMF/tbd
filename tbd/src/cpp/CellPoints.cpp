@@ -29,7 +29,8 @@ static const SpreadData INVALID_SPREAD_DATA{
   static_cast<IntensitySize>(0),
   INVALID_ROS,
   Direction::Invalid,
-  Direction::Invalid};
+  Direction::Invalid,
+  false};
 set<XYPos> CellPoints::unique() const noexcept
 {
   // // if any point is invalid then they all have to be
@@ -144,139 +145,150 @@ CellPoints& CellPoints::insert(
   // count things as the same time if within a tolerance
   constexpr auto TIME_EPSILON_SECONDS = 1.0 * MINUTE_SECONDS;
   constexpr auto TIME_EPSILON = TIME_EPSILON_SECONDS / DAY_SECONDS;
-  // logging::note(
-  //   "TIME_EPSILON of %f is %f seconds",
-  //   TIME_EPSILON,
-  //   TIME_EPSILON_SECONDS);
-  if (0 < spread_current.time() && 0 > spread_arrival_.time())
+  // // initial burn will have an invalid direction, so needs to burn everywhere
+  auto is_initial = Direction::Invalid == spread_current.direction_previous();
+  // if the previous spread that got to the source of this was from another cell then consider every angle
+  is_initial = is_initial || spread_internal_.is_initial();
+  // only spread in a direction that's in front of the normal to the angle it came from
+  // i.e. the 90 degrees on either side of the raz
+  // const auto dir_diff = abs(spread_current.direction().asDegrees() - spread_current.direction_previous().asDegrees());
+  const auto dir_diff = is_initial ? 0 : diff_degrees(spread_current.direction().asDegrees(), spread_current.direction_previous().asDegrees());
+  // const auto MAX_DEGREES = 180.0;
+  const auto MAX_DEGREES = 90.0;
+  // const auto MAX_DEGREES = 60.0;
+  // const auto MAX_DEGREES = 45.0;
+  // const auto MAX_DEGREES = (5.0 * MAX_SPREAD_ANGLE);
+  // FIX: this is causing reduced growth - think we need to consider if we're just initially in a cell and the raz is from the previous
+  // could also only update the spread direction if the angles are good, but spread regardless?
+  // const auto MAX_DEGREES = (5.0 * MAX_SPREAD_ANGLE);
+  // NOTE: there should be no change in the extent of the fire if we exclude things behind the normal to the direction it came from
+  //       - but if we exclude too much then it can change how things spread, even if it is a more representative angle for the grids
+  const Location& dst = location();
+  // if (is_initial || MAX_DEGREES >= dir_diff || dst != src.location())
+  if (is_initial || MAX_DEGREES >= dir_diff)
   {
-    logging::verbose(
-      "No time so setting ros to %f at time %f",
-      spread_current.ros(),
-      spread_current.time());
-    // record ros and time if nothing yet
-    spread_arrival_ = spread_current;
-  }
-  else
-  {
-    // initial burn will have an invalid direction, so needs to burn everywhere
-    const auto is_initial = Direction::Invalid == spread_current.direction_previous();
-    // only spread in a direction that's in front of the normal to the angle it came from
-    // i.e. the 90 degrees on either side of the raz
-    const auto dir_diff = abs(spread_current.direction().asDegrees() - spread_current.direction_previous().asDegrees());
-    const auto MAX_DEGREES = 90.0;
-    // const auto MAX_DEGREES = 45.0;
-    // const auto MAX_DEGREES = 45.0;
-    // const auto MAX_DEGREES = (5.0 * MAX_SPREAD_ANGLE);
-    // FIX: this is causing reduced growth - think we need to consider if we're just initially in a cell and the raz is from the previous
-    // could also only update the spread direction if the angles are good, but spread regardless?
-    // const auto MAX_DEGREES = (2.0 * MAX_SPREAD_ANGLE);
-    // NOTE: there should be no change in the extent of the fire if we exclude things behind the normal to the direction it came from
-    //       - but if we exclude too much then it can change how things spread, even if it is a more representative angle for the grids
-    if (is_initial || MAX_DEGREES >= dir_diff)
+    // logging::note(
+    //   "TIME_EPSILON of %f is %f seconds",
+    //   TIME_EPSILON,
+    //   TIME_EPSILON_SECONDS);
+    if (0 < spread_current.time() && 0 > spread_arrival_.time())
     {
-      if (abs(spread_current.time() - spread_arrival_.time()) <= TIME_EPSILON)
-      // else if (arrival_time == arrival_time_)
+      logging::verbose(
+        "No time so setting ros to %f at time %f",
+        spread_current.ros(),
+        spread_current.time());
+      // record ros and time if nothing yet
+      spread_arrival_ = spread_current;
+    }
+    else
+    {
       {
-        logging::verbose(
-          "Same time so setting ros to max(%f, %f) at time %f",
-          spread_current.ros(),
-          spread_arrival_.ros(),
-          spread_current.time());
-        // the same time so pick higher ros
-        if (
-          (spread_arrival_.ros() < spread_current.ros())
-          || (spread_arrival_.ros() == spread_current.ros()
-              && spread_current.intensity() > spread_arrival_.intensity()))
+        if (abs(spread_current.time() - spread_arrival_.time()) <= TIME_EPSILON)
+        // else if (arrival_time == arrival_time_)
         {
-          // NOTE: keep track of original time so this doesn't just always happen
-          spread_arrival_ = SpreadData(
-            spread_arrival_.time(),
-            spread_current.intensity(),
+          logging::verbose(
+            "Same time so setting ros to max(%f, %f) at time %f",
             spread_current.ros(),
-            spread_current.direction(),
-            spread_current.direction_previous());
+            spread_arrival_.ros(),
+            spread_current.time());
+          // the same time so pick higher ros
+          if (
+            (spread_arrival_.ros() < spread_current.ros())
+            || (spread_arrival_.ros() == spread_current.ros()
+                && spread_current.intensity() > spread_arrival_.intensity()))
+          {
+            // NOTE: keep track of original time so this doesn't just always happen
+            spread_arrival_ = SpreadData(
+              spread_arrival_.time(),
+              spread_current.intensity(),
+              spread_current.ros(),
+              spread_current.direction(),
+              spread_current.direction_previous(),
+              spread_current.is_initial());
+          }
+          // arrival_time_ = arrival_time;
         }
-        // arrival_time_ = arrival_time;
       }
     }
-  }
-  // NOTE: use location inside cell so smaller types can be more precise
-  // since digits aren't wasted on cell
-  const auto p0 = InnerPos(
-    static_cast<InnerSize>(x - cell_x_y_.first),
-    static_cast<InnerSize>(y - cell_x_y_.second));
-  const auto x0 = static_cast<DistanceSize>(p0.first);
-  const auto y0 = static_cast<DistanceSize>(p0.second);
-  // CHECK: FIX: is this initializing everything to false or just one element?
-  std::array<bool, NUM_DIRECTIONS> closer{false};
-  // static_assert(pts_.first.size() == NUM_DIRECTIONS);
-  for (size_t i = 0; i < NUM_DIRECTIONS; ++i)
-  {
-    const auto& p1 = POINTS_OUTER[i];
-    const auto& x1 = p1.first;
-    const auto& y1 = p1.second;
-    const auto d = ((x0 - x1) * (x0 - x1) + (y0 - y1) * (y0 - y1));
-    auto& p_d = pts_.distances()[i];
-    auto& p_p = pts_.points()[i];
-    auto& p_a = pts_.directions()[i];
-    closer[NUM_DIRECTIONS] = (d < p_d);
-    p_p = closer[NUM_DIRECTIONS] ? p0 : p_p;
-    p_d = closer[NUM_DIRECTIONS] ? d : p_d;
-    p_a = closer[NUM_DIRECTIONS] ? spread_current.direction().asDegrees() : p_a;
-    // // worse than two checks + assignment
-    // const auto& [p_new, d_new] =
-    //   (d < p_d)
-    //     ? std::make_tuple(p0, d)
-    //     : std::make_tuple(p_p, p_d);
-    // p_p = p_new;
-    // p_d = d_new;
-    // // worse than two checks + assignment
-    // std::tie(p_d, p_p) =
-    //   (d < p_d)
-    //     ? std::make_tuple(d, p0)
-    //     : std::make_tuple(p_d, p_p);
-  }
-#ifdef DEBUG_CELLPOINTS
-  logging::note("now have %ld points", size());
-#endif
-
-  const Location& dst = location();
-  // adds 0 if the same so try without checking
-  // if (src != dst)
-  {
-    // we inserted a pair of (src, dst), which means we've never
-    // calculated the relativeIndex for this so add it to main map
-    add_source(
-      relativeIndex(
-        src.location(),
-        dst));
-  }
-  if (src.location() == dst)
-  {
-    // if we spread from this cell to this cell again then ros could be considered for max
-    // need to make sure we're not spreading back towards where we came from because that doesn't matter
-    // HACK: for now look at source for this cell and exclude points in those directions
-    const auto srcs = sources();
-    // // we need to know if this point actually got used anywhere for this to matter
-    // // NOTE: should this just be a single check at the end?
-    // //       - would mean we might miss directions if something else moved boundary?
-    // if (!(srcs & DIRECTION_N))
-    // {
-    // }
+    // NOTE: use location inside cell so smaller types can be more precise
+    // since digits aren't wasted on cell
+    const auto p0 = InnerPos(
+      static_cast<InnerSize>(x - cell_x_y_.first),
+      static_cast<InnerSize>(y - cell_x_y_.second));
+    const auto x0 = static_cast<DistanceSize>(p0.first);
+    const auto y0 = static_cast<DistanceSize>(p0.second);
+    // CHECK: FIX: is this initializing everything to false or just one element?
+    std::array<bool, NUM_DIRECTIONS> closer{false};
+    // static_assert(pts_.first.size() == NUM_DIRECTIONS);
     for (size_t i = 0; i < NUM_DIRECTIONS; ++i)
     {
-      const auto mask = DIRECTION_MASKS[i];
-      if (mask != (srcs & mask))
+      const auto& p1 = POINTS_OUTER[i];
+      const auto& x1 = p1.first;
+      const auto& y1 = p1.second;
+      const auto d = ((x0 - x1) * (x0 - x1) + (y0 - y1) * (y0 - y1));
+      auto& p_d = pts_.distances()[i];
+      auto& p_p = pts_.points()[i];
+      auto& p_a = pts_.directions()[i];
+      closer[NUM_DIRECTIONS] = (d < p_d);
+      p_p = closer[NUM_DIRECTIONS] ? p0 : p_p;
+      p_d = closer[NUM_DIRECTIONS] ? d : p_d;
+      p_a = closer[NUM_DIRECTIONS] ? spread_current.direction().asDegrees() : p_a;
+      // // worse than two checks + assignment
+      // const auto& [p_new, d_new] =
+      //   (d < p_d)
+      //     ? std::make_tuple(p0, d)
+      //     : std::make_tuple(p_p, p_d);
+      // p_p = p_new;
+      // p_d = d_new;
+      // // worse than two checks + assignment
+      // std::tie(p_d, p_p) =
+      //   (d < p_d)
+      //     ? std::make_tuple(d, p0)
+      //     : std::make_tuple(p_d, p_p);
+    }
+#ifdef DEBUG_CELLPOINTS
+    logging::note("now have %ld points", size());
+#endif
+
+    // adds 0 if the same so try without checking
+    // if (src != dst)
+    {
+      // we inserted a pair of (src, dst), which means we've never
+      // calculated the relativeIndex for this so add it to main map
+      add_source(
+        relativeIndex(
+          src.location(),
+          dst));
+    }
+    if (src.location() == dst)
+    {
+      // if we spread from this cell to this cell again then ros could be considered for max
+      // need to make sure we're not spreading back towards where we came from because that doesn't matter
+      // HACK: for now look at source for this cell and exclude points in those directions
+      const auto srcs = sources();
+      // // we need to know if this point actually got used anywhere for this to matter
+      // // NOTE: should this just be a single check at the end?
+      // //       - would mean we might miss directions if something else moved boundary?
+      // if (!(srcs & DIRECTION_N))
+      // {
+      // }
+      for (size_t i = 0; i < NUM_DIRECTIONS; ++i)
       {
-        // at least one of the cells in this direction is not a source, so consider them
-        if (closer[i])
+        const auto mask = DIRECTION_MASKS[i];
+        if (mask != (srcs & mask))
         {
-          // point was closer to edge than what was there
-          if (spread_current.ros() >= spread_internal_.ros())
+          // at least one of the cells in this direction is not a source, so consider them
+          if (closer[i])
           {
-            // since we spread within cell then set internal spread
-            spread_internal_ = spread_current;
+            if (is_initial || MAX_DEGREES >= dir_diff)
+            {
+              // point was closer to edge than what was there
+              if (spread_current.ros() >= spread_internal_.ros())
+              {
+                // since we spread within cell then set internal spread
+                spread_internal_ = spread_current;
+              }
+            }
           }
         }
       }

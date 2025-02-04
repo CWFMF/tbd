@@ -356,7 +356,8 @@ void Scenario::evaluate(const Event& event)
           NO_INTENSITY,
           NO_ROS,
           Direction::Invalid,
-          Direction::Invalid),
+          Direction::Invalid,
+          true),
         x,
         y);
       if (fuel::is_null_fuel(event.cell()))
@@ -653,7 +654,8 @@ Scenario* Scenario::run(map<DurationSize, ProbabilityMap*>* probabilities)
           NO_INTENSITY,
           NO_ROS,
           Direction::Invalid,
-          Direction::Invalid),
+          Direction::Invalid,
+          true),
         x,
         y);
       // auto e = points_.try_emplace(cell, cell.column() + CELL_CENTER, cell.row() + CELL_CENTER);
@@ -858,50 +860,56 @@ CellPointsMap apply_offsets_spreadkey(
         // #endif
         // // initial burn will have an invalid direction, so needs to burn everywhere
         // const auto is_initial = Direction::Invalid.asDegrees() == dir;
-        // // if (Direction::Invalid == raz)
-        // // {
-        // //   logging::warning("Invalid raz detected");
-        // // }
-        // // if (Direction::Invalid.asDegrees() == dir)
-        // // {
-        // //   logging::warning("Invalid direction detected");
-        // // }
-        // // if (INVALID_DIRECTION == raz.asDegrees() || (5.0 * MAX_SPREAD_ANGLE) >= dir_diff)
-        // // only spread in a direction that's in front of the normal to the angle it came from
-        // // i.e. the 90 degrees on either side of the raz
-        // const auto MAX_DEGREES = 90.0;
-        // // const auto MAX_DEGREES = 45.0;
-        // // const auto MAX_DEGREES = (5.0 * MAX_SPREAD_ANGLE);
-        // // FIX: this is causing reduced growth - think we need to consider if we're just initially in a cell and the raz is from the previous
-        // // could also only update the spread direction if the angles are good, but spread regardless?
-        // // const auto MAX_DEGREES = (2.0 * MAX_SPREAD_ANGLE);
-        // // NOTE: there should be no change in the extent of the fire if we exclude things behind the normal to the direction it came from
-        // //       - but if we exclude too much then it can change how things spread, even if it is a more representative angle for the grids
-        // if (is_initial || MAX_DEGREES >= dir_diff)
+        // // // if (Direction::Invalid == raz)
+        // // // {
+        // // //   logging::warning("Invalid raz detected");
+        // // // }
+        // // // if (Direction::Invalid.asDegrees() == dir)
+        // // // {
+        // // //   logging::warning("Invalid direction detected");
+        // // // }
+        // // // if (INVALID_DIRECTION == raz.asDegrees() || (5.0 * MAX_SPREAD_ANGLE) >= dir_diff)
+        // // // only spread in a direction that's in front of the normal to the angle it came from
+        // // // i.e. the 90 degrees on either side of the raz
+        // const auto MAX_DEGREES = 120.0;
+        // // // const auto MAX_DEGREES = 45.0;
+        // // // const auto MAX_DEGREES = (5.0 * MAX_SPREAD_ANGLE);
+        // // // FIX: this is causing reduced growth - think we need to consider if we're just initially in a cell and the raz is from the previous
+        // // // could also only update the spread direction if the angles are good, but spread regardless?
+        // // // const auto MAX_DEGREES = (2.0 * MAX_SPREAD_ANGLE);
+        // // // NOTE: there should be no change in the extent of the fire if we exclude things behind the normal to the direction it came from
+        // // //       - but if we exclude too much then it can change how things spread, even if it is a more representative angle for the grids
+        // // if (is_initial || MAX_DEGREES >= dir_diff)
         {
           const auto new_x = x_o + pt.first + cell_x;
           const auto new_y = y_o + pt.second + cell_y;
-          logging::verbose(
-            "(%d, %d): %f: [%f => (%f, %f)] + [%f => (%f, %f)] = [%f => (%f, %f)]",
-            cell_x,
-            cell_y,
-            dir_diff,
-            dir,
-            x_o,
-            y_o,
-            raz.asDegrees(),
-            pt.first,
-            pt.second,
-            raz.asDegrees(),
-            new_x,
-            new_y);
+          // FIX: repeated logic in multiple places to try to figure out where spread is to/from
+          const auto is_initial = CellPos(new_x, new_y).location() != src.location();
+          if (is_initial)
+          {
+            logging::verbose(
+              "(%d, %d): %f: [%f => (%f, %f)] + [%f => (%f, %f)] = [%f => (%f, %f)]",
+              cell_x,
+              cell_y,
+              dir_diff,
+              dir,
+              x_o,
+              y_o,
+              raz.asDegrees(),
+              pt.first,
+              pt.second,
+              raz.asDegrees(),
+              new_x,
+              new_y);
+          }
           r1.insert(
             src,
             SpreadData(arrival_time,
                        intensity,
                        ros,
                        raz,
-                       Direction(dir, false)),
+                       Direction(dir, false),
+                       is_initial),
             new_x,
             new_y);
 #ifdef DEBUG_CELLPOINTS

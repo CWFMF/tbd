@@ -15,29 +15,51 @@ using tbd::wx::Direction;
 // using sim::CellPoints;
 using topo::Cell;
 using topo::SpreadKey;
-class SpreadData : std::tuple<DurationSize, IntensitySize, ROSSize, Direction, Direction>
+class SpreadData : std::tuple<DurationSize, IntensitySize, ROSSize, Direction, Direction, bool>
 {
 public:
-  using std::tuple<DurationSize, IntensitySize, ROSSize, Direction, Direction>::tuple;
+  using std::tuple<DurationSize, IntensitySize, ROSSize, Direction, Direction, bool>::tuple;
+  /**
+   * Time of spread
+   */
   DurationSize time() const
   {
     return std::get<0>(*this);
   }
+  /**
+   * Fire intensity
+   */
   IntensitySize intensity() const
   {
     return std::get<1>(*this);
   }
+  /**
+   * Rate of spread
+   */
   ROSSize ros() const
   {
     return std::get<2>(*this);
   }
+  /**
+   * Direction of spread
+   */
   Direction direction() const
   {
     return std::get<3>(*this);
   }
+  /**
+   * The direction the point that is spreading initially spread from
+   */
   Direction direction_previous() const
   {
     return std::get<4>(*this);
+  }
+  /**
+   * Whether this is the initial spread into a cell
+   */
+  bool is_initial() const
+  {
+    return std::get<5>(*this);
   }
 };
 

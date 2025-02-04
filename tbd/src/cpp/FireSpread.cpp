@@ -59,7 +59,7 @@ int calculate_nd_for_point(const Day day, const int elevation, const topo::Point
 }
 static MathSize calculate_standard_back_isi_wsv(const MathSize v) noexcept
 {
-  return 0.208 * exp(-0.05039 * v);
+  return ISI_FACTOR * exp(-0.05039 * v);
 }
 static const util::LookupTable<&calculate_standard_back_isi_wsv> STANDARD_BACK_ISI_WSV{};
 static constexpr MathSize calculate_standard_wsv(const MathSize v) noexcept
@@ -93,13 +93,13 @@ MathSize SpreadInfo::initial(SpreadInfo& spread,
   ffmc_effect = spread.ffmcEffect();
   // needs to be non-const so that we can update if slopeEffect changes direction
   MathSize raz = spread.wind().heading();
-  const auto isz = 0.208 * ffmc_effect;
+  const auto isz = ISI_FACTOR * ffmc_effect;
   wsv = spread.wind().speed().asValue();
   if (!has_no_slope)
   {
     const auto isf1 = fuel->calculateIsf(spread, isz);
     // const auto isf = (0.0 == isf1) ? isz : isf1;
-    // we know const auto isz = 0.208 * ffmc_effect;
+    // we know const auto isz = ISI_FACTOR * ffmc_effect;
     auto wse = 0.0 == isf1 ? 0 : log(isf1 / isz) / 0.05039;
     if (wse > 40)
     {
@@ -256,6 +256,8 @@ SpreadInfo::SpreadInfo(const DurationSize time,
     weather_(weather),
     time_(time),
     head_ros_(INVALID_ROS),
+    back_ros_(INVALID_ROS),
+    flank_ros_(INVALID_ROS),
     cfb_(-1),
     cfc_(-1),
     tfc_(-1),
@@ -327,16 +329,16 @@ SpreadInfo::SpreadInfo(const DurationSize time,
   }
   logging::verbose("initial ros is %f", head_ros_);
   const auto back_isi = ffmc_effect * STANDARD_BACK_ISI_WSV(wsv);
-  auto back_ros = fuel->calculateRos(nd,
-                                     *weather,
-                                     back_isi)
-                * bui_eff;
+  back_ros_ = fuel->calculateRos(nd,
+                                 *weather,
+                                 back_isi)
+            * bui_eff;
   if (is_crown_)
   {
-    back_ros = fuel->finalRos(*this,
-                              back_isi,
-                              fuel->crownFractionBurned(back_ros, rso),
-                              back_ros);
+    back_ros_ = fuel->finalRos(*this,
+                               back_isi,
+                               fuel->crownFractionBurned(back_ros_, rso),
+                               back_ros_);
   }
   tfc_ = sfc_;
   // don't need to re-evaluate if crown with new head_ros_ because it would only go up if is_crown_
@@ -351,13 +353,17 @@ SpreadInfo::SpreadInfo(const DurationSize time,
   max_intensity_ = fuel::fire_intensity(tfc_, head_ros_);
   l_b_ = fuel->lengthToBreadth(wsv);
   const HorizontalAdjustment correction_factor = horizontal_adjustment(slope_azimuth, percentSlope());
-  // const auto spread_algorithm = OriginalSpreadAlgorithm(1.0, cell_size, min_ros);
-  const auto spread_algorithm = WidestEllipseAlgorithm(MAX_SPREAD_ANGLE, cell_size, min_ros);
+  const auto spread_algorithm = OriginalSpreadAlgorithm(1.0, cell_size, min_ros);
+  // FIX: replicate here for now
+  const auto a = (head_ros_ + back_ros_) / 2.0;
+  flank_ros_ = a / l_b_;
+
+  // const auto spread_algorithm = WidestEllipseAlgorithm(MAX_SPREAD_ANGLE, cell_size, min_ros);
   offsets_ = spread_algorithm.calculate_offsets(correction_factor,
                                                 tfc_,
                                                 raz_.asRadians(),
                                                 head_ros_,
-                                                back_ros,
+                                                back_ros_,
                                                 l_b_);
   // might not be correct depending on slope angle correction
   // #ifdef DEBUG_POINTS

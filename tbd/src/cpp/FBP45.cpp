@@ -101,4 +101,5 @@ MathSize FuelD2::calculateRos(const int,
 {
   return (wx.bui().asValue() >= 80) ? rosBasic(isi) : 0.0;
 }
+
 }
