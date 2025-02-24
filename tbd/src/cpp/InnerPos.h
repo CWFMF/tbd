@@ -66,7 +66,11 @@ class XYPos
 {
 public:
   using BoundedPoint<XYSize, 0, MAX_COLUMNS, 0, MAX_ROWS>::BoundedPoint;
-  constexpr Location location() const
+#ifdef NDEBUG
+  constexpr
+#endif
+    Location
+    location() const
   {
     // HACK: Location is (row, column) and this is (x, y)
     return {static_cast<Idx>(second), static_cast<Idx>(first)};
@@ -80,7 +84,11 @@ class CellPos
 {
 public:
   using BoundedPoint<Idx, 0, MAX_COLUMNS, 0, MAX_ROWS>::BoundedPoint;
-  constexpr Location location() const
+#ifdef NDEBUG
+  constexpr
+#endif
+    Location
+    location() const
   {
     // HACK: Location is (row, column) and this is (x, y)
     return {static_cast<Idx>(second), static_cast<Idx>(first)};
