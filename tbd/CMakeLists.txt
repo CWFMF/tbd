@@ -1,4 +1,11 @@
 cmake_minimum_required(VERSION 3.13)
+
+# Enable Hot Reload for MSVC compilers if supported.
+if (POLICY CMP0141)
+  cmake_policy(SET CMP0141 NEW)
+  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
+endif()
+
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
@@ -78,9 +85,10 @@ if(NOT WIN32)
 endif()
 
 add_executable(${PROJECT_NAME} ${SOURCES})
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 20)
 if (WIN32)
     find_package(GeoTIFF CONFIG REQUIRED)
-    find_package(PROJ REQUIRED CONFIG)
+    find_package(PROJ CONFIG REQUIRED)
     target_include_directories(${PROJECT_NAME} PRIVATE ${GEOTIFF_INCLUDE_DIR})
     target_link_libraries(${PROJECT_NAME} PRIVATE ${GEOTIFF_LIBRARIES} PROJ::proj)
 else()
@@ -92,7 +100,7 @@ else()
         include_directories("/usr/include/geotiff")
     endif()
 
-    find_package(PROJ REQUIRED CONFIG)
+    find_package(PROJ CONFIG REQUIRED)
     target_link_libraries(${PROJECT_NAME} PUBLIC geotiff tiff PROJ::proj)
 endif()
 
