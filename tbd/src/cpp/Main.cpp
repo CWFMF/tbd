@@ -20,6 +20,12 @@
 #include "SpreadAlgorithm.h"
 #include "Util.h"
 #include "FireWeather.h"
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <filesystem>
+#include <iostream>
+#endif
 using tbd::logging::Log;
 using tbd::sim::Settings;
 using tbd::AspectSize;
@@ -235,13 +241,25 @@ int main(const int argc, const char* const argv[])
   tbd::debug::show_debug_settings();
   ARGC = argc;
   ARGV = argv;
-  auto bin = string(ARGV[CUR_ARG++]);
+  // HACK: increment because we used to when getting ARGV[0]
+  CUR_ARG++;
+  // HACK: super basic version of finding path just for windows & linux
+#ifdef _WIN32
+  // apparently still just 260 chars in win11
+  constexpr auto PATH_MAX = 1024;
+  char bin_path[PATH_MAX + 1];
+  GetModuleFileNameA(NULL, &bin_path[0], PATH_MAX);
+#else
+  // HACK: ARGV[0] is not necessarily qualified or the binary
+  const auto& bin_path = std::filesystem::weakly_canonical("/proc/self/exe").c_str();
+#endif
+  auto bin = string(bin_path);
   replace(bin.begin(), bin.end(), '\\', '/');
   const auto end = max(static_cast<size_t>(0), bin.rfind('/') + 1);
   const auto bin_dir = bin.substr(0, end);
   const auto bin_name = bin.substr(end, bin.size() - end);
   // printf("Binary is %s in directory %s\n", bin_name.c_str(), bin_dir.c_str());
-  BIN_NAME = bin.c_str();
+  BIN_NAME = bin_name.c_str();
   Settings::setRoot(bin_dir.c_str());
   // _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
   Log::setLogLevel(tbd::logging::LOG_NOTE);
