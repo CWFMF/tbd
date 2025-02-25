@@ -2,6 +2,7 @@
   "dependencies": [
     "libgeotiff",
     "tiff",
-    "curl"
-  ]
+    "proj"
+  ],
+  "builtin-baseline": "2c401863dd54a640aeb26ed736c55489c079323b"
 }
