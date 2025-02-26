@@ -35,7 +35,9 @@ message("CMAKE_BUILD_TYPE = ${CMAKE_BUILD_TYPE}")
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++20")
 if(WIN32)
   # don't set -Wextra
-  set(CMAKE_CXX_FLAGS "-Wall")
+  # set(CMAKE_CXX_FLAGS "-Wall")
+  add_compile_options("$<$<CONFIG:RELEASE>:/O2;/MT>"
+                      "$<$<CONFIG:DEBUG>:/Od;/MTd>")
 else()
   # HACK: if gcc supports ARCH_PREFERRED on this then use that else native
   execute_process(
@@ -79,8 +81,13 @@ endif()
 message("VERSION = ${VERSION}")
 string(TIMESTAMP COMPILE_DATE "%Y-%m-%dT%H:%MZ" UTC)
 message("COMPILE_DATE = ${COMPILE_DATE}")
-set(VERSION_CODE "const char* VERSION = \"${VERSION}\";\n"
-                 "const char* COMPILE_DATE = \"${COMPILE_DATE}\";\n")
+set(VERSION_CODE
+  "#include \"version.h\"\n"
+  "const char* VERSION = \"${VERSION}\"\;\n"
+  "const char* COMPILE_DATE = \"${COMPILE_DATE}\"\;\n")
+message(${VERSION_CODE})
+list(JOIN VERSION_CODE "" VERSION_CODE)
+message(${VERSION_CODE})
 if(EXISTS src/cpp/version.cpp)
   file(READ src/cpp/version.cpp VERSION_CODE_OLD)
 else()
@@ -97,15 +104,15 @@ if(NOT WIN32)
     src/cpp/unstable.cpp PROPERTIES COMPILE_FLAGS "${CMAKE_CXX_FLAGS_RELEASE}")
 endif()
 
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES} src/cpp/version.cpp)
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 20)
 if(WIN32)
   find_package(GeoTIFF CONFIG REQUIRED)
   find_package(PROJ CONFIG REQUIRED)
   target_include_directories(${PROJECT_NAME} PRIVATE ${GEOTIFF_INCLUDE_DIR})
   target_link_libraries(${PROJECT_NAME} PRIVATE ${GEOTIFF_LIBRARIES} PROJ::proj)
-  target_compile_options(${PROJECT_NAME} PRIVATE /MT)
-  target_link_options(${PROJECT_NAME} PRIVATE /INCREMENTAL:NO /NODEFAULTLIB:MSVCRT)
+  target_compile_options(${PROJECT_NAME} PRIVATE /permissive- /EHsc)
+  target_link_options(${PROJECT_NAME} PRIVATE /NODEFAULTLIB:MSVCRT)
 else()
   list(APPEND CMAKE_MODULE_PATH "/usr/lib/x86_64-linux-gnu/cmake")
 
