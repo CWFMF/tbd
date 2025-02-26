@@ -34,10 +34,10 @@ message("CMAKE_BUILD_TYPE = ${CMAKE_BUILD_TYPE}")
 
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++20")
 if(WIN32)
-  # don't set -Wextra
-  # set(CMAKE_CXX_FLAGS "-Wall")
-  add_compile_options("$<$<CONFIG:RELEASE>:/O2;/MT>"
-                      "$<$<CONFIG:DEBUG>:/Od;/MTd>")
+  # HACK: use same settings for RelWitDebInfo since can't figure out how to work with vcpkg
+  add_compile_options(
+    "$<$<CONFIG:RELEASE,RelWithDebInfo>:/O2;/MT>"
+    "$<$<CONFIG:DEBUG>:/Od;/MTd>")
 else()
   # HACK: if gcc supports ARCH_PREFERRED on this then use that else native
   execute_process(
