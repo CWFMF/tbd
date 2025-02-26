@@ -3,6 +3,9 @@ if(WIN32)
   set(BUILD_SHARED_LIBS OFF)
   set(VCPKG_LIBRARY_LINKAGE static)
   set(VCPKG_TARGET_TRIPLET x64-windows-static)
+  if("${VCPKG_ROOT}" STREQUAL "")
+    set(VCPKG_ROOT $ENV{VCPKG_ROOT})
+  endif()
   set(CMAKE_TOOLCHAIN_FILE
       "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
       CACHE STRING "Vcpkg toolchain file")
