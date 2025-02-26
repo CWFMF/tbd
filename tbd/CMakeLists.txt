@@ -37,6 +37,7 @@ if(WIN32)
   # HACK: use same settings for RelWitDebInfo since can't figure out how to work with vcpkg
   add_compile_options(
     "$<$<CONFIG:RELEASE,RelWithDebInfo>:/O2;/MT>"
+    "$<$<CONFIG:MinSizeRel>:/Os;/MT>"
     "$<$<CONFIG:DEBUG>:/Od;/MTd>")
 else()
   # HACK: if gcc supports ARCH_PREFERRED on this then use that else native
