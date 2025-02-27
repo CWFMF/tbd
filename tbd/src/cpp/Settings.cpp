@@ -7,6 +7,7 @@
 #include <filesystem>
 #include "Settings.h"
 #include "Trim.h"
+#include "default_settings.h"
 namespace tbd::sim
 {
 template <class T>
@@ -27,6 +28,32 @@ static vector<T> parse_list(string str, T (*convert)(const string& s))
   }
   return result;
 }
+string resolve_path(const string& dir_root, const string& path)
+{
+  try
+  {
+    if (!path.starts_with("/"))
+    {
+      // not an absolute path
+      // if binary path starts with ./ then ignore it
+      std::filesystem::path p = (0 == strcmp("./", dir_root.c_str())
+                                 || 0 == strcmp(".\\", dir_root.c_str()))
+                                ? path
+                                : (dir_root + path);
+      logging::info("Converting relative path %s to absolute path", path.c_str());
+#ifdef _WIN32
+      return std::filesystem::canonical(p).generic_string();
+#else
+      return std::filesystem::canonical(p).c_str();
+#endif
+    }
+    return path;
+  }
+  catch (const std::exception&)
+  {
+    return "";
+  }
+}
 /**
  * \brief Settings implementation class
  */
@@ -43,8 +70,9 @@ public:
   /**
    * \brief Set root directory and read settings from file
    * \param dirname Directory to use for settings and relative paths
+   * \return Whether loading settings was successful
    */
-  void setRoot(const char* dirname) noexcept;
+  bool setRoot(const char* dirname) noexcept;
   /**
    * \brief Root directory that raster inputs are stored in
    * \return Root directory that raster inputs are stored in
@@ -169,11 +197,11 @@ public:
   }
   void setRasterRoot(const char* dirname) noexcept
   {
-    raster_root_ = dirname;
+    raster_root_ = resolve_path(dir_root_, dirname);
   }
   void setFuelLookupTable(const char* filename) noexcept
   {
-    fuel_lookup_table_file_ = filename;
+    fuel_lookup_table_file_ = resolve_path(dir_root_, filename);
   }
   /**
    * \brief Static curing value
@@ -478,37 +506,48 @@ string get_value(unordered_map<string, string>& settings, const string& key)
     settings.erase(found);
     return result;
   }
-  logging::fatal("Missing setting for %s", key.c_str());
-  // HACK: use return to avoid compiler warning
-  static const string Invalid = "INVALID";
-  return Invalid;
+  return "";
+}
+template <class T>
+T get_value(unordered_map<string, string>& settings, const char* key, const T default_value, std::function<T(const string&)> fct)
+{
+  try
+  {
+    return fct(get_value(settings, key));
+  }
+  catch (const std::exception& ex)
+  {
+    logging::error("Using default setting for %s", key);
+    return default_value;
+  }
+}
+// HACK: just make functions and figure out how to properly overload later
+MathSize get_stod(unordered_map<string, string>& settings, const char* key, const MathSize default_value)
+{
+  return get_value<MathSize>(settings, key, default_value, [](const string& str) { return static_cast<MathSize>(stod(str)); });
+}
+size_t get_stol(unordered_map<string, string>& settings, const char* key, const size_t default_value)
+{
+  return get_value<size_t>(settings, key, default_value, [](const string& str) { return static_cast<size_t>(stol(str)); });
+}
+int get_stoi(unordered_map<string, string>& settings, const char* key, const int default_value)
+{
+  return get_value<int>(settings, key, default_value, [](const string& str) { return static_cast<int>(stoi(str)); });
 }
 string get_path(const char* const dir_root, unordered_map<string, string>& settings, const string& key)
 {
-  auto path = get_value(settings, key);
-  if (!path.starts_with("/"))
+  auto path = resolve_path(dir_root, get_value(settings, key));
+  if (path.empty())
   {
-    // not an absolute path
-    // if binary path starts with ./ then ignore it
-    std::filesystem::path p = (0 == strcmp("./", dir_root)
-                               || 0 == strcmp(".\\", dir_root))
-                              ? path
-                              : (dir_root + path);
-#ifdef _WIN32
-    path = std::filesystem::canonical(p).generic_string();
-#else
-    path = std::filesystem::canonical(p).c_str();
-#endif
-    logging::info("Converted relative path to absolute path %s", path.c_str());
+    logging::error("Unable to resolve path for %s", key.c_str());
   }
-  return path;
 }
 SettingsImplementation::SettingsImplementation() noexcept
 {
   dir_root_ = "";
 }
 
-void SettingsImplementation::setRoot(const char* dirname) noexcept
+bool SettingsImplementation::setRoot(const char* dirname) noexcept
 {
   try
   {
@@ -539,29 +578,35 @@ void SettingsImplementation::setRoot(const char* dirname) noexcept
       }
       in.close();
     }
+    else
+    {
+      // no settings file
+      logging::error("Unable to find settings file %s", filename.c_str());
+      return false;
+    }
     raster_root_ = get_path(dir_root_.c_str(), settings, "RASTER_ROOT");
     fuel_lookup_table_file_ = get_path(dir_root_.c_str(), settings, "FUEL_LOOKUP_TABLE");
     // HACK: run into fuel consumption being too low if we don't have a minimum ros
-    static const auto MinRos = 0.05;
+    static const MathSize MinRos = 0.05;
     // HACK: make sure this is always > 0 so that we don't have to check
     // specifically for 0 to avoid div error
-    minimum_ros_ = max(stod(get_value(settings, "MINIMUM_ROS")), MinRos);
-    maximum_spread_distance_ = stod(get_value(settings, "MAX_SPREAD_DISTANCE"));
-    minimum_ffmc_ = stod(get_value(settings, "MINIMUM_FFMC"));
-    minimum_ffmc_at_night_ = stod(get_value(settings, "MINIMUM_FFMC_AT_NIGHT"));
-    offset_sunrise_ = stod(get_value(settings, "OFFSET_SUNRISE"));
-    offset_sunset_ = stod(get_value(settings, "OFFSET_SUNSET"));
-    confidence_level_ = stod(get_value(settings, "CONFIDENCE_LEVEL"));
-    maximum_time_seconds_ = stol(get_value(settings, "MAXIMUM_TIME"));
-    maximum_count_simulations_ = stol(get_value(settings, "MAXIMUM_SIMULATIONS"));
-    threshold_scenario_weight_ = stod(get_value(settings, "THRESHOLD_SCENARIO_WEIGHT"));
-    threshold_daily_weight_ = stod(get_value(settings, "THRESHOLD_DAILY_WEIGHT"));
-    threshold_hourly_weight_ = stod(get_value(settings, "THRESHOLD_HOURLY_WEIGHT"));
+    minimum_ros_ = max(get_stod(settings, "MINIMUM_ROS", DEFAULT_MINIMUM_ROS), MinRos);
+    maximum_spread_distance_ = get_stod(settings, "MAX_SPREAD_DISTANCE", DEFAULT_MAX_SPREAD_DISTANCE);
+    minimum_ffmc_ = get_stod(settings, "MINIMUM_FFMC", DEFAULT_MINIMUM_FFMC);
+    minimum_ffmc_at_night_ = get_stod(settings, "MINIMUM_FFMC_AT_NIGHT", DEFAULT_MINIMUM_FFMC_AT_NIGHT);
+    offset_sunrise_ = get_stod(settings, "OFFSET_SUNRISE", DEFAULT_OFFSET_SUNRISE);
+    offset_sunset_ = get_stod(settings, "OFFSET_SUNSET", DEFAULT_OFFSET_SUNSET);
+    confidence_level_ = get_stod(settings, "CONFIDENCE_LEVEL", DEFAULT_CONFIDENCE_LEVEL);
+    maximum_time_seconds_ = get_stol(settings, "MAXIMUM_TIME", DEFAULT_MAXIMUM_TIME);
+    maximum_count_simulations_ = get_stol(settings, "MAXIMUM_SIMULATIONS", DEFAULT_MAXIMUM_SIMULATIONS);
+    threshold_scenario_weight_ = get_stod(settings, "THRESHOLD_SCENARIO_WEIGHT", DEFAULT_THRESHOLD_SCENARIO_WEIGHT);
+    threshold_daily_weight_ = get_stod(settings, "THRESHOLD_DAILY_WEIGHT", DEFAULT_THRESHOLD_DAILY_WEIGHT);
+    threshold_hourly_weight_ = get_stod(settings, "THRESHOLD_HOURLY_WEIGHT", DEFAULT_THRESHOLD_HOURLY_WEIGHT);
     setOutputDateOffsets(get_value(settings, "OUTPUT_DATE_OFFSETS").c_str());
-    default_percent_conifer_ = stoi(get_value(settings, "DEFAULT_PERCENT_CONIFER"));
-    default_percent_dead_fir_ = stoi(get_value(settings, "DEFAULT_PERCENT_DEAD_FIR"));
-    intensity_max_low_ = stoi(get_value(settings, "INTENSITY_MAX_LOW"));
-    intensity_max_moderate_ = stoi(get_value(settings, "INTENSITY_MAX_MODERATE"));
+    default_percent_conifer_ = get_stoi(settings, "DEFAULT_PERCENT_CONIFER", DEFAULT_DEFAULT_PERCENT_CONIFER);
+    default_percent_dead_fir_ = get_stoi(settings, "DEFAULT_PERCENT_DEAD_FIR", DEFAULT_DEFAULT_PERCENT_DEAD_FIR);
+    intensity_max_low_ = get_stoi(settings, "INTENSITY_MAX_LOW", DEFAULT_INTENSITY_MAX_LOW);
+    intensity_max_moderate_ = get_stoi(settings, "INTENSITY_MAX_MODERATE", DEFAULT_INTENSITY_MAX_MODERATE);
     if (!settings.empty())
     {
       logging::warning("Unused settings in settings file %s", filename.c_str());
@@ -577,7 +622,7 @@ void SettingsImplementation::setRoot(const char* dirname) noexcept
     std::terminate();
   }
 }
-void Settings::setRoot(const char* dirname) noexcept
+bool Settings::setRoot(const char* dirname) noexcept
 {
   return SettingsImplementation::instance(false).setRoot(dirname);
 }

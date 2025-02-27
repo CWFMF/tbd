@@ -85,6 +85,14 @@ endif()
 message("VERSION = ${VERSION}")
 string(TIMESTAMP COMPILE_DATE "%Y-%m-%dT%H:%MZ" UTC)
 message("COMPILE_DATE = ${COMPILE_DATE}")
+# load settings.ini and set variables for defaults from that
+file(STRINGS settings.ini SETTINGS REGEX "^[ ]*[A-Za-z0-9_]+[ ]*=")
+list(TRANSFORM SETTINGS STRIP)
+list(TRANSFORM SETTINGS REPLACE "([^=]+)=[ ]*(.*)" "set(DEFAULT_\\1 \\2)\n")
+message(${SETTINGS})
+cmake_language(EVAL CODE ${SETTINGS})
+message("Parsed default settings")
+configure_file(src/cpp/default_settings.h.in ${CMAKE_SOURCE_DIR}/src/cpp/default_settings.h)
 set(VERSION_CODE
   "#include \"version.h\"\n"
   "const char* VERSION = \"${VERSION}\"\;\n"
@@ -108,7 +116,7 @@ if(NOT WIN32)
     src/cpp/unstable.cpp PROPERTIES COMPILE_FLAGS "${CMAKE_CXX_FLAGS_RELEASE}")
 endif()
 
-add_executable(${PROJECT_NAME} ${SOURCES} src/cpp/version.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 20)
 if(WIN32)
   find_package(GeoTIFF CONFIG REQUIRED)
@@ -134,4 +142,4 @@ add_custom_command(
   TARGET ${PROJECT_NAME}
   POST_BUILD
   COMMENT "Copy binary to root"
-  COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT_NAME}> ../)
+  COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT_NAME}> ${CMAKE_SOURCE_DIR}/)

@@ -256,7 +256,7 @@ int main(const int argc, const char* const argv[])
   const auto bin_name = bin.substr(end, bin.size() - end);
   // printf("Binary is %s in directory %s\n", bin_name.c_str(), bin_dir.c_str());
   BIN_NAME = bin_name.c_str();
-  Settings::setRoot(bin_dir.c_str());
+  bool valid_settings = Settings::setRoot(bin_dir.c_str());
   // _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
   Log::setLogLevel(tbd::logging::LOG_NOTE);
   register_argument("-h", "Show help", false, &show_help_and_exit);
@@ -474,9 +474,7 @@ int main(const int argc, const char* const argv[])
       output_directory += '/';
     }
     const char* dir_out = output_directory.c_str();
-    struct stat info
-    {
-    };
+    struct stat info{};
     if (stat(dir_out, &info) != 0 || !(info.st_mode & S_IFDIR))
     {
       tbd::util::make_directory_recursive(dir_out);
@@ -490,6 +488,13 @@ int main(const int argc, const char* const argv[])
     tbd::logging::note("Output log is %s", log_file.c_str());
     if (mode != TEST)
     {
+      // if settings are invalid then can't run anything except test mode
+      if (valid_settings)
+      {
+        // found a settings file, but need to make sure RASTER_ROOT exists
+        tbd::logging::check_fatal(0 == strlen(Settings::rasterRoot()), "RASTER_ROOT is undefined");
+        // FUEL_LOOKUP_TABLE missing will cause failure trying to load it
+      }
       // handle surface/simulation positional arguments
       // positional arguments should be:
       // "./tbd [surface] <output_dir> <yyyy-mm-dd> <lat> <lon> <HH:MM> [options] [-v | -q]"

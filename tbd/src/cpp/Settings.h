@@ -24,8 +24,9 @@ public:
   /**
    * \brief Set root directory and read settings from file
    * \param dirname Directory to use for settings and relative paths
+   * \return Whether loading settings was successful
    */
-  static void setRoot(const char* dirname) noexcept;
+  static bool setRoot(const char* dirname) noexcept;
   /**
    * \brief Set raster root directory
    * \param dirname Directory to use for rasters

@@ -1,0 +1,45 @@
+/* Copyright (c) His Majesty the King in Right of Canada as represented by the Minister of Natural Resources, 2024. */
+
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+#pragma once
+#include "stdafx.h"
+
+// root directory to read rasters from
+constexpr const char* DEFAULT_RASTER_ROOT = "@DEFAULT_RASTER_ROOT@";
+// minimum rate of spread before fire is considered to actually be spreading
+constexpr MathSize DEFAULT_MINIMUM_ROS = @DEFAULT_MINIMUM_ROS@;
+// maximum distance that head can spread per step (* cell size)
+constexpr MathSize DEFAULT_MAX_SPREAD_DISTANCE = @DEFAULT_MAX_SPREAD_DISTANCE@;
+// days to output probability contours for
+constexpr const char* DEFAULT_OUTPUT_DATE_OFFSETS = "@DEFAULT_OUTPUT_DATE_OFFSETS@";
+// lookup table for fuels (prometheus format)
+constexpr const char* DEFAULT_FUEL_LOOKUP_TABLE = "@DEFAULT_FUEL_LOOKUP_TABLE@";
+// minimum ffmc for fire to spread
+constexpr MathSize DEFAULT_MINIMUM_FFMC = @DEFAULT_MINIMUM_FFMC@;
+// minimum ffmc for fire to spread at night
+constexpr MathSize DEFAULT_MINIMUM_FFMC_AT_NIGHT = @DEFAULT_MINIMUM_FFMC_AT_NIGHT@;
+// time after sunrise to start burning (hours)
+constexpr MathSize DEFAULT_OFFSET_SUNRISE = @DEFAULT_OFFSET_SUNRISE@;
+// time before sunset to stop burning (hours)
+constexpr MathSize DEFAULT_OFFSET_SUNSET = @DEFAULT_OFFSET_SUNSET@;
+// weight given to the scenario thresholds
+constexpr MathSize DEFAULT_THRESHOLD_SCENARIO_WEIGHT = @DEFAULT_THRESHOLD_SCENARIO_WEIGHT@;
+// weight given to the daily thresholds
+constexpr MathSize DEFAULT_THRESHOLD_DAILY_WEIGHT = @DEFAULT_THRESHOLD_DAILY_WEIGHT@;
+// weight given to the hourly thresholds
+constexpr MathSize DEFAULT_THRESHOLD_HOURLY_WEIGHT = @DEFAULT_THRESHOLD_HOURLY_WEIGHT@;
+// default M-1/M-2 percent conifer if none specified
+constexpr int DEFAULT_DEFAULT_PERCENT_CONIFER = @DEFAULT_DEFAULT_PERCENT_CONIFER@;
+// default M-3/M-4 percent dead fir if none specified
+constexpr int DEFAULT_DEFAULT_PERCENT_DEAD_FIR = @DEFAULT_DEFAULT_PERCENT_DEAD_FIR@;
+// maximum amount of time to take for simulation (seconds)
+constexpr size_t DEFAULT_MAXIMUM_TIME = @DEFAULT_MAXIMUM_TIME@;
+// maximum number of simulations to do
+constexpr size_t DEFAULT_MAXIMUM_SIMULATIONS = @DEFAULT_MAXIMUM_SIMULATIONS@;
+// maximum percent change in statistics between runs before results are consider stable [0 - 1]
+constexpr MathSize DEFAULT_CONFIDENCE_LEVEL = @DEFAULT_CONFIDENCE_LEVEL@;
+// intensity considered to be top of the range (kW/m)
+constexpr int DEFAULT_INTENSITY_MAX_LOW = @DEFAULT_INTENSITY_MAX_LOW@;
+// intensity considered to be top of the range (kW/m)
+constexpr int DEFAULT_INTENSITY_MAX_MODERATE = @DEFAULT_INTENSITY_MAX_MODERATE@;
